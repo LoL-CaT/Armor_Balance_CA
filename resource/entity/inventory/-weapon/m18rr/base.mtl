@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m18rr"}
+	{specular "m18rr_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

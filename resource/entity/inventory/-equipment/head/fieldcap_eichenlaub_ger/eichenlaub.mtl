@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "eichenlaub_logo"}
+	{bump "eichenlaub_logo_bp"}
+	{specular "eichenlaub_logo_sp"}
+	{color "230 230 230 76"}
+	{blend test}
+}

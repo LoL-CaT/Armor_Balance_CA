@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "eng_t3"}
+	{bump "eng_t3_bp"}
+	{specular "eng_t3_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

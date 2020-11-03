@@ -1,0 +1,86 @@
+;Exported by: Артем
+;Date:        Mon Jul 22 13:03:53 2013
+;File:        D:\Autodesk\Low poly\freelance\DMS\Weapons\M18 recoilless rifle\M18 recoilless rifle2.max
+{Skeleton
+	{bone "m18rr"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "m18rr.ply"}
+			{VolumeView "m18rr_lod1.ply"}
+		}
+		{bone "handle"
+			{Position 3.3766	0.0350531	0.1188}
+		}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				21.7609	0.00116765	0.232805
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 28.8422 4.32837 2.00691}
+	{Bone "m18rr"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		7.47042	-0.0612689	-0.228191
+	}
+}
+{Volume "select"
+	{Box 34.502 11.306 3.60625}
+	{Bone "m18rr"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		8.02889	0.151902	-0.006754
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 7.53146	56.9924	-0.0616305}
+			{lookat 7.53146	-0.0352783	0.0395386}
+			{fov 30.7899}
+			{horizon 11.9994}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.81454	22.7479	-16.9877}
+			}
+			{"1"
+				{type directional}
+				{direction 0	-0.379154	-0.325948}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 7.28825	53.0646	-0.0631746}
+			{lookat 7.28741	-0.0357361	0.0333431}
+			{fov 30.7899}
+			{horizon 16.4992}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	-0.379154	-0.325948}
+			}
+			{"1"
+				{type point}
+				{position 6.08388	25.187	-11.9881}
+			}
+		}
+	}
+}

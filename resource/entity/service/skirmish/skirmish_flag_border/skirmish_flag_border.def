@@ -1,0 +1,11 @@
+{entity 
+	{DecalView 
+		{Sprite "skirmish_flag_border.mtl" 
+			{Scale 0.2}
+		}
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+	{decalorder 25}
+}

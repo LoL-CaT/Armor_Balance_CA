@@ -1,0 +1,5 @@
+{game_entity
+	{Extension "ger_officer.mdl"}
+
+	{texmod "camo"}
+}

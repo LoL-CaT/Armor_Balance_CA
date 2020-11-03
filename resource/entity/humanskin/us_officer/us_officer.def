@@ -1,0 +1,5 @@
+{game_entity
+	{Extension "us_officer.mdl"}
+	{tag "usa officer"}
+	{RimLight}
+}

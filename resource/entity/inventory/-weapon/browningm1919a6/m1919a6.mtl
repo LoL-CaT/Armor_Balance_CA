@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m1919a6"}
+	{specular "m1919a6_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

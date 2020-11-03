@@ -1,0 +1,81 @@
+;Exported by: Mauzer
+;Date:        Wed Aug 24 12:53:45 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\Flammenwerfer 41\Flammenwerfer 41g+.max
+{Skeleton
+	{bone "flammenwerfer_41_g"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "flammenwerfer_41_g.ply"}
+			{VolumeView "flammenwerfer_41_g_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 14.0424	1.152	-0.0300081}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				4.55928	1.49877	-0.0301796
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 14.9861 3.40523 1.18138}
+	{Bone "flammenwerfer_41_g"}
+	{Matrix34
+		0.999962	0.00872651	0
+		-0.00872651	0.999962	0
+		0	0	1
+		6.2191	0.544813	0.0437012
+	}
+}
+{Volume "select"
+	{Box 22.8088 10.6014 2.39379}
+	{Bone "flammenwerfer_41_g"}
+	{Position 6.33367	-0.171293	-0.13759}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 4.27785	-1.45239	19.4579}
+			{lookat 5.78229	-0.480088	-0.193152}
+			{fov 45}
+			{horizon -107.307}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 6.83749	18.7038	17.0167}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0134243	0.39857	-0.301598}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 7.02916	-3.92998	20.1022}
+			{lookat 6.76101	-2.83627	13.4372}
+			{fov 45}
+			{horizon 169.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 6.86149	18.4314	17.237}
+			}
+			{"1"
+				{type directional}
+				{direction -0.00690717	0.400464	-0.299301}
+			}
+		}
+	}
+}

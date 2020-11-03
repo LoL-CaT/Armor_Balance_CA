@@ -1,0 +1,18 @@
+;Exported by: klimenko
+;Date:        Tue Jul 12 03:42:01 2005
+;File:        D:\-Project-\-3DWork-\stub.max
+{Skeleton
+	{bone "stab_big"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "stab_big.ply"}
+	}
+}
+{Volume "body"
+	{Cylinder 7.02085 20.347}
+	{Bone "stab_big"}
+	{Position 0.0395355	0.0672073	10.0431}
+}

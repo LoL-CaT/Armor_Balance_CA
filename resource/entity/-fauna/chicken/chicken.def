@@ -1,0 +1,23 @@
+{game_entity	;  mike test & catch bug
+	(include "/properties/animal.ext")
+	{props "collectable" "physics_damping"}
+	{mass 3}
+
+	{simulation {able 1} {disableLinked 1}}
+	{collider "chicken"}
+	
+	{Chassis "foot"
+		{Run
+			{Slow	1   1	100}
+			{Normal	3   3	200}
+			{Fast	18  18	500}
+		}
+	}
+	{extender "stuff"
+		{item "chicken"}
+	}
+
+	("declare_health" args 30)
+
+	{Extension "chicken.mdl"}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/flora/palm_3"}
+	{blend none}
+}

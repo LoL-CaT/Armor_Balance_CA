@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m1 carbine"}
+	{specular "m1 carbine_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

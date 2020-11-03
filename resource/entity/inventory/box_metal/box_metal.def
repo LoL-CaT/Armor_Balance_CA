@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/construction_medium.ext")
+	{extension "box_metal.mdl"}
+	{mass 30}
+	{props "steel" "fence" "construction" "inventory_box" "spread_items"}
+	{collider "stuff.construction"}
+	{ObstacleID "stuff"}
+	{extender "inventory"
+		{box
+			{weight 5000}
+			{size 8 6}
+		}
+	}
+	{Volume "body"
+		{thickness 1}
+		{able {touch} {obstacle 0}}
+	}
+}

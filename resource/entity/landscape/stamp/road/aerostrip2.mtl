@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "aerostrip2"
+		{Axis 128 256}
+		{AlphaChannel 1}
+	}
+	{bump "aerostrip2_bp"}
+	{Blend blend}
+}

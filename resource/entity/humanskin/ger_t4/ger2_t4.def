@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "ger_t4.mdl"}
+	{tag "ger2 soldier"}
+	{RimLight}
+
+	{texmod "stosstrupp"}
+}

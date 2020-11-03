@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "showground"
+		{Axis 64 49}
+		{AlphaChannel 1}
+	}
+	{bump "showground_bp"}
+	{Blend blend}
+}

@@ -1,0 +1,97 @@
+;Exported by: Mauzer
+;Date:        Wed Aug 24 12:56:54 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\M50 Reising\M50 Reising+.max
+{Skeleton
+	{bone "m50_reising"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "m50_reising.ply"}
+			{VolumeView "m50_reising_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 11.3514	1.3967	-0.0300081}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				0.518527	1.54452	-0.0301796
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.999962	0.00872696
+				-1	0	0
+				0	-0.00872696	0.999962
+				3.82192	1.55165	0.265575
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 17.5094 3.16686 1.18138}
+	{Bone "m50_reising"}
+	{Matrix34
+		0.999962	0.00872651	0
+		-0.00872651	0.999962	0
+		0	0	1
+		2.21127	0.262334	0.0437012
+	}
+}
+{Volume "select"
+	{Box 22.8088 10.6014 2.39379}
+	{Bone "m50_reising"}
+	{Position 2.29292	-0.125538	-0.13759}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.276407	-1.10884	21.2289}
+			{lookat 1.91362	-0.0507275	-0.156464}
+			{fov 45}
+			{horizon -107.307}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.79674	-28.2042	-7.12299}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0134299	0.407797	-0.289001}
+			}
+			{"2"
+				{type point}
+				{position 2.79674	18.658	17.0167}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 3.2859	-3.81143	22.4108}
+			{lookat 2.92804	-2.3518	13.5159}
+			{fov 45}
+			{horizon 174.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.82074	-28.1726	-9.94102}
+			}
+			{"1"
+				{type directional}
+				{direction -0.00690717	0.400464	-0.299301}
+			}
+			{"2"
+				{type point}
+				{position 2.82074	18.3857	17.237}
+			}
+		}
+	}
+}

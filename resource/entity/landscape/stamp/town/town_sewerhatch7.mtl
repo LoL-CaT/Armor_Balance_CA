@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "town_sewerhatch7"
+		{Axis 32 16}
+	}
+	{bump "town_sewerhatch7_bp"}
+	{Blend blend}
+}

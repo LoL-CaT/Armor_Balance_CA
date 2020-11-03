@@ -1,0 +1,6 @@
+{game_entity
+    (include "/properties/tree.inc")
+	{props "normal_light"}
+	{Extension "fir_bush.mdl"}
+    {NoGroupMesh 1}
+}

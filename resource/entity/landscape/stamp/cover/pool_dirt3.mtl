@@ -1,0 +1,10 @@
+{material bump	
+	{diffuse "pool_dirt3"		
+		{Axis 64 64}		
+		{AlphaChannel 1}	
+	}
+	{bump "pool_dirt3_bp"}
+	{specular "pool_dirt3_mask"}
+	{color "229 229 229 100"}
+	{Blend blend}
+}

@@ -1,0 +1,97 @@
+;Exported by: Art
+;Date:        Wed Oct 31 17:36:31 2018
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\G41\export\G41.max
+{Skeleton
+	{bone "g41"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "g41.ply"}
+			{VolumeView "g41_lod1.ply"}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	-0.995396	0.0958449
+				-1	0	0
+				0	-0.0958449	-0.995396
+				2.39238	1.59309	-0.0635516
+			}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				0.153153	0.424223	-0.00816649
+			}
+		}
+		{bone "foresight3"
+			{Position 16.1862	1.47046	-0.00296722}
+		}
+	}
+}
+{Volume "body"
+	{Box 21.8241 3.73074 1.18138}
+	{Bone "g41"}
+	{Matrix34
+		0.999657	0.0261769	0
+		-0.0261769	0.999657	0
+		0	0	1
+		4.73895	0.549751	0.0657143
+	}
+}
+{Volume "select"
+	{Box 25.9211 9.11718 2.39379}
+	{Bone "g41"}
+	{Position 4.82618	0.798918	-0.115577}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 2.54161	-12.9681	25.3756}
+			{lookat 4.64409	-0.494596	-0.115203}
+			{fov 45}
+			{horizon -164.307}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0573402	0.449511	-0.211309}
+			}
+			{"1"
+				{type point}
+				{position 5.5313	-1.43229	20.1015}
+			}
+			{"2"
+				{type point}
+				{position 4.37789	-12.7614	-28.86}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 2.61689	-12.0141	23.4016}
+			{lookat 4.55742	-0.501409	-0.125684}
+			{fov 45}
+			{horizon -152.307}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 4.37789	-12.7614	-28.86}
+			}
+			{"1"
+				{type point}
+				{position 5.5313	-1.43229	20.1015}
+			}
+			{"2"
+				{type directional}
+				{direction 0.0573402	0.449511	-0.211309}
+			}
+		}
+	}
+}

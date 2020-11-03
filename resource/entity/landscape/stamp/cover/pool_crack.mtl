@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "pool_crack"
+		{Axis 128 128}
+		{AlphaChannel 1}
+	}
+	{bump "pool_crack_bp"}
+	{Blend blend}
+}

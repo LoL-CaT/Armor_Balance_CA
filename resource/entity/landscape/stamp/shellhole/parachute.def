@@ -1,0 +1,13 @@
+{entity 
+	{DecalView
+		{Sprite "parachute.mtl" 
+   			{Visibility 1}
+   			{Scale 1.5}
+;   			{Scale 1.2 }
+;   			{preTurn 30 30 }
+		}
+		{orientation normal}
+		{UseDirection }
+		{layer grounddecal }
+	}
+}

@@ -1,0 +1,10 @@
+{material bump
+	{diffuse "tram_rail2c#1"
+		{Axis 256 128}
+		{AlphaChannel 1}
+	}
+	{bump "tram_rail2c_bp#1"}
+	{specular "tram_rail2c_mask"}
+	{color "229 229 229 25"}
+	{Blend blend}
+}

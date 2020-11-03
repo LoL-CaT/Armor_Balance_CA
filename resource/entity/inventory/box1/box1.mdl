@@ -1,0 +1,61 @@
+;Exported by: sergienko
+;Date:        Sat Jul 09 10:51:07 2005
+;File:        D:\tmp\box2\box1.max
+{Skeleton
+	{bone "box1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "box1.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "box1"}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "box1"}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin -17.5264	-13.5999	11.4521}
+			{lookat -0.144288	0.137877	3.39283}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -7.04007	-7.93152	8.93118}
+				{diffuse 0xf3f4e9}
+			}
+			{"1"
+				{type directional}
+				{direction 0.397382	0.125489	-0.276297}
+				{diffuse 0xf3f4e9}
+			}
+		}
+	}
+	{"stuff_primary"
+		{camera
+			{origin -21.203	-20.5483	10.4826}
+			{lookat 0.205109	-0.0259094	4.14155}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -11.6596	-11.6903	8.93118}
+				{diffuse 0xf3f4e9}
+			}
+			{"1"
+				{type directional}
+				{direction 0.384106	0.176461	-0.267066}
+				{diffuse 0xf3f4e9}
+			}
+		}
+	}
+}

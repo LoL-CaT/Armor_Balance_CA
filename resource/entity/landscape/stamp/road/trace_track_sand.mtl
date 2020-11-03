@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "trace_track_sand"
+		{Axis 128 256}
+		{AlphaChannel 1}
+	}
+	{bump "trace_track_sand_bp"}
+	{Blend blend}
+}

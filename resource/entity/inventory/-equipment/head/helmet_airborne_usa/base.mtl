@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "m1 air"}
+	{bump "m1 air_bp"}
+	{specular "m1 air_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

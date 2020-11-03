@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "pav_cells3b"
+		{Axis 64 64}
+		{AlphaChannel 1}
+	}
+	{bump "pav_cells3b_bp"}
+	{Blend blend}
+}

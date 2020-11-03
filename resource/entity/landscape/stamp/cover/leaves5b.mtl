@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "leaves5b"
+		{Axis 64 128}
+	}
+	{bump "leaves5b_bp"}
+	{Blend blend}
+}

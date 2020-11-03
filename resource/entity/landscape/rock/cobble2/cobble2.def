@@ -1,0 +1,5 @@
+{game_entity
+	(include "/properties/construction_small.ext")
+	{Extension "cobble2.mdl"}
+	{props "small" "concrete" "parts" "construction" "no_destroyed_stamp"}
+}

@@ -1,0 +1,97 @@
+;Exported by: Mauzer
+;Date:        Sat Jul 16 18:01:46 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\Boyes .55 Mk.I\Boyes Mk1+.max
+{Skeleton
+	{bone "boyes"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "boyes.ply"}
+			{VolumeView "boyes_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 24.1091	1.82759	-0.0300081}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				4.8967	2.41479	-0.0301796
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.748956	0.66262
+				-1	0	0
+				0	-0.66262	0.748956
+				2.45266	2.53273	0.336599
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 30.8694 3.7117 1.18138}
+	{Bone "boyes"}
+	{Matrix34
+		0.999962	0.00872651	0
+		-0.00872651	0.999962	0
+		0	0	1
+		7.83786	1.3814	0.0437012
+	}
+}
+{Volume "select"
+	{Box 39.4044 10.2865 2.39379}
+	{Bone "boyes"}
+	{Position 7.97418	0.908195	-0.13759}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 9.73888	-7.66044	39.8669}
+			{lookat 8.67817	-3.33399	13.5018}
+			{fov 45}
+			{horizon 177.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.10584	28.3271	7.59465}
+			}
+			{"1"
+				{type point}
+				{position 8.10584	1.57969	25.95}
+			}
+			{"2"
+				{type directional}
+				{direction -0.00503225	0.494215	-0.0756686}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 9.95512	-16.0642	54.3288}
+			{lookat 7.89346	-0.543002	0.0814285}
+			{fov 32.1543}
+			{horizon -173}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.08184	29.4829	3.4479}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0101697	0.498574	-0.0363347}
+			}
+			{"2"
+				{type point}
+				{position 8.08184	3.85596	25.9709}
+			}
+		}
+	}
+}

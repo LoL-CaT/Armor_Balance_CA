@@ -1,0 +1,4 @@
+{game_entity
+	{Extension "tnt_bag.mdl"}
+	{lodclass "decor_small"}
+}

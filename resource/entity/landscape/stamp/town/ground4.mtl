@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "ground4"
+		{Axis 128 145}
+		{AlphaChannel 1}
+	}
+	{bump "ground4_bp"}
+	{Blend blend}
+}

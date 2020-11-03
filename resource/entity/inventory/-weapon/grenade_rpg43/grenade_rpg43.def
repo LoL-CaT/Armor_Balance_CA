@@ -1,0 +1,11 @@
+{actor
+	(include "/properties/stuff_grenade.ext")
+	{Extension "grenade_rpg43.mdl"}
+	{props "grenade" "contact"}
+	{extender "stuff"
+		{item "grenade rpg43"}
+	}	
+	{volume "body"
+		{able {contact}}
+	}
+}

@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "blind_area2"
+		{Axis 128 64}
+		{AlphaChannel 1}
+	}
+	{bump "blind_area2_bp"}
+	{Blend blend}
+}

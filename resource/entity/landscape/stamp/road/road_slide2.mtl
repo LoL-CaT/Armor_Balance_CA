@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "road_slide2"
+		{Axis 62 64}
+		{AlphaChannel 1}
+	}
+	{bump "road_slide2_bp"}
+	{Blend blend}
+}

@@ -1,0 +1,94 @@
+;Exported by: Mauzer
+;Date:        Sat Jun 09 14:22:40 2012
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\Type 4 (Bazooka)\Type 4 70 mm+.max
+{Skeleton
+	{bone "type_4"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "type_4.ply"}
+			{VolumeView "type_4_lod1.ply"}
+		}
+		{bone "fxshot"
+			{Matrix34
+				-0.995396	-0.0958452	0
+				0	0	1
+				-0.0958452	0.995396	0
+				-7.91501	0.085968	0.989423
+			}
+		}
+		{bone "handle"
+			{Position -1.15773	0.0433747	0.171779}
+		}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				19.8838	0.0473999	0.996623
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 28.8099 3.67495 1.18138}
+	{Bone "type_4"}
+	{Matrix34
+		0.999962	0	0.00872649
+		-0.00872649	0	0.999962
+		0	-1	0
+		5.37041	-0.0305062	0.377062
+	}
+}
+{Volume "select"
+	{Box 30.3223 10.6014 2.39379}
+	{Bone "type_4"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		5.55559	0.150785	-0.0215774
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 5.17975	55.9053	0.856121}
+			{lookat 5.17975	-0.039011	0.955366}
+			{fov 30.7899}
+			{horizon 11.9995}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 6.90997	22.7479	-13.9496}
+			}
+			{"1"
+				{type directional}
+				{direction 0	-0.379154	-0.325948}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 5.22417	55.4782	0.438926}
+			{lookat 5.22417	-0.0403385	0.539842}
+			{fov 30.7899}
+			{horizon 15}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	-0.379154	-0.325948}
+			}
+			{"1"
+				{type point}
+				{position 7.17931	25.187	-8.95007}
+			}
+		}
+	}
+}

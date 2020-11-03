@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "winchester model 12 copy"}
+	{blend none}
+}

@@ -1,0 +1,6 @@
+{
+	(include "/properties/bush.inc")
+	{props "no_wind" "delete_after_burn" "delete_after_blast"}
+	{Extension "dried2.mdl"}
+	{NoGroupMesh 1}
+}

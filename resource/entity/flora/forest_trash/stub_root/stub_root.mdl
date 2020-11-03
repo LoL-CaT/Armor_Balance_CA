@@ -1,0 +1,27 @@
+;Exported by: Ekaterina
+;Date:        Thu Sep 27 12:28:02 2007
+;File:        D:\-Project-\-3DWork-\WORK\Root\Root.max
+{Skeleton
+	{bone "stub"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "stub.ply"}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 1.26256 2.9737}
+		{Extent 9.16075 11.3975}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body"
+	{Box 18.3215 22.7949 16.8713}
+	{Bone "stub"}
+	{Position 1.26256	-2.9737	6.88355}
+}

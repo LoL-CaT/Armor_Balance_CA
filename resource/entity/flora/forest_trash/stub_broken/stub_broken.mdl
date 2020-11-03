@@ -1,0 +1,18 @@
+;Exported by: sana
+;Date:        Tue Jun 14 16:23:40 2005
+;File:        D:\-Project-\-3DWork-\Floramax\pine_broken01.max
+{Skeleton
+	{bone "pine_stub"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "pine_stub.ply"}
+	}
+}
+{Volume "body"
+	{Box 21.0437 21.0437 19.7285}
+	{Bone "pine_stub"}
+	{Position -4.97863	2.48875	10.2966}
+}

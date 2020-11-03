@@ -1,0 +1,82 @@
+;Exported by: Артем
+;Date:        Sun Aug 05 14:34:41 2012
+;File:        D:\Autodesk\Low poly\freelance\DMS\Stuff\axe\axe+.max
+{Skeleton
+	{bone "axe"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "axe.ply"}
+			{VolumeView "axe_lod1.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 0.778996 8.65551 2.94287}
+	{Bone "axe"}
+	{Matrix34
+		0	0	1
+		0	1	0
+		-1	0	0
+		0.864366	3.62308	0.0663283
+	}
+}
+{Volume "select"
+	{Box 3.07441 11.2216 6.17046}
+	{Bone "axe"}
+	{Matrix34
+		0	0	1
+		0	1	0
+		-1	0	0
+		0.901157	3.677	0.00384122
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -4.25881	-4.27491	23.0066}
+			{lookat 0.718552	-3.99139	-0.0680246}
+			{fov 22.6199}
+			{horizon -156.5}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.32827	0.377142	0.00135013}
+			}
+			{"1"
+				{type directional}
+				{direction -0.438552	0.0183974	-0.239443}
+			}
+			{"2"
+				{type directional}
+				{direction 0.321972	-0.355776	-0.140557}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -4.4277	-3.24259	27.1558}
+			{lookat 0.526544	-3.8536	-0.107065}
+			{fov 22.6199}
+			{horizon -160.5}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.32827	0.377142	0.00135013}
+			}
+			{"1"
+				{type directional}
+				{direction -0.438552	0.0183974	-0.239443}
+			}
+			{"2"
+				{type directional}
+				{direction 0.321972	-0.355776	-0.140557}
+			}
+		}
+	}
+}

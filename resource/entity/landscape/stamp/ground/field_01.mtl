@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "field_01"
+		{Axis 128 256}
+		{AlphaChannel 1}
+	}
+	{bump "field_01_bp"}
+	{Blend blend}
+}

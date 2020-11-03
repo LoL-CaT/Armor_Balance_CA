@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "knife union"}
+	{specular "knife union_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

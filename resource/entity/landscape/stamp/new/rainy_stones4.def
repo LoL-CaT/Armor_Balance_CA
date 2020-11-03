@@ -1,0 +1,9 @@
+{entity 
+	{DecalView 
+		{Sprite "rainy_stones4.mtl"
+		{Scale 0.80}}
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+}

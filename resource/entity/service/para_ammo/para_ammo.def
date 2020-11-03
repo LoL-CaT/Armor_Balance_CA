@@ -1,0 +1,31 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "cornered" "small" "wood" "construction" "parts" "no_destroyed_stamp" "burning" "break_on_burn"}
+  
+	{Extension "para_ammo.mdl"}
+	{props "inventory_box" "spread_items"}
+	{ObstacleID "stuff"}
+	{extender "inventory"
+		{box
+			{weight 5000}
+			{size 8 6}              
+            {clear}
+			{item "dynamite" 1}
+			{item "smoke" "grenade" 10}
+			{item "sandbag_kit"}
+			{item "repair_kit"}
+		}
+	}
+	
+	(include "/properties/resupply_generic.inc")
+	("para_ammo")
+	
+	{Volume "body"
+		{thickness 3}
+		{Tags  "body" "fire"}
+		{able {touch}}
+		{able {touch}}
+	}
+	{lodclass "decor_small"}
+	{texmod "3"}
+}

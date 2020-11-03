@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "border_s2d"
+		{Axis 64 64}
+		{AlphaChannel 1}
+	}
+	{bump "border_s2d_bp"}
+	{Blend blend}
+}

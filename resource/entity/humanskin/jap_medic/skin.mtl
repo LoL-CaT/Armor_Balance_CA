@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "jap_medic"}
+	{bump "jap_medic_bp"}
+	{specular "jap_medic_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

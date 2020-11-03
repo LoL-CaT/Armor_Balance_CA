@@ -1,0 +1,11 @@
+{entity 
+	{DecalView 
+		{Sprite "sand_ridge1b.mtl" 
+			{PreScaleX 0.8 }
+			{PreScaleY 0.8 }
+		}
+		{orientation normal}
+		{UseDirection }
+		{layer grounddecal }
+	}
+}

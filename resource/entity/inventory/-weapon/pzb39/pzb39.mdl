@@ -1,0 +1,97 @@
+;Exported by: Mauzer
+;Date:        Sat Jul 16 18:09:02 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\PzB39\PzB39+.max
+{Skeleton
+	{bone "pzb39"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "pzb39.ply"}
+			{VolumeView "pzb39_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 23.6119	1.59406	-0.0300081}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				1.6864	2.2315	-0.0301796
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.748956	0.66262
+				-1	0	0
+				0	-0.66262	0.748956
+				0.0810232	-0.229733	0.336599
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 31.6316 3.7117 1.18138}
+	{Bone "pzb39"}
+	{Matrix34
+		0.999962	0.00872651	0
+		-0.00872651	0.999962	0
+		0	0	1
+		7.91434	1.19711	0.0437012
+	}
+}
+{Volume "select"
+	{Box 38.0488 10.2865 2.34592}
+	{Bone "pzb39"}
+	{Position 8.2816	0.724905	-0.161526}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 9.27437	-7.17888	39.6486}
+			{lookat 8.22533	-2.90003	13.5735}
+			{fov 45}
+			{horizon 177.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.41327	28.5104	7.59465}
+			}
+			{"1"
+				{type point}
+				{position 8.41326	1.76298	25.95}
+			}
+			{"2"
+				{type directional}
+				{direction -0.00503225	0.494215	-0.0756686}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 9.96299	-15.9878	54.6853}
+			{lookat 7.88814	-0.367421	0.0910873}
+			{fov 32.1543}
+			{horizon -173}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.38927	29.6662	3.4479}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0101697	0.498574	-0.0363347}
+			}
+			{"2"
+				{type point}
+				{position 8.38927	4.03925	25.9709}
+			}
+		}
+	}
+}

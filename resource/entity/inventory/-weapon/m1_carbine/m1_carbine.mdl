@@ -1,0 +1,97 @@
+;Exported by: Mauzer
+;Date:        Thu May 19 16:49:59 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\M1 Carbine\M1 Carbine+.max
+{Skeleton
+	{bone "m1_carbine"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "m1_carbine.ply"}
+			{VolumeView "m1_carbine_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 11.1272	1.6576	-0.0146629}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-3.29975	0.450267	-0.0081665
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	-0.995396	0.0958456
+				-1	0	0
+				0	-0.0958456	-0.995396
+				0.436873	0.740014	-0.0635516
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 17.2368 3.51956 1.18138}
+	{Bone "m1_carbine"}
+	{Matrix34
+		0.999962	0.00872651	0
+		-0.00872651	0.999962	0
+		0	0	1
+		2.28799	0.68002	0.0657143
+	}
+}
+{Volume "select"
+	{Box 24.4189 9.11718 2.39379}
+	{Bone "m1_carbine"}
+	{Position 2.46769	0.824963	-0.115577}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 1.10384	-4.31293	21.7445}
+			{lookat 1.54829	-2.95495	13.4691}
+			{fov 45}
+			{horizon -157.989}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 3.04553	-13.2517	-38.7774}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0761825	0.382457	-0.312926}
+			}
+			{"2"
+				{type point}
+				{position 3.04553	1.54378	20.2422}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 0.66116	-9.63894	18.4539}
+			{lookat 2.19346	-0.548192	-0.123811}
+			{fov 45}
+			{horizon -155.307}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0587524	0.479244	-0.129897}
+			}
+			{"1"
+				{type point}
+				{position 3.02153	-1.45834	20.1015}
+			}
+			{"2"
+				{type point}
+				{position 3.02153	-22.9681	-48.1114}
+			}
+		}
+	}
+}

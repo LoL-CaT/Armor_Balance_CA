@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "border_cobble_03c"
+		{Axis 128 128}
+		{AlphaChannel 1}
+	}
+	{bump "border_cobble_03c_bp"}
+	{Blend blend}
+}

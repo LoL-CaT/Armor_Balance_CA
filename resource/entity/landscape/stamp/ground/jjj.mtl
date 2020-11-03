@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "jjj"
+		{Axis 256 256}
+		{AlphaChannel 1}
+	}
+	{bump "jjj_bp"}
+	{Blend blend}
+}

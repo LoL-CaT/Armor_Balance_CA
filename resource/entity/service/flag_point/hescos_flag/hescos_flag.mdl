@@ -1,0 +1,108 @@
+;Exported by: Caspar
+;Date:        Tue Jun 23 13:59:45 2015
+;File:        C:\Users\Caspar\Desktop\FlagPoint_FINAL2.max
+{Skeleton
+	{animation
+		{sequence "animation" {speed 0.6}}
+	}
+	{bone "flagpoint_hescos"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "hesco_flag"
+			{VolumeView "hesco_flag.ply"}
+		}
+		{bone "hesco_flag_net"
+			{parameters "ID=flag;"}
+			{VolumeView "hesco_flag_net.ply"}
+		}
+		{bone "root_bone_net"
+			{Orientation
+				0	0	1
+				0	1	0
+				-1	0	0
+			}
+			{bone "net_bone00"
+				{Matrix34
+					-0.901865	-0.394881	0.175238
+					0.429275	-0.773475	0.466325
+					-0.0486007	0.495788	0.867083
+					26.1934	-22.8669	21.9769
+				}
+				{bone "net_bone01"
+					{Matrix34
+						0.986203	-0.150004	0.070023
+						0.145389	0.987108	0.0669257
+						-0.0791592	-0.0558218	0.995298
+						13.8319	0	0
+					}
+				}
+			}
+			{bone "net_bone02"
+				{Matrix34
+					-0.940111	-0.340868	0
+					0.340868	-0.940111	0
+					0	0	1
+					25.8442	-23.6832	-2.0149
+				}
+				{bone "net_bone03"
+					{Matrix34
+						0.980631	0.195866	0
+						-0.195866	0.980631	0
+						0	0	1
+						13.8319	0	0
+					}
+				}
+			}
+			{bone "net_bone04"
+				{Matrix34
+					-0.881023	-0.326616	-0.342229
+					0.473063	-0.603414	-0.641952
+					0.00316604	-0.72747	0.686132
+					25.0461	-21.4936	-24.0082
+				}
+				{bone "net_bone05"
+					{Matrix34
+						0.998121	-0.019017	-0.0582411
+						0.0125878	0.993981	-0.108829
+						0.05996	0.107892	0.992353
+						13.832	0	0
+					}
+				}
+			}
+			{bone "net_bone06"
+				{Matrix34
+					-0.975514	0.0443187	-0.215424
+					0.218278	0.0750454	-0.972997
+					-0.0269553	-0.996195	-0.0828818
+					25.5712	-1.5036	-22.5112
+				}
+				{bone "net_bone07"
+					{Matrix34
+						0.998614	0.0524887	0.00389249
+						-0.0524796	0.998619	-0.00243862
+						-0.00401509	0.00223125	0.99999
+						13.8319	0	0
+					}
+				}
+			}
+		}
+	}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 0 0}
+		{Extent 23.3358 23.9207}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Volume "body2"
+	{Box 46.6715 47.8414 26}
+	{Bone "hesco_flag"}
+	{Position 0	0	12.5}
+}

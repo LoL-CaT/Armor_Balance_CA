@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "rus_sniper"}
+	{bump "rus_sniper_bp"}
+	{specular "rus_sniper_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

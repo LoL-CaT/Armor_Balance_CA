@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "trace_people4a"
+		{Axis 64 128}
+		{AlphaChannel 1}
+	}
+	{bump "trace_people4a_bp"}
+	{Blend blend}
+}

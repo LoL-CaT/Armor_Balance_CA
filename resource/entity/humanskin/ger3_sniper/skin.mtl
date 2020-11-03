@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "ger_gebirgsjager"}
+	{bump "../ger_sniper/ger_sniper_bp"}
+	{specular "../ger_sniper/ger_sniper_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

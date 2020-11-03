@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "luger"}
+	{specular "luger_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

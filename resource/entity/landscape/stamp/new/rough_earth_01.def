@@ -1,0 +1,9 @@
+{entity 
+	{DecalView 
+		{Sprite "rough_earth_01.mtl"
+		{Scale 0.50}}
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+}

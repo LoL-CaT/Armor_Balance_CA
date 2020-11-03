@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "concrete_fence_destroy"
+		{Axis 128 64}
+		{AlphaChannel 1}
+	}
+	{bump "concrete_fence_destroy_bp"}
+	{Blend blend}
+}

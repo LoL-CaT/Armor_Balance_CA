@@ -1,0 +1,84 @@
+;Exported by: gals
+;Date:        Fri Jan 06 12:41:27 2006
+;File:        D:\-Projects1_5-\-3DWork-\_stuff\fottka.max
+{Skeleton
+	{bone "b33r"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "b33r.ply"}
+		{bone "b33r_bottle"
+			{Matrix34
+				0.328414	0.944534	0
+				-0.944534	0.328414	0
+				0	0	1
+				1.45564	1.30048	0
+			}
+			{VolumeView "b33r_bottle.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "b33r"}
+	{Position 0.0119252	-0.00423026	0}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "b33r"}
+	{Position 0.0119252	0	0}
+}
+{Extender "preview"
+	{"stuff_primary"
+		{camera
+			{origin -12.4776	29.8472	9.17491}
+			{lookat -0.304654	0.789511	2.5445}
+			{fov 45}
+			{horizon -0.0197823}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.176148	-0.377146	-0.277007}
+				{diffuse 0xfffff1}
+			}
+			{"1"
+				{type point}
+				{position -19.143	4.14002	4.67128}
+				{diffuse 0xf1f4ff}
+			}
+			{"2"
+				{type point}
+				{position 2.58792	13.679	10.2367}
+				{diffuse 0xf1f4ff}
+			}
+		}
+	}
+	{"stuff"
+		{camera
+			{origin -15.194	19.8145	10.7469}
+			{lookat -0.996325	0.757135	1.14618}
+			{fov 45}
+			{horizon -0.0197823}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.183879	-0.393235	-0.248102}
+				{diffuse 0xfffff1}
+			}
+			{"1"
+				{type point}
+				{position -18.4948	7.06056	4.67128}
+				{diffuse 0xf1f4ff}
+			}
+			{"2"
+				{type point}
+				{position 5.94012	12.4564	8.13431}
+				{diffuse 0xf1f4ff}
+			}
+		}
+	}
+}

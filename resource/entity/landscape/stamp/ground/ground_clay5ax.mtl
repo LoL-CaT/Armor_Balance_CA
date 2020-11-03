@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "ground_clay5aX"
+		{Axis 128 64}
+		{AlphaChannel 1}
+	}
+	{bump "ground_clay5aX_bp"}
+	{Blend blend}
+}

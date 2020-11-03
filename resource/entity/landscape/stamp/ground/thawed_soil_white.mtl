@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "thawed_soil_white"
+		{Axis 63 48}
+		{AlphaChannel 1}
+	}
+	{bump "thawed_soil_white_bp"}
+	{Blend blend}
+}

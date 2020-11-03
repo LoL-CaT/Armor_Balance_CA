@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "trava"
+		{Axis 256 256}
+		{AlphaChannel 1}
+	}
+	{bump "trava_bp"}
+	{Blend blend}
+}

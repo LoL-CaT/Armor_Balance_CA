@@ -1,0 +1,97 @@
+;Exported by: Mauzer
+;Date:        Sat Jun 09 15:01:55 2012
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\Browning M1919A6\Browning M1919A6+.max
+{Skeleton
+	{bone "m1919a6"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "m1919a6.ply"}
+			{VolumeView "m1919a6_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 23.4021	1.63499	-0.0300081}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				2.41257	0.442033	-0.0301796
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.130526	0.991445
+				-1	0	0
+				0	-0.991445	0.130526
+				9.00477	2.10891	0.718738
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 31.7376 3.40523 1.18138}
+	{Bone "m1919a6"}
+	{Matrix34
+		0.999962	0.00872651	0
+		-0.00872651	0.999962	0
+		0	0	1
+		7.25578	0.983683	0.0437012
+	}
+}
+{Volume "select"
+	{Box 38.9092 10.6014 2.39379}
+	{Bone "m1919a6"}
+	{Position 8.25723	0.222519	-0.13759}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 8.82596	-7.55262	41.2779}
+			{lookat 7.71068	-3.00352	13.5561}
+			{fov 45}
+			{horizon 177.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.75784	28.7239	7.59465}
+			}
+			{"1"
+				{type point}
+				{position 8.75784	1.97641	25.95}
+			}
+			{"2"
+				{type directional}
+				{direction -0.00503225	0.494215	-0.0756686}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 10.8053	-20.5396	34.6441}
+			{lookat 7.35326	-0.522656	-0.0561199}
+			{fov 45}
+			{horizon -170.307}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.73384	29.8796	3.44789}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0101697	0.498574	-0.0363347}
+			}
+			{"2"
+				{type point}
+				{position 8.73384	-3.32856	25.9709}
+			}
+		}
+	}
+}

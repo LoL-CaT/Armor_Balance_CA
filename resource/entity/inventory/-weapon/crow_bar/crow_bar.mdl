@@ -1,0 +1,60 @@
+;Exported by: Артем
+;Date:        Sun Aug 05 14:42:13 2012
+;File:        D:\Autodesk\Low poly\freelance\DMS\Stuff\crowbar\crow bar+.max
+{Skeleton
+	{bone "crow_bar"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "crow_bar.ply"}
+			{VolumeView "crow_bar_lod1.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 0.778996 12.1177 2.53087}
+	{Bone "crow_bar"}
+	{Matrix34
+		0	0	1
+		-0.078459	0.996917	0
+		-0.996917	-0.0784589	0
+		0.721804	3.70337	0.0663283
+	}
+}
+{Volume "select"
+	{Box 3.07441 15.8224 6.17046}
+	{Bone "crow_bar"}
+	{Matrix34
+		0	0	1
+		0	1	0
+		-1	0	0
+		0.895937	3.72683	0.00384122
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.1671	-4.00947	31.5955}
+			{lookat 0.556807	-3.61998	-0.103407}
+			{fov 22.6199}
+			{horizon 5.40349}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.304484	-0.336451	-0.209975}
+			}
+			{"1"
+				{type directional}
+				{direction -0.4942	0.0207319	-0.0730512}
+			}
+			{"2"
+				{type directional}
+				{direction 0.272509	0.313079	-0.278782}
+			}
+		}
+	}
+}

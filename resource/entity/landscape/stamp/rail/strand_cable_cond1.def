@@ -1,0 +1,10 @@
+{entity 
+	{DecalView 
+		{Sprite "strand_cable_cond1.mtl" 
+		}
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+} 
+

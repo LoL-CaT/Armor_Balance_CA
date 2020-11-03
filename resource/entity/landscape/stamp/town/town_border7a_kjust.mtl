@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "town_border7a_kjust"
+		{Axis 32 32}
+		{AlphaChannel 1}
+	}
+	{bump "town_border7a_kjust_bp"}
+	{Blend blend}
+}

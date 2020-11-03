@@ -1,0 +1,91 @@
+;Exported by: Mauzer
+;Date:        Mon Aug 01 11:29:28 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Grenades\type 97\type 97+.max
+{Skeleton
+	{bone "type97"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "type97.ply"}
+			{VolumeView "type97_lod1.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				-1	0	0
+				0	1	0
+				0	0	-1
+				1.18733	-0.0211184	-0.397169
+			}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 0.586145 1.96116}
+	{Bone "type97"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		0.0192898	0.175644	0.00596238
+	}
+}
+{Volume "select"
+	{Box 5.06684 5.70816 2.59872}
+	{Bone "type97"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		0.04296	0.472886	-0.24773
+	}
+}
+{Extender "preview"
+	{"Stuff_secondary"
+		{camera
+			{origin -5.03385	-0.466766	-5.7066}
+			{lookat -0.0261111	-0.126207	0.0305939}
+			{fov 22.6199}
+			{horizon -148.5}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.23449	0.244256	0.367904}
+			}
+			{"1"
+				{type directional}
+				{direction 0.429452	0.0392137	0.253048}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0308611	-0.487135	0.108381}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin -3.33479	-0.370993	-3.78017}
+			{lookat -0.0155916	-0.14525	0.0225449}
+			{fov 22.6199}
+			{horizon -130.5}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.235315	0.245115	0.366804}
+			}
+			{"1"
+				{type directional}
+				{direction 0.429554	0.039223	0.252874}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0308867	-0.487539	0.106541}
+			}
+		}
+	}
+}

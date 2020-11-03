@@ -1,0 +1,21 @@
+{fx
+	{spriteview start
+		{sprite "$/particle/trek"
+			{visibility 1
+				{linear
+					{min 0.525 0.025}
+					{max 0}
+				}
+			}
+			{timer
+				{duration 2}
+			}
+			{scalex 0.28 0.00999999}
+			{scaley 0.35 0.01}
+			{preturn 0 4}
+		}
+		{usedirection}
+		{ground}
+		{layer grounddynamic}
+	}
+}

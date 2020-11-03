@@ -1,0 +1,8 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{Extension "g43_scope.mdl"}
+	{extender "stuff"
+		{item "g43_scope"}
+	}
+	{nogroupmesh 1}	
+}

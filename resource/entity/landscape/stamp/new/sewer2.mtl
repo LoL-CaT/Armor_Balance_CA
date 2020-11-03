@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "sewer2"
+		{Axis 32 32}
+		{AlphaChannel 1}
+	}
+	{bump "sewer2_bp"}
+	{Blend blend}
+}

@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "t_st_40"
+		{Axis 32 32}
+		{AlphaChannel 1}
+	}
+	{bump "t_st_40_bp"}
+	{Blend blend}
+}

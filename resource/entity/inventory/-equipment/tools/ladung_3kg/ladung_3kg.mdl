@@ -1,0 +1,88 @@
+;Exported by: Art
+;Date:        Fri Oct 26 11:19:34 2018
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\Geballte Ladung 3 kg\export\Geballte Ladung 3 kg.max
+{Skeleton
+	{bone "3kg"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "3kg.ply"}
+			{VolumeView "3kg_lod1.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				0	0	-1
+				1	0	0
+				0	-1	0
+				0.410554	-0.746852	4.84418
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 3.32201 3.90649 1.61087}
+	{Bone "3kg"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.0341497	-0.0609428	1.82636
+	}
+}
+{Volume "select"
+	{Box 6.83728 7.52983 2.29804}
+	{Bone "3kg"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.00927718	0.033715	2.15679
+	}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin -2.9776	6.50261	5.27338}
+			{lookat -0.363629	0.891934	2.38782}
+			{fov 32.1543}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.91302	30.7078	2.95787}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0928484	0.0665188	-0.48678}
+			}
+			{"2"
+				{type point}
+				{position -16.3526	5.26064	-15.7481}
+			}
+		}
+	}
+	{"stuff_secondary"
+		{camera
+			{origin -3.5949	7.77133	6.63136}
+			{lookat -0.271907	0.638795	2.96311}
+			{fov 32.1543}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -16.3526	5.26064	-15.7481}
+			}
+			{"1"
+				{type point}
+				{position 8.91302	30.7078	2.95787}
+			}
+			{"2"
+				{type directional}
+				{direction 0.0928484	0.0665188	-0.48678}
+			}
+		}
+	}
+}

@@ -1,0 +1,71 @@
+;Exported by: Артем
+;Date:        Sun Aug 05 14:36:41 2012
+;File:        D:\Autodesk\Low poly\freelance\DMS\Stuff\cord_wood\cord_wood+.max
+{Skeleton
+	{bone "cord_wood"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "cord_wood.ply"}
+			{VolumeView "cord_wood_lod1.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 7.50752 10.5263 4.68861}
+	{Bone "cord_wood"}
+	{Position 0.0133394	0.0112638	0.0570362}
+}
+{Volume "select"
+	{Box 10.0323 12.7507 5.69743}
+	{Bone "cord_wood"}
+	{Position -0.417502	0.155549	-0.137477}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -24.0998	19.2297	8.60655}
+			{lookat -0.142443	0.0326347	-0.440547}
+			{fov 23.9132}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.3518	0.218054	-0.280515}
+			}
+			{"1"
+				{type directional}
+				{direction -0.387808	0.0367192	-0.313459}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0810738	-0.484369	0.0938782}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -41.0523	16.2689	13.011}
+			{lookat -0.14286	-0.0153694	-0.38346}
+			{fov 23.9132}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0810738	-0.484369	0.0938782}
+			}
+			{"1"
+				{type directional}
+				{direction -0.387808	0.0367192	-0.313459}
+			}
+			{"2"
+				{type directional}
+				{direction 0.3518	0.218054	-0.280515}
+			}
+		}
+	}
+}

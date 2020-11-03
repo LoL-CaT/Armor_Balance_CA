@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "beachtracks"
+		{Axis 256 256}
+		{AlphaChannel 1}
+	}
+	{bump "beachdirt_bp"}
+	{Blend blend}
+}

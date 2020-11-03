@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "border_marble"
+		{Axis 128 128}
+	}
+	{bump "border_marble_bp"}
+	{Blend blend}
+}

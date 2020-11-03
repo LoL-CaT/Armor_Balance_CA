@@ -1,0 +1,99 @@
+;Exported by: Mauzer
+;Date:        Tue Jun 19 14:28:08 2012
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\Panzerfaust\Panzerfaust.max
+{Skeleton
+	{bone "panzerfaust100"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "panzerfaust100.ply"}
+			{VolumeView "panzerfaust100_lod1.ply"}
+		}
+		{bone "fxshot"
+			{Matrix34
+				-0.995396	-0.0958452	0
+				0	0	1
+				-0.0958452	0.995396	0
+				-4.19429	0.085968	0.0371574
+			}
+		}
+		{bone "handle"
+			{Position -2.49617	0.0433747	-0.780487}
+		}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				12.6496	0.0473999	0.0443568
+			}
+		}
+		{bone "faustrocket"
+			{parameters "ID=mgun;"}
+			{Position 13.1152	0.0402887	0.0397171}
+			{VolumeView "faustrocket.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 16.6361 2.20497 1.33496}
+	{Bone "panzerfaust100"}
+	{Matrix34
+		0.999962	0	0.00872649
+		-0.00872649	0	0.999962
+		0	-1	0
+		4.02712	0.0157896	-0.0100635
+	}
+}
+{Volume "select"
+	{Box 27.4114 10.6014 2.39379}
+	{Bone "panzerfaust100"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		5.29957	0.150785	-0.186984
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 6.24672	39.1565	0.135489}
+			{lookat 6.24672	-0.0386658	0.205024}
+			{fov 30.7899}
+			{horizon 9.99922}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.57153	22.7479	-14.9019}
+			}
+			{"1"
+				{type directional}
+				{direction 0	-0.379154	-0.325948}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 6.21379	40.0846	0.431897}
+			{lookat 6.21392	-0.0386658	0.50483}
+			{fov 30.7899}
+			{horizon 0.100871}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.00341325	-0.379154	-0.32593}
+			}
+			{"1"
+				{type point}
+				{position 5.70638	25.187	-9.89805}
+			}
+		}
+	}
+}

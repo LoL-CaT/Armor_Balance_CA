@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "path_sand1a"
+		{Axis 64 128}
+		{AlphaChannel 1}
+	}
+	{bump "path_sand1a_bp"}
+	{Blend blend}
+}

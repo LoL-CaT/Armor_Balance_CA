@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "river_snowice1"
+		{Axis 256 256}
+		{AlphaChannel 1}
+	}
+	{bump "river_snowice1_bp"}
+	{Blend blend}
+}

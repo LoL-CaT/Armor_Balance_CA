@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "wheat_big"
+		{Axis 256 256}
+		{AlphaChannel 1}
+	}
+	{bump "wheat_big_bp"}
+	{Blend blend}
+}

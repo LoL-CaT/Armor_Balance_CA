@@ -1,0 +1,91 @@
+;Exported by: Mauzer
+;Date:        Mon Aug 01 11:18:20 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Grenades\rgd 33\rgd 33+.max
+{Skeleton
+	{bone "rgd33"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "rgd33.ply"}
+			{VolumeView "rgd33_lod1.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				-1	0	0
+				0	1	0
+				0	0	-1
+				1.18733	-2.0763	-0.644411
+			}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 1.23871 5.60288}
+	{Bone "rgd33"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		0.0288911	0.0276468	0.577389
+	}
+}
+{Volume "select"
+	{Box 5.06684 7.32586 2.59872}
+	{Bone "rgd33"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		0.04296	-0.0069224	-0.24773
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -5.6688	-2.29309	-7.3459}
+			{lookat -0.0804281	-0.0761452	0.244285}
+			{fov 39.5978}
+			{horizon -138.5}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.206203	0.13774	0.434175}
+			}
+			{"1"
+				{type directional}
+				{direction 0.337109	0.240736	-0.280006}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0137661	-0.476914	0.149545}
+			}
+		}
+	}
+	{"Stuff_secondary"
+		{camera
+			{origin -5.6688	-2.29309	-7.3459}
+			{lookat -0.0804281	-0.0761452	0.244285}
+			{fov 39.5978}
+			{horizon -138.5}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.206203	0.13774	0.434175}
+			}
+			{"1"
+				{type directional}
+				{direction 0.337109	0.240736	-0.280006}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0137661	-0.476914	0.149545}
+			}
+		}
+	}
+}

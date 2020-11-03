@@ -1,0 +1,83 @@
+-= Animation: stir, Node Group02 =-
+	Frame 0 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+	Frame 1 {
+		Orientation	0.999977 0 -0.00681764 0
+	}
+	Frame 2 {
+		Orientation	0.999762 0 -0.0218149 0
+	}
+	Frame 3 {
+		Orientation	0.999322 0 -0.0368072 0
+	}
+	Frame 4 {
+		Orientation	0.999048 0 -0.0436194 0
+	}
+	Frame 5 {
+		Orientation	0.999403 0 -0.0345506 0
+	}
+	Frame 6 {
+		Orientation	0.999917 0 -0.0129151 0
+	}
+	Frame 7 {
+		Orientation	0.999917 0 0.0129151 0
+	}
+	Frame 8 {
+		Orientation	0.999403 0 0.0345506 0
+	}
+	Frame 9 {
+		Orientation	0.999048 0 0.0436194 0
+	}
+	Frame 10 {
+		Orientation	0.999339 0 0.0363646 0
+	}
+	Frame 11 {
+		Orientation	0.999818 0 0.0190578 0
+	}
+	Frame 12 {
+		Orientation	0.999999 0 -0.00160571 0
+	}
+	Frame 13 {
+		Orientation	0.999821 0 -0.0189182 0
+	}
+	Frame 14 {
+		Orientation	0.999657 0 -0.026177 0
+	}
+	Frame 15 {
+		Orientation	0.999813 0 -0.019361 0
+	}
+	Frame 16 {
+		Orientation	0.99999 0 -0.00436331 0
+	}
+	Frame 17 {
+		Orientation	0.999943 0 0.0106354 0
+	}
+	Frame 18 {
+		Orientation	0.999848 0 0.0174524 0
+	}
+	Frame 19 {
+		Orientation	0.999869 0 0.0161597 0
+	}
+	Frame 20 {
+		Orientation	0.999916 0 0.012928 0
+	}
+	Frame 21 {
+		Orientation	0.999962 0 0.00872653 0
+	}
+	Frame 22 {
+		Orientation	0.99999 0 0.00452491 0
+	}
+	Frame 23 {
+		Orientation	0.999999 0 0.00129284 0
+	}
+	Frame 24 {
+		Orientation	1 0 0 0
+	}
+	Frame 25 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}

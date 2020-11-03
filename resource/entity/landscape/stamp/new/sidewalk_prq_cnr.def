@@ -1,0 +1,8 @@
+{entity 
+	{DecalView 
+		{Sprite "sidewalk_prq_cnr.mtl"}
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+}

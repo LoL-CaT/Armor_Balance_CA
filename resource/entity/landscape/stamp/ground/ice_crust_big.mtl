@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "ice_crust_big"
+		{Axis 146 146}
+		{AlphaChannel 1}
+	}
+	{bump "ice_crust_big_bp"}
+	{Blend blend}
+}

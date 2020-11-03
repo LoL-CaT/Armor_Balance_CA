@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "road_slush_clay2tn1a"
+		{Axis 141 111}
+		{AlphaChannel 1}
+	}
+	{bump "road_slush_clay2tn1a_bp"}
+	{Blend blend}
+}

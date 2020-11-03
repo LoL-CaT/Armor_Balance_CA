@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "road_cross_a"
+		{Axis 256 256}
+		{AlphaChannel 1}
+	}
+	{bump "road_cross_a_bp"}
+	{Blend blend}
+}

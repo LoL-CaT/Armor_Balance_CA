@@ -1,0 +1,14 @@
+{game_entity
+    (include "/properties/tree.inc")
+	{Extension "branch1.mdl"}
+	{props "one" "staged" "wood" "construction" "no_destroyed_stamp" "disable_area"}
+	{Volume "body1"
+	    {Thickness 10}
+		{Tags  "body"}
+	}
+	{Volume "body"
+	    {Thickness 10}
+		{Tags  "body"}
+	}
+	{NoGroupMesh 1}
+}

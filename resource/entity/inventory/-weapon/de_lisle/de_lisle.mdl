@@ -1,0 +1,97 @@
+;Exported by: Mauzer
+;Date:        Sat Jul 16 18:02:43 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\De Lisle\De lisle+.max
+{Skeleton
+	{bone "de_lisle"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "de_lisle.ply"}
+			{VolumeView "de_lisle_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 11.3896	1.4632	-0.0300081}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				2.21116	1.6124	-0.0301796
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.45399	0.891007
+				-1	0	0
+				0	-0.891007	0.45399
+				2.98681	1.72417	0.202325
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 17.6566 3.33746 1.18138}
+	{Bone "de_lisle"}
+	{Matrix34
+		0.997564	0.0697565	0
+		-0.0697565	0.997564	0
+		0	0	1
+		2.34627	0.504049	0.0437012
+	}
+}
+{Volume "select"
+	{Box 22.8088 10.6014 2.39379}
+	{Bone "de_lisle"}
+	{Position 2.46899	0.281656	-0.13759}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 3.7543	-6.48953	20.7295}
+			{lookat 2.70945	-0.334161	-0.0873909}
+			{fov 45}
+			{horizon -175.307}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.87189	-16.1659	-39.0606}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0100243	0.491443	-0.0915584}
+			}
+			{"2"
+				{type point}
+				{position 2.87189	3.37567	15.0693}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 3.59973	-3.90918	22.0877}
+			{lookat 3.25625	-2.50819	13.5501}
+			{fov 45}
+			{horizon 174.956}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.00508963	0.491406	-0.0921626}
+			}
+			{"1"
+				{type point}
+				{position 2.89589	-16.9314	-38.3818}
+			}
+			{"2"
+				{type point}
+				{position 2.89589	3.87371	14.6475}
+			}
+		}
+	}
+}

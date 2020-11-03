@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction2/barrel_flag"}
+	{bump "$/construction2/barrel_flag_bp"}
+	{specular "$/construction2/barrel_flag_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

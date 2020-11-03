@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "sand_pebble122bb"
+		{Axis 256 32}
+		{AlphaChannel 1}
+	}
+	{bump "sand_pebble122bb_bp"}
+	{Blend blend}
+}

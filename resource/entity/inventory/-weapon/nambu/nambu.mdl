@@ -1,0 +1,97 @@
+;Exported by: Mauzer
+;Date:        Thu Mar 01 16:40:21 2012
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\Nambu Type 14\Type 14 Nambu+.max
+{Skeleton
+	{bone "nambu"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "nambu.ply"}
+			{VolumeView "nambu_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 3.43091	1.45694	0.032538}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				0.864773	1.43994	-0.0301796
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.999962	0.00872696
+				-1	0	0
+				0	-0.00872696	0.999962
+				1.13248	1.49686	0.265575
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 4.44072 2.83267 1.18138}
+	{Bone "nambu"}
+	{Matrix34
+		0.999962	0.00872651	0
+		-0.00872651	0.999962	0
+		0	0	1
+		1.12052	0.365993	0.0437012
+	}
+}
+{Volume "select"
+	{Box 9.53317 7.12412 2.39379}
+	{Bone "nambu"}
+	{Position 0.989458	0.691329	-0.13759}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 1.20257	0.0290497	9.92202}
+			{lookat 1.21592	-0.27201	-0.274661}
+			{fov 33.3985}
+			{horizon -2.52817}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.25339	-28.1818	-5.44604}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0132211	0.359872	-0.346868}
+			}
+			{"2"
+				{type point}
+				{position 5.25339	18.6805	17.0167}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 1.03791	0.0687712	14.0118}
+			{lookat 1.05658	-0.352972	-0.272484}
+			{fov 33.3985}
+			{horizon -2.52817}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.25339	-28.1818	-5.44604}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0132211	0.359872	-0.346868}
+			}
+			{"2"
+				{type point}
+				{position 5.25339	18.6805	17.0167}
+			}
+		}
+	}
+}

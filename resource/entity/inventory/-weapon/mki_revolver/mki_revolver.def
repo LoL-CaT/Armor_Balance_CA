@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{Extension "mki_revolver.mdl"}
+	{extender "stuff"
+		{item "webley"}
+	}
+	{nogroupmesh 1}
+}

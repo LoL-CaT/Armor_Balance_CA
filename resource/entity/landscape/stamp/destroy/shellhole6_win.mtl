@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "shellhole6_win"
+		{Axis 194 194}
+		{AlphaChannel 1}
+	}
+	{bump "shellhole6_bp"}
+	{Blend blend}
+}

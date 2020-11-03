@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m50 reising"}
+	{specular "m50 reising_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

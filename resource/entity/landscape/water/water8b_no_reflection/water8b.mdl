@@ -1,0 +1,21 @@
+;Exported by: gals
+;Date:        Thu Sep 15 10:44:26 2005
+;File:        D:\-Projects1_5-\water\water8b.max
+{Skeleton
+	{bone "water"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "water.ply" 
+			{Layer Water}
+		}
+		{animation
+			{uv "run"
+				{shiftV 0 1 0.0008 };pingpong }	;min max delta [pingpong]
+				;{shiftU 0 1 0.0004 pingpong }	;min max delta [pingpong]
+   		 	}
+		}
+	}
+}

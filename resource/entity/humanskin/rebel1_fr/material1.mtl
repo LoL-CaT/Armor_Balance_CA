@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "rebel1"}
+	{specular "rebel1_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+	{tile}
+}

@@ -1,0 +1,23 @@
+;Exported by: IROKEZ
+;Date:        Fri Aug 30 20:23:32 2013
+;File:        F:\My Job\DMS\Models\trees\palms\palm_3.max
+{Skeleton
+	{bone "tree"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "tree.ply"}
+	}
+}
+{Volume "bole"
+	{Cylinder 1.33132 45.0093}
+	{Bone "tree"}
+	{Position 0.293567	0.446804	22.5047}
+}
+{Volume "crown"
+	{Box 41.9606 44.4848 33.9374}
+	{Bone "tree"}
+	{Position -0.651748	0.446802	62.0019}
+}

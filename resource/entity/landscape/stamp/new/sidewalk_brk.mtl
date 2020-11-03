@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "sidewalk_brk"
+		{Axis 256 64}
+		{AlphaChannel 1}
+	}
+	{bump "sidewalk_brk_bp"}
+	{Blend blend}
+}

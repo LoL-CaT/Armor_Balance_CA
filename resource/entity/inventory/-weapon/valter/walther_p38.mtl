@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "walther p38"}
+	{specular "walther p38_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

@@ -1,0 +1,21 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "ice" "parts" "construction" "no_destroyed_stamp" "disable_area"}
+	{Extension "ice_block01_p14.mdl"}
+	{Volume "body02"
+		{Tags  "body"}
+		{Thickness 10}
+		{able clear {overlap 1}{blast 1}}
+	}
+	{Volume "body01"
+		{Tags  "body"}
+		{Thickness 10}
+		{able clear {overlap 1}{blast 1}}
+	}
+	{Extender "land_patch"
+		{TerrainType "ice" "ice"}
+	}
+	{NoCastShadows}
+    {constrain water}
+    ("armor_light" args 1.0)
+}

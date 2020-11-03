@@ -1,0 +1,33 @@
+;Exported by: IROKEZ
+;Date:        Fri Sep 20 17:51:29 2013
+;File:        F:\My Job\DMS\Models\trees\palms\bamboo_tree_2.max
+{Skeleton
+	{bone "tree"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "tree.ply"}
+	}
+}
+{Volume "bole"
+	{Cylinder 1.02685 102.913}
+	{Bone "tree"}
+	{Matrix34
+		1	0	0
+		0	0.999823	0.0188085
+		0	-0.0188085	0.999823
+		0.0183649	3.55832	51.4473
+	}
+}
+{Volume "crown"
+	{Box 53.2889 59.9309 52.5631}
+	{Bone "tree"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		1.50404	0.10602	98.4019
+	}
+}

@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "rock_island1b_aut"
+		{Axis 128 64}
+		{AlphaChannel 1}
+	}
+	{bump "rock_island1b_aut_bp"}
+	{Blend blend}
+}

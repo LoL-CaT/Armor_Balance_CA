@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "friability"
+		{Axis 53 63}
+		{AlphaChannel 1}
+	}
+	{bump "friability_bp"}
+	{Blend blend}
+}

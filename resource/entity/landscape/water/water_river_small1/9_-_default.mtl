@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/water/l1_avi.tex"}
+	{blend blend}
+	{tile}
+}

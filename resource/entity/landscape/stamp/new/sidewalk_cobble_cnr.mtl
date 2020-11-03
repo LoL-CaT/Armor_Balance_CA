@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "sidewalk_cobble_cnr"
+		{Axis 64 64}
+		{AlphaChannel 1}
+	}
+	{bump "sidewalk_cobble_cnr_bp"}
+	{Blend blend}
+}

@@ -1,0 +1,93 @@
+;Exported by: Mauzer
+;Date:        Sun Mar 06 13:29:19 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\Arisaka\type99.max
+{Skeleton
+	{bone "arisaka"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "arisaka.ply"}
+			{VolumeView "arisaka_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 16.871	1.15385	-0.0469966}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-0.288972	0.0485372	-0.0301796
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.207912	0.978148
+				-1	0	0
+				0	-0.978148	0.207912
+				5.00599	1.14546	0.346216
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 22.1028 3.09313 1.18138}
+	{Bone "arisaka"}
+	{Matrix34
+		0.99863	0.0523359	0
+		-0.0523359	0.99863	0
+		0	0	1
+		5.779	0.238001	-0.0741652
+	}
+}
+{Volume "select"
+	{Box 26.8339 9.13911 2.39379}
+	{Bone "arisaka"}
+	{Position 5.23877	0.367444	-0.13759}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 4.62196	11.6854	79.431}
+			{lookat 5.56431	-0.287683	0.601711}
+			{fov 15.1893}
+			{horizon 16.0004}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0367912	0.390377	-0.310246}
+				{diffuse 0xe2ecff}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0692174	-0.29163	-0.400201}
+				{diffuse 0xffeecb}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 4.72933	12.7604	86.4822}
+			{lookat 5.75602	-0.284522	0.595592}
+			{fov 15.1893}
+			{horizon 2.00047}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.034247	0.387527	-0.314086}
+				{diffuse 0xe2ecff}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0693307	-0.294866	-0.397803}
+				{diffuse 0xffeecb}
+			}
+		}
+	}
+}

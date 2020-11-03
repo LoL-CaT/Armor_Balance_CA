@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "eng_com"}
+	{bump "eng_com_bp"}
+	{specular "eng_com_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

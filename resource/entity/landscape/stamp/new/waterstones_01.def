@@ -1,0 +1,9 @@
+{entity 
+	{DecalView 
+		{Sprite "waterstones_01.mtl"
+		{Scale 0.55}}
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+}

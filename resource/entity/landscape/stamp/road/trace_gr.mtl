@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "trace_gr"
+		{Axis  125 137 }
+		{AlphaChannel 1}
+	}
+	{bump "trace_gr_bp"}
+	{Blend blend}
+}

@@ -1,0 +1,21 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{props "-steel" "wood" "fence" "construction" "inventory_box" "spread_items"}
+	{collider "stuff.construction"}
+	{extender "inventory"
+		{box
+			{size 8 6}
+			{weight 600}
+		}
+	}
+	{Volume "body"
+		{thickness 1}
+		{able {touch}}
+	}
+	{Volume "select"
+	}
+	{extender "stuff"
+		{item "box"}
+	}
+	{Extension "box1.mdl"}
+}

@@ -1,0 +1,8 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{Extension "browningm1919a6.mdl"}
+	{extender "stuff"
+		{item "browning_m19a6"}
+	}
+	{nogroupmesh 1}
+}

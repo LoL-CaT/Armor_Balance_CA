@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "rgd43"}
+	{specular "rgd43_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

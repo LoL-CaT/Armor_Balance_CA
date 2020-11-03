@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "steep_asf_wet1b"
+		{Axis  256 64 }
+		{AlphaChannel 1}
+	}
+	{bump "steep_asf_wet1b_bp"}
+	{Blend blend}
+}

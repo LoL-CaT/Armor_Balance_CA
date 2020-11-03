@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/flora/palm_2"}
+	{blend test}
+	{alphatocoverage}
+}

@@ -1,0 +1,12 @@
+{material bump
+	{diffuse "rainy_stones5"
+		{Axis 128 256}
+		{AlphaChannel 1}
+	}
+	{bump "rainy_stones5_bp"}
+	{height "rainy_stones5_dp"}
+	{parallax_scale 0.25}
+	{specular "mask/rainy_stones5"}
+	{color "229 229 229 100"}
+	{Blend blend}
+}

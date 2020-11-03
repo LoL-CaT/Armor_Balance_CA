@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/flora/kaktus_1"}
+	{blend test}
+	{alphatocoverage}
+}

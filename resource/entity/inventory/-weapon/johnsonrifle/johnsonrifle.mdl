@@ -1,0 +1,97 @@
+;Exported by: Mauzer
+;Date:        Mon Jul 18 17:11:45 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\Johnson M1941 Rifle\M1941Rifle+.max
+{Skeleton
+	{bone "johnsonrifle"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "johnsonrifle.ply"}
+			{VolumeView "johnsonrifle_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 15.2925	1.40491	0.0110664}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-1.04041	0.311618	-0.0397719
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	-0.995396	0.0958449
+				-1	0	0
+				0	-0.0958449	-0.995396
+				2.69621	0.601364	-0.095157
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 21.5416 3.65612 1.18138}
+	{Bone "johnsonrifle"}
+	{Matrix34
+		0.999657	0.0261769	0
+		-0.0261769	0.999657	0
+		0	0	1
+		4.32495	0.437146	0.0341089
+	}
+}
+{Volume "select"
+	{Box 25.9211 9.11718 2.39379}
+	{Bone "johnsonrifle"}
+	{Position 4.57574	0.686313	-0.147182}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 1.98736	-11.8521	23.5003}
+			{lookat 3.937	-0.285433	-0.137224}
+			{fov 45}
+			{horizon -152.307}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.28087	-12.1604	-48.143}
+			}
+			{"1"
+				{type point}
+				{position 5.28087	-1.31969	20.0699}
+			}
+			{"2"
+				{type directional}
+				{direction 0.0583871	0.496579	-0.00041018}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 2.68034	-5.13124	27.352}
+			{lookat 3.429	-2.84382	13.4126}
+			{fov 45}
+			{horizon -157.989}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.30486	-13.1131	-38.809}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0761825	0.382457	-0.312926}
+			}
+			{"2"
+				{type point}
+				{position 5.30486	1.68244	20.2106}
+			}
+		}
+	}
+}

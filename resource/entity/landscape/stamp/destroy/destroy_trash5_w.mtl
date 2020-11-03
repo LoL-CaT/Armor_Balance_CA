@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "destroy_trash5_w"
+		{Axis 130 58}
+	}
+	{bump "destroy_trash5_w_bp"}
+	{Blend blend}
+}

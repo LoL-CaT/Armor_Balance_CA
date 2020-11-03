@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "rail_crossing_wood4"
+		{Axis 256 128}
+		{AlphaChannel 1}
+	}
+	{bump "rail_crossing_wood4_bp"}
+	{Blend blend}
+}

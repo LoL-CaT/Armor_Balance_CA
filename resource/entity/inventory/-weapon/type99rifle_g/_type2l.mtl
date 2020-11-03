@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "type 2 launcher"}
+	{specular "type 2 launcher_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

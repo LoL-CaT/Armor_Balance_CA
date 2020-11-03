@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "t_brick_x5a"
+		{Axis 64 64}	
+		{AlphaChannel 1}
+	}
+	{bump "t_brick_x5a_bp"}
+	{Blend blend}
+}

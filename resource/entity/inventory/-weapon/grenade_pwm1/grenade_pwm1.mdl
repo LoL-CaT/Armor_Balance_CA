@@ -1,0 +1,91 @@
+;Exported by: Mauzer
+;Date:        Mon Aug 01 11:17:02 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Grenades\pwm1\pwm-1+.max
+{Skeleton
+	{bone "pwm1"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "pwm1.ply"}
+			{VolumeView "pwm1_lod1.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				-1	0	0
+				0	1	0
+				0	0	-1
+				1.18733	-1.65955	-0.644411
+			}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 0.580283 6.70395}
+	{Bone "pwm1"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		0.00861832	0.114681	0.00596241
+	}
+}
+{Volume "select"
+	{Box 5.06684 8.84765 2.59872}
+	{Bone "pwm1"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		0.04296	0.472886	-0.24773
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -10.8023	-6.86422	-9.97402}
+			{lookat 0.264634	-0.30274	0.00576594}
+			{fov 22.6199}
+			{horizon -141.5}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.308676	0.200093	0.338646}
+			}
+			{"1"
+				{type directional}
+				{direction 0.321368	0.371018	0.0952281}
+			}
+			{"2"
+				{type directional}
+				{direction -0.00389339	-0.469901	0.170813}
+			}
+		}
+	}
+	{"Stuff_secondary"
+		{camera
+			{origin -10.8764	-6.88675	-10.0613}
+			{lookat 0.267299	-0.279797	-0.0122814}
+			{fov 22.6199}
+			{horizon -138.5}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.308676	0.200093	0.338646}
+			}
+			{"1"
+				{type directional}
+				{direction 0.321368	0.371018	0.0952281}
+			}
+			{"2"
+				{type directional}
+				{direction -0.00389339	-0.469901	0.170813}
+			}
+		}
+	}
+}

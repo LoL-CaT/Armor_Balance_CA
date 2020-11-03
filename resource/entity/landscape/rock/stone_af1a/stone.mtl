@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/nature/rock"}
+	{bump "$/nature/bump/rock_bump"}
+	{specular "$/nature/spec/rock_spec"}
+	{color "229 229 229 25"}
+	{blend test}
+}

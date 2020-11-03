@@ -1,0 +1,9 @@
+{material water
+	{color 0xff00524a}
+	{period 1}
+	{simple "$/water/l1_avi.tex"}
+	{bumpVolume "$/water/01_river_small/water.tex"}
+	{envamount 1.0}
+	{blend blend}
+	{tile}
+}

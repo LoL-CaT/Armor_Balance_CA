@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "hdm oss"}
+	{specular "hdm oss_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

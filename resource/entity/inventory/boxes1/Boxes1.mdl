@@ -1,0 +1,18 @@
+;Exported by: sergienko
+;Date:        Mon Jul 18 10:16:00 2005
+;File:        D:\-projets1_5\3dwork\anima\gun\box\boxes1.max
+{Skeleton
+	{bone "boxes1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "boxes1.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "boxes1"}
+	{Position 0.33274	-5.59948	-0.000552654}
+}

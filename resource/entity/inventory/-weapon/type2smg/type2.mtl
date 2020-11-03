@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "type 2 smg"}
+	{specular "type 2 smg_sp"}
+	{color "229 229 229 150"}
+	{blend test}
+}

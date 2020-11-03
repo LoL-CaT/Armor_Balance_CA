@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "destroy_winter1"
+		{Axis 127 125}
+	}
+	{bump "destroy_winter1_bp"}
+	{Blend blend}
+}

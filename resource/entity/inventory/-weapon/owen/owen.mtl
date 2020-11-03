@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "owen"}
+	{specular "owen_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "edelweiss_logo"}
+	{bump "edelweiss_logo_bp"}
+	{specular "edelweiss_logo_sp"}
+	{color "230 230 230 76"}
+	{blend test}
+}

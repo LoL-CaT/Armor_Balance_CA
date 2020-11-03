@@ -1,0 +1,10 @@
+{material bump
+	{diffuse "rainy_field2"
+		{Axis 128 256}
+		{AlphaChannel 1}
+	}
+	{bump "rainy_field2_bp"}
+	{specular "mask/rainy_field2"}
+	{color "229 229 229 100"}
+	{Blend blend}
+}

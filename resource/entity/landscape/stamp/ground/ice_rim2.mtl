@@ -1,0 +1,10 @@
+{material bump
+	{diffuse "ice_rim2"
+		{Axis 121 70}
+		{AlphaChannel 1}
+	}
+	{bump "ice_rim2_bp"}
+	{specular "ice_rim2_mask"}
+	{color "229 229 229 100"}
+	{Blend blend}
+}

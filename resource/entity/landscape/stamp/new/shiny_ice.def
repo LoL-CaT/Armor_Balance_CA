@@ -1,0 +1,9 @@
+{entity 
+	{DecalView 
+		{Sprite "shiny_ice.mtl"
+		{Scale 0.50}}
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+}

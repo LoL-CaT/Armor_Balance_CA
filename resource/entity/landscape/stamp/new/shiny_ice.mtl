@@ -1,0 +1,10 @@
+{material bump
+	{diffuse "shiny_ice.dds"
+		{Axis 256 256}
+		{AlphaChannel 1}
+	}
+	{bump "shiny_ice_bp"}
+	{specular "mask/shiny_ice"}
+	{color "229 229 229 100"}
+	{Blend blend}
+}

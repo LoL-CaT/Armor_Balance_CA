@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "ger_sniper2.mdl"}
+	{tag "ger2 soldier"}
+	{RimLight}
+	
+	{texmod "jager"}
+}

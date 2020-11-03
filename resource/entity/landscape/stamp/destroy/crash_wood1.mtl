@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "crash_wood1"
+		{Axis 64 64}
+		{AlphaChannel 1}
+	}
+	{bump "crash_wood1_bp"}
+	{Blend blend}
+}

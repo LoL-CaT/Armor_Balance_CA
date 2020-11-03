@@ -1,0 +1,94 @@
+;Exported by: Mauzer
+;Date:        Sat Jun 09 14:33:27 2012
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\M1A1 bazooka\M1A1 bazooka.max
+{Skeleton
+	{bone "bazooka"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "bazooka.ply"}
+			{VolumeView "bazooka_lod1.ply"}
+		}
+		{bone "fxshot"
+			{Matrix34
+				-0.995396	-0.0958452	0
+				0	0	1
+				-0.0958452	0.995396	0
+				-9.25345	0.085968	0.873212
+			}
+		}
+		{bone "handle"
+			{Position -2.49617	0.0433747	0.0555684}
+		}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				18.1759	0.0473999	0.880412
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 27.4117 3.67495 1.18138}
+	{Bone "bazooka"}
+	{Matrix34
+		0.999962	0	0.00872649
+		-0.00872649	0	0.999962
+		0	-1	0
+		4.2186	-0.0305062	0.260852
+	}
+}
+{Volume "select"
+	{Box 30.3223 10.6014 2.39379}
+	{Bone "bazooka"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		4.21715	0.150785	-0.137788
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 3.93137	53.4966	0.941539}
+			{lookat 3.93137	-0.0386695	1.03651}
+			{fov 30.7899}
+			{horizon 11.9995}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.57153	22.7479	-14.0659}
+			}
+			{"1"
+				{type directional}
+				{direction 0	-0.379154	-0.325948}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 4.01418	51.8214	0.790306}
+			{lookat 4.01418	-0.0394668	0.884571}
+			{fov 30.7899}
+			{horizon 15.9999}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	-0.379154	-0.325948}
+			}
+			{"1"
+				{type point}
+				{position 5.84087	25.187	-9.06628}
+			}
+		}
+	}
+}

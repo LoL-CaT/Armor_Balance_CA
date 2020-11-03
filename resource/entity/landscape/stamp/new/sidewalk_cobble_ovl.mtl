@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "sidewalk_cobble_ovl"
+		{Axis 64 64}
+		{AlphaChannel 1}
+	}
+	{bump "sidewalk_cobble_ovl_bp"}
+	{Blend blend}
+}

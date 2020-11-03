@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "eng_sniper"}
+	{bump "eng_sniper_bp"}
+	{specular "eng_sniper_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

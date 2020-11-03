@@ -1,0 +1,10 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "ladung_3kg.mdl"}
+	{extender "stuff"
+		{item "dynamite_ladung"}
+	}
+	{volume "body"
+		{thickness 1}
+	}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "nambu"}
+	{specular "nambu_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

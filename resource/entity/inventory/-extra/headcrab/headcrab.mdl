@@ -1,0 +1,45 @@
+;Exported by: Caps
+;Date:        Fri Aug 02 18:05:22 2013
+;File:        F:\!_DMS_CalltoArms\Assets\headcrab\3D\headcrab_export.max
+{Skeleton
+	{bone "headcrab"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "headcrab.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "headcrab"}
+	{Position 0.00734085	-0.0383732	2.83615}
+}
+{Volume "select"
+	{Box 8.34791 8.20985 7.71118}
+	{Bone "headcrab"}
+	{Position 0	0	3.85559}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 19.4227	-15.874	7.79856}
+			{lookat -0.470063	0.812979	1.11847}
+			{fov 22.6199}
+			{horizon -3.38634}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.171162	0.146829	-0.446256}
+				{ambient 0xf8f8f8}
+			}
+			{"1"
+				{type directional}
+				{direction -0.189277	0.266067	0.378659}
+			}
+		}
+	}
+}
+

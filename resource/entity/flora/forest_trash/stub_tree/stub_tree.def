@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "small" "shed" "wood"}
+	{obstacleId "tree"}
+	{Extension "stub_tree.mdl"}
+	{Volume "body"
+		{Tags  "fire"}
+	}
+	{NoGroupMesh 1}
+}

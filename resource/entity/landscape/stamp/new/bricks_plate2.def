@@ -1,0 +1,8 @@
+{entity 
+	{DecalView 
+		{Sprite "bricks_plate2.mtl"}
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+}

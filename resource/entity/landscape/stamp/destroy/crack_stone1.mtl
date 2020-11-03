@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "crack_stone1"
+		{Axis 128 128}
+		{AlphaChannel 1}
+	}
+	{bump "crack_stone1_bp"}
+	{Blend blend}
+}

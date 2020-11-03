@@ -1,0 +1,10 @@
+{game_entity
+    (include "/properties/tree.inc")
+	{Extension "alder_stub.mdl"}
+	{props "one" "staged" "wood" "construction" "no_destroyed_stamp" "disable_area"}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 15}
+	}
+	{NoGroupMesh 1}
+}

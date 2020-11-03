@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "panzerfaust60"}
+	{specular "panzerfaust60_sp"}
+	{color "230 230 230 152"}
+	{blend none}
+}

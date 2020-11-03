@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "border5_w"
+		{Axis  123 31 }
+		{AlphaChannel 1}
+	}
+	{bump "border5_w_bp"}
+	{Blend blend}
+}

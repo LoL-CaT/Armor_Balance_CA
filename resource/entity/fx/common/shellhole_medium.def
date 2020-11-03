@@ -1,0 +1,21 @@
+{fx
+	{SpriteView "start"
+		{Sprite "$/explosion/woronka5"
+			{Visibility
+				{Linear
+					{min 1}
+					{max 0}
+				}
+			}
+			{timer
+				{duration 4}
+			}
+			{Scale 0.35}
+			{preTurn 30 30}
+		}
+		{ground}
+		{layer grounddynamic}
+		{NotifyOwner}
+		{autovisible}
+	}
+}

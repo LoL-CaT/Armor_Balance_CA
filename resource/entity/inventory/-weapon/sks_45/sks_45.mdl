@@ -1,0 +1,97 @@
+;Exported by: Mauzer
+;Date:        Fri Dec 09 12:11:21 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\SKS Carbine\SKS+.max
+{Skeleton
+	{bone "sks"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "sks.ply"}
+			{VolumeView "sks_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 13.4406	1.44723	-0.00296723}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-1.02928	0.259653	-0.0081665
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	-0.995396	0.0958456
+				-1	0	0
+				0	-0.0958456	-0.995396
+				2.64636	1.67787	-0.0635516
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 19.6626 3.50689 1.18138}
+	{Bone "sks"}
+	{Matrix34
+		0.999657	0.0261769	0
+		-0.0261769	0.999657	0
+		0	0	1
+		3.4654	0.434113	0.0657143
+	}
+}
+{Volume "select"
+	{Box 25.9211 9.11718 2.39379}
+	{Bone "sks"}
+	{Position 3.85598	0.634348	-0.115577}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 1.79052	-4.80536	25.6527}
+			{lookat 2.44704	-2.79945	13.4289}
+			{fov 45}
+			{horizon -157.989}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 4.5851	-13.0611	-38.7774}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0761825	0.382457	-0.312926}
+			}
+			{"2"
+				{type point}
+				{position 4.5851	1.7344	20.2422}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 1.1897	-11.0076	21.6922}
+			{lookat 2.99233	-0.31305	-0.163109}
+			{fov 45}
+			{horizon -152.307}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 4.5611	-12.1085	-48.1114}
+			}
+			{"1"
+				{type point}
+				{position 4.5611	-1.26773	20.1015}
+			}
+			{"2"
+				{type directional}
+				{direction 0.0583871	0.496579	-0.00041018}
+			}
+		}
+	}
+}

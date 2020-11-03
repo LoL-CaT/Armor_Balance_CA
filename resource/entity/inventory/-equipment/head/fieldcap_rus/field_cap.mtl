@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "fieldcap_rus"}
+	{bump "fieldcap_rus_bp"}
+	{specular "fieldcap_rus_sp"}
+	{color "229 229 229 76"}
+	{blend test}
+}

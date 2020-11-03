@@ -1,0 +1,92 @@
+;Exported by: Mauzer
+;Date:        Sat Jul 16 18:09:40 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\Type 1 HMG\type 1 HMG+.max
+{Skeleton
+	{bone "hmg_1"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "hmg_1.ply"}
+			{VolumeView "hmg_1_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 20.1508	2.27268	-0.0300081}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				8.54239	3.06414	-0.0301796
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.121869	0.992546
+				-1	0	0
+				0	-0.992546	0.121869
+				5.05174	2.3348	0.336599
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 20.7752 3.7117 1.18138}
+	{Bone "hmg_1"}
+	{Position 9.52377	1.90236	0.0437012}
+}
+{Volume "select"
+	{Box 26.8339 10.6014 2.39379}
+	{Bone "hmg_1"}
+	{Position 9.59111	1.81439	-0.13759}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 12.1063	-14.1835	22.7615}
+			{lookat 9.84132	-1.04972	-0.0064726}
+			{fov 45}
+			{horizon -176}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 9.63426	3.36575	25.9709}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0101697	0.498574	-0.0363347}
+			}
+			{"2"
+				{type point}
+				{position 9.63426	28.9927	3.44789}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 10.6975	-5.86521	26.6747}
+			{lookat 10.1684	-3.70714	13.5235}
+			{fov 45}
+			{horizon 175.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 9.65826	27.8369	7.59465}
+			}
+			{"1"
+				{type point}
+				{position 9.65826	1.08948	25.95}
+			}
+			{"2"
+				{type directional}
+				{direction -0.00503225	0.494215	-0.0756686}
+			}
+		}
+	}
+}

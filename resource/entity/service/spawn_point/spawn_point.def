@@ -1,0 +1,12 @@
+{actor
+	{Extension "arrow.mdl"}
+	{extender "spawn_point"}
+	{able "-select"}
+	{sensor
+		{visor "main"
+    		{vision "start_point"}
+			{bone "visor"}
+		}
+		{operatableRequired 0}
+    }
+}

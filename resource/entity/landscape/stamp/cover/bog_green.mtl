@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "bog_green"
+		{Axis 128 128}
+		{AlphaChannel 1}
+	}
+	{bump "bog_green_bp"}
+	{Blend blend}
+}

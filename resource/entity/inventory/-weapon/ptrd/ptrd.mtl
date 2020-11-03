@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "ptrd"}
+	{specular "ptrd_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

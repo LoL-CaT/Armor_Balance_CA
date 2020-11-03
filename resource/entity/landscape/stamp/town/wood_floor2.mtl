@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "wood_floor2"
+		{Axis 128 128}
+		{AlphaChannel 1}
+	}
+	{bump "wood_floor2_bp"}
+	{Blend blend}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "needle1_win"
+		{Axis  67 64 }
+	}
+	{bump "needle1_win_bp"}
+	{Blend blend}
+}

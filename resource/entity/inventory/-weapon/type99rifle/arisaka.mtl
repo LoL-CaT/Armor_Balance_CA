@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "arisaka type99"}
+	{specular "arisaka type99_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

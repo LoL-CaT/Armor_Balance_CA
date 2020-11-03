@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "ger_t2"}
+	{bump "ger_t2_bp"}
+	{specular "ger_t2_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

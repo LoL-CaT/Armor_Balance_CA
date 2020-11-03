@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "border_reich2"
+		{Axis 32 128 }
+		{AlphaChannel 1}
+	}
+	{bump "border_reich2_bp"}
+	{Blend blend}
+}

@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "sliver_snow1"
+		{Axis 32 34}
+		{AlphaChannel 1}
+	}
+	{bump "sliver_snow1_bp"}
+	{Blend blend}
+}

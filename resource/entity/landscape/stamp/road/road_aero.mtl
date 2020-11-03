@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "road_aero"
+		{Axis 128 256}
+		{AlphaChannel 1}
+	}
+	{bump "road_aero_bp"}
+	{Blend blend}
+}

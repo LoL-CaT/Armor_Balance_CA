@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "river_road_granite2_cut"
+		{Axis 128 128}
+		{AlphaChannel 1}
+	}
+	{bump "river_road_granite2_cut_bp"}
+	{Blend blend}
+}

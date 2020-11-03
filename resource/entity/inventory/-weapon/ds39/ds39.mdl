@@ -1,0 +1,92 @@
+;Exported by: Mauzer
+;Date:        Sat Jul 16 18:05:39 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\DS 39\DS 39+.max
+{Skeleton
+	{bone "ds39"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "ds39.ply"}
+			{VolumeView "ds39_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 21.5639	1.27651	-0.0300081}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				10.6629	2.08509	-0.0301796
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	-0.453991	0.891006
+				-1	0	0
+				0	-0.891006	-0.453991
+				5.73705	0.946689	0.431932
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 22.2894 3.7117 1.18138}
+	{Bone "ds39"}
+	{Position 10.0543	1.21085	0.0437012}
+}
+{Volume "select"
+	{Box 26.8339 10.6014 2.39379}
+	{Bone "ds39"}
+	{Position 10.0385	0.835336	-0.13759}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 12.4462	-14.7527	24.8001}
+			{lookat 9.9647	-0.36392	-0.143404}
+			{fov 45}
+			{horizon -172}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 10.0817	4.34481	25.9709}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0101697	0.498574	-0.0363347}
+			}
+			{"2"
+				{type point}
+				{position 10.0817	29.9718	3.44789}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 11.2126	-5.72267	29.1515}
+			{lookat 10.5812	-3.1471	13.4561}
+			{fov 45}
+			{horizon 177.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 10.1057	28.816	7.59465}
+			}
+			{"1"
+				{type point}
+				{position 10.1057	2.06854	25.95}
+			}
+			{"2"
+				{type directional}
+				{direction -0.00503225	0.494215	-0.0756686}
+			}
+		}
+	}
+}

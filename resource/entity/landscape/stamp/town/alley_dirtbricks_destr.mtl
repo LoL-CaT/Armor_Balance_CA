@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "alley_dirtbricks_destr"
+		{Axis 64 64}
+		{AlphaChannel 1}
+	}
+	{bump "alley_dirtbricks_destr_bp"}
+	{Blend blend}
+}

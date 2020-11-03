@@ -1,0 +1,29 @@
+{game_entity	;
+	(include "/properties/animal.ext")
+	{props "physics_damping"}
+	{mass 30}
+
+	{simulation {able 1} {disableLinked 1}}
+	{collider "human"}
+
+	{extender "inventory"
+		{box
+			{size 3 2}
+			{Weight 100}
+			{clear}
+			{item "steak" 5}
+		}
+	}
+	
+	{Chassis "foot"
+		{Run
+			{Slow	1   1	100}
+			{Normal	3   3	200}
+			{Fast	18  18	500}
+		}
+	}
+
+	("declare_health" args 200)
+
+	{Extension "cow.mdl"}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "flammenwerfer 41 g"}
+	{specular "flammenwerfer 41 g_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

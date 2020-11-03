@@ -1,0 +1,26 @@
+{fx
+	{SpriteView
+		{NotifyOwner}
+		{Sprite "FLASHWHITE.EBM"
+			{Highlight 0x0000BFff}
+			{timer
+				{mode play}
+				{duration 0.5}
+			}
+			{Scale
+				{Linear
+					{min 0}
+					{max 2}
+				}
+			}
+			{Light
+				{Linear
+					{min 1}
+					{max 0}
+				}
+			}
+		}
+		{ground}
+		{layer debug}
+	}
+}

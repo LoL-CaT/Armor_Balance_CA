@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "rus_mgun"}
+	{bump "rus_mgun_bp"}
+	{specular "rus_mgun_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

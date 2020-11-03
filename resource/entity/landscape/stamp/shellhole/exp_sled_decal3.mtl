@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "exp_sled_decal3"
+		{Axis 256 256}
+	}
+	{bump "exp_sled_decal3_bp"}
+	{Blend blend}
+}

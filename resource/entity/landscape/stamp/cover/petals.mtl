@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "petals"
+		{Axis 128 128}
+		{AlphaChannel 1}
+	}
+	{bump "petals_bp"}
+	{Blend blend}
+}

@@ -1,0 +1,65 @@
+{fx
+	{particleview
+		{generator
+			{totalparticles 30}
+			{emissionarea
+				{radius 3.5 2.5}
+				{alpha0 5}
+				{alpha1 10}
+				{speed 0.2}
+			}
+			{particleinit
+				{speed 1 1}
+				{lifetime 0.8 0.2}
+			}
+		}
+		{mover
+			{gravity
+				{value 0.15}
+			}
+			{damping 0.97}
+			{collisions
+				{terrain}
+				{restitution 0.2}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage initial 
+				{sprite "$/particle/grit"
+					{scale 0.275 0.175}
+					{preturn 90 90}
+				}
+				{sprite "$/particle/grit2"
+					{scale 0.325 0.125}
+					{highlight 0xff0e0e0e}
+					{preturn 90 90}
+				}
+			}
+			{stage collided dying 
+				{sprite "$/flash/ripples_w"
+					{scale 0.275 0.175
+						{linear
+							{min 0.1}
+							{max 0.5}
+						}
+					}
+					{preturn 90 90}
+					{visibility 1
+						{linear
+							{min 0.7}
+							{max 0}
+						}
+					}
+					{timer
+						{mode }
+						{duration 1}
+					}
+					{highlight 0xff303030}
+				}
+				{flags killparticle ground }
+			}
+		}
+		{notifyowner}
+	}
+}

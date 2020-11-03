@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "stg44_scope"}
+	{specular "stg44_scope_sp"}
+	{color "230 230 230 152"}
+	{blend test}
+}

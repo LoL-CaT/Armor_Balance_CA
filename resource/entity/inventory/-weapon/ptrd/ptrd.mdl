@@ -1,0 +1,97 @@
+;Exported by: Mauzer
+;Date:        Sat Jul 16 18:07:54 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\PTRD\PTRD+.max
+{Skeleton
+	{bone "ptrd"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "ptrd.ply"}
+			{VolumeView "ptrd_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 32.6842	1.53183	-0.0300081}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				10.6203	1.92594	-0.0301796
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.748956	0.66262
+				-1	0	0
+				0	-0.66262	0.748956
+				3.84895	1.96222	0.336599
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 38.1104 3.7117 1.18138}
+	{Bone "ptrd"}
+	{Matrix34
+		0.999962	0.00872651	0
+		-0.00872651	0.999962	0
+		0	0	1
+		13.3305	0.891552	0.0437012
+	}
+}
+{Volume "select"
+	{Box 42.2764 10.2865 2.39379}
+	{Bone "ptrd"}
+	{Position 13.6978	0.419347	-0.13759}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 15.7855	-8.70203	49.1306}
+			{lookat 14.3521	-2.85549	13.5021}
+			{fov 45}
+			{horizon 177.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.8295	28.816	7.59465}
+			}
+			{"1"
+				{type point}
+				{position 13.8295	2.06854	25.95}
+			}
+			{"2"
+				{type directional}
+				{direction -0.00503225	0.494215	-0.0756686}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 16.0705	-19.0823	66.5194}
+			{lookat 13.5454	-0.0724095	0.0789337}
+			{fov 32.1543}
+			{horizon -172}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.8055	29.9718	3.4479}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0101697	0.498574	-0.0363347}
+			}
+			{"2"
+				{type point}
+				{position 13.8055	4.34481	25.9709}
+			}
+		}
+	}
+}

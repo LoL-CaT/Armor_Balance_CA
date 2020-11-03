@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "999"
+		{Axis 128 64}
+		{AlphaChannel 1}
+	}
+	{bump "999_bp"}
+	{Blend blend}
+}

@@ -1,0 +1,87 @@
+;Exported by: Mauzer
+;Date:        Sat Feb 19 12:22:44 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\Type 2 SMG\Type 2 SMG.max
+{Skeleton
+	{bone "type2smg"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "type2smg.ply"}
+			{VolumeView "type2smg_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 6.48797	1.39637	0.00604305}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-1.47847	-0.0391309	-0.00410879
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.207912	0.978148
+				-1	0	0
+				0	-0.978148	0.207912
+				2.11611	1.38798	0.372286
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 12.5898 3.62724 1.18138}
+	{Bone "type2smg"}
+	{Position 0.0744939	-0.0497706	-0.0480944}
+}
+{Volume "select"
+	{Box 21.032 8.34055 2.39379}
+	{Bone "type2smg"}
+	{Position 0.49656	0.609972	-0.111519}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin -0.235061	8.94026	58.6689}
+			{lookat 0.460409	0.104	0.491746}
+			{fov 15.1893}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0345255	0.391478	-0.309117}
+				{diffuse 0xe2ecff}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0677631	-0.281148	-0.407877}
+				{diffuse 0xffeecb}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin -0.194539	8.11465	54.2068}
+			{lookat 0.447246	-0.0394347	0.521112}
+			{fov 15.1893}
+			{horizon 11.0003}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0702962	-0.282971	-0.406185}
+				{diffuse 0xffeecb}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0377403	0.393499	-0.306161}
+				{diffuse 0xe2ecff}
+			}
+		}
+	}
+}

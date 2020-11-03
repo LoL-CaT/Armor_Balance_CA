@@ -1,0 +1,97 @@
+;Exported by: Mauzer
+;Date:        Sat Jun 09 21:12:15 2012
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\Johnson M1941 LMG\Johnson M1941 LMG.max
+{Skeleton
+	{bone "m1941lmg"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "m1941lmg.ply"}
+			{VolumeView "m1941lmg_lod1.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-0.083807	0.179554	0.00504327
+			}
+		}
+		{bone "foresight3"
+			{Position 14.9473	1.88713	0.0049665}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.139173	0.990268
+				1	0	0
+				0	0.990268	-0.139173
+				3.00445	1.88087	0.262792
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 19.5846 2.98468 1.14152}
+	{Bone "m1941lmg"}
+	{Matrix34
+		0.997564	0.0697566	0
+		-0.0697566	0.997564	0
+		0	0	1
+		5.08755	1.13705	-0.035753
+	}
+}
+{Volume "select"
+	{Box 23.2195 8.0309 2.39379}
+	{Bone "m1941lmg"}
+	{Position 4.61518	1.40496	-0.146852}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 3.57336	-8.99475	23.176}
+			{lookat 4.16553	-5.29831	12.6319}
+			{fov 45}
+			{horizon -162.989}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 4.90399	-6.30003	-40.6283}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0761825	0.430986	-0.241759}
+			}
+			{"2"
+				{type point}
+				{position 4.90399	-1.97796	20.0639}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 2.98896	-11.2691	21.7872}
+			{lookat 4.8171	-0.423134	-0.377345}
+			{fov 45}
+			{horizon -159.307}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0587524	0.479244	-0.129897}
+			}
+			{"1"
+				{type point}
+				{position 4.88	-1.47843	19.7138}
+			}
+			{"2"
+				{type point}
+				{position 4.88	-22.9882	-48.4991}
+			}
+		}
+	}
+}

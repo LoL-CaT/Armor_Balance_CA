@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "shellhole_crush"
+		{Axis 128 128}
+		{AlphaChannel 1}
+	}
+	{bump "shellhole_crush_bp"}
+	{Blend blend}
+}

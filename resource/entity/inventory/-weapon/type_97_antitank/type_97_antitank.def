@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{Extension "type_97_antitank.mdl"}
+	{extender "stuff"
+		{item "type_97_antitank"}
+	}
+	{nogroupmesh 1}
+}

@@ -1,0 +1,9 @@
+{entity 
+	{DecalView 
+		{Sprite "alley_new_2.mtl" 
+		}
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "rus_officer"}
+	{bump "rus_officer_bp"}
+	{specular "rus_officer_sp"}
+	{color "230 230 230 25"}
+	{blend blend}
+}

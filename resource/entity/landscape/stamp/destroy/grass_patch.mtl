@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "grass_patch"
+		{Axis 512 512}
+		{AlphaChannel 1}
+	}
+	{bump "grass_patch_bp"}
+	{Blend blend}
+}

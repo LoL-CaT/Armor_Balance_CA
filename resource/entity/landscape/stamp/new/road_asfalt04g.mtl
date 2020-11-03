@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "road_asfalt04g"
+		{Axis 256 256}
+		{AlphaChannel 1}
+	}
+	{bump "road_asfalt04g_bp"}
+	{Blend blend}
+}

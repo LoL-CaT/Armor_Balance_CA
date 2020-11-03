@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "football_chalk2a"
+		{Axis 64 64}
+		{AlphaChannel 1}
+	}
+	{bump "football_chalk2a_bp"}
+	{Blend blend}
+}

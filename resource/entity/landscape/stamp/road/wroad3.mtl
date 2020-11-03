@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "wroad3"
+		{Axis 62 31}
+		{AlphaChannel 1}
+	}
+	{bump "wroad3_bp"}
+	{Blend blend}
+}

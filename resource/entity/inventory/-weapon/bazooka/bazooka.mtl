@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m1a1 bazooka"}
+	{specular "m1a1 bazooka_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

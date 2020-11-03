@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "rus_tankman"}
+	{bump "rus_tankman_bp"}
+	{specular "rus_tankman_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

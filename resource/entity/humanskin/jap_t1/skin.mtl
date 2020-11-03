@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "jap_t1"}
+	{bump "jap_t1_bp"}
+	{specular "jap_t1_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

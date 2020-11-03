@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "type 1 hmg"}
+	{specular "type 1 hmg_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

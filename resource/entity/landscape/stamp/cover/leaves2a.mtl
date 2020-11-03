@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "leaves2a"
+		{Axis 128 128}
+		{AlphaChannel 1}
+	}
+	{bump "leaves2a_bp"}
+	{Blend blend}
+}

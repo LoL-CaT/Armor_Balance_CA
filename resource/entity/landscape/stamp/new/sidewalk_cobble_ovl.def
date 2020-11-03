@@ -1,0 +1,8 @@
+{entity 
+	{DecalView 
+		{Sprite "sidewalk_cobble_ovl.mtl"}
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+}

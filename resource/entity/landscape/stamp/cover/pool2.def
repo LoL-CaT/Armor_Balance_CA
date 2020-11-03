@@ -1,0 +1,9 @@
+{entity 
+	{DecalView 
+		{Sprite "pool2.mtl" 
+		{Scale 0.50}}
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+}

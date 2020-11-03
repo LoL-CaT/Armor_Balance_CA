@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "shellhole_big_sand"
+		{Axis 128 128}
+	}
+	{bump "shellhole_big_sand_bp"}
+	{Blend blend}
+}

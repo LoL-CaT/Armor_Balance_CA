@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "trash_5"
+		{Axis 256 128}
+		{AlphaChannel 1}
+	}
+	{bump "trash_5_bp"}
+	{Blend blend}
+}

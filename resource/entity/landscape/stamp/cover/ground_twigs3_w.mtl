@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "ground_twigs3_w"
+		{Axis 68 66}
+		{AlphaChannel 1}
+	}
+	{bump "ground_twigs3_w_bp"}
+	{Blend blend}
+}

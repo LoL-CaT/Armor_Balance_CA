@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "house_floormarble1a"
+		{Axis 64 64}
+		{AlphaChannel 1}
+	}
+	{bump "house_floormarble1a_bp"}
+	{Blend blend}
+}

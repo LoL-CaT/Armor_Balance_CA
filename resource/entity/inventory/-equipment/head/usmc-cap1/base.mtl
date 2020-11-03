@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "field cap m43"}
+	{bump "field cap m43_bp"}
+	{specular "field cap m43_sp"}
+	{color "229 229 229 76"}
+	{blend test}
+}

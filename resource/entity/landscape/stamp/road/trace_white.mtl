@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "trace_white"
+		{Axis 128 128}
+		{AlphaChannel 1}
+	}
+	{bump "trace_white_bp"}
+	{Blend blend}
+}

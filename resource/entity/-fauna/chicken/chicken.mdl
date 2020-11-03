@@ -1,0 +1,121 @@
+;Exported by: sk
+;Date:        Thu Mar 09 19:30:55 2006
+;File:        D:\-Projects1_5-\-3DWork-\Inventory\Chicken\chic3.max
+{Skeleton
+	{animation
+		{sequence "run"}
+		{sequence "eat"}
+		{sequence "walk"}
+		{sequence "passive"}
+	}
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "chik"
+			{parameters "CommonMesh;"}
+			{Position 1.8215	-0.0250039	4.9141}
+			{VolumeView "chik.ply"}
+			{bone "head"
+				{Matrix34
+					1	-0.000224395	0.000137364
+					0.000224223	1	-1.55839e-005
+					-0.000137507	1.55879e-005	1
+					4.56163	0.304269	3.18873
+				}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 8.49352 5.8184 5.8184}
+	{Bone "chik"}
+	{Matrix34
+		0.999999	0	-0.00174528
+		0.00174493	0	0.999998
+		0	-1	0
+		-0.860183	0.405047	-0.828716
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 14.47	26.9627	19.1904}
+			{lookat 1.1577	-2.11628	3.6271}
+			{fov 23.9132}
+			{horizon 0.100871}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.138441	-0.434109	-0.205872}
+			}
+			{"1"
+				{type point}
+				{position -8.65414	3.89225	12.1866}
+			}
+			{"2"
+				{type point}
+				{position 0.771713	-3.10363	12.2373}
+			}
+			{"3"
+				{type point}
+				{position 12.9147	1.68342	11.9904}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 30.7023	63.1288	32.3777}
+			{lookat 0.843958	-2.11628	3.62765}
+			{fov 23.9132}
+			{horizon 0.0969133}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.138441	-0.434109	-0.205872}
+			}
+			{"1"
+				{type point}
+				{position -8.96788	3.89225	12.1872}
+			}
+			{"2"
+				{type point}
+				{position 0.457975	-3.10363	12.2378}
+			}
+			{"3"
+				{type point}
+				{position 12.6009	1.68342	11.9909}
+			}
+		}
+	}
+	{"Stuff_secondary"
+		{camera
+			{origin 21.7431	43.9993	23.936}
+			{lookat 0.652281	-2.08753	3.62798}
+			{fov 23.9132}
+			{horizon 0.0989117}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.138441	-0.434109	-0.205872}
+			}
+			{"1"
+				{type point}
+				{position -9.15956	3.921	12.1875}
+			}
+			{"2"
+				{type point}
+				{position 0.266298	-3.07488	12.2381}
+			}
+			{"3"
+				{type point}
+				{position 12.4093	1.71218	11.9913}
+			}
+		}
+	}
+}

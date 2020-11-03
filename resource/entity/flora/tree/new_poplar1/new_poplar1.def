@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/tree.inc")
+    {props "invisible_crown" "normal_light"}
+	{Extension "new_poplar1.mdl"}
+	{Volume "crown"
+		{able {visible 0}}
+	}
+	{Volume "bole"
+		{able {bullet 0}}
+	}
+	{NoGroupMesh 1}
+}

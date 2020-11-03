@@ -1,0 +1,25 @@
+;Exported by: Caps
+;Date:        Tue Jul 30 12:41:41 2013
+;File:        F:\!_DMS_CalltoArms\Assets\Inventory\box_metal\3D\box_metal.max
+{Skeleton
+	{bone "box_metal"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "box_metal.ply"}
+	}
+}
+{Obstacle "box_metal"
+	{Obb2
+		{Center 0.0101357 -0.010411}
+		{Extent 10.437 6.03591}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "box_metal"}
+}

@@ -1,0 +1,9 @@
+{material bump
+	{diffuse "crash_brick5a"
+		{Axis 256 128}
+	}
+	{bump "crash_brick5a_bp"}
+	{height "crash_brick5a_dp"}
+	{parallax_scale 1}
+	{Blend blend}
+}

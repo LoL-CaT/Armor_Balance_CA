@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "destroy_chip"
+		{Axis 128 128}
+		{AlphaChannel 1}
+	}
+	{bump "destroy_chip_bp"}
+	{Blend blend}
+}

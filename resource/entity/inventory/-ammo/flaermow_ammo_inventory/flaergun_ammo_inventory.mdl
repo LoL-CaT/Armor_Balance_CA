@@ -1,0 +1,53 @@
+;Exported by: sergienko
+;Date:        Tue Aug 16 17:37:58 2005
+;File:        D:\-projets1_5\3dwork\anima\gun\снаряды\paketnitza\flaergun_ammo.max
+{Skeleton
+	{bone "ammo_flaergun"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ammo_flaergun.ply"}
+	}
+}
+{Volume "select"
+	{Box 2.82323 2.7373 1.07547}
+	{Bone "ammo_flaergun"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.0225792	0.0434084	0.037662
+	}
+}
+{Volume "body"
+	{Box 2.07591 1.72417 0.779327}
+	{Bone "ammo_flaergun"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.0225792	0.0318454	0.0376623
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.00206804	2.6781	0.0950137}
+			{lookat 0.00286245	0.0706768	0.00396464}
+			{fov 45}
+			{horizon 0.500068}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	-0.434978	-0.246564}
+			}
+			{"1"
+				{type directional}
+				{direction 0	-0.434978	-0.246564}
+			}
+		}
+	}
+}

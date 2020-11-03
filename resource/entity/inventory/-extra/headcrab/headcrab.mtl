@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "headcrab"}
+	{bump "headcrab_bp"}
+	{specular "headcrab_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

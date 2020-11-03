@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "b33r"}
+	{bump "b33r_bp"}
+	{specular "b33r_sp"}
+	{color "230 230 230 152"}
+	{blend none}
+}

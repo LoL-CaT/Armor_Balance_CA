@@ -1,0 +1,71 @@
+;Exported by: sergienko
+;Date:        Mon Apr 23 12:04:33 2007
+;File:        D:\-projets1_5\3dwork\anima\gun\wirecutters\wirecutters.max
+{Skeleton
+	{bone "wirecutters"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "wirecutters.ply"}
+		{bone "handle"
+			{Matrix34
+				0	-1	0
+				-1	0	0
+				0	0	-1
+				1.4114	0.966256	-0.554179
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "wirecutters"}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "wirecutters"}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 1.59558	-3.64173	5.2429}
+			{lookat 0.612702	-1.01278	1.00264}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.279506	0	-0.41458}
+			}
+		}
+	}
+	{"stuff_primary"
+		{camera
+			{origin 1.82164	-4.24639	6.21816}
+			{lookat 0.612702	-1.01278	1.00264}
+			{fov 45}
+			{horizon -4.00008}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.279506	0	-0.41458}
+			}
+		}
+	}
+	{"stuff_secondary"
+		{camera
+			{origin 1.59558	-3.64173	5.2429}
+			{lookat 0.612702	-1.01278	1.00264}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.279506	0	-0.41458}
+			}
+		}
+	}
+}

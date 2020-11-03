@@ -1,0 +1,13 @@
+;Exported by: sergienko
+;Date:        Tue Dec 19 15:54:22 2006
+;File:        D:\-projets1_5\3dwork\anima\equipment\tnt_bag\tnt_bag01.max
+{Skeleton
+	{bone "tnt_bag"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "tnt_bag.ply"}
+	}
+}

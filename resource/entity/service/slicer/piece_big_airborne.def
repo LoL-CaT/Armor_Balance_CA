@@ -1,0 +1,9 @@
+{game_entity
+	{extension "/properties/piece.ext"}
+	{simulation {able 1}}
+	{constrain none}
+	{props "dummy" "steel" "big" "part" "air_part"}
+	{collider "particle"}
+	{obstacleid "construction"}
+	{mass 500}
+}

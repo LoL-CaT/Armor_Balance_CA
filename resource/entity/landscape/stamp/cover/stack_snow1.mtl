@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "stack_snow1"
+		{Axis 256 256}
+		{AlphaChannel 1}
+	}
+	{bump "stack_snow1_bp"}
+	{Blend blend}
+}

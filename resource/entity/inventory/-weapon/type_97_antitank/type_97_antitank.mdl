@@ -1,0 +1,97 @@
+;Exported by: Mauzer
+;Date:        Sat Jul 16 18:11:10 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\Type 97 At-rifle\type 97 at+.max
+{Skeleton
+	{bone "type_97_at"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "type_97_at.ply"}
+			{VolumeView "type_97_at_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 31.4464	3.11189	-0.0300081}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				7.59017	3.63368	-0.0301796
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.748956	0.66262
+				-1	0	0
+				0	-0.66262	0.748956
+				3.8839	3.79997	0.336599
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 39.8559 4.89944 1.33496}
+	{Bone "type_97_at"}
+	{Matrix34
+		0.999962	0.00872651	0
+		-0.00872651	0.999962	0
+		0	0	1
+		11.3478	2.26472	0.0165029
+	}
+}
+{Volume "select"
+	{Box 43.7561 10.2865 2.34592}
+	{Bone "type_97_at"}
+	{Position 11.4845	1.90955	-0.161526}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 13.1967	-9.72841	49.8081}
+			{lookat 11.74	-3.78675	13.5999}
+			{fov 45}
+			{horizon 177.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 11.8467	27.4428	7.59465}
+			}
+			{"1"
+				{type point}
+				{position 11.8467	0.695371	25.95}
+			}
+			{"2"
+				{type directional}
+				{direction -0.00503225	0.494215	-0.0756686}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 14.1057	-21.0642	68.1491}
+			{lookat 11.5173	-1.57773	0.0428276}
+			{fov 32.1543}
+			{horizon -174}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 11.8227	28.5986	3.4479}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0101697	0.498574	-0.0363347}
+			}
+			{"2"
+				{type point}
+				{position 11.8227	2.97164	25.9709}
+			}
+		}
+	}
+}

@@ -1,0 +1,5 @@
+{game_entity
+	{Extension "ger_t1.mdl"}
+	{tag "ger soldier"}
+	{RimLight}	
+}

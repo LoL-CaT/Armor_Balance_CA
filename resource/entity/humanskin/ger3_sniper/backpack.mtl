@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "ger_sniper_backpack"}
+	{bump "ger_sniper_backpack_nm"}
+	{specular "ger_sniper_backpack_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "de_lisle"}
+	{specular "de_lisle_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

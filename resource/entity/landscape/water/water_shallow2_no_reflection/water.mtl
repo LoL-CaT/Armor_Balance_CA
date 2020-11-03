@@ -1,0 +1,10 @@
+{material water
+	{color 0xB5222626}
+	{period 1.7}
+	{simple "$/water/water3"}
+	{bumpVolume "$/water/01_river_small/water.tex"}
+	{envamount 0.6}
+	{blend blend}
+	{tile}
+	{FakeReflection}
+}

@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "turnout_white2"
+		{Axis 127 121}
+		{AlphaChannel 1}
+	}
+	{bump "turnout_white2_bp"}
+	{Blend blend}
+}

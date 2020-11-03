@@ -1,0 +1,103 @@
+;Exported by: Mauzer
+;Date:        Sat Mar 27 19:44:43 2010
+;File:        E:\Autodesk\Low poly\freelance\DMS\Winchester Model 12 Trench Gun\Winchester Model 12_2.max
+{Skeleton
+	{bone "winchester_model_12"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "winchester_model_12.ply"}
+			{VolumeView "winchester_model_12_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 14.6147	1.47033	0.00832686}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				0.600957	1.10781	-0.00182498
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.104529	0.994522
+				1	0	0
+				0	0.994522	-0.104529
+				3.5052	1.58149	0.375811
+			}
+		}
+		{bone "shooter00"
+			{Position 14.6147	1.52423	0.00832686}
+		}
+		{bone "shooter01"
+			{Position 14.6147	1.40947	0.00832686}
+		}
+	}
+}
+{Volume "body"
+	{Box 18.9248 4.19635 2.1036}
+	{Bone "winchester_model_12"}
+	{Matrix34
+		0.997564	0.0697565	0
+		-0.0697565	0.997564	0
+		0	0	1
+		4.54085	1.07806	-0.105362
+	}
+}
+{Volume "select"
+	{Box 25.9943 9.64448 2.39379}
+	{Bone "winchester_model_12"}
+	{Position 5.40648	1.23201	-0.109236}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 4.88617	-0.810441	40.5147}
+			{lookat 4.88617	-0.810443	0}
+			{fov 30.7899}
+			{horizon 9.99963}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -6.61573	-3.17159	2.94478}
+			}
+			{"1"
+				{type point}
+				{position 16.1245	-4.81597	4.2637}
+			}
+			{"2"
+				{type directional}
+				{direction 0	0.325948	-0.379154}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 4.91949	-0.600493	36.5935}
+			{lookat 4.91949	-0.600493	0}
+			{fov 30.7899}
+			{horizon 20.9996}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	0.325948	-0.379154}
+			}
+			{"1"
+				{type point}
+				{position 16.1245	-4.81578	4.32216}
+			}
+			{"2"
+				{type point}
+				{position -6.61573	-3.17141	2.9207}
+			}
+		}
+	}
+}

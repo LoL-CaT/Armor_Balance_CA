@@ -1,0 +1,8 @@
+{entity
+	(include "/properties/stuff_small.ext")
+	{Extension "panzerfaust60.mdl"}
+	{extender "stuff"
+		{item "weapon panzerfaust60" filled}
+	}
+	{nogroupmesh 1}
+}

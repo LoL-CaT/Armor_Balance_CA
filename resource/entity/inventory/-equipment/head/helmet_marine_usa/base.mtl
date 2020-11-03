@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "m1 helmet camo"}
+	{bump "m1 helmet camo_bp"}
+	{specular "m1 helmet camo_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

@@ -1,0 +1,13 @@
+{fx
+	{## lightview
+		{type point}
+		{animator
+			{highlight 0xffffdea5}
+		}
+		{attenuation0 0.2}
+		{attenuation1 2}
+		{radius 250}
+		{priority 10}
+		{effectonground}
+	}
+}

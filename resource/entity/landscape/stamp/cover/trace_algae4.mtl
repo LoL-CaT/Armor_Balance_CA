@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "trace_algae4"
+		{Axis 64 32}
+		{AlphaChannel 1}
+	}
+	{bump "trace_algae4_bp"}
+	{Blend blend}
+}

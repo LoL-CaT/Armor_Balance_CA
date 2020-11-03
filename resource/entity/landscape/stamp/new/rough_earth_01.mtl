@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "rough_earth_01"
+		{Axis 128 64}
+		{AlphaChannel 1}
+	}
+	{bump "rough_earth_01_bp"}
+	{Blend blend}
+}

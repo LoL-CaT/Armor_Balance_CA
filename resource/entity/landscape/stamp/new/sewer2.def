@@ -1,0 +1,10 @@
+{entity 
+	{DecalView 
+		{Sprite "sewer2.mtl" 
+			{Scale 0.5 }
+		}
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+}

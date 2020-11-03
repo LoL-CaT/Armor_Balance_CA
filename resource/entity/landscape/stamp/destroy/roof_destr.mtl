@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "roof_destr"
+		{Axis 128 128}
+		{AlphaChannel 1}
+	}
+	{bump "roof_destr_bp"}
+	{Blend blend}
+}

@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "dirt_road9"
+		{Axis 256 256}
+		{AlphaChannel 1}
+	}
+	{bump "dirt_road9_bp"}
+	{Blend blend}
+}

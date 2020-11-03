@@ -1,0 +1,97 @@
+;Exported by: Mauzer
+;Date:        Thu Mar 25 11:48:55 2010
+;File:        E:\Autodesk\Low poly\freelance\DMS\Thompson M1928A1 (50 rounds magazine)\Thompson M1928A1_2.max
+{Skeleton
+	{bone "thompson_m1928a1"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "thompson_m1928a1.ply"}
+			{VolumeView "thompson_m1928a1_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 9.86532	1.97854	-0.0200278}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-1.64566	0.325295	-0.0301796
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.104529	0.994522
+				1	0	0
+				0	0.994522	-0.104529
+				2.50932	1.888	0.347457
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 17.0323 3.81868 1.18138}
+	{Bone "thompson_m1928a1"}
+	{Matrix34
+		0.999657	0.0261769	0
+		-0.0261769	0.999657	0
+		0	0	1
+		1.54644	0.708747	-0.0741652
+	}
+}
+{Volume "select"
+	{Box 24.1747 8.87292 2.39379}
+	{Bone "thompson_m1928a1"}
+	{Position 2.48269	1.36021	-0.13759}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -3.71876	-9.88593	33.2721}
+			{lookat 1.2357	-0.992253	-0.0711804}
+			{fov 30.7899}
+			{horizon -138.789}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -9.25489	-16.5905	1.72682}
+			}
+			{"1"
+				{type point}
+				{position 13.4853	-17.4161	1.789}
+			}
+			{"2"
+				{type directional}
+				{direction 0	0.314864	-0.388408}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -3.23927	-9.17444	30.6046}
+			{lookat 1.31882	-0.992253	-0.0711804}
+			{fov 30.7899}
+			{horizon -138.789}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -9.17177	-16.5905	1.72682}
+			}
+			{"1"
+				{type point}
+				{position 13.5685	-17.4161	1.789}
+			}
+			{"2"
+				{type directional}
+				{direction 0	0.314864	-0.388408}
+			}
+		}
+	}
+}

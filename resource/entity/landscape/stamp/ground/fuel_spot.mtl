@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "fuel_spot"
+		{Axis 128 128}
+		{AlphaChannel 1}
+	}
+	{bump "fuel_spot_bp"}
+	{Blend blend}
+}

@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/entourage/oar_wood"}
+	{blend none}
+	{tile}
+}

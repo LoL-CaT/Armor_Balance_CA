@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "aerostripsteel_brdr"
+		{Axis 64 256}
+		{AlphaChannel 1}
+	}
+	{bump "aerostripsteel_brdr_bp"}
+	{Blend blend}
+}

@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "border_s7b"
+		{Axis 128 32}
+		{AlphaChannel 1}
+	}
+	{bump "border_s7b_bp"}
+	{Blend blend}
+}

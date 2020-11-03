@@ -1,0 +1,23 @@
+;Exported by: ubrashaev
+;Date:        Thu Feb 03 23:55:41 2005
+;File:        D:\-Projects1_5-\-work-\3d\-Model-\water_big\water_big_.max
+{Skeleton
+	{bone "water_big"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1.0000	0.0000	0.0000
+			0.0000	-1.0000	0.0000
+			0.0000	0.0000	1.0000
+		}
+		{VolumeView "water_big.ply"
+			{Layer water}
+		}
+		{animation
+			{uv "run"
+				{shiftV 0 1 0.0008 };pingpong }	;min max delta [pingpong]
+				;{shiftU 0 1 0.0004 pingpong }	;min max delta [pingpong]
+   		 	}
+		}
+
+	}
+}

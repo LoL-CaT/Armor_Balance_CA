@@ -1,0 +1,9 @@
+{material bump
+	{diffuse "strand_cable_cond3"
+		{Axis 128 64}
+		{AlphaChannel 1}
+	}
+	{bump "strand_cable_cond3_bp"}
+	{Blend blend}
+}
+

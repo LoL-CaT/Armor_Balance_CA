@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "germany knife"}
+	{specular "germany knife_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

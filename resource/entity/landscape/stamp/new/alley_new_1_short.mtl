@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "alley_new_1_short"
+		{Axis 128 64}
+		{AlphaChannel 1}
+	}
+	{bump "alley_new_1_short_bp"}
+	{Blend blend}
+}

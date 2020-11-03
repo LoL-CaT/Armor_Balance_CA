@@ -1,0 +1,161 @@
+{fx
+	{#+ particleview ripples
+		{generator
+			{totalparticles 30}
+			{emissionarea
+				{radius 3}
+				{alpha0 0}
+				{alpha1 30 5}
+				{speed 0.2}
+			}
+			{particleinit
+				{speed 0}
+				{lifetime 0.8 0.3}
+			}
+			{particlesinblock 1}
+		}
+		{mover
+			{damping 0.95}
+			{gravity
+				{value 0.7}
+			}
+			{collisions
+				{terrain}
+				{restitution 0}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{flags ground }
+				{sprite "$/flash/ripples_w2"
+					{scale 1
+						{linear
+							{min 0.3 0.1}
+							{max 2.5 1}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{visibility 1
+						{npower
+							{min 1}
+							{max 0}
+							{pow 2}
+						}
+					}
+					{preturn 90 90}
+					{highlight 0xffffffcc}
+				}
+			}
+		}
+		{notifyowner}
+		{offset 0 0 -10}
+	}
+	{#+ particleview drops
+		{generator
+			{totalparticles 10}
+			{emissionarea
+				{radius 2 2}
+				{alpha0 0}
+				{alpha1 5 5}
+				{speed 0}
+			}
+			{particleinit
+				{speed 0}
+				{lifetime 0.2 0.05}
+			}
+		}
+		{mover
+			{damping 0.95}
+			{gravity
+				{value 0.7}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.05}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/flash/drops"
+					{scale 1
+						{linear
+							{min 0.3 0.1}
+							{max 0.5 0.1}
+						}
+					}
+					{turn 1
+						{linear
+							{min 10 10}
+							{max 360 -180}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xffffffc4}
+				}
+			}
+		}
+		{notifyowner}
+		{offset 0 0 13}
+	}
+	{#+ particleview wash
+		{generator
+			{totalparticles 14}
+			{emissionarea
+				{radius 3}
+				{alpha0 0}
+				{alpha1 30 5}
+			}
+			{particleinit
+				{speed 1 1}
+				{lifetime 0.8 0.2}
+			}
+			{particlesinblock 1}
+			{autoturn}
+		}
+		{mover
+			{damping 0.95}
+			{gravity
+				{value 0.5}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.01}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/flash/wave2"
+					{scale 1
+						{linear
+							{min 0.3}
+							{max 3.3 1}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xffffffcc}
+				}
+				{flags ground }
+			}
+		}
+		{notifyowner}
+		{offset 0 0 -10}
+	}
+}

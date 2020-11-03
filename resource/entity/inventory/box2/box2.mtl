@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "box2"}
+	{bump "box2_bp"}
+	{specular "box2_sp"}
+	{color "230 230 230 152"}
+	{blend none}
+}

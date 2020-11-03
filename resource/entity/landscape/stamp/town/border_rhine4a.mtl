@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "border_rhine4a"
+		{Axis 128 32}
+		{AlphaChannel 1}
+	}
+	{bump "border_rhine4a_bp"}
+	{Blend blend}
+}

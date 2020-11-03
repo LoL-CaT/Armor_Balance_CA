@@ -1,0 +1,9 @@
+{entity 
+	{DecalView 
+		{Sprite "trace.mtl"
+		}
+		{orientation normal}
+		{UseDirection }
+		{layer grounddecal }
+	}
+}

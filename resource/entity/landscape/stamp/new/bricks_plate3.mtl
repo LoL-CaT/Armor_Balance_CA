@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "bricks_plate3"
+		{Axis 128 128}
+		{AlphaChannel 1}
+	}
+	{bump "bricks_plate3_bp"}
+	{Blend blend}
+}

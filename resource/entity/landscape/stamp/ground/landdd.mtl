@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "landdd"
+		{Axis 512 256}
+		{AlphaChannel 1}
+	}
+	{bump "landdd_bp"}
+	{Blend blend}
+}

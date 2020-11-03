@@ -1,0 +1,87 @@
+;Exported by: Mauzer
+;Date:        Sat Dec 25 17:04:49 2010
+;File:        E:\Autodesk\Low poly\freelance\DMS\Owen gun\Owen gun.max
+{Skeleton
+	{bone "owen"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "owen.ply"}
+			{VolumeView "owen_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 9.15588	2.08927	-0.0200278}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-1.64566	0.325295	-0.0301796
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.104529	-0.994522
+				-1	0	0
+				0	0.994522	0.104529
+				2.60517	2.01607	-0.444203
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 17.0323 3.81868 1.18138}
+	{Bone "owen"}
+	{Position 1.54644	0.708747	-0.0741652}
+}
+{Volume "select"
+	{Box 24.1747 8.87292 2.39379}
+	{Bone "owen"}
+	{Position 2.48269	1.36021	-0.13759}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 0.407768	8.3275	65.3238}
+			{lookat 1.1816	-1.50444	0.591167}
+			{fov 15.1893}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0288215	0.367743	-0.337542}
+				{diffuse 0xe2ecff}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0529736	-0.42276	-0.261664}
+				{diffuse 0xffeecb}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 0.499419	7.40683	60.8864}
+			{lookat 1.21968	-1.74437	0.635891}
+			{fov 15.1893}
+			{horizon 11.0004}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0288215	0.367743	-0.337542}
+				{diffuse 0xe2ecff}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0537294	-0.420251	-0.265523}
+				{diffuse 0xffeecb}
+			}
+		}
+	}
+}

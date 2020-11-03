@@ -1,0 +1,7 @@
+{material simple
+	{diffuse "ground_clay5X"
+		{Axis 256 64}
+		{AlphaChannel 1}
+	}
+	{Blend blend}
+}

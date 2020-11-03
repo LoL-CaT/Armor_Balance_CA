@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "road_white_w3e_r"
+		{Axis 72 122}
+		{AlphaChannel 1}
+	}
+	{bump "road_white_w3e_r_bp"}
+	{Blend blend}
+}

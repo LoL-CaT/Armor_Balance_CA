@@ -1,0 +1,72 @@
+;Exported by: sk
+;Date:        Tue Mar 07 14:19:25 2006
+;File:        D:\-Projects1_5-\-3DWork-\Inventory\radiostation\radiostation.max
+{Skeleton
+	{bone "radio_station"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "radio_station.ply"}
+			{VolumeView "radio_station_lod1.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				-0.996053	-0.0887148	0.00300277
+				-0.0885295	0.990359	-0.106545
+				0.00647857	-0.106391	-0.994303
+				12.8716	3.30561	0.515183
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 3.58719 9.03361 5.9511}
+	{Bone "radio_station"}
+	{Matrix34
+		0.0064783	-0.10639	-0.994303
+		0.996052	0.0887153	-0.00300277
+		0.0885294	-0.990359	0.106544
+		7.45876	3.03324	0.410426
+	}
+}
+{Volume "select"
+	{Box 8.17048 17.2871 6.78418}
+	{Bone "radio_station"}
+	{Matrix34
+		0.0885292	-0.990359	0.106545
+		0.996053	0.0887152	-0.00300262
+		-0.00647844	0.10639	0.994303
+		8.18502	3.07009	0.469918
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 15.8893	1.12366	19.9407}
+			{lookat 2.21671	-5.40502	-13.7533}
+			{fov 23.9132}
+			{horizon 147.065}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.497988	0.0447524	-0.00219893}
+			}
+			{"1"
+				{type point}
+				{position 7.5477	-3.77624	6.59899}
+			}
+			{"2"
+				{type point}
+				{position 7.97728	1.28358	-0.396197}
+			}
+			{"3"
+				{type point}
+				{position 12.8937	-1.60749	0.991457}
+			}
+		}
+	}
+}

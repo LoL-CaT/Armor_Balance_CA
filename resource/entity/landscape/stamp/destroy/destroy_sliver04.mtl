@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "destroy_sliver04"
+		{Axis 64 64}
+	}
+	{bump "destroy_sliver04_bp"}
+	{Blend blend}
+}

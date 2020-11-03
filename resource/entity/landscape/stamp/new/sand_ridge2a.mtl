@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "sand_ridge2a"
+		{Axis 256 128}
+		{AlphaChannel 1}
+	}
+	{bump "sand_ridge2a_bp"}
+	{Blend blend}
+}

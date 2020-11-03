@@ -1,0 +1,60 @@
+;Exported by: Mauzer
+;Date:        Sat Jun 11 12:22:14 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\Steak\Steak +.max
+{Skeleton
+	{bone "steak"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "steak.ply"}
+	}
+}
+{Volume "body"
+	{Box 5.18964 5.39707 1.58283}
+	{Bone "steak"}
+	{Position -0.0257407	0.4632	0.80631}
+}
+{Volume "select"
+	{Box 9.56007 8.39436 3.99803}
+	{Bone "steak"}
+	{Position -0.0327111	0.477732	0.96228}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.0977637	3.96387	6.56023}
+			{lookat 0.115837	-0.111589	-0.0603673}
+			{fov 54.4322}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.00027903	0.208528	-0.45444}
+			}
+			{"1"
+				{type directional}
+				{direction 0.175749	-0.437845	-0.165541}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -0.134071	4.78651	7.94117}
+			{lookat 0.115837	0.0182245	0.19508}
+			{fov 54.4322}
+			{horizon 0.0197823}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.175749	-0.437845	-0.165541}
+			}
+			{"1"
+				{type directional}
+				{direction -0.00027903	0.208528	-0.45444}
+			}
+		}
+	}
+}

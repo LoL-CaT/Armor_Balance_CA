@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "groove_sand"
+		{Axis 128 64}
+		{AlphaChannel 1}
+	}
+	{bump "groove_sand_bp"}
+	{Blend blend}
+}

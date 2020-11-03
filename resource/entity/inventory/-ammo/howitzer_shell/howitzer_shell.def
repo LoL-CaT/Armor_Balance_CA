@@ -1,0 +1,6 @@
+{game_entity
+	{lodclass "stuff_small"}
+	{Extension "howitzer_shell.mdl"}
+	{constrain none}
+	{fogable never}
+}

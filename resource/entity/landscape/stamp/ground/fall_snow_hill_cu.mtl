@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "fall_snow_hill_cu"
+		{Axis 256 128}
+		{AlphaChannel 1}
+	}
+	{bump "fall_snow_hill_cu_bp"}
+	{Blend blend}
+}

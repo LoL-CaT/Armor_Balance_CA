@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "us_flamer"}
+	{bump "us_flamer_bp"}
+	{specular "us_t2_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

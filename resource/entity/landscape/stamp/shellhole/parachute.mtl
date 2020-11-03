@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "parachute"
+		{Axis 64 64}
+	}
+	{bump "parachute_bp"}
+	{Blend blend}
+}

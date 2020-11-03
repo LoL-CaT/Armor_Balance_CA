@@ -1,0 +1,9 @@
+{game_entity
+	(include "sound.inc")
+	{props "wood"}
+	{extender "speaker"
+		{soundName "world/river"}
+		{loop}
+		{signalDepend "shot explosion movement"}
+	}
+}

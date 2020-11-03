@@ -1,0 +1,9 @@
+{entity 
+	{DecalView 
+		{Sprite "rainy_field.mtl" 
+		}       
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+}

@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "mound_steep1a"
+		{Axis 256 128}
+		{AlphaChannel 1}
+	}
+	{bump "mound_steep1a_bp"}
+	{Blend blend}
+}

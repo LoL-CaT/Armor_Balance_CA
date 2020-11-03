@@ -1,0 +1,10 @@
+{material bump
+	{diffuse "crash_stone1a"
+		{Axis 128 128}
+		{AlphaChannel 1}
+	}
+	{bump "crash_stone1a_bp"}
+	{height "crash_stone1a_dp"}
+	{parallax_scale 1}
+	{Blend blend}
+}
