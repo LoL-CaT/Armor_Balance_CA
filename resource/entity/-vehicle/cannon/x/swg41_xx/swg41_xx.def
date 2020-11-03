@@ -1,0 +1,14 @@
+{game_entity
+	{Extension "swg41_xx.mdl"}
+
+	{Volume "body2"
+	}
+	{Volume "body"
+	}
+	{Volume "gun"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+}

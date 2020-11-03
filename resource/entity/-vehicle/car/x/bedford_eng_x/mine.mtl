@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/inventory/mine128"}
+	{blend none}
+}

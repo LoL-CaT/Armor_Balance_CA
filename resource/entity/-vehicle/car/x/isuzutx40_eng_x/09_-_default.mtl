@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "glass1"}
+	{specular "glass1_mask"}
+	{color "229 229 229 0"}
+	{blend blend}
+}

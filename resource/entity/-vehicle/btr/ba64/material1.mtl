@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "ba64"}
+	{specular "$/model/ba64_sp"}
+	{color "229 229 229 20"}
+	{blend none}
+	{tile}
+}

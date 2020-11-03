@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "houkoku"}
+	{bump "$/model/houkoku_bp"}
+	{specular "$/model/houkoku_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

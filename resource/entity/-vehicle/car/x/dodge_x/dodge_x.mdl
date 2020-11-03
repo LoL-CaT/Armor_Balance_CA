@@ -1,0 +1,144 @@
+;Exported by: butyvsky
+;Date:        Fri Jan 27 17:46:19 2006
+;File:        D:\-Projects-\-3D Work-\Car\dodge\DodgeWC51_x.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position 1.92418	0	21.5848}
+			{VolumeView "body.ply"}
+			{bone "engine"
+				{parameters "ID=engine;"}
+				{animation
+					{sequence "break" {file "engine_b.anm"} {speed 0.5}}
+				}
+				{Position 15.3753	1.81198e-005	3.31459}
+				{VolumeView "engine.ply"}
+			}
+			{bone "glass"
+				{parameters "ID=glass;"}
+				{Position 10.1295	0.0756388	10.138}
+				{VolumeView "glass.ply"}
+			}
+			{bone revolute "steerrudder"
+				{parameters "WheelRadius=0.2;"}
+				{Matrix34
+					0.642788	0	0.766044
+					0	1	0
+					-0.766044	0	0.642788
+					9.89842	6.75918	0.435654
+				}
+				{VolumeView "steerrudder.ply"}
+			}
+			{bone "shield"
+				{parameters "ID=shield;"}
+				{Position -16.3654	-0.0339483	7.88991}
+				{VolumeView "shield.ply"}
+			}
+		}
+		{bone "pivot_back"
+			{Position -21.2802	0.166303	8.30848}
+			{VolumeView "pivot_back.ply"}
+			{bone "spring_l"
+				{Position 0.0485001	15.956	0.0555611}
+				{bone revolute "wheell2"
+					{parameters "ID=wheelleft2;"}
+					{Orientation
+						0	0	1
+						1	0	0
+						0	1	0
+					}
+					{VolumeView "wheell2.ply"}
+				}
+			}
+			{bone "spring_r"
+				{Position 0.0484962	-16.2289	0.0555582}
+				{bone revolute "wheelr2"
+					{parameters "ID=wheelright2;"}
+					{Matrix34
+						0	0	1
+						1	0	0
+						0	1	0
+						0	0	0
+					}
+					{VolumeView "wheelr2.ply"}
+				}
+			}
+		}
+		{bone "pivot_front"
+			{Position 26.881	0.166303	8.30848}
+			{VolumeView "pivot_front.ply"}
+			{bone revolute "steer_l"
+				{Matrix34
+					-1	0	0
+					0	1	0
+					0	0	-1
+					0.0547466	15.956	0.055563
+				}
+				{bone revolute "wheell1"
+					{parameters "ID=wheelleft1;"}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						0	0	0
+					}
+					{VolumeView "wheell1.ply"}
+				}
+			}
+			{bone revolute "steer_r"
+				{Matrix34
+					-1	0	0
+					0	1	0
+					0	0	-1
+					0.0547428	-16.2158	0.055562
+				}
+				{bone revolute "wheelr1"
+					{parameters "ID=wheelright1;"}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						0	0	0
+					}
+					{VolumeView "wheelr1.ply"}
+				}
+			}
+		}
+	}
+}
+{Volume "wheelleft1"
+	{Cylinder 5.98284 4.89421}
+	{Bone "wheell1"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		0.0126575	0.856501	0
+	}
+}
+{Volume "wheelleft2"
+	{Cylinder 6.07321 4.99258}
+	{Bone "wheell2"}
+	{Position 1.01472	0	0.0491881}
+}
+{Volume "wheelright1"
+	{Cylinder 5.97327 4.89421}
+	{Bone "wheelr1"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		0	0.857029	0
+	}
+}
+{Volume "wheelright2"
+	{Cylinder 5.96307 4.89421}
+	{Bone "wheelr2"}
+	{Position 0.900674	0	0}
+}

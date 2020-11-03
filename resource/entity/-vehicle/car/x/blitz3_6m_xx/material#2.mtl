@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "blitz3_6m_xx"}
+	{blend test}
+}

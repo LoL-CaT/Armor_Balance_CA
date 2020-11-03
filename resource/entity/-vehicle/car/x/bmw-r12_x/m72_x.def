@@ -1,0 +1,6 @@
+{game_entity
+	{Extension "bmw-r12_x.mdl"}
+
+	{texmod "sov_x"}
+	
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/jeepwindow_x"}
+	{specular "$/model/jeepwindow_sp"}
+	{color "229 229 229 45"}
+	{blend blend}
+}

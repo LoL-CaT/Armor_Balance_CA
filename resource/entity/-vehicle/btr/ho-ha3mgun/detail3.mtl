@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/jap_simb2"}
+	{blend blend}
+}

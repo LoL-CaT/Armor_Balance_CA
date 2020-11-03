@@ -1,0 +1,26 @@
+;SDL
+
+{boarder
+	{anm "driver"
+		{forward	{begin	""} {end "seat_driver_car"}}
+		{reverse 	{end	"emit_tank_1"}}
+	}
+	{anm "gunner"
+		{forward	{begin	""} {end "seat_driver_car"}}
+		{reverse 	{end	"emit_body"}}
+	}
+}
+{Placer
+	{place "driver"		{LinkBone "driver"}	{Group "crew"}	{turnoff {sensor} {visible}} {visor "driver"}}
+	{place "gunner"		{LinkBone "gunner"}	{Group "crew"}	{turnoff {sensor} {shadow}} {visor "main"}}
+}
+
+(define "crew_human"
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+	}
+)
+
+("crew_human" place(driver)	door(emit1))
+("crew_human" place(gunner)	door(emit2))

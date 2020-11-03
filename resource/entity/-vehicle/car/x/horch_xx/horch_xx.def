@@ -1,0 +1,35 @@
+{game_entity
+	{Extension "horch_xx.mdl"}
+	{Volume "pivot_front"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "pivot_back"
+	}
+	{Volume "wheelright2"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "part3"
+	}
+	{Volume "part4"
+	}
+	{Volume "body2"
+	}
+	{Volume "body1"
+	}
+	{Volume "part5"
+	}
+	{Volume "part2"
+	}
+	{Volume "part1"
+	}
+	{Volume "body"
+	}
+	{Volume "engine"
+	}
+	{Volume "fuel"
+	}
+}

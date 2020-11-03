@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "zis5"}
+	{blend none}
+}

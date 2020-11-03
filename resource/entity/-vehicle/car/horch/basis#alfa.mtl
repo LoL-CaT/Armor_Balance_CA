@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "horch853"}
+	{bump "horch_bp"}
+	{specular "horch853_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

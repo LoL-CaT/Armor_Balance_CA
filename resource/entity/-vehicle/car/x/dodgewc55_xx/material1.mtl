@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/dodgwc51_xx"}
+	{specular "$/model/dodgwc51_sp"}
+	{color "229 229 229 71"}
+	{blend none}
+}

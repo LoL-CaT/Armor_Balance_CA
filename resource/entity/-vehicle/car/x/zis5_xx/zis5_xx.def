@@ -1,0 +1,35 @@
+{game_entity
+	{Extension "zis5_xx.mdl"}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "part5"
+	}
+	{Volume "part4"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+	{Volume "body"
+		{tags "body"}
+		{thickness 7}   
+	}
+	{Volume "body"
+		{tags "body"}
+		{thickness 7}   
+	}
+	{Volume "engine"
+		{tags "body"}
+		{thickness 6}   
+	}
+	{Volume "part6"
+	}
+	{Volume "part3"
+	}
+}

@@ -1,0 +1,179 @@
+;Exported by: ubrashaev
+;Date:        Thu Aug 02 15:27:08 2018
+;File:        E:\work\0.KRIS\vehicles2\-stage2\Schweres Wurfgerat 40.41\swg41_x_export.max
+{Skeleton
+	{bone revolute "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "pivot_front"
+			{Matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				3.56145	-0.12508	8.57824
+			}
+			{bone "wheell"
+				{parameters "ID=wheelleft;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					-0.473543	14.2907	-0.0561876
+				}
+				{VolumeView "wheell.ply"}
+			}
+			{bone "wheelr"
+				{parameters "ID=wheelright;"}
+				{Matrix34
+					-0.982232	0	-0.187673
+					0.187673	0	-0.982232
+					0	-1	0
+					-0.473581	-14.8311	-0.0561991
+				}
+				{VolumeView "wheelr.ply"}
+			}
+		}
+		{bone "pivot_back"
+			{Matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				-38.8269	-0.125097	8.57824
+			}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position 3.62612	-0.193643	8.90051}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{limits -2 60}
+				{speed 0.01}
+				{Matrix34
+					0.984808	0	0.173649
+					-0.173649	0	0.984808
+					0	-1	0
+					-6.97864	0.227705	2.7142
+				}
+				{VolumeView "turret.ply"}
+				{bone "gun"
+					{parameters "ID=gun;"}
+					{VolumeView "gun.ply"}
+					{bone "shooter05"
+						{Matrix34
+							-1	0	0
+							0	-1	0
+							0	0	1
+							11.1509	13.5377	7.85472
+						}
+						{bone "rocket05"
+							{Matrix34
+								0	0	1
+								-0.0137897	0.999905	0
+								-0.999905	-0.0137897	0
+								15.7233	-1.48752	0.981624
+							}
+							{VolumeView "rocket05.ply"}
+						}
+					}
+					{bone "shooter00"
+						{Matrix34
+							-1	0	0
+							0	-1	0
+							0	0	1
+							11.1509	13.5377	0.31251
+						}
+						{bone "rocket00"
+							{Matrix34
+								0	0	1
+								-0.0142575	0.999898	0
+								-0.999898	-0.0142575	0
+								15.7233	-1.48752	0.116701
+							}
+							{VolumeView "rocket05.ply"}
+						}
+					}
+					{bone "shooter01"
+						{Matrix34
+							-1	0	0
+							0	-1	0
+							0	0	1
+							11.1509	13.5377	-7.60863
+						}
+						{bone "rocket01"
+							{Matrix34
+								0.0142573	-0.999898	0
+								0	0	1
+								-0.999898	-0.0142573	0
+								15.7233	-1.48753	-0.369297
+							}
+							{VolumeView "rocket05.ply"}
+						}
+					}
+					{bone "shooter02"
+						{Matrix34
+							-1	0	0
+							0	-1	0
+							0	0	1
+							11.0304	3.98431	-7.62567
+						}
+						{bone "rocket02"
+							{Matrix34
+								0	0	-1
+								0.014258	-0.999898	0
+								-0.999898	-0.014258	0
+								15.483	-2.64317	-0.35226
+							}
+							{VolumeView "rocket05.ply"}
+						}
+					}
+					{bone "shooter03"
+						{Matrix34
+							-1	0	0
+							0	-1	0
+							0	0	1
+							11.0304	3.98432	0.25178
+						}
+						{bone "rocket03"
+							{Matrix34
+								0	0	1
+								-0.0142575	0.999898	0
+								-0.999898	-0.0142575	0
+								15.483	-2.64317	0.177427
+							}
+							{VolumeView "rocket05.ply"}
+						}
+					}
+					{bone "shooter04"
+						{Matrix34
+							-1	0	0
+							0	-1	0
+							0	0	1
+							11.0304	3.98432	7.85472
+						}
+						{bone "rocket04"
+							{Matrix34
+								0	0	1
+								-0.0142575	0.999898	0
+								-0.999898	-0.0142575	0
+								15.483	-2.64317	0.981622
+							}
+							{VolumeView "rocket05.ply"}
+						}
+					}
+				}
+				{bone "fxsmoke1"
+					{Matrix34
+						0	0	1
+						1	0	0
+						0	1	0
+						20.3867	10.0509	1.27548
+					}
+				}
+			}
+		}
+	}
+}

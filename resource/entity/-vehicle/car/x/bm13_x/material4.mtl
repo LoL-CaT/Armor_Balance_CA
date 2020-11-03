@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/zis5_glass"}
+	{blend blend}
+}

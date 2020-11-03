@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "../../../../construction/entourage/dynamite_fuse/blower"}
+	{blend none}
+}

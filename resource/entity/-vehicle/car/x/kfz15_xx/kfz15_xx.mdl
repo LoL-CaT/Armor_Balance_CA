@@ -1,0 +1,241 @@
+;Exported by: doc
+;Date:        Wed Sep 26 22:35:32 2018
+;File:        Z:\work\0.KRIS\vehicles2\horch_sdkfz 15\sdkfz15_export_xx.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position -2.52754	-1.77924	9.43764}
+			{VolumeView "body.ply"}
+			{bone "engine"
+				{parameters "ID=engine;"}
+				{Matrix34
+					0.999856	-0.000971177	0.0169717
+					0	0.998367	0.0571294
+					-0.0169995	-0.0571211	0.998223
+					12.1167	0.967036	11.3659
+				}
+				{VolumeView "engine.ply"}
+			}
+			{bone "part1"
+				{Matrix34
+					-0.953706	0.192319	0.231211
+					0.272703	0.228874	0.934478
+					0.126799	0.954269	-0.270725
+					-1.78239	16.4753	6.19469
+				}
+				{VolumeView "part1.ply"}
+			}
+			{bone "wheelsr"
+				{Matrix34
+					-0.991995	-0.120825	0.0367149
+					-0.0582043	0.179456	-0.982043
+					0.112067	-0.976318	-0.185052
+					-1.78238	-13.1747	6.19469
+				}
+				{VolumeView "wheelsr.ply"}
+			}
+			{bone "doorleft2"
+				{Matrix34
+					0.873505	-0.485431	0.0366987
+					0.479606	0.845193	-0.235853
+					0.083473	0.22362	0.971096
+					-11.8609	15.7838	17.642
+				}
+				{VolumeView "doorleft2.ply"}
+			}
+			{bone "doorright2"
+				{Matrix34
+					0.973613	0.228205	0
+					-0.228205	0.973613	0
+					0	0	1
+					-11.8609	-12.4857	17.642
+				}
+				{VolumeView "doorright2.ply"}
+			}
+			{bone "doorleft1"
+				{Matrix34
+					0.413527	-0.910492	0
+					0.910492	0.413527	0
+					0	0	1
+					15.1748	15.7838	17.5555
+				}
+				{VolumeView "doorleft1.ply"}
+			}
+			{bone "doorright1"
+				{Matrix34
+					0.557989	0.829848	0
+					-0.829848	0.557989	0
+					0	0	1
+					15.1748	-12.4857	17.5555
+				}
+				{VolumeView "doorright1.ply"}
+			}
+			{bone revolute "steer_b"
+				{Matrix34
+					0.000122265	1	0
+					0.451038	-5.51196e-005	0.892505
+					0.892505	-0.000109136	-0.451038
+					12	8.82292	19.8374
+				}
+				{bone revolute "handwheel"
+					{parameters "ID=body;"}
+					{Matrix34
+						-1	0	0
+						0	1	0
+						0	0	-1
+						0	0	0
+					}
+					{VolumeView "handwheel.ply"}
+				}
+			}
+			{bone "part5"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					20.5772	-15.525	5.31331
+				}
+				{VolumeView "part5.ply"}
+			}
+			{bone "part3"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					3.29397	-5.28243	11.9559
+				}
+				{VolumeView "part3.ply"}
+			}
+			{bone "part4"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					41.8729	-7.69384	12.9298
+				}
+				{VolumeView "part4.ply"}
+			}
+		}
+		{bone "pivot_back"
+			{parameters "ID=pivot_back;"}
+			{Position -29.592	-0.130986	9.09027}
+			{VolumeView "pivot_back.ply"}
+			{bone "springr"
+				{Position -1.37727	-13.2222	0.255553}
+			}
+			{bone "springl"
+				{Position -1.37728	13.3098	0.255277}
+			}
+		}
+		{bone "pivot_front"
+			{parameters "ID=pivot_front;"}
+			{Position 30.6427	-0.130995	9.09027}
+			{VolumeView "pivot_front.ply"}
+			{bone revolute "steerl"
+				{Matrix34
+					-1	0	0
+					0	1	0
+					0	0	-1
+					2.70184	16.4261	0.255275
+				}
+			}
+			{bone revolute "steerr"
+				{Matrix34
+					-1	0	0
+					0	1	0
+					0	0	-1
+					2.70185	-16.422	0.255553
+				}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 61.0806 29.2987 18.3432}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-13.3791	1.64814	9.63344
+	}
+}
+{Volume "engine"
+	{Polyhedron "engine.vol"}
+	{Bone "engine"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		4.5167	0.681115	-13.4387
+	}
+}
+{Volume "fuel"
+	{Box 12.8412 24.7192 5.58041}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-34.5286	1.64814	5.83266
+	}
+}
+{Volume "inventory"
+	{Box 16.9373 26.8557 12.5688}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-33.4575	1.64814	12.4323
+	}
+}
+{Volume "part1"
+	{Cylinder 9.33154 4.05512}
+	{Bone "part1"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		0	0	1.67126
+	}
+}
+{Volume "part2"
+	{Cylinder 9.33154 4.05512}
+	{Bone "wheelsr"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		0	0	1.52647
+	}
+}
+{Volume "part3"
+	{Polyhedron "part3.vol"}
+	{Bone "part3"}
+}
+{Volume "part4"
+	{Polyhedron "part4.vol"}
+	{Bone "part4"}
+}
+{Volume "part5"
+	{Box 6.99666 4.57316 8.92879}
+	{Bone "part5"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.250095	-0.113947	0
+	}
+}
+{Volume "pivot_front"
+	{Box 3.93701 33.8976 3.93701}
+	{Bone "pivot_front"}
+	{Position 2.75514	1.45131	0.152314}
+}

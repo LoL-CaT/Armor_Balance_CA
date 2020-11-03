@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "panzerwerfer42"}
+	{bump "$/model/panzerwerfer42_bp"}
+	{blend test}
+}

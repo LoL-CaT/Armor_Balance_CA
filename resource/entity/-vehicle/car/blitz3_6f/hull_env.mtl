@@ -1,0 +1,6 @@
+{material envmap
+	{diffuse "blitz3f"}
+	{mask "body_lit_mask"}
+	{envmap "$/environment/envmap_gold01"}
+	{blend test}
+}

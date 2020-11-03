@@ -1,0 +1,29 @@
+{game_entity
+	{Extension "kubel_mgun_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+	{Volume "part3"
+	}
+	{Volume "part4"
+	}
+	{Volume "part5"
+	}
+	{Volume "part6"
+	}
+	{Volume "shield_1"
+	}
+	{Volume "shield"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+}

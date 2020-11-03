@@ -1,0 +1,303 @@
+;Exported by: garry
+;Date:        Fri May 05 10:35:58 2006
+;File:        D:\-Projects-\-3DWork-\Model\Авто-мото\willys\hi-poly\WillysMB_xx.max
+{Skeleton
+	{bone "basis"
+		{parameters "SteerMax=35;WheelRadius=0.2;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				0.99921	0.00856744	0.0388181
+				-0.00266057	0.988723	-0.149733
+				-0.0396632	0.149511	0.987964
+				0.779388	-0.560905	3.12204
+			}
+			{VolumeView "body.ply"}
+			{bone revolute "steerrudder"
+				{parameters "WheelRadius=0.3;"}
+				{Matrix34
+					-0.573577	0	-0.819152
+					0	1	0
+					0.819152	0	-0.573576
+					10.6211	7.56477	6.58619
+				}
+				{VolumeView "steerrudder.ply"}
+			}
+			{bone revolute "turret"
+				{parameters "ID=gun;"}
+				{speed 0.1}
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					-8.90906	0.349915	5.42759
+				}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "ID=gun;"}
+					{limits -20 20}
+					{Matrix34
+						-0.999988	0	0.0049071
+						0.00490713	0	0.999988
+						0	1	0
+						0.159781	0.192174	20.7669
+					}
+					{VolumeView "gun_rot.ply"}
+				}
+				{bone "mg-35"
+					{Matrix34
+						-0.999988	0	0.00490711
+						0.00490709	0	0.999988
+						0	1	0
+						7.76904	0.257998	23.0957
+					}
+				}
+			}
+			{bone "part1"
+				{Matrix34
+					0	1	0
+					0.906308	0	0.422618
+					-0.422618	0	0.906308
+					22.1055	-0.309881	15.3587
+				}
+				{VolumeView "part1.ply"}
+			}
+			{bone "part2"
+				{Matrix34
+					0	1	0
+					1	0	0
+					0	0	1
+					7.7137	0.28848	17.0808
+				}
+				{VolumeView "part2.ply"}
+			}
+			{bone "part4"
+				{Matrix34
+					0	1	0
+					1	0	0
+					0	0	1
+					18.148	-12.296	5.20318
+				}
+				{VolumeView "part4.ply"}
+			}
+			{bone "part5"
+				{Matrix34
+					-0.095168	0.994613	0.0410751
+					0.759835	0.0992372	-0.642498
+					0.643113	0.0299349	0.765186
+					0.895536	7.62583	10.4812
+				}
+				{VolumeView "part5.ply"}
+			}
+			{bone "engine"
+				{parameters "ID=engine;"}
+				{Matrix34
+					0	1	0
+					1	0	0
+					0	0	1
+					12.4821	-0.124825	13.2051
+				}
+				{VolumeView "engine.ply"}
+			}
+			{bone revolute "part3"
+				{Matrix34
+					-0.244665	0.948982	0.198928
+					-0.211738	0.147919	-0.966068
+					0.946206	0.278484	-0.164744
+					-38.0524	4.36181	11.1257
+				}
+				{VolumeView "part3.ply"}
+			}
+		}
+		{bone "pivot_back"
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-17.3323	1.04838	3.97969
+			}
+			{VolumeView "pivot_back.ply"}
+			{bone "spring_l"
+				{Matrix34
+					-0.999847	0.0175168	0
+					0	0	1
+					0.0175169	0.999847	0
+					0.0410634	-3.10237	11.6189
+				}
+				{bone revolute "wheell2"
+					{parameters "ID=wheelleft2;"}
+					{Matrix34
+						0.994515	0.00131547	-0.104582
+						0.10459	-0.0150251	0.994402
+						0.000263252	0.999886	0.0150803
+						0.502581	1.84025	-0.873446
+					}
+					{VolumeView "wheell2.ply"}
+				}
+			}
+			{bone "spring_r"
+				{Matrix34
+					-0.999847	0.0175168	0
+					0	0	1
+					0.017517	0.999847	0
+					0.0410636	-3.10236	-12.6773
+				}
+				{bone "wheelr2"
+					{parameters "ID=wheelright2;"}
+					{Matrix34
+						-0.999847	0	0.0175172
+						-0.0174504	0.0871551	-0.996042
+						-0.00152703	-0.996195	-0.0871416
+						0.52158	0.417533	0.210763
+					}
+					{VolumeView "wheelr2.ply"}
+				}
+			}
+		}
+		{bone "pivot_front"
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				24.6063	3.28789	8.2031
+			}
+			{VolumeView "pivot_front.ply"}
+			{bone revolute "steer_l"
+				{Matrix34
+					0.999848	0.0174524	0
+					0	0	1
+					0.0174524	-0.999848	0
+					0.875067	-2.81345	9.37941
+				}
+				{bone "wheell1"
+					{parameters "ID=wheelleft1;"}
+					{Matrix34
+						-0.997564	0	0.0697557
+						-0.0697558	0	-0.997564
+						0	1	0
+						-0.10733	-2.3144	-0.623568
+					}
+					{VolumeView "wheell1.ply"}
+				}
+			}
+			{bone revolute "steer_r"
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					0.875071	-2.81344	-14.9168
+				}
+				{bone "wheelr1"
+					{parameters "ID=wheelright1;"}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						0	1.73617	-1.19455
+					}
+					{VolumeView "wheelr1.ply"}
+				}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 68.8057 26.3492 10.3453}
+	{Bone "body"}
+	{Position -3.5453	-0.0317254	6.40537}
+}
+{Volume "part1"
+	{Box 18.39 22.2752 3.17316}
+	{Bone "part1"}
+	{Matrix34
+		0.0189169	0.999812	0.00426651
+		0.999524	-0.018807	-0.0244695
+		0.0243855	-0.00472694	0.999691
+		0.243455	-0.220117	0.715058
+	}
+}
+{Volume "part2"
+	{Box 1.9944 27.414 11.6316}
+	{Bone "part2"}
+	{Matrix34
+		-0.0169549	0.983342	0.180974
+		0.999856	0.0168758	0.00197665
+		0.00111049	-0.180982	0.983486
+		-0.0672152	-2.3252	1.39915
+	}
+}
+{Volume "part3"
+	{Cylinder 6.32062 2.60892}
+	{Bone "part3"}
+	{Matrix34
+		0.931223	0.362003	-0.0421498
+		0.363156	-0.931425	0.023759
+		0.0306586	0.0374323	0.998829
+		0.11013	-0.15034	-1.52843
+	}
+}
+{Volume "part4"
+	{Polyhedron "part4.vol"}
+	{Bone "part4"}
+	{Matrix34
+		-0.0026604	0.99921	-0.0396629
+		0.997065	-0.000384489	-0.0765645
+		0.0765194	0.0397502	0.996275
+		-0.917649	-0.0196888	-1.53026
+	}
+}
+{Volume "part5"
+	{Polyhedron "part5.vol"}
+	{Bone "part5"}
+	{Matrix34
+		0.0133489	0.781542	0.62371
+		0.997562	-0.0531398	0.0452368
+		-0.0684983	-0.621585	0.780346
+		1.10804	3.98873	-8.03422
+	}
+}
+{Volume "wheelleft1"
+	{Cylinder 4.85441 3.27961}
+	{Bone "wheell1"}
+	{Matrix34
+		0.716186	0.0637551	-0.0125029
+		0.0624363	-0.713665	-0.0626769
+		0.017965	-0.061335	0.716281
+		-0.0758506	-0.457616	2.50115
+	}
+}
+{Volume "wheelleft2"
+	{Cylinder 5.55795 3.52267}
+	{Bone "wheell2"}
+	{Matrix34
+		0.996195	0.0871547	0
+		-0.00131564	0.0150257	-0.999889
+		0.0871445	-0.996079	-0.0150813
+		-0.168619	1.92732	0.0291876
+	}
+}
+{Volume "wheelright1"
+	{Cylinder 4.85441 3.17041}
+	{Bone "wheelr1"}
+	{Matrix34
+		-1	0	0
+		0	0.984807	-0.17365
+		0	-0.173649	-0.984804
+		0	-0.275266	2.30923
+	}
+}
+{Volume "wheelright2"
+	{Cylinder 4.99512 3.20563}
+	{Bone "wheelr2"}
+	{Matrix34
+		-1	0	0
+		0	-0.10453	-0.994522
+		0	-0.994521	0.10453
+		0	-1.59404	0.167543
+	}
+}

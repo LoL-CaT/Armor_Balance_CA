@@ -1,0 +1,209 @@
+;Exported by: ubrashaev
+;Date:        Mon Sep 26 14:35:30 2005
+;File:        D:\-Projects1_5-\-work-\3d\-Model-\-AVTO\bm13\bm13_xx.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				0.997775	0.00032599	-0.0666748
+				4.50696e-005	0.999985	0.00556363
+				0.0666756	-0.00555425	0.997759
+				1.4034	-0.244242	0
+			}
+			{VolumeView "body.ply"}
+			{bone "cabin"
+				{parameters "ID=cabin;"}
+				{Matrix34
+					0.998641	-0.00856924	-0.0513982
+					0.00856382	0.999963	-0.000325725
+					0.0513991	-0.000114882	0.998678
+					19.204	0.328178	25.4442
+				}
+				{VolumeView "cabin.ply"}
+			}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{Matrix34
+					0.985222	0.171269	-0.00194252
+					-0.17128	0.985157	-0.0113628
+					-3.23978e-005	0.0115276	0.999933
+					-41.8269	-0.762405	18.9084
+				}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun"
+					{parameters "ID=gun;"}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						0.676268	1.02329	6.22094
+					}
+					{VolumeView "gun.ply"}
+				}
+			}
+			{bone "engine"
+				{parameters "ID=engine;"}
+				{Position 36.9111	0.337452	21.2064}
+				{VolumeView "engine.ply"}
+			}
+			{bone "part1"
+				{Matrix34
+					0.550188	-0.834752	-0.0219802
+					0.832793	0.550447	-0.0588625
+					0.0612345	0.0140805	0.998024
+					23.546	11.6506	27.0032
+				}
+				{VolumeView "part1.ply"}
+			}
+			{bone "part2"
+				{Matrix34
+					0.43575	0.899068	-0.0424067
+					-0.899566	0.436597	0.0128445
+					0.0300627	0.0325507	0.999018
+					23.1739	-11.4768	27.0178
+				}
+				{VolumeView "part2.ply"}
+			}
+			{bone "part3"
+				{Position -29.2914	15.8788	13.749}
+				{VolumeView "part3.ply"}
+			}
+			{bone "part5"
+				{Matrix34
+					1	0	0
+					0	0.939693	-0.34202
+					0	0.34202	0.939693
+					36.9035	0.337453	29.3985
+				}
+				{VolumeView "part5.ply"}
+			}
+			{bone "part6"
+				{Matrix34
+					0.985222	0.171269	-0.00194253
+					3.24127e-005	-0.0115277	-0.999933
+					-0.17128	0.985157	-0.0113629
+					-20.3483	4.3922	46.3808
+				}
+				{VolumeView "part6.ply"}
+			}
+		}
+		{bone "pivot_back"
+			{parameters "ID=Body;"}
+			{Matrix34
+				0.99994	0	-0.0109709
+				0	1	0
+				0.0109709	0	0.99994
+				-37.5153	0.00387669	9.76897
+			}
+			{VolumeView "pivot_back.ply"}
+			{bone revolute "spring_l2"
+				{Matrix34
+					-0.99994	0	-0.0109709
+					0	1	0
+					0.0109709	0	-0.99994
+					-0.896616	13.3353	-0.59
+				}
+				{bone revolute "wheell2"
+					{parameters "ID=wheelleft2;"}
+					{Matrix34
+						0.99994	0	0.0109707
+						0.0109707	0	-0.99994
+						0	1	0
+						-20.9163	3.05828	0.31258
+					}
+					{VolumeView "wheell2.ply"}
+				}
+				{bone revolute "wheell3"
+					{parameters "ID=wheelleft3;"}
+					{Matrix34
+						0.99994	0	0.0109707
+						0.0109707	0	-0.99994
+						0	1	0
+						-0.0729994	3.05827	0.31258
+					}
+					{VolumeView "wheell3.ply"}
+				}
+			}
+			{bone revolute "spring_r2"
+				{Matrix34
+					-0.99994	0	-0.0109709
+					0	1	0
+					0.0109709	0	-0.99994
+					-0.896616	-12.6772	-0.59
+				}
+			}
+		}
+		{bone "pivot_front"
+			{parameters "ID=Body;"}
+			{Matrix34
+				0.99994	0	-0.0109709
+				0	1	0
+				0.0109709	0	0.99994
+				47.3707	0.156576	9.41845
+			}
+			{VolumeView "pivot_front.ply"}
+			{bone revolute "steer_l1"
+				{Matrix34
+					-0.999924	0	0.012324
+					0	1	0
+					-0.012324	0	-0.999924
+					0.0130166	12.5795	-2.33684
+				}
+			}
+			{bone revolute "steer_r1"
+				{Matrix34
+					-0.999924	0	0.012324
+					0	1	0
+					-0.012324	0	-0.999924
+					0.0128603	-12.4917	-2.32259
+				}
+			}
+		}
+	}
+}
+{Volume "body1"
+	{Box 47.3536 30.0042 21.8722}
+	{Bone "body"}
+	{Position -32.0815	0.0716675	27.4246}
+}
+{Volume "part6"
+	{Box 92.1442 6.90756 14.6626}
+	{Bone "part6"}
+	{Matrix34
+		0.990988	-0.133946	0.00075762
+		0.133927	0.990715	-0.0233844
+		0.00238154	0.0232751	0.999726
+		-1.24751	-0.130073	7.46702
+	}
+}
+{Volume "part5"
+	{Box 19.2293 10.7288 15.3198}
+	{Bone "part5"}
+	{Position 0.960612	-4.90976	-7.41591}
+}
+{Volume "part3"
+	{Box 41.8662 11.2783 9.0933}
+	{Bone "part3"}
+	{Position 0	0	0}
+}
+{Volume "part2"
+	{Box 14.3852 3.12313 23.8395}
+	{Bone "part2"}
+	{Position -7.126	-0.979159	-0.0781843}
+}
+{Volume "part1"
+	{Box 14.3852 3.20214 23.8394}
+	{Bone "part1"}
+	{Position -7.30017	1.35202	-0.0800981}
+}
+{Volume "body"
+	{Box 122.171 30.0042 7.01819}
+	{Bone "body"}
+	{Position -0.86184	0.0369228	15.5745}
+}

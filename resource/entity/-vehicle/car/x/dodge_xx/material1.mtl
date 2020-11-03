@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "dodgwc51_xx"}
+	{blend none}
+}

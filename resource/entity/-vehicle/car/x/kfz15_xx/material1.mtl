@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/sdkfz15_dif_xx"}
+	{bump "$/model/sdkfz15_nm_xx"}
+	{specular "$/model/sdkfz15_sp_xx"}
+	{color "230 230 230 25"}
+	{blend none}
+}

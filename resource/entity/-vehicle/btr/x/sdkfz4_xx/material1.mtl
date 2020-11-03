@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/panzerwerfer42_x"}
+	{specular "$/model/panzerwerfer42_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

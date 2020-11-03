@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/gmc_xx"}
+	{specular "$/model/gmc_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

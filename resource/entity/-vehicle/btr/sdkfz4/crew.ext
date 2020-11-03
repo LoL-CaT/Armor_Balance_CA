@@ -1,0 +1,26 @@
+;SDL
+
+{boarder
+	{anm "driver"
+		{forward	{begin	"board_SdKfz251-1"}}
+		{reverse 	{end	"emit_body"}}
+	}
+
+	{anm "commander"
+		{forward	{begin	"board_SdKfz251-1"}}
+		{reverse 	{end	"emit_tank_1"}}
+	}
+}
+
+(define "crew_human"
+	{placer
+		{place "%place" {visor "%visor"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+
+("crew_human" place(driver) door(emit1) animation(driver) visor(driver))
+("crew_human" place(commander) door(emit3) animation(commander)	visor(main))

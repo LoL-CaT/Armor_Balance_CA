@@ -1,0 +1,13 @@
+{game_entity
+	{Extension "kubel_x.mdl"}
+	{Volume "wheelr2"
+	}
+	{Volume "wheell2"
+	}
+	{Volume "wheelr1"
+	}
+	{Volume "wheell1"
+	}
+	{Volume "glass"
+	}
+}

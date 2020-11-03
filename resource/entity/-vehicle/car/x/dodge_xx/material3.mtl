@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "dodge_tent_xx"}
+	{blend test}
+}

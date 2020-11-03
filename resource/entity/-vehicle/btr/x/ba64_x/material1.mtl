@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "ba64_x"}
+	{specular "$/model/ba64_sp"}
+	{color "229 229 229 20"}
+	{blend test}
+}

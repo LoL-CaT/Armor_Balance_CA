@@ -1,0 +1,5 @@
+{material envmap
+	{diffuse "$/model/zis5_glass"}
+	{mask "$/model/zis5_glass_sp"}
+	{blend blend}
+}

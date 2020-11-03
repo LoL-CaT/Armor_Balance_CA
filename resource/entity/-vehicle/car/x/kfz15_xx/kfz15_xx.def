@@ -1,0 +1,31 @@
+{game_entity
+	{Extension "kfz15_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "engine"
+	}
+	{Volume "fuel"
+	}
+	{Volume "inventory"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+	{Volume "part3"
+	}
+	{Volume "part4"
+	}
+	{Volume "part5"
+	}
+	{Volume "pivot_front"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+}

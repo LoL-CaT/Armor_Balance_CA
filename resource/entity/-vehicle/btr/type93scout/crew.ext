@@ -1,0 +1,44 @@
+;SDL
+
+{boarder
+	{anm "left"
+		{forward	{begin	"board_willis_driver"} {base"doorleft"}}
+		{reverse 	{end	"board_willis_driver" -1}  {base"doorleft" -1}}
+	}
+
+	{anm "right"
+		{forward	{begin	"board_dodge"}	{base"doorright"}}
+		{reverse 	{end	"seat_Willis_passenger" -1} {base"doorright" -1}}
+	}
+
+	{anm "gunner2"
+		{forward	{begin	"board_dodge"} {end "seat_m7_mgunner"} {base"doorright"}}
+		{reverse 	{end	"seat_Willis_passenger" -1} {base"doorright" -1}}
+	}
+}
+;{Placer
+;	{place "gunner2"		{LinkBone "gunner2"}	{Group "crew"}	}
+;}
+
+;seat_gunner_stand   board_bigcar  board_big-highcar
+
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"} {visor "%visor"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+
+;("board_animation" place(gunner2)	board_begin(board_bigcar) board_end(seat_driver_car) base(doorright))
+
+
+("crew_human" place(driver)		door(emit1) group(crew)		animation(left)	    visor(driver))
+("crew_human" place(commander)	door(emit2) group(crew)		animation(right)	    visor(driver))
+("crew_human" place(gunner)		door(emit1) group(crew)	   	 animation(left)	    visor(main))
+("crew_human" place(gunner2)	door(emit1) group(crew)		animation(left)	    visor(main))
+("crew_human" place(gunner3)	door(emit2) group(crew)		animation(right)	    visor(main))
+
+;("crew_human" place(gunner2)		door(emit2) group(crew)	   	 animation(gunner2)	    visor(main))

@@ -1,0 +1,29 @@
+{game_entity
+	{Extension "sdkfz234_4_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "detail1"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "part1"
+	}
+	{Volume "part3"
+	}
+	{Volume "turret"
+	}
+	{Volume "wheelleft3"
+	}
+	{Volume "wheelleft4"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+	{Volume "wheelright3"
+	}
+	{Volume "wheelright4"
+	}
+}

@@ -1,0 +1,19 @@
+{game_entity
+	{Extension "sdkfz232_x.mdl"}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelleft3"
+	}
+	{Volume "wheelleft4"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+	{Volume "wheelright3"
+	}
+	{Volume "wheelright4"
+	}
+}

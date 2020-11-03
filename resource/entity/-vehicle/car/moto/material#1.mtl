@@ -1,0 +1,11 @@
+{material bump
+	{diffuse "body_lit"}
+	{bump "$/model/bmw_bump"}
+	{specular "$/model/bmw_sp"}
+	{color "229 229 229 17"}
+	{blend none}
+	{tile}
+}
+
+
+

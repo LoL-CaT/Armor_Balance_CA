@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "basooka"}
+	{specular "basooka_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

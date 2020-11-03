@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/bf_tent"}
+	{blend none}
+}

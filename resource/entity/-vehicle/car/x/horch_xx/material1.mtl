@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "horch_xx"}
+	{blend test}
+	{tile}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/horch_glass"}
+	{specular "$/model/horch_glass_sp"}
+	{color "229 229 229 25"}
+	{blend blend}
+}

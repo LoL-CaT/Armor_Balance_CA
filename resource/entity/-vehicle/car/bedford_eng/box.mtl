@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/inventory/box1"}
+	{blend none}
+}

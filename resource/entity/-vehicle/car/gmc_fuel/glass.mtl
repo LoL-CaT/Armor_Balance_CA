@@ -1,0 +1,6 @@
+{material envmap
+	{diffuse "$/model/glass"}
+	{mask "$/model/glass_mask"}
+	{envmap "$/environment/envmap_gold01"}
+	{blend blend}
+}

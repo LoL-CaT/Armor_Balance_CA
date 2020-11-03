@@ -1,0 +1,29 @@
+{game_entity
+	{Extension "gaz67b_xx.mdl"}
+	{Volume "pivot_front"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright2"
+	}
+	{Volume "part5"
+	}
+	{Volume "part3"
+	}
+	{Volume "part1"
+	}
+	{Volume "part4"
+	}
+	{Volume "part2"
+	}
+	{Volume "inventory"
+	}
+	{Volume "body"
+	}
+	{Volume "engine"
+	}
+}

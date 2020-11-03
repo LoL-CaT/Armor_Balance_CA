@@ -1,0 +1,15 @@
+{game_entity
+	{Extension "gmc_x.mdl"}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelright3"
+	}
+	{Volume "wheelright2"
+	}
+	{Volume "wheelleft3"
+	}
+	{Volume "wheelleft2"
+	}
+}

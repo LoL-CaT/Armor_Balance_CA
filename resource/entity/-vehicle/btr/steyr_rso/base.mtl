@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "styerrso"}
+	{bump "$/model/styerrso_bp"}
+	{specular "$/model/styerrso_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

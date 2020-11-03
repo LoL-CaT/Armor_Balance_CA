@@ -1,0 +1,191 @@
+;Exported by: sasha
+;Date:        Fri Jul 25 16:46:48 2008
+;File:        D:\-Projects-\-3DWork-\-Vehicles-\engineers\Bredford_tech_x.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"} {speed 0.5}}
+			}
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-1.93907	0	25.7126
+			}
+			{VolumeView "body.ply"}
+			{bone "cabine"
+				{parameters "ID=cabin;"}
+				{animation
+					{sequence "break" {file "cabine_b.anm"} {speed 0.5}}
+				}
+				{Position -42.1123	0.498524	0}
+				{VolumeView "cabine.ply"}
+				{bone revolute "steerrudder"
+					{Matrix34
+						-0.642788	0.766044	0
+						0	0	1
+						0.766044	0.642788	0
+						-1.00489	-0.907396	-6.52747
+					}
+					{VolumeView "steerrudder.ply"}
+				}
+				{bone "doorl"
+					{parameters "ID=cabin;"}
+					{Position 2.08402	-1.62416	14.4944}
+					{VolumeView "doorl.ply"}
+				}
+				{bone "doorr"
+					{parameters "ID=cabin;"}
+					{Position 2.16687	-5.07898	-14.4924}
+					{VolumeView "doorr.ply"}
+				}
+				{bone "glass"
+					{Matrix34
+						-0.258819	-0.965926	0
+						0	0	1
+						-0.965926	0.258819	0
+						0.948048	8.40031	0
+					}
+					{VolumeView "glass.ply"}
+				}
+				{bone "engine"
+					{parameters "CommonMesh;ID=engine;"}
+					{animation
+						{sequence "break" {file "engine_b.anm"} {speed 0.5}}
+					}
+					{Position -8.41593	1.02481	0}
+					{VolumeView "engine.ply"}
+				}
+			}
+			{bone "bodyback"
+				{parameters "ID=bodyback;"}
+				{animation
+					{sequence "break" {file "bodyback_b.anm"} {speed 0.35}}
+				}
+				{Orientation
+					-1	0	0
+					0	0	1
+					0	1	0
+				}
+				{VolumeView "bodyback.ply"}
+				{bone "tent"
+					{parameters "CommonMesh;ID=bodyback;"}
+					{Position -5.45505	0.02106	16.5287}
+					{VolumeView "tent.ply"}
+				}
+			}
+		}
+		{bone "pivot_back"
+			{Position -33.2007	0.135052	9.31859}
+			{VolumeView "pivot_back.ply"}
+			{bone "spring_l"
+				{Position 0.0485001	15.956	0.0555601}
+				{bone revolute "wheell2"
+					{parameters "ID=wheelleft2;"}
+					{Matrix34
+						0.999847	0	-0.0175168
+						-0.0175168	0	-0.999847
+						0	-1	0
+						0.0712776	-2.23727	-0.55607
+					}
+					{VolumeView "wheell2.ply"}
+				}
+			}
+			{bone "spring_r"
+				{Position 0.0484962	-16.2289	0.0555573}
+				{bone revolute "wheelr2"
+					{parameters "ID=wheelright2;"}
+					{Matrix34
+						0.999847	0	-0.0175169
+						-0.0175169	0	-0.999847
+						0	1	0
+						0.0822754	2.3206	-0.545371
+					}
+					{VolumeView "wheelr2.ply"}
+				}
+			}
+		}
+		{bone "pivot_front"
+			{Position 45.0769	-0.0273893	8.86732}
+			{VolumeView "pivot_front.ply"}
+			{bone revolute "steer_l"
+				{Matrix34
+					-1	0	0
+					0	1	0
+					0	0	-1
+					0.0547447	15.956	0.055563
+				}
+				{bone revolute "wheell1"
+					{parameters "ID=wheelleft1;"}
+					{Matrix34
+						-0.999848	0	-0.0174523
+						-0.0174523	0	0.999848
+						0	-1	0
+						-0.302319	-2.03374	-0.0360222
+					}
+					{VolumeView "wheell1.ply"}
+				}
+			}
+			{bone revolute "steer_r"
+				{Matrix34
+					-1	0	0
+					0	1	0
+					0	0	-1
+					0.0547447	-16.2158	0.055562
+				}
+				{bone revolute "wheelr1"
+					{parameters "ID=wheelright1;"}
+					{Matrix34
+						-1	0	0
+						0	0	1
+						0	1	0
+						-0.299484	2.46714	-0.0345869
+					}
+					{VolumeView "wheelr1.ply"}
+				}
+			}
+		}
+	}
+}
+{Volume "wheelleft1"
+	{Cylinder 5.9878 4.83242}
+	{Bone "wheell1"}
+	{Matrix34
+		0.999848	0.0174528	0
+		-0.0174528	0.999848	0
+		0	0	-1
+		-0.0452579	0.0991827	-2.4335
+	}
+}
+{Volume "wheelleft2"
+	{Cylinder 5.89424 4.83242}
+	{Bone "wheell2"}
+	{Matrix34
+		0.999847	-0.0175173	0
+		0.0175173	0.999847	0
+		0	0	-1
+		0.0749561	-0.0421944	-2.47458
+	}
+}
+{Volume "wheelright1"
+	{Cylinder 5.9878 4.83242}
+	{Bone "wheelr1"}
+	{Position -0.0406689	0.0985243	-2.42536}
+}
+{Volume "wheelright2"
+	{Cylinder 5.89424 4.83242}
+	{Bone "wheelr2"}
+	{Matrix34
+		0.999846	-0.0175171	0
+		0.0175171	0.999847	0
+		0	0	1
+		0.0641277	-0.0313053	-2.42815
+	}
+}

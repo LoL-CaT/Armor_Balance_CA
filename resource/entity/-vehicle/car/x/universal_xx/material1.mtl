@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/uni1_x"}
+	{specular "$/model/uni_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

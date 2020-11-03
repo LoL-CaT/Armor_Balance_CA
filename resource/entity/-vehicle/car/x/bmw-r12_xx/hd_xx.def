@@ -1,0 +1,6 @@
+{game_entity
+	{Extension "bmw-r12_xx.mdl"}
+
+	{texmod "ally_x"}
+	
+}

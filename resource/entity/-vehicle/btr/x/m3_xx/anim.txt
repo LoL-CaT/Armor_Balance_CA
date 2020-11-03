@@ -1,0 +1,99 @@
+-= Animation: break, Node Body =-
+	Frame 0 {
+		Visibility 1
+		Position	0.43025	0.0522079	12.2452
+		Orientation	0.0174448 -0.0218111 0.000190293 0.99961
+	}
+	Frame 56 {
+		Visibility 1
+		Position	0.43025	0.0522079	12.2452
+		Orientation	0.0174448 -0.0218111 0.000190293 0.99961
+	}
+-= Animation: break, Node Body =-
+	Frame 0 {
+		Visibility 1
+		Position	0.43025	0.0522079	12.2452
+		Orientation	0.0174448 -0.0218111 0.000190293 0.99961
+	}
+	Frame 56 {
+		Visibility 1
+		Position	0.43025	0.0522079	12.2452
+		Orientation	0.0174448 -0.0218111 0.000190293 0.99961
+	}
+-= Animation: break, Node Body =-
+	Frame 0 {
+		Visibility 1
+		Position	0.43025	0.0522079	12.2452
+		Orientation	0.0174448 -0.0218111 0.000190293 0.99961
+	}
+	Frame 56 {
+		Visibility 1
+		Position	0.43025	0.0522079	12.2452
+		Orientation	0.0174448 -0.0218111 0.000190293 0.99961
+	}
+-= Animation: break, Node doorleft =-
+	Frame 0 {
+		Visibility 1
+		Position	16.0114	16.0912	10.4221
+		Orientation	0.00218367 0.0140474 0.465908 0.884719
+	}
+	Frame 56 {
+		Visibility 1
+		Position	16.0114	16.0912	10.4221
+		Orientation	0.00218367 0.0140474 0.465908 0.884719
+	}
+-= Animation: break, Node doorleft =-
+	Frame 0 {
+		Visibility 1
+		Position	16.0114	16.0912	10.4221
+		Orientation	0.00218367 0.0140474 0.465908 0.884719
+	}
+	Frame 56 {
+		Visibility 1
+		Position	16.0114	16.0912	10.4221
+		Orientation	0.00218367 0.0140474 0.465908 0.884719
+	}
+-= Animation: break, Node doorleft =-
+	Frame 0 {
+		Visibility 1
+		Position	16.0114	16.0912	10.4221
+		Orientation	0.00218367 0.0140474 0.465908 0.884719
+	}
+	Frame 56 {
+		Visibility 1
+		Position	16.0114	16.0912	10.4221
+		Orientation	0.00218367 0.0140474 0.465908 0.884719
+	}
+-= Animation: break, Node part4 =-
+	Frame 0 {
+		Visibility 1
+		Position	-55.628	-6.75625	13.061
+		Orientation	0 0 0.922201 -0.386711
+	}
+	Frame 56 {
+		Visibility 1
+		Position	-55.628	-6.75625	13.061
+		Orientation	0 0 0.922201 -0.386711
+	}
+-= Animation: break, Node part4 =-
+	Frame 0 {
+		Visibility 1
+		Position	-55.628	-6.75625	13.061
+		Orientation	0 0 0.922201 -0.386711
+	}
+	Frame 56 {
+		Visibility 1
+		Position	-55.628	-6.75625	13.061
+		Orientation	0 0 0.922201 -0.386711
+	}
+-= Animation: break, Node part4 =-
+	Frame 0 {
+		Visibility 1
+		Position	-55.628	-6.75625	13.061
+		Orientation	0 0 0.922201 -0.386711
+	}
+	Frame 56 {
+		Visibility 1
+		Position	-55.628	-6.75625	13.061
+		Orientation	0 0 0.922201 -0.386711
+	}

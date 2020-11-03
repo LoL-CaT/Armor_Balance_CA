@@ -1,0 +1,7 @@
+{material envmap
+	{diffuse "horch853"}
+	{envmap "$/environment/envmap_gold01"}
+	{mask "horch853_sp"}
+	{blend none}
+	{tile}
+}

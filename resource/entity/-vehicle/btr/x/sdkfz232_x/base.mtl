@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "sd232_x"}
+	{bump "$/model/sd232_bp"}
+	{specular "$/model/sd232_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

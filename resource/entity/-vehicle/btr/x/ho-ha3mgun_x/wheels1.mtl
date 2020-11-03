@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/japan2_wheels_x"}
+	{blend test}
+}

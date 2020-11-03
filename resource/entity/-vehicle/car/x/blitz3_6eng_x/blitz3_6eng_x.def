@@ -1,0 +1,13 @@
+{game_entity
+	{Extension "blitz3_6eng_x.mdl"}
+	{Volume "glass"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "at_x"}
+	{bump "$/model/at_bp"}
+	{specular "$/model/at_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

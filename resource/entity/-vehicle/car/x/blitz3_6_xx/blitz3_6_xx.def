@@ -1,0 +1,12 @@
+{game_entity
+	{Extension "Blitz3_6_xx.mdl"}
+	{Volume "Body"
+		{tags "body"}
+		{component "body"}
+		{thickness 5}   
+	}
+	{Volume "bodyback"
+		{thickness 2}
+	}
+
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "isuzutx40_new"}
+	{bump "isuzutx40_bp"}
+	{specular "isuzutx40_sp"}
+	{color "229 229 229 94"}
+	{blend none}
+}

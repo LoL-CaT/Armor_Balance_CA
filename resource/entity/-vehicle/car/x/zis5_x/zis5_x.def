@@ -1,0 +1,13 @@
+{game_entity
+	{Extension "zis5_x.mdl"}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "glass"
+	}
+}

@@ -1,0 +1,89 @@
+-= Animation: break, Node Body =-
+	Frame 15 {
+		Visibility 1
+		Position	1.00461	0.550114	3.88781
+		Orientation	0 0 0 1
+	}
+	Frame 16 {
+		Position	1.00461	0.550114	4.43969
+		Orientation	-0.00118901 0.0132336 -3.81404e-005 0.999912
+	}
+	Frame 17 {
+		Position	1.00461	0.550114	4.99157
+		Orientation	-0.00356652 0.0287293 -0.000114405 0.999581
+	}
+	Frame 18 {
+		Position	1.00461	0.550114	5.54344
+		Orientation	-0.00534849 0.0430866 -0.000171566 0.999057
+	}
+	Frame 19 {
+		Position	1.00461	0.550114	6.09532
+		Orientation	-0.0047527 0.0529119 -0.000152454 0.998588
+	}
+	Frame 20 {
+		Position	1.00461	0.550114	6.6472
+		Orientation	0 0.0548169 0 0.998496
+	}
+	Frame 21 {
+		Position	1.00461	0.550114	6.30007
+		Orientation	0.0100977 0.0465386 0.000323913 0.998865
+	}
+	Frame 22 {
+		Position	1.00461	0.550114	5.95295
+		Orientation	0.0243484 0.0303241 0.000781043 0.999243
+	}
+	Frame 23 {
+		Position	1.00461	0.550114	5.60582
+		Orientation	0.0409555 0.00956032 0.00131376 0.999114
+	}
+	Frame 24 {
+		Position	1.00461	0.550114	5.2587
+		Orientation	0.0581232 -0.0123443 0.00186446 0.998231
+	}
+	Frame 25 {
+		Position	1.00461	0.550114	4.91157
+		Orientation	0.0740704 -0.0319731 0.00237601 0.996737
+	}
+	Frame 26 {
+		Position	1.00461	0.550114	4.56444
+	}
+	Frame 27 {
+		Position	1.00461	0.550114	4.21732
+	}
+	Frame 28 {
+		Position	1.00461	0.550114	3.87019
+	}
+	Frame 29 {
+		Position	1.00461	0.550114	3.52306
+	}
+	Frame 30 {
+		Position	1.00461	0.550114	3.17594
+	}
+	Frame 31 {
+		Position	1.00461	0.550114	3.82131
+	}
+	Frame 32 {
+		Position	1.00461	0.550114	4.46669
+	}
+	Frame 33 {
+		Position	1.00461	0.550114	5.11207
+	}
+	Frame 34 {
+		Position	1.00461	0.550114	4.70526
+	}
+	Frame 35 {
+		Visibility 1
+		Position	1.00461	0.550114	4.29845
+		Orientation	0.0740704 -0.0319731 0.00237601 0.996737
+	}
+-= Animation: break, Node Engine =-
+	Frame 0 {
+		Visibility 1
+		Position	21.323	-0.0528564	7.36538
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 1
+		Position	21.323	-0.0528564	7.36538
+		Orientation	0 0 0 1
+	}

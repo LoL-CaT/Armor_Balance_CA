@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "body_lit"}
+	{specular "il2_sp"}
+	{color "229 229 229 84"}
+	{blend none}
+}

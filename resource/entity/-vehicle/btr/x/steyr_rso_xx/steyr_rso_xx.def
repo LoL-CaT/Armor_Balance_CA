@@ -1,0 +1,31 @@
+{game_entity
+	{Extension "steyr_rso_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "body4"
+	}
+	{Volume "body5"
+	}
+	{Volume "body6"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+	{Volume "part3"
+	}
+	{Volume "part4"
+	}
+	{Volume "part5"
+	}
+	{Volume "part6"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+}

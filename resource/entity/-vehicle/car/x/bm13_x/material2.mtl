@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/bm13_x"}
+	{blend test}
+	{tile}
+}

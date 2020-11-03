@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/glass1"}
+	{specular "$/model/glass1_sp"}
+	{color "229 229 229 25"}
+	{blend blend}
+}

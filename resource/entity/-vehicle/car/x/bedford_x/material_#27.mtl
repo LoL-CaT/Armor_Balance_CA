@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/bedford_x"}
+	{specular "$/model/bedford_sp_xx"}
+	{color "229 229 229 165"}
+	{blend none}
+}

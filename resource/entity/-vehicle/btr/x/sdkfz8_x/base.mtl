@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/sdkfz8_dif_x"}
+	{bump "$/model/sdkfz8_nm_xx"}
+	{specular "$/model/sdkfz8_sp_xx"}
+	{color "229 229 229 25"}
+	{blend none}
+}

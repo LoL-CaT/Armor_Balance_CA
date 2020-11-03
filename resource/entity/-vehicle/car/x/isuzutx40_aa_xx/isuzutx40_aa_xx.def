@@ -1,0 +1,17 @@
+{game_entity
+	{Extension "isuzutx40_aa_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "cabin"
+	}
+	{Volume "engine"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+}

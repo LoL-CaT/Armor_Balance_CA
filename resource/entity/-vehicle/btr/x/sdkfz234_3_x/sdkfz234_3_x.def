@@ -1,0 +1,5 @@
+{game_entity
+	{Extension "sdkfz234_3_x.mdl"}
+	{Volume "ram"
+	}
+}

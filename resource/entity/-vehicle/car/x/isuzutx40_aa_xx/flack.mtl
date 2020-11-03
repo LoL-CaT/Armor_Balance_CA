@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "flakt2_20_xx"}
+	{specular "flakt2_20_sp"}
+	{color "229 229 229 12"}
+	{blend none}
+}

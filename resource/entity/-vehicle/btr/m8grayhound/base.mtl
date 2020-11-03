@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "m8greyhound"}
+	{bump "$/model/m8greyhound_bp"}
+	{specular "$/model/m8greyhound_sp"}
+	{color "230 230 230 76"}
+	{blend test}
+}

@@ -1,0 +1,7 @@
+{material envmap
+	{diffuse "horch_x"}
+	{envmap "$/environment/envmap_gold01"}
+	{mask "$/model/horch_x_sp"}
+	{blend test}
+	{tile}
+}

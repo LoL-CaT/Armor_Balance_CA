@@ -1,0 +1,27 @@
+{game_entity
+	{Extension "kubel_xx.mdl"}
+	{Volume "wheelright2"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "part4"
+	}
+	{Volume "part3"
+	}
+	{Volume "body"
+	}
+	{Volume "shield"
+	}
+	{Volume "part5"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+	{Volume "part6"
+	}
+}

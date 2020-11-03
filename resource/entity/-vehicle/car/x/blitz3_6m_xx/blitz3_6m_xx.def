@@ -1,0 +1,35 @@
+{game_entity
+	{Extension "blitz3_6m_xx.mdl"}
+	{Volume "pivot_back_vol01"
+	}
+	{Volume "pivot_back"
+	}
+	{Volume "wheelright2"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "pivot_front_vol01"
+	}
+	{Volume "pivot_front"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "body"
+	}
+	{Volume "part3"
+	}
+	{Volume "part2"
+	}
+	{Volume "part1"
+	}
+	{Volume "part5"
+	}
+	{Volume "part4"
+	}
+	{Volume "bodyback"
+	}
+	{Volume "cabin"
+	}
+}

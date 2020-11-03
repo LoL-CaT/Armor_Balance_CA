@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "sdkfz4_x.mdl"}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelleft1"
+	}
+}

@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/gaz67_xx"}
+	{bump "$/model/gaz67_bp_x"}
+	{blend none}
+}

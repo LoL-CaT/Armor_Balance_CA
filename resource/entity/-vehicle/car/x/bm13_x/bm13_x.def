@@ -1,0 +1,15 @@
+{game_entity
+	{Extension "bm13_x.mdl"}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright3"
+	}
+	{Volume "wheelright2"
+	}
+	{Volume "wheelleft3"
+	}
+	{Volume "wheelleft2"
+	}
+}

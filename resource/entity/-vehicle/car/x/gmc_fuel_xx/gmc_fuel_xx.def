@@ -1,0 +1,41 @@
+{game_entity
+	{Extension "gmc_fuel_xx.mdl"}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelright3"
+	}
+	{Volume "wheelright2"
+	}
+	{Volume "wheelleft3"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "part5"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2-1"
+	}
+	{Volume "part2"
+	}
+	{Volume "body-5"
+	}
+	{Volume "body-2"
+	}
+	{Volume "body-1"
+	}
+	{Volume "body"
+	}
+	{Volume "engine"
+	}
+	{Volume "part3"
+	}
+	{Volume "part4"
+	}
+	{Volume "cabin"
+	}
+	{Volume "part6"
+	}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "gms_fuel_xx"}
+	{specular "$/model/gms_fuel_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

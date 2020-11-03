@@ -1,0 +1,120 @@
+;Exported by: doc
+;Date:        Wed Sep 26 21:09:46 2018
+;File:        Z:\work\0.KRIS\vehicles2\-stage2\Schweres Wurfgerat 40.41\swg41_xx_export.max
+{Skeleton
+	{bone revolute "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "pivot_front"
+			{Matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				22.738	0.257325	8.57824
+			}
+		}
+		{bone "pivot_back"
+			{Matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				-19.6503	0.257307	8.57824
+			}
+		}
+		{bone "body"
+			{Position 22.8027	0.188762	8.90051}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{limits -2 60}
+				{speed 0.01}
+				{Matrix34
+					0.984808	0	0.173649
+					-0.173649	0	0.984808
+					0	-1	0
+					-6.97864	0.227705	2.7142
+				}
+				{VolumeView "turret.ply"}
+				{bone "gun"
+					{VolumeView "gun.ply"}
+				}
+			}
+			{bone "part1"
+				{Matrix34
+					0.173648	-0.416198	-0.892539
+					0.984808	0.0733869	0.157379
+					0	-0.906308	0.422618
+					-2.20372	17.1428	3.35733
+				}
+				{VolumeView "part1.ply"}
+			}
+			{bone "part2"
+				{Matrix34
+					0.173648	0	-0.984808
+					0.984808	0	0.173648
+					0	-1	0
+					-16.6109	-15.8193	-0.749121
+				}
+				{VolumeView "part2.ply"}
+			}
+		}
+	}
+}
+{Volume "body1"
+	{Cylinder 1.21062 40.1926}
+	{Bone "body"}
+	{Matrix34
+		0.370535	-0.927424	0.0508675
+		-0.173099	-0.0151449	0.984788
+		-0.912546	-0.373704	-0.166148
+		-33.0414	6.01745	-2.59379
+	}
+}
+{Volume "body2"
+	{Cylinder 1.21062 40.1926}
+	{Bone "body"}
+	{Matrix34
+		-0.338439	-0.932218	-0.128176
+		-0.190828	-0.0653894	0.979444
+		-0.921436	0.355942	-0.155762
+		-31.8025	-6.83946	-2.58652
+	}
+}
+{Volume "body"
+	{Box 39.4225 5.04635 25.7449}
+	{Bone "body"}
+	{Matrix34
+		-0.984808	0	-0.173649
+		0.173649	0	-0.984808
+		0	-1	0
+		2.1576	-0.457767	1.63148
+	}
+}
+{Volume "gun"
+	{Box 29.8009 19.492 26.2595}
+	{Bone "gun"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		8.94899	10.2099	1.37137
+	}
+}
+{Volume "part1"
+	{Polyhedron "part1.vol"}
+	{Bone "part1"}
+	{Position 0.238403	0.186314	0.434117}
+}
+{Volume "part2"
+	{Box 9.74726 5.96457 6.6955}
+	{Bone "part2"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		0.267996	1.52276	0.479001
+	}
+}

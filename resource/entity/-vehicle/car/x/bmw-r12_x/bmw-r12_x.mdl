@@ -1,0 +1,102 @@
+;Exported by: sk
+;Date:        Wed Jul 12 17:44:55 2006
+;File:        D:\-Projects1_5-\-3DWork-\-Model-\Germany\Moto\BMW-R12_x.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-4.93939	0.689838	11.0629
+			}
+			{VolumeView "body.ply"}
+			{bone revolute "wheel3"
+				{parameters "ID=Wheel3;"}
+				{Matrix34
+					0.996195	0.00759632	0.0868235
+					0	0.996195	-0.0871554
+					-0.0871552	0.0868237	0.992404
+					8.94139	-3.98209	-18.153
+				}
+				{VolumeView "wheel3.ply"}
+			}
+			{bone revolute "wheel2"
+				{parameters "ID=Wheel2;"}
+				{Matrix34
+					0.984837	0.00750971	-0.17332
+					0.00756681	0.996252	0.0861621
+					0.173318	-0.0861671	0.981089
+					10.5215	-3.9821	5.74224
+				}
+				{VolumeView "wheel2.ply"}
+			}
+		}
+		{bone revolute "steer"
+			{parameters "ID=body;"}
+			{Matrix34
+				-0.835325	0	-0.549756
+				0	1	0
+				0.549756	0	-0.835325
+				12.8761	6.37626	11.0629
+			}
+			{VolumeView "steer.ply"}
+			{bone revolute "wheel1"
+				{parameters "ID=Wheel1;"}
+				{Matrix34
+					0.814315	0.172988	-0.554046
+					-0.547664	-0.0871558	-0.832147
+					-0.19224	0.98106	0.0237671
+					0.309003	0.0183375	4.56376
+				}
+				{VolumeView "wheel1.ply"}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 34.6448 11.7188 10.4267}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-0.173648	0.984808
+		0	0.984808	0.173648
+		1.64864	-1.60676	-8.48192
+	}
+}
+{Volume "engine"
+	{Box 11.5218 6.61592 10.5443}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		-5.18132	-3.82666	5.73624
+	}
+}
+{Volume "wheel1"
+	{Cylinder 7.32283 2.64797}
+	{Bone "wheel1"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1
+		0.0916461	0.309867	0.0626899
+	}
+}
+{Volume "wheel2"
+	{Cylinder 7.28346 2.64797}
+	{Bone "wheel2"}
+	{Position 0.0667771	0.0280821	0.0119206}
+}
+{Volume "wheel3"
+	{Cylinder 7.28346 2.64796}
+	{Bone "wheel3"}
+	{Position -0.0343096	0.0280786	0.00816798}
+}
