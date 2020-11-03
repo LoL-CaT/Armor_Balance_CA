@@ -1,0 +1,21 @@
+{bitmap
+	{Axis  16 57 }
+	{Filtering  1 }
+	{AlphaChannel  1 }
+	{Blend  Light }
+	{Animation Play Loop}
+	{Frame  "flare/flare00.tga" 90 }
+	{Frame  "flare/flare01.tga" 90 }
+	{Frame  "flare/flare02.tga" 90 }
+	{Frame  "flare/flare03.tga" 90 }
+	{Frame  "flare/flare04.tga" 90 }
+	{Frame  "flare/flare05.tga" 90 }
+	{Frame  "flare/flare06.tga" 90 }
+	{Frame  "flare/flare07.tga" 90 }
+	{Frame  "flare/flare08.tga" 90 }
+	{Frame  "flare/flare09.tga" 90 }
+	{Frame  "flare/flare10.tga" 90 }
+	{Frame  "flare/flare11.tga" 90 }
+	{Frame  "flare/flare12.tga" 90 }
+	{Frame  "flare/flare13.tga" 90 }
+}

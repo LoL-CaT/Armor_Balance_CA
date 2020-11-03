@@ -1,0 +1,7 @@
+{bitmap
+	{Axis 6 6}
+	{Filtering  1 }
+	{AlphaChannel  0 }
+	{Blend  Light }
+	{Frame  "trace_shotgun.tga" }
+}

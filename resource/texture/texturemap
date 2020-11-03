@@ -1,0 +1,5 @@
+;SDL
+{texturemap
+	{default      					"summer"		}
+	{map "/map/background/usa2/map"   "usa-bkg"		}
+}

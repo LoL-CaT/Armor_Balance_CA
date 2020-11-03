@@ -1,0 +1,19 @@
+{bitmap
+	{Axis  10 30 }
+	{Filtering  1 }
+	{AlphaChannel  1 }
+	{Blend  Light }
+;	{Animation  Play }
+	{Frame  "fire/fire00.tga" 60 }
+	{Frame  "fire/fire01.tga" 60 }
+	{Frame  "fire/fire02.tga" 60 }
+	{Frame  "fire/fire03.tga" 60 }
+	{Frame  "fire/fire04.tga" 60 }
+	{Frame  "fire/fire05.tga" 60 }
+	{Frame  "fire/fire06.tga" 60 }
+	{Frame  "fire/fire07.tga" 60 }
+	{Frame  "fire/fire08.tga" 60 }
+	{Frame  "fire/fire09.tga" 60 }
+	{Frame  "fire/fire10.tga" 60 }
+	{Frame  "fire/fire11.tga" 60 }
+}
