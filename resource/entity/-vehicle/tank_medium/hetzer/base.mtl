@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "hetzer"}
+	{bump "$/model/pz38_bp"}
+	{blend none}
+}

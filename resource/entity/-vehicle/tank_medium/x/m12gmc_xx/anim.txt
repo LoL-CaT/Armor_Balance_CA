@@ -1,0 +1,11 @@
+-= Animation: break, Node body =-
+	Frame 0 {
+		Visibility 1
+		Position	-3.95104	-0.411596	20.8562
+		Orientation	0.0304202 -0.0258775 0.00490303 0.99919
+	}
+	Frame 43 {
+		Visibility 1
+		Position	-3.95104	-0.411596	20.8562
+		Orientation	0.0304202 -0.0258775 0.00490303 0.99919
+	}

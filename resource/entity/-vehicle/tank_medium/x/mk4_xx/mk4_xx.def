@@ -1,0 +1,30 @@
+{game_entity
+	{Extension "mk4_xx.mdl"}
+	{obstacleId "tank"}
+	
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 30
+		    {front  50}
+			{bottom	10}
+			{rear   50}
+		}   
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 30
+		    {front  50}
+			{bottom	10}
+			{rear   50}
+		}
+	}
+	{volume "turret"
+		{thickness 30 0.3
+			{front  50}
+		}
+	}
+	{Volume "Part1"
+	}
+}

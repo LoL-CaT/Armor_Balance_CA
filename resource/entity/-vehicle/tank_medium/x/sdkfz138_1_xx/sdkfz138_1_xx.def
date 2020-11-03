@@ -1,0 +1,19 @@
+{game_entity
+	{Extension "sdkfz138_1_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "body4"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "inventory"
+	}
+	{Volume "sticky"
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "shieldsjagdpanzeriv_xx"}
+	{bump "$/model/shieldsjagdpanzeriv_bp"}
+	{specular "$/model/shieldsjagdpanzeriv_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

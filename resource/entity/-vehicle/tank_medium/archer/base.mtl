@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "archer"}
+	{bump "$/model/archer_bp"}
+	{specular "$/model/archer_sp"}
+	{color "229 229 229 38"}
+	{blend test}
+}

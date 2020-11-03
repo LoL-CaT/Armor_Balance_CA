@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/bishop_x"}
+	{specular "$/model/bishop_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+	{tile}
+}

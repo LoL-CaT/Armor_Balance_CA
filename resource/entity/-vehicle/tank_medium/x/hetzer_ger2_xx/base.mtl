@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/hetzer_dif_xx"}
+	{bump "$/model/hetzer_nm_xx"}
+	{specular "$/model/hetzer_sp_xx"}
+	{color "229 229 229 25"}
+	{blend none}
+}

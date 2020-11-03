@@ -1,0 +1,23 @@
+{game_entity
+	{Extension "chi-he_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "cover01"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun1"
+	}
+	{Volume "gun2"
+	}
+	{Volume "inventory"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+}

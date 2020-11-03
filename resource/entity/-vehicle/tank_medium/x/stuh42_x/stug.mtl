@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "stuh 42_x"}
+	{bump "$/model/stuh 42_bp"}
+	{specular "$/model/stuh 42_sp"}
+	{color "229 229 229 130"}
+	{blend test}
+}

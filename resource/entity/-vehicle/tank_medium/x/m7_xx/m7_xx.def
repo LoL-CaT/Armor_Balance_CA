@@ -1,0 +1,17 @@
+{game_entity
+	{Extension "m7_xx.mdl"}
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+		{thickness 38
+			{front  108}
+		}   
+	}
+	{volume "body2"
+		{component "body"}
+		{tags "body"}
+		{thickness 38
+			{front  108}
+		}
+	}
+}

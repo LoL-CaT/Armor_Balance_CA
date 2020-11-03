@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "chi-he_x"}
+	{bump "$/model/chi-he_bp"}
+	{specular "$/model/chi-he_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

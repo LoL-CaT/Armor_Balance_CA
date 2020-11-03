@@ -1,0 +1,6 @@
+{material simple
+	{diffuse "$/animation/track_t3485"
+		{AlphaChannel 0}
+	}
+	{tile}
+}

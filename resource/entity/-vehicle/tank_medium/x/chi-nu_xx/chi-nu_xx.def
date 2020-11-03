@@ -1,0 +1,21 @@
+{game_entity
+	{Extension "chi-nu_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "crew"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "inventory"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret"
+	}
+}

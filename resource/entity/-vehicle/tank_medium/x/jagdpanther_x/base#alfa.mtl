@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "jagdpanther_x"}
+	{bump "$/model/jagdpanther_bp"}
+	{specular "$/model/jagdpanther_sp"}
+	{color "229 229 229 84"}
+	{blend test}
+}

@@ -1,0 +1,29 @@
+{game_entity
+	{obstacleId "tank"}
+	{Extension "bishop_xx.mdl"}
+	{volume "body"
+		{component "body"}
+		{tags "body"}
+		{thickness 20
+			{front  30}
+		    {rear	10}
+			{bottom 5}
+		}   
+	}
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+		{thickness 40
+			{front  60}
+		    {rear	8}
+		}   
+	}
+	{Volume "part4"
+	}
+	{Volume "part3"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+}

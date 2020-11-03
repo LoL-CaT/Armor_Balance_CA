@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mk3_x"}
+	{blend none}
+}

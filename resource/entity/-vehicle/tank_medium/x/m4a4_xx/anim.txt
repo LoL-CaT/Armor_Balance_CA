@@ -1,0 +1,11 @@
+-= Animation: break, Node engine =-
+	Frame 200 {
+		Visibility 1
+		Position	-33.4412	-0.042927	14.3617
+		Orientation	0 0 0 1
+	}
+	Frame 236 {
+		Visibility 1
+		Position	-33.4412	-0.042927	14.3617
+		Orientation	0 0 0 1
+	}

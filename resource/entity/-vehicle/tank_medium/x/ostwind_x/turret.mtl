@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "ostwind_turret_x"}
+	{bump "$/model/ostwind_turret_bp"}
+	{specular "$/model/ostwind_turret_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

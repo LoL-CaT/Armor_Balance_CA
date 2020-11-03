@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "a12"}
+	{bump "$/model/a12_bp"}
+	{blend test}
+}

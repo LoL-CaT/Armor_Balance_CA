@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "comet a34_x"}
+	{bump "$/model/comet a34_bp"}
+	{specular "$/model/comet a34_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

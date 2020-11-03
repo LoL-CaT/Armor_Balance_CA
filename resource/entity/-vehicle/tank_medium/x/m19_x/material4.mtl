@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/m19_x"}
+	{blend test}
+}

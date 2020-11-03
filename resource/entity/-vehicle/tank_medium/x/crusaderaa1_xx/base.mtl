@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "mkvi_40mm_xx"}
+	{bump "$/model/mkvi_40mm_bp"}
+	{specular "$/model/mkvi_40mm_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

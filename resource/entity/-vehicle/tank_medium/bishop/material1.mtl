@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "bishop"}
+	{bump "$/model/bishop_bp"}
+	{specular "$/model/bishop_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

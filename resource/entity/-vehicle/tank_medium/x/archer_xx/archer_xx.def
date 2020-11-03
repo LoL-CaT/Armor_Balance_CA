@@ -1,0 +1,29 @@
+{game_entity
+	{Extension "archer_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "body5"
+	}
+	{Volume "body7"
+	}
+	{Volume "box01"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "part2"
+	}
+	{Volume "part3"
+	}
+	{Volume "part4"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+}

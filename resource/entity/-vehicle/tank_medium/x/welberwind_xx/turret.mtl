@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "wirbelwind_turret_xx"}
+	{bump "$/model/wirbelwind_turret_bp"}
+	{specular "$/model/wirbelwind_turret_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

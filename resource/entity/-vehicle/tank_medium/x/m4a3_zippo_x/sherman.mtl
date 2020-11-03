@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "sherman m4a3 zippo_x"}
+	{bump "$/model/sherman m4a3 zippo_bp"}
+	{specular "$/model/sherman m4a3 105_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}
