@@ -1,0 +1,142 @@
+{entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.2))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium"  "ss-d" "mine_exploder_ss_d" "fuel_tank"}
+	{targetSelector "tank_bullet"}
+	{targetClass "tank" "bullet"}
+	
+	{extender "enumerator"}
+
+ 	{volume "body"
+			{tags "body"}
+			{component "body"}
+	}
+ 	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body3"
+			{tags "body"}
+			{component "body"}
+	}
+	{volume "body4"
+			{tags "body"}
+			{component "body"}
+	}
+	{volume "body5"
+				{tags "body"}
+				{component "body"}
+	}
+	{volume "body6"
+				{tags "body"}
+				{component "body"}
+	}
+	{volume "engine"
+			{tags "engine"}
+			{component "engine"}
+	}
+
+	("armor_spa_light" armor(25 15))
+	("shield" args 10)
+
+	{extender "inventory"
+		{box
+			{item  "ammo mgun" 1650}
+			{item "bulletssd" 50}
+		}
+	}
+
+	{extender "enumerator"}
+	("crew_4_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"} {end "seat_armor"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+	
+	{Weaponry
+		{place "flamer1"
+			{basic}
+			{weapon "flamer_ssd" filled}
+			{foresight "foresight9"}
+			{gunner "commander"}
+			{charger "commander"}
+		}
+		{place "flamer2"
+			{basic}
+			{weapon "flamer_ssd" filled}
+			{foresight "foresight10"}
+			{gunner "gunner"}
+			{charger "gunner"}
+		}
+		{place "flamer3"
+			{basic}
+			{weapon "flamer_ssd" filled}
+			{foresight "foresight13"}
+			{gunner "gunner"}
+			{charger "gunner"}
+		}
+		{place "flamer4"
+			{basic}
+			{weapon "flamer_ssd" filled}
+			{foresight "foresight12"}
+			{gunner "charger"}
+			{charger "charger"}
+		}
+		{place "flamer5"
+			{basic}
+			{weapon "flamer_ssd" filled}
+			{foresight "foresight11"}
+			{gunner "charger"}
+			{charger "charger"}
+		}
+		{place "mgun"
+			{basic}
+			{weapon "type99lmg" filled}
+			{foresight "foresight3"}
+			{gunner "commander"}
+			{charger "commander"}
+				}
+		{place "mgun1"
+			{weapon "type99lmg" filled}
+			{foresight "foresight4"}
+			{gunner "gunner"}
+			{charger "gunner"}
+		}
+	}
+
+	{mass 23000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.7))
+		{Locomotion ("locomotion")
+			{MaxSpeed	16}
+			{StartTime	3}
+			{TurnStart	0.5}
+			{TurnTime	5}
+		}
+	}
+	{Extension "ss-d.mdl"}
+}

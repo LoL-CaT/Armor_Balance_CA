@@ -1,0 +1,14 @@
+{game_entity
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 13
+			{top	10}
+			{bottom	 6}
+		}
+	}
+	{volume "turret"
+		{thickness 15}
+	}
+	{Extension "pz1b_xx.mdl"}
+}

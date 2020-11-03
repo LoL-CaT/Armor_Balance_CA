@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "honi_xx"}
+	{bump "$/model/honi_bm"}
+	{blend none}
+}

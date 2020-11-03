@@ -1,0 +1,13 @@
+{game_entity
+	{Extension "lvt4_xx.mdl"}
+	{Volume "trackright"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "gunsad"
+	}
+	{Volume "turret"
+	}
+	{Volume "body"
+	}
+}

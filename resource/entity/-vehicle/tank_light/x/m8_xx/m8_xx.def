@@ -1,0 +1,22 @@
+{game_entity
+	{Extension "m8_xx.mdl"}
+	{obstacleId "tank"}
+	{Volume "part3"
+		{thickness 10}
+	}
+	{Volume "part1"
+		{thickness 10}
+	}
+	{Volume "part2"
+		{thickness 10}
+	}
+	{Volume "body"
+		{thickness 10}
+	}
+	{Volume "turret"
+		{thickness 10}
+	}
+	{Volume "gun"
+		{thickness 10}
+	}
+}

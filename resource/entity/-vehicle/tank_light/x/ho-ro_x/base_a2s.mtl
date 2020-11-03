@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "horo_x"}
+	{bump "$/model/horo_bm"}
+	{specular "$/model/horo_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

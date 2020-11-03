@@ -1,0 +1,11 @@
+-= Animation: break, Node mantlet =-
+	Frame 45 {
+		Visibility 1
+		Position	9.37086	-0.199263	14.1332
+		Orientation	-0.000569997 -0.0116754 -0.0354562 0.999303
+	}
+	Frame 65 {
+		Visibility 1
+		Position	9.37086	-0.199263	14.1332
+		Orientation	-0.000569997 -0.0116754 -0.0354562 0.999303
+	}

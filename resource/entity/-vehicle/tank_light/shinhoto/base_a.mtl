@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "shinhoto"}
+	{bump "$/model/shinhoto_bm"}
+	{specular "$/model/shinhoto_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

@@ -1,0 +1,190 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/l_tank_mobility.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	
+	{collider "tank.light"}
+	{props "light" "turret_rotator" "vision_vehicle_medium" "muzzle_zenite" "tank"}
+	{targetClass "light_tank"}
+	{patherId "tank.light"}
+	
+	{Volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "gun"
+		{component "gun"}
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{component "turret"}
+	}
+	{Volume "engine"
+		{component "engine"}
+	}
+	{volume "trackleft"
+		{component "trackleft"}
+	}
+	{volume "trackright"
+		{component "trackright"}
+	}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	{extender "inventory"
+		{box
+                       {item "ammo bullet20x138b zenite" 90}
+                       {item "ammo bullet20x138b ap" 90}
+                       {item "ammo bullet20x138b fg" 90}
+                       {item "ammo mgun" 2100}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+            {weapon "20mm_kwk38" filling "ammo bullet20x138b zenite" 10} 
+			{charger "gunner"}        
+			("abm_zenite")
+		}
+		{place "mgun"
+            {type "mgun_coaxial"}
+            {weapon "mg34tank" filled}
+			{gunner "commander"}
+			{charger "commander"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	(define "crew_human_929"
+		{placer
+			{place "%place" {group "crew"} {visor "%visor"} {turnoff {sensor} {shadow} {targetable}}}
+		}
+		{boarder
+			{door "%door1"}
+			; {door "%door2"}
+			{link "%door1" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+			; {link "%door2" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+		}
+	)
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_t34_driver"} {end "seat_driver_car"} {base "open_driver"}}
+			{reverse 	{end	"emit_t34_hold"} {base "close_driver"}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_hummel"} {end "seat_driver_car"} {base "open_back_door"}}
+			{reverse 	{end	"emit_body" 1} {base "open_back_door" -1}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_hummel"} {end "seat_driver_car"} {base "open_back_door"}}
+			{reverse 	{end	"emit_body" 1} {base "open_back_door" -1}}
+		}
+	}
+	{placer
+		{place "driver" {group "crew"} {visor "driver"}}
+	}
+	{boarder
+		{door "emit0"}
+		; {door "emit1"}
+		{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+	}
+	("crew_human_929" place(driver)	door1(emit0) visor(main))
+	("crew_human_929" place(gunner)	door1(emit1) visor(main))
+	("crew_human_929" place(commander)	door1(emit2) visor(main))
+
+	("armor_light_shit" turret(30 15 15 10) body(35 15 15 10))
+	("wheels_armor" args 5)		
+	("armor_engine"  t(10 10 10 10))
+	("armor_mantlet" t(40))
+	
+    {sensor
+	        {visor "tur2_122"
+			{vision "tank_pr"}
+			{bone "visor122"}
+		}
+	        {visor "tur2_144"
+			{vision "tank_pr"}
+			{bone "visor144"}
+		}		
+	        {visor "tur2_188"
+			{vision "tank_pr"}
+			{bone "visor188"}
+		}		
+	        {visor "tur2_1"
+			{vision "tank_pr"}
+			{bone "visor11"}
+		}
+	        {visor "tur2_2"
+			{vision "tank_pr"}
+			{bone "visor12"}
+		}
+	        {visor "tur2_3"
+			{vision "tank_pr"}
+			{bone "visor13"}
+		}
+	        {visor "tur2_4"
+			{vision "tank_pr"}
+			{bone "visor14"}
+		}
+	        {visor "tur2_5"
+			{vision "tank_pr"}
+			{bone "visor15"}
+		}
+	        {visor "tur2_6"
+			{vision "tank_pr"}
+			{bone "visor16"}
+		}
+	        {visor "tur2_7"
+			{vision "tank_pr"}
+			{bone "visor17"}
+		}
+	        {visor "tur2_8"
+			{vision "tank_pr"}
+			{bone "visor18"}
+		}	
+	}	
+	
+	("shield" args 5)
+	{extender "shield"
+		{on}
+	}
+
+	{component "shieldl1" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldl3" {tags "shield"}}
+	{component "shieldl4" {tags "shield"}}
+	{component "shieldl5" {tags "shield"}}
+	{component "shieldl6" {tags "shield"}}
+	{component "shieldr1" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+	{component "shieldr3" {tags "shield"}}
+	{component "shieldr4" {tags "shield"}}
+	{component "shieldr5" {tags "shield"}}
+	{component "shieldr6" {tags "shield"}}	
+
+	{mass 9500}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.3) len(-0.65))
+		("mobility"
+			speed(40)
+			weight(10.0)
+			power(140)
+			fuel(170)	
+		)
+	}
+
+	{Extension "pzkpfw_2f.mdl"}
+	
+	{bone "turret"
+		{speed2 12}
+	}	
+	
+}

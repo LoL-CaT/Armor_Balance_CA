@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "marder 3h_xx"}
+	{bump "$/model/marder 3h_bp"}
+	{specular "$/model/marder 3h_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

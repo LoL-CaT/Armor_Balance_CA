@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "shinhoto_xx"}
+	{bump "$/model/shinhoto_bm"}
+	{blend none}
+}

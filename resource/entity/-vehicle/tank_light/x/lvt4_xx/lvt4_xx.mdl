@@ -1,0 +1,148 @@
+;Exported by: sk
+;Date:        Wed Mar 22 10:05:36 2006
+;File:        D:\-Projects1_5-\-3DWork-\-Model-\Americos\LWT4\LVT4_xx.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position -3.71841	0.596932	27.7348}
+			{VolumeView "body.ply"}
+			{bone "turret"
+				{Position -15.5035	-0.596932	17.9824}
+				{VolumeView "turret.ply"}
+				{bone "mgun_rot"
+					{Position -12.4702	-5.21179	11.7615}
+					{VolumeView "mgun_rot.ply"}
+					{bone "mgun"
+						{Matrix34
+							1	0	0
+							0	0	1
+							0	-1	0
+							6.37094	0	4.15282
+						}
+					}
+				}
+				{bone "part1"
+					{Position 10.423	-11.128	2.13578}
+					{VolumeView "part1.ply"}
+				}
+			}
+			{bone "part2"
+				{Matrix34
+					-0.906308	0.422618	0
+					-0.422618	-0.906308	0
+					0	0	1
+					-12.993	17.403	4.05316
+				}
+				{VolumeView "part2.ply"}
+			}
+			{bone "part3"
+				{Matrix34
+					-0.906308	0.422618	0
+					-0.422618	-0.906308	0
+					0	0	1
+					-57.8997	17.403	4.05316
+				}
+				{VolumeView "part3.ply"}
+			}
+			{bone "part4"
+				{Matrix34
+					0	-0.906308	0.422618
+					0	-0.422618	-0.906308
+					1	0	0
+					-47.8189	2.34967	-1.8976
+				}
+				{VolumeView "part4.ply"}
+			}
+			{bone "enumerator"
+				{Matrix34
+					0.994491	-0.0692872	-0.0786581
+					0.104451	0.718169	0.687985
+					0.00882126	-0.692411	0.721449
+					-11.2596	19.006	14.3483
+				}
+				{VolumeView "enumerator.ply"}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Position 1.81907	-0.569891	-18.2053}
+}
+{Volume "gunsad"
+	{Cylinder 2.33537 22.5591}
+	{Bone "turret"}
+	{Matrix34
+		0.17725	0.87726	0.446091
+		0.204564	-0.476209	0.855207
+		0.962671	-0.0603314	-0.263864
+		17.943	0.0834238	6.89
+	}
+}
+{Volume "part1"
+	{Box 8.24529 5.62418 3.79039}
+	{Bone "part1"}
+	{Matrix34
+		0.906308	0.422618	0
+		-0.422618	0.906308	0
+		0	0	1
+		0	0	0.0184946
+	}
+}
+{Volume "part2"
+	{Box 8.24529 5.62418 11.6915}
+	{Bone "part2"}
+	{Matrix34
+		0.906308	0.422618	0
+		-0.422618	0.906308	0
+		0	0	1
+		0	0	0.0244217
+	}
+}
+{Volume "part3"
+	{Box 7.11147 5.62418 9.93774}
+	{Bone "part3"}
+	{Matrix34
+		0.906308	0.422618	0
+		-0.422618	0.906308	0
+		0	0	1
+		0.574798	0.268036	0.942121
+	}
+}
+{Volume "part3_vol01"
+	{Box 4.8358 2.81209 15.9998}
+	{Bone "part4"}
+	{Matrix34
+		0.906308	0.422618	0
+		-0.422618	0.906308	0
+		0	0	1
+		0.0959761	1.29487	0.877903
+	}
+}
+{Volume "trackleft"
+	{Polyhedron "trackleft.vol"}
+	{Bone "body"}
+	{Position -1.60328	27.4193	-27.5293}
+}
+{Volume "trackright"
+	{Polyhedron "trackright.vol"}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		-1.63524	-27.5628	-27.5293
+	}
+}
+{Volume "turret"
+	{Polyhedron "turret.vol"}
+	{Bone "turret"}
+	{Position -0.345309	-0.0639273	-0.642364}
+}

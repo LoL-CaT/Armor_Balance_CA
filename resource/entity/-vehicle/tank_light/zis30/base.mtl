@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "zis30"}
+	{bump "$/model/zis30_bp"}
+	{specular "$/model/zis30_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

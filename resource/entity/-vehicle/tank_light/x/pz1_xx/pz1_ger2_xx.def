@@ -1,0 +1,27 @@
+{game_entity
+	{Extension "pz1_xx.mdl"}
+	{Volume "trackright"
+	}
+	{Volume "part5"
+	}
+	{Volume "part4"
+	}
+	{Volume "part3"
+	}
+	{Volume "part2"
+	}
+	{Volume "part1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body1"
+	}
+	{Volume "turret"
+	}
+	{Volume "shield_right"
+	}
+	{Volume "shield_left"
+	}
+	{Volume "trackleft"
+	}
+}

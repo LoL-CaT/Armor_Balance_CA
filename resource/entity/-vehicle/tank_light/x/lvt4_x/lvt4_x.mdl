@@ -1,0 +1,169 @@
+;Exported by: garry
+;Date:        Tue Apr 18 13:00:20 2006
+;File:        D:\-Projects-\-3DWork-\Model\Танки\LVT4\LVT4_x.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{animation
+				{sequence "break" {file "body.anm"}}
+			}
+			{Position -3.71841	0.596932	27.7348}
+			{VolumeView "body.ply"}
+			{bone "turret"
+				{parameters "ID=turret;"}
+				{animation
+					{sequence "break" {file "turret.anm"}}
+				}
+				{Position -15.5035	-0.596932	17.9824}
+				{VolumeView "turret.ply"}
+				{bone "gun_rot"
+					{parameters "ID=gun;"}
+					{animation
+						{sequence "break" {file "gun.anm"} {speed 1}}
+					}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						19.6376	-0.0396326	6.10678
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{Matrix34
+							1	0	0
+							0	0	-1
+							0	1	0
+							9.32945	0	0
+						}
+						{VolumeView "gun.ply"}
+					}
+				}
+				{bone revolute "turret_mgun"
+					{parameters "ID=turret;"}
+					{limits -40 90}
+					{speed 0.05}
+					{terminator}
+					{Position -12.5588	-4.97286	10.9505}
+					{VolumeView "turret_mgun.ply"}
+					{bone "mgun_rot"
+						{Matrix34
+							1	0	0
+							0	0	1
+							0	-1	0
+							6.85106	-0.175448	5.68554
+						}
+						{bone "mgun2"
+						}
+					}
+				}
+			}
+			{bone revolute "wheelr1"
+				{parameters "ID=trackright;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	-1	0
+					58.9579	-27.8183	-2.63268
+				}
+				{VolumeView "wheelr1.ply"}
+			}
+			{bone revolute "wheelr2"
+				{parameters "ID=trackright;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	-1	0
+					-62.1356	-27.8184	2.86454
+				}
+				{VolumeView "wheelr2.ply"}
+			}
+			{bone revolute "wheell1"
+				{parameters "ID=trackleft;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					58.9579	30.5667	-2.63267
+				}
+				{VolumeView "wheell1.ply"}
+			}
+			{bone revolute "wheell2"
+				{parameters "ID=trackleft;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					-62.1356	30.5667	2.86454
+				}
+				{VolumeView "wheell2.ply"}
+			}
+			{bone "enumerator"
+				{Matrix34
+					0.994491	-0.0692872	-0.0786581
+					0.104451	0.718169	0.687985
+					0.00882126	-0.692411	0.721449
+					-11.2596	19.006	14.3483
+				}
+				{VolumeView "enumerator.ply"}
+			}
+			{bone "mgun"
+				{parameters "ID=body;"}
+				{Matrix34
+					0	0	-1
+					0	1	0
+					1	0	0
+					50.7714	-9.56522	10.9838
+				}
+				{VolumeView "mgun.ply"}
+			}
+		}
+		{bone "wheels_l"
+			{parameters "ID=trackleft;"}
+			{animation
+				{sequence "break" {file "trackL.anm"} {speed 0.3}}
+			}
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-5.07268	30.3315	7.92901
+			}
+			{VolumeView "wheels_l.ply"}
+			{bone "trackl"
+				{parameters "CommonMesh;ID=trackleft;"}
+				{Position 3.26067	14.2572	-1.255}
+				{VolumeView "trackl.ply"}
+			}
+		}
+		{bone "wheels_r"
+			{parameters "ID=trackright;"}
+			{animation
+				{sequence "break" {file "trackR.anm"} {speed 0.3}}
+			}
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-5.07267	-29.1085	7.929
+			}
+			{VolumeView "wheels_r.ply"}
+			{bone "trackr"
+				{parameters "CommonMesh;ID=trackright;"}
+				{Matrix34
+					1	0	0
+					0	1	0
+					0	0	-1
+					-3.26067	-14.2572	1.17587
+				}
+				{VolumeView "trackr.ply"}
+			}
+		}
+	}
+}

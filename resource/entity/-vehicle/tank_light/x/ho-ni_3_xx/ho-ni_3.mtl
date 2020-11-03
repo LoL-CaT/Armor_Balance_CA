@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "ho-ni3_xx"}
+	{bump "$/model/ho-ni3_bp"}
+	{specular "$/model/ho-ni3_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

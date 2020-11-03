@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "ss-d_x.mdl"}
+	{Volume "fork2"
+	}
+	{Volume "fork3"
+	}
+}

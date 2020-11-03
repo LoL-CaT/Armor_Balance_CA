@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "tetrarch_xx"}
+	{bump "$/model/tetrarch_bp"}
+	{specular "$/model/tetrarch_bp"}
+	{color "229 229 229 117"}
+	{blend none}
+}

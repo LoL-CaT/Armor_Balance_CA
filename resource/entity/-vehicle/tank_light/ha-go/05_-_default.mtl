@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "ha-go"}
+	{bump "$/model/ha-go512_bp"}
+	{specular "$/model/ha-go512_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

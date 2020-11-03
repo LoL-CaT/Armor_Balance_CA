@@ -1,0 +1,275 @@
+;Exported by: ubrashaev
+;Date:        Tue Jul 19 18:00:21 2005
+;File:        D:\-Projects1_5-\-work-\3d\-Model-\-“¿Õ »\M8SCOT\M8-Scott_x.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "wheelsr"
+			{parameters "CommonMesh;ID=trackright;"}
+			{animation
+				{sequence "break" {file "TrackR_b.anm"}}
+			}
+			{Position -5.7332	-21.1225	6.35596}
+			{VolumeView "wheelsr.ply"}
+			{bone "wheelr2"
+				{parameters "ID=trackright;"}
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	1	0
+					30.6293	4.52007	-1.23773
+				}
+				{LODView
+					{VolumeView "wheelr2.ply"}
+					{VolumeView "wheelr2_lod1.ply"}
+				}
+			}
+			{bone "wheelr3"
+				{parameters "ID=trackright;"}
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	1	0
+					17.4284	4.52008	-1.23773
+				}
+				{LODView
+					{VolumeView "wheelr3.ply"}
+					{VolumeView "wheelr3_lod1.ply"}
+				}
+			}
+			{bone revolute "wheelr4"
+				{parameters "ID=trackright;"}
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	1	0
+					6.08825	4.52008	-1.23773
+				}
+				{LODView
+					{VolumeView "wheelr4.ply"}
+					{VolumeView "wheelr4_lod1.ply"}
+				}
+			}
+			{bone revolute "wheelr5"
+				{parameters "ID=trackright;"}
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	1	0
+					-7.1126	4.52008	-1.23774
+				}
+				{LODView
+					{VolumeView "wheelr5.ply"}
+					{VolumeView "wheelr5_lod1.ply"}
+				}
+			}
+			{bone "trackr"
+				{parameters "CommonMesh;ID=trackright;"}
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					7.42978	3.80258	5.80716
+				}
+				{VolumeView "trackr.ply"}
+			}
+			{bone revolute "wheelr1"
+				{parameters "radius=1;ID=trackright;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	-1	0
+					41.1673	0.522636	6.93274
+				}
+				{VolumeView "wheelr1.ply"}
+			}
+			{bone revolute "wheelr6"
+				{parameters "radius=1;ID=trackright;"}
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	1	0
+					-27.0034	4.18677	0.792
+				}
+				{LODView
+					{VolumeView "wheelr6.ply"}
+					{VolumeView "wheelr6_lod1.ply"}
+				}
+			}
+		}
+		{bone "wheelsl"
+			{parameters "CommonMesh;ID=trackleft;"}
+			{animation
+				{sequence "break" {file "TrackL_b.anm"}}
+			}
+			{Matrix34
+				0	-1	0
+				-1	0	0
+				0	0	1
+				-5.7332	20.7354	6.35596
+			}
+			{LODView
+				{VolumeView "wheelsl.ply"}
+				{VolumeView "wheelsl_lod1.ply"}
+			}
+			{bone "trackl"
+				{parameters "CommonMesh;ID=trackleft;"}
+				{Matrix34
+					0	-1	0
+					0	0	1
+					1	0	0
+					2.65494	-6.43058	3.51633
+				}
+				{VolumeView "trackl.ply"}
+			}
+			{bone revolute "wheell1"
+				{parameters "radius=1;ID=trackleft;"}
+				{Matrix34
+					0	1	0
+					0	0	1
+					-1	0	0
+					0.529823	-41.1673	6.9327
+				}
+				{VolumeView "wheell1.ply"}
+			}
+			{bone revolute "wheell2"
+				{parameters "ID=trackleft;"}
+				{Matrix34
+					0	-1	0
+					0	0	-1
+					1	0	0
+					4.52007	-30.6293	-1.23771
+				}
+				{LODView
+					{VolumeView "wheell2.ply"}
+					{VolumeView "wheell2_lod1.ply"}
+				}
+			}
+			{bone revolute "wheell3"
+				{parameters "ID=trackleft;"}
+				{Matrix34
+					0	-1	0
+					0	0	-1
+					1	0	0
+					4.52007	-17.4284	-1.23772
+				}
+				{LODView
+					{VolumeView "wheell3.ply"}
+					{VolumeView "wheell3_lod1.ply"}
+				}
+			}
+			{bone revolute "wheell4"
+				{parameters "ID=trackleft;"}
+				{Matrix34
+					0	-1	0
+					0	0	-1
+					1	0	0
+					4.52007	-6.08825	-1.23773
+				}
+				{LODView
+					{VolumeView "wheell4.ply"}
+					{VolumeView "wheell4_lod1.ply"}
+				}
+			}
+			{bone revolute "wheell5"
+				{parameters "ID=trackleft;"}
+				{Matrix34
+					0	-1	0
+					0	0	-1
+					1	0	0
+					4.52008	7.1126	-1.23774
+				}
+				{LODView
+					{VolumeView "wheell5.ply"}
+					{VolumeView "wheell5_lod1.ply"}
+				}
+			}
+			{bone revolute "wheell6"
+				{parameters "radius=1;ID=trackleft;"}
+				{Matrix34
+					0	-1	0
+					0	0	-1
+					1	0	0
+					4.18674	27.0034	0.79204
+				}
+				{LODView
+					{VolumeView "wheell6.ply"}
+					{VolumeView "wheell6_lod1.ply"}
+				}
+			}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			;{animation
+			;	{sequence "break" {file "body_b.anm"}}
+			;}
+			{Position 5.34359	-0.0740128	23.1615}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+			}
+			{bone "turret"
+				{parameters "ID=turret;"}
+				;{animation
+				;	{sequence "break" {file "turret_b.anm"}}
+				;}
+				{Position -4.10214	0.0547638	13.8064}
+				{LODView
+					{VolumeView "turret.ply"}
+					{VolumeView "turret_lod1.ply"}
+				}
+				{bone "gun_rot"
+					{parameters "ID=gun;"}
+					;{animation
+					;	{sequence "break" {file "gun_b.anm"}}
+					;}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						19.6376	-0.0396347	-0.172035
+					}
+					{LODView
+						{VolumeView "gun_rot.ply"}
+						{VolumeView "gun_rot_lod1.ply"}
+					}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{Matrix34
+							1	0	0
+							0	0	-1
+							0	1	0
+							9.32945	0	0
+						}
+						{VolumeView "gun.ply"}
+					}
+				}
+				{bone "mgun_rot"
+					{Position -12.4396	-5.24847	5.93398}
+					{VolumeView "mgun_rot.ply"}
+					{bone "mgun"
+						{Matrix34
+							0.996672	0	0.081522
+							-0.081522	0	0.996672
+							0	-1	0
+							8.56255	0.0919619	3.61009
+						}
+					}
+				}
+			}
+			{bone "enumerator"
+				{Matrix34
+					0.954656	-0.294536	0.0433648
+					0.294269	0.95564	0.0125607
+					-0.0451407	0.000769737	0.99898
+					-35.2255	21.0976	5.1653
+				}
+				{VolumeView "enumerator.ply"}
+			}
+		}
+	}
+}

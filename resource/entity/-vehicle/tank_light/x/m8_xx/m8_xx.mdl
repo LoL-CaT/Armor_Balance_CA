@@ -1,0 +1,156 @@
+;Exported by: ubrashaev
+;Date:        Tue Jul 19 17:52:20 2005
+;File:        D:\-Projects1_5-\-work-\3d\-Model-\-“¿Õ »\M8SCOT\M8-Scott_xx.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "wheelsr"
+			{parameters "CommonMesh;ID=trackright;"}
+			{Position -5.7332	-21.1225	6.35596}
+			{VolumeView "wheelsr.ply"}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position 5.34359	-0.0740173	23.1615}
+			{VolumeView "body.ply"}
+			{bone "turret"
+				{parameters "ID=turret;"}
+				{Matrix34
+					0.98106	0.173648	-0.0858316
+					-0.172987	0.984808	0.0151344
+					0.0871557	0	0.996195
+					-4.10214	0.0547674	13.8064
+				}
+				{VolumeView "turret.ply"}
+				{bone "gun_rot"
+					{parameters "ID=gun;"}
+					{Matrix34
+						0.980418	0.187785	-0.059303
+						0.048704	0.0605649	0.996975
+						0.190809	-0.980341	0.0502331
+						22.1469	3.63839	-1.55726
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{Matrix34
+							1	0	0
+							0	0	-1
+							0	1	0
+							9.32945	0	0
+						}
+						{VolumeView "gun.ply"}
+					}
+				}
+				{bone "mgun_rot"
+					{Matrix34
+						0.983297	0.172214	-0.0589049
+						-0.175377	0.983044	-0.053552
+						0.0486838	0.0629881	0.996826
+						-8.01098	-7.12188	6.69423
+					}
+					{VolumeView "mgun_rot.ply"}
+					{bone "mgun"
+						{Matrix34
+							0.996671	0	0.0815221
+							-0.081522	0	0.996671
+							0	-1	0
+							8.56255	0.0919615	3.61009
+						}
+					}
+				}
+			}
+			{bone "part2"
+				{Position -48.0487	0.0137658	5.04167}
+				{VolumeView "part2.ply"}
+			}
+			{bone "part1"
+				{parameters "radius=1;ID=trackright;"}
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	1	0
+					-38.0802	-16.8617	-16.0135
+				}
+				{VolumeView "part1.ply"}
+			}
+			{bone "part3"
+				{Position 29.9129	-18.0164	-5.78828}
+				{VolumeView "part3.ply"}
+			}
+			{bone "enumerator"
+				{Matrix34
+					0.954656	-0.294535	0.0433648
+					0.294269	0.95564	0.0125607
+					-0.0451407	0.000769726	0.99898
+					-35.2255	21.0976	5.1653
+				}
+				{VolumeView "enumerator.ply"}
+			}
+		}
+		{bone "wheelsl"
+			{parameters "CommonMesh;ID=trackleft;"}
+			{Matrix34
+				0	-1	0
+				-1	0	0
+				0	0	1
+				-5.7332	20.7354	6.35596
+			}
+			{VolumeView "wheelsl.ply"}
+		}
+	}
+}
+{Volume "part3"
+	{Box 12.8434 7.16245 8.29621}
+	{Bone "part3"}
+	{Matrix34
+		0.939693	0	-0.34202
+		0	1	0
+		0.34202	0	0.939693
+		1.14448	-0.10078	-0.137605
+	}
+}
+{Volume "part1"
+	{Cylinder 6.7465 2.92472}
+	{Bone "part1"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		0	0	-1.46236
+	}
+}
+{Volume "part2"
+	{Box 10.31 21.2082 8.34529}
+	{Bone "part2"}
+	{Position -1.1621	-0.0047915	0.320843}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Position -6.44372	0	-15.7494}
+}
+{Volume "turret"
+	{Polyhedron "turret.vol"}
+	{Bone "turret"}
+	{Matrix34
+		0.999897	-0.0102214	0.0101057
+		0.0099644	0.999634	0.025162
+		-0.0103592	-0.0250587	0.999632
+		-0.0794954	-0.0779704	-6.90064
+	}
+}
+{Volume "gun"
+	{Cylinder 2.33537 22.5591}
+	{Bone "gun"}
+	{Matrix34
+		-0.0720537	0.996857	0.032931
+		-3.17015e-005	-0.0330193	0.999454
+		0.9974	0.0720129	0.00241067
+		-12.0289	-0.540062	0.418999
+	}
+}

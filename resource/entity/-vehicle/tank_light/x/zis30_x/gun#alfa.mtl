@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/gun_zis2_x"}
+	{specular "$/model/gun_zis2_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

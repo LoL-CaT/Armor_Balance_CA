@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "chi_nu"}
+	{specular "chi_nu_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

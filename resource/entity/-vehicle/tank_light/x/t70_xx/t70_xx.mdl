@@ -1,0 +1,144 @@
+;Exported by: garry
+;Date:        Thu Apr 27 15:32:31 2006
+;File:        D:\-Projects-\-3DWork-\Model\Танки\T70\hi-poly\T-70\T-70_xx.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				0.434804	0.611892	17.2204
+			}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+			}
+			{bone "part2"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.984808	0	0.173648
+					0	1	0
+					-0.173647	0	0.984808
+					-33.7817	7.67016	8.43007
+				}
+				{VolumeView "part2.ply"}
+			}
+			{bone revolute "part1"
+				{Matrix34
+					1	0	0
+					0	-1	0
+					0	0	-1
+					11.7399	-11.4303	-17.8822
+				}
+				{VolumeView "part1.ply"}
+			}
+			{bone revolute "part4"
+				{Matrix34
+					1	0	0
+					0	-1	0
+					0	0	-1
+					0.377204	-11.4303	21.2103
+				}
+				{VolumeView "part4.ply"}
+			}
+			{bone revolute "part5"
+				{Matrix34
+					1	0	0
+					0	-1	0
+					0	0	-1
+					-10.793	-11.4303	21.2103
+				}
+				{VolumeView "part5.ply"}
+			}
+			{bone revolute "turret"
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	1	0
+					-2.458	16.7906	-5.64396
+				}
+				{LODView
+					{VolumeView "turret.ply"}
+					{VolumeView "turret_lod1.ply"}
+				}
+				{bone "cover"
+					{parameters "ID=turret;"}
+					{Matrix34
+						0.965925	0	-0.25882
+						0.258817	0	0.965926
+						0	-1	0
+						3.41573	-1.1663	3.74611
+					}
+					{VolumeView "cover.ply"}
+				}
+			}
+		}
+	}
+}
+{Volume "body1"
+	{Box 35.2057 9.30965 7.41233}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	-0.422618	-0.906308
+		0	0.906308	-0.422618
+		-2.07773	8.86387	14.4868
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-2.50444	-11.9263	0.55632
+	}
+}
+{Volume "gun"
+	{Cylinder 1.11476 24.3849}
+	{Bone "turret"}
+	{Matrix34
+		0.173649	0	-0.984808
+		0	1	0
+		0.984808	0	0.173649
+		22.9224	-1.61099	0.143242
+	}
+}
+{Volume "part1"
+	{Polyhedron "part1.vol"}
+	{Bone "part1"}
+	{Position 0	0	1.03029}
+}
+{Volume "part2"
+	{Polyhedron "part2.vol"}
+	{Bone "part2"}
+	{Matrix34
+		0.90272	0.429747	-0.0203494
+		-0.429914	0.902859	-0.0044028
+		0.0164834	0.012724	0.999783
+		0	0	0
+	}
+}
+{Volume "part4"
+	{Polyhedron "part4.vol"}
+	{Bone "part4"}
+	{Position 0	0	1.03028}
+}
+{Volume "part5"
+	{Polyhedron "part5.vol"}
+	{Bone "part5"}
+	{Position 0	0	1.03028}
+}
+{Volume "turret"
+	{Box 30.6565 20.709 10.5519}
+	{Bone "turret"}
+	{Position 1.7502	-0.816483	-1.55254}
+}

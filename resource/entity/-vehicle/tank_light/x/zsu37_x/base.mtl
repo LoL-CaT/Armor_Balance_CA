@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "zsu37_x"}
+	{bump "$/model/zsu36_bp"}
+	{specular "$/model/zsu37_sp"}
+	{color "229 229 229 43"}
+	{blend none}
+}

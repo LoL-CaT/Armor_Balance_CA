@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "ke-nu512_xx"}
+	{bump "$/model/ke-nu1024_bp"}
+	{blend test}
+}

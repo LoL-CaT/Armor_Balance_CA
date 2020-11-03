@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ha-go512_xx"}
+	{blend test}
+}

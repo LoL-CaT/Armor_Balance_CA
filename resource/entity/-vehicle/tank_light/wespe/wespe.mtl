@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "wespe"}
+	{bump "$/model/wespe_bp"}
+	{specular "$/model/wespe_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

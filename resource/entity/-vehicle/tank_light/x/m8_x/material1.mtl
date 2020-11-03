@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "m8-scott_x"}
+	{specular "$/model/m8-scott_sp"}
+	{color "229 229 229 28"}
+	{blend test}
+	{tile}
+}

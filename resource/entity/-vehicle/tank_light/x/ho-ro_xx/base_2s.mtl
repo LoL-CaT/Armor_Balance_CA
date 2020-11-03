@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "horo_xx"}
+	{bump "$/model/horo_bm"}
+	{blend none}
+}

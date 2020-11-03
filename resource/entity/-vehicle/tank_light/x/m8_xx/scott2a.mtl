@@ -1,0 +1,6 @@
+{material simple
+	{diffuse "m8-scott_x"
+		{AlphaChannel 0}
+	}
+	{tile}
+}

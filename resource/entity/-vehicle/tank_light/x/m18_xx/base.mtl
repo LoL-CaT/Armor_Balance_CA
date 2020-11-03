@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "m18_xx"}
+	{bump "$/model/m18_bp"}
+	{blend none}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ss-d_x"}
+	{blend test}
+}

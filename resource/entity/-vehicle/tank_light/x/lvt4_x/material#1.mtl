@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "lvt_x"}
+	{specular "$/model/lvt_sp"}
+	{color "229 229 229 76"}
+	{blend none}
+}
