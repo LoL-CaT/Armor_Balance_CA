@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "isu122"}
+	{bump "$/model/isu122_bp"}
+	{specular "$/model/isu122_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

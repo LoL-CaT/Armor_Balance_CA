@@ -1,0 +1,4 @@
+{material bump
+	{diffuse "$/model/tex1_0"}
+	{blend test}
+}

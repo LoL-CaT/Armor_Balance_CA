@@ -1,0 +1,11 @@
+-= Animation: break, Node trackL =-
+	Frame 210 {
+		Visibility 1
+		Position	-5.33535	24.122	2.44827
+		Orientation	0 0.707107 0.707107 0
+	}
+	Frame 220 {
+		Visibility 1
+		Position	-5.33535	24.122	2.44827
+		Orientation	0 0.707107 0.707107 0
+	}

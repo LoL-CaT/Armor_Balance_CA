@@ -1,0 +1,5 @@
+{game_entity
+	{Extension "brummbar_xx.mdl"}
+	{Volume "part1"
+	}
+}

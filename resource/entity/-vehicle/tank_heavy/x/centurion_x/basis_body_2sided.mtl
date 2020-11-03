@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "centurion_x"}
+	{blend none}
+}

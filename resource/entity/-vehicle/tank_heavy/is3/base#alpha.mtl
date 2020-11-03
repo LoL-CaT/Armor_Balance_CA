@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "is3"}
+	{bump "$/model/is3_bm"}
+	{specular "$/model/is3_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

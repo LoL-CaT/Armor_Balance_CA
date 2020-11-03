@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "ho-ri1_x"}
+	{bump "$/model/ho-ri1_bp"}
+	{specular "$/model/ho-ri1_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

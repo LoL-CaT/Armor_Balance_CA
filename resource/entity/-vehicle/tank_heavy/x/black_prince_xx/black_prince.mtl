@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "black prince_xx"}
+	{bump "$/model/black prince_bp"}
+	{specular "$/model/black prince_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

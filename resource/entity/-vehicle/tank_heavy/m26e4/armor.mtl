@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "m26e4_armor"}
+	{bump "$/model/m26e4_armor_bp"}
+	{specular "$/model/m26e4_armor_sp"}
+	{color "229 229 229 137"}
+	{blend test}
+}

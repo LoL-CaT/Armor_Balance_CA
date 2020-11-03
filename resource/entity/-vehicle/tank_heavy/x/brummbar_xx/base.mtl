@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/brummbar_dif_xx"}
+	{bump "$/model/brummbar_nm_x"}
+	{specular "$/model/brummbar_sp_xx"}
+	{color "230 230 230 25"}
+	{blend none}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "sturmtiger_x"}
+	{bump "$/model/sturmtiger_bp"}
+	{specular "$/model/sturmtiger_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

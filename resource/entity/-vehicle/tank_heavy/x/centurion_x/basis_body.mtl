@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "centurion_x"}
+	{bump "$/model/centurion_bp"}
+	{blend none}
+}

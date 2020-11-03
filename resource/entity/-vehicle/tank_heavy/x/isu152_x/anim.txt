@@ -1,0 +1,109 @@
+-= Animation: break, Node engine =-
+	Frame 200 {
+		Visibility 1
+		Position	-23.2569	0.295454	-8.27598
+		Orientation	0 0 0 1
+	}
+	Frame 210 {
+		Visibility 1
+		Position	-23.2569	0.295454	-8.27598
+		Orientation	0 0 0 1
+	}
+-= Animation: break, Node engine_cover2 =-
+	Frame 200 {
+		Visibility 1
+		Position	-41.013	-0.295345	-0.0481377
+		Orientation	0 0 0 1
+	}
+	Frame 201 {
+		Orientation	0 0.00244345 0 0.999997
+	}
+	Frame 202 {
+		Orientation	0 0.00907557 0 0.999959
+	}
+	Frame 203 {
+		Orientation	0 0.0188484 0 0.999822
+	}
+	Frame 204 {
+		Orientation	0 0.0307129 0 0.999528
+	}
+	Frame 205 {
+		Orientation	0 0.0436193 0 0.999048
+	}
+	Frame 206 {
+		Orientation	0 0.0565185 0 0.998402
+	}
+	Frame 207 {
+		Orientation	0 0.0683635 0 0.99766
+	}
+	Frame 208 {
+		Orientation	0 0.0781111 0 0.996945
+	}
+	Frame 209 {
+		Orientation	0 0.0847213 0 0.996405
+	}
+	Frame 210 {
+		Visibility 1
+		Position	-41.013	-0.295345	-0.0481377
+		Orientation	0 0.0871558 0 0.996195
+	}
+-= Animation: break, Node engine_cover1 =-
+	Frame 200 {
+		Visibility 1
+		Position	3.62276	-7.13195	11.7824
+		Orientation	0 0 0 1
+	}
+	Frame 201 {
+		Orientation	-0.00122173 0 0 0.999999
+	}
+	Frame 202 {
+		Orientation	-0.00453783 0 0 0.99999
+	}
+	Frame 203 {
+		Orientation	-0.00942462 0 0 0.999956
+	}
+	Frame 204 {
+		Orientation	-0.0153583 0 0 0.999882
+	}
+	Frame 205 {
+		Orientation	-0.0218149 0 0 0.999762
+	}
+	Frame 206 {
+		Orientation	-0.0282705 0 0 0.9996
+	}
+	Frame 207 {
+		Orientation	-0.0342018 0 0 0.999415
+	}
+	Frame 208 {
+		Orientation	-0.0390854 0 0 0.999236
+	}
+	Frame 209 {
+		Orientation	-0.0423988 0 0 0.999101
+	}
+	Frame 210 {
+		Visibility 1
+		Position	3.62276	-7.13195	11.7824
+		Orientation	-0.0436194 0 0 0.999048
+	}
+-= Animation: break, Node trackR =-
+	Frame 60 {
+		Visibility 1
+		Position	-3.05794	24.122	2.44867
+		Orientation	0 0.707107 0.707107 0
+	}
+	Frame 80 {
+		Visibility 1
+		Position	-3.05794	24.122	2.44867
+		Orientation	0 0.707107 0.707107 0
+	}
+-= Animation: break, Node trackL =-
+	Frame 200 {
+		Visibility 1
+		Position	-3.06347	24.122	2.44867
+		Orientation	0 0.707107 0.707107 0
+	}
+	Frame 220 {
+		Visibility 1
+		Position	-3.06347	24.122	2.44867
+		Orientation	0 0.707107 0.707107 0
+	}

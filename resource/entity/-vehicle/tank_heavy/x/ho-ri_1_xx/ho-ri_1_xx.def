@@ -1,0 +1,35 @@
+{game_entity
+	{Extension "ho-ri_1_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "body4"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "mantlet1"
+	}
+	{Volume "mantlet2"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+	{Volume "part3"
+	}
+	{Volume "part4"
+	}
+	{Volume "part5"
+	}
+	{Volume "part6"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+}
