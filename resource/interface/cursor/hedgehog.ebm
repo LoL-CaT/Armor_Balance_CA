@@ -1,0 +1,16 @@
+{bitmap
+	{cursor 1}
+	{Axis  15 15 }
+	{Animation Play Loop}
+	{Frame  "hedgehog/00.tga" 200 }
+	{Frame  "hedgehog/01.tga" 200 }
+	{Frame  "hedgehog/02.tga" 200 }
+	{Frame  "hedgehog/03.tga" 200 }
+	{Frame  "hedgehog/04.tga" 200 }
+	{Frame  "hedgehog/05.tga" 200 }
+	{Frame  "hedgehog/06.tga" 200 }
+	{Frame  "hedgehog/07.tga" 200 }
+	{Frame  "hedgehog/08.tga" 200 }
+	{Frame  "hedgehog/09.tga" 200 }
+	{Frame  "hedgehog/10.tga" 200 }
+}

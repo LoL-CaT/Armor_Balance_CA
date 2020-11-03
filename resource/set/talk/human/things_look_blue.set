@@ -1,0 +1,10 @@
+{talk
+	{immediate}
+	{priority 5}
+	{timeout 30 5}
+	{condition
+		{health_level 0.45
+			{enemy_ratio 2}
+		}
+	}
+}

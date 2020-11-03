@@ -1,0 +1,11 @@
+{from "pattern gun"
+	{filling "ammo flaermow" 1}
+;	{entity "flaergun"}
+	{fireSound	"pistol/nagan"}
+	{aimRange 300}
+	{maxRange 500}
+	{speed 30}
+	{gravity 0.08}
+;	{reloadSound "nagan"}
+	{rechargeTime 3}
+}

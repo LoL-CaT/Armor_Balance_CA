@@ -1,0 +1,8 @@
+{talk
+	{immediate}
+	{priority 3}
+	{timeout 50 20}
+	{condition
+		{in_action}
+	}
+}

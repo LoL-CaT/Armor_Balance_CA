@@ -1,0 +1,7 @@
+{font_atlas
+	{name "main"}
+	{size 10}
+	{height 17}
+	{style 1}
+	{binary_data "main_10b.fnt"}
+}

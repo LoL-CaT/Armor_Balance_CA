@@ -1,0 +1,178 @@
+﻿{tags
+	{"anchormanager"
+		{"add" "Add"}
+		{"anchorradius" "Enter anchor's radius"}
+		{"evaluate" "Evaluate"}
+		{"gridcellsize" "Enter anchor's grid cell size"}
+		{"radius" "Radius..."}
+		{"seed" "Seed..."}
+		{"show" "Show"}
+		{"update" "Update"}
+	}
+	{"finddialog"
+		{"actor" "Actor uid:"}
+		{"entity" "Entity id:"}
+		{"find" "Find"}
+		{"title" "Find <s(8)>(C) Из-под земли достанем"}
+		{"waypoint" "Waypoint uid:"}
+	}
+	{"landmanager"
+		{"add" "Add"}
+		{"blue" "B:"}
+		{"create" "Create"}
+		{"fill" "Fill"}
+		{"green" "G:"}
+		{"red" "R:"}
+		{"remove" "Remove"}
+		{"save" "Save"}
+		{"sharp" "Sharp"}
+		{"soft" "Soft"}
+		{"color" "Colors"}
+		{"height"  "Heights"}
+		{"polygon" "Polygons"}
+		{"terrain" "Terrains"}
+		{"texture" "Textures"}
+		{"grass" "Grass"}
+		{"ocean" "Ocean"}
+		{"tesselation" "Tesselation"}
+	}
+	{"mapeditor"
+		{"entity" "entity [1]"}
+		{"land" "land [2]"}
+		{"clip" "clip [3]"}
+		{"edifice" "edifice [4]"}
+		{"mesh_group" "mesh group [5]"}
+		{"anchor" "anchor"}
+		{"choose" "Choose the map"}
+		{"game" "-GAME-"}
+		{"load" "Load..."}
+		{"map" "<s(10)>MAP : "}
+		{"reload" "Reload"}
+		{"new" "New"}
+		{"checkout" "Check Out"}
+		{"undocheckout" "Undo check Out"}
+		{"save" "Save"}
+		{"save_map" "Save map '%1%' as:"}
+		{"save_map_exist" "Map '%1%' already exist. Overwrite ?"}
+		{"saveas" "Save As..."}
+		{"untitled" "<<untitled>"}
+		{"mission_lost" "Mission data will be lost. Are you sure ?"}
+		{"data_lost" "All unsaved data will be lost. Are you sure ?"}
+	}
+	{"missioneditor"
+		{"view" "view [1]"}
+		{"actor" "entity [2]"}
+		{"squad" "squad [3]"}
+		{"waypoint" "waypoint [4]"}
+		{"zone" "zone [5]"}
+		{"trigger" "trigger [6]"}
+		{"camera" "camera [7]"}
+		{"cover" "cover [8]"}
+		{"environment" "environment [9]"}
+		{"as" "' as:"}
+		{"choose" "Choose the mission"}
+		{"exit" " Exit "}
+		{"game" "-GAME-"}
+		{"load" " Load... "}
+		{"mission" " MISSION : "}
+		{"no_script" "no script"}
+		{"path" "path"}
+		{"player" "player"}
+		{"reload" " Reload "}
+		{"checkout" "Check Out"}
+		{"undocheckout" "Undo check Out"}
+		{"save" " Save "}
+		{"save_mission" "Save mission '"}
+		{"save_mission_exist" "Mission '%1%' already exist. Overwrite ?"}
+		{"saveas" " Save As... "}
+		{"script_name" "Script name: "}
+		{"simulate_off" " <s(8)c(00ffff)>FINISH "}
+		{"simulate_on" " <s(8)c(00ff00)>START "}
+		{"unload" " Unload "}
+		{"untitled" "<<untitled>"}
+	}
+	{"scenecommon"
+		{"finish" "FINISH"}
+		{"simulate" "SIMULATE"}
+	}
+	{"tagdialog"
+		{"add" "Add"}
+		{"remove" "Remove"}
+		{"tags" "Tags of selection"}
+	}
+	{"zonemanager"
+		{"add" "Add"}
+		{"current" "Current:"}
+		{"delete" "Delete"}
+		{"enter_zone" "Enter zone name"}
+		{"globalwpangle" "Angle:"}
+		{"globalwplocation" "Direct:"}
+		{"globalwpname" "Name:"}
+		{"newcircle" "New Circle"}
+		{"newpoly" "New Poly"}
+		{"points" "Points:"}
+		{"radius" "Radius:"}
+		{"zonename_already_used" "Zone name '%s' already used"}
+	}
+	{"inventorybrowser"
+		{"all" "all stuff"}
+		{"ammo" "ammo"}
+		{"weapon" "weapon"}
+	}
+	{"interface"
+		{"ok" " OK "}
+		{"cancel" " Cancel "}
+		{"yes" " Yes "}
+		{"no" " No "}
+	}
+	{"rsc"
+		{"game" "\t Game \t"}
+		{"not_using_vss" "В настройках отключена работа с Vss\n"}
+		{"not_initialized" "Rsc не инициализирован. Check out невозможен\n"}
+		{"game_path_not_found" "Не удалось получить путь к игре"}
+		{"game_profile_not_found" "Не найден игровой профиль"}
+		{"work_with_vss_off" "В настройках игрового профиля отключена работа с Vss"}
+		{"have_no_rights" "У Вас недостаточно прав для операции check out"}
+		{"syncpairs_not_valid" "В игровом профиле валидны не все синхронизируемые пары"}
+		{"resource_blocked" "Ресурс заблокирован в общих настройках"}
+		{"resource_shared_diff" "Версия на сетевом диске отличается от версии в Vss"}
+		{"exclusive_blocking" "Ресурс эксклюзивно редактируется : %1%"}
+		{"resource_have_checkouts" "Ресурс редактируется следующим(и) пользователем(и):\n"}
+		{"could_be_merge_error" "при окончании редактирования возможна ошибка слияния версий"}
+		{"check_out_ok" "Ресурс '%1%' успешно взят на редактирование\n"}
+		{"resource_not_found" "Ресурс '%1%' не найден"}
+		{"unset_readonly_error" "Ресурс '%1%': ошибка при снятии 'только для чтения'"}
+		{"unset_readonly_ok" "Ресурс '%1%': снят аттрибут 'только для чтения'"}
+		{"absent_in_vss" "Ресурс отсутствует в Vss"}
+		{"undefined_vss_error" "Неопределенная ошибка Vss"}
+		{"resource_is_readonly" "Ресурс доступен только для чтения"}
+		{"dst_is_absent" "Отсутствует обновляемый ресурс"}
+		{"src_is_absent" "Отсутствует ресурс источник"}
+		{"resource_captured" "Ресурс захвачен другим процессом"}
+		{"resource_access_denied" "Отказано в доступе"}
+		{"resource_undefined_error" "Неопределенная ошибка выполнения"}
+		{"invalid_resources_base" "Устаревшая база ресурсов. Необходимо обновить базу"}
+		{"applying_overpatching" "Пожалуйста, подождите. Обновляется локальная база ресурсов"}
+		{"another_local_capture" "Rss занят другим локальным процессом "}
+		{"wait_rss_init" "Пожалуйста, подождите. Rss еще не инициализирован"}
+		{"shared_captured" "В данный момент сетевые ресурсы заблокировал %1%@%2% "}
+		{"capture_scan" "для сканирования"}
+		{"capture_load" "для загрузки"}
+		{"capture_update" "для обновления"}
+		{"capture_selective" "общая блокировка"}
+		{"capture_undef" "неопределенный тип блокировки"}
+		{"check_out_file_question" "Ресурс '%1%' не помечен как редактируемый. Взять на редактирование (check out)?\n"}
+		{"readonly_question" "Ресурс '%1%' доступен только для чтения. Снять 'только для чтения'?"}
+		{"file_check_out_is_impossible" "Ресурс '%1%' невозможно взять на редактирование.\n"}
+		{"take_files" "Взять файл(ы):\n"}
+		{"check_out_question" "на редактирование (check out)?\n"}
+		{"resource_is_readonly" "Ресурс '%1%' доступен только для чтения"}
+		{"check_out_is_impossible" "Невозможно взять ресурс(ы) на редактирование.\n"}
+		{"not_latest_resource" "У Вас на диске хранится не последняя версия ресурса"}
+		{"file_check_out_error" "Не удалось взять ресурс '%1%' на редактирование.\n"}
+		{"file_undo_check_out_is_imposible" "Невозможно отменить редактирование для ресурса\n%1%\n"}
+		{"confirm_undo_check_out" "Все изменения будут утеряны. Продолжить?"}
+		{"confirm_file_undo_check_out" "Все изменения ресурса \"%1%\" будут утеряны. Продолжить?"}
+		{"undo_check_out_ok" "Отмена редактирования ресурса \"%1%\" прошла успешно\n"}
+	}
+}

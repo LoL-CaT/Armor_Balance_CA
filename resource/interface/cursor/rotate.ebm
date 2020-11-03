@@ -1,0 +1,8 @@
+{bitmap
+	{Axis  16 16 }
+	{cursor 1}
+	{Animation  Play Loop }
+	{Frame  "rotate/rotate1.tga" 250 }
+	{Frame  "rotate/rotate2.tga" 250 }
+	{Frame  "rotate/rotate3.tga" 250 }
+}

@@ -1,0 +1,24 @@
+{emoticons
+	{":)" "emoticon_01"} ;/interface/pages/multi/chat/emoticon_01
+	{"=)" "emoticon_01"}
+	{":D" "emoticon_02"}
+	{"=D" "emoticon_02"}
+	{":(" "emoticon_03"}
+	{":I" "emoticon_04"}
+	{":|" "emoticon_04"}
+	{":/" "emoticon_04"}
+	{":P" "emoticon_05"}
+	{":3" "emoticon_06"}
+	{":O" "emoticon_07"}
+	{":o" "emoticon_07"}
+	{"._." "emoticon_08"}
+	{"-_-" "emoticon_09"}
+	{";)" "emoticon_10"}
+	{";D" "emoticon_11"}
+	{"D:" "emoticon_12"}
+	{":B" "emoticon_13"}
+	{";P" "emoticon_14"}
+	{"B)" "emoticon_15"}
+	{":X" "emoticon_16"}
+	{":x" "emoticon_16"}
+}

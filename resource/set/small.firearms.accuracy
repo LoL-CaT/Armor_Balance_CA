@@ -1,0 +1,261 @@
+﻿;SDL
+
+; Пистолет. Сигнальный пистолет.
+
+(define "distance_3" 
+	{spreading 
+		{radiusTable {0 0} {6 %r1} {8 %r2} {13 %r3} {15 %r4} {17 %r5} {100 %r5} }
+	}		
+)
+
+;ПП.
+
+(define "distance_2" 
+	{spreading 
+		{radiusTable {0 0} {5 %r1} {20 %r2} {30 %r3} {45 %r4} {50 %r5} {100 %r5} }
+	}		
+)
+
+; Винтовки. ДМР. Оружие под промежуточный патрон.
+
+(define "distance_1" 
+	{spreading
+		{SpreadPower	0.5}	
+		{radiusTable {0 0} {15 %r1} {25 %r11} {50 %r2} {60 %r3} {75 %r4} {85 %r5} {95 %r6} {150 %r7} }
+	}		
+)
+
+; Пулемёт. Убербраунинг.
+
+(define "distance_4" 
+	{spreading 
+		{SpreadPower	0.5}
+		{radiusTable {0 0} {25 %r1} {50 %r2} {75 %r3} {105 %r4} {110 %r5} {200 %r5} }
+	}
+)
+
+; Лёгкий пулемёт. 
+(define "distance_5"
+	{spreading 1  
+	    {SpreadPower	0.5}	
+        {radiusTable {0 0} {25 %r1} {45 %r2} {70 %r3} {95 %r4} {105 %r5} {150 %r5} }
+	}		
+)
+
+;(define "distance_5" 
+;	{spreading 1 
+;		{radiusTable {0 0} {20 %r1} {45 %r2} {65 %r3} {95 %r4} {100 %r5} {150 %r5} }
+;	}		
+;)
+
+; ПТР. ГРБ.
+
+(define "distance_6" 
+	{Spreading 1
+		{SpreadPower	1.0}	
+        {radiusTable {0 0} {25 %r1} {50 %r11} {75 %r2} {95 %r3} {105 %r4} {115 %r5} {250 %r5} }	
+    } 		
+)
+
+; Станковый пулемёт. Тяжёлый пулемёт.
+
+(define "distance_7" 
+	{Spreading 1
+		{SpreadPower	0.5}	
+        {radiusTable {0 0} {25 %r1} {50 %r11} {75 %r2} {90 %r3} {105 %r4} {120 %r5} {200 %r5} }
+	}		
+)
+
+; Снайпер.
+
+(define "distance_8" 
+	{spreading 
+		{radiusTable {0 0} {25 %r1} {75 %r2} {95 %r3} {105 %r4} {110 %r5} {250 %r5} }
+	}
+)
+
+; Шотган
+
+(define "distance_9" 
+	{spreading 
+		{radiusTable {0 0} {6 %r1} {12 %r2} {30 %r3} {45 %r4} {50 %r5} {100 %r5} }
+	}		
+)
+
+; ПП.
+
+(define "burst_short"
+	{burst
+		{short 2 1}
+		{long 6 3}
+	}	
+)
+
+(define "burst_medium"
+	{burst
+		{short 4.5 1.5}
+		{long 7.5 2.5}
+	}	
+)
+
+(define "burst_long"
+	{burst 
+		{short 6.7 2.5}
+		{long 14 5}
+	}	
+)
+
+(define "burst_tank"
+	{burst
+        {min 4}	
+		{short 4.5 1.5}
+		{long 7.5 2.5}
+	}	
+)
+
+(define "burst_tankh"
+	{burst
+		{short 2.25 0.75}
+		{long 4.7 2}
+	}	
+)
+
+(define "speed"   
+	{speed (* 0.1 %s)}
+)
+
+(define "recoveryTime"   
+	{recoveryTime (/ 60 %r)}
+)
+
+(define "rechargeTime" 
+    {rechargeTime (/ 60 %r)}
+)
+
+;------------------------------CA----------------------------------;
+(define "accuracy_assault"
+	("distance_2" r1(0.50) r2(1.50) r3(2.75) r4(3.25) r5(3.25))
+)
+
+(define "accuracy_assault_boost"
+	("distance_2" r1(0.45) r2(1.40) r3(2.60) r4(3.05) r5(3.05))
+)
+
+(define "accuracy_assault_boost2"
+	("distance_2" r1(0.425) r2(1.35) r3(2.525) r4(2.95) r5(2.95))
+)
+
+(define "accuracy_pistol_boost"
+	("distance_1" r1(0.55) r2(1.50) r3(2.70) r4(3.15) r5(3.15) r6(3.15) r4(3.15) r7(3.15))
+)
+
+(define "accuracy_pistol_boost2"
+	("distance_1" r1(0.525) r2(1.45) r3(2.625) r4(3.05) r5(3.05) r6(3.05) r7(3.05))
+)
+
+(define "accuracy_mgun_boost"
+	("distance_3" r1(0.65) r2(1.60) r3(2.80) r4(3.25) r5(3.25))
+)
+
+(define "accuracy_heavy_mgun"
+	("distance_4" r1(0.80) r2(1.80) r3(3.05) r4(3.55) r5(3.55))
+)
+
+(define "accuracy_heavy_mgun_boost"
+	("distance_4" r1(0.75) r2(1.70) r3(2.90) r4(3.35) r5(3.35))
+)
+
+(define "accuracy_smg_boost"
+	("distance_1" r1(0.60) r2(1.55) r3(2.75) r4(3.20) r5(3.20) r6(3.20) r7(3.20))
+)
+
+(define "accuracy_smg_boost2"
+	("distance_1" r1(0.575) r2(1.50) r3(2.675) r4(3.10) r5(3.10) r6(3.10) r7(3.10))
+)
+
+(define "accuracy_grenade_launcher"
+	("distance_3" r1(0.90) r2(1.90) r3(3.15) r4(7.50) r5(7.50))
+)
+
+(define "accuracy_grenade_launcher_boost"
+	("distance_3" r1(0.85) r2(1.80) r3(3.00) r4(7.30) r5(7.30))
+)
+;------------------------------CA----------------------------------;
+
+;------------------------------SPEED----------------------------------;
+
+(define "accuracy_flaer"
+	("distance_3" r1(2.00) r2(4.00) r3(6.50) r4(8.50) r5(11.50))
+)
+
+(define "accuracy_pistol"
+	("distance_3" r1(1.55) r2(1.60) r3(1.75) r4(1.95) r5(13.50))
+)
+
+(define "accuracy_smg"
+	("distance_2" r1(0.35) r2(0.45) r3(0.75) r4(1.15) r5(13.50))
+)
+
+(define "accuracy_rifle"
+	("distance_1" r1(0.35) r11(0.65) r2(1.25) r3(2.05) r4(2.17) r5(11.50) r6(12.50) r7(13.50))
+)
+
+(define "accuracy_automatic_rifle"
+	("distance_1" r1(0.35) r11(0.65) r2(1.30) r3(2.10) r4(2.27) r5(11.50) r6(12.50) r7(13.50))
+)
+
+(define "accuracy_carabine"
+	("distance_1" r1(0.35) r11(0.65) r2(1.25) r3(2.05) r4(2.17) r5(11.50) r6(12.50) r7(13.50)) ; r11(0.45) r2(1.20)
+)
+
+(define "accuracy_dmr"
+	("distance_1" r1(0.35) r11(0.45) r2(0.65) r3(1.85) r4(1.90) r5(11.05) r6(11.10) r7(13.50))
+)
+
+(define "accuracy_sniper_rifle"
+	("distance_8" r1(0.35) r2(0.45) r3(0.40) r4(0.55) r5(12.50))
+)
+
+(define "accuracy_lmgun"
+	("distance_5" r1(0.30) r2(2.05) r3(2.35) r4(4.25) r5(13.50))
+)
+
+(define "accuracy_mgun"
+	("distance_4" r1(0.30) r2(2.05) r3(2.35) r4(3.25) r5(13.50))
+)
+
+(define "accuracy_mgun_stand"
+	("distance_7" r1(0.30) r11(2.15) r2(2.20) r3(2.25) r4(2.30) r5(13.50))
+)
+
+(define "accuracy_ptr"
+	("distance_6" r1(0.75) r11(2.20) r2(6.60) r3(7.15) r4(7.20) r5(13.50))
+)
+
+(define "accuracy_dshk"
+	("distance_7" r1(0.30) r11(2.15) r2(2.20) r3(2.25) r4(2.30) r5(13.50))
+)
+
+(define "accuracy_grb"
+	("distance_6" r1(0.45) r11(0.50) r2(0.55) r3(0.65) r4(0.75) r5(13.50))
+)
+	
+(define "accuracy_uberbrowning"
+	("distance_4" r1(2.80) r2(3.10) r3(3.40) r4(3.60) r5(350.00))
+)
+
+(define "accuracy_shotgun"
+	("distance_9" r1(0.40) r2(0.50) r3(5.40) r4(8.10) r5(13.50))
+)
+
+;--------------------------------------
+
+;(define "accuracy_mgun_stand"
+;	("distance_7" r1(0.15) r11(0.83) r2(2.20) r3(2.30) r4(2.40) r5(15.50))
+;)
+;(define "accuracy_dshk"
+;	("distance_7" r1(0.15) r11(0.83) r2(1.80) r3(1.80) r4(1.90) r5(15.50))
+;)
+;(define "accuracy_mgun"
+;	("distance_4" r1(0.15) r2(1.33) r3(3.10) r4(3.20) r5(13.50))
+;)

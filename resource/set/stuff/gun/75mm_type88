@@ -1,0 +1,20 @@
+﻿{from "pattern gun"     ; type4_75mm type4_75mm_41 type4_75mm_43 type4_75mm_44
+	{filling "bullet75"}
+	{fireSound "gun/75mm_Long/"}
+	{reloadSound "gun_r03"}
+	("rechargeTime" r(20))
+	
+	("speed" s(720))
+	("caliber_medium")              
+		    {calibre 75}	
+	{projectileDamage 25}
+	("damage" a(132) b(130) c(109) d(98) e(84))
+	{parameters "apcr"
+        ("damage" a(151) b(144) c(126) d(110) e(104))
+	}
+;БП не существовало	
+	("accuracy_medium")
+	("range_medium")
+
+	{desc "75 mm Type 88 (ЭДС 125)"}
+}

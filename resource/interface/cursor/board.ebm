@@ -1,0 +1,7 @@
+{bitmap
+	{Axis  15 18 }
+	{cursor 1}
+	{Animation Play Loop}
+	{Frame  "board00.tga" 150 }
+	{Frame  "board01.tga" 250 }
+}

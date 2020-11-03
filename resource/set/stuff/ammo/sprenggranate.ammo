@@ -1,0 +1,21 @@
+﻿{from "pattern grb_ammo"
+	{tag "fg" "he"}
+
+	{entity "gewehrsprenggranate"}
+	{view "gewehrsprenggranate"}
+
+	{damage blastwave
+		{energy 0.1} ; kg
+		{area 3.5 3.5}
+	}
+	{possibleDamageRadius 5}
+
+	{inventory
+		{weight 40}
+		{size 2 1}
+	}
+  	{mass 0.230}
+	{detonationThickness 1}
+	
+	{desc "Wurfgranate Pat. 326"}	
+}

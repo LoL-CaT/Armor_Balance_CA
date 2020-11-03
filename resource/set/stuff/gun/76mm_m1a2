@@ -1,0 +1,22 @@
+﻿{from "pattern gun"      ; m4a1_76w m4a2_76w m4a2_76w_rus m4a3e2_jumbo m4a3e8
+	{filling "bullet76usa"}
+	{fireSound "gun/76mm_Long/"}
+	{reloadSound "tankgun_r01"}
+	("rechargeTime" r(19))
+	
+	("speed" s(792))               
+	("caliber_medium")              
+		    {calibre 76}	
+	{projectileDamage 25}  
+	("damage" a(160) b(131) c(107) d(89) e(76))
+	{parameters "apcr"
+        ("damage" a(240) b(203) c(170) d(142) e(119))
+;		("speed" s(1036))
+	}
+	
+	("accuracy_long")
+	("range_long")
+	
+	{desc "76 mm Gun M1A2 (ЭДС 150)"}	
+}
+

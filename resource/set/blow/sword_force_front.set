@@ -1,0 +1,20 @@
+{blow
+	{tags "knife basic"} ; strikes types see at {strokes} in set\ability\melee.set
+	{distance far}
+	{self
+		{enable_items "type_95"}
+		{animation "fight_front_club_begin"}
+	}
+	{opponent
+		{orientation front}
+		{movement stand squat}
+		{knock_down_chance 0.7}
+		{damage 900 0.5}
+	}
+	{opponent
+		{orientation back}
+		{movement stand squat}
+		{knock_down_chance 1}
+		{damage 900 0.5}
+	}
+}

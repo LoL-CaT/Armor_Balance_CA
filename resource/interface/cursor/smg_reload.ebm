@@ -1,0 +1,13 @@
+{bitmap
+	{Axis  15 14 }
+	{cursor 1}
+	{Frame  "cannon_reload_all/00.tga" 100}
+	{Frame  "cannon_reload_all/01.tga" 100}
+	{Frame  "cannon_reload_all/02.tga" 100}
+	{Frame  "cannon_reload_all/03.tga" 100}
+	{Frame  "cannon_reload_all/04.tga" 100}
+	{Frame  "cannon_reload_all/05.tga" 100}
+	{Frame  "cannon_reload_all/06.tga" 100}
+	{Frame  "cannon_reload_all/07.tga" 100}
+	{Frame  "cannon_reload_all/08.tga" 50}
+}

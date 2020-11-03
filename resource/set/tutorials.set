@@ -1,0 +1,43 @@
+{tutorials
+	{categories
+		{category1
+			{"Arming units #1 - Picking up items"		"lb9n2fA_oJw"}
+			{"Arming units #2 - Looting" 				"DVaKTQ-j0g0"}
+			{"Arming units #3 - Sharing ammo"			"JcbW1F5ovH0"}
+			{"Arming units #4 - Sharing inventory"		"1W7N7BEmg6Y"}
+			{"Arming units #5 - Re-arming vehicles" 	"TUAXNBgJe9o"}
+			{"Arming units #6 - Re-fueling vehicles" 	"-D_kFGFqHO8"}
+			{"Arming units #7 - Exchanging inventory"	"oXpnNyQwHSg"}
+			{"Arming units #8 - Ammo trucks" 			"TjYrv6rIBT0"}
+			{"Arming units #9 - Auto-resupply infantry"	"TwXlqPrI_f0"}
+			{"Arming units #10 - Auto-resupply vehicles""grMnFW9Fq6c"}
+			{"Controls #1 - Direct Control" 			"Gn_Q5wmxsNg"}
+			{"Controls #2 - Cooking grenades" 			"zB2vm6XCy9M"}
+			{"Controls #3 - Proning" 					"fK-uKcaRdTE"}
+			{"Controls #4 - Changing pace"				"xYX0f0I_tgg"}
+			{"Controls #5 - Changing shells"			"iP9iZbqBgq8"}
+			{"Controls #6 - Repairing"					"KVZwTvTlyvY"}
+			
+			
+		}
+		{category2
+			{"Inventory #1 - Mines"						"ICiS2oF_tAc"}
+			{"Inventory #2 - Defusing mines"			"VIYnro5soAc"}
+			{"Inventory #3 - Sandbags"					"V_fuFuXvScQ"}
+			{"Inventory #4 - Fortifications"			"TuEqIo3kQm0"}
+			{"Interface #1 - Armor penetration"			"HgKjJSiOjXk"}
+			{"Perks #1 - Infantry veterancy"			"AdpldJ8xPKw"}			
+			{"Perks #2 - Vehicle veterancy"				"ZFZL0IvxOCk"}
+		}
+		{category3
+			{"Units #1 - Sniper"						"cUlZZtBgLbo"}
+			{"Units #2 - Officer"						"W5JtRPWI_5E"}
+			{"Units #3 - Indirect fire tanks"			"R34MDsvFG-U"}
+			{"Units #4 - Tank destroyers"				"3WzMHuewHWw"}
+			{"Units #5 - AT-guns"						"NvQNJ_ue5jc"}
+			{"Units #6 - Light vehicles"				"KYH8HoNBUNs"}
+			{"Units #7 - Heavy tanks"					"Tuq0XGjkiOM"}
+			{"Units #8 - Artillery"						"uu6kr1KTRII"}
+		}
+	}
+}

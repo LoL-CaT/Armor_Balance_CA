@@ -1,0 +1,95 @@
+;----- Germany 2 -----
+
+
+
+
+;°°°Button 1°°°
+
+{"r12_ger2"				("vs" c(60) t(all)			s(ger2) n(2) g(b1) sc(4.00) b(v1) cw(0) cp(0)) {level 2} {cost 80} {fore 1.0}}
+{"kfz15_gun"			("vs" c(60) t(all)			s(ger2) n(3) g(b2) sc(5.50) b(v1) cw(0) cp(0)) {level 4} {cost 110} {fore 1.0}}
+{"sdkfz250_1"			("vs" c(300) t(all)			s(ger2) n(2) g(b3) sc(6.25) b(v1) cw(0) cp(0)) {level 6} {cost 125} {fore 0.5}}
+
+{"blitz3_6_ger2"		("vs" c(60) t(all supply)	s(ger2) n(2) g(b4) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 1.0}}
+{"blitz3_6art_ger2"		("vs" c(60) t(all supply)	s(ger2) n(2) g(b5) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1.0}}
+{"blitz3_6eng_ger2"		("vs" c(60) t(all supply)	s(ger2) n(2) g(b6) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 250} {fore 0.0}}
+
+
+
+
+;°°°Button 2°°°
+
+{"mg34_stan"			("vs" c(300) t(all cannon)			s(ger2) n(2) g(c1) sc(6.00) b(v2) cw(2) cp(5)) {level 1} {cost 120} {fore 1.0}}
+{"flak38_wheeled_ger2"	("vs" c(300) t(all cannon)			s(ger2) n(2) g(c2) sc(8.50) b(v2) cw(2) cp(5)) {level 3} {cost 170} {fore 0.5}}
+{"sgrw42_ger2"			("vs" c(300) t(all cannon mediumcan)	s(ger2) n(2) g(c3) sc(16.25) b(v2) cw(2) cp(5)) {level 5} {cost 325} {fore 1.0}}
+
+("how" side(ger2) name(how_pak1)	c(0) c1(kfz15) c2(pak36_ger2)	t(all cannon)			g(c4) b(v2) level(1) cost(165) f(1.0))
+("how" side(ger2) name(how_pak2)	c(0) c1(kfz15) c2(pak38_ger2)	t(all cannon mediumcan) g(c5) b(v2) level(1) cost(240) f(1.0))
+("how" side(ger2) name(how_pak3)	c(0) c1(kfz15) c2(pak40_ger2)	t(all cannon heavycan)	g(c6) b(v2) level(1) cost(460) f(1.0))
+
+("how" side(ger2) name(how_aa)	c(0) c1(sdkfz7) c2(flak37_ger2)	t(all cannon heavycan heavyaa)	g(c7) b(v2) level(3) cost(700) f(1.0))
+("how" side(ger2) name(how_b)	c(0) c1(sdkfz7) c2(lefh18_ger2)	t(all artillery)				g(c8) b(v2) level(6) cost(650) f(1.0))
+("how" side(ger2) name(how_a)	c(0) c1(sdkfz7) c2(sfh18_ger2)	t(all artillery heavyart)		g(c9) b(v2) level(9) cost(800) f(1.0))
+
+{"wespe_ger2"			("v" c(0) t(all artillery)				s(ger2) n1(3) n2(1) g(c10) sc(37.50) b(v2) cw(0) cp(15)) {level 12} {cost 750} {fore 1.0}}
+{"sdkfz138_1"			("v" c(0) t(all artillery heavyart)		s(ger2) n1(3) n2(1) g(c11) sc(45.00) b(v2) cw(0) cp(20)) {level 15} {cost 900} {fore 1.0}}
+{"sdkfz251_1_stuka"		("vs" c(0) t(all artillery heavyart)	s(ger2) n(2) g(c12) sc(62.50) b(v2) cw(0) cp(20)) {level 18} {cost 1250} {fore 1.0}}
+
+
+
+
+;°°°Button 3°°°
+
+{"pz1b_ger2"			("v" c(150) t(all light)		s(ger2) n1(1) n2(1) g(d1) sc(9.00)	b(v3) cw(0) cp(5)) {level 1} {cost 180} {fore 0.6}}
+{"pz1_ger2"				("v" c(150) t(all light)		s(ger2) n1(2) n2(1) g(d2) sc(10.5) b(v3) cw(0) cp(5)) {level 1} {cost 210} {fore 0.4}}
+{"sdkfz234_1"			("v" c(150) t(all light)		s(ger2) n1(2) n2(1) g(d3) sc(11.50) b(v3) cw(0) cp(5)) {level 1} {cost 230} {fore 0.4}}
+
+{"sdkfz234_ger2"		("v" c(150) t(all light)		s(ger2) n1(2) n2(1) g(d4) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 300} {fore 0}}
+{"sdkfz7_2"				("v" c(150) t(all light)		s(ger2) n1(3) n2(1) g(d5) sc(15.00) b(v3) cw(0) cp(5)) {level 5} {cost 300} {fore 0}}
+{"ostwind_ger2"			("v" c(150) t(all medium)		s(ger2) n1(3) n2(1) g(d6) sc(20.00) b(v3) cw(0) cp(15)) {level 10} {cost 400} {fore 0}}
+
+{"pz3m_ger2"			("v" c(150) t(deminer)			s(ger) n1(1) n2(1) g(d7) sc(12.50) b(v3) i(8) cw(0) cp(0)) {level 1} {cost 250} {fore 0}}
+
+
+
+
+;°°°Button 4°°°
+
+{"pz3f_ger2"			("v" c(0) t(all medium)		s(ger2) n1(3) n2(1) g(e1) sc(14.00) b(v4) cw(0) cp(15)) {level 1} {cost 280} {fore 1.0}}
+{"pz3_ger2"				("v" c(0) t(all medium)		s(ger2) n1(3) n2(1) g(e2) sc(16.00) b(v4) cw(0) cp(15)) {level 1} {cost 320} {fore 1.0}}
+{"pz4g_ger2"			("v" c(0) t(all medium)		s(ger2) n1(3) n2(1) g(e3) sc(21.00) b(v4) cw(0) cp(15)) {level 1} {cost 420} {fore 1.0}}
+
+{"pz4h_ger2"			("v" c(0) t(all medium)		s(ger2) n1(4) n2(1) g(e4) sc(30.00) b(v4) cw(0) cp(15)) {level 1} {cost 600} {fore 1.0}}
+{"pz6e_ger2"			("v" c(0) t(all heavy)		s(ger2) n1(4) n2(1) g(e5) sc(62.50) b(v4) cw(0) cp(30)) {level 1} {cost 1250} {fore 1.0}}
+{"pz5g_ger2"			("v" c(0) t(all heavy)		s(ger2) n1(4) n2(1) g(e6) sc(67.50) b(v4) cw(0) cp(30)) {level 5} {cost 1350} {fore 1.0}}
+
+{"pz6bh_ger2"			("v" c(0) t(all sheavy)		s(ger2) n1(4) n2(1) g(e7) sc(120.00) b(v4) cw(0) cp(40)) {level 15} {cost 2400} {fore 1.0}}
+
+
+
+
+;°°°Button 5°°°
+
+{"hetzer_ger2"			 ("v" c(0) t(all medium)	s(ger2) n1(3) n2(1) g(f1) sc(26.25) b(v5) cw(0) cp(15)) {level 1} {cost 525} {fore 1.0}}
+{"nashorn_ger2"			 ("v" c(0) t(all heavy)		s(ger2) n1(3) n2(1) g(f2) sc(45.00) b(v5) cw(0) cp(30)) {level 1} {cost 900} {fore 1.0}}
+{"elefant_ger2"			 ("v" c(0) t(all sheavy)	s(ger2) n1(3) n2(1) g(f3) sc(100.00) b(v5) cw(0) cp(40)) {level 1} {cost 2000} {fore 1.0}}
+
+
+
+
+;°°°Button Hero°°°
+
+{"hero1_ost"		("i2" c(120)					t(all hero) s(ger2) n1(oficer2:1) n2(elite:2) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
+{"hero2_ost"		("i2" c(120)					t(all hero) s(ger2) n1(bazooker3:1) n2(bazooker2:3) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
+{"hero3_ost"		("v1" c(120) c1(sdkfz234_3)		t(all hero) s(ger2) n1(tankman:2) n2(tankman2:1) g(h1) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+
+{"hero4_ost"		("i3" c(240)					t(all hero) s(ger2) n1(elite4:4) n2(elite5:4) n3(elite6:2) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+{"hero5_ost"		("v4" c(360) c1(sdkfz250_11)	t(all hero) s(ger2) n1(sturmovik:2) n2(sturmovik2:2) n3(sturmovik3:1) n4(elite_at:1) g(h2) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
+{"hero6_ost"		("v1" c(360) c1(sdkfz234_4)		t(all hero) s(ger2) n1(tankman:2) n2(tankman2:1) g(h2) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
+
+{"hero7_ost"		("i2" c(480)					t(all hero) s(ger2) n1(radioman:1) n2(smg:2) g(h3) b(hero)) {level 2} {cost 4.0} {fore -0.5}}
+{"hero8_ost"		("v3" c(480) c1(t34_3_ger2)		t(all hero) s(ger2) n1(tankman:3) n2(tankman2:1) n3(elite:4) g(h4) b(hero)) {level 5} {cost 4.0} {fore -0.5}}
+{"hero10_ost"		("v1" c(600) c1(sdkfz8)				t(all hero) s(ger2) n1(tankman:3) n2(tankman2:1) g(h6) b(hero)) {level 15} {cost 5.0} {fore -0.5}}
+
+{"hero9_ost"		("v1" c(720) c1(swg41)			t(all hero) s(ger2) n1(vehicle_supporter:2) n2(tankman2:0) g(h5) b(hero)) {level 10} {cost 6.0} {fore -0.5}}
+{"hero11_ost"		("v1" c(720) c1(brummbar)			t(all hero) s(ger2) n1(tankman:3) n2(tankman2:1) g(h7) b(hero)) {level 20} {cost 6.0} {fore -0.5}}  
+{"hero12_ost"		("v1" c(1200) c1(jagdtiger_ger2)	t(all hero) s(ger2) n1(tankman:3) n2(tankman2:1) g(h8) b(hero)) {level 25} {cost 10.0} {fore -0.5}}

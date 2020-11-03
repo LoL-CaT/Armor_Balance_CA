@@ -1,0 +1,7 @@
+{bitmap
+	{Axis  15 15 }
+	{cursor 1}
+	{Animation  Play Loop }
+	{Frame  "medkit/00.tga" 100 }
+	{Frame  "medkit/01.tga" 100 }
+}

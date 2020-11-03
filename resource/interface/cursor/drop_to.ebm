@@ -1,0 +1,11 @@
+{bitmap
+	{Axis  12 24 }
+	{cursor 1}
+	{Animation  Play Loop }
+	{Frame  "drop_to/00.tga" 70 }
+	{Frame  "drop_to/01.tga" 70 }
+	{Frame  "drop_to/02.tga" 70 }
+	{Frame  "drop_to/03.tga" 70 }
+	{Frame  "drop_to/04.tga" 70 }
+	{Frame  "drop_to/05.tga" 200 }
+}

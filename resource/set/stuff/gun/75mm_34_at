@@ -1,0 +1,20 @@
+﻿{from "pattern gun"     ; m7534
+	{filling "bullet75gerIT"}
+	{fireSound "gun/75mm_Short/"}
+	{reloadSound "gun_r03"}
+	("rechargeTime" r(19))
+
+	("speed" s(650)) 
+	("caliber_medium")              
+		    {calibre 75}	
+	{projectileDamage 25}
+	("damage" a(104) b(92) c(82) d(70) e(63))
+	{parameters "heat"
+        ("damage" a(120) b(120) c(120) d(120) e(120))
+	}
+
+	("accuracy_medium")
+	("range_medium")
+	
+	{desc "7,5 cm 75/34 Mod. 40 L/34 (ЭДС 125)"}			
+}

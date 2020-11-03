@@ -1,0 +1,24 @@
+﻿{from "air_bomb"  ; 155
+	{inventory
+		{noView}
+	}
+	        {damage blastwave
+			{energy 37}   
+			{area 6 6}
+	        }
+		{damage add blastwave
+			{energy 2.1}
+			{area 7 8}
+		}			
+		{damage add blastwave
+			{energy 1.3}
+			{area 8 9}
+		}
+	        {damage add blastwave
+		        {energy 0.1}
+		        {area 17 17}
+	        }
+	{entity "artillery_explosion"}
+	
+	{desc "Артудар (ОФ)"}	
+}

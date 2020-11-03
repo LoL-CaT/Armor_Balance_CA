@@ -1,0 +1,19 @@
+﻿{from "pattern gun"     ; resita resita_45
+	{filling "bullet75_pak40ri"}
+	{fireSound "gun/75mm_Long/GER/"}
+	{reloadSound "gun_r03"}
+	("rechargeTime" r(20))
+	
+	("speed" s(1030))	
+
+		("caliber_medium")             
+		    {calibre 75}	
+	{projectileDamage 25}
+	("damage" a(224) b(197) c(174) d(161) e(145))
+	
+	("accuracy_maximum")
+	("range_maximum")	
+	
+	{desc "75 mm Reșița Model 1943 (ЭДС 170)"}	
+}
+

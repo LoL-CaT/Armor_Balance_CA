@@ -1,0 +1,12 @@
+; SDL
+; Steam Game Registry Definitions
+{steam
+	{community
+		; Game Unique Custom URL identifier
+		{name		"mowas2"}
+		; Game Official Group ID
+		{communityId			103582791434422218}
+		; Game Official Chat ID
+		;{chatId				103582791434422218}
+	}
+}

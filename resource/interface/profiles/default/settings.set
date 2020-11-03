@@ -1,0 +1,41 @@
+{settings
+	{panel_control_front_default
+		{"throw_ap_grenade"
+			{condition "disabled"}
+		}
+		{"throw_at_grenade"
+			{condition "disabled"}
+		}
+		{"throw_sk_grenade"
+			{condition "disabled"}
+		}
+		{"bazooka_shot"
+			{condition "disabled"}
+		}
+		{"attack"
+			{condition "disabled"}
+		}
+		{"attack_ground"
+			{condition "disabled"}
+		}
+		{"attack_melee"
+			{condition "disabled"}
+		}
+		{"heal"
+			{condition "disabled"}
+		}
+		{"emit"
+			{condition "disabled"}
+		}
+	}
+	{map_control_big
+		{position 180 180}
+		{scale 0.28}
+		{opacity 0.6}
+		{active}
+		{clickable}
+		{show_tracers}
+		{show_compass_icons}
+	}
+	{highlight_silhouettes}
+}

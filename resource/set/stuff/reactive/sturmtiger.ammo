@@ -1,0 +1,41 @@
+{bullet
+	{tag "big size_maximum shell fg bomb fg_290_380f"}
+	{inventory
+		{size 5 2}
+		{weight 100}
+	}	
+	{mass 350}
+	{entity "sturmtiger_ammo"}
+	{view "sturmtiger_ammo"
+		{tail "rocket_smoke_st" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+		{damage blastwave
+			{energy 370}
+			{area 9 10}
+		}
+	        {damage add blastwave
+		        {energy 230}
+		        {area 10 11}
+	        }
+		{damage add blastwave
+			{energy 4}
+			{area 12 13}
+		}
+		{damage add blastwave
+			{energy 2.1}
+			{area 14 15}
+		}		
+	        {damage add blastwave
+			{energy 0.1}
+		        {area 27 28}
+	        }
+	        {damage fire
+		        {radius 9}
+		        {heating 100}
+		        {time 2}
+	        }
+			
+	{desc "38 cm R.Spr.Gr 4581 (ФГ)"}			
+}

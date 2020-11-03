@@ -1,0 +1,7 @@
+{font_atlas
+	{name "impact"}
+	{size 27}
+	{height 35}
+	{style 0}
+	{binary_data "impact_27.fnt"}
+}

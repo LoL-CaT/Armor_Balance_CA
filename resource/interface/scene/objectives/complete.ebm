@@ -1,0 +1,7 @@
+{bitmap
+	{axis -2 7}
+	{Filtering  1}
+	{AlphaChannel  1}
+	{Blend  alpha}
+	{Frame  "complete.tga"}
+}

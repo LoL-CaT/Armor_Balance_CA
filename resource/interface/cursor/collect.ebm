@@ -1,0 +1,14 @@
+{bitmap
+	{Axis  13 18 }
+	{cursor 1}
+	{Animation  Play Loop PingPong }
+	{Frame  "collect/00.tga" 200 }
+	{Frame  "collect/01.tga" 30 }
+	{Frame  "collect/02.tga" 30 }
+	{Frame  "collect/03.tga" 30 }
+	{Frame  "collect/04.tga" 30 }
+	{Frame  "collect/05.tga" 30 }
+	{Frame  "collect/06.tga" 30 }
+	{Frame  "collect/07.tga" 30 }
+	{Frame  "collect/08.tga" 300 }
+}

@@ -1,0 +1,16 @@
+﻿{from "pattern gun"		; 37mm bofors np_lrdg_37mm
+	{filling "bullet37_bofors_eng"}
+	{fireSound "gun/37mm_bofors"}
+	{reloadSound "pak35"}
+	("rechargeTime" r(28))
+	("speed" s(870))
+	("caliber_minimum")
+		    {calibre 37}  
+	{projectileDamage 9}
+	("damage" a(62) b(51) c(42) d(33) e(25))
+	
+	("accuracy_short")
+	("range_short")
+	
+	{desc "37 mm Ordnance QF Mk.I (ЭДС 105)"}	
+}

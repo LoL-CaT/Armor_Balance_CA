@@ -1,0 +1,10 @@
+{item
+	{tag "smallitemin1hand"}
+	{entity "medkit_morphine"}
+	{inventory
+		{size 3 2 }
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 2}
+}

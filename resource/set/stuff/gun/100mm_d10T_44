@@ -1,0 +1,19 @@
+{from "pattern gun"     ; t-54a is2_100
+	{filling "bullet100russ"}
+	{fireSound "gun/100mm/"}
+	("rechargeTime" r(8))
+
+	("speed" s(1050))
+	
+	("caliber_large")
+		    {calibre 100}	
+	{projectileDamage 200}
+	("damage" a(235) b(210) c(200) d(190) e(180))
+	{parameters "apcr"
+	     ("damage" a(235) b(210) c(200) d(190) e(180))
+	}
+	("accuracy_maximum")
+	("range_maximum")
+	
+	{desc "100 мм пушка Д-10Т (ЭДС 170)"}		
+}

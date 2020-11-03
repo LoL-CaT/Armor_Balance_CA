@@ -1,0 +1,17 @@
+{from "pattern gun"		; "sdkfz250_11"
+	{filling "bullet28"}
+	{fireSound "gun/37mm_pak35"}
+	{reloadSound "pak35"}
+	{rechargeTime 2}
+	("range_minimum")
+
+	("speed" s(1400))
+	("caliber_minimum")
+	{projectileDamage 57}
+	("damage" a(57) b(23) c(18) d(12) e(8))
+	{parameters "apcr"
+        ("damage" a(99) b(59) c(40)	d(33) e(25))
+	}
+
+	("accuracy_minimum")
+}

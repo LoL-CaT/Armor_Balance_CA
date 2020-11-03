@@ -1,0 +1,144 @@
+{presets
+	{video
+		{"min"
+			{vertical_sync}
+			{antialiasing none}
+			{detail detail_low}
+			{shadow none}
+			{filtering bilinear}
+			{model_quality low}
+			{fx_quality low}
+			{lens_effects_options none}
+			{bumpType none}
+			{specular 0}
+			{environment 0}
+			{waterBump 0}
+			{water_reflection none}
+			{water_quality low}
+			{grass 0}
+			{bloom 0}
+			{vls 0}
+			{dof 0}
+			{softIntersection 0}
+			{ssao 0}
+			{fake_translucency 0}
+			{glow 0}
+			{rim_light 0}
+			{filmGrain 0}
+			{alphaToCoverage 0}
+			{clip_distance 0.25}
+		}
+		{"low"
+			{vertical_sync}
+			{antialiasing none}
+			{detail detail_above_low}
+			{shadow low}
+			{filtering trilinear}
+			{model_quality low}
+			{fx_quality low}
+			{lens_effects_options low}
+			{bumpType none}
+			{specular}
+			{environment}
+			{waterBump 0}
+			{water_reflection none}
+			{water_quality low}
+			{grass 0}
+			{bloom 0}
+			{vls 0}
+			{dof 0}
+			{softIntersection 0}
+			{ssao 0}
+			{fake_translucency 0}
+			{glow 0}
+			{rim_light 0}
+			{filmGrain 0}
+			{alphaToCoverage 0}
+			{clip_distance 0.35}
+		}
+		{"medium"
+			{vertical_sync}
+			{antialiasing "2x"}
+			{detail detail_medium}
+			{shadow medium}
+			{filtering anisotropic2x}
+			{model_quality high}
+			{fx_quality medium}
+			{lens_effects_options medium}
+			{bumpType bump}
+			{specular}
+			{environment}
+			{waterBump}
+			{water_reflection fake}
+			{water_quality medium}
+			{grass}
+			{bloom}
+			{vls 0}
+			{dof 0}
+			{softIntersection 0}
+			{ssao 0}
+			{fake_translucency}
+			{glow 0}
+			{rim_light}
+			{filmGrain}
+			{alphaToCoverage 0}
+			{clip_distance 0.50}
+		}
+		{"high"
+			{vertical_sync}
+			{antialiasing "4x"}
+			{detail detail_above_medium}
+			{shadow high}
+			{filtering anisotropic8x}
+			{model_quality high}
+			{fx_quality high}
+			{lens_effects_options high}
+			{bumpType bump}
+			{specular}
+			{environment}
+			{waterBump}
+			{water_reflection fake}
+			{water_quality high}
+			{grass}
+			{bloom}
+			{vls 0}
+			{dof}
+			{softIntersection}
+			{ssao 0}
+			{fake_translucency}
+			{glow}
+			{rim_light}
+			{filmGrain}
+			{alphaToCoverage 0}
+			{clip_distance 0.75}
+		}
+		{"ultra"
+			{vertical_sync}
+			{antialiasing "8x"}
+			{detail detail_high}
+			{shadow ultra}
+			{filtering anisotropic16x}
+			{model_quality high}
+			{fx_quality high}
+			{lens_effects_options high}
+			{bumpType parallax}
+			{specular}
+			{environment}
+			{waterBump}
+			{water_reflection real}
+			{water_quality ultra}
+			{grass}
+			{bloom}
+			{vls}
+			{dof}
+			{softIntersection}
+			{ssao}
+			{fake_translucency}
+			{glow}
+			{rim_light}
+			{filmGrain}
+			{alphaToCoverage}
+			{clip_distance 1}
+		}
+	}
+}

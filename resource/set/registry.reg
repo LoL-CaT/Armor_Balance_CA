@@ -1,0 +1,23 @@
+; SDL
+{registry
+	(include "registry/localization.reg")
+	(include "registry/resource_syncer.reg")
+	(include "registry/unit.reg")
+	(include "registry/camera.reg")
+	(include "registry/editor.reg")
+	(include "registry/obstacles.reg")
+	(include "registry/command.reg")
+	(include "registry/hitpoints.reg")
+	(include "registry/steam.reg")
+;	(include "registry/control.reg")
+	(include "registry/library.reg")
+	(include "registry/dialog_effects.reg")
+	
+	{common_textures "/texture/common/"}
+
+	{interfaceskin
+		(include "registry/default_skin.reg")
+		(include "registry/main_menu_skin.reg")
+		(include "registry/main_menu_dark_skin.reg")
+	}
+}

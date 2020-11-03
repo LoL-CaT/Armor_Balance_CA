@@ -1,0 +1,10 @@
+{bitmap
+	{cursor 1}
+	{Animation  Play Loop PingPong }
+	{Frame  "default/00.tga" 500 }
+	{Frame  "default/01.tga" 120 }
+	{Frame  "default/02.tga" 120 }
+	{Frame  "default/03.tga" 120 }
+	{Frame  "default/04.tga" 120 }
+	{Frame  "default/05.tga" 500 }
+}

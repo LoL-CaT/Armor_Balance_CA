@@ -1,0 +1,98 @@
+;SDL
+actor
+
+{obstacleID "human"	}
+{PatherID	"animal"}
+{collider "animal"}
+{able "-select"}
+
+{props "flesh" "animal" "nocover" "obstacle_ignore_height"}
+
+{brain "actor"
+	{state "animal"}
+}
+
+{Sensor
+	{Visor "eyes"
+		{vision "animal"}
+		{bone "visor"}
+	}
+}
+
+{Chassis "foot"
+	{Run
+		{Slow	3   3	100}
+		{Normal	7   7	200}
+		{Fast	25  25	500}
+	}
+}
+
+{volume "body"
+	{thickness 1}
+}
+
+(define "declare_health"
+	{extender "vitality"
+		{health
+			{max 		%0}		; max health
+			{current 	%0}		; current health
+			{inc 		0.005}	; health regeneration per second
+		}
+	}
+)
+
+{extender "vitality"}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+{FSM "animal"
+
+	{Request "dead"   		{priority 50} {interrupt}}
+	{Request "idle" 		{priority  0}}
+	{Request "move"	  		{priority 30} {duration 2} {exit "stop-move"}}
+	{Request "rotate"		{priority 30} {duration 2}}
+
+	{Request "stop-move"	{priority 30}}
+	{Request "switch-move"	{priority 30}}
+	{Request "swim"			{priority 0}}
+
+    ; start state
+    {Start "stand"}
+
+    ; list of all states
+	{State "stand"
+		{to "walk"}
+		{to "idle"}
+		{tag "stop-move"}
+		{tag "rotate"}
+		{tag "stand"}
+		{tag "swim"}
+	}
+	{State "walk"
+		{to "stand"}
+		{to "switch_move"}
+		{tag "move"}
+		{tag "rotate"}
+	}
+	{state "switch_move"
+		{to "walk"}
+		{tag "switch-move"}
+	}
+	{State "idle"
+		{to "stand"}
+		{tag "idle"}
+    }
+    {state "dying"
+		{from "stand"}
+		{from "walk"}
+		{from "switch_move"}
+		{from "idle"}
+    	{transit "dead"}
+		{tag "dying"}
+    }
+	{State "dead"
+		{tag "dead"}
+		{tag "dying"}
+		{tag "stored"}
+	}
+	{subset "default"}
+}

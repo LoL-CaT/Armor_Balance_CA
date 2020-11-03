@@ -1,0 +1,3 @@
+;SDL
+(include "stuff_small.ext")
+{lodclass "stuff_weapon"}

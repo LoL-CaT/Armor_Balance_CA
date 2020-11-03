@@ -1,0 +1,40 @@
+;SDL	
+{main_menu_skin
+	(include "main_menu_skin.inc" fs(18))
+	{checkbox
+		{text_style
+			{normal				"f(arial_narrow)s(18)p(0)c(0 0 0)"}
+			{focused_mouse		"f(arial_narrow)s(18)p(0)c(0 0 0)"}
+			{focused_keyboard	"f(arial_narrow)s(18)p(0)c(0 0 0)"}
+			{pressed			"f(arial_narrow)s(18)p(0)c(0 0 0)"}
+			{disabled			"f(arial_narrow)s(18)p(0)c(100 100 100)"}
+		}
+		{check "/interface/skin/game/checkbox/checkbox"}
+	}
+}
+{main_menu_skin_small
+	(include "main_menu_skin.inc" fs(15))
+	{checkbox
+		{text_style
+			{normal				"f(impact)s(21)c(171 171 171)"}
+			{focused_mouse		"f(impact)s(21)c(255 255 255)"}
+			{focused_keyboard	"f(impact)s(21)c(255 255 255)"}
+			{pressed			"f(impact)s(21)c(255 255 255)"}
+			{disabled			"f(impact)s(21)c(128 128 128)"}
+		}
+		{check "/interface/skin/game/checkbox/checkbox1"}
+	}
+}
+{main_menu_skin_radio
+	(include "main_menu_skin.inc" fs(15))
+	{checkbox
+		{text_style
+			{normal				"f(arial_narrow)s(18)p(0)c(0 0 0)"}
+			{focused_mouse		"f(arial_narrow)s(18)p(0)c(0 0 0)"}
+			{focused_keyboard	"f(arial_narrow)s(18)p(0)c(0 0 0)"}
+			{pressed			"f(arial_narrow)s(18)p(0)c(0 0 0)"}
+			{disabled			"f(arial_narrow)s(18)p(0)c(100 100 100)"}
+		}
+		{check "/interface/skin/game/radiobutton/radiobutton"}
+	}
+}

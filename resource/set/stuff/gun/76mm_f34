@@ -1,0 +1,25 @@
+{from "pattern gun"       ; np_t34_43 t34_0_hd t34_2 t34_2_hd t34_41 t34_42 t34_43      
+	{filling "bullet76rus"}
+	{fireSound "gun/76mm_Short/T34-KV1/"}
+	{reloadSound "gun_r01"}
+	("rechargeTime" r(14))
+	
+	("speed" s(680))
+	("caliber_medium")              
+		    {calibre 76}	
+	{projectileDamage 25}
+	("damage" a(98) b(82) c(76) d(67) e(58))
+	{parameters "apcr"
+        ("damage" a(140) b(110) c(90) d(80) e(75))
+;		("speed" s(955))		
+	}
+	{parameters "heat"
+        ("damage_heat" a(73) b(73) c(73) d(73) e(73))
+;	    ("speed" s(450))
+	}
+	
+	("accuracy_medium")
+	("range_medium")
+	
+	{desc "76 мм пушка Ф-34 (ЭДС 125)"}		
+}

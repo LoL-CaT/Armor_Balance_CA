@@ -1,0 +1,9 @@
+{bitmap
+	{Axis  16 16 }
+	{cursor 1}
+	{Animation Play Loop}
+	{Frame  "burn/burn1.tga" 250 }
+	{Frame  "burn/burn2.tga" 250 }
+	{Frame  "burn/burn3.tga" 250 }
+	{Frame  "burn/burn4.tga" 250 }
+}

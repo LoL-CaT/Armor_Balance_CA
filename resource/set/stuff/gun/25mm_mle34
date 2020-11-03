@@ -1,0 +1,17 @@
+{from "pattern gun"		; 25mm_hotchkiss_mle34_ita 25mm_hotchkiss_mle34 25mm_hotchkiss_mle34 25mm_hotchkiss_mle34 25mm_hotchkiss_mle34_ger_42
+	{filling "bullet25_hotchkiss"}
+	{fireSound "gun/25mm_mle34_shot"}
+	{reloadSound "25mm_mle34_reload"}
+	("rechargeTime" r(45))
+	
+	("speed" s(920))
+		("caliber_zenite")
+		    {calibre 25}
+	{projectileDamage 8}     	
+	("damage" a(50) b(40) c(30) d(22) e(17))
+	
+	("accuracy_autocannon")
+        ("range_autocannon")
+
+	{desc "2,5 cm KwK 112(f) L/72 (ЭДС 105)"}		
+}

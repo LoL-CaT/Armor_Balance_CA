@@ -1,0 +1,16 @@
+{from "pattern gun"		; 7tp 37mm_bofors
+	{filling "bullet37_bofors"}
+	{fireSound "gun/37mm_bofors"}
+	{reloadSound "pak35"}
+	("rechargeTime" r(28))
+	("speed" s(870))
+	("caliber_minimum")
+		    {calibre 37}  
+	{projectileDamage 9}
+	("damage" a(61) b(50) c(41) d(32) e(24))
+	
+	("accuracy_short")
+	("range_short")
+	
+	{desc "3,7 cm PaK 36(p) L/45 (ЭДС 105)"}	
+}

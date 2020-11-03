@@ -1,0 +1,10 @@
+{bitmap
+	{Axis  16 16 }
+	{cursor 1}
+	{Animation  Play Loop }
+	{Frame  "use/00.tga" 40 }
+	{Frame  "use/01.tga" 40 }
+	{Frame  "use/02.tga" 40 }
+	{Frame  "use/03.tga" 40 }
+	{Frame  "use/04.tga" 40 }
+}                  

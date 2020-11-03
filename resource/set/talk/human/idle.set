@@ -1,0 +1,7 @@
+{talk
+	{priority 1}
+	{timeout 500 250}
+	{condition
+		{idle}
+	}
+}

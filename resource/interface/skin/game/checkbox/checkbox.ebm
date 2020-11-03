@@ -1,0 +1,14 @@
+{bitmap
+	{Frame  "checkbox_00.tga" }
+	{Frame  "checkbox_01.tga" }
+	{Frame  "checkbox_02.tga" }
+	{Frame  "checkbox_03.tga" }
+
+	{Frame  "checkbox_02.tga" } ; dummy sprite
+	{Frame  "checkbox_03.tga" } ; dummy sprite
+
+	{Frame  "checkbox_04.tga" }
+	{Frame  "checkbox_05.tga" }
+	{Frame  "checkbox_06.tga" }
+	{Frame  "checkbox_07.tga" }
+}
