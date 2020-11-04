@@ -39,6 +39,10 @@
 		}
 		{"melee" lvl_2
 		}
+
+		{barricade
+			{"fortifications" "barricade_sq"}
+		}
 	}
 	{veterancy
 		(include "veterancy_generic.inc")

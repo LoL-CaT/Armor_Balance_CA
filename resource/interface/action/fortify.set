@@ -87,31 +87,31 @@
 
 
 ;usa	
-("fortification_mp"			name(heavy_mg_m2)			entity(heavy_mg_m2_sandbags)				time(30)	rotation(-90.0))
-("fortification_mp"			name(bgm71_tow)				entity(bgm71_tow_sandbags)					time(60)	rotation(-90.0))
-("fortification_mp"			name(m120_mortar)			entity(m120_mortar)							time(60)	rotation(-90.0))
+;("fortification_mp"			name(heavy_mg_m2)			entity(heavy_mg_m2_sandbags)				time(30)	rotation(-90.0))
+;("fortification_mp"			name(bgm71_tow)				entity(bgm71_tow_sandbags)					time(60)	rotation(-90.0))
+;("fortification_mp"			name(m120_mortar)			entity(m120_mortar)							time(60)	rotation(-90.0))
 
 ;grm
-("fortification_mp"			name(heavy_mg_kord)			entity(heavy_mg_kord_sandbags)				time(30)	rotation(-90.0))
-("fortification_mp"			name(zpu2)					entity(zpu2)								time(60)	rotation(-90.0))
-("fortification_mp"			name(2b11_mortar)			entity(2b11_mortar)							time(60)	rotation(-90.0))
+;("fortification_mp"			name(heavy_mg_kord)			entity(heavy_mg_kord_sandbags)				time(30)	rotation(-90.0))
+;("fortification_mp"			name(zpu2)					entity(zpu2)								time(60)	rotation(-90.0))
+;("fortification_mp"			name(2b11_mortar)			entity(2b11_mortar)							time(60)	rotation(-90.0))
 
 ;uaf
-("fortification_mp"			name(heavy_mg_mag)			entity(heavy_mg_mag_sandbags)				time(30)	rotation(-90.0))
-("fortification_mp"			name(zpu2_uaf)				entity(zpu2_uaf)							time(60)	rotation(-90.0))
-("fortification_mp"			name(2b11_mortar_uaf)		entity(2b11_mortar_uaf)						time(60)	rotation(-90.0))
+;("fortification_mp"			name(heavy_mg_mag)			entity(heavy_mg_mag_sandbags)				time(30)	rotation(-90.0))
+;("fortification_mp"			name(zpu2_uaf)				entity(zpu2_uaf)							time(60)	rotation(-90.0))
+;("fortification_mp"			name(2b11_mortar_uaf)		entity(2b11_mortar_uaf)						time(60)	rotation(-90.0))
 
 ;reb
-("fortification_mp"			name(heavy_mg_m60)			entity(heavy_mg_m60_sandbags)				time(30)	rotation(-90.0))
-("fortification_mp"			name(at5_spandrel)			entity(at5_spandrel)						time(60)	rotation(-90.0))
-("fortification_mp"			name(2b11_mortar_reb)		entity(2b11_mortar_reb)						time(60)	rotation(-90.0))
+;("fortification_mp"			name(heavy_mg_m60)			entity(heavy_mg_m60_sandbags)				time(30)	rotation(-90.0))
+;("fortification_mp"			name(at5_spandrel)			entity(at5_spandrel)						time(60)	rotation(-90.0))
+;("fortification_mp"			name(2b11_mortar_reb)		entity(2b11_mortar_reb)						time(60)	rotation(-90.0))
 
 ;ger
-("fortification_mp"			name(heavy_mg_mg3)			entity(heavy_mg_mg3_sandbags)				time(30)	rotation(-90.0))
-("fortification_mp"			name(milan_er)				entity(milan_er)							time(60)	rotation(-90.0))
-("fortification_mp"			name(krh40_mortar)			entity(krh40_mortar)						time(60)	rotation(-90.0))
+;("fortification_mp"			name(heavy_mg_mg3)			entity(heavy_mg_mg3_sandbags)				time(30)	rotation(-90.0))
+;("fortification_mp"			name(milan_er)				entity(milan_er)							time(60)	rotation(-90.0))
+;("fortification_mp"			name(krh40_mortar)			entity(krh40_mortar)						time(60)	rotation(-90.0))
 
 ;rus
-("fortification_mp"			name(heavy_mg_kord_rus)		entity(heavy_mg_kord_sandbags_rus)			time(30)	rotation(-90.0))
-("fortification_mp"			name(9m133_kornet)			entity(9m133_kornet_sandbags)				time(60)	rotation(-90.0))
-("fortification_mp"			name(2b11_mortar_rus)		entity(2b11_mortar_rus)						time(60)	rotation(-90.0))
+;("fortification_mp"			name(heavy_mg_kord_rus)		entity(heavy_mg_kord_sandbags_rus)			time(30)	rotation(-90.0))
+;("fortification_mp"			name(9m133_kornet)			entity(9m133_kornet_sandbags)				time(60)	rotation(-90.0))
+;("fortification_mp"			name(2b11_mortar_rus)		entity(2b11_mortar_rus)						time(60)	rotation(-90.0))

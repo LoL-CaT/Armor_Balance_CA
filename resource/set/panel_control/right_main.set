@@ -11,6 +11,9 @@
 {panel_control
 	{gc_cp_state_fire
 		{position 0 0}
+		(mod "gametype:heroes"
+			{condition "disabled"}
+		)
 	}
 	{gc_cp_state_move
 		{position 1 0}
@@ -19,38 +22,40 @@
 		{position 2 0}
 		{condition "human"}
 	}
+	{gc_cp_state_altitude
+		{position 2 0}
+		{condition "helicopter single"}
+	}
 	{gc_cp_state_cannon
-		{position 3 0}
+		{position 2 0}
 		{condition "cannon"}
 	}
-	{gc_cp_state_supply
-		{position 3 0}
-		{condition "tractor"}
+	{gc_cp_state_cannon
+		{position 2 0}
+		{condition "stretcher"}
 	}
 	{gc_cp_browse_attack
 		{position 0 1}
 	}
 	{gc_cp_browse_useitem
 		{position 1 1}
+		{condition "human"}
 	}
-	{rotate
+	{gc_cp_browse_special
 		{position 2 1}
 	}
-	{emit
-		{position 3 1}
-		{condition "vehicle"}
-	}
-	{examine
+	{rotate
 		{position 0 2}
 	}
-	{repair
+	{emit
 		{position 1 2}
+		{condition "vehicle"}
 	}
-	{gc_cp_state_attach
-		{position 2 2}
-		{condition "tractor"}
+	{gc_cp_browse_emplacement
+		{position 1 2}
+		{condition "human barricade disabled"}
 	}
 	{gc_cp_command_cancel
-		{position 3 2}
+		{position 2 2}
 	}
 }

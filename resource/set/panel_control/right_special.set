@@ -1,0 +1,36 @@
+;SDL
+{panel_control
+	{gc_cp_state_weapon
+		{position 0 0}
+		{condition "human disabled"}
+	}
+	{gc_cp_state_hatch
+		{position 0 0}
+		{condition "hatch disabled"}
+	}
+	{examine
+		{position 1 0}
+	}
+	{repair
+		{position 2 0}
+		{condition "disabled"}
+	}
+	{gc_cp_state_attach
+		{position 0 1}
+		{condition "tractor"}
+	}
+	{gc_cp_state_supply
+		{position 1 1}
+	}
+	{gc_cp_leave_unit
+		{position 2 1}
+		{condition "vehicle single disabled"}
+	}
+	{gc_cp_state_smoke_decoy
+		{position 0 2}
+		{condition "vehicle tank disabled"}
+	}
+	{gc_cp_browse_back
+		{position 2 2}
+	}
+}

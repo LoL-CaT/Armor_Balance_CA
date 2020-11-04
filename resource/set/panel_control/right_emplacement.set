@@ -1,0 +1,36 @@
+;SDL
+{panel_control
+	{barricade_sq
+		{position 0 0}
+		{condition "human barricade disabled"}
+	}
+	{barricade
+		{position 1 0}
+		{condition "human barricade disabled"}
+	}
+	{barbwire
+		{position 2 0}
+		{condition "human barricade disabled"}
+	}
+	{hedgehog
+		{position 0 1}
+		{condition "human barricade disabled"}
+	}
+	{foxhole
+		{position 1 1}
+		{condition "human barricade disabled"}
+	}
+	{foxhole_big
+		{position 2 1}
+		{condition "human barricade disabled"}
+	}
+	{gc_cp_browse_back
+		{position 2 2}
+	}
+	{barbwire_true
+		{condition "human"}
+	}
+	{barricade_true
+		{condition "human"}
+	}
+}

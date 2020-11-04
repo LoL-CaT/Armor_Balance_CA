@@ -2,19 +2,19 @@
 {panel_control
 	{throw_ap_grenade
 		{position 0 0}
-		{condition "disabled"}
+		{condition "human"}
 	}
 	{throw_at_grenade
 		{position 1 0}
-		{condition "disabled"}
+		{condition "human"}
 	}
 	{throw_sk_grenade
 		{position 2 0}
-		{condition "disabled"}
+		{condition "human"}
 	}
 	{bazooka_shot
 		{position 0 1}
-		{condition "disabled"}
+		{condition "human"}
 	}
 	{attack
 		{position 1 1}
@@ -26,12 +26,9 @@
 	}
 	{attack_melee
 		{position 0 2}
-		{condition "disabled"}
+		{condition "human"}
 	}
-;	{aimed_shot
-;		{position 1 2}
-;	}
 	{gc_cp_browse_back
-		{position 3 2}
+		{position 2 2}
 	}
 }
