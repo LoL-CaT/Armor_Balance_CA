@@ -1,4 +1,0 @@
-{game_entity
-	{props "waterfall_big"}
-	{Extension "waterfall_big.mdl"}
-}
