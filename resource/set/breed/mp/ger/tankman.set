@@ -22,10 +22,10 @@
 		}
 		{"tank"	1.0
 		}
-		{"vehicle" 1.0
-		}
-		{"cannon" 1.3
-		}
+;		{"vehicle" 1.0
+;		}
+;		{"cannon" 1.3
+;		}
 		
 		{"pistol" lvl_2
 		}

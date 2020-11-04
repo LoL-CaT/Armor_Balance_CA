@@ -1,7 +1,7 @@
 ﻿{weapon_flame
 	{tag "weapon flame_thrower bullet nokeep"}
 	;{filling "ammo flame"}
-	{filling "fuel" 0}
+	{filling "fuel" 3000}
 	{inventory
 		{size 4 1 }
 		{weight 100 }

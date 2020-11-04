@@ -1,0 +1,4 @@
+{resources
+	(include "level_generic.inc")
+	("level_standard")
+}

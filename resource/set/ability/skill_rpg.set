@@ -1,0 +1,5 @@
+{"rocketlauncher" from weapon
+    {item "rocketlauncher"}
+	(include "ability_generic.inc")
+	("ability_medium")
+}

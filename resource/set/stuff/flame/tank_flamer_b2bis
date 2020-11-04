@@ -1,6 +1,6 @@
 ﻿{weapon_flame
 	{tag "weapon build_in gun"}
-	{filling "fuel" 0}
+	{filling "fuel" 3000}
 	{inventory
 		{size 4 2 }
 		{weight 100 }

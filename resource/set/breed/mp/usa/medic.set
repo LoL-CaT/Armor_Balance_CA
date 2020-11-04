@@ -8,7 +8,7 @@
 		{head "helmet_usa_w"}
 	}
 	{perks
-		{"health" "150%"
+		{"health" "12%"
 		}
 		{"health_regeneration" "100%"
 		}
