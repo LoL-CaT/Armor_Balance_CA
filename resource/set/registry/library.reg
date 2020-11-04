@@ -1,0 +1,66 @@
+{library
+	{vehicles
+		{filter
+			{exclude "*/x/*"}
+			{exclude "*/civilian/*"}
+		}
+		{optLoc "mp/army/"}
+		{rotation "20.0 -20.0"}
+		{%faction
+			{dir "/entity/-vehicle/%faction/*.def"}
+			{entLoc "desc/entity/"}
+		}
+	}
+	{weapons
+		{dir "/set/stuff/smallarms"}
+		{entLoc "desc/weapon/"}
+		{filter
+			{exclude "*knife*"}
+			{exclude "*.presets"}
+		}
+	}
+	{soldiers
+		{optLoc "mp/army/"}
+		{civilian
+			{dir "/set/breed/civilian/*.set"}
+			{entLoc "desc/human/civilian/"}
+		}
+		{%faction
+			{dir "/set/breed/mp/%faction/*.set"}
+			{entLoc "desc/human/mp/%faction/"}
+		}
+	}
+	{items
+		{entLoc "desc/stuff/"}
+		{optLoc "main_menu2/library/items/"}
+		{throwable
+			{dir "/set/stuff/smallarms/knife*"}
+			{dir "/set/stuff/explosive/*.grenade"}
+			{file "/set/stuff/explosive/c4"}
+			{file "/set/stuff/explosive/claymore.mine"}
+			{filter
+				{exclude "*skirmish_smoke.grenade"}
+				{exclude "*smoke_paradrop_ammo.grenade"}
+				{exclude "*smoke_paradrop_ammo_heavy.grenade"}
+			}
+		}
+		{ammo
+			{entLoc "desc/ammo/"}
+			{dir "/set/stuff/shell/*.ammo"}
+			{dir "/set/stuff/reactive/*.ammo"}
+			{dir "/set/stuff/ammo/*.ammo"}
+			{filter
+				{exclude "*dummy.ap.ammo"}
+			}
+		}
+		{stuff
+			{dir "/set/stuff/med"}
+			{dir "/set/stuff/special"}
+			{dir "/set/stuff/capacity"}
+		}
+	}
+	{fauna
+		{entLoc "desc/fauna/"}
+		{dir "/entity/-fauna/*.def"}
+	}
+}

@@ -33,4 +33,7 @@
 	{gc_cp_browse_back
 		{position 2 2}
 	}
+	{round_sandbag
+		{condition "cannon"}
+	}
 }

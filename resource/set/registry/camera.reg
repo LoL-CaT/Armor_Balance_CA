@@ -1,15 +1,15 @@
 {camera
 	{main
-		{viewAngle		23}
-		{distance		1600}
-		{fov			65}
+		{viewAngle		25}
+		{distance		2000}
+		{fov			60}
 		{znear			5}
-		{zfar			5000}		
+		{zfar			5000}
 	}
 	{nearspace
 		{znear			0.1}
 		{depthScale		0.1}
-	}	
+	}
 	{sprint_fov_change
 		{human
 			{deg		2.5}
@@ -20,7 +20,7 @@
 			{sec		2.0}
 		}
 	}
-	
+
 	{"human_zoom0"
 		{fov			45}
 		{znear			2}
@@ -96,13 +96,13 @@
 		{viewMax		85}
 	}
 	{max_distance
-		{distance		2500}
-		{viewMin		30}
+		{distance		2000}
+		{viewMin		5}
 		{viewMax		85}
 	}
 	; default camera position
 	{default
-		{distance		1400}
+		{distance		850}
 		{viewAngle		37.5}
 	}
 }
