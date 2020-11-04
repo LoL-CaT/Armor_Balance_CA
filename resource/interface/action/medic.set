@@ -1,0 +1,5 @@
+{action
+	{cursor "medkit"}
+	{fx "flashgreen"}
+	{AimEntities}
+}

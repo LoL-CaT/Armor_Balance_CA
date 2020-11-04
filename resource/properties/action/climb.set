@@ -3,9 +3,8 @@
 	{cursor}
 	{fx "flashred"}
 	{apply_to_all}	; action will be applied to whole commander's squad, if commander is selected
-	{delay 0.25}
 	{instructions
-		{bind bone "climb" tries 5 tolerance 3}
+		{bind bone "climb" tries 5}
 		{disable_action_restart}
 		{effect_object "break_windows_delayed"}
 		{check_jump_location "getover_middle"}

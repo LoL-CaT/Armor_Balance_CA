@@ -39,6 +39,11 @@
 		}
 		{"melee" lvl_2
 		}
+
+		(include "perks_generic.inc")		
+		{fortification}
+		{mechanic}
+		("barricade_engineer")	
 	}
 	{veterancy
 		(include "veterancy_generic.inc")

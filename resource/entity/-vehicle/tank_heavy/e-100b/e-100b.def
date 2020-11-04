@@ -318,9 +318,9 @@
 		{box		
 			{item "ammo bullet150gerLate ap" 25}
 			{item "ammo bullet150gerLate fg" 10}
-			{item "ammo bullet20x138b zenite" 800}
-			{item "ammo bullet20x138b ap" 800}
-			{item "ammo bullet20x138b fg" 400}
+			{item "ammo bullet20x138b zenite" 200}
+			{item "ammo bullet20x138b ap" 100}
+			{item "ammo bullet20x138b fg" 100}
 		}
 	}
 	{Weaponry
@@ -335,7 +335,7 @@
 	}
 		{place "mgun"
 			{type "mgun_coaxial"}
-			{weapon "20mm_mg151t" filling "ammo bullet20x138b zenite" 200}
+			{weapon "20mm_mg151t" filling "ammo bullet20x138b zenite" 100}
 			{foresight "foresight3"}
 			{gunner "gunner"}
 			{charger "charger"}			

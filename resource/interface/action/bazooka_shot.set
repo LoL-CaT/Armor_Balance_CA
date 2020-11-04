@@ -1,7 +1,10 @@
 {action
 	{cursor "attack"}
 	{fx "flashred"}
+	{item "rocketlauncher"}
+	{item_in_box}
 	{button}
+	{RequireSelect}
 	{NotifySelect}
 	{ShowCount}
 	{AimEntities}

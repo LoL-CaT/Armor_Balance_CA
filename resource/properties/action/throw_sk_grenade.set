@@ -1,7 +1,7 @@
 {action
 	{cursor "attack"}
 	{fx "flashred"}
-	{item "throwable" "grenade" "fg"}
+	{item "grenade" "smoke"}
 	{item_in_box}
 	{button}
 	{RequireSelect}

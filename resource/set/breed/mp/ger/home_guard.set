@@ -40,9 +40,10 @@
 		{"melee" lvl_2
 		}
 
-		{barricade
-			{"fortifications" "barricade_sq"}
-		}
+		(include "perks_generic.inc")
+		{fortification}
+		{mechanic}
+		("barricade_engineer")
 	}
 	{veterancy
 		(include "veterancy_generic.inc")
