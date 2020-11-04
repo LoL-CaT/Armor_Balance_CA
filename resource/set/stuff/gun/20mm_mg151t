@@ -1,5 +1,5 @@
 ﻿{weapon_bullet			; e-100b jagdpz_e100a
-	{filling "bullet20x138b" 200}
+	{filling "bullet20x138b" 100}
 	{fireSound "gun/zenite/20mm_burst/"}
 	{cursorReloading "cannon_reload"}
 	{cursor "cannon_on"}		
