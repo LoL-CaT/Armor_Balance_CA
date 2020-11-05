@@ -178,7 +178,7 @@
 					}
 					{VolumeView "detail3.ply"}
 				}
-				{bone prizmatic "fx_invers"
+				{bone "fx_invers"
 					{Matrix34
 						-0.999951	0	-0.00989864
 						0.00989822	0	-0.999951
@@ -450,7 +450,7 @@
 				{Position -59.3056	-32.548	20.3756}
 				{VolumeView "shieldr4.ply"}
 			}
-			{bone prizmatic "link2"
+			{bone "link2"
 				{Matrix34
 					-0.999951	0	-0.00989869
 					0.00989817	0	-0.999951

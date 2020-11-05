@@ -430,7 +430,7 @@
 							{Position 10.5721	0	1.52588e-05}
 							{VolumeView "rifle.ply"}
 						}
-						{bone prizmatic "foresight1"
+						{bone "foresight1"
 							{Matrix34
 								1	0	0
 								0	1	0

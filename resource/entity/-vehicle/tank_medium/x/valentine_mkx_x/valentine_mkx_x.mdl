@@ -39,7 +39,7 @@
 					5.84645	0	0.126871
 				}
 			}
-			{bone prizmatic "suspension_l2"
+			{bone "suspension_l2"
 			{parameters "ID=trackleft;"}
 				{Matrix34
 					0	-1	0
@@ -58,7 +58,7 @@
 					{VolumeView "wheell4.ply"}
 				}
 			}
-			{bone prizmatic "suspension_l1"
+			{bone "suspension_l1"
 			{parameters "ID=trackleft;"}
 				{Matrix34
 					0	1	0
@@ -77,7 +77,7 @@
 					{VolumeView "wheell2.ply"}
 				}
 			}
-			{bone prizmatic "suspension_l3"
+			{bone "suspension_l3"
 			{parameters "ID=trackleft;"}
 				{Matrix34
 					0	-1	0
@@ -96,7 +96,7 @@
 					{VolumeView "wheell4.ply"}
 				}
 			}
-			{bone prizmatic "suspension_l4"
+			{bone "suspension_l4"
 			{parameters "ID=trackleft;"}
 				{Matrix34
 					0	-1	0
@@ -115,7 +115,7 @@
 					{VolumeView "wheell4.ply"}
 				}
 			}
-			{bone prizmatic "suspension_l5"
+			{bone "suspension_l5"
 			{parameters "ID=trackleft;"}
 				{Matrix34
 					0	-1	0
@@ -134,7 +134,7 @@
 					{VolumeView "wheell4.ply"}
 				}
 			}
-			{bone prizmatic "suspension_l6"
+			{bone "suspension_l6"
 			{parameters "ID=trackleft;"}
 				{Matrix34
 					0	-1	0
@@ -184,7 +184,7 @@
 					5.84646	0	0.0933895
 				}
 			}
-			{bone prizmatic "suspension_r2"
+			{bone "suspension_r2"
 			{parameters "ID=trackright;"}
 				{Matrix34
 					0	-1	0
@@ -203,7 +203,7 @@
 					{VolumeView "wheelr4.ply"}
 				}
 			}
-			{bone prizmatic "suspension_r1"
+			{bone "suspension_r1"
 			{parameters "ID=trackright;"}
 				{Matrix34
 					0	1	0
@@ -222,7 +222,7 @@
 					{VolumeView "wheelr2.ply"}
 				}
 			}
-			{bone prizmatic "suspension_r3"
+			{bone "suspension_r3"
 			{parameters "ID=trackright;"}
 				{Matrix34
 					0	-1	0
@@ -241,7 +241,7 @@
 					{VolumeView "wheelr4.ply"}
 				}
 			}
-			{bone prizmatic "suspension_r4"
+			{bone "suspension_r4"
 			{parameters "ID=trackright;"}
 				{Matrix34
 					0	-1	0
@@ -260,7 +260,7 @@
 					{VolumeView "wheelr4.ply"}
 				}
 			}
-			{bone prizmatic "suspension_r5"
+			{bone "suspension_r5"
 			{parameters "ID=trackright;"}
 				{Matrix34
 					0	-1	0
@@ -279,7 +279,7 @@
 					{VolumeView "wheelr4.ply"}
 				}
 			}
-			{bone prizmatic "suspension_r6"
+			{bone "suspension_r6"
 			{parameters "ID=trackright;"}
 				{Matrix34
 					0	-1	0

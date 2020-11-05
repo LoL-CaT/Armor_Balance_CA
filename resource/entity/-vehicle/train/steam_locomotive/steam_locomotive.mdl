@@ -144,7 +144,7 @@
 						}
 					}
 				}
-				{bone prizmatic "guide_left"
+				{bone "guide_left"
 					{parameters "ID=wheels_left;"}
 					{Matrix34
 						0	-1	0
@@ -225,7 +225,7 @@
 						}
 					}
 				}
-				{bone prizmatic "guide_right"
+				{bone "guide_right"
 					{parameters "ID=wheels_right;"}
 					{Matrix34
 						0	0	-1

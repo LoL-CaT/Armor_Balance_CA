@@ -49,7 +49,7 @@
 						16.8104	0.117962	-0.117183
 					}
 					{VolumeView "gun.ply"}
-					{bone prizmatic "foresight1"
+					{bone "foresight1"
 						{Matrix34
 							1	0	0
 							0	0	1

@@ -134,7 +134,7 @@
 							7.81585	7.47752	-0.216378
 						}
 						{VolumeView "gun.ply"}
-						{bone prizmatic "foresight1"
+						{bone "foresight1"
 							{Matrix34
 								0.999999	0.00112401	-0.00112465
 								-0.00112378	0.999999	0
@@ -172,7 +172,7 @@
 				{bone "visor3"
 					{Position -86.0098	0.536664	40.9471}
 				}
-				{bone prizmatic "fx_invers"
+				{bone "fx_invers"
 					{Matrix34
 						-0.37342	-0.927602	-0.0106057
 						0.00299394	0.0102269	-0.999943

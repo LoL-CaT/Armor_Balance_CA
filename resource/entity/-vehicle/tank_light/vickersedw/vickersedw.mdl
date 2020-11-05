@@ -301,7 +301,7 @@
 						6.89108	-1.90114	-1.81954
 					}
 					{VolumeView "gun2_rot.ply"}
-					{bone prizmatic "foresight5"
+					{bone "foresight5"
 						{Position 12.3408	0.617523	0.0327778}
 					}
 				}
@@ -367,7 +367,7 @@
 						6.89107	-1.90114	-1.81954
 					}
 					{VolumeView "gun1_rot.ply"}
-					{bone prizmatic "foresight4"
+					{bone "foresight4"
 						{Position 12.3408	0.617523	0.0327778}
 					}
 				}

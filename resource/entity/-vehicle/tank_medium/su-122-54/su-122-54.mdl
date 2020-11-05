@@ -210,7 +210,7 @@
 							}
 						}
 					}
-					{bone prizmatic "foresight5"
+					{bone "foresight5"
 						{Matrix34
 							1	-1.56726e-005	-4.67509e-005
 							1.55514e-005	1	0

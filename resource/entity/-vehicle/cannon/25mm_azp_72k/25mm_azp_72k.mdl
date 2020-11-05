@@ -56,7 +56,7 @@
 						2.43811	-2.92331	9.79824
 					}
 					{VolumeView "gun_rot.ply"}
-					{bone prizmatic "gun"
+					{bone "gun"
 						{parameters "ID=gun;"}
 						{Position -21.4381	13.273	3.4022}
 						{VolumeView "gun.ply"}
@@ -172,7 +172,7 @@
 					}
 				}
 			}
-			{bone prizmatic "domkrat1"
+			{bone "domkrat1"
 				{Matrix34
 					-1	0	0
 					0	-1	1.55029e-05
@@ -189,7 +189,7 @@
 					0.00504153	12.4827	-0.448619
 				}
 				{VolumeView "standr.ply"}
-				{bone prizmatic "domkrat2"
+				{bone "domkrat2"
 					{Matrix34
 						0	1	0
 						-1	0	1.55029e-05
@@ -207,7 +207,7 @@
 					0.00507952	-12.6107	-0.448619
 				}
 				{VolumeView "standl.ply"}
-				{bone prizmatic "domkrat3"
+				{bone "domkrat3"
 					{Matrix34
 						0	1	0
 						-1	0	1.55029e-05

@@ -85,7 +85,7 @@
 								{parameters "ID=gun1;"}
 								{Position 5.82768	0	2.6422}
 								{VolumeView "gun01.ply"}
-								{bone prizmatic "shooter00"
+								{bone "shooter00"
 									{Matrix34
 										1	0	0.000868161
 										-0.000868786	2.09481e-005	1
@@ -94,7 +94,7 @@
 									}
 								}
 							}
-							{bone prizmatic "fx_invers00"
+							{bone "fx_invers00"
 								{Matrix34
 									-0.999942	0	-0.0107687
 									0.010769	-2.1174e-005	-0.999942
@@ -157,7 +157,7 @@
 								{parameters "ID=gun2;"}
 								{Position 5.82768	0	2.6422}
 								{VolumeView "gun02.ply"}
-								{bone prizmatic "shooter01"
+								{bone "shooter01"
 									{Matrix34
 										1	0	0.000868081
 										-0.000868811	2.10222e-005	1
@@ -166,7 +166,7 @@
 									}
 								}
 							}
-							{bone prizmatic "fx_invers01"
+							{bone "fx_invers01"
 								{Matrix34
 									-0.999942	0	-0.0107687
 									0.010769	-2.10416e-005	-0.999942
@@ -212,7 +212,7 @@
 							{VolumeView "ammo05.ply"}
 						}
 					}
-					{bone prizmatic "foresight1"
+					{bone "foresight1"
 						{Matrix34
 							1	-0.000871114	0
 							-0.000871647	-1	1.3974e-005

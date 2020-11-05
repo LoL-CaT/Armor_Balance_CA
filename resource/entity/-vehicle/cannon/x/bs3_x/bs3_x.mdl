@@ -160,7 +160,7 @@
 						-3.57124	0.172239	8.27931
 					}
 					{VolumeView "gun_rot.ply"}
-					{bone prizmatic "gun"
+					{bone "gun"
 						{parameters "ID=gun;"}
 						{animation
 							{sequence "break" {file "gun_b.anm"}}

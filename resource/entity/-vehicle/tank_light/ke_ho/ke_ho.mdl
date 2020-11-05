@@ -155,7 +155,7 @@
 				{bone "visor1"
 					{Position -7.27467	4.86422	5.85888}
 				}
-				{bone prizmatic "fx_invers"
+				{bone "fx_invers"
 					{Matrix34
 						-0.999951	0	-0.00989869
 						0.00989822	0	-0.999951

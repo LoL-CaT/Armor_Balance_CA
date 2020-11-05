@@ -53,7 +53,7 @@
 				{Position 11.9247	0	2.29781}
 				{VolumeView "body1.ply"}
 			}
-			{bone prizmatic "turret"
+			{bone revolute "turret"
 				{parameters "ID=body;"}
 				{limits -10 10}
 				{speed 0.01}

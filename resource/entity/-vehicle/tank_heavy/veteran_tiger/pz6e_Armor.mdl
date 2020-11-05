@@ -54,7 +54,7 @@
 						-75.5806	0.373105	40.4257
 					}
 				}
-				{bone prizmatic "fx_invers"
+				{bone "fx_invers"
 					{Matrix34
 						-0.707063	-0.707065	-0.0110235
 						0.00779632	0.00779271	-0.999939
@@ -191,7 +191,7 @@
 					{terminator}
 					{Position -12.4302	-11.0961	18.4627}
 					{VolumeView "gun01.ply"}
-					{bone prizmatic "foresight2"
+					{bone "foresight2"
 						{limits -30 30}
 						{Matrix34
 							0.706311	0	0.707901
@@ -247,7 +247,7 @@
 							27.5724	-0.247353	-0.674101
 						}
 						{VolumeView "gun.ply"}
-						{bone prizmatic "foresight1"
+						{bone "foresight1"
 							{Matrix34
 								0.999986	0.0052345	0.00104821
 								-0.00104804	0	0.999999
@@ -794,9 +794,9 @@
 				}
 				{VolumeView "trackr.ply"}
 			}
-			{bone prizmatic "suspension_r1"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_r1"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -814,9 +814,9 @@
 					{VolumeView "wheelr01.ply"}
 				}
 			}
-			{bone prizmatic "suspension_r2"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_r2"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -834,9 +834,9 @@
 					{VolumeView "wheelr02.ply"}
 				}
 			}
-			{bone prizmatic "suspension_r3"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_r3"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -854,9 +854,9 @@
 					{VolumeView "wheelr03.ply"}
 				}
 			}
-			{bone prizmatic "suspension_r4"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_r4"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -874,9 +874,9 @@
 					{VolumeView "wheelr04.ply"}
 				}
 			}
-			{bone prizmatic "suspension_r5"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_r5"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -894,9 +894,9 @@
 					{VolumeView "wheelr05.ply"}
 				}
 			}
-			{bone prizmatic "suspension_r6"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_r6"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -914,9 +914,9 @@
 					{VolumeView "wheelr06.ply"}
 				}
 			}
-			{bone prizmatic "suspension_r7"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_r7"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -934,9 +934,9 @@
 					{VolumeView "wheelr07.ply"}
 				}
 			}
-			{bone prizmatic "suspension_r8"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_r8"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -1009,9 +1009,9 @@
 				}
 				{VolumeView "trackl.ply"}
 			}
-			{bone prizmatic "suspension_l1"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_l1"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -1029,9 +1029,9 @@
 					{VolumeView "wheell01.ply"}
 				}
 			}
-			{bone prizmatic "suspension_l2"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_l2"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -1049,9 +1049,9 @@
 					{VolumeView "wheell02.ply"}
 				}
 			}
-			{bone prizmatic "suspension_l3"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_l3"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -1069,9 +1069,9 @@
 					{VolumeView "wheell03.ply"}
 				}
 			}
-			{bone prizmatic "suspension_l4"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_l4"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -1089,9 +1089,9 @@
 					{VolumeView "wheell04.ply"}
 				}
 			}
-			{bone prizmatic "suspension_l5"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_l5"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -1109,9 +1109,9 @@
 					{VolumeView "wheell05.ply"}
 				}
 			}
-			{bone prizmatic "suspension_l6"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_l6"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -1129,9 +1129,9 @@
 					{VolumeView "wheell06.ply"}
 				}
 			}
-			{bone prizmatic "suspension_l7"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_l7"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -1149,9 +1149,9 @@
 					{VolumeView "wheell07.ply"}
 				}
 			}
-			{bone prizmatic "suspension_l8"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_l8"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0

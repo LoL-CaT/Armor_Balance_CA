@@ -351,9 +351,9 @@
 				{Position 0.387773	-0.420931	0.31616}
 				{VolumeView "trackr.ply"}
 			}
-			{bone prizmatic "suspension_r1"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_r1"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -361,9 +361,9 @@
 					44.9003	-1.84534	-1.97388
 				}
 			}
-			{bone prizmatic "suspension_r2"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_r2"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -371,9 +371,9 @@
 					28.0668	-1.84541	-1.97388
 				}
 			}
-			{bone prizmatic "suspension_r3"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_r3"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -381,9 +381,9 @@
 					9.27908	-1.84541	-1.97388
 				}
 			}
-			{bone prizmatic "suspension_r4"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_r4"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -391,9 +391,9 @@
 					-9.05069	-1.84548	-1.97388
 				}
 			}
-			{bone prizmatic "suspension_r5"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_r5"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -401,9 +401,9 @@
 					-27.5293	-1.84541	-1.97388
 				}
 			}
-			{bone prizmatic "suspension_r6"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_r6"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -559,9 +559,9 @@
 				{Position 0.403956	0.420931	0.316161}
 				{VolumeView "trackl.ply"}
 			}
-			{bone prizmatic "suspension_l1"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_l1"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -569,9 +569,9 @@
 					44.9001	1.75815	-1.97382
 				}
 			}
-			{bone prizmatic "suspension_l2"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_l2"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -579,9 +579,9 @@
 					28.0669	1.75808	-1.97382
 				}
 			}
-			{bone prizmatic "suspension_l3"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_l3"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -589,9 +589,9 @@
 					9.27905	1.75808	-1.97382
 				}
 			}
-			{bone prizmatic "suspension_l4"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_l4"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -599,9 +599,9 @@
 					-9.05044	1.75801	-1.97382
 				}
 			}
-			{bone prizmatic "suspension_l5"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_l5"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0
@@ -609,9 +609,9 @@
 					-27.5295	1.75809	-1.97382
 				}
 			}
-			{bone prizmatic "suspension_l6"
-				{limits -0.25 0.25}
-				{speed 2}
+			{bone "suspension_l6"
+;				{limits -0.25 0.25}
+;				{speed 2}
 				{Matrix34
 					1	0	0
 					0	1	0

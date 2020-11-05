@@ -138,7 +138,7 @@
 				{VolumeView "part8.ply"}
 			}
 		}
-		{bone prizmatic "pivot_back"
+		{bone "pivot_back"
 			{parameters "ID=pivot_back;"}
 			{Matrix34
 				0.999897	0.0128051	0.00648589

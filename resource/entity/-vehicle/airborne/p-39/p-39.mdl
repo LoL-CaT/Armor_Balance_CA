@@ -106,7 +106,7 @@
 						{VolumeView "wheelr.ply"}
 					}
 				}
-				{bone prizmatic "shooter02"
+				{bone "shooter02"
 					{Matrix34
 						0	-1	0
 						0	0	1
@@ -114,7 +114,7 @@
 						-4.60244	-27.9032	2.84056
 					}
 				}
-				{bone prizmatic "shooter04"
+				{bone "shooter04"
 					{Matrix34
 						0	-1	0
 						0	0	1
@@ -122,7 +122,7 @@
 						-1.48882	-29.2453	2.62876
 					}
 				}
-                                			{bone prizmatic "shooter_r00"
+                                			{bone "shooter_r00"
 					{Matrix34
 						0	-1	0
 						0	0	1
@@ -130,7 +130,7 @@
 						5.40263	-42.2692	-7.34156
 					}
 				}
-				{bone prizmatic "shooter_r01_1"
+				{bone "shooter_r01_1"
 					{Matrix34
 						0	1	0
 						0	0	1
@@ -138,7 +138,7 @@
 						5.40264	19.2497	-7.33984
 					}
 				}
-				{bone prizmatic "shooter_r02"
+				{bone "shooter_r02"
 					{Matrix34
 						0	-1	0
 						0	0	1
@@ -146,7 +146,7 @@
 						4.0169	-42.2692	-9.93963
 					}
 				}
-				{bone prizmatic "shooter_r04"
+				{bone "shooter_r04"
 					{Matrix34
 						0	-1	0
 						0	0	1
@@ -154,7 +154,7 @@
 						6.90316	-42.2692	-9.93963
 					}
 				}
-				{bone prizmatic "shooter_r02_1"
+				{bone "shooter_r02_1"
 					{Matrix34
 						0	1	0
 						0	0	1
@@ -162,7 +162,7 @@
 						4.01168	19.2497	-9.92819
 					}
 				}
-				{bone prizmatic "shooter_r03_1"
+				{bone "shooter_r03_1"
 					{Matrix34
 						0	1	0
 						0	0	1
@@ -204,7 +204,7 @@
 						{VolumeView "wheell.ply"}
 					}
 				}
-				{bone prizmatic "shooter03"
+				{bone "shooter03"
 					{Matrix34
 						0	-1	0
 						0	0	1
@@ -212,7 +212,7 @@
 						2.44455	-18.6426	1.33862
 					}
 				}
-				{bone prizmatic "shooter05"
+				{bone "shooter05"
 					{Matrix34
 						0	-1	0
 						0	0	1
@@ -229,7 +229,7 @@
 ;					}
 ;					{VolumeView "rocket_rack_l.ply"}
 ;				}
-				{bone prizmatic "shooter_l03_1"
+				{bone "shooter_l03_1"
 					{Matrix34
 						0	1	0
 						0	0	1
@@ -237,7 +237,7 @@
 						-9.22941	28.5102	-11.4301
 					}
 				}
-				{bone prizmatic "shooter_l02_1"
+				{bone "shooter_l02_1"
 					{Matrix34
 						0	1	0
 						0	0	1
@@ -245,7 +245,7 @@
 						-6.31041	28.5102	-11.4301
 					}
 				}
-				{bone prizmatic "shooter_l01_1"
+				{bone "shooter_l01_1"
 					{Matrix34
 						0	1	0
 						0	0	1
@@ -253,7 +253,7 @@
 						-7.83847	28.5102	-8.84178
 					}
 				}
-				{bone prizmatic "shooter_r05"
+				{bone "shooter_r05"
 					{Matrix34
 						0	-1	0
 						0	0	1
@@ -261,7 +261,7 @@
 						-9.22421	-33.0086	-11.4416
 					}
 				}
-				{bone prizmatic "shooter_r03"
+				{bone "shooter_r03"
 					{Matrix34
 						0	-1	0
 						0	0	1
@@ -269,7 +269,7 @@
 						-6.33794	-33.0086	-11.4416
 					}
 				}
-				{bone prizmatic "shooter_r01"
+				{bone "shooter_r01"
 					{Matrix34
 						0	-1	0
 						0	0	1
@@ -400,7 +400,7 @@
 					-0.467672	-15.2696	-21.9477
 				}
 			}
-			{bone prizmatic "shooter00"
+			{bone "shooter00"
 				{Matrix34
 					0	-1	0
 					0	0	1
@@ -408,7 +408,7 @@
 					-2.58665	-73.1873	5.05336
 				}
 			}
-			{bone prizmatic "shooter01"
+			{bone "shooter01"
 				{Matrix34
 					0	-1	0
 					0	0	1

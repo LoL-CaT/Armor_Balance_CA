@@ -338,7 +338,7 @@
 						{parameters "id=gun;"}
 						{Position 49.0326	-1.33222	0.571617}
 						{VolumeView "gun.ply"}
-						{bone prizmatic "foresight1"
+						{bone "foresight1"
 							{Matrix34
 								1	-1.57947e-005	-1.58563e-005
 								1.52563e-005	1	0
@@ -355,7 +355,7 @@
 						-50.7913	1.19955	6.34434
 					}
 					{VolumeView "mgun2.ply"}
-					{bone prizmatic "foresight5"
+					{bone "foresight5"
 						{Matrix34
 							1	-1.56775e-005	-4.65311e-005
 							1.55395e-005	1	0

@@ -87,7 +87,7 @@
 							2.4381	-2.92331	9.79824
 						}
 						{VolumeView "gun_rot.ply"}
-						{bone prizmatic "gun"
+						{bone "gun"
 							{parameters "ID=gun;"}
 							{Matrix34
 								0.853859	-0.520505	0
