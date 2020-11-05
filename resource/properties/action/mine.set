@@ -1,9 +1,0 @@
-{action
-	{cursor}
-	{fx "flashred"}
-	{item "mine"}
-	{item_in_box}
-	{button}
-	{ShowCount}
-	{abledrag}
-}
