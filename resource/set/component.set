@@ -1,0 +1,107 @@
+{components
+    {category "car_light"
+        {hp 300}
+        {hp_broken 300}
+    }
+    {category "car_medium"
+        {hp 400}
+        {hp_broken 400}
+    }
+    {category "car_heavy"
+        {hp 500}
+        {hp_broken 500}
+    }
+	
+    {category "tank_light"
+        {hp 1000}
+        {hp_broken 1000}
+    }
+    {category "tank_medium"
+        {hp 1250}
+        {hp_broken 1250}
+    }
+    {category "tank_heavy"
+        {hp 1500}
+        {hp_broken 1500}
+    }
+	
+    {category "airborne_light"
+        {hp 1250}
+        {hp_broken 625}
+    }
+    {category "airborne_medium"
+        {hp 1500}
+        {hp_broken 750}
+    }
+    {category "airborne_heavy"
+        {hp 2000}
+        {hp_broken 1000}
+    }
+
+
+	{category "turret_light"
+        {hp 250}
+    }
+	{category "turret_medium"
+        {hp 500}
+    }
+	{category "turret_heavy"
+        {hp 1000}
+    }
+
+	{category "engine_light"
+        {hp 250}
+        {hp_broken 250}
+    }
+	{category "engine_medium"
+        {hp 500}
+        {hp_broken 500}
+    }
+	{category "engine_heavy"
+        {hp 1000}
+        {hp_broken 1000}
+    }
+	
+	{category "gun_light"
+        {hp 250}
+    }
+	{category "gun_medium"
+        {hp 500}
+    }
+	{category "gun_heavy"
+        {hp 750}
+    }
+	
+	{category "track_light"
+        {hp 100}
+    }
+	{category "track_medium"
+        {hp 300}
+    }
+	{category "track_heavy"
+        {hp 500}
+    }
+	
+	{category "wheel_light"
+        {hp 150}
+    }
+	{category "wheel_medium"
+        {hp 200}
+    }
+	{category "wheel_heavy"
+        {hp 300}
+    }	
+	
+	{category "glass_light"
+        {hp 50}
+		{hp_broken 0}
+    }
+	{category "glass_medium"
+        {hp 100}
+		{hp_broken 0}
+    }
+	{category "glass_heavy"
+        {hp 200}
+		{hp_broken 0}
+    }
+}

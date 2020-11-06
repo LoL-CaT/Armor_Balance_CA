@@ -17,3 +17,5 @@ game_entity
 	{constrain ground}
 
 	{lodclass "stuff_small"}
+
+	{NoVisibilityPatch}

@@ -1,6 +1,6 @@
 {from "pattern fg"
 	{tag "big" "size_big" "shell_verybig" "fg" "fg_120_130f"}
-	{mass 24}
+	{mass 24}	
 	{inventory
 		{size 6 1}
 	}	
