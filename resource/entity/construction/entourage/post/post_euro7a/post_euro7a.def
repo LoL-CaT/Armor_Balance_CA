@@ -13,8 +13,8 @@
 		{thickness 1}
 		{able{obstacle 0}}
 	}
-	{extender "light"
-		{lamp "1"}
-	}
+;	{extender "light"
+;		{lamp "1"}
+;	}
 	{lodclass "decor_medium"}
 }
