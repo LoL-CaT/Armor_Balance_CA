@@ -30,7 +30,7 @@
 		}
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
@@ -69,7 +69,7 @@
 		}		
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
@@ -108,7 +108,7 @@
 		}		
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
@@ -147,7 +147,7 @@
 		}		
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
@@ -186,7 +186,7 @@
 		}		
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
@@ -225,7 +225,7 @@
 		}		
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
@@ -264,7 +264,7 @@
 		}		
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
@@ -303,7 +303,7 @@
 		}		
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
@@ -344,7 +344,7 @@
 		}		
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
@@ -383,7 +383,7 @@
 		}		
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
@@ -422,7 +422,7 @@
 		}		
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
@@ -461,7 +461,7 @@
 		}		
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
@@ -500,7 +500,7 @@
 		}		
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
@@ -542,7 +542,7 @@
 		}		
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
@@ -583,7 +583,7 @@
 		}		
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
@@ -627,7 +627,7 @@
 		}		
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
@@ -666,7 +666,7 @@
 		}		
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
@@ -708,7 +708,7 @@
 		}		
 		
 		(include "perks_generic.inc")
-		{fortification}
+;		{fortification}
 ;		{mechanic}
 		("barricade_engineer")		
 )
