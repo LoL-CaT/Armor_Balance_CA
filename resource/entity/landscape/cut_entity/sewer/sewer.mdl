@@ -6,13 +6,13 @@
 		{sequence "open" {speed 0.3}}
 	}
 	{bone "sewer"
-		{parameters "CommonMesh;Ground;"}
+		{parameters "CommonMesh;Land;Align;"}
 		{Orientation
 			1	0	0
 			0	-1	0
 			0	0	1
 		}
-		{VolumeView "sewer.ply" {Ground}}
+		{VolumeView "sewer.ply"}
 		{bone "seat1"
 			{Matrix34
 				-1	0	0

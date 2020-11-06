@@ -3,13 +3,13 @@
 ;File:        D:\-Project-\-3DWork-\Constructions\ditch_tank.max
 {Skeleton
 	{bone "ditch_tank_side"
-		{parameters "Ground;"}
+		{parameters "CommonMesh;Land;Align;"}
 		{Orientation
 			1	0	0
 			0	-1	0
 			0	0	1
 		}
-		{VolumeView "ditch_tank_side.ply" {Ground}
+		{VolumeView "ditch_tank_side.ply"}
 			{DecalTargetDynamic}
 		}
 	}
