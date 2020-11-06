@@ -9,44 +9,8 @@
 	}
 	{tags "officer"}
 	{perks
-		{"health" "48%"
-		}
-		{"health_regeneration" "200%"
-		}
-		{"stamina" "300%"
-		}
-		{"stamina_regeneration" "275%"
-		}
-		{"vision" "mp_officer"
-		}
-		{"field_glass"
-		}
-		{"stealth"
-		}
-		{"telescope"
-		}
-		{"speed" 1.5
-		}
-		{"tank"	1.5
-		}
-		{"vehicle" 1.5
-		}
-		{"cannon" 1.5
-		}
-		
-		{"pistol" lvl_5
-		}
-		{"smg" lvl_5
-		}
-		{"mgun" lvl_5
-		}
-		{"rifle" lvl_5
-		}
-		{"rocketlauncher" lvl_5
-		}
-		{"melee" "lvl_5"
-		}
-		{"aimedshot"}
+		(include "perks_generic.inc")
+		("perk_hero")
 	}
 	{veterancy
 		(include "veterancy_generic.inc")

@@ -8,37 +8,8 @@
 		{head helmet1_ger}
 	}
 	{perks
-		{"health" "16%"
-		}
-		{"health_regeneration" "100%"
-		}
-		{"stamina" "100%"
-		}
-		{"stamina_regeneration" "100%"
-		}
-		{"vision" "mp_soldier"
-		}
-		{"speed" 0.7
-		}
-		{"tank"	0.3
-		}
-		{"vehicle" 1.0
-		}
-		{"cannon" 1.3
-		}
-		
-		{"pistol" lvl_1
-		}
-		{"smg" lvl_1
-		}
-		{"mgun" lvl_2
-		}
-		{"rifle" lvl_1
-		}
-		{"rocketlauncher" lvl_1
-		}
-		{"melee" lvl_2
-		}
+		(include "perks_generic.inc")
+		("perk_mgun")
 	}
 	{veterancy
 		(include "veterancy_generic.inc")

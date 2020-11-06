@@ -1,7 +1,4 @@
 {material simple
-	{diffuse "$/humanskin/human_for_cover"}
-	
-	{blend add}
-	{nolight}
-	;{glow}
+	{diffuse "blue"}
+	{blend none}
 }
