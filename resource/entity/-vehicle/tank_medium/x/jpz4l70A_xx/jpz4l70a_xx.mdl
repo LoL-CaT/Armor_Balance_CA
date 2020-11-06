@@ -487,11 +487,11 @@
         7.0400 -1.0800 0.0000
     }
 }
-{Volume "crew"
-    {Box 19.6814 29.7244 22.1273}
-    {Bone "body"}
-    {Position -3.2973 1.3307 14.1612}
-}
+;{Volume "crew"
+;    {Box 19.6814 29.7244 22.1273}
+;    {Bone "body"}
+;    {Position -3.2973 1.3307 14.1612}
+;}
 {Volume "engine"
     {Box 18.2086 36.3914 15.1187}
     {Bone "engine"}

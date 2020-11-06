@@ -58,7 +58,7 @@
 	
 	("crew_4_human")
 	
-	("shield" args 10)
+	("shield" args 1)
 	
 	{extender "shield"
 		{on}
