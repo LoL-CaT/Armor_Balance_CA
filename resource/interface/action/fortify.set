@@ -70,7 +70,7 @@
 ;---
 ("fortification"			name(trench_t)		        entity(trench_tank)					cost(10)	time(15)	rotation(270.0)	restrictions("bridge bridge_wood rock shallow_water ice water"))
 ("fortification"			name(trench_mortar_pit)		entity(trench_mortar_pit_1)			cost(10)	time(15)	rotation(270.0)	restrictions("bridge bridge_wood rock shallow_water ice water"))
-("fortification_draggable"	name(foxhole_big)	        entity(trench_ground)	spacing(0)  cost(2)	time(1)	rotation(0.0))
+("fortification_draggable"	name(foxhole_big)	        entity(trench_low2)	spacing(0)  cost(2)	time(1)	rotation(0.0))
 ;---
 
 ;barricade
