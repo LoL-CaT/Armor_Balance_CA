@@ -2,12 +2,12 @@
 	{tag "gun"}
 	{filling "ammo nebel42" 6}
 	{fireSound "reactive/nebelwerfer2_burst"}
+	{foresight "foresight"}	
     ("speed" s(320))	
 	("range_R175")
 	
 	{recoveryTime 1}
 	{AimingTolerance 0.1}
-	{foresight "foresight"}
 	{burst {min 1} {noaiming}}
     ("rechargeTime" r(0.7))
 
