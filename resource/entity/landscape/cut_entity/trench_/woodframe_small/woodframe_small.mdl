@@ -4,10 +4,11 @@
 {Skeleton
 	{bone "woodframe_small"
 		{Color 0xfffdc0}
-		{Orientation
+			{Matrix34
 			1	0	0
 			0	-1	0
 			0	0	1
+			0	0	13			
 		}
 		{VolumeView "woodframe_small.ply"}
 	}

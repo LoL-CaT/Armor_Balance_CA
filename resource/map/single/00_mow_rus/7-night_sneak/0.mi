@@ -30503,7 +30503,7 @@
 			{item "dynamite_clockwork" {cell 0 5}}
 			{item "knife_rus" {cell 5 0}}
 			{item "knife_rus" {cell 2 5}}
-			{item "morphine" {cell 4 5}}
+;			{item "morphine" {cell 4 5}}
 		}
 	}
 	{Inventory 0xe03f
@@ -44762,7 +44762,7 @@
 			{item "knife_rus" {cell 2 6}}
 			{item "f1" "grenade" {cell 5 0}}
 			{item "f1" "grenade" {cell 6 0}}
-			{item "morphine" {cell 4 5}}
+;			{item "morphine" {cell 4 5}}
 		}
 	}
 	{Inventory 0x890d
@@ -44818,7 +44818,7 @@
 			{item "knife_rus" {cell 2 5}}
 			{item "f1" "grenade" {cell 4 5}}
 			{item "f1" "grenade" {cell 5 0}}
-			{item "morphine" {cell 2 6}}
+;			{item "morphine" {cell 2 6}}
 		}
 	}
 	{Inventory 0x890f
@@ -44835,8 +44835,8 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-			{item "morphine" {cell 4 3}}
-			{item "morphine" {cell 0 4}}
+;			{item "morphine" {cell 4 3}}
+;			{item "morphine" {cell 0 4}}
 			{item "barbwire_kit" {cell 6 1}}
 			{item "barbwire_kit" {cell 6 2}}
 			{item "sandbag_kit" {cell 3 4}}
@@ -44859,8 +44859,8 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-			{item "morphine" {cell 4 3}}
-			{item "morphine" {cell 0 4}}
+;			{item "morphine" {cell 4 3}}
+;			{item "morphine" {cell 0 4}}
 			{item "barbwire_kit" {cell 6 1}}
 			{item "barbwire_kit" {cell 6 2}}
 			{item "sandbag_kit" {cell 3 4}}
@@ -44883,8 +44883,8 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-			{item "morphine" {cell 4 3}}
-			{item "morphine" {cell 0 4}}
+;			{item "morphine" {cell 4 3}}
+;			{item "morphine" {cell 0 4}}
 			{item "barbwire_kit" {cell 6 1}}
 			{item "barbwire_kit" {cell 6 2}}
 			{item "sandbag_kit" {cell 3 4}}
@@ -44907,8 +44907,8 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-			{item "morphine" {cell 4 3}}
-			{item "morphine" {cell 0 4}}
+;			{item "morphine" {cell 4 3}}
+;			{item "morphine" {cell 0 4}}
 			{item "barbwire_kit" {cell 6 1}}
 			{item "barbwire_kit" {cell 6 2}}
 			{item "sandbag_kit" {cell 3 4}}
@@ -45074,8 +45074,8 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-			{item "morphine" {cell 4 3}}
-			{item "morphine" {cell 0 4}}
+;			{item "morphine" {cell 4 3}}
+;			{item "morphine" {cell 0 4}}
 			{item "barbwire_kit" {cell 6 1}}
 			{item "barbwire_kit" {cell 6 2}}
 			{item "sandbag_kit" {cell 3 4}}

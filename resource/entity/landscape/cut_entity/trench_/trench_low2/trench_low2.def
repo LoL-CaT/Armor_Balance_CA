@@ -10,7 +10,7 @@
 	("volume" args "body4")
 	("volume" args "body5")
 	("volume" args "body6")
-;	{ObstacleID "unbreakable"}
+	{ObstacleID "unbreakable"}
 	
 	{texmod "summer"}
 	

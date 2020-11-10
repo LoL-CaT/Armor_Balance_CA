@@ -52,21 +52,21 @@
 	{extender "inventory"
 		{box
 			{item "ammo katusha" 8}
-			{item "ammo air_bomb_il2" 8}
+			{item "ammo air_bomb_il2" 4}
 			{item "bullet23 airplane" 300}
 		}
 	}	
 	{Weaponry
 		{place "rocket"
 			{type "secondary_rockets"}		
-			{weapon "arl_il2" filled}
+			{weapon "arl_il2" filling "ammo katusha" 8}
 			{barrels 8}
 			{shooter "shooter_r"}
 			{charger "gunner"}
 		}
 		{place "bomb"
 			{type "dropper_av"}		
-			{weapon "bomb_dropper_il2" filled}
+			{weapon "bomb_dropper_il2" filling "ammo air_bomb_il2" 4}
 			{barrels 2}
 			{shooter "shooter_b"}
 			{charger "gunner"}
