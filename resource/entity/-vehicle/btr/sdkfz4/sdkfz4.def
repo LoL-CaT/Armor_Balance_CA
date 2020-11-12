@@ -100,8 +100,13 @@
 	
    {mass 7100}
 
-	{bone "gun"		{limits 2.0000 42.0000}}
-	{bone "turret"	{speed2 5}}
+    {bone "turret"	
+		{speed2 5}
+	}
+	{bone "gun"
+		{limits -5 57}
+		{speed2 5}
+	}
 	{brain
 		{properties
 			{fire_mode hold}
