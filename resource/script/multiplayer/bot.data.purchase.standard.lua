@@ -1,6 +1,6 @@
 Purchases["standard"] = {
 	{--purchase 1
-		Repeat = 0,
+		Repeat = 9999,
 		Units = {
 			["rus"] = {--rus
 				{priority = 1.0, class = UnitClass.Infantry, unit = "home_guards(rus)"},
@@ -35,9 +35,9 @@ Purchases["standard"] = {
 				{priority = 2.0, class = UnitClass.Tank, unit = "panther_ii_88mm"},--45
 				{priority = 2.1, class = UnitClass.Tank, unit = "e-50_75l100"},--46
 --;°°°Mashinegun°°°
-				{priority = 1.8, class = UnitClass.AATank, unit = "sdkfz7_1"},--39
-				{priority = 1.8, class = UnitClass.AATank, unit = "sdkfz7_2a"},--39
-				{priority = 2.2, class = UnitClass.AATank, unit = "welberwind"},--44
+				{priority = 1.0, class = UnitClass.AATank, unit = "sdkfz7_1"},--39
+				{priority = 1.1, class = UnitClass.AATank, unit = "sdkfz7_2a"},--39
+				{priority = 1.2, class = UnitClass.AATank, unit = "welberwind"},--44
 --;°°°Heavy tanks°°°
 				{priority = 2.0, class = UnitClass.Tank, unit = "fcm2c"},--39
 				{priority = 2.1, class = UnitClass.Tank, unit = "b1ter"},--40
