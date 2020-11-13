@@ -257,12 +257,12 @@
 
 ;°°°Button Hero°°°
 
-{"spitfiremk1a"           ("v1" cd(180) ci(1800) c(1800)	c1(spitfiremk1a)				t(all hero) s(eng) n1(vehicle_supporter:1) g(avs1) b(hero)) {cost 2.5} {fore 1}} ; ÃÎÄ 39
-{"beaufighter"            ("v1" cd(180) ci(1800) c(1800)	c1(beaufighter)				    t(all hero) s(eng) n1(vehicle_supporter:2) g(avs2) b(hero)) {cost 15.0} {fore 1}} ; ÃÎÄ 39
+{"spitfiremk1a"           ("v1" cd(180) ci(1800) c(1800)	c1(spitfiremk1a)				t(all hero) s(eng) n2(1) g(avs1) b(hero)) {cost 2.5} {fore 1}} ; ÃÎÄ 39
+{"beaufighter"            ("v1" cd(180) ci(1800) c(1800)	c1(beaufighter)				    t(all hero) s(eng) n2(1) g(avs2) b(hero)) {cost 15.0} {fore 1}} ; ÃÎÄ 39
 
-{"hurricane23"            ("v1" cd(1800) ci(1800) c(1800)	c1(hurricane23)			    	t(all hero) s(eng) n1(vehicle_supporter:1) g(avs3) b(hero)) {cost 5.0} {fore -0.01}} ; ÃÎÄ 40/41
+{"hurricane23"            ("v1" cd(1800) ci(1800) c(1800)	c1(hurricane23)			    	t(all hero) s(eng) n2(1) g(avs3) b(hero)) {cost 5.0} {fore -0.01}} ; ÃÎÄ 40/41
 
-{"mk3mustang"             ("v1" cd(3600) ci(1800) c(1800)	c1(mk3mustang)				    t(all hero) s(eng) n1(vehicle_supporter:1) g(avs4) b(hero)) {cost 15.0} {fore -1.01}} ; ÃÎÄ 43
+{"mk3mustang"             ("v1" cd(3600) ci(1800) c(1800)	c1(mk3mustang)				    t(all hero) s(eng) n2(1) g(avs4) b(hero)) {cost 15.0} {fore -1.01}} ; ÃÎÄ 43
 
 
-;{"beaufighter_torpedo"    ("v1" cd(180) ci(1800) c(1800)	c1(beaufighter_torpedo)			t(all hero) s(eng) n1(vehicle_supporter:2) g(avs1) b(hero)) {cost 15.0} {fore 1}} ; ÃÎÄ 39
+;{"beaufighter_torpedo"    ("v1" cd(180) ci(1800) c(1800)	c1(beaufighter_torpedo)			t(all hero) s(eng) n2(1) g(avs1) b(hero)) {cost 15.0} {fore 1}} ; ÃÎÄ 39

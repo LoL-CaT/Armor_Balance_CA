@@ -234,14 +234,14 @@
 
 ;°°°Button Hero°°°
 
-{"f4f"            ("v1" cd(180) ci(1800) c(1800)	c1(f4f)			    	t(all hero) s(usa) n1(vehicle_supporter:1) g(avs1) b(hero)) {cost 2.5} {fore 1}} ; ÃÎÄ 39
-{"p-39"           ("v1" cd(180) ci(1800) c(1800)	c1(p-39)				t(all hero) s(usa) n1(vehicle_supporter:1) g(avs2) b(hero)) {cost 15.0} {fore 1}} ; ÃÎÄ 39
+{"f4f"            ("v1" cd(180) ci(1800) c(1800)	c1(f4f)			    	t(all hero) s(usa) n2(1) g(avs1) b(hero)) {cost 2.5} {fore 1}} ; ÃÎÄ 39
+{"p-39"           ("v1" cd(180) ci(1800) c(1800)	c1(p-39)				t(all hero) s(usa) n2(1) g(avs2) b(hero)) {cost 15.0} {fore 1}} ; ÃÎÄ 39
 
-{"p51mustang"     ("v1" cd(1800) ci(1800) c(1800)	c1(p51mustang)		    t(all hero) s(usa) n1(vehicle_supporter:1) g(avs3) b(hero)) {cost 2.5} {fore -0.01}} ; ÃÎÄ 41
-{"p-40"           ("v1" cd(1800) ci(1800) c(1800)	c1(p-40)				t(all hero) s(usa) n1(vehicle_supporter:1) g(avs4) b(hero)) {cost 15.0} {fore -0.01}} ; ÃÎÄ 41
+{"p51mustang"     ("v1" cd(1800) ci(1800) c(1800)	c1(p51mustang)		    t(all hero) s(usa) n2(1) g(avs3) b(hero)) {cost 2.5} {fore -0.01}} ; ÃÎÄ 41
+{"p-40"           ("v1" cd(1800) ci(1800) c(1800)	c1(p-40)				t(all hero) s(usa) n2(1) g(avs4) b(hero)) {cost 15.0} {fore -0.01}} ; ÃÎÄ 41
 
-{"p-51mustang_b"  ("v1" cd(3600) ci(1800) c(1800)	c1(p-51mustang_b)	    t(all hero) s(usa) n1(vehicle_supporter:1) g(avs5) b(hero)) {cost 15.0} {fore -1.01}} ; ÃÎÄ 43
-{"b25"            ("v1" cd(3600) ci(1800) c(1800)	c1(b25)				    t(all hero) s(usa) n1(vehicle_supporter:5) g(avs6) b(hero)) {cost 15.0} {fore -1.01}} ; ÃÎÄ 43
+{"p-51mustang_b"  ("v1" cd(3600) ci(1800) c(1800)	c1(p-51mustang_b)	    t(all hero) s(usa) n2(1) g(avs5) b(hero)) {cost 15.0} {fore -1.01}} ; ÃÎÄ 43
+{"b25"            ("v1" cd(3600) ci(1800) c(1800)	c1(b25)				    t(all hero) s(usa) n2(1) g(avs6) b(hero)) {cost 15.0} {fore -1.01}} ; ÃÎÄ 43
 
 
-;{"b25_torpedo"    ("v1" cd(3600) ci(1800) c(1800)	c1(b25_torpedo)			t(all hero) s(usa) n1(vehicle_supporter:5) g(avs2) b(hero)) {cost 15.0} {fore -1.01}} ; ÃÎÄ 43
+;{"b25_torpedo"    ("v1" cd(3600) ci(1800) c(1800)	c1(b25_torpedo)			t(all hero) s(usa) n2(1) g(avs2) b(hero)) {cost 15.0} {fore -1.01}} ; ÃÎÄ 43
