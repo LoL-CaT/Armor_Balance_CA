@@ -265,7 +265,7 @@
 
 {"np_voroshilovets_52k"  ("v" cd(2700) ci(900) c(900) t(all heavy)                   s(rus) n1(3) n2(1) g(l5) sc(6.0) b(v5) cw(0) cp(17)) {cost 1150} {fore -2.01}} ; ГОД 42
 
-{"su85"                  ("v" c(60) t(all medium)                   s(rus) n1(3) n2(1) g(l6) sc(6.0) b(v5) cw(0) cp(7)) {cost 750} {fore -60}} ; ГОД 43
+{"su85"                  ("v" cd(3600) ci(60) c(60) t(all medium)                   s(rus) n1(3) n2(1) g(l6) sc(6.0) b(v5) cw(0) cp(7)) {cost 750} {fore -60}} ; ГОД 43
 
 {"su85m"                 ("v" cd(3600) ci(60) c(60) t(all medium)                   s(rus) n1(3) n2(1) g(l7) sc(6.0) b(v5) cw(0) cp(17)) {cost 700} {fore -75}} ; ГОД 44 	
 
