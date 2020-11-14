@@ -1,6 +1,6 @@
 ;SDL
 game_entity
-;	{props "trench"}
+	{props "trench"}
 	{obstacleid "trench_wall"}
 	{collider "construction"}
 	{NoCastShadows}
@@ -9,7 +9,6 @@ game_entity
 		{AlignStacked 0}
 		{AlignVolumes 1}
 		{TerrainType "road" "bridge"}
-		{RemoveEntities 1}		
 	}
 	(define "volume" 
 		{Volume %0 {thickness 20} {tags "body"} {able {contact 0} {obstacle 1}}}
@@ -20,5 +19,3 @@ game_entity
 	(define "boneAlign" 
 		{bone %0 {parameters "Align;"}}
 	)
-	
-	{lodclass "decor_trench"}	

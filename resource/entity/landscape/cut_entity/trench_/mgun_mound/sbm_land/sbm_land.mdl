@@ -3,7 +3,7 @@
 ;File:        D:\-Project-\-3DWork-\Sandbagsmound\sb_mound_v01.max
 {Skeleton
 	{bone "sbm_land"
-		{parameters "CommonMesh;Land;Align;"}
+		{parameters "Land;Ground;"}
 		{Orientation
 			1	0	0
 			0	-1	0

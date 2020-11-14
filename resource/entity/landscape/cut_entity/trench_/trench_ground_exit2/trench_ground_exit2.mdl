@@ -3,13 +3,13 @@
 ;File:        D:\-Projects1_5-\-3DWork-\trench\trench14_1.max
 {Skeleton
 	{bone "trench_ground_exit2"
-		{parameters "CommonMesh;Land;Align;"}
+		{parameters "CommonMesh;Ground;"}
 		{Orientation
 			1	0	0
 			0	-1	0
 			0	0	1
 		}
-		{VolumeView "trench_ground_exit2.ply"}
+		{VolumeView "trench_ground_exit2.ply" {Ground} {DecalTarget}}
 		{bone "trench_wood_exit2"
 			{parameters "Ground;"}
 			{Orientation

@@ -13,10 +13,10 @@
 			{Position -0.0431315	73.1271	0}
 		}
 		{bone "land"
-		{parameters "CommonMesh;Land;Align;"}
+			{parameters "Land;Ground;"}
 			{Position -0.0431411	-2.27175	18.4321}
 			{visibility 0}
-			{VolumeView "land.ply"}
+			{VolumeView "land.ply" {Ground}}
 		}
 	}
 }

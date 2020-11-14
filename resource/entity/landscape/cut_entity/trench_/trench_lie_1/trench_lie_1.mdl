@@ -3,13 +3,13 @@
 ;File:        D:\-Project-\-3DWork-\trench\2_sit.max
 {Skeleton
 	{bone "trench_ground"
-		{parameters "CommonMesh;Land;Align;"}
+		{parameters "CommonMesh;Ground;"}
 		{Orientation
 			1	0	0
 			0	-1	0
 			0	0	1
 		}
-		{VolumeView "trench_ground.ply"}
+		{VolumeView "trench_ground.ply" {Ground} {DecalTarget}}
 		{bone "point"
 			{Position -14.3056	0	-3.43492}
 		}
