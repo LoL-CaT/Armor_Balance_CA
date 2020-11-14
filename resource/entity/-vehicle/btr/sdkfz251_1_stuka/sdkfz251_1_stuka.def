@@ -170,6 +170,6 @@
 		{limits 0 0}		
 	}	
 	{bone "gun1"
-		{limits -75 5}		
+		{limits -45 5}		
 	}
 }

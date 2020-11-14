@@ -1724,7 +1724,7 @@
 	
 	{ZeroingAccuracy 0.85 0.80 0.75 0.70 0.65}
 	{DisableRicochet}
-;;	{aimtype adaptive}
+	{aimtype adaptive}
 	{traceFreq 0}
 	
         {aimRange 205}	
@@ -1732,7 +1732,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 170}
-	{gravity 1.85}
+	{gravity 0.35}
 )
 
 (define "range_light_ls_howitzer_s"
@@ -1748,7 +1748,7 @@
 	
 	{ZeroingAccuracy 0.85 0.80 0.75 0.70 0.65}
 	{DisableRicochet}
-;;	{aimtype adaptive}
+	{aimtype adaptive}
 	{traceFreq 0} 
 	
         {aimRange 205}	
@@ -1756,7 +1756,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 170}
-	{gravity 1.75}
+	{gravity 0.25}
 )
 
 (define "range_light_gun_howitzer_s"
@@ -1852,7 +1852,7 @@
 	
 	{ZeroingAccuracy 0.85 0.80 0.75 0.70 0.65}
 	{DisableRicochet}
-;;	{aimtype adaptive}
+	{aimtype adaptive}
 	{traceFreq 0}
 	
         {aimRange 205}	
@@ -1860,7 +1860,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 200}
-	{gravity 1.85}
+	{gravity 0.35}
 )
 
 (define "range_light_ls_howitzer"
@@ -1876,7 +1876,7 @@
 	
 	{ZeroingAccuracy 0.85 0.80 0.75 0.70 0.65}
 	{DisableRicochet}
-;;	{aimtype adaptive}
+	{aimtype adaptive}
 	{traceFreq 0}
 	
         {aimRange 205}	
@@ -1884,7 +1884,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 200}
-	{gravity 1.75}
+	{gravity 0.25}
 )
 
 (define "range_light_gun_howitzer"
@@ -1974,7 +1974,7 @@
 	
 	{ZeroingAccuracy 0.85 0.80 0.75 0.70 0.65}
 	{DisableRicochet}
-;;	{aimtype adaptive}
+	{aimtype adaptive}
 	{traceFreq 0}
 	
         {aimRange 210}	
@@ -1982,7 +1982,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 225}
-	{gravity 1.85}
+	{gravity 0.35}
 )
 
 (define "range_grazing_ls_howitzer"
@@ -1998,7 +1998,7 @@
 	
 	{ZeroingAccuracy 0.85 0.80 0.75 0.70 0.65}
 	{DisableRicochet}
-;;	{aimtype adaptive}
+	{aimtype adaptive}
 	{traceFreq 0}
 	
         {aimRange 210}	
@@ -2006,7 +2006,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 225}
-	{gravity 1.75}
+	{gravity 0.25}
 )
 
 (define "range_grazing_gun_howitzer"
@@ -2099,7 +2099,7 @@
 	
 	{ZeroingAccuracy 0.85 0.80 0.75 0.70 0.65}
 	{DisableRicochet}
-;;	{aimtype adaptive}
+	{aimtype adaptive}
 	{traceFreq 0}
 
 	
@@ -2108,7 +2108,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 1.85}
+	{gravity 0.35}
 )
 
 (define "range_medium_ls_howitzer"
@@ -2125,7 +2125,7 @@
 	
 	{ZeroingAccuracy 0.85 0.80 0.75 0.70 0.65}
 	{DisableRicochet}
-;;	{aimtype adaptive}
+	{aimtype adaptive}
 	{traceFreq 0}
 	
         {aimRange 210}	
@@ -2133,7 +2133,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 1.75}
+	{gravity 0.25}
 )
 
 (define "range_medium_gun_howitzer"
@@ -2227,7 +2227,7 @@
 	
 	{ZeroingAccuracy 0.85 0.80 0.75 0.70 0.65}
 	{DisableRicochet}
-;;	{aimtype adaptive}
+	{aimtype adaptive}
 	{traceFreq 0}
 	
         {aimRange 210}	
@@ -2235,7 +2235,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 1.85}
+	{gravity 0.35}
 )
 
 (define "range_heavy_ls_howitzer"
@@ -2252,7 +2252,7 @@
 	
 	{ZeroingAccuracy 0.85 0.80 0.75 0.70 0.65}
 	{DisableRicochet}
-;;	{aimtype adaptive}
+	{aimtype adaptive}
 	{traceFreq 0}
 	
         {aimRange 210}	
@@ -2260,7 +2260,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 1.75}
+	{gravity 0.25}
 )
 
 (define "range_heavy_gun_howitzer"
@@ -2356,7 +2356,7 @@
 	
 	{ZeroingAccuracy 0.85 0.80 0.75 0.70 0.65}
 	{DisableRicochet}
-;;	{aimtype adaptive}
+	{aimtype adaptive}
 	{traceFreq 0}
 	
         {aimRange 210}	
@@ -2364,7 +2364,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 1.85}
+	{gravity 0.35}
 )
 
 (define "range_sheavy_ls_howitzer"
@@ -2383,7 +2383,7 @@
 	
 	{ZeroingAccuracy 0.85 0.80 0.75 0.70 0.65}
 	{DisableRicochet}
-;;	{aimtype adaptive}
+	{aimtype adaptive}
 	{traceFreq 0} 
 	
         {aimRange 210}	
@@ -2391,7 +2391,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 1.75}
+	{gravity 0.25}
 )
 
 (define "range_sheavy_gun_howitzer"
@@ -2493,7 +2493,7 @@
 	
 	{ZeroingAccuracy 0.85 0.80 0.75 0.70 0.65}
 	{DisableRicochet}
-;;	{aimtype adaptive}
+	{aimtype adaptive}
 	{traceFreq 0} 
 	
         {aimRange 420}	
@@ -2501,7 +2501,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 1.85}
+	{gravity 0.35}
 )
 
 (define "range_ls_fleet"
@@ -2603,12 +2603,12 @@
 	{aimtype adaptive}
 	{traceFreq 0}
 	
-        {aimRange 190}	
-	{range 189 190}
+        {aimRange 200}	
+	{range 199 200}
 	{RelaxationTime 7}
 	
 ;	{speed 200}
-	{gravity 0.40}
+	{gravity 0.60}
 )
 
 ;------------------------------CA----------------------------------;
