@@ -9,8 +9,44 @@
 		{head helmet2_eng}
 	}
 	{perks
-		(include "perks_generic.inc")
-		("perk_hero")
+		{"health" "100%"
+		}
+		{"health_regeneration" "200%"
+		}
+		{"stamina" "300%"
+		}
+		{"stamina_regeneration" "275%"
+		}
+		{"vision" "mp_officer"
+		}
+		{"speed" 1.5
+		}
+		{"field_glass"
+		}
+		{"stealth"
+		}
+		{"telescope"
+		}
+		{"tank"	1.5
+		}
+		{"vehicle" 1.5
+		}
+		{"cannon" 1.5
+		}
+		
+		{"pistol" lvl_5
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_5
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_5
+		}
+		{"melee" lvl_5
+		}
+		{"aimedshot"}
 	}
 	{veterancy
 		(include "veterancy_generic.inc")
