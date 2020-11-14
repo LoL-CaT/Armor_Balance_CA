@@ -1,9 +1,6 @@
 {"grenade"
 	{on spawn
-		{add_view "marker_grenade_normal" "marker1" "root" not_manual not_scenario}
-		{add_view "marker_grenade_acute" "marker2" "root" not_manual not_scenario}
-		{add_view "marker_grenade_normal_dc" "marker3" "root" in_manual in_zoom}
-		{add_view "marker_grenade_acute_dc" "marker4" "root" in_manual in_zoom}
+		
 	}
 	{on "onThrow"
 		{view start "trace"}
@@ -22,9 +19,6 @@
 			}
 		}
 	}
-	{on "activate"
-		{call "hide_marker"}
-	}	
 	{on "in_hole"
 		{break_window_in_hole}
 		{link_grenade_to_nearest_human}
@@ -35,48 +29,6 @@
 	{on "fall_down"
 		{volumes disable contact}
 		{fall_down}
-	}
-	
-	{on "show_marker1"
-		{view start "marker1"}
-		{view start "marker3"}
-	}
-	{on "show_marker2"
-		{view pause "marker1"}
-		{view start "marker2"}
-		{view pause "marker3"}
-		{view start "marker4"}
-	}
-	{on "hide_marker"
-		{view stop "marker1"}
-		{view stop "marker2"}
-		{view stop "marker3"}
-		{view stop "marker4"}
-	}	
-}
-
-{"grenade fg"
-	{on "onThrow"
-		{delay 1.5
-			{call "show_marker1"}
-		}
-		{delay 3.5
-			{call "show_marker2"}
-		}
-	}
-}
-
-{"grenade dynamite"
-	{on "undermine"
-		{delay 7
-			{call "show_marker1"}
-		}
-		{delay 9
-			{call "show_marker2"}
-		}
-	}
-	{on "onThrow"
-		{call "undermine"}
 	}
 }
 

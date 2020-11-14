@@ -1,12 +1,9 @@
 ;SDL
-
-(include "crew.ext")
-(include "accuracy_by_motion.inc")
 {PatherID  "vehicle.large"}
 {obstacleID "tank"}
 {Simulation {Able 1}}
-{props "steel" "vehicle" "obstacle_ignore_height" "emit_on_sink"}
-{able "emit_passangers_on_enemy" "repaired" "minimap" "ally_crew"}
+{props "steel" "vehicle" "obstacle_ignore_height"}
+{able "emit_passangers_on_enemy" "repaired" "minimap"}
 {lodclass "vehicle_small"}
 {collider "vehicle"}
 

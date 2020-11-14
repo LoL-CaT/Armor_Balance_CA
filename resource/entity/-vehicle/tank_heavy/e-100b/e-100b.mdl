@@ -1095,11 +1095,11 @@
 		-0.405864	14.4672	9.8309
 	}
 }
-;{Volume "inventory"
-;	{Polyhedron "inventory.vol"}
-;	{Bone "body"}
-;	{Position -15.9547	5.31766	8.86644}
-;}
+{Volume "inventory"
+	{Polyhedron "inventory.vol"}
+	{Bone "body"}
+	{Position -15.9547	5.31766	8.86644}
+}
 {Volume "mantlet"
 	{Polyhedron "mantlet.vol"}
 	{Bone "gun_rot"}
