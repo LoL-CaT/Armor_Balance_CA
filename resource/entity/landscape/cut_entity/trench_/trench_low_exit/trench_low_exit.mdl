@@ -3,13 +3,13 @@
 ;File:        D:\-Project-\-3DWork-\trench\trench_low.max
 {Skeleton
 	{bone "trench_ground_low_exit"
-		{parameters "CommonMesh;Ground;"}
+		{parameters "CommonMesh;Land;Align;"}
 		{Orientation
 			1	0	0
 			0	-1	0
 			0	0	1
 		}
-		{VolumeView "trench_ground_low_exit.ply" {Ground} {DecalTarget}}
+		{VolumeView "trench_ground_low_exit.ply"}
 		{bone "point1"
 			{Matrix34
 				-1	0	0

@@ -3,13 +3,13 @@
 ;File:        D:\-Projects1_5-\-3DWork-\trench\trench12_12.max
 {Skeleton
 	{bone "trench_incline"
-		{parameters "CommonMesh;Ground;"}
+		{parameters "CommonMesh;Land;Align;"}
 		{Orientation
 			1	0	0
 			0	-1	0
 			0	0	1
 		}
-		{VolumeView "trench_incline.ply" {Ground} {DecalTarget}}
+		{VolumeView "trench_incline.ply"}
 		{bone "trench_wood"
 			{Matrix34
 				-1	0	0

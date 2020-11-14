@@ -3,13 +3,13 @@
 ;File:        D:\-Projects-\-3D Work-\Construction\turn\trench_tank.max
 {Skeleton
 	{bone "trench_tank_2_rs"
-		{parameters "CommonMesh;Ground;"}
+		{parameters "CommonMesh;Land;Align;"}
 		{Orientation
 			1	0	0
 			0	-1	0
 			0	0	1
 		}
-		{VolumeView "trench_tank_2_rs.ply" {Ground} {DecalTarget}}
+		{VolumeView "trench_tank_2_rs.ply"}
 	}
 }
 {Obstacle "body1"
