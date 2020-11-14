@@ -59,8 +59,8 @@
 	}
 	{extender "light"
 		{lamp "1"}
-;		{lightfx "light_search"}
-;		{breakfx "glass_hit"}
+		{lightfx "light_search"}
+		{breakfx "glass_hit"}
 		{check_operatable}
 	}
 	{extender "bone_rotator"

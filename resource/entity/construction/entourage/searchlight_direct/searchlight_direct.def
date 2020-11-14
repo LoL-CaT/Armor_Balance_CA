@@ -26,7 +26,7 @@
 		{lamp "2"}
 		{lamp "3"}
 		{lamp "4"}
-;		{lightfx "light_boat"}
+		{lightfx "light_boat"}
 	}
 	{lodclass "decor_medium"}
 }

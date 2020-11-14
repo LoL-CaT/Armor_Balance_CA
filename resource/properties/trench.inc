@@ -8,7 +8,7 @@ game_entity
 		{AlignEnabled 1}
 		{AlignStacked 0}
 		{AlignVolumes 1}
-		{TerrainType "ground" "ground"}
+		{TerrainType "road" "bridge"}
 		{RemoveEntities 1}		
 	}
 	(define "volume" 

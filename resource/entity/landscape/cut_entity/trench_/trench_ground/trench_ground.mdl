@@ -7,9 +7,9 @@
 		{Orientation
 			1	0	0
 			0	-1	0
-			0	0	1			
+			0	0	1
 		}
-		{VolumeView "trench_ground.ply" {Ground}}
+		{VolumeView "trench_ground.ply"}
 		{bone "trench_wood"
 			{parameters "Ground;"}
 			{Matrix34
