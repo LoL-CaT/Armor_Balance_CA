@@ -57,7 +57,7 @@
 	{Weaponry
 		{place "bomb"
 			{type "dropper_av"}		
-			{weapon "bomb_dropper_x4_s" filling "ammo air_bomb small" 4}
+			{weapon "bomb_dropper_x4_s" filled}
 			{barrels 2}
 			{shooter "shooter_b"}
 			{charger "gunner"}

@@ -6388,8 +6388,8 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-;			{item "morphine" {cell 4 3}}
-;			{item "morphine" {cell 0 4}}
+			{item "morphine" {cell 4 3}}
+			{item "morphine" {cell 0 4}}
 			{item "barbwire_kit" {cell 6 1}}
 			{item "barbwire_kit" {cell 6 2}}
 			{item "sandbag_kit" {cell 3 4}}
@@ -6775,7 +6775,7 @@
 			{item 0x8184 {cell 0 7}}
 			{item 0x8185 {cell 0 8}}
 			{item "helmet1_ger" {cell 5 6}{user "head"}}
-;			{item "morphine" {cell 0 9}}
+			{item "morphine" {cell 0 9}}
 		}
 	}
 	{Inventory 0xc006
@@ -7212,7 +7212,7 @@
 			{item 0xc072 {cell 0 7}}
 			{item 0xc073 {cell 0 8}}
 			{item "helmet1_ger" {cell 5 6}{user "head"}}
-;			{item "morphine" {cell 0 9}}
+			{item "morphine" {cell 0 9}}
 		}
 	}
 	{Inventory 0xc035

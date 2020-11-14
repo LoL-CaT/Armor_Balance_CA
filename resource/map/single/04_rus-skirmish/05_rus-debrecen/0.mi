@@ -6359,8 +6359,8 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-;			{item "morphine" {cell 4 3}}
-;			{item "morphine" {cell 0 4}}
+			{item "morphine" {cell 4 3}}
+			{item "morphine" {cell 0 4}}
 			{item "barbwire_kit" {cell 6 1}}
 			{item "barbwire_kit" {cell 6 2}}
 			{item "sandbag_kit" {cell 3 4}}
@@ -6805,7 +6805,7 @@
 			{item "rpg6" "grenade" {cell 5 2}}
 			{item 0xc800 {cell 0 0}{user "hand_right"}}
 			{item "helmet1_rus_w" {cell 0 4}{user "head"}}
-;			{item "morphine" {cell 2 4}}
+			{item "morphine" {cell 2 4}}
 		}
 	}
 	{Inventory 0xc00b
@@ -7175,7 +7175,7 @@
 			{item 0xd007 {cell 0 0}{user "hand_right"}}
 			{item "rpg6" "grenade" {cell 5 2}}
 			{item "helmet1_rus_w" {cell 0 4}{user "head"}}
-;			{item "morphine" {cell 2 4}}
+			{item "morphine" {cell 2 4}}
 		}
 	}
 	{Inventory 0xc037
@@ -11391,7 +11391,7 @@
 			{item "hedgehog_kit" {cell 5 4}}
 			{item "body_armor" {cell 0 5}{user "body"}}
 			{item "rpg6" "grenade" {cell 2 3}}
-;			{item "morphine" {cell 4 5}}
+			{item "morphine" {cell 4 5}}
 			{item 0xe00b {cell 0 0}{user "hand_right"}}
 			{item "helmet1_rus_w" {cell 2 5}{user "head"}}
 		}

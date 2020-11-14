@@ -6588,8 +6588,8 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-;			{item "morphine" {cell 4 3}}
-;			{item "morphine" {cell 0 4}}
+			{item "morphine" {cell 4 3}}
+			{item "morphine" {cell 0 4}}
 			{item "barbwire_kit" {cell 6 1}}
 			{item "barbwire_kit" {cell 6 2}}
 			{item "sandbag_kit" {cell 3 4}}
@@ -7016,7 +7016,7 @@
 			{item "sandbag_kit" {cell 5 6}}
 			{item "hedgehog_kit" {cell 6 6}}
 			{item "beret_commando" {cell 5 7}{user "head"}}
-;			{item "morphine" {cell 0 8}}
+			{item "morphine" {cell 0 8}}
 		}
 	}
 	{Inventory 0xc006
@@ -7134,7 +7134,7 @@
 			{item "piatrocket" "ammo" {cell 5 7}}
 			{item "sandbag_kit" {cell 6 3}}
 			{item "beret_commando" {cell 5 8}{user "head"}}
-;			{item "morphine" {cell 0 9}}
+			{item "morphine" {cell 0 9}}
 		}
 	}
 	{Inventory 0xc01c
@@ -7357,7 +7357,7 @@
 			{item "sandbag_kit" {cell 5 6}}
 			{item "hedgehog_kit" {cell 6 6}}
 			{item "beret_commando" {cell 5 7}{user "head"}}
-;			{item "morphine" {cell 0 8}}
+			{item "morphine" {cell 0 8}}
 		}
 	}
 	{Inventory 0xc030
@@ -11855,7 +11855,7 @@
 			{item "sandbag_kit" {cell 4 6}}
 			{item "hedgehog_kit" {cell 5 6}}
 			{item "beret_eng2" {cell 0 7}{user "head"}}
-;			{item "morphine" {cell 2 7}}
+			{item "morphine" {cell 2 7}}
 		}
 	}
 	{Inventory 0x8177

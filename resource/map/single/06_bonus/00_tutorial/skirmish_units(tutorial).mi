@@ -5848,7 +5848,7 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-;			{item "morphine" {cell 0 4}}
+			{item "morphine" {cell 0 4}}
 			{item "helmet_usa_w" {cell 4 3}{user "head"}}
 		}
 	}
@@ -6600,7 +6600,7 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-;			{item "morphine" {cell 0 4}}
+			{item "morphine" {cell 0 4}}
 			{item "helmet_usa_w" {cell 4 3}{user "head"}}
 		}
 	}
@@ -7559,7 +7559,7 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-;			{item "morphine" {cell 0 4}}
+			{item "morphine" {cell 0 4}}
 			{item "helmet_usa_w" {cell 4 3}{user "head"}}
 		}
 	}

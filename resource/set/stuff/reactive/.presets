@@ -546,5 +546,3 @@
 	{cursorReloading "cannon_reload_fg"}
 	{speed 290}	
 )
-
-	{preloaded}

@@ -16053,7 +16053,7 @@
 							{tag medic}
 						}
 						{action add}
-			;			{item "morphine"}
+						{item "morphine"}
 					}
 					{"delay"
 						{time 0.3}

@@ -16566,7 +16566,7 @@
 			{item "rifle" "ammo" 25 {cell 5 2}}
 			{item "rifle" "ammo" 25 {cell 4 3}}
 			{item "rifle" "ammo" 25 {cell 5 3}}
-;			{item "morphine" {cell 3 4}}
+			{item "morphine" {cell 3 4}}
 		}
 	}
 	{Inventory 0x8313
@@ -23886,8 +23886,8 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-;			{item "morphine" {cell 4 3}}
-;			{item "morphine" {cell 0 4}}
+			{item "morphine" {cell 4 3}}
+			{item "morphine" {cell 0 4}}
 			{item "barbwire_kit" {cell 6 1}}
 			{item "barbwire_kit" {cell 6 2}}
 			{item "sandbag_kit" {cell 3 4}}
@@ -32324,7 +32324,7 @@
 							{tag medic}
 						}
 						{action add}
-			;			{item "morphine"}
+						{item "morphine"}
 						{amount 2}
 					}
 					{"inventory"

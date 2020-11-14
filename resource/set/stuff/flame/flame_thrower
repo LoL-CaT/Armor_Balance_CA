@@ -28,8 +28,6 @@
 	{speed 110}
     {AimingTolerance 3}
 	{cursor "cannon_on"}
-
-	{preloaded}
 	
 	{desc "Огнемёт (ЭДС 10)"}	
 }

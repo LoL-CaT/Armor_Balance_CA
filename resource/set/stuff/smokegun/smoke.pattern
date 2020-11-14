@@ -26,6 +26,4 @@
 	{cursorReloading "attack"}
 
 	{AimingTolerance 0.2}
-
-	{preloaded}
 }

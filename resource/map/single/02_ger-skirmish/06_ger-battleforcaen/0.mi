@@ -9927,7 +9927,7 @@
 			{item "smoke_paradrop_ammo_heavy" "grenade" {cell 4 1}}
 			{item "mgun" "ammo" 600 {cell 6 1}}
 			{item "dynamite" 2 {cell 0 2}}
-;			{item "morphine" {cell 2 2}}
+			{item "morphine" {cell 2 2}}
 			{item "rifle" "ammo" 150 {cell 5 2}}
 			{item "body_armor" 5 {cell 6 2}}
 			{item "rifle" "ammo" 150 {cell 5 3}}

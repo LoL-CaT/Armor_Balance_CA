@@ -31,8 +31,6 @@
 	{speed 300}
     {AimingTolerance 3}
 	{cursor "cannon_on"}
-
-	{preloaded}
 	
 	{desc "FmW 35 (ЭДС 10)"}	
 }
