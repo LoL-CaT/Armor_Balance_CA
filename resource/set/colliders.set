@@ -173,13 +173,13 @@
 		{ColliderId		"tank.light"}
 		{CollideWith	"construction" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tank.sheavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
 		{CanPush		"moto" "car" "truck" "cannon" "cannon_small"}
-		{CanPushBroken	"armored" "tank.light" "tank.medium"}
+		{CanPushBroken	"armored" "tank.light"}
 	}
 	{"tank.medium" from "vehicle"
 		{ColliderId		"tank.medium"}
 		{CollideWith	"construction" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tank.sheavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
 		{CanPush		"moto" "car" "truck" "armored" "cannon" "cannon_small"}
-		{CanPushBroken	"tank.light" "tank.medium" "tank.heavy"}
+		{CanPushBroken	"tank.light" "tank.medium"}
 	}
 	{"tank.heavy" from "vehicle"
 		{ColliderId		"tank.heavy"}
@@ -187,12 +187,6 @@
 		{CanPush		"moto" "car" "truck" "armored" "tank.light" "cannon" "cannon_small"}
 		{CanPushBroken	"tank.medium" "tank.heavy" "train"}
 	}
-	{"tank.sheavy" from "vehicle"
-		{ColliderId		"tank.heavy"}
-		{CollideWith	"construction" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tank.sheavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
-		{CanPush		"moto" "car" "truck" "armored" "tank.light" "cannon" "cannon_small"}
-		{CanPushBroken	"tank.medium" "tank.heavy" "train"}
-	}	
 	{"train" from "vehicle"
 		{ColliderId		"tank.heavy"}
 		{CollideWith	"construction" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tank.sheavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
