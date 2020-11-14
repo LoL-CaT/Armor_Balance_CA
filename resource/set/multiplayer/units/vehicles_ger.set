@@ -59,7 +59,7 @@
 {"sdkfz231_41"         ("v" cd(1800) ci(900) c(900) t(all) 		s(ger) n1(3) n2(1) g(c7) sc(6.0) b(v10) cw(0) cp(1))   {cost 80} {fore -30}} ; 20mm ГОД 41
 {"np_sdkfz221"         ("v" cd(1800) ci(900) c(900) t(all) 		s(ger) n1(1) n2(1) g(c7) sc(6.0) b(v10) cw(0) cp(0.3)) {cost 190} {fore -30}} ; 28mm pzb41 ГОД 41
 {"sdkfz222_42"         ("v" cd(2700) ci(900) c(900) 		s(ger) n1(1) n2(1) g(c8) sc(6.0) b(v10) cw(0) cp(1))   {cost 50} {fore -45}} ; ГОД 20mm 42
-{"sdkfz234"            ("v" cd(3600) ci(900) c(900) t(all)   	    s(ger) n1(2) n2(1) g(c9) sc(6.0) b(v10) cw(0) cp(1))   {cost 70} {fore -60}} ; 50mm puma ГОД 43
+{"sdkfz234"            ("v" cd(3600) ci(900) c(900) t(all)   	    s(ger) n1(2) n2(1) g(c9) sc(6.0) b(v10) cw(0) cp(1))   {cost 70} {fore -60}} ; 50mm puma дГОД 43
 {"np_sdkfz234_1"       ("v" cd(4500) ci(900) c(900) t(all)        s(ger) n1(2) n2(1) g(c10) sc(6.0) b(v10) cw(0) cp(1))   {cost 40} {fore -75}} ; 20mm ГОД 44
 {"sdkfz234_3"          ("v" cd(4500) ci(900) c(900) t(all) 		s(ger) n1(2) n2(1) g(c10) sc(6.0) b(v10) cw(0) cp(1))   {cost 75} {fore -75}} ; 75mm kwk37(k51) ГОД 44
 {"sdkfz234_4"          ("v" cd(4500) ci(900) c(900) t(all) 		s(ger) n1(2) n2(1) g(c10) sc(6.0) b(v10) cw(0) cp(1))   {cost 210} {fore -75}} ; 75 pak40 ГОД 44
