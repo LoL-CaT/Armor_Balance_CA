@@ -10990,8 +10990,8 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-			{item "morphine" {cell 4 3}}
-			{item "morphine" {cell 0 4}}
+;			{item "morphine" {cell 4 3}}
+;			{item "morphine" {cell 0 4}}
 			{item "barbwire_kit" {cell 6 1}}
 			{item "barbwire_kit" {cell 6 2}}
 			{item "sandbag_kit" {cell 3 4}}
@@ -11533,7 +11533,7 @@
 			{item "sandbag_kit" {cell 1 4}}
 			{item "hedgehog_kit" {cell 2 4}}
 			{item "helmet1_usa" {cell 3 4}{user "head"}}
-			{item "morphine" {cell 0 5}}
+;			{item "morphine" {cell 0 5}}
 		}
 	}
 	{Inventory 0x8817
@@ -11560,7 +11560,7 @@
 			{item "sandbag_kit" {cell 1 4}}
 			{item "hedgehog_kit" {cell 2 4}}
 			{item "helmet1_usa" {cell 3 4}{user "head"}}
-			{item "morphine" {cell 0 5}}
+;			{item "morphine" {cell 0 5}}
 		}
 	}
 	{Inventory 0x8128
@@ -17749,7 +17749,7 @@
 			{item "sandbag_kit" {cell 2 6}}
 			{item "hedgehog_kit" {cell 3 6}}
 			{item "helmet_marine_usa" {cell 4 6}{user "head"}}
-			{item "morphine" {cell 0 7}}
+;			{item "morphine" {cell 0 7}}
 		}
 	}
 	{Inventory 0xa02a
@@ -18251,7 +18251,7 @@
 			{item "sandbag_kit" {cell 4 6}}
 			{item "hedgehog_kit" {cell 5 6}}
 			{item "helmet_airborne_usa" {cell 0 7}{user "head"}}
-			{item "morphine" {cell 2 7}}
+;			{item "morphine" {cell 2 7}}
 		}
 	}
 	{Inventory 0xb02f
@@ -18286,7 +18286,7 @@
 			{item "sandbag_kit" {cell 1 9}}
 			{item "hedgehog_kit" {cell 2 9}}
 			{item "helmet_airborne_usa" {cell 3 9}{user "head"}}
-			{item "morphine" {cell 0 10}}
+;			{item "morphine" {cell 0 10}}
 		}
 	}
 	{Inventory 0xb030
@@ -18315,7 +18315,7 @@
 			{item "sandbag_kit" {cell 2 6}}
 			{item "hedgehog_kit" {cell 3 6}}
 			{item "helmet_airborne_usa" {cell 4 6}{user "head"}}
-			{item "morphine" {cell 0 8}}
+;			{item "morphine" {cell 0 8}}
 		}
 	}
 	{Inventory 0xb031
@@ -18349,7 +18349,7 @@
 			{item "sandbag_kit" {cell 4 6}}
 			{item "hedgehog_kit" {cell 5 6}}
 			{item "helmet_airborne_usa" {cell 0 7}{user "head"}}
-			{item "morphine" {cell 2 7}}
+;			{item "morphine" {cell 2 7}}
 		}
 	}
 	{Inventory 0xb032
@@ -18384,7 +18384,7 @@
 			{item "sandbag_kit" {cell 1 9}}
 			{item "hedgehog_kit" {cell 2 9}}
 			{item "helmet_airborne_usa" {cell 3 9}{user "head"}}
-			{item "morphine" {cell 0 10}}
+;			{item "morphine" {cell 0 10}}
 		}
 	}
 	{Inventory 0xc006

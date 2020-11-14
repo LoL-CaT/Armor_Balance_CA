@@ -14628,7 +14628,7 @@
 			{item "smoke" "grenade" {cell 4 3}}
 			{item "cap1_usa" {cell 5 4}{user "head"}}
 			{item 0xb014 {cell 0 0}{user "hand_right"}}
-			{item "morphine" {cell 0 5}}
+;			{item "morphine" {cell 0 5}}
 			{item "rifle" "ammo" 25 {cell 4 0}}
 			{item "rifle" "ammo" 25 {cell 5 1}}
 			{item "rifle" "ammo" 25 {cell 4 1}}

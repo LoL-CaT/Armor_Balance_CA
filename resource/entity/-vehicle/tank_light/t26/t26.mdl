@@ -73,11 +73,11 @@
 					}
 					{VolumeView "cover.ply"}
 				}
-				{bone socket "mgun"
+				{bone "mgun"
 					{parameters "ID=turret;"}
 					{terminator}
-					{limits 45}
-					{speed2 80}
+;					{limits 45}
+;					{speed2 4}
 					{Matrix34
 						0	1	0
 						0	0	-1
@@ -85,7 +85,7 @@
 						-17.8467	-0.00311317	6.22358
 					}
 					{VolumeView "mgun.ply"}
-					{bone "foresight5"
+					{bone "foresight4"
 						{Matrix34
 							0	0	1
 							1	0	0
