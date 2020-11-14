@@ -1,6 +1,6 @@
 ;-------------------------CA-------------------------------------
 (define "items_light"
-		(mod "mp"		
+;		(mod "mp"		
             {item "smoke" "grenade" 1 {max 3}}
             {item "molotov_coctail" "grenade" 1 {max 3}}
             {item "m24x5" "grenade" 1 {max 3}}	
@@ -31,7 +31,7 @@
             {item "hungarian_42m" "grenade" 1 {max 3}}		
             {item "hungarian_36m" "grenade" 1 {max 3}}		
             {item "czech_m34" "grenade" 1 {max 3}}	
-        )			
+;        )			
 			{item "rifle" "ammo" 30 {max 150}}
 			{item "pistol" "ammo" 30 {max 200}}
 			{item "mgun" "ammo" 100 {max 350}}   
@@ -62,7 +62,7 @@
 			{item "mortar150" "fg" "ammo" 20 {max 15}{value 1}}		
 )
 (define "items_heavy"
-		(mod "mp"		
+;		(mod "mp"		
             {item "smoke" "grenade" 1 {max 3}}
             {item "molotov_coctail" "grenade" 1 {max 3}}
             {item "m24x5" "grenade" 1 {max 3}}	
@@ -93,7 +93,7 @@
             {item "hungarian_42m" "grenade" 1 {max 3}}		
             {item "hungarian_36m" "grenade" 1 {max 3}}		
             {item "czech_m34" "grenade" 1 {max 3}}	
-        )			
+;        )			
 			{item "rifle" "ammo" 30 {max 150}}
 			{item "pistol" "ammo" 30 {max 200}}
 			{item "mgun" "ammo" 100 {max 350}}   
@@ -243,7 +243,7 @@
 (define "para_ammo"
 	{extender "supply_zone"
 		{resupply
-		(mod "mp"		
+;		(mod "mp"		
             {item "smoke" "grenade" 1 {max 3}}
             {item "molotov_coctail" "grenade" 1 {max 3}}
             {item "m24x5" "grenade" 1 {max 3}}	
@@ -274,7 +274,7 @@
             {item "hungarian_42m" "grenade" 1 {max 3}}		
             {item "hungarian_36m" "grenade" 1 {max 3}}		
             {item "czech_m34" "grenade" 1 {max 3}}	
-        )			
+;        )			
 			{item "rifle" "ammo" 30 {max 150}}
 			{item "pistol" "ammo" 30 {max 200}}
 			{item "mgun" "ammo" 100 {max 350}}   
@@ -321,7 +321,7 @@
 (define "truck_ammo"
 	{extender "supply_zone"
 		{resupply
-		(mod "mp"		
+;		(mod "mp"		
             {item "smoke" "grenade" 1 {max 3}}
             {item "molotov_coctail" "grenade" 1 {max 3}}
             {item "m24x5" "grenade" 1 {max 3}}	
@@ -352,7 +352,7 @@
             {item "hungarian_42m" "grenade" 1 {max 3}}		
             {item "hungarian_36m" "grenade" 1 {max 3}}		
             {item "czech_m34" "grenade" 1 {max 3}}
-        )			
+;        )			
 			{item "rifle" "ammo" 30 {max 150}}
 			{item "pistol" "ammo" 30 {max 200}}
 			{item "mgun" "ammo" 100 {max 350}}   
@@ -399,7 +399,7 @@
 (define "truck_ammo_art"
 	{extender "supply_zone"
 		{resupply
-		(mod "mp"		
+;		(mod "mp"		
             {item "smoke" "grenade" 1 {max 3}}
             {item "molotov_coctail" "grenade" 1 {max 3}}
             {item "m24x5" "grenade" 1 {max 3}}	
@@ -430,7 +430,7 @@
             {item "hungarian_42m" "grenade" 1 {max 3}}		
             {item "hungarian_36m" "grenade" 1 {max 3}}		
             {item "czech_m34" "grenade" 1 {max 3}}
-        )			
+;        )			
 			{item "rifle" "ammo" 30 {max 150}}
 			{item "pistol" "ammo" 30 {max 200}}
 			{item "mgun" "ammo" 100 {max 350}}   
@@ -556,7 +556,7 @@
 (define "truck_ammo_art_ger"
 	{extender "supply_zone"
 		{resupply
-		(mod "mp"
+;		(mod "mp"
             {item "smoke" "grenade" 1 {max 3}}
             {item "molotov_coctail" "grenade" 1 {max 3}}		
             {item "m24x5" "grenade" 1 {max 3}}	
@@ -572,7 +572,7 @@
             {item "hungarian_36m" "grenade" 1 {max 3}}		
             {item "czech_m34" "grenade" 1 {max 3}}			
             {item "nebel39" "grenade" 1 {max 3}}
-        )			
+;        )			
 			{item "rifle" "ammo" 30 {max 150}}
 			{item "pistol" "ammo" 30 {max 200}}
 			{item "mgun" "ammo" 100 {max 350}}   
@@ -790,14 +790,14 @@
 (define "truck_ammo_art_eng"
 	{extender "supply_zone"
 		{resupply
-		(mod "mp"		
+;		(mod "mp"		
             {item "smoke" "grenade" 1 {max 3}}
             {item "molotov_coctail" "grenade" 1 {max 3}}
             {item "m61" "grenade" 1 {max 3}}
             {item "mk1" "grenade" 1 {max 3}}	
             {item "n73at" "grenade" 1 {max 3}}
             {item "m18" "grenade" 1 {max 3}}
-        )			
+;        )			
 			{item "rifle" "ammo" 30 {max 150}}
 			{item "pistol" "ammo" 30 {max 200}}
 			{item "mgun" "ammo" 100 {max 350}}   
@@ -938,14 +938,14 @@
 (define "truck_ammo_art_us"
 	{extender "supply_zone"
 		{resupply
-		(mod "mp"		
+;		(mod "mp"		
             {item "smoke" "grenade" 1 {max 3}}
             {item "molotov_coctail" "grenade" 1 {max 3}}	
             {item "n73at" "grenade" 1 {max 3}}	
             {item "mk2" "grenade" 1 {max 3}}	
             {item "mk3" "grenade" 1 {max 3}}
             {item "m18" "grenade" 1 {max 3}}
-        )			
+;        )			
 			{item "rifle" "ammo" 30 {max 150}}
 			{item "pistol" "ammo" 30 {max 200}}
 			{item "mgun" "ammo" 100 {max 350}}  
@@ -1066,7 +1066,7 @@
 (define "truck_ammo_art_sssr"  
 	{extender "supply_zone"
 		{resupply
-		(mod "mp"		
+;		(mod "mp"		
             {item "smoke" "grenade" 1 {max 3}}
             {item "molotov_coctail" "grenade" 1 {max 3}}		
             {item "f1" "grenade" 1 {max 3}}	
@@ -1078,7 +1078,7 @@
             {item "rpg40" "grenade" 1 {max 3}}		
             {item "rpg43" "grenade" 1 {max 3}}
             {item "rdg" "grenade" 1 {max 3}}			
-        ) 			
+;        ) 			
 			{item "rifle" "ammo" 30 {max 150}}
 			{item "pistol" "ammo" 30 {max 200}}
 			{item "mgun" "ammo" 100 {max 350}} 			
@@ -1228,7 +1228,7 @@
 (define "truck_ammo_art_jp"  
 	{extender "supply_zone"
 		{resupply
-		(mod "mp"		
+;		(mod "mp"		
             {item "smoke" "grenade" 1 {max 3}} 
             {item "molotov_coctail" "grenade" 1 {max 3}}	
             {item "jap_type98" "grenade" 1 {max 3}}	
@@ -1236,7 +1236,7 @@
             {item "type99" "grenade" 1 {max 3}}	
             {item "type3at" "grenade" 1 {max 3}}	
             {item "type3at_a" "grenade" 1 {max 3}}
-        )			
+;        )			
 			{item "rifle" "ammo" 30 {max 150}}
 			{item "pistol" "ammo" 30 {max 200}}
 			{item "mgun" "ammo" 100 {max 350}}   

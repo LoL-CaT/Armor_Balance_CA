@@ -535,11 +535,11 @@
         13.2498 -0.2071 19.2461
     }
 }
-;{Volume "crew"
-;    {Box 19.6814 29.7244 22.1273}
-;    {Bone "body"}
-;    {Position -3.2973 1.3307 14.1612}
-;}
+{Volume "crew"
+    {Box 19.6814 29.7244 22.1273}
+    {Bone "body"}
+    {Position -3.2973 1.3307 14.1612}
+}
 {Volume "engine"
     {Polyhedron "engine.vol"}
     {Bone "engine"}

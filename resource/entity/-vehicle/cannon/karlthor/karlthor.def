@@ -6,7 +6,7 @@
 	
 	("armor_light_shit" turret(10 10) body(10 10 10 10))
 	("wheels_armor" args 20)	
-	("shield" args 1)
+	("shield" args 10)
 	
 
 	{extender "inventory"

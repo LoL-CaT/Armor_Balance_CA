@@ -34,7 +34,7 @@
 		{digit_folder "ger"}
 	}
 	
-	("shield" args 1)
+	("shield" args 8)
 	{extender "shield"
 		{on}
 	}
