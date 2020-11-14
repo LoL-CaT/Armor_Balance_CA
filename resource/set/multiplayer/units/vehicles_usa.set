@@ -110,8 +110,8 @@
 
 ;°°°Artillery°°°
 
-{"60_mm_mortar_m2"         ("vs" cd(900) ci(900) c(900) t(all) 	    s(usa) n(1) g(g1) sc(6.0) b(v6) cw(2) cp(1)) {cost 25} {fore -0.01}} ; ÃÎÄ 40  
-{"81mm_brandt_usa"         ("vs" cd(1800) ci(900) c(900) t(all) 		s(usa) n(2) g(g2) sc(6.0) b(v6) cw(2) cp(2)) {cost 60} {fore -1.01}} ; ÃÎÄ 41
+{"60_mm_mortar_m2"         ("vs" cd(900) ci(60) c(60) t(all) 	    s(usa) n(1) g(g1) sc(6.0) b(v6) cw(2) cp(1)) {cost 25} {fore -0.01}} ; ÃÎÄ 40  
+{"81mm_brandt_usa"         ("vs" cd(1800) ci(60) c(60) t(all) 		s(usa) n(2) g(g2) sc(6.0) b(v6) cw(2) cp(2)) {cost 60} {fore -1.01}} ; ÃÎÄ 41
 {"4_2_inch_m_2"            ("vs" cd(3600) ci(900) c(900) t(all) 		s(usa) n(2) g(g3) sc(6.0) b(v6) cw(2) cp(5)) {cost 250} {fore -3.01}} ; ÃÎÄ 43
 
 {"np_m4_us"                ("vs" cd(1800) ci(900) c(900) t(all) 		s(usa) n(5) g(g4) sc(6.0) b(v6) cw(2) cp(5)) {cost 100} {fore -1.01}} ; ÃÎÄ 41
