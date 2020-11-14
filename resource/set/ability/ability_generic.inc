@@ -87,25 +87,25 @@
 (define "ability_light"
 	{level "lvl_1"
 		{stand
-			{accuracy 1.00}				; weapon accuracy, the higher the better
+			{accuracy 1.50}				; weapon accuracy, the higher the better
 			{recoil 1.00}				; weapon recoil, the higher the weaker
 			{zoom_recoil 1.25}			; weapon recoil in zoom, the higher the weaker
 			{sway 0.90}					; weapon sway in zoom, the higher the stronger
 		}
 		{squat
-			{accuracy 1.20}
+			{accuracy 1.75}
 			{recoil 1.25}
 			{zoom_recoil 1.50}
 			{sway 0.75}
 		}
 		{crawl
-			{accuracy 1.40}
+			{accuracy 2.00}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0.10}
 		}
 		{cover
-			{accuracy 1.50}
+			{accuracy 2.00}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0.10}
@@ -119,31 +119,31 @@
 	}
 	{level "lvl_2"
 		{stand
-			{accuracy 1.35}
+			{accuracy 1.75}
 			{recoil 1.00}
 			{zoom_recoil 1.25}
 			{sway 0.90}
 		}
 		{squat
-			{accuracy 1.55}
+			{accuracy 2.00}
 			{recoil 1.25}
 			{zoom_recoil 1.50}
 			{sway 0.75}
 		}
 		{crawl
-			{accuracy 1.75}
+			{accuracy 2.25}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0.10}
 		}
 		{cover
-			{accuracy 1.85}
+			{accuracy 2.25}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0.10}
 		}
 		{vehicle
-			{accuracy 2.35}
+			{accuracy 2.25}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0}
@@ -151,19 +151,19 @@
 	}
 	{level "lvl_3"
 		{stand
-			{accuracy 1.55}
+			{accuracy 2.00}
 			{recoil 1.00}
 			{zoom_recoil 1.25}
 			{sway 0.90}
 		}
 		{squat
-			{accuracy 1.75}
+			{accuracy 2.25}
 			{recoil 1.25}
 			{zoom_recoil 1.50}
 			{sway 0.75}
 		}
 		{crawl
-			{accuracy 1.95}
+			{accuracy 2.50}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0.10}
@@ -171,13 +171,13 @@
 		{cover
 			{accuracy 2.50}
 			{recoil 1.50}
-			{zoom_recoil 2.05}
+			{zoom_recoil 1.75}
 			{sway 0.10}
 		}
 		{vehicle
 			{accuracy 2.50}
 			{recoil 1.50}
-			{zoom_recoil 2.55}
+			{zoom_recoil 1.75}
 			{sway 0}
 		}
 	}
@@ -185,61 +185,61 @@
 		{stand
 			{accuracy 2.25}
 			{recoil 1.00}
-			{zoom_recoil 1.75}
+			{zoom_recoil 1.25}
 			{sway 0.90}
 		}
 		{squat
 			{accuracy 2.50}
 			{recoil 1.25}
-			{zoom_recoil 1.95}
+			{zoom_recoil 1.50}
 			{sway 0.75}
 		}
 		{crawl
 			{accuracy 2.75}
 			{recoil 1.50}
-			{zoom_recoil 2.15}
+			{zoom_recoil 1.75}
 			{sway 0.10}
 		}
 		{cover
 			{accuracy 2.75}
 			{recoil 1.50}
-			{zoom_recoil 2.25}
+			{zoom_recoil 1.75}
 			{sway 0.10}
 		}
 		{vehicle
 			{accuracy 2.75}
 			{recoil 1.50}
-			{zoom_recoil 2.75}
+			{zoom_recoil 1.75}
 			{sway 0}
 		}
 	}
 	{level "lvl_5"
 		{stand
-			{accuracy 1.80}
+			{accuracy 2.50}
 			{recoil 1.00}
 			{zoom_recoil 1.25}
 			{sway 0.90}
 		}
 		{squat
-			{accuracy 2.00}
+			{accuracy 2.75}
 			{recoil 1.25}
 			{zoom_recoil 1.50}
 			{sway 0.75}
 		}
 		{crawl
-			{accuracy 2.00}
+			{accuracy 3.00}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0.10}
 		}
 		{cover
-			{accuracy 2.30}
+			{accuracy 3.00}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0.10}
 		}
 		{vehicle
-			{accuracy 2.80}
+			{accuracy 3.00}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0}
@@ -250,25 +250,25 @@
 (define "ability_medium" 
 	{level "lvl_1"
 		{stand
-			{accuracy 1.00}				; weapon accuracy, the higher the better
-			{recoil 1.00}				; weapon recoil, the higher the weaker
-			{zoom_recoil 1.25}			; weapon recoil in zoom, the higher the weaker
-			{sway 0.90}					; weapon sway in zoom, the higher the stronger
+			{accuracy 0.50}
+			{recoil 0.75}
+			{zoom_recoil 1.00}
+			{sway 2.00}
 		}
 		{squat
-			{accuracy 1.20}
-			{recoil 1.25}
-			{zoom_recoil 1.50}
+			{accuracy 1.50}
+			{recoil 1.00}
+			{zoom_recoil 1.25}
 			{sway 0.75}
 		}
 		{crawl
-			{accuracy 1.40}
+			{accuracy 2.00}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0.10}
 		}
 		{cover
-			{accuracy 1.50}
+			{accuracy 2.00}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0.10}
@@ -282,31 +282,31 @@
 	}
 	{level "lvl_2"
 		{stand
-			{accuracy 1.35}
-			{recoil 1.00}
-			{zoom_recoil 1.25}
-			{sway 0.90}
+			{accuracy 0.75}
+			{recoil 0.75}
+			{zoom_recoil 1.00}
+			{sway 2.00}
 		}
 		{squat
-			{accuracy 1.55}
-			{recoil 1.25}
-			{zoom_recoil 1.50}
+			{accuracy 1.75}
+			{recoil 1.00}
+			{zoom_recoil 1.25}
 			{sway 0.75}
 		}
 		{crawl
-			{accuracy 1.75}
+			{accuracy 2.25}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0.10}
 		}
 		{cover
-			{accuracy 1.85}
+			{accuracy 2.25}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0.10}
 		}
 		{vehicle
-			{accuracy 2.35}
+			{accuracy 2.25}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0}
@@ -314,19 +314,19 @@
 	}
 	{level "lvl_3"
 		{stand
-			{accuracy 1.55}
-			{recoil 1.00}
-			{zoom_recoil 1.25}
-			{sway 0.90}
+			{accuracy 1.00}
+			{recoil 0.75}
+			{zoom_recoil 1.00}
+			{sway 2.00}
 		}
 		{squat
-			{accuracy 1.75}
-			{recoil 1.25}
-			{zoom_recoil 1.50}
+			{accuracy 2.00}
+			{recoil 1.00}
+			{zoom_recoil 1.25}
 			{sway 0.75}
 		}
 		{crawl
-			{accuracy 1.95}
+			{accuracy 2.50}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0.10}
@@ -334,79 +334,79 @@
 		{cover
 			{accuracy 2.50}
 			{recoil 1.50}
-			{zoom_recoil 2.05}
+			{zoom_recoil 1.75}
 			{sway 0.10}
 		}
 		{vehicle
 			{accuracy 2.50}
 			{recoil 1.50}
-			{zoom_recoil 2.55}
+			{zoom_recoil 1.75}
 			{sway 0}
 		}
 	}
 	{level "lvl_4"
 		{stand
-			{accuracy 2.25}
-			{recoil 1.00}
-			{zoom_recoil 1.75}
-			{sway 0.90}
+			{accuracy 1.25}
+			{recoil 0.75}
+			{zoom_recoil 1.00}
+			{sway 2.00}
 		}
 		{squat
-			{accuracy 2.50}
-			{recoil 1.25}
-			{zoom_recoil 1.95}
+			{accuracy 2.25}
+			{recoil 1.00}
+			{zoom_recoil 1.25}
 			{sway 0.75}
 		}
 		{crawl
 			{accuracy 2.75}
 			{recoil 1.50}
-			{zoom_recoil 2.15}
+			{zoom_recoil 1.75}
 			{sway 0.10}
 		}
 		{cover
 			{accuracy 2.75}
 			{recoil 1.50}
-			{zoom_recoil 2.25}
+			{zoom_recoil 1.75}
 			{sway 0.10}
 		}
 		{vehicle
 			{accuracy 2.75}
 			{recoil 1.50}
-			{zoom_recoil 2.75}
+			{zoom_recoil 1.75}
 			{sway 0}
 		}
 	}
 	{level "lvl_5"
 		{stand
-			{accuracy 1.80}
-			{recoil 1.00}
-			{zoom_recoil 1.25}
-			{sway 0.90}
+			{accuracy 1.50}
+			{recoil 0.75}
+			{zoom_recoil 1.00}
+			{sway 2.00}
 		}
 		{squat
-			{accuracy 2.00}
-			{recoil 1.25}
-			{zoom_recoil 1.50}
+			{accuracy 2.50}
+			{recoil 1.00}
+			{zoom_recoil 1.25}
 			{sway 0.75}
 		}
 		{crawl
-			{accuracy 2.00}
+			{accuracy 3.00}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0.10}
 		}
 		{cover
-			{accuracy 2.30}
+			{accuracy 3.00}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0.10}
 		}
 		{vehicle
-			{accuracy 2.80}
+			{accuracy 3.00}
 			{recoil 1.50}
 			{zoom_recoil 1.75}
 			{sway 0}
 		}
 	}
-)
+)	
 ;------------------------------CA----------------------------------;	

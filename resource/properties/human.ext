@@ -3,8 +3,8 @@ human
 
 {extender "vitality"
 	{Health
-		{max 		6}	; max health
-		{current 	6}	; current health
+		{max 		100}	; max health
+		{current 	100}	; current health
 		{inc 		0.1}	; health regeneration per second
 	}
 	{Stamina

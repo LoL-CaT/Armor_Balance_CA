@@ -7,9 +7,38 @@
 	{armors
 		{head "beret_eng1"}
 	}
-	{perks
-		(include "perks_generic.inc")
-		("perk_tankman")
+       {perks
+		{"health" "12%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+                {"vision" "mp_soldier"
+		}
+		{"speed" 0.8
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.3
+		}
+		
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_2
+		}
 	}
 	{veterancy
 		(include "veterancy_generic.inc")

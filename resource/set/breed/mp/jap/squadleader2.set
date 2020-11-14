@@ -8,8 +8,37 @@
 		{head cap_jap_off}
 	}
 	{perks
-		(include "perks_generic.inc")
-		("perk_squadleader")
+		{"health" "16%"
+		}
+		{"health_regeneration" "120%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "150%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.9
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.3
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
 	}
 	{veterancy
 		(include "veterancy_generic.inc")
