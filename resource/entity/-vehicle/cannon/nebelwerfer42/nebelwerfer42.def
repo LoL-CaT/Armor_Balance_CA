@@ -67,9 +67,9 @@
 		{animation
 			{switch "close"}
 			{move "cannon_pak40_pusher_left" "cannon_pak40_pusher_right"}
-			{aim "Cannon_nebel42_gunlayer" ""}
-			{fire "Cannon_gunlayer_fire-alert" ""}
-			{gunners "" "Cannon_pdr25_charger Cannon_pdr25_charger Cannon_pdr25_charger"}
+			{aim "cannon_m42_gunlayer" ""}
+			{fire  "Cannon_gunlayer_fire-alert" "cannon_m42_charger_fire"}
+			{reload  "" "cannon_m42_charger"}
 		}
 		{move {obstacle "close"}}
 		{attack {obstacle "open"}}
@@ -82,13 +82,13 @@
 		("loco_small")
 	}
 	{bone "turret"
-	    {limits 13 45}
+	    {limits 10 57}
 		{speed2 5}
 	}
-	{bone "foresight"
-		{limits 11 -11}
-		{speed2 5}		
-	}
+;	{bone "foresight"
+;		{limits 23 -23}
+;		{speed2 5}		
+;	}
 ;	(mod "mp"
 ;		{brain
 ;			{properties

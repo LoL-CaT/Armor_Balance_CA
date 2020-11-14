@@ -55,7 +55,7 @@
 		{speed2 5}
 	}
 	{bone "gun_rot"
-		{limits -4 73}
+		{limits -4 75}
 		{speed2 5}
 	}
 

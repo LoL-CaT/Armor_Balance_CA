@@ -13,8 +13,8 @@
 ;	    ("speed" s(515))
 	}
 	
-    ("accuracy_medium_howitzer")
-	("range_medium_howitzer")	
+	("range_medium_howitzer")
+	("accuracy_medium_howitzer")
 	
 	{desc "10,5 cm leFH 18M L/31 (МДС 210)"}		
 }

@@ -4,7 +4,7 @@
 	{reloadSound "gun_r04"}
 	{projectileDamage 4000}
 	("damage" a(0.1) b(0.1) c(0.1) d(0.1) e(0.1))
-	("rechargeTime" r(4))
+	("rechargeTime" r(4.5))
 	
 	("speed" s(350))
 	

@@ -107,7 +107,7 @@
 				{VolumeView "turret.ply"}
 				{bone revolute "gun"
 					{parameters "ID=gun;"}
-					{limits -5 20}
+					{limits -5 55}
 					{speed 0.01}
 					{Matrix34
 						1	0	0
@@ -252,8 +252,8 @@
 							{VolumeView "rocket04.ply"}
 						}
 					}
-					{bone revolute "foresight"
-						{limits -10 10}
+					{bone "foresight"
+;						{limits -10 10}
 						{Position 19.1588	0.133556	0.228175}
 					}
 					{bone "shooter06"

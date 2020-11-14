@@ -1,0 +1,42 @@
+{game
+	{order 10}
+	{parameters	"flag_count=1:1:3,3:1:5;base_capture_time=60;base_release_time=10;base_capture_factor=0.9;flag_capture_time=300;flag_release_time=10;flag_capture_factor=0.9;maximum_ammo_payback=250;enable_time=120"}
+	{settings
+		{options			scoreFinal enableHardcore enableStrategy enableSpectators}
+		{optionsAdvanced	preparationTime friendlyFire fogOfWar showPiercing showDamageReports}
+		{optionsRanked		}
+		{fogOfWar			fog_realistic}
+		{difficulty			multiplayer}
+		{scoreMin			25}
+		{scoreMax			1000}
+		{scoreFinal			200}
+		{preparationTimeMin	0}
+		{preparationTimeMax	60}
+		{preparationTime	15}
+		{impregnableTimeout	10}	; sec
+		{floraRespawn		0}
+		{friendlyFire}
+		{showPiercing}
+		{showDamageReports}
+		{useUnitLevelRestrictions}
+		{enableBots}
+		{coldWarSpawn}
+		{customClipper}
+		{useManualCharge none}
+	}
+	{teamSettings
+		{teamsMode normal}
+		{armySelectionMode alliance}
+		{teams
+			{"a"}
+			{"b"}
+		}
+		{alliances
+			(include "presets/alliances_generic.inc")
+		}
+	}
+	{ranked
+		{enabled}
+	}
+	(include "presets/presets_lowpayback.inc")
+}
