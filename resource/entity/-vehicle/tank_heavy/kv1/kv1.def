@@ -29,7 +29,7 @@
 	("armor_engine"  t(40 40 40 40))
 	("wheels_armor" args 5)	
 	("armor_mantlet" t(90))
-	("shield" args 25)
+	("shield" args 1)
 
 
 	{extender "enumerator"}
@@ -165,7 +165,7 @@
 		}
 	}
 
-	{mass 43500}
+	{mass 46500}
 	{Chassis
 		("tank_trace" fx("tracks_big") step(0.47) len(0.183))
 		("mobility"

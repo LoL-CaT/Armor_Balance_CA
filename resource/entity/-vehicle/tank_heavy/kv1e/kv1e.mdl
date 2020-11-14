@@ -1,4 +1,4 @@
-;Exported by: garry
+;Exported by: garry ;SOCET
 ;Date:        Thu Jul 24 10:54:13 2008
 ;File:        D:\-Projects-\-3DWork-\Model\Танки\KV1\hi-poly\Kv1.max
 {Skeleton
@@ -292,8 +292,8 @@
 						}
 					}
 
-					{bone socket "coaxial_mgun"
-						{limits 1}
+					{bone "coaxial_mgun"
+;						{limits 1}
 						{Matrix34
 							0	0	-1
 							0	1	0
@@ -330,11 +330,10 @@
 					}
 					{VolumeView "enumerator.ply"}
 				}
-				{bone socket "mgun"
+				{bone revolute "mgun"
 					{parameters "ID=turret;"}
-					{limits 40}
-					{speed2 80}
 					{terminator}
+					{limits -15 15}
 					{Matrix34
 						0	1	0
 						0	0	-1
@@ -342,7 +341,9 @@
 						-27.819	-0.349969	10.1878
 					}
 					{VolumeView "mgun.ply"}
-					{bone "foresight4"
+					{bone revolute "foresight4"
+					{limits -15 15}	
+					{terminator}					
 						{Matrix34
 							0	0	1
 							1	0	0
@@ -381,10 +382,10 @@
 					}
 				}
 			}
-			{bone socket "mgun3"
+			{bone revolute "mgun3"
 				{parameters "ID=turret;"}
-				{limits 22}
-				{speed2 80}
+					{terminator}
+					{limits -15 15}
 				{Matrix34
 					0	1	0
 					0	0	-1
@@ -392,7 +393,8 @@
 					-44.7619	-8.97843	20.5159
 				}
 				{VolumeView "mgun3.ply"}
-				{bone "foresight6"
+				{bone revolute "foresight6"
+						{limits -15 15}				
 					{Matrix34
 						0	0	1
 						-1	0	0
