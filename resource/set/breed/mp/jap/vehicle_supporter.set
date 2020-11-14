@@ -1,11 +1,11 @@
 {breed
-	{skin "jap_smg"}
-	{portrait "jap_soldier2"}
+	{skin "jap_tank_commander"}
+	{portrait "jap_tankman"}
 	{nationality jap}
-	{icon "smg"}
+	{icon "tankman"}
 	{icon_priority 1}
 	{armors
-		{head helmet1_jap}
+		{head cap_jap_off}
 	}
 	{perks
 		(include "perks_generic.inc")

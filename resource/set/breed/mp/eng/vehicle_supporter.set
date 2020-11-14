@@ -1,11 +1,11 @@
 {breed
-	{skin "eng_smg"}
-	{portrait "eng_soldier2"}
+	{skin "eng_tankman"}
+	{portrait "eng_tankman"}
 	{nationality eng}
-	{icon "smg"}
+	{icon "tankman"}
 	{icon_priority 1}
 	{armors
-		{head "helmet1_eng"}
+		{head "beret_eng1"}
 	}
 	{perks
 		(include "perks_generic.inc")
@@ -17,7 +17,7 @@
 	}
 	{inventory
 		{item "webley" filled}
-		{item "ammo pistol" 18}
+		{item "ammo pistol" 192}
 		{item "barbwire_kit" 2}
 		{item "sandbag_kit" 2}
 		{item "hedgehog_kit" 1}

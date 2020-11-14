@@ -1,11 +1,11 @@
 {breed
-	{skin "ger_mg_wehrmacht"}
-	{portrait "ger_soldier2"}
+	{skin "_tank_com_ger"}
+	{portrait "ger_tankman"}
 	{nationality ger}
-	{icon "smg"}
+	{icon "tankman"}
 	{icon_priority 1}
 	{armors
-		{head helmet1_ger}
+		{head "tank_cap1_ger"}
 	}
 	{perks
 		(include "perks_generic.inc")
@@ -15,7 +15,7 @@
 		(include "veterancy_generic.inc")
 		("veterancy_1")
 	}
-	{inventory
+	{inventory              
 		{item "valter" filled}
 		{item "ammo pistol" 32}
 		{item "barbwire_kit" 2}

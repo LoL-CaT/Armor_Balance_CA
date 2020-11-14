@@ -1,11 +1,11 @@
 {breed
-	{skin "rus-smguner"}
-	{portrait "rus_soldier2"}
+	{skin "rus_tankman_hp"}
+	{portrait "rus_tankman"}
 	{nationality rus}
-	{icon "smg"}
+	{icon "tankman"}
 	{icon_priority 1}
 	{armors
-		{head "helmet1_rus"}
+		{head rw_cap}
 	}
 	{perks
 		(include "perks_generic.inc")
@@ -17,7 +17,7 @@
 	}
 	{inventory
 		{item "nagan" filled}
-		{item "ammo pistol" 120}
+		{item "ammo pistol" 18}
 		{item "barbwire_kit" 2}
 		{item "sandbag_kit" 2}
 		{item "hedgehog_kit" 1}
