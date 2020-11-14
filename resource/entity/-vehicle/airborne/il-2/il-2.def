@@ -57,26 +57,29 @@
 		}
 	}	
 	{Weaponry
-		{place "rocket"
-			{type "secondary_rockets"}		
-			{weapon "arl_il2" filling "ammo katusha" 8}
-			{barrels 8}
-			{shooter "shooter_r"}
-			{charger "gunner"}
-		}
 		{place "bomb"
 			{type "dropper_av"}		
 			{weapon "bomb_dropper_il2" filling "ammo air_bomb_il2" 4}
 			{barrels 2}
 			{shooter "shooter_b"}
 			{charger "gunner"}
+			{basic}			
+		}	
+		{place "rocket"
+			{type "secondary_rockets"}		
+			{weapon "arl_il2" filling "ammo katusha" 8}
+			{barrels 8}
+			{shooter "shooter_r"}
+			{charger "gunner"}
+			{basic}			
 		}
 		{place "zenite"
 			{type "gun_av"}			
 			{weapon "23mm_va_x2" filling "ammo bullet23 airplane" 300}
 			{barrels 2}
 			{charger "gunner"}
-			("abm_av_ca")			
+			("abm_av_ca")
+			{basic}			
 		}
 	}
 
