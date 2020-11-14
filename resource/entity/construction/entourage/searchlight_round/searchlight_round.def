@@ -26,6 +26,6 @@
 		{lamp "2"}
 		{lamp "3"}
 		{lamp "4"}
-		{lightfx "light_post"}
+;		{lightfx "light_post"}
 	}
 }
