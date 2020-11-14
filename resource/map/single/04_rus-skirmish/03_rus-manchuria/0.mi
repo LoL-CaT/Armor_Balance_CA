@@ -10563,7 +10563,7 @@
 			{item "sandbag_kit" {cell 2 4}}
 			{item "hedgehog_kit" {cell 3 4}}
 			{item "helmet1_rus" {cell 4 4}{user "head"}}
-;			{item "morphine" {cell 0 5}}
+			{item "morphine" {cell 0 5}}
 			{item "rpg6" "grenade" {cell 2 3}}
 		}
 	}
@@ -10658,7 +10658,7 @@
 			{item "sandbag_kit" {cell 2 4}}
 			{item "hedgehog_kit" {cell 3 4}}
 			{item "helmet1_rus" {cell 4 4}{user "head"}}
-;			{item "morphine" {cell 0 5}}
+			{item "morphine" {cell 0 5}}
 			{item "rpg6" "grenade" {cell 2 3}}
 		}
 	}
@@ -12593,8 +12593,8 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-;			{item "morphine" {cell 4 3}}
-;			{item "morphine" {cell 0 4}}
+			{item "morphine" {cell 4 3}}
+			{item "morphine" {cell 0 4}}
 			{item "barbwire_kit" {cell 6 1}}
 			{item "barbwire_kit" {cell 6 2}}
 			{item "sandbag_kit" {cell 3 4}}
@@ -12762,7 +12762,7 @@
 			{item "hedgehog_kit" {cell 5 4}}
 			{item "body_armor" {cell 2 5}{user "body"}}
 			{item "helmet1_rus" {cell 4 5}{user "head"}}
-;			{item "morphine" {cell 4 7}}
+			{item "morphine" {cell 4 7}}
 		}
 	}
 	{Inventory 0xc02d

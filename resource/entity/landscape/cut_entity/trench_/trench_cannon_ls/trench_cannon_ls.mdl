@@ -10,7 +10,7 @@
 			0	0	1
 		}
 		{VolumeView "trench_cannon_ls.ply"}
-;			{DecalTargetDynamic}
+			{DecalTargetDynamic}
 		}
 	}
 }

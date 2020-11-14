@@ -98,8 +98,8 @@
 		{"helicopter"		0	}
 	}
 	{trench_wall
-		{"human"			0	}
-		{"human_tpc"		0	}
+		{"human"			20	}
+		{"human_tpc"		20	}
 		{"human_flying"		-1	}
 		{"animal"			-1	}
 		{"moto"				-1	}

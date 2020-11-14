@@ -5440,8 +5440,8 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-;			{item "morphine" {cell 4 3}}
-;			{item "morphine" {cell 0 4}}
+			{item "morphine" {cell 4 3}}
+			{item "morphine" {cell 0 4}}
 			{item "barbwire_kit" {cell 6 1}}
 			{item "barbwire_kit" {cell 6 2}}
 			{item "sandbag_kit" {cell 3 4}}
@@ -6033,7 +6033,7 @@
 			{item "sandbag_kit" {cell 3 4}}
 			{item "sandbag_kit" {cell 4 4}}
 			{item "hedgehog_kit" {cell 5 4}}
-;			{item "morphine" {cell 2 5}}
+			{item "morphine" {cell 2 5}}
 			{item "body_armor" {cell 5 5}{user "body"}}
 			{item "helmet1_rus" {cell 0 6}{user "head"}}
 		}
@@ -7169,7 +7169,7 @@
 			{item "sandbag_kit" {cell 3 4}}
 			{item "sandbag_kit" {cell 4 4}}
 			{item "hedgehog_kit" {cell 5 4}}
-;			{item "morphine" {cell 2 5}}
+			{item "morphine" {cell 2 5}}
 			{item "body_armor" {cell 5 5}{user "body"}}
 			{item "helmet1_rus" {cell 0 6}{user "head"}}
 		}
@@ -7195,7 +7195,7 @@
 			{item "sandbag_kit" {cell 3 4}}
 			{item "sandbag_kit" {cell 4 4}}
 			{item "hedgehog_kit" {cell 5 4}}
-;			{item "morphine" {cell 2 5}}
+			{item "morphine" {cell 2 5}}
 			{item "body_armor" {cell 5 5}{user "body"}}
 			{item "helmet1_rus" {cell 0 6}{user "head"}}
 		}
@@ -7221,7 +7221,7 @@
 			{item "sandbag_kit" {cell 3 4}}
 			{item "sandbag_kit" {cell 4 4}}
 			{item "hedgehog_kit" {cell 5 4}}
-;			{item "morphine" {cell 2 5}}
+			{item "morphine" {cell 2 5}}
 			{item "body_armor" {cell 5 5}{user "body"}}
 			{item "helmet1_rus" {cell 0 6}{user "head"}}
 		}
@@ -7518,8 +7518,8 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-;			{item "morphine" {cell 4 3}}
-;			{item "morphine" {cell 0 4}}
+			{item "morphine" {cell 4 3}}
+			{item "morphine" {cell 0 4}}
 			{item "barbwire_kit" {cell 6 1}}
 			{item "barbwire_kit" {cell 6 2}}
 			{item "sandbag_kit" {cell 3 4}}
@@ -9739,7 +9739,7 @@
 			{item "sandbag_kit" {cell 3 4}}
 			{item "sandbag_kit" {cell 4 4}}
 			{item "hedgehog_kit" {cell 5 4}}
-;			{item "morphine" {cell 2 5}}
+			{item "morphine" {cell 2 5}}
 			{item "body_armor" {cell 5 5}{user "body"}}
 			{item "helmet1_rus" {cell 0 6}{user "head"}}
 		}
@@ -9765,7 +9765,7 @@
 			{item "sandbag_kit" {cell 3 4}}
 			{item "sandbag_kit" {cell 4 4}}
 			{item "hedgehog_kit" {cell 5 4}}
-;			{item "morphine" {cell 2 5}}
+			{item "morphine" {cell 2 5}}
 			{item "body_armor" {cell 5 5}{user "body"}}
 			{item "helmet1_rus" {cell 0 6}{user "head"}}
 		}
@@ -9791,7 +9791,7 @@
 			{item "sandbag_kit" {cell 3 4}}
 			{item "sandbag_kit" {cell 4 4}}
 			{item "hedgehog_kit" {cell 5 4}}
-;			{item "morphine" {cell 2 5}}
+			{item "morphine" {cell 2 5}}
 			{item "body_armor" {cell 5 5}{user "body"}}
 			{item "helmet1_rus" {cell 0 6}{user "head"}}
 		}
@@ -9817,7 +9817,7 @@
 			{item "sandbag_kit" {cell 3 4}}
 			{item "sandbag_kit" {cell 4 4}}
 			{item "hedgehog_kit" {cell 5 4}}
-;			{item "morphine" {cell 2 5}}
+			{item "morphine" {cell 2 5}}
 			{item "body_armor" {cell 5 5}{user "body"}}
 			{item "helmet1_rus" {cell 0 6}{user "head"}}
 		}

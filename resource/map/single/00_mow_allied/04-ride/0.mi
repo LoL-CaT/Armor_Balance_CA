@@ -11513,7 +11513,7 @@
 			{item "hmgun" "ammo" 2500 {cell 0 0}}
 			{item "uber_bazooka" "ammo" 100 {cell 2 0}}
 			{item "uber_bazooka" "ammo" 20 {cell 2 1}}
-;			{item "morphine" {cell 0 2}}
+			{item "morphine" {cell 0 2}}
 		}
 	}
 	{Inventory 0xa00b
@@ -11596,7 +11596,7 @@
 			{item "hmgun" "ammo" 2500 {cell 0 0}}
 			{item "uber_bazooka" "ammo" 100 {cell 2 0}}
 			{item "uber_bazooka" "ammo" 20 {cell 2 1}}
-;			{item "morphine" {cell 0 2}}
+			{item "morphine" {cell 0 2}}
 		}
 	}
 	{Inventory 0xc021
@@ -14324,7 +14324,7 @@
 			{item "hmgun" "ammo" 2500 {cell 0 0}}
 			{item "uber_bazooka" "ammo" 100 {cell 2 0}}
 			{item "uber_bazooka" "ammo" 20 {cell 2 1}}
-;			{item "morphine" {cell 0 2}}
+			{item "morphine" {cell 0 2}}
 		}
 	}
 	{Inventory 0x8010
@@ -18092,7 +18092,7 @@
 			{item "hmgun" "ammo" 2500 {cell 0 0}}
 			{item "uber_bazooka" "ammo" 100 {cell 2 0}}
 			{item "uber_bazooka" "ammo" 20 {cell 2 1}}
-;			{item "morphine" {cell 0 2}}
+			{item "morphine" {cell 0 2}}
 		}
 	}
 	{Inventory 0x82a9
@@ -22574,7 +22574,7 @@
 			{item "hmgun" "ammo" 2500 {cell 0 0}}
 			{item "uber_bazooka" "ammo" 100 {cell 2 0}}
 			{item "uber_bazooka" "ammo" 20 {cell 2 1}}
-;			{item "morphine" {cell 0 2}}
+			{item "morphine" {cell 0 2}}
 		}
 	}
 	{Inventory 0x8398

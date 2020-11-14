@@ -54,17 +54,13 @@
 			{vision "tank_pr"}
 			{bone "visor18"}
 		}	
-		    {visor "back"
-			{vision "tank_back"}
-			{bone "foresight4"}
-		}		
 	}
 	
 	{extender "inventory"
 		{box
 			{item "bullet45rus ap" 86}
 			{item "bullet45rus fg" 100}
-			{item "bullet45rus apcr" 2}
+;			{item "bullet45rus apcr" 2}
 			{item "ammo mgun" 3528}
 		}
 	}
@@ -84,14 +80,19 @@
 			("abm_mgun")
 			{basic}
 		}
-		{place "mgun1"
+		{place "mgun2"
 			{type "mgun_rear"}
 			{weapon "dt" filled}
-			{foresight "foresight4"}
+			{foresight "foresight5"}
 			{gunner "commander"}
 			{charger "commander"}
 			("abm_mgun")
-			{basic}			
+		}
+	}
+	{sensor
+		{visor "back"
+			{vision "tank_back"}
+			{bone "foresight5"}
 		}
 	}
 	

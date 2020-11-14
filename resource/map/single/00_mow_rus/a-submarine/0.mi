@@ -12317,7 +12317,7 @@
 			{item "pistol" "ammo" 100 {cell 4 4}}
 			{item "nagan_pb" filled {cell 0 5}}
 			{item "pistol" "ammo" 100 {cell 4 5}}
-;			{item "morphine" {cell 0 6}}
+			{item "morphine" {cell 0 6}}
 			{item "pistol" "ammo" 100 {cell 4 6}}
 			{item "helmet2_rus" {cell 2 2}{user "head"}}
 			{item "body_armor" {cell 3 7}{user "body"}}
@@ -12359,7 +12359,7 @@
 			{item "rpg6" "grenade" {cell 2 5}}
 			{item "rifle" "ammo" 25 {cell 3 4}}
 			{item "rifle" "ammo" 15 {cell 2 4}}
-;			{item "morphine" {cell 2 6}}
+			{item "morphine" {cell 2 6}}
 			{item "rifle" "ammo" 25 {cell 0 6}}
 			{item "rifle" "ammo" 25 {cell 1 6}}
 			{item "sandbag_kit" {cell 0 7}}
@@ -12405,7 +12405,7 @@
 			{item "bandage" 5 {cell 4 4}}
 			{item "bandage" 5 {cell 2 5}}
 			{item "pistol" "ammo" 100 {cell 4 5}}
-;			{item "morphine" {cell 3 6}}
+			{item "morphine" {cell 3 6}}
 			{item "nagan_pb" filled {cell 0 7}}
 			{item "helmet1_rus" {cell 2 3}{user "head"}}
 			{item 0xb005 {cell 0 0}}
@@ -12670,7 +12670,7 @@
 			{item "rpg6" "grenade" {cell 4 1}}
 			{item "rpg6" "grenade" {cell 1 2}}
 			{item "pistol" "ammo" 100 {cell 3 2}}
-;			{item "morphine" {cell 4 3}}
+			{item "morphine" {cell 4 3}}
 			{item "rkka_helmet2" {cell 2 3}{user "head"}}
 		}
 	}
@@ -12685,7 +12685,7 @@
 			{item "sandbag_kit" {cell 4 3}}
 			{item "bandage" 5 {cell 0 4}}
 			{item "bandage" 5 {cell 2 4}}
-;			{item "morphine" {cell 0 5}}
+			{item "morphine" {cell 0 5}}
 			{item "mosin_m1891_30_pe" {cell 0 0}}
 			{item "rifle" "ammo" 25 {cell 4 2}}
 			{item "rifle" "ammo" 25 {cell 5 2}}
@@ -12710,7 +12710,7 @@
 			{item "bandage" 5 {cell 4 5}}
 			{item "bandage" 5 {cell 2 6}}
 			{item "sandbag_kit" {cell 4 6}}
-;			{item "morphine" {cell 0 7}}
+			{item "morphine" {cell 0 7}}
 			{item "fedorov_avtomat" {cell 0 0}}
 			{item "rpg6" "grenade" {cell 1 2}}
 			{item "rkka_helmet2" {cell 2 3}{user "head"}}
@@ -12730,7 +12730,7 @@
 			{item "pistol" "ammo" 100 {cell 4 5}}
 			{item "sandbag_kit" {cell 2 6}}
 			{item "fedorov_avtomat" {cell 0 0}}
-;			{item "morphine" {cell 3 6}}
+			{item "morphine" {cell 3 6}}
 			{item "rpg6" "grenade" {cell 1 2}}
 			{item "rkka_helmet2" {cell 2 3}{user "head"}}
 		}
@@ -12913,7 +12913,7 @@
 			{item "bandage" 5 {cell 4 4}}
 			{item "bandage" 5 {cell 2 5}}
 			{item "pistol" "ammo" 100 {cell 4 5}}
-;			{item "morphine" {cell 2 6}}
+			{item "morphine" {cell 2 6}}
 			{item "sandbag_kit" {cell 0 7}}
 			{item "fedorov_avtomat" {cell 0 0}}
 			{item "rpg6" "grenade" {cell 4 0}}
@@ -15574,7 +15574,7 @@
 			{item "bandage" 5 {cell 4 4}}
 			{item "bandage" 5 {cell 2 5}}
 			{item "pistol" "ammo" 87 {cell 4 5}}
-;			{item "morphine" {cell 2 6}}
+			{item "morphine" {cell 2 6}}
 			{item "fedorov_avtomat" {cell 0 0}}
 			{item "rpg6" "grenade" {cell 5 0}}
 			{item "rpg6" "grenade" {cell 4 1}}
@@ -15592,7 +15592,7 @@
 			{item "bandage" 5 {cell 4 4}}
 			{item "bandage" 5 {cell 2 5}}
 			{item "pistol" "ammo" 87 {cell 4 5}}
-;			{item "morphine" {cell 2 6}}
+			{item "morphine" {cell 2 6}}
 			{item "fedorov_avtomat" {cell 0 0}}
 			{item "rpg6" "grenade" {cell 5 0}}
 			{item "rpg6" "grenade" {cell 4 1}}
@@ -16345,7 +16345,7 @@
 			{item "knife_union" {cell 2 7}}
 			{item "knife_union" {cell 4 7}}
 			{item "nagan_pb" filled {cell 0 8}}
-;			{item "morphine" {cell 3 8}}
+			{item "morphine" {cell 3 8}}
 			{item "helmet1_rus" {cell 2 3}{user "head"}}
 			{item 0xf008 {cell 0 0}}
 			{item "rpg6" "grenade" {cell 1 2}}
@@ -16370,7 +16370,7 @@
 			{item "knife_union" {cell 2 7}}
 			{item "knife_union" {cell 4 7}}
 			{item "nagan_pb" filled {cell 0 8}}
-;			{item "morphine" {cell 3 8}}
+			{item "morphine" {cell 3 8}}
 			{item "helmet1_rus" {cell 2 3}{user "head"}}
 			{item 0xf003 {cell 0 0}}
 			{item "rpg6" "grenade" {cell 1 2}}
@@ -16400,7 +16400,7 @@
 			{item "rpg6" "grenade" {cell 1 2}}
 			{item "nagan_pb" filled {cell 4 0}}
 			{item "rpg6" "grenade" {cell 0 8}}
-;			{item "morphine" {cell 0 9}}
+			{item "morphine" {cell 0 9}}
 		}
 	}
 	{Inventory 0x82bd
@@ -16420,7 +16420,7 @@
 			{item "knife_union" {cell 2 7}}
 			{item "knife_union" {cell 4 7}}
 			{item "nagan_pb" filled {cell 0 8}}
-;			{item "morphine" {cell 3 8}}
+			{item "morphine" {cell 3 8}}
 			{item "helmet1_rus" {cell 2 3}{user "head"}}
 			{item 0xb006 {cell 0 0}}
 			{item "rpg6" "grenade" {cell 1 2}}

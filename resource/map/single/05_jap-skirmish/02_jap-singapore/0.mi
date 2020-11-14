@@ -8913,8 +8913,8 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-;			{item "morphine" {cell 4 3}}
-;			{item "morphine" {cell 0 4}}
+			{item "morphine" {cell 4 3}}
+			{item "morphine" {cell 0 4}}
 			{item "barbwire_kit" {cell 6 1}}
 			{item "barbwire_kit" {cell 6 2}}
 			{item "sandbag_kit" {cell 3 4}}
@@ -10168,8 +10168,8 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-;			{item "morphine" {cell 4 3}}
-;			{item "morphine" {cell 0 4}}
+			{item "morphine" {cell 4 3}}
+			{item "morphine" {cell 0 4}}
 			{item "barbwire_kit" {cell 6 1}}
 			{item "barbwire_kit" {cell 6 2}}
 			{item "sandbag_kit" {cell 3 4}}
@@ -10795,8 +10795,8 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-;			{item "morphine" {cell 4 3}}
-;			{item "morphine" {cell 0 4}}
+			{item "morphine" {cell 4 3}}
+			{item "morphine" {cell 0 4}}
 			{item "barbwire_kit" {cell 6 1}}
 			{item "barbwire_kit" {cell 6 2}}
 			{item "sandbag_kit" {cell 3 4}}
@@ -12330,7 +12330,7 @@
 			{item "hedgehog_kit" {cell 1 4}}
 			{item "helmet2_jap" {cell 2 4}{user "head"}}
 			{item "molotov_coctail" "grenade" {cell 5 2}}
-;			{item "morphine" {cell 4 4}}
+			{item "morphine" {cell 4 4}}
 		}
 	}
 	{Inventory 0x900a

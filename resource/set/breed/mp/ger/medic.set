@@ -20,7 +20,7 @@
 		{item "mauzer_kar_98k" filled}
 		{item "ammo rifle" 60}
 		{item "bandage" 25}
-;		{item "morphine" 2}
+		{item "morphine" 2}
 		{in_hands 0}
 	}
 }
