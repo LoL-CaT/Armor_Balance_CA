@@ -8,49 +8,7 @@ Purchases["standard"] = {
 				{priority = 3.0, class = UnitClass.Infantry, unit = "riflemans(rus)"},
 				{priority = 4.0, class = UnitClass.Infantry, unit = "elites(rus)"},
 				{priority = 5.0, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
-				{priority = 10.0, class = UnitClass.Tank, unit = "m24_chaffee"},
---;°°°Medium tanks°°°				
-				{priority = 1.4, class = UnitClass.Tank, unit = "t-28_33"},--36
-				{priority = 1.4, class = UnitClass.Tank, unit = "t-28_l10"},--36
-				{priority = 1.4, class = UnitClass.Tank, unit = "t-28_e_10"},--39
-				{priority = 1.5, class = UnitClass.Tank, unit = "t34_0"},--40
-				{priority = 1.6, class = UnitClass.Tank, unit = "t34_41"},--41
-				{priority = 1.6, class = UnitClass.Tank, unit = "t34_1"},--41
-				{priority = 1.7, class = UnitClass.Tank, unit = "t34_1_42"},--42
-				{priority = 1.7, class = UnitClass.Tank, unit = "t34_2"},--42
-				{priority = 1.7, class = UnitClass.Tank, unit = "t34_0_hd"},--42				
-				{priority = 1.8, class = UnitClass.Tank, unit = "t34_43"},--43
-				{priority = 1.8, class = UnitClass.Tank, unit = "t34_1_hd"},--43				
-				{priority = 1.8, class = UnitClass.Tank, unit = "t34_2_hd"},--44
-				{priority = 1.9, class = UnitClass.Tank, unit = "t34_3"},--44
-				{priority = 1.9, class = UnitClass.Tank, unit = "t34_3_hd"},--44
-				{priority = 1.9, class = UnitClass.Tank, unit = "t44"},--44				
-				{priority = 2.0, class = UnitClass.Tank, unit = "t44_2"},--45
-				{priority = 2.1, class = UnitClass.Tank, unit = "t-54a"},--46	
---;°°°Heavy tanks°°°
-				{priority = 2.0, class = UnitClass.Tank, unit = "t-35"},--39
-				{priority = 2.0, class = UnitClass.Tank, unit = "kv1_39"},--39				
-				{priority = 2.1, class = UnitClass.Tank, unit = "kv1"},--40
-				{priority = 2.1, class = UnitClass.Tank, unit = "kv2"},--40				
-				{priority = 2.2, class = UnitClass.Tank, unit = "kv1_zis5_41"},--41
-				{priority = 2.3, class = UnitClass.Tank, unit = "kv1e"},--41
-				{priority = 2.3, class = UnitClass.Tank, unit = "kv-220"},--41
-				{priority = 2.4, class = UnitClass.Tank, unit = "kv-3"},--42
-				{priority = 2.4, class = UnitClass.Tank, unit = "kv9"},--42
-				{priority = 2.5, class = UnitClass.Tank, unit = "kv85"},--43
-				{priority = 2.5, class = UnitClass.Tank, unit = "kv-122"},--43
-				{priority = 2.5, class = UnitClass.Tank, unit = "is1"},--43
-				{priority = 2.5, class = UnitClass.Tank, unit = "kv-100"},--43
-				{priority = 2.5, class = UnitClass.Tank, unit = "is-122"},--43				
-				{priority = 2.6, class = UnitClass.Tank, unit = "is2120"},--44
-				{priority = 2.6, class = UnitClass.Tank, unit = "is3"},--45
-				{priority = 2.7, class = UnitClass.Tank, unit = "is4"},--46
-				{priority = 2.7, class = UnitClass.Tank, unit = "t-10m"},--46	
-				{priority = 2.7, class = UnitClass.Tank, unit = "eis7"},--46
-				{priority = 2.7, class = UnitClass.Tank, unit = "is705a"},--46	
---;°°°Mashinegun°°°
-				{priority = 0.9, class = UnitClass.Tank, unit = "gaz-aaa_4m"},--39
-				{priority = 1.0, class = UnitClass.Tank, unit = "gaz_mm_72k"},--41					
+				{priority = 10.0, class = UnitClass.Tank, unit = "m24_chaffee"},				
 			},
 			["ger"] = {--ger
 				{priority = 1.4, class = UnitClass.Infantry, unit = "home_guards(ger)"},
@@ -76,6 +34,10 @@ Purchases["standard"] = {
 				{priority = 1.9, class = UnitClass.Tank, unit = "pz5g"},--44
 				{priority = 2.0, class = UnitClass.Tank, unit = "panther_ii_88mm"},--45
 				{priority = 2.1, class = UnitClass.Tank, unit = "e-50_75l100"},--46
+--;°°°Mashinegun°°°
+				{priority = 1.0, class = UnitClass.AATank, unit = "sdkfz7_1"},--39
+				{priority = 1.1, class = UnitClass.AATank, unit = "sdkfz7_2a"},--39
+				{priority = 1.2, class = UnitClass.AATank, unit = "welberwind"},--44
 --;°°°Heavy tanks°°°
 				{priority = 2.0, class = UnitClass.Tank, unit = "fcm2c"},--39
 				{priority = 2.1, class = UnitClass.Tank, unit = "b1ter"},--40
@@ -88,11 +50,7 @@ Purchases["standard"] = {
 				{priority = 2.6, class = UnitClass.Tank, unit = "kt_h_105mm"},--44
 				{priority = 2.6, class = UnitClass.Tank, unit = "maus"},--45
 				{priority = 2.7, class = UnitClass.Tank, unit = "e-75_88l100"},--46
-				{priority = 2.7, class = UnitClass.Tank, unit = "e-100b"},--46
---;°°°Mashinegun°°°
-				{priority = 0.9, class = UnitClass.Tank, unit = "sdkfz7_1"},--39
-				{priority = 1.0, class = UnitClass.Tank, unit = "sdkfz7_2a"},--39
-				{priority = 1.1, class = UnitClass.Tank, unit = "welberwind"},--44				
+				{priority = 2.7, class = UnitClass.Tank, unit = "e-100b"},--46		
 			},
 			["usa"] = {--usa
 				{priority = 1.0, class = UnitClass.Infantry, unit = "home_guards(usa)"},
