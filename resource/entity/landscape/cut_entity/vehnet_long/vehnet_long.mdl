@@ -6,13 +6,13 @@
 		{sequence "crush" {speed 2}}
 	}
 	{bone "netting"
-		{parameters "CommonMesh;Land;Align;"}
+		{parameters "CommonMesh;Ground;"}
 		{Orientation
 			1	0	0
 			0	-1	0
 			0	0	1
 		}
-		{VolumeView "netting.ply"}
+		{VolumeView "netting.ply" {Ground}}
 	}
 }
 {Obstacle "body1"
