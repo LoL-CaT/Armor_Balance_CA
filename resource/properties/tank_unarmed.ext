@@ -348,27 +348,27 @@ actor
     }
 )
 
-;{perks
-;	{component "body"
-;		{category "tank_medium"}
-;	}
-;	{component "engine"
-;		{category "engine_heavy"}
-;	}
-;	{component "turret"
-;		{category "turret_heavy"}
-;	}
-;	{component "gun"
-;		{category "gun_heavy"}
-;	}
-;	{component "trackleft"
-;		{category "track_medium"}
-;	}
-;	{component "trackright"
-;		{category "track_medium"}
-;	}
-;	{blastwave_modifier 1.0}
-;}
+{perks
+	{component "body"
+		{category "tank_medium"}
+	}
+	{component "engine"
+		{category "engine_heavy"}
+	}
+	{component "turret"
+		{category "turret_heavy"}
+	}
+	{component "gun"
+		{category "gun_heavy"}
+	}
+	{component "trackleft"
+		{category "track_medium"}
+	}
+	{component "trackright"
+		{category "track_medium"}
+	}
+	{blastwave_modifier 1.0}
+}
 
 
 (define "locomotion"
@@ -3476,27 +3476,27 @@ actor
 		}
 	}
 	
-;{perks
-;	{component "body"
-;		{category "tank_heavy"}
-;	}
-;	{component "engine"
-;		{category "engine_heavy"}
-;	}
-;	{component "turret"
-;		{category "turret_heavy"}
-;	}
-;	{component "gun"
-;		{category "gun_heavy"}
-;	}
-;	{component "trackleft"
-;		{category "track_medium"}
-;	}
-;	{component "trackright"
-;		{category "track_medium"}
-;	}
-;	{blastwave_modifier 1.0}
-;}	
+{perks
+	{component "body"
+		{category "tank_heavy"}
+	}
+	{component "engine"
+		{category "engine_heavy"}
+	}
+	{component "turret"
+		{category "turret_heavy"}
+	}
+	{component "gun"
+		{category "gun_heavy"}
+	}
+	{component "trackleft"
+		{category "track_medium"}
+	}
+	{component "trackright"
+		{category "track_medium"}
+	}
+	{blastwave_modifier 1.0}
+}	
 )
 
 (define "armor_sheavy_shit_true"
