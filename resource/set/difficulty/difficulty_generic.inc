@@ -3,10 +3,17 @@
 		{cover_hitchance 0.75}   	; the probability of hitting a soldier behind cover
 		{crawl_hitchance 0.50}  	; the probabiltiy of hitting a soldier in crawl position
 		{cover_damage 0.50}  		; damage when protected by cover
+		(mod "hardcore"
+			{cover_damage 1}
+		)		
 
 		{vehicle_burst 1.5}			; increase timeout between bursts for all vehicles
 		{cover_mgun_burst 1}		; increase bullet count in 1 burst of soldier with mgun in horizontal cover
 		{cover_mgun_delay 1}		; decrease timeout between bursts of soldier with mgun in horizontal cover
+		
+		{recoil			1}			; recoil multiplier for all machine guns
+		{recoil_zoom	0.5}		; recoil multiplier in zoom mode
+		{vehicle_recoil 0}			; recoil multiplier for all machine guns mounted on vehicles		
 
 		{cover_efficiency			; how cover efficiency will drop with distance
 			0		0
@@ -23,4 +30,7 @@
 		;{mounted_mgun 3}
 		{death_delay_min 45}		; min bleeding out time in seconds
 		{death_delay_max 120}		; max bleeding out time in seconds
+		
+		{firing_timeout 1.00}		; time out between bursts	(modifier on FiringTimeout)
+		{grenade_timeout 0.50}		; time out between grenades	(modifier on FiringTimeout)		
 	}
