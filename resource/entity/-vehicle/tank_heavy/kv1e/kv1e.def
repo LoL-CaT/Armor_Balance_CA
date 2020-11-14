@@ -21,7 +21,7 @@
 	("armor_engine"  t(40 40 40 40))
 	("wheels_armor" args 5)	
 	("armor_mantlet" t(90))
-	("shield" args 1)
+	("shield" args 25)
 
 	{extender "shield"
 		{on}
@@ -122,19 +122,18 @@
 			{weapon "76mm_zis5" filling "ammo bullet76rus ap" 1}	
 			("abm_medium")
 		}
-		{place "mgun2"
-			{type "mgun_coaxial"}
-			{weapon "dt" filled}
-			{foresight "foresight5"}
-			("abm_mgun")
-			{basic}
-		}
 		{place "mgun3"
 			{type "mgun_hull"}
 			{weapon "dt" filled}
 			{foresight "foresight6"}
 			{gunner "driver"}
 			{charger "driver"}
+			("abm_mgun")
+		}
+		{place "mgun2"
+			{type "mgun_coaxial"}
+			{weapon "dt" filled}
+			{foresight "foresight5"}
 			("abm_mgun")
 			{basic}
 		}
@@ -145,12 +144,11 @@
 			{gunner "commander"}
 			{charger "commander"}
 			("abm_mgun")
-			{basic}
 		}
 
 	}
 
-	{mass 48500}
+	{mass 47500}
 	{Chassis
 		("tank_trace" fx("tracks_big") step(0.47) len(0.183))
 		("mobility"
@@ -170,11 +168,14 @@
 	{bone "turret"
 		{speed2 6} 
 	}
-;	{bone "mgun"
-;		{limits 20}	
-;	}
-;	{bone "mgun3"
-;		{limits 15}
-;		{speed2 80}
-;	}
+	{bone "mgun"
+		{limits 20}	
+	}
+	{bone "mgun3"
+		{limits 15}
+		{speed2 80}
+	}
+	{bone "coaxial_mgun"
+		{limits 1}
+	}
 }

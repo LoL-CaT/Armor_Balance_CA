@@ -1785,7 +1785,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 170}
-	{gravity 2.2}
+	{gravity 2.4}
 )
 
 (define "range_light_gun_howitzer_s_hv"
@@ -1809,7 +1809,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 170}
-	{gravity 3.0}
+	{gravity 3.2}
 )
 
 (define "range_light_ls_gun_howitzer_s"
@@ -1834,7 +1834,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 170}
-	{gravity 0.60}
+	{gravity 0.70}
 )
 
                                      ;120 - 210
@@ -1908,7 +1908,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 200}
-	{gravity 2.2}
+	{gravity 2.4}
 )
 
 (define "range_light_gun_howitzer_hv"
@@ -1932,7 +1932,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 200}
-	{gravity 3.1}
+	{gravity 3.3}
 )
 
 (define "range_light_ls_gun_howitzer"
@@ -1956,7 +1956,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 200}
-	{gravity 0.60}
+	{gravity 0.70}
 )
 
                                       ;130 - 210
@@ -2030,7 +2030,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 225}
-	{gravity 2.2}
+	{gravity 2.4}
 )
 
 (define "range_grazing_gun_howitzer_hv"
@@ -2055,7 +2055,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 225}
-	{gravity 3.1}
+	{gravity 3.3}
 )
 
 (define "range_grazing_ls_gun_howitzer"
@@ -2080,7 +2080,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 225}
-	{gravity 0.60}
+	{gravity 0.70}
 )
 
                                              ;175 - 210
@@ -2158,7 +2158,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 2.2}
+	{gravity 2.4}
 )
 
 (define "range_medium_gun_howitzer_hv"
@@ -2183,7 +2183,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 3.1}
+	{gravity 3.3}
 )
 
 (define "range_medium_ls_gun_howitzer"
@@ -2208,7 +2208,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 0.60}
+	{gravity 0.70}
 )
 
                                              ;195 - 210
@@ -2285,7 +2285,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 2.2}
+	{gravity 2.4}
 )
 
 (define "range_heavy_gun_howitzer_hv"
@@ -2310,7 +2310,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 3.1}
+	{gravity 3.3}
 )
 
 (define "range_heavy_ls_gun_howitzer"
@@ -2335,7 +2335,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 0.60}
+	{gravity 0.70}
 )
 
                                              ;219 - 210
@@ -2418,7 +2418,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 2.2}
+	{gravity 2.4}
 )
 
 (define "range_sheavy_gun_howitzer_hv"
@@ -2445,7 +2445,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 3.1}
+	{gravity 3.3}
 )
 
 (define "range_sheavy_ls_gun_howitzer"
@@ -2472,7 +2472,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 0.60}
+	{gravity 0.70}
 )
 
                                              ;Спец дальность
@@ -2555,7 +2555,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 2.2}
+	{gravity 2.4}
 )
 
 (define "range_gun_ls_fleet"
@@ -2582,7 +2582,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 0.70}
+	{gravity 0.75}
 )
 
 ;---------------------------------------------------------------------------MORT-RANGES----------------------------------------------------------------------------; 
@@ -2608,7 +2608,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 200}
-	{gravity 0.60}
+	{gravity 0.65}
 )
 
 ;------------------------------CA----------------------------------;

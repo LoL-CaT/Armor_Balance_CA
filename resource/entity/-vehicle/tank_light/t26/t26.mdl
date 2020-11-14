@@ -1,4 +1,4 @@
-;Exported by: garry ;SOCET
+;Exported by: garry
 ;Date:        Thu Oct 04 17:43:42 2007
 ;File:        D:\-Projects-\-3DWork-\Model\Танки\T26\hi-poly\T26.max
 {Skeleton
@@ -73,10 +73,11 @@
 					}
 					{VolumeView "cover.ply"}
 				}
-				{bone revolute "mgun"
+				{bone "mgun"
 					{parameters "ID=turret;"}
 					{terminator}
-					{limits -15 15}
+;					{limits 45}
+;					{speed2 4}
 					{Matrix34
 						0	1	0
 						0	0	-1
@@ -84,9 +85,7 @@
 						-17.8467	-0.00311317	6.22358
 					}
 					{VolumeView "mgun.ply"}
-					{bone revolute "foresight4"
-					{limits -15 15}
-					{terminator}					
+					{bone "foresight4"
 						{Matrix34
 							0	0	1
 							1	0	0
