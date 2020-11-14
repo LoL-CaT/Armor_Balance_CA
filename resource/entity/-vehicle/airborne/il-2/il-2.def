@@ -33,7 +33,7 @@
 	("part" args "wheelback")
 	("part" args "body_back")
 	
-	("armor_attacker_129")
+	("armor_attacker")
 	
 	{Chassis "airborne"
 		{Locomotion ("locomotion") 
