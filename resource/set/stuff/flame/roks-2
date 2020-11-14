@@ -27,6 +27,8 @@
 	{speed 80}
     {AimingTolerance 3}
 	{cursor "cannon_on"}
+
+	{preloaded}
 	
 	{desc "РОКС-2 (ЭДС 10)"}	
 }

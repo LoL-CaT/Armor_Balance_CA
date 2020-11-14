@@ -8,8 +8,8 @@ game_entity
 		{AlignEnabled 1}
 		{AlignStacked 0}
 		{AlignVolumes 1}
-		{TerrainType "ground" "ground"}
-		{RemoveEntities 1}		
+		{TerrainType "road" "bridge"}
+;		{RemoveEntities 1}		
 	}
 	(define "volume" 
 		{Volume %0 {thickness 20} {tags "body"} {able {contact 0} {obstacle 1}}}

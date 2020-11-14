@@ -54,6 +54,10 @@
 			{vision "tank_pr"}
 			{bone "visor18"}
 		}	
+		    {visor "back"
+			{vision "tank_back"}
+			{bone "foresight4"}
+		}		
 	}
 	
 	{extender "inventory"
@@ -83,7 +87,7 @@
 		{place "mgun2"
 			{type "mgun_rear"}
 			{weapon "dt" filled}
-			{foresight "foresight5"}
+			{foresight "foresight4"}
 			{gunner "commander"}
 			{charger "commander"}
 			("abm_mgun")

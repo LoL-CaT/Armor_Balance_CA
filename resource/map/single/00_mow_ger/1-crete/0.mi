@@ -11425,7 +11425,7 @@
 			{item 0x8052 {cell 0 0}{user "hand_right"}}
 			{item "pistol" "ammo" 100 {cell 4 1}}
 			{item "pistol" "ammo" 100 {cell 4 0}}
-			{item "morphine" {cell 4 5}}
+;			{item "morphine" {cell 4 5}}
 		}
 	}
 	{Inventory 0xc009
@@ -11624,7 +11624,7 @@
 			{item "rifle" "ammo" 25 {cell 4 1}}
 			{item "rifle" "ammo" 25 {cell 5 1}}
 			{item "rifle" "ammo" 25 {cell 4 0}}
-			{item "morphine" {cell 4 5}}
+;			{item "morphine" {cell 4 5}}
 		}
 	}
 	{Inventory 0x8021
@@ -12353,7 +12353,7 @@
 			{item 0x8039 {cell 0 0}{user "hand_right"}}
 			{item "pistol" "ammo" 100 {cell 4 0}}
 			{item "pistol" "ammo" 100 {cell 4 1}}
-			{item "morphine" {cell 4 5}}
+;			{item "morphine" {cell 4 5}}
 		}
 	}
 	{Inventory 0xc00c
@@ -14197,7 +14197,7 @@
 			{item "rifle" "ammo" 25 {cell 4 1}}
 			{item "rifle" "ammo" 25 {cell 5 1}}
 			{item "helmet_paratrooper" {cell 2 5}{user "head"}}
-			{item "morphine" {cell 4 5}}
+;			{item "morphine" {cell 4 5}}
 		}
 	}
 	{Inventory 0xc077
@@ -19124,7 +19124,7 @@
 			{item "mp40" {cell 0 0}}
 			{item "pistol" "ammo" 100 {cell 4 0}}
 			{item "pistol" "ammo" 100 {cell 4 1}}
-			{item "morphine" {cell 4 5}}
+;			{item "morphine" {cell 4 5}}
 		}
 	}
 	{Inventory 0xc0b8
@@ -19722,7 +19722,7 @@
 			{item "rifle" "ammo" 25 {cell 4 5}}
 			{item "rifle" "ammo" 25 {cell 5 5}}
 			{item "rifle" "ammo" 25 {cell 6 5}}
-			{item "morphine" {cell 4 6}}
+;			{item "morphine" {cell 4 6}}
 		}
 	}
 	{Inventory 0xa02b
@@ -21442,7 +21442,7 @@
 			{item "pistol" "ammo" 100 {cell 4 0}}
 			{item "pistol" "ammo" 100 {cell 4 1}}
 			{item "molotov_coctail" "grenade" {cell 0 3}}
-			{item "morphine" {cell 4 5}}
+;			{item "morphine" {cell 4 5}}
 		}
 	}
 	{Inventory 0xc069
@@ -22832,7 +22832,7 @@
 			{item "mp40" {cell 0 0}}
 			{item "pistol" "ammo" 100 {cell 4 0}}
 			{item "pistol" "ammo" 100 {cell 4 1}}
-			{item "morphine" {cell 4 5}}
+;			{item "morphine" {cell 4 5}}
 		}
 	}
 	{Inventory 0x830b
@@ -23806,7 +23806,7 @@
 			{item "sandbag_kit" {cell 1 4}}
 			{item "hedgehog_kit" {cell 2 4}}
 			{item "helmet1_eng" {cell 3 4}{user "head"}}
-			{item "morphine" {cell 0 5}}
+;			{item "morphine" {cell 0 5}}
 		}
 	}
 	{Inventory 0x8348

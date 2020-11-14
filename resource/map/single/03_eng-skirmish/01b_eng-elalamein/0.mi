@@ -3326,7 +3326,7 @@
 			{item "sandbag_kit" {cell 2 5}}
 			{item "hedgehog_kit" {cell 3 5}}
 			{item "fieldcap_eng" {cell 4 5}{user "head"}}
-			{item "morphine" {cell 0 7}}
+;			{item "morphine" {cell 0 7}}
 		}
 	}
 	{Inventory 0xc006

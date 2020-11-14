@@ -145,6 +145,7 @@
 			{gunner "commander"}
 			{charger "commander"}
 			("abm_mgun")
+			{basic}				
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}
@@ -160,6 +161,7 @@
 			{gunner "driver"}
 			{charger "driver"}
 			("abm_mgun")
+			{basic}			
 		}
 	}
 

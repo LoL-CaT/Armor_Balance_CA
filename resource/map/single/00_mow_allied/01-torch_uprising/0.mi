@@ -5675,7 +5675,7 @@
 			{item "knife_union" {cell 2 1}}
 			{item "knife_union" {cell 4 1}}
 			{item "sandbag_kit" {cell 6 0}}
-			{item "morphine" {cell 4 2}}
+;			{item "morphine" {cell 4 2}}
 			{item "mk1" "grenade" {cell 6 1}}
 			{item "pistol" "ammo" 100 {cell 2 0}}
 			{item 0x9002 {cell 0 4}}
