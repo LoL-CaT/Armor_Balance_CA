@@ -1,11 +1,11 @@
 {breed
-	{skin "us_tankman_hp"}
-	{portrait "usa_tankman"}
+	{skin "usa-soldier1"}
+	{portrait "usa_soldier2"}
 	{nationality usa}
-	{icon "tankman"}
+	{icon "smg"}
 	{icon_priority 1}
 	{armors
-		{head tankhelmet_usa}
+		{head "helmet1_usa"}
 	}
 	{perks
 		(include "perks_generic.inc")
@@ -15,9 +15,9 @@
 		(include "veterancy_generic.inc")
 		("veterancy_1")
 	}
-	{inventory             
-		{item "thompson" filled}
-		{item "ammo pistol" 180}
+	{inventory
+		{item "colt" filled}
+		{item "ammo pistol" 21}
 		{item "barbwire_kit" 2}
 		{item "sandbag_kit" 2}
 		{item "hedgehog_kit" 1}

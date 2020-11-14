@@ -364,8 +364,8 @@
 
 ;°°°Button Hero°°°
 
-{"bf109g_b"       ("v1" cd(180) ci(1800) c(1800)	c1(bf109g_b)			t(all hero) s(ger) n1(vehicle_supporter:1) g(avs1) b(hero)) {cost 5.0} {fore 1}} ; ГОД 39
-{"ju-87_b"        ("v1" cd(180) ci(1800) c(1800)	c1(ju-87_b)				t(all hero) s(ger) n1(vehicle_supporter:2) g(avs2) b(hero)) {cost 15.0} {fore 1}} ; ГОД 39
+{"bf109g_b"       ("v1" cd(180) ci(1800) c(1800)	c1(bf109g_b)			t(all hero) s(ger) n2(vehicle_supporter:1) g(avs1) b(hero)) {cost 5.0} {fore 1}} ; ГОД 39
+{"ju-87_b"        ("v1" cd(180) ci(1800) c(1800)	c1(ju-87_b)				t(all hero) s(ger) n2(vehicle_supporter:2) g(avs2) b(hero)) {cost 15.0} {fore 1}} ; ГОД 39
 {"bf110"          ("v1" cd(180) ci(1800) c(1800)	c1(bf110)				t(all hero) s(ger) n1(vehicle_supporter:2) g(avs3) b(hero)) {cost 15.0} {fore 1}} ; ГОД 39
 
 {"ju87g2"         ("v1" cd(1800) ci(1800) c(1800)	c1(ju87g2)				t(all hero) s(ger) n1(vehicle_supporter:2) g(avs4) b(hero)) {cost 15.0} {fore -0.01}} ; ГОД 41
