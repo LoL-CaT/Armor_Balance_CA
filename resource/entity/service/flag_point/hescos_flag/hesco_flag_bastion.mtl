@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/service/hesco_flag"}
-	{bump "$/service/hesco_flag_bp"}
-	{specular "$/service/hesco_flag_sp"}
-	{color "230 230 230 25"}
-	{blend none}
-}

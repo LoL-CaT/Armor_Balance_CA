@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "dot_flak_ring"}
-	{bump "dot_flak_ring_bp"}
-	{specular "dot_flak_ring_sp"}
-	{color "230 230 230 25"}
-	{blend none}
-}

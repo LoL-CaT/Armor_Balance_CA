@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "body_lit"}
-	{bump "bmw_bump"}
-	{specular "bmw_sp"}
-	{color "229 229 229 17"}
-	{blend test}
-}

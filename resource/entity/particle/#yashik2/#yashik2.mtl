@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "/Texture/Common/Model/fragments.tif.tex"}
-	{blend test}
-}

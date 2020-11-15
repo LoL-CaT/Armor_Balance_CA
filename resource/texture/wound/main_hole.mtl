@@ -1,5 +1,0 @@
-{material simple
-	{diffuse "main_hole.dds"}
-	{blend blend}
-	{tile}
-}

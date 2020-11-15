@@ -1,5 +1,0 @@
-{material simple
-	{diffuse "$/nature/ice_damaged01"}
-	{blend none}
-	{tile}
-}

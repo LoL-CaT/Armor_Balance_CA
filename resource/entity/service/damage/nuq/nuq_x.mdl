@@ -1,9 +1,0 @@
-{Skeleton
-	{bone "body"
-		{Orientation
-			1	0	0
-			0	-1	0
-			0	0	1
-		}
-	}
-}

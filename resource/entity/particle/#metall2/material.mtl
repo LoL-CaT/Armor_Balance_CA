@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/decor/metal2"}
-	{blend test}
-}

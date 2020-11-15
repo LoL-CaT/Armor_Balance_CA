@@ -1,7 +1,0 @@
-{entity
-	{SpriteView 
-		{Sprite "rw.ebm"
-			{Scale 0.35}
-		}
-	}
-}

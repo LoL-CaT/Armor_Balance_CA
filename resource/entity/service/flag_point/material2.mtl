@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/entourage/flag_point"}
-	{blend none}
-}

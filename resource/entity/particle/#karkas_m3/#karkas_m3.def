@@ -1,6 +1,0 @@
-{Game_entity
-	(include "/properties/big_part.inc")
-	{props "steel" "delete"}
-	{mass 200}
-	{Extension "#karkas_m3.mdl"}
-}

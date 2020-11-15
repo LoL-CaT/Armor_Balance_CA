@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "$/entourage/target1"}
-	{bump "$/entourage/target1_bp"}
-	{blend none}
-}

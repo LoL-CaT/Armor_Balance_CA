@@ -1,5 +1,0 @@
-{material simple
-	{diffuse "$/entourage/crate"}
-	{blend none}
-	{tile}
-}

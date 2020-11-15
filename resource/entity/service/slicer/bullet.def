@@ -1,4 +1,0 @@
-{entity
-	{extension "/properties/piece.ext"}
-	{constrain none}
-}

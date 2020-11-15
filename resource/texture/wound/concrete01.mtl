@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "concrete01"}
-	{bump "concrete01_bp"}
-	{blend blend}
-}

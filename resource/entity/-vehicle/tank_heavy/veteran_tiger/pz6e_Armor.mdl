@@ -192,7 +192,7 @@
 					{Position -12.4302	-11.0961	18.4627}
 					{VolumeView "gun01.ply"}
 					{bone "foresight2"
-						{limits -30 30}
+;						{limits -30 30}
 						{Matrix34
 							0.706311	0	0.707901
 							-0.707901	0	0.706311

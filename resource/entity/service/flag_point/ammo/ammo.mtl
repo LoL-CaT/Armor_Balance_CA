@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/construction/flag_point_ammo"}
-	{bump "$/construction/flag_point_ammo_bp"}
-	{specular "$/construction/flag_point_ammo_sp"}
-	{color "230 230 230 25"}
-	{blend none}
-}

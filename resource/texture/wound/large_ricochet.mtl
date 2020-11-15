@@ -1,5 +1,0 @@
-{material simple
-	{diffuse "large_ricochet" }
-	{blend blend}
-	{tile}
-}

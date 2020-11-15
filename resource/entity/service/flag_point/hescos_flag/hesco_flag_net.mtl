@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/service/hesco_flag_net"}
-	{bump "$/service/hesco_flag_net_bp"}
-	{color "230 230 230 25"}
-	{blend test}
-}

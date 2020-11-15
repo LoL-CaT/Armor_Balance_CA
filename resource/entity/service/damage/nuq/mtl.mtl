@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "nuq2"}
-	{bump "nuq2_bp"}
-	{specular "nuq2_sp"}
-	{color "229 229 229 25"}
-	{blend none}
-}

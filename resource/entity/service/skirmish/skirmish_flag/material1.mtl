@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "flagstaff"}
-	{specular "flagstaff_sp"}
-	{color "230 230 230 25"}
-	{blend test}
-}
