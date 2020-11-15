@@ -65,9 +65,9 @@
 	{FiringTimeout 0.3 0.2}	; delay between bursts
 	{preloaded}
 	
-	{minimumDamageModifier 3}
+	{minimumDamageModifier 8}
 	(mod "hardcore"
 		{autoreload 0}
-		{minimumDamageModifier 5}
+		{minimumDamageModifier 10}
 	)	
 }
