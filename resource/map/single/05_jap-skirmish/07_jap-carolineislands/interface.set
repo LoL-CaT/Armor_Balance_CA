@@ -7,7 +7,7 @@
 		{"hard" 	"skirmish_07_jap_hard"}
 		{"heroic" 	"skirmish_07_jap_heroic"}
 	}
-	{appid 357760}
+;	{appid 357760}
 	{mission_options
 		{checks
 			{"mission_option_select1"

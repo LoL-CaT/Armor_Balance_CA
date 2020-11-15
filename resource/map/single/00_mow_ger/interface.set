@@ -5,6 +5,6 @@
 			{file "/music/campaign_theme" loop}
 		}
 	}
-	{appid 274440}
+;	{appid 274440}
 	{enableProgression}
 }

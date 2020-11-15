@@ -8,7 +8,7 @@
 		{"hard" 	"skirmish_06_usa_hard"}
 		{"heroic" 	"skirmish_06_usa_heroic"}
 	}
-	{appid 327130}
+;	{appid 327130}
 	{mission_options
 		{selects
 			{"mission_option_select1"
