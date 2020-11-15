@@ -1,7 +1,0 @@
-{font_atlas
-	{name "bookman_hq"}
-	{size 13}
-	{height 22}
-	{style 1}
-	{binary_data "bookman_hq_13b.fnt"}
-}

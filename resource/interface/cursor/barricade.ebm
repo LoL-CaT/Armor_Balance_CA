@@ -1,9 +1,0 @@
-{bitmap
-	{cursor 1}
-	{Axis  15 15 }
-	{Animation Play Loop}
-	{Frame  "barricade/00.tga" 300 }
-	{Frame  "barricade/01.tga" 300 }
-	{Frame  "barricade/02.tga" 300 }
-	{Frame  "barricade/03.tga" 300 }
-}                  

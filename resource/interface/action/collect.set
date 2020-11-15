@@ -1,5 +1,0 @@
-{Action
-	{Cursor "collect" "inventory_full"}
-	{fx "flashgreen"}
-	{Button}
-}

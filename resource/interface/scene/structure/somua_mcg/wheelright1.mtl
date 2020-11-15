@@ -1,5 +1,5 @@
 {material simple
 	{diffuse "scheme"}
 	{blend test_equal}
-	{alpharef 20}
+	{alpharef 16}
 }

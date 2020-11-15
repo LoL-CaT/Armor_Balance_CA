@@ -1,8 +1,0 @@
-{bitmap
-	{Axis  5 6}
-	{cursor 1}
-	{Animation  Play Loop }
-	{Frame  "repair/00.tga" 500 }
-	{Frame  "repair/01.tga" 500 }
-	{Frame  "repair/02.tga" 500 }
-}

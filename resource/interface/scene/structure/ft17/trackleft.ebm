@@ -1,7 +1,0 @@
-{bitmap
-	{Filtering  0 }
-	{AlphaChannel  1 }
-	{Blend  Alpha }
-	{Frame  "trackl_00.tga" }
-	{Frame  "trackl_01.tga" }
-}

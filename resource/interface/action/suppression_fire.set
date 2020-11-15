@@ -1,8 +1,0 @@
-{action
-	{cursor "attack"}
-	{fx "flashred"}
-	{button}
-	{NotifySelect}
-	{NotifyDoubleClick}
-	{AimEntities}
-}

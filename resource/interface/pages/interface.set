@@ -1,6 +1,6 @@
 {location "main"
 	{background
-		{picture "/interface/background/main"}
+		{picture "/interface/pages/main/video_bkg"}
 		{video "/video/menu"}
 		{media "main"
 			{file "/music/main_theme" loop}
@@ -9,7 +9,7 @@
 }
 {location "login"
 	{background
-		{picture "/interface/background/main"}
+		{picture "/interface/pages/main/video_bkg"}
 		{media "main"
 			{file "/music/main_theme" loop}
 		}

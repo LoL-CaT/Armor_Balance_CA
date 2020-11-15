@@ -1,9 +1,0 @@
-{bitmap
-	{Axis  16 16 }
-	{cursor 1}
-	{Animation  Play Loop }
-	{Frame  "mine_detection/1.tga" 100 }
-	{Frame  "mine_detection/2.tga" 150 }
-	{Frame  "mine_detection/3.tga" 150 }
-	{Frame  "mine_detection/4.tga" 250 }
-}

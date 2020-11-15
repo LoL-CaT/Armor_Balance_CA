@@ -1,6 +1,0 @@
-{bitmap
-	{Axis  9 9 }
-	{Animation Play Loop}
-	{Frame  "emoticon_10.tga" 500 }
-	{Frame  "emoticon_10b.tga" 3000 }
-}

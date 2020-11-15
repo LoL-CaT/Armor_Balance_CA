@@ -1,7 +1,0 @@
-{font_atlas
-	{name "arial_hq"}
-	{size 8}
-	{height 14}
-	{style 1}
-	{binary_data "arial_hq_8b.fnt"}
-}

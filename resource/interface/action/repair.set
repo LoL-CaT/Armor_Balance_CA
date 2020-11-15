@@ -1,7 +1,0 @@
-{action
-	{cursor}
-	{button "repair"}
-	{fx "flashgreen"}
-	{NotifySelect}
-	{AimEntities}
-}
