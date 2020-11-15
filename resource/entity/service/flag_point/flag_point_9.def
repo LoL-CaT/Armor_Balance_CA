@@ -1,0 +1,32 @@
+{actor
+	{extension "flag_point.mdl"}
+	{extender "map_point"}
+	{props "steel" "flag" "map_point" "flag_9"}
+	{able "-select"}
+	
+	{volume "body" {able clear}}
+	
+	{sensor
+		{visor "main"
+    		{vision "flag_point"}
+			{bone "visor"}
+		}
+		{operatableRequired 0}
+   	}
+	{Placer
+		{place "side_pointer"
+		}
+	}
+	{DecalView zoneA
+		{Sprite "flagdecal.ebm"
+			{Visibility 0.7}
+		}
+		{layer grounddynamic}
+	}
+	{DecalView zoneB
+		{Sprite "flagdecal.ebm"
+			{Visibility 0.7}
+		}
+		{layer grounddynamic}
+	}
+}

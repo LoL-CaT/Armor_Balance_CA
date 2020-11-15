@@ -1,0 +1,58 @@
+;Exported by: sergienko
+;Date:        Mon May 19 16:03:29 2008
+;File:        D:\-projets1_5\3dwork\anima\construction\flag_point\Flagstaff02.max
+{Skeleton
+	{animation
+		{sequence "flattern" {speed 1} {resume}}
+		{sequence "down" {speed 1} {resume}}
+		{sequence "up" {speed 1} {resume}}
+	}
+	{bone "flag_point"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "flag_point.ply"}
+		{bone "lift"
+			{Position 0	0	190.122}
+			{bone "flag1"
+				{parameters "CommonMesh;"}
+				{Matrix34
+					0.642788	0.766044	0
+					0	0	1
+					0.766044	-0.642788	0
+					19.4001	18.4079	-11.689
+				}
+				{VolumeView "flag1.ply"}
+			}
+		}
+		{bone "emit1"
+			{Matrix34
+				-0.892421	0.451203	0
+				-0.451203	-0.892421	0
+				0	0	1
+				10.9353	-3.7462	0
+			}
+			{visibility 0}
+		}
+		{bone "fx_number"
+				{Position 0	0	210}
+
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.0275556 0.0259382}
+		{Extent 2.08863 2.08863}
+		{Axis 0.375164 0.926958}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Cylinder 2.25321 201.575}
+	{Bone "flag_point"}
+	{Position -0.0275557	-0.0259382	100.864}
+}

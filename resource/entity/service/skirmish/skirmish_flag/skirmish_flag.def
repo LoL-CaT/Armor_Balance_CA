@@ -1,0 +1,13 @@
+{actor
+;	(include "/properties/construction.inc")
+	{Extension "flagstaff.mdl"}
+	{props "flag" "steel" "flag_slave" "skirmish_fx_base"}
+	{able "-select"}
+;	("armor_disable_damage_acc")
+	{obstacleID "unbreakable"}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+}

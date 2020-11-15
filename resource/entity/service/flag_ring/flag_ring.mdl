@@ -1,0 +1,73 @@
+;Exported by: caps
+;Date:        Mon Nov 04 12:48:35 2013
+;File:        D:\!_DMS_CalltoArms\Assets\dot_flak_ring\max\dot_flak_ring_EXP.max
+{Skeleton
+	{bone "dot_flak_ring_2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "dot_flak_ring_2.ply"}
+			{VolumeView "dot_flak_ring_2_lod1.ply"}
+		}
+		{bone "land1"
+			{parameters "Land;Ground;"}
+			{Position 0	0	1.12773}
+			{VolumeView "land1.ply" {Ground} {DecalTarget}}
+		}
+	}
+}
+{Volume "body10"
+	{Polyhedron "body10.vol"}
+	{Bone "dot_flak_ring_2"}
+}
+{Volume "body11"
+	{Polyhedron "body11.vol"}
+	{Bone "dot_flak_ring_2"}
+}
+{Volume "body12"
+	{Polyhedron "body12.vol"}
+	{Bone "dot_flak_ring_2"}
+}
+{Volume "body13"
+	{Polyhedron "body13.vol"}
+	{Bone "dot_flak_ring_2"}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "dot_flak_ring_2"}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "dot_flak_ring_2"}
+}
+{Volume "body3"
+	{Polyhedron "body3.vol"}
+	{Bone "dot_flak_ring_2"}
+}
+{Volume "body4"
+	{Polyhedron "body4.vol"}
+	{Bone "dot_flak_ring_2"}
+}
+{Volume "body5"
+	{Polyhedron "body5.vol"}
+	{Bone "dot_flak_ring_2"}
+}
+{Volume "body6"
+	{Polyhedron "body6.vol"}
+	{Bone "dot_flak_ring_2"}
+}
+{Volume "body7"
+	{Polyhedron "body7.vol"}
+	{Bone "dot_flak_ring_2"}
+}
+{Volume "body8"
+	{Polyhedron "body8.vol"}
+	{Bone "dot_flak_ring_2"}
+}
+{Volume "body9"
+	{Polyhedron "body9.vol"}
+	{Bone "dot_flak_ring_2"}
+}

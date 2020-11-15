@@ -1,0 +1,56 @@
+{environment
+	{light
+		{direction 0.9 0.3 -1}
+		{ambient 0xff383e46}
+		{diffuse 0xffa68f72}
+		{specular 0xff646464}
+		{lightsIntensity 0.04}
+		{color_correction
+			{tone 0xffffffff}
+			{tone_strength 0}
+		}
+		{humans_light
+			{user_ambient 0xffffffff}
+			{user_diffuse 0xffffffff}
+			{ally_ambient 0xffffffff}
+			{ally_diffuse 0xffffffff}
+			{enemy_ambient 0xffffffff}
+			{enemy_diffuse 0xffffffff}
+		}
+		{vehicles_light
+			{user_ambient 0xffffffff}
+			{user_diffuse 0xffffffff}
+			{ally_ambient 0xffffffff}
+			{ally_diffuse 0xffffffff}
+			{enemy_ambient 0xffffffff}
+			{enemy_diffuse 0xffffffff}
+		}
+	}
+	{shadow
+		{alpha 0}
+		{color 0xff001728}
+	}
+	{wind
+		{speed 0.2 0 0.2}
+		{amplitude 2}
+	}
+	{haze
+		{color 0xffe5ffff}
+		{start 1500}
+		{end 5000}
+	}
+	{sky
+		{size 1 1}
+	}
+	{cloudsonwater
+		{size 2 2}
+		{scrollSpeed 0.5 0.5}
+		{windSpeed 0.0001 0.0001}
+	}
+	{thunder
+		{color 0xff686c73}
+	}
+	{video_overlay
+		{color 0xffffffff}
+	}
+}

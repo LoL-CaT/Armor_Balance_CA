@@ -1,0 +1,10 @@
+{game_entity
+	(include "sound.inc")
+	{props "wood"}
+	{extender "speaker"
+		{soundName "world/insects/insects1"}
+		{loop}
+		{recoveryTime 20 5}
+		{signalDepend "shot explosion movement"}
+	}
+}

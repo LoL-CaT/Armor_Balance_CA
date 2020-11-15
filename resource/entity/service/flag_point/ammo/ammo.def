@@ -1,0 +1,30 @@
+{game_entity
+	{obstacleid "unbreakable"}
+	{props "steel"}
+
+	{Extension "ammo.mdl"}
+
+	{Volume "body3"
+		{Tags  "body" "fire"}
+		{Thickness 20}
+	}
+	{Volume "body4"
+		{Tags  "body" "fire"}
+		{Thickness 20}
+	}
+	{Volume "body5"
+		{Tags  "body" "fire"}
+		{Thickness 20}
+	}
+	{Volume "body6"
+		{Tags  "body" "fire"}
+		{Thickness 20}
+	}
+	{Volume "body7"
+		{Tags  "body" "fire"}
+		{Thickness 20}
+	}
+
+	(include "/properties/resupply_generic.inc")
+	("flag_ammo")
+}

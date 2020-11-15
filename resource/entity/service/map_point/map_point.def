@@ -1,0 +1,13 @@
+{actor
+	{Extension "arrow.mdl"}
+	{extender "map_point"}
+	{props "steel" "map_point" "spawn" "flag_slave"}
+	{able "-select"}
+	{sensor
+		{visor "main"
+    		{vision "map_point"}
+			{bone "visor"}
+		}
+		{operatableRequired 0}
+    }
+}

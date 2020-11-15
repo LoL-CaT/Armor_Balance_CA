@@ -1,0 +1,83 @@
+;Exported by: Caspar
+;Date:        Wed Jun 24 14:51:34 2015
+;File:        C:\Users\Caspar\Desktop\FlagPoint_FINAL3.max
+{Skeleton
+	{bone "ammo"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ammo.ply"}
+	}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -0.0718324 -25.4624}
+		{Extent 24.4134 2.45376}
+		{Axis 0.999391 0.0348818}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center 4.04141 -30.2307}
+		{Extent 16.3543 2.36364}
+		{Axis 0.999391 0.0348818}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Volume "body3"
+	{Box 48.7974 4.58401 6.99059}
+	{Bone "ammo"}
+	{Matrix34
+		0.999138	-0.0415087	0
+		0.0415087	0.999138	0
+		0	0	1
+		-0.0718324	25.4624	3.4953
+	}
+}
+{Volume "body4"
+	{Box 32.6794 4.51066 7.05138}
+	{Bone "ammo"}
+	{Matrix34
+		0.999138	-0.0415087	0
+		0.0415087	0.999138	0
+		0	0	1
+		4.04141	30.2307	3.52569
+	}
+}
+{Volume "body5"
+	{Box 33.1822 4.58401 7.72005}
+	{Bone "ammo"}
+	{Matrix34
+		0.999138	-0.0415087	0
+		0.0415087	0.999138	0
+		0	0	1
+		1.20588	25.9461	9.8455
+	}
+}
+{Volume "body6"
+	{Box 15.9275 4.58401 7.59847}
+	{Bone "ammo"}
+	{Matrix34
+		0.998787	-0.0492388	0
+		0.0492388	0.998787	0
+		0	0	1
+		4.06802	30.038	9.78471
+	}
+}
+{Volume "body7"
+	{Box 15.9275 4.58401 6.74744}
+	{Bone "ammo"}
+	{Matrix34
+		0.999999	-0.00126886	0
+		0.00126886	0.999999	0
+		0	0	1
+		2.35465	25.6316	16.5323
+	}
+}

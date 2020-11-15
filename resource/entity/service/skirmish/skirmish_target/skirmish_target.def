@@ -1,0 +1,20 @@
+{actor
+	{extension "/properties/piece.ext"}
+	{extension "skirmish_target.mdl"}
+	{props "steel"}
+	{obstacleId "nothing"}
+	{targetclass "tank" "ap fg bullet"}
+	{volume "body"
+		{thickness 10}
+		{bone "basis"}
+		{able clear}
+	}
+	{extender "stuff"
+		{item "skirmish_smoke"}
+	}
+	{brain "actor"}
+
+	{Volume "smoke1" {able clear} {density 0}}
+	{Volume "smoke2" {able clear} {density 0}}
+	{Volume "smoke3" {able clear} {density 0}}
+}
