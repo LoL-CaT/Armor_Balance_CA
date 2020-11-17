@@ -3,7 +3,7 @@
 	{fireSound "gun/howitzer/150mm_sfh18"}
 	{reloadSound "gun_r04"}
 
-        ("speed" s(490))
+        ("speed" s(525))
 	("caliber_maximum")
 		    {calibre 155}	
 		

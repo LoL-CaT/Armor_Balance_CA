@@ -2133,7 +2133,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 1.75}
+	{gravity 1.65}
 )
 
 (define "range_medium_gun_howitzer"
