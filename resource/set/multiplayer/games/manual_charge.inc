@@ -15,7 +15,7 @@
 		{initCharge 0} ; sec
 		{minCharge 20} ; sec
 		{maxCharge 180} ; sec
-		{chargeGain 1} ; sec gain per 1 second
+		{chargeGain 2} ; sec gain per 1 second
 		{playerScoreFactor 0.5} ; sec per 1 score point
 		{enemyScoreFactor 0.25} ; sec per 1 score point
 	}
