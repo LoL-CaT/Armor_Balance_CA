@@ -1,0 +1,7405 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: Call to Arms (desc)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.3\n"
+
+msgctxt "desc/human/special/hint"
+msgid "hint"
+msgstr "Подсказка"
+
+
+msgctxt "desc/human/special/narrator_eng"
+msgid "narrator_eng"
+msgstr "<c(c3baae)>офицер"
+
+
+msgctxt "desc/human/special/narrator_ger"
+msgid "narrator_ger"
+msgstr "<c(c3baae)>офицер"
+
+
+msgctxt "desc/human/special/narrator_jap"
+msgid "narrator_jap"
+msgstr "<c(c3baae)>офицер"
+
+
+msgctxt "desc/human/special/narrator_rus"
+msgid "narrator_rus"
+msgstr "<c(c3baae)>офицер"
+
+
+msgctxt "desc/human/special/narrator_usa"
+msgid "narrator_usa"
+msgstr "<c(c3baae)>офицер"
+
+
+msgctxt "desc/human/special/narrator_peasant"
+msgid "narrator_peasant"
+msgstr "Гражданский"
+
+
+msgctxt "desc/human/specila/narrator_scientist"
+msgid "narrator_scientist"
+msgstr "Ученый"
+
+
+msgctxt "desc/human/mp/rus/ap_miner"
+msgid "ap_miner"
+msgstr "<c(c3baae)>Инженер (ПП мины)"
+
+
+msgctxt "desc/human/mp/rus/at_miner"
+msgid "at_miner"
+msgstr "<c(c3baae)>Инженер (ПТ мины)"
+
+
+msgctxt "desc/human/mp/rus/at_rifle"
+msgid "at_rifle"
+msgstr "<c(c3baae)>Бронебойщик"
+
+
+msgctxt "desc/human/mp/rus/at_rifle2"
+msgid "at_rifle2"
+msgstr "<c(c3baae)>Бронебойщик"
+
+
+msgctxt "desc/human/mp/rus/at_rifle3"
+msgid "at_rifle3"
+msgstr "<c(c3baae)>Бронебойщик"
+
+
+msgctxt "desc/human/mp/rus/at_rifle4"
+msgid "at_rifle4"
+msgstr "<c(c3baae)>Бронебойщик"
+
+
+msgctxt "desc/human/mp/rus/bazooker"
+msgid "bazooker"
+msgstr "<c(c3baae)>Гранатомётчик"
+
+
+msgctxt "desc/human/mp/rus/bazooker2"
+msgid "bazooker2"
+msgstr "<c(c3baae)>Гранатомётчик"
+
+
+msgctxt "desc/human/mp/rus/elite"
+msgid "elite"
+msgstr "<c(c3baae)>Морской пехотинец"
+
+
+msgctxt "desc/human/mp/rus/elite2"
+msgid "elite2"
+msgstr "<c(c3baae)>Морской пехотинец"
+
+
+msgctxt "desc/human/mp/rus/elite3"
+msgid "elite3"
+msgstr "<c(c3baae)>Морской пехотинец"
+
+
+msgctxt "desc/human/mp/rus/elite4"
+msgid "elite4"
+msgstr "<c(c3baae)>Гвардеец-стрелок"
+
+
+msgctxt "desc/human/mp/rus/elite5"
+msgid "elite5"
+msgstr "<c(c3baae)>Гвардеец-стрелок"
+
+
+msgctxt "desc/human/mp/rus/elite6"
+msgid "elite6"
+msgstr "<c(c3baae)>Гвардеец-стрелок"
+
+
+msgctxt "desc/human/mp/rus/flamer"
+msgid "flamer"
+msgstr "<c(c3baae)>Огнемётчик"
+
+
+msgctxt "desc/human/mp/rus/flamer2"
+msgid "flamer2"
+msgstr "<c(c3baae)>Огнемётчик"
+
+
+msgctxt "desc/human/mp/rus/flamer3"
+msgid "flamer3"
+msgstr "<c(c3baae)>Огнемётчик"
+
+
+msgctxt "desc/human/mp/rus/home_guard"
+msgid "home_guard"
+msgstr "<c(c3baae)>Рядовой"
+
+
+msgctxt "desc/human/mp/rus/home_guard2"
+msgid "home_guard2"
+msgstr "<c(c3baae)>Рядовой"
+
+
+msgctxt "desc/human/mp/rus/medic"
+msgid "medic"
+msgstr "<c(c3baae)>Медик"
+
+
+msgctxt "desc/human/mp/rus/mgun"
+msgid "mgun"
+msgstr "<c(c3baae)>Пулемётчик"
+
+
+msgctxt "desc/human/mp/rus/oficer"
+msgid "oficer"
+msgstr "<c(c3baae)>Офицер"
+
+
+msgctxt "desc/human/mp/rus/radioman"
+msgid "radioman"
+msgstr "<c(c3baae)>Радист"
+
+
+msgctxt "desc/human/mp/rus/rifle"
+msgid "rifle"
+msgstr "<c(c3baae)>Стрелок"
+
+
+msgctxt "desc/human/mp/rus/rifle2"
+msgid "rifle2"
+msgstr "<c(c3baae)>Стрелок"
+
+
+msgctxt "desc/human/mp/rus/rifle3"
+msgid "rifle3"
+msgstr "<c(c3baae)>Стрелок"
+
+
+msgctxt "desc/human/mp/rus/rifle4"
+msgid "rifle4"
+msgstr "<c(c3baae)>Стрелок"
+
+
+msgctxt "desc/human/mp/rus/saper"
+msgid "saper"
+msgstr "<c(c3baae)>Сапёр"
+
+
+msgctxt "desc/human/mp/rus/scout"
+msgid "scout"
+msgstr "<c(c3baae)>Разведчик"
+
+
+msgctxt "desc/human/mp/rus/smg"
+msgid "smg"
+msgstr "<c(c3baae)>Боец с ПП"
+
+
+msgctxt "desc/human/mp/rus/smg2"
+msgid "smg2"
+msgstr "<c(c3baae)>Боец с ПП"
+
+
+msgctxt "desc/human/mp/rus/smg3"
+msgid "smg3"
+msgstr "<c(c3baae)>Боец с ПП"
+
+
+msgctxt "desc/human/mp/rus/sniper"
+msgid "sniper"
+msgstr "<c(c3baae)>Снайпер"
+
+
+msgctxt "desc/human/mp/rus/sniper2"
+msgid "sniper2"
+msgstr "<c(c3baae)>Гвардеец-снайпер"
+
+
+msgctxt "desc/human/mp/rus/sturmovik"
+msgid "sturmovik"
+msgstr "<c(c3baae)>Красногвардеец"
+
+
+msgctxt "desc/human/mp/rus/sturmovik2"
+msgid "sturmovik2"
+msgstr "<c(c3baae)>Красногвардеец"
+
+
+msgctxt "desc/human/mp/rus/sturmovik3"
+msgid "sturmovik3"
+msgstr "<c(c3baae)>Красногвардеец"
+
+
+msgctxt "desc/human/mp/rus/squadleader"
+msgid "squadleader"
+msgstr "<c(c3baae)>Командир отряда"
+
+
+msgctxt "desc/human/mp/rus/squadleader2"
+msgid "squadleader2"
+msgstr "<c(c3baae)>Командир отряда"
+
+
+msgctxt "desc/human/mp/rus/tankman"
+msgid "tankman"
+msgstr "<c(c3baae)>Танкист"
+
+
+msgctxt "desc/human/mp/rus/tankman2"
+msgid "tankman2"
+msgstr "<c(c3baae)>Командир танка"
+
+
+msgctxt "desc/human/mp/rus/vehicle_supporter"
+msgid "vehicle_supporter"
+msgstr "<c(c3baae)>Солдат"
+
+
+msgctxt "desc/human/mp/rus/flagman"
+msgid "flagman"
+msgstr "<c(c3baae)>Знаменосец"
+
+
+msgctxt "desc/human/mp/rus/un_bot"
+msgid "un_bot"
+msgstr "<c(c3baae)>Боец"
+
+
+msgctxt "desc/human/mp/rus/kuznetsoff_sp"
+msgid "kuznetsoff_sp"
+msgstr "<c(c3baae)>Алексей Кузнецов"
+
+
+msgctxt "desc/human/mp/rus/kuznetsoff"
+msgid "kuznetsoff"
+msgstr "<c(c3baae)>Алексей Кузнецов"
+
+
+msgctxt "desc/human/mp/rus/kuznetsoff_pr"
+msgid "kuznetsoff_pr"
+msgstr "<c(c3baae)>Алексей Кузнецов"
+
+
+msgctxt "desc/human/mp/rus/maverick"
+msgid "maverick"
+msgstr "<c(c3baae)>Русский шпион Маверик"
+
+
+msgctxt "desc/human/mp/rus/smirnoff"
+msgid "smirnoff"
+msgstr "<c(c3baae)>Виктор Смирнов"
+
+
+msgctxt "desc/human/mp/usa/ap_miner"
+msgid "ap_miner"
+msgstr "<c(c3baae)>Инженер (ПП мины)"
+
+
+msgctxt "desc/human/mp/usa/at_miner"
+msgid "at_miner"
+msgstr "<c(c3baae)>Инженер (ПТ мины)"
+
+
+msgctxt "desc/human/mp/usa/at_rifle"
+msgid "at_rifle"
+msgstr "<c(c3baae)>Бронебойщик"
+
+
+msgctxt "desc/human/mp/usa/at_rifle2"
+msgid "at_rifle2"
+msgstr "<c(c3baae)>Бронебойщик"
+
+
+msgctxt "desc/human/mp/usa/bazooker"
+msgid "bazooker"
+msgstr "<c(c3baae)>Гранатомётчик"
+
+
+msgctxt "desc/human/mp/usa/bazooker2"
+msgid "bazooker2"
+msgstr "<c(c3baae)>Гранатомётчик"
+
+
+msgctxt "desc/human/mp/usa/bazooker3"
+msgid "bazooker3"
+msgstr "<c(c3baae)>Гранатомётчик"
+
+
+msgctxt "desc/human/mp/usa/elite"
+msgid "elite"
+msgstr "<c(c3baae)>Десантник"
+
+
+msgctxt "desc/human/mp/usa/elite2"
+msgid "elite2"
+msgstr "<c(c3baae)>Десантник"
+
+
+msgctxt "desc/human/mp/usa/elite3"
+msgid "elite3"
+msgstr "<c(c3baae)>Десантник"
+
+
+msgctxt "desc/human/mp/usa/elite4"
+msgid "elite4"
+msgstr "<c(c3baae)>Морской пехотинец США"
+
+
+msgctxt "desc/human/mp/usa/elite5"
+msgid "elite5"
+msgstr "<c(c3baae)>Морской пехотинец США"
+
+
+msgctxt "desc/human/mp/usa/elite6"
+msgid "elite6"
+msgstr "<c(c3baae)>Морской пехотинец США"
+
+
+msgctxt "desc/human/mp/usa/elite_para"
+msgid "elite_para"
+msgstr "<c(c3baae)>Десантник 101 дивизии"
+
+
+msgctxt "desc/human/mp/usa/flamer"
+msgid "flamer"
+msgstr "<c(c3baae)>Огнемётчик"
+
+
+msgctxt "desc/human/mp/usa/flamer2"
+msgid "flamer2"
+msgstr "<c(c3baae)>Огнемётчик"
+
+
+msgctxt "desc/human/mp/usa/home_guard"
+msgid "home_guard"
+msgstr "<c(c3baae)>Рядовой"
+
+
+msgctxt "desc/human/mp/usa/home_guard2"
+msgid "home_guard2"
+msgstr "<c(c3baae)>Рядовой"
+
+
+msgctxt "desc/human/mp/usa/medic"
+msgid "medic"
+msgstr "<c(c3baae)>Медик"
+
+
+msgctxt "desc/human/mp/usa/mgun"
+msgid "mgun"
+msgstr "<c(c3baae)>Пулемётчик"
+
+
+msgctxt "desc/human/mp/usa/mgun2"
+msgid "mgun2"
+msgstr "<c(c3baae)>Пулемётчик"
+
+
+msgctxt "desc/human/mp/usa/oficer"
+msgid "oficer"
+msgstr "<c(c3baae)>Офицер"
+
+
+msgctxt "desc/human/mp/usa/radioman"
+msgid "radioman"
+msgstr "<c(c3baae)>Радист"
+
+
+msgctxt "desc/human/mp/usa/rifle"
+msgid "rifle"
+msgstr "<c(c3baae)>Стрелок"
+
+
+msgctxt "desc/human/mp/usa/rifle2"
+msgid "rifle2"
+msgstr "<c(c3baae)>Стрелок"
+
+
+msgctxt "desc/human/mp/usa/rifle3"
+msgid "rifle3"
+msgstr "<c(c3baae)>Стрелок"
+
+
+msgctxt "desc/human/mp/usa/saper"
+msgid "saper"
+msgstr "<c(c3baae)>Сапёр"
+
+
+msgctxt "desc/human/mp/usa/saper2"
+msgid "saper2"
+msgstr "<c(c3baae)>Сапёр"
+
+
+msgctxt "desc/human/mp/usa/scout"
+msgid "scout"
+msgstr "<c(c3baae)>Разведчик"
+
+
+msgctxt "desc/human/mp/usa/scout2"
+msgid "scout2"
+msgstr "<c(c3baae)>Разведчик"
+
+
+msgctxt "desc/human/mp/usa/smg"
+msgid "smg"
+msgstr "<c(c3baae)>Боец с ПП"
+
+
+msgctxt "desc/human/mp/usa/smg2"
+msgid "smg2"
+msgstr "<c(c3baae)>Боец с ПП"
+
+
+msgctxt "desc/human/mp/usa/sniper"
+msgid "sniper"
+msgstr "<c(c3baae)>Снайпер"
+
+
+msgctxt "desc/human/mp/usa/shotgun"
+msgid "shotgun"
+msgstr "<c(c3baae)>Боец с ружьём"
+
+
+msgctxt "desc/human/mp/usa/sturmovik"
+msgid "sturmovik"
+msgstr "<c(c3baae)>Рэёнжер"
+
+
+msgctxt "desc/human/mp/usa/sturmovik2"
+msgid "sturmovik2"
+msgstr "<c(c3baae)>Рэёнжер"
+
+
+msgctxt "desc/human/mp/usa/sturmovik3"
+msgid "sturmovik3"
+msgstr "<c(c3baae)>Рэёнжер"
+
+
+msgctxt "desc/human/mp/usa/squadleader"
+msgid "squadleader"
+msgstr "<c(c3baae)>Командир отряда"
+
+
+msgctxt "desc/human/mp/usa/squadleader2"
+msgid "squadleader2"
+msgstr "<c(c3baae)>Командир отряда"
+
+
+msgctxt "desc/human/mp/usa/tankman"
+msgid "tankman"
+msgstr "<c(c3baae)>Танкист"
+
+
+msgctxt "desc/human/mp/usa/tankman2"
+msgid "tankman2"
+msgstr "<c(c3baae)>Командир танка"
+
+
+msgctxt "desc/human/mp/usa/vehicle_supporter"
+msgid "vehicle_supporter"
+msgstr "<c(c3baae)>Солдат"
+
+
+msgctxt "desc/human/mp/usa/un_bot"
+msgid "un_bot"
+msgstr "<c(c3baae)>Боец"
+
+
+msgctxt "desc/human/mp/ger/ap_miner"
+msgid "ap_miner"
+msgstr "<c(c3baae)>Инженер (ПП мины)"
+
+
+msgctxt "desc/human/mp/ger/at_miner"
+msgid "at_miner"
+msgstr "<c(c3baae)>Инженер (ПТ мины)"
+
+
+msgctxt "desc/human/mp/ger/at_rifle"
+msgid "at_rifle"
+msgstr "<c(c3baae)>Бронебойщик"
+
+
+msgctxt "desc/human/mp/ger/at_rifle2"
+msgid "at_rifle2"
+msgstr "<c(c3baae)>Бронебойщик"
+
+
+msgctxt "desc/human/mp/ger/gzb_rifle"
+msgid "gzb_rifle"
+msgstr "<c(c3baae)>Бронебойщик"
+
+
+msgctxt "desc/human/mp/ger/gzb_rifle1"
+msgid "gzb_rifle1"
+msgstr "<c(c3baae)>Бронебойщик"
+
+
+msgctxt "desc/human/mp/ger/gzb_rifle2"
+msgid "gzb_rifle2"
+msgstr "<c(c3baae)>Бронебойщик"
+
+
+msgctxt "desc/human/mp/ger/bazooker"
+msgid "bazooker"
+msgstr "<c(c3baae)>Гранатомётчик"
+
+
+msgctxt "desc/human/mp/ger/bazooker2"
+msgid "bazooker2"
+msgstr "<c(c3baae)>Гранатомётчик"
+
+
+msgctxt "desc/human/mp/ger/bazooker3"
+msgid "bazooker3"
+msgstr "<c(c3baae)>Гранатомётчик"
+
+
+msgctxt "desc/human/mp/ger/elite"
+msgid "elite"
+msgstr "<c(c3baae)>Десантник"
+
+
+msgctxt "desc/human/mp/ger/elite2"
+msgid "elite2"
+msgstr "<c(c3baae)>Десантник"
+
+
+msgctxt "desc/human/mp/ger/elite3"
+msgid "elite3"
+msgstr "<c(c3baae)>Десантник"
+
+
+msgctxt "desc/human/mp/ger/elite4"
+msgid "elite4"
+msgstr "<c(c3baae)>Бранденбужец"
+
+
+msgctxt "desc/human/mp/ger/elite5"
+msgid "elite5"
+msgstr "<c(c3baae)>Бранденбужец"
+
+
+msgctxt "desc/human/mp/ger/elite6"
+msgid "elite6"
+msgstr "<c(c3baae)>Бранденбужец"
+
+
+msgctxt "desc/human/mp/ger/flamer"
+msgid "flamer"
+msgstr "<c(c3baae)>Огнемётчик"
+
+
+msgctxt "desc/human/mp/ger/flamer2"
+msgid "flamer2"
+msgstr "<c(c3baae)>Огнемётчик"
+
+
+msgctxt "desc/human/mp/ger/home_guard"
+msgid "home_guard"
+msgstr "<c(c3baae)>Рядовой"
+
+
+msgctxt "desc/human/mp/ger/home_guard2"
+msgid "home_guard2"
+msgstr "<c(c3baae)>Рядовой"
+
+
+msgctxt "desc/human/mp/ger/home_guard3"
+msgid "home_guard3"
+msgstr "<c(c3baae)>Рядовой"
+
+
+msgctxt "desc/human/mp/ger/medic"
+msgid "medic"
+msgstr "<c(c3baae)>Медик"
+
+
+msgctxt "desc/human/mp/ger/mgun"
+msgid "mgun"
+msgstr "<c(c3baae)>Пулемётчик"
+
+
+msgctxt "desc/human/mp/ger/mgun2"
+msgid "mgun2"
+msgstr "<c(c3baae)>Пулемётчик"
+
+
+msgctxt "desc/human/mp/ger/oficer"
+msgid "oficer"
+msgstr "<c(c3baae)>Офицер"
+
+
+msgctxt "desc/human/mp/ger/radioman"
+msgid "radioman"
+msgstr "<c(c3baae)>Радист"
+
+
+msgctxt "desc/human/mp/ger/rifle"
+msgid "rifle"
+msgstr "<c(c3baae)>Стрелок"
+
+
+msgctxt "desc/human/mp/ger/rifle2"
+msgid "rifle2"
+msgstr "<c(c3baae)>Стрелок"
+
+
+msgctxt "desc/human/mp/ger/rifle3"
+msgid "rifle3"
+msgstr "<c(c3baae)>Стрелок"
+
+
+msgctxt "desc/human/mp/ger/saper"
+msgid "saper"
+msgstr "<c(c3baae)>Сапёр"
+
+
+msgctxt "desc/human/mp/ger/scout"
+msgid "scout"
+msgstr "<c(c3baae)>Разведчик"
+
+
+msgctxt "desc/human/mp/ger/smg"
+msgid "smg"
+msgstr "<c(c3baae)>Боец с ПП"
+
+
+msgctxt "desc/human/mp/ger/smg2"
+msgid "smg2"
+msgstr "<c(c3baae)>Боец с ПП"
+
+
+msgctxt "desc/human/mp/ger/smg2"
+msgid "smg2"
+msgstr "<c(c3baae)>Боец с ПП"
+
+
+msgctxt "desc/human/mp/ger/sniper"
+msgid "sniper"
+msgstr "<c(c3baae)>Снайпер"
+
+
+msgctxt "desc/human/mp/ger/sniper2"
+msgid "sniper2"
+msgstr "<c(c3baae)>Снайпер"
+
+
+msgctxt "desc/human/mp/ger/sturmovik"
+msgid "sturmovik"
+msgstr "<c(c3baae)>Панцегренадир"
+
+
+msgctxt "desc/human/mp/ger/sturmovik2"
+msgid "sturmovik2"
+msgstr "<c(c3baae)>Панцегренадир"
+
+
+msgctxt "desc/human/mp/ger/sturmovik3"
+msgid "sturmovik3"
+msgstr "<c(c3baae)>Панцегренадир"
+
+
+msgctxt "desc/human/mp/ger/sturmovik4"
+msgid "sturmovik4"
+msgstr "<c(c3baae)>Панцегренадир"
+
+
+msgctxt "desc/human/mp/ger/sturmovik4b"
+msgid "sturmovik4b"
+msgstr "<c(c3baae)>Панцегренадир"
+
+
+msgctxt "desc/human/mp/ger/sturmovik5"
+msgid "sturmovik5"
+msgstr "<c(c3baae)>Панцегренадир"
+
+
+msgctxt "desc/human/mp/ger/sturmovik5b"
+msgid "sturmovik5b"
+msgstr "<c(c3baae)>Панцегренадир"
+
+
+msgctxt "desc/human/mp/ger/sturmovik6"
+msgid "sturmovik6"
+msgstr "<c(c3baae)>Панцегренадир"
+
+
+msgctxt "desc/human/mp/ger/sturmovik6b"
+msgid "sturmovik6b"
+msgstr "<c(c3baae)>Панцегренадир"
+
+
+msgctxt "desc/human/mp/ger/squadleader"
+msgid "squadleader"
+msgstr "<c(c3baae)>Командир отряда"
+
+
+msgctxt "desc/human/mp/ger/squadleader2"
+msgid "squadleader2"
+msgstr "<c(c3baae)>Командир отряда"
+
+
+msgctxt "desc/human/mp/ger/squadleader3"
+msgid "squadleader3"
+msgstr "<c(c3baae)>Командир отряда"
+
+
+msgctxt "desc/human/mp/ger/tankman"
+msgid "tankman"
+msgstr "<c(c3baae)>Танкист"
+
+
+msgctxt "desc/human/mp/ger/tankman2"
+msgid "tankman2"
+msgstr "<c(c3baae)>Командир танка"
+
+
+msgctxt "desc/human/mp/ger/tankman_veteran"
+msgid "tankman_veteran"
+msgstr "<c(c3baae)>Танкист (ветеран)"
+
+
+msgctxt "desc/human/mp/ger/tankman2_veteran"
+msgid "tankman2_veteran"
+msgstr "<c(c3baae)>Командир танка (ветеран)"
+
+
+msgctxt "desc/human/mp/ger/vehicle_supporter"
+msgid "vehicle_supporter"
+msgstr "<c(c3baae)>Солдат"
+
+
+msgctxt "desc/human/mp/ger/un_bot"
+msgid "un_bot"
+msgstr "<c(c3baae)>Боец"
+
+
+msgctxt "desc/human/mp/ger/borg"
+msgid "borg"
+msgstr "<c(c3baae)>Борг"
+
+
+msgctxt "desc/human/mp/ger/borg_paratrooper"
+msgid "borg_paratrooper"
+msgstr "<c(c3baae)>Десантник Борг"
+
+
+msgctxt "desc/human/mp/eng/ap_miner"
+msgid "ap_miner"
+msgstr "<c(c3baae)>Инженер (ПП мины)"
+
+
+msgctxt "desc/human/mp/eng/at_miner"
+msgid "at_miner"
+msgstr "<c(c3baae)>Инженер (ПТ мины)"
+
+
+msgctxt "desc/human/mp/eng/at_rifle"
+msgid "at_rifle"
+msgstr "<c(c3baae)>Бронебойщик"
+
+
+msgctxt "desc/human/mp/eng/at_rifle2"
+msgid "at_rifle2"
+msgstr "<c(c3baae)>Бронебойщик"
+
+
+msgctxt "desc/human/mp/eng/bazooker"
+msgid "bazooker"
+msgstr "<c(c3baae)>Гранатомётчик"
+
+
+msgctxt "desc/human/mp/eng/bazooker2"
+msgid "bazooker2"
+msgstr "<c(c3baae)>Гранатомётчик"
+
+
+msgctxt "desc/human/mp/eng/elite"
+msgid "elite"
+msgstr "<c(c3baae)>Боец Командос"
+
+
+msgctxt "desc/human/mp/eng/elite2"
+msgid "elite2"
+msgstr "<c(c3baae)>Боец Командос"
+
+
+msgctxt "desc/human/mp/eng/elite3"
+msgid "elite3"
+msgstr "<c(c3baae)>Боец Командос"
+
+
+msgctxt "desc/human/mp/eng/elite4"
+msgid "elite4"
+msgstr "<c(c3baae)>Боец Анзак"
+
+
+msgctxt "desc/human/mp/eng/elite5"
+msgid "elite5"
+msgstr "<c(c3baae)>Боец Анзак"
+
+
+msgctxt "desc/human/mp/eng/elite6"
+msgid "elite6"
+msgstr "<c(c3baae)>Боец Анзак"
+
+
+msgctxt "desc/human/mp/eng/flamer"
+msgid "flamer"
+msgstr "<c(c3baae)>Огнемётчик"
+
+
+msgctxt "desc/human/mp/eng/flamer2"
+msgid "flamer2"
+msgstr "<c(c3baae)>Огнемётчик"
+
+
+msgctxt "desc/human/mp/eng/home_guard"
+msgid "home_guard"
+msgstr "<c(c3baae)>Рядовой"
+
+
+msgctxt "desc/human/mp/eng/home_guard2"
+msgid "home_guard2"
+msgstr "<c(c3baae)>Рядовой"
+
+
+msgctxt "desc/human/mp/eng/medic"
+msgid "medic"
+msgstr "<c(c3baae)>Медик"
+
+
+msgctxt "desc/human/mp/eng/mgun"
+msgid "mgun"
+msgstr "<c(c3baae)>Пулемётчик"
+
+
+msgctxt "desc/human/mp/eng/mgun2"
+msgid "mgun2"
+msgstr "<c(c3baae)>Пулемётчик"
+
+
+msgctxt "desc/human/mp/eng/oficer"
+msgid "oficer"
+msgstr "<c(c3baae)>Офицер"
+
+
+msgctxt "desc/human/mp/eng/radioman"
+msgid "radioman"
+msgstr "<c(c3baae)>Радист"
+
+
+msgctxt "desc/human/mp/eng/rifle"
+msgid "rifle"
+msgstr "<c(c3baae)>Стрелок"
+
+
+msgctxt "desc/human/mp/eng/rifle2"
+msgid "rifle2"
+msgstr "<c(c3baae)>Стрелок"
+
+
+msgctxt "desc/human/mp/eng/rifle3"
+msgid "rifle3"
+msgstr "<c(c3baae)>Стрелок"
+
+
+msgctxt "desc/human/mp/eng/saper"
+msgid "saper"
+msgstr "<c(c3baae)>Сапёр"
+
+
+msgctxt "desc/human/mp/eng/saper2"
+msgid "saper2"
+msgstr "<c(c3baae)>Сапёр"
+
+
+msgctxt "desc/human/mp/eng/saper3"
+msgid "saper3"
+msgstr "<c(c3baae)>Сапёр"
+
+
+msgctxt "desc/human/mp/eng/scout"
+msgid "scout"
+msgstr "<c(c3baae)>Разведчик"
+
+
+msgctxt "desc/human/mp/eng/smg"
+msgid "smg"
+msgstr "<c(c3baae)>Боец с ПП"
+
+
+msgctxt "desc/human/mp/eng/smg2"
+msgid "smg2"
+msgstr "<c(c3baae)>Боец с ПП"
+
+
+msgctxt "desc/human/mp/eng/smg3"
+msgid "smg3"
+msgstr "<c(c3baae)>Боец с ПП"
+
+
+msgctxt "desc/human/mp/eng/sniper"
+msgid "sniper"
+msgstr "<c(c3baae)>Снайпер"
+
+
+msgctxt "desc/human/mp/eng/sturmovik"
+msgid "sturmovik"
+msgstr "<c(c3baae)>Боец SAS"
+
+
+msgctxt "desc/human/mp/eng/sturmovik2"
+msgid "sturmovik2"
+msgstr "<c(c3baae)>Боец SAS"
+
+
+msgctxt "desc/human/mp/eng/sturmovik3"
+msgid "sturmovik3"
+msgstr "<c(c3baae)>Боец SAS"
+
+
+msgctxt "desc/human/mp/eng/sturmovik4"
+msgid "sturmovik4"
+msgstr "<c(c3baae)>Боец SAS"
+
+
+msgctxt "desc/human/mp/eng/squadleader"
+msgid "squadleader"
+msgstr "<c(c3baae)>Командир отряда"
+
+
+msgctxt "desc/human/mp/eng/squadleader2"
+msgid "squadleader2"
+msgstr "<c(c3baae)>Командир отряда"
+
+
+msgctxt "desc/human/mp/eng/tankman"
+msgid "tankman"
+msgstr "<c(c3baae)>Танкист"
+
+
+msgctxt "desc/human/mp/eng/tankman2"
+msgid "tankman2"
+msgstr "<c(c3baae)>Командир танка"
+
+
+msgctxt "desc/human/mp/eng/vehicle_supporter"
+msgid "vehicle_supporter"
+msgstr "<c(c3baae)>Солдат"
+
+
+msgctxt "desc/human/mp/eng/un_bot"
+msgid "un_bot"
+msgstr "<c(c3baae)>Боец"
+
+
+msgctxt "desc/human/mp/eng/corporal"
+msgid "corporal"
+msgstr "<c(c3baae)>Капрал Робинсон"
+
+
+msgctxt "desc/human/mp/eng/palmer"
+msgid "palmer"
+msgstr "<c(c3baae)>Терри Палмер"
+
+
+msgctxt "desc/human/mp/eng/consul"
+msgid "consul"
+msgstr "<c(c3baae)>Консул"
+
+
+msgctxt "desc/human/mp/jap/at_miner"
+msgid "at_miner"
+msgstr "<c(c3baae)>Инженер (ПТ мины)"
+
+
+msgctxt "desc/human/mp/jap/ap_miner"
+msgid "ap_miner"
+msgstr "<c(c3baae)>Инженер (ПП мины)"
+
+
+msgctxt "desc/human/mp/jap/at_rifle"
+msgid "at_rifle"
+msgstr "<c(c3baae)>Бронебойщик"
+
+
+msgctxt "desc/human/mp/jap/at_rifle2"
+msgid "at_rifle2"
+msgstr "<c(c3baae)>Бронебойщик"
+
+
+msgctxt "desc/human/mp/jap/bazooker"
+msgid "bazooker"
+msgstr "<c(c3baae)>Гранатомётчик"
+
+
+msgctxt "desc/human/mp/jap/bazooker2"
+msgid "bazooker2"
+msgstr "<c(c3baae)>Гранатомётчик"
+
+
+msgctxt "desc/human/mp/jap/elite"
+msgid "elite"
+msgstr "<c(c3baae)>Десантник"
+
+
+msgctxt "desc/human/mp/jap/elite2"
+msgid "elite2"
+msgstr "<c(c3baae)>Десантник"
+
+
+msgctxt "desc/human/mp/jap/elite3"
+msgid "elite3"
+msgstr "<c(c3baae)>Десантник"
+
+
+msgctxt "desc/human/mp/jap/flamer"
+msgid "flamer"
+msgstr "<c(c3baae)>Огнемётчик"
+
+
+msgctxt "desc/human/mp/jap/flamer2"
+msgid "flamer2"
+msgstr "<c(c3baae)>Огнемётчик"
+
+
+msgctxt "desc/human/mp/jap/home_guard"
+msgid "home_guard"
+msgstr "<c(c3baae)>Рядовой"
+
+
+msgctxt "desc/human/mp/jap/kamikaze"
+msgid "kamikaze"
+msgstr "<c(c3baae)>Камикадзе"
+
+
+msgctxt "desc/human/mp/jap/medic"
+msgid "medic"
+msgstr "<c(c3baae)>Медик"
+
+
+msgctxt "desc/human/mp/jap/mgun"
+msgid "mgun"
+msgstr "<c(c3baae)>Пулемётчик"
+
+
+msgctxt "desc/human/mp/jap/oficer"
+msgid "oficer"
+msgstr "<c(c3baae)>Офицер"
+
+
+msgctxt "desc/human/mp/jap/radioman"
+msgid "radioman"
+msgstr "<c(c3baae)>Радист"
+
+
+msgctxt "desc/human/mp/jap/rifle"
+msgid "rifle"
+msgstr "<c(c3baae)>Стрелок"
+
+
+msgctxt "desc/human/mp/jap/rifle2"
+msgid "rifle2"
+msgstr "<c(c3baae)>Стрелок"
+
+
+msgctxt "desc/human/mp/jap/saper"
+msgid "saper"
+msgstr "<c(c3baae)>Сапёр"
+
+
+msgctxt "desc/human/mp/jap/scout"
+msgid "scout"
+msgstr "<c(c3baae)>Разведчик"
+
+
+msgctxt "desc/human/mp/jap/smg"
+msgid "smg"
+msgstr "<c(c3baae)>Боец с ПП"
+
+
+msgctxt "desc/human/mp/jap/smg2"
+msgid "smg2"
+msgstr "<c(c3baae)>Боец с ПП"
+
+
+msgctxt "desc/human/mp/jap/sniper"
+msgid "sniper"
+msgstr "<c(c3baae)>Снайпер"
+
+
+msgctxt "desc/human/mp/jap/sturmovik"
+msgid "sturmovik"
+msgstr "<c(c3baae)>Боец SNLF"
+
+
+msgctxt "desc/human/mp/jap/sturmovik2"
+msgid "sturmovik2"
+msgstr "<c(c3baae)>Боец SNLF"
+
+
+msgctxt "desc/human/mp/jap/sturmovik3"
+msgid "sturmovik3"
+msgstr "<c(c3baae)>Боец SNLF"
+
+
+msgctxt "desc/human/mp/jap/squadleader"
+msgid "squadleader"
+msgstr "<c(c3baae)>Командир отряда"
+
+
+msgctxt "desc/human/mp/jap/squadleader2"
+msgid "squadleader2"
+msgstr "<c(c3baae)>Командир отряда"
+
+
+msgctxt "desc/human/mp/jap/squadleader3"
+msgid "squadleader3"
+msgstr "<c(c3baae)>Командир отряда"
+
+
+msgctxt "desc/human/mp/jap/tankman"
+msgid "tankman"
+msgstr "<c(c3baae)>Танкист"
+
+
+msgctxt "desc/human/mp/jap/tankman2"
+msgid "tankman2"
+msgstr "<c(c3baae)>Командир танка"
+
+
+msgctxt "desc/human/mp/jap/vehicle_supporter"
+msgid "vehicle_supporter"
+msgstr "<c(c3baae)>Солдат"
+
+
+msgctxt "desc/human/mp/jap/un_bot"
+msgid "un_bot"
+msgstr "<c(c3baae)>Боец"
+
+
+msgctxt "desc/human/civilian/civilian1"
+msgid "civilian1"
+msgstr "Гражданский"
+
+
+msgctxt "desc/human/civilian/civilian2"
+msgid "civilian2"
+msgstr "Гражданский"
+
+
+msgctxt "desc/human/civilian/civilian3"
+msgid "civilian3"
+msgstr "Гражданский"
+
+
+msgctxt "desc/human/civilian/civilian4"
+msgid "civilian4"
+msgstr "Гражданский"
+
+
+msgctxt "desc/human/civilian/civilian5"
+msgid "civilian5"
+msgstr "Гражданский"
+
+
+msgctxt "desc/squad/ap_miners(eng)"
+msgid "ap_miners(eng)"
+msgstr "Combat engineers (AP mines)"
+
+
+msgctxt "desc/squad/ap_miners(ger)"
+msgid "ap_miners(ger)"
+msgstr "Kampfingenieure (AP mines)"
+
+
+msgctxt "desc/squad/ap_miners(jap)"
+msgid "ap_miners(jap)"
+msgstr "Combat engineers (AP mines)"
+
+
+msgctxt "desc/squad/ap_miners(rus)"
+msgid "ap_miners(rus)"
+msgstr "Инженеры (ПП мины)"
+
+
+msgctxt "desc/squad/ap_miners(usa)"
+msgid "ap_miners(usa)"
+msgstr "Combat engineers (AP mines)"
+
+
+msgctxt "desc/squad/at_miners(eng)"
+msgid "at_miners(eng)"
+msgstr "Combat engineers (AT mines)"
+
+
+msgctxt "desc/squad/at_miners(ger)"
+msgid "at_miners(ger)"
+msgstr "Kampfingenieure (AT mines)"
+
+
+msgctxt "desc/squad/at_miners(jap)"
+msgid "at_miners(jap)"
+msgstr "Combat engineers (AT mines)"
+
+
+msgctxt "desc/squad/at_miners(rus)"
+msgid "at_miners(rus)"
+msgstr "Инженеры (ПТ мины)"
+
+
+msgctxt "desc/squad/at_miners(usa)"
+msgid "at_miners(usa)"
+msgstr "Combat engineers (AT mines)"
+
+
+msgctxt "desc/squad/at_rifles(eng)"
+msgid "at_rifles(eng)"
+msgstr "AT rifle infantry"
+
+
+msgctxt "desc/squad/at_rifles2(eng)"
+msgid "at_rifles2(eng)"
+msgstr "AT rifle infantry"
+
+
+msgctxt "desc/squad/at_rifles(ger)"
+msgid "at_rifles(ger)"
+msgstr "Panzerbüchse"
+
+
+msgctxt "desc/squad/at_rifles2(ger)"
+msgid "at_rifles2(ger)"
+msgstr "Panzerbüchse"
+
+
+msgctxt "desc/squad/gzb_rifles(ger)"
+msgid "gzb_rifles(ger)"
+msgstr "Schiessbecher"
+
+
+msgctxt "desc/squad/gzb_rifles1(ger)"
+msgid "gzb_rifles1(ger)"
+msgstr "Schiessbecher"
+
+
+msgctxt "desc/squad/gzb_rifles2(ger)"
+msgid "gzb_rifles2(ger)"
+msgstr "Schiessbecher"
+
+
+msgctxt "desc/squad/at_rifles(jap)"
+msgid "at_rifles(jap)"
+msgstr "AT rifle infantry"
+
+
+msgctxt "desc/squad/at_rifles2(jap)"
+msgid "at_rifles2(jap)"
+msgstr "AT rifle infantry"
+
+
+msgctxt "desc/squad/at_rifles4(rus)"
+msgid "at_rifles4(rus)"
+msgstr "Бронебойщик ;ПТРР 39"
+
+
+msgctxt "desc/squad/at_rifles3(rus)"
+msgid "at_rifles3(rus)"
+msgstr "Бронебойщик ;ВКГ 40"
+
+
+msgctxt "desc/squad/at_rifles2(rus)"
+msgid "at_rifles2(rus)"
+msgstr "Бронебойщик ;ПТРД 41"
+
+
+msgctxt "desc/squad/at_rifles(rus)"
+msgid "at_rifles(rus)"
+msgstr "Бронебойщик ;ПТРС 41"
+
+
+msgctxt "desc/squad/at_rifles(usa)"
+msgid "at_rifles(usa)"
+msgstr "AT rifle infantry"
+
+
+msgctxt "desc/squad/at_rifles2(usa)"
+msgid "at_rifles2(usa)"
+msgstr "AT rifle infantry"
+
+
+msgctxt "desc/squad/bazookers(eng)"
+msgid "bazookers(eng)"
+msgstr "Rocket launcher"
+
+
+msgctxt "desc/squad/bazookers(ger)"
+msgid "bazookers(ger)"
+msgstr "Raketenpanzerbuchse"
+
+
+msgctxt "desc/squad/bazookers2(ger)"
+msgid "bazookers2(ger)"
+msgstr "Raketenpanzerbuchse"
+
+
+msgctxt "desc/squad/bazookers(jap)"
+msgid "bazookers(jap)"
+msgstr "Rocket launcher"
+
+
+msgctxt "desc/squad/bazookers(rus)"
+msgid "bazookers(rus)"
+msgstr "Гранатомётчик"
+
+
+msgctxt "desc/squad/bazookers2(rus)"
+msgid "bazookers2(rus)"
+msgstr "Гранатомётчик"
+
+
+msgctxt "desc/squad/bazookers(usa)"
+msgid "bazookers(usa)"
+msgstr "Rocket launcher"
+
+
+msgctxt "desc/squad/bazookers2(usa)"
+msgid "bazookers2(usa)"
+msgstr "Rocket launcher"
+
+
+msgctxt "desc/squad/bazookers3(usa)"
+msgid "bazookers3(usa)"
+msgstr "Rocket launcher"
+
+
+msgctxt "desc/squad/elites(eng)"
+msgid "elites(eng)"
+msgstr "Commandos"
+
+
+msgctxt "desc/squad/elites(ger)"
+msgid "elites(ger)"
+msgstr "Fallschirmjager"
+
+
+msgctxt "desc/squad/elites(jap)"
+msgid "elites(jap)"
+msgstr "Paratroopers"
+
+
+msgctxt "desc/squad/elites(rus)"
+msgid "elites(rus)"
+msgstr "Морская пехота"
+
+
+msgctxt "desc/squad/elites(usa)"
+msgid "elites(usa)"
+msgstr "Airborne"
+
+
+msgctxt "desc/squad/flamers(eng)"
+msgid "flamers(eng)"
+msgstr "Flamethrower infantry"
+
+
+msgctxt "desc/squad/flamers(ger)"
+msgid "flamers(ger)"
+msgstr "Flammenwerfer"
+
+
+msgctxt "desc/squad/flamers(jap)"
+msgid "flamers(jap)"
+msgstr "Flamethrower infantry"
+
+
+msgctxt "desc/squad/flamers(rus)"
+msgid "flamers(rus)"
+msgstr "Огнемётчик"
+
+
+msgctxt "desc/squad/flamers(usa)"
+msgid "flamers(usa)"
+msgstr "Flamethrower infantry"
+
+
+msgctxt "desc/squad/home_guards(eng)"
+msgid "home_guards(eng)"
+msgstr "Militia"
+
+
+msgctxt "desc/squad/home_guards(ger)"
+msgid "home_guards(ger)"
+msgstr "Volkssturm"
+
+
+msgctxt "desc/squad/home_guards(jap)"
+msgid "home_guards(jap)"
+msgstr "Recruits"
+
+
+msgctxt "desc/squad/home_guards(rus)"
+msgid "home_guards(rus)"
+msgstr "Штрафбат"
+
+
+msgctxt "desc/squad/home_guards(usa)"
+msgid "home_guards(usa)"
+msgstr "Conscripts"
+
+
+msgctxt "desc/squad/kamikazes(jap)"
+msgid "kamikazes(jap)"
+msgstr "Kamikaze"
+
+
+msgctxt "desc/squad/mgs2(eng)"
+msgid "mgs2(eng)"
+msgstr "Machine gunner"
+
+
+msgctxt "desc/squad/mgs34(ger)"
+msgid "mgs34(ger)"
+msgstr "Maschinengewehrschutze"
+
+
+msgctxt "desc/squad/mgs2(ger)"
+msgid "mgs2(ger)"
+msgstr "Maschinengewehrschutze"
+
+
+msgctxt "desc/squad/mgs2(jap)"
+msgid "mgs2(jap)"
+msgstr "Machine gunner"
+
+
+msgctxt "desc/squad/mgs2(rus)"
+msgid "mgs2(rus)"
+msgstr "Пулемётчик"
+
+
+msgctxt "desc/squad/mgs2(usa)"
+msgid "mgs2(usa)"
+msgstr "Machine gunner"
+
+
+msgctxt "desc/squad/officers(eng)"
+msgid "officers(eng)"
+msgstr "Officer"
+
+
+msgctxt "desc/squad/officers(ger)"
+msgid "officers(ger)"
+msgstr "Offizier"
+
+
+msgctxt "desc/squad/officers(jap)"
+msgid "officers(jap)"
+msgstr "officer"
+
+
+msgctxt "desc/squad/officers(rus)"
+msgid "officers(rus)"
+msgstr "Офицер"
+
+
+msgctxt "desc/squad/officers(usa)"
+msgid "officers(usa)"
+msgstr "Officer"
+
+
+msgctxt "desc/squad/riflemans(eng)"
+msgid "riflemans(eng)"
+msgstr "Regular infantry"
+
+
+msgctxt "desc/squad/riflemans(ger)"
+msgid "riflemans(ger)"
+msgstr "Infanterietrupp"
+
+
+msgctxt "desc/squad/riflemans(jap)"
+msgid "riflemans(jap)"
+msgstr "Regular infantry"
+
+
+msgctxt "desc/squad/riflemans(rus)"
+msgid "riflemans(rus)"
+msgstr "Отряд пехоты"
+
+
+msgctxt "desc/squad/riflemans(usa)"
+msgid "riflemans(usa)"
+msgstr "Regular infantry"
+
+
+msgctxt "desc/squad/riflemans2(eng)"
+msgid "riflemans2(eng)"
+msgstr "Rifleman"
+
+
+msgctxt "desc/squad/riflemans2(ger)"
+msgid "riflemans2(ger)"
+msgstr "Kampfer mit Gewehr"
+
+
+msgctxt "desc/squad/riflemans2(jap)"
+msgid "riflemans2(jap)"
+msgstr "Rifleman"
+
+
+msgctxt "desc/squad/riflemans2(rus)"
+msgid "riflemans2(rus)"
+msgstr "Боец с винтовкой"
+
+
+msgctxt "desc/squad/riflemans2(usa)"
+msgid "riflemans2(usa)"
+msgstr "Rifleman"
+
+
+msgctxt "desc/squad/sappers(eng)"
+msgid "sappers(eng)"
+msgstr "Mine disposal experts"
+
+
+msgctxt "desc/squad/sappers(ger)"
+msgid "sappers(ger)"
+msgstr "Sapper"
+
+
+msgctxt "desc/squad/sappers(jap)"
+msgid "sappers(jap)"
+msgstr "Mine disposal experts"
+
+
+msgctxt "desc/squad/sappers(rus)"
+msgid "sappers(rus)"
+msgstr "Сапёр"
+
+
+msgctxt "desc/squad/sappers(usa)"
+msgid "sappers(usa)"
+msgstr "Mine disposal experts"
+
+
+msgctxt "desc/squad/smgs(eng)"
+msgid "smgs(eng)"
+msgstr "Assault infantry"
+
+
+msgctxt "desc/squad/smgs(ger)"
+msgid "smgs(ger)"
+msgstr "Angriffstrupp"
+
+
+msgctxt "desc/squad/smgs(jap)"
+msgid "smgs(jap)"
+msgstr "Assault infantry"
+
+
+msgctxt "desc/squad/smgs(rus)"
+msgid "smgs(rus)"
+msgstr "Штурмовой отряд"
+
+
+msgctxt "desc/squad/smgs(usa)"
+msgid "smgs(usa)"
+msgstr "Assault infantry"
+
+
+msgctxt "desc/squad/smgs2(eng)"
+msgid "smgs2(eng)"
+msgstr "SMG"
+
+
+msgctxt "desc/squad/smgs2(ger)"
+msgid "smgs2(ger)"
+msgstr "Kampfer mit MP"
+
+
+msgctxt "desc/squad/smgs2(jap)"
+msgid "smgs2(jap)"
+msgstr "SMG"
+
+
+msgctxt "desc/squad/smgs2(rus)"
+msgid "smgs2(rus)"
+msgstr "Боец с ПП"
+
+
+msgctxt "desc/squad/smgs2(usa)"
+msgid "smgs2(usa)"
+msgstr "SMG Gunner"
+
+
+msgctxt "desc/squad/snipers(eng)"
+msgid "snipers(eng)"
+msgstr "Sniper"
+
+
+msgctxt "desc/squad/snipers(ger)"
+msgid "snipers(ger)"
+msgstr "Scharfschutze"
+
+
+msgctxt "desc/squad/snipers(jap)"
+msgid "snipers(jap)"
+msgstr "Sniper"
+
+
+msgctxt "desc/squad/snipers(rus)"
+msgid "snipers(rus)"
+msgstr "Снайпер"
+
+
+msgctxt "desc/squad/snipers(usa)"
+msgid "snipers(usa)"
+msgstr "Sniper"
+
+
+msgctxt "desc/squad/snipers_d(eng)"
+msgid "snipers_d(eng)"
+msgstr "Sniper"
+
+
+msgctxt "desc/squad/snipers_d(ger)"
+msgid "snipers_d(ger)"
+msgstr "Scharfschutze"
+
+
+msgctxt "desc/squad/snipers_d(jap)"
+msgid "snipers_d(jap)"
+msgstr "Sniper"
+
+
+msgctxt "desc/squad/snipers_d(rus)"
+msgid "snipers_d(rus)"
+msgstr "Снайпер"
+
+
+msgctxt "desc/squad/snipers_d(usa)"
+msgid "snipers_d(usa)"
+msgstr "Sniper"
+
+
+msgctxt "desc/squad/shotguns(usa)"
+msgid "shotguns(usa)"
+msgstr "Shotgunners"
+
+
+msgctxt "desc/squad/stormtroopers(eng)"
+msgid "stormtroopers(eng)"
+msgstr "SAS"
+
+
+msgctxt "desc/squad/stormtroopers(ger)"
+msgid "stormtroopers(ger)"
+msgstr "Panzergrenadiere"
+
+
+msgctxt "desc/squad/stormtroopers(jap)"
+msgid "stormtroopers(jap)"
+msgstr "SNLF"
+
+
+msgctxt "desc/squad/stormtroopers(rus)"
+msgid "stormtroopers(rus)"
+msgstr "Красногвардейцы"
+
+
+msgctxt "desc/squad/stormtroopers(usa)"
+msgid "stormtroopers(usa)"
+msgstr "Rangers"
+
+
+msgctxt "desc/squad/stormtroopers1(eng)"
+msgid "stormtroopers1(eng)"
+msgstr "Elites"
+
+
+msgctxt "desc/squad/stormtroopers1(ger)"
+msgid "stormtroopers1(ger)"
+msgstr "Elitekämpfer"
+
+
+msgctxt "desc/squad/stormtroopers1(jap)"
+msgid "stormtroopers1(jap)"
+msgstr "Elites"
+
+
+msgctxt "desc/squad/stormtroopers1(rus)"
+msgid "stormtroopers1(rus)"
+msgstr "Элитные бойцы"
+
+
+msgctxt "desc/squad/stormtroopers1(usa)"
+msgid "stormtroopers1(usa)"
+msgstr "Elites"
+
+
+msgctxt "desc/squad/storm_mech_eng"
+msgid "storm_mech_eng"
+msgstr "Mechanized SAS"
+
+
+msgctxt "desc/squad/storm_mech_ger"
+msgid "storm_mech_ger"
+msgstr "Mechanisiert Panzergrenadiere"
+
+
+msgctxt "desc/squad/storm_mech_jap"
+msgid "storm_mech_jap"
+msgstr "Mechanized SNLF"
+
+
+msgctxt "desc/squad/storm_mech_rus"
+msgid "storm_mech_rus"
+msgstr "Механизированый отряд КГ"
+
+
+msgctxt "desc/squad/storm_mech_usa"
+msgid "storm_mech_usa"
+msgstr "Mechanized Rangers"
+
+
+msgctxt "desc/squad/tankmans(eng)"
+msgid "tankmans(eng)"
+msgstr "Tank crew"
+
+
+msgctxt "desc/squad/tankmans(ger)"
+msgid "tankmans(ger)"
+msgstr "Panzerbesatzungen"
+
+
+msgctxt "desc/squad/tankmans(jap)"
+msgid "tankmans(jap)"
+msgstr "Tank crew"
+
+
+msgctxt "desc/squad/tankmans(rus)"
+msgid "tankmans(rus)"
+msgstr "Танкисты"
+
+
+msgctxt "desc/squad/tankmans(usa)"
+msgid "tankmans(usa)"
+msgstr "Tank crew"
+
+
+msgctxt "desc/squad/groupita"
+msgid "groupita"
+msgstr "Italian Forces"
+
+
+msgctxt "desc/squad/grouprus"
+msgid "grouprus"
+msgstr "За Родину!"
+
+
+msgctxt "desc/squad/groupeng"
+msgid "groupeng"
+msgstr "Reinforcements!"
+
+
+msgctxt "desc/squad/groupusa"
+msgid "groupusa"
+msgstr "Reinforcements!"
+
+
+msgctxt "desc/squad/groupjap"
+msgid "groupjap"
+msgstr "Banzai!!"
+
+
+msgctxt "desc/squad/grouplongtom"
+msgid "grouplongtom"
+msgstr "155mm Long Tom"
+
+
+msgctxt "desc/entity/20mm_u_boat"
+msgid "20mm_u_boat"
+msgstr "2 cm MG C/30L"
+
+
+msgctxt "desc/entity/88mm_u_boat"
+msgid "88mm_u_boat"
+msgstr "8,8 cm SK C/35"
+
+
+msgctxt "desc/entity/air-bag"
+msgid "air-bag"
+msgstr "Надувная лодка"
+
+
+msgctxt "desc/entity/armored_locomotive"
+msgid "armored_locomotive"
+msgstr "Бронепоезд"
+
+
+msgctxt "desc/entity/box1"
+msgid "box1"
+msgstr "Большая коробка"
+
+
+msgctxt "desc/entity/box2"
+msgid "box2"
+msgstr "Маленькая коробка"
+
+
+msgctxt "desc/entity/boxes1"
+msgid "boxes1"
+msgstr "Куча коробок"
+
+
+msgctxt "desc/entity/browning_stan_concrete"
+msgid "browning_stan_concrete"
+msgstr "M1919 Machine Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/type1hmg_stan_concrete"
+msgid "type1hmg_stan_concrete"
+msgstr "Type 1 MG (41 г.в.)"
+
+
+msgctxt "desc/entity/mg42_stan_concrete"
+msgid "mg42_stan_concrete"
+msgstr "Maschinengewehr 42 (42 г.в.)"
+
+
+msgctxt "desc/entity/vickers_stan_concrete"
+msgid "vickers_stan_concrete"
+msgstr "«Vickers» .303 Mk.I  (-39 г.в.)"
+
+
+msgctxt "desc/entity/degtyarev_stan_concrete"
+msgid "degtyarev_stan_concrete"
+msgstr "7,62-мм пулемёт Дегтярёва обр. 1939 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/chicken"
+msgid "chicken"
+msgstr "Петушок"
+
+
+msgctxt "desc/entity/cistern"
+msgid "cistern"
+msgstr "Цистерна"
+
+
+msgctxt "desc/entity/cow"
+msgid "cow"
+msgstr "Му-Му"
+
+
+msgctxt "desc/entity/how_a(eng)"
+msgid "how_a(eng)"
+msgstr "BL 6\\26 cwt"
+
+
+msgctxt "desc/entity/how_aa(eng)"
+msgid "how_aa(eng)"
+msgstr "3.7-Inch QF AA"
+
+
+msgctxt "desc/entity/how_b(eng)"
+msgid "how_b(eng)"
+msgstr "QF 25-pdr"
+
+
+msgctxt "desc/entity/how_a(ger)"
+msgid "how_a(ger)"
+msgstr "sFH 18"
+
+
+msgctxt "desc/entity/how_aa(ger)"
+msgid "how_aa(ger)"
+msgstr "Flak 37"
+
+
+msgctxt "desc/entity/how_aaa(ger)"
+msgid "how_aaa(ger)"
+msgstr "PaK 43"
+
+
+msgctxt "desc/entity/how_b(ger)"
+msgid "how_b(ger)"
+msgstr "le. FH 18 M"
+
+
+msgctxt "desc/entity/how_a(jap)"
+msgid "how_a(jap)"
+msgstr "150mm Type 96"
+
+
+msgctxt "desc/entity/how_aa(jap)"
+msgid "how_aa(jap)"
+msgstr "75mm Type 4 AA Gun"
+
+
+msgctxt "desc/entity/how_b(jap)"
+msgid "how_b(jap)"
+msgstr "105mm Type 91"
+
+
+msgctxt "desc/entity/how_a(rus)"
+msgid "how_a(rus)"
+msgstr "Д1"
+
+
+msgctxt "desc/entity/how_a2(rus)"
+msgid "how_a2(rus)"
+msgstr "ML-20"
+
+
+msgctxt "desc/entity/how_aa(rus)"
+msgid "how_aa(rus)"
+msgstr "61-K M1939"
+
+
+msgctxt "desc/entity/how_aa2(rus)"
+msgid "how_aa2(rus)"
+msgstr "52-K"
+
+
+msgctxt "desc/entity/how_b(rus)"
+msgid "how_b(rus)"
+msgstr "M-30"
+
+
+msgctxt "desc/entity/how_a(usa)"
+msgid "how_a(usa)"
+msgstr "M114"
+
+
+msgctxt "desc/entity/how_aa(usa)"
+msgid "how_aa(usa)"
+msgstr "40mm M1 Bofors L/60"
+
+
+msgctxt "desc/entity/how_c(ger)"
+msgid "how_c(ger)"
+msgstr "Nebelwerfer 42"
+
+
+msgctxt "desc/entity/how_b(usa)"
+msgid "how_b(usa)"
+msgstr "M2A1 L"
+
+
+msgctxt "desc/entity/how_c(usa)"
+msgid "how_c(usa)"
+msgstr "155mm Long Tom"
+
+
+msgctxt "desc/entity/how_c(rus)"
+msgid "how_c(rus)"
+msgstr "BS-3"
+
+
+msgctxt "desc/entity/afp"
+msgid "afp"
+msgstr "Artilleriefohrprahm"
+
+
+msgctxt "desc/entity/mfp"
+msgid "mfp"
+msgstr "Marinefohrprahm"
+
+
+msgctxt "desc/entity/panhard_rail"
+msgid "panhard_rail"
+msgstr "Panhard Schienenpanzer"
+
+
+msgctxt "desc/entity/pak40_platform"
+msgid "pak40_platform"
+msgstr "Pak 40"
+
+
+msgctxt "desc/entity/passengervan"
+msgid "passengervan"
+msgstr "Пассажирский вагон"
+
+
+msgctxt "desc/entity/platform"
+msgid "platform"
+msgstr "Платформа"
+
+
+msgctxt "desc/entity/platform_can"
+msgid "platform_can"
+msgstr "Цистерна"
+
+
+msgctxt "desc/entity/platform_gun"
+msgid "platform_gun"
+msgstr "Орудийная платворма"
+
+
+msgctxt "desc/entity/pz_turret"
+msgid "pz_turret"
+msgstr "Pz Turret"
+
+
+msgctxt "desc/entity/s100_k"
+msgid "s100_k"
+msgstr "Корабль"
+
+
+msgctxt "desc/entity/steam_locomotive"
+msgid "steam_locomotive"
+msgstr "Паровоз"
+
+
+msgctxt "desc/entity/tendor"
+msgid "tendor"
+msgstr "Тендер"
+
+
+msgctxt "desc/entity/tradevan"
+msgid "tradevan"
+msgstr "Грузовой вагон"
+
+
+msgctxt "desc/entity/tradevan_big"
+msgid "tradevan_big"
+msgstr "Большой грузовой вагон"
+
+
+msgctxt "desc/entity/tradevan_explosive"
+msgid "tradevan_explosive"
+msgstr "Вагон"
+
+
+msgctxt "desc/entity/tramway"
+msgid "tramway"
+msgstr "Трамвай"
+
+
+msgctxt "desc/entity/tramway_driveable"
+msgid "tramway_driveable"
+msgstr "Трамвай"
+
+
+msgctxt "desc/entity/ya5_k"
+msgid "ya5_k"
+msgstr "Корабль"
+
+
+msgctxt "desc/entity/zis5inf"
+msgid "zis5inf"
+msgstr "Грузовой автомобиль ЗИС-5 (-39 г.в.)"
+
+
+msgctxt "desc/entity/universal"
+msgid "universal"
+msgstr "Трактор У-2 (-39 г.в.)"
+
+
+msgctxt "desc/entity/np_gaz61"
+msgid "np_gaz61"
+msgstr "Легкий автомобиль ГАЗ-61-73 (40 г.в.)"
+
+
+msgctxt "desc/entity/gaz67"
+msgid "gaz67"
+msgstr "Легкий автомобиль ГАЗ-67 (43 г.в.)"
+
+
+msgctxt "desc/entity/gaz67a"
+msgid "gaz67a"
+msgstr "Легкий автомобиль ГАЗ-67А (43 г.в.)"
+
+
+msgctxt "desc/entity/zis5"
+msgid "zis5"
+msgstr "Грузовой автомобиль ЗИС-5 (-39 г.в.)"
+
+
+msgctxt "desc/entity/zis5inf"
+msgid "zis5inf"
+msgstr "Грузовой автомобиль ЗИС-5 (-39 г.в.)"
+
+
+msgctxt "desc/entity/studebakerus6"
+msgid "studebakerus6"
+msgstr "Грузовой автомобиль «Студебеккер» Лендлиз с боеприпасами (41 г.в.)"
+
+
+msgctxt "desc/entity/np_zis42"
+msgid "np_zis42"
+msgstr "Грузовой автомобиль ЗИС-42 с боеприпасами (41 г.в.)"
+
+
+msgctxt "desc/entity/zis5art"
+msgid "zis5art"
+msgstr "Грузовой автомобиль ЗИС-5 с боеприпасами (-39 г.в.)"
+
+
+msgctxt "desc/entity/np_zis5_art"
+msgid "np_zis5_art"
+msgstr "Грузовой автомобиль ЗИС-5 с боеприпасами (-39 г.в.)"
+
+
+msgctxt "desc/entity/np_zis5_fuel"
+msgid "np_zis5_fuel"
+msgstr "Грузовой автомобиль ЗИС-5 бензовоз (-39 г.в.)"
+
+
+msgctxt "desc/entity/zis5eng"
+msgid "zis5eng"
+msgstr "Грузовой автомобиль ЗИС-5 инженерный (-39 г.в.)"
+
+
+msgctxt "desc/entity/np_zis5_en"
+msgid "np_zis5_en"
+msgstr "Грузовой автомобиль ЗИС-5 инженерный (-39 г.в.)"
+
+
+msgctxt "desc/entity/voroshilovets"
+msgid "voroshilovets"
+msgstr "Артиллерийский тягач Т-20 «Ворошиловец» (-39 г.в.)"
+
+
+msgctxt "desc/entity/np_yag10"
+msgid "np_yag10"
+msgstr "Грузовой автомобиль ЯГ-10 (-39 г.в.)"
+
+
+msgctxt "desc/entity/t20_nw"
+msgid "t20_nw"
+msgstr "Артиллерийский тягач Т-20 «Комсомолец» (-39 г.в.) "
+
+
+msgctxt "desc/entity/m72"
+msgid "m72"
+msgstr "Мотоцикл М-72 (41 г.в.) "
+
+
+msgctxt "desc/entity/t20"
+msgid "t20"
+msgstr "Бронетягач Т-20 «Комсомолец» (-39 г.в.) "
+
+
+msgctxt "desc/entity/np_ba20"
+msgid "np_ba20"
+msgstr "Легкий бронеавтомобиль БА-20 (-39 г.в.)"
+
+
+msgctxt "desc/entity/ba10"
+msgid "ba10"
+msgstr "Средний бронеавтомобиль БА-10М (-39 г.в.)"
+
+
+msgctxt "desc/entity/ba11"
+msgid "ba11"
+msgstr "Тяжёлый бронеавтомобиль БА-11 (-39 г.в.) "
+
+
+msgctxt "desc/entity/ba64"
+msgid "ba64"
+msgstr "Легкий бронеавтомобиль БА-64 (42 г.в.)"
+
+
+msgctxt "desc/entity/gaz67b"
+msgid "gaz67b"
+msgstr "Легкий автомобиль ГАЗ-67Б (43 г.в.)"
+
+
+msgctxt "desc/entity/m3"
+msgid "m3"
+msgstr "БТР M3 Лэндлиз (42 г.в.)"
+
+
+msgctxt "desc/entity/np_m5"
+msgid "np_m5"
+msgstr "БТР M5 Лэндлиз (43 г.в.)"
+
+
+msgctxt "desc/entity/ba64d"
+msgid "ba64d"
+msgstr "Легкий бронеавтомобиль БА-64Д (43 г.в.)"
+
+
+msgctxt "desc/entity/maxim_1910_30"
+msgid "maxim_1910_30"
+msgstr "7,62-мм пулемёт Максима обр. 1910/1930 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/maxim_stan_fix"
+msgid "maxim_stan_fix"
+msgstr "7,62-мм пулемёт Максима обр. 1910/1930 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/maxim"
+msgid "maxim"
+msgstr "7,62-мм пулемёт Максима обр. 1910/1930 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/maxim_aa_4m_1931"
+msgid "maxim_aa_4m_1931"
+msgstr "7,62-мм пулемёт Максима обр. 1910/1930 г x4 (-39 г.в.)"
+
+
+msgctxt "desc/entity/ds39_degtyaryov"
+msgid "ds39_degtyaryov"
+msgstr "7,62-мм пулемёт Дегтярёва обр. 1939 г (-39 г.в.) "
+
+
+msgctxt "desc/entity/degtyarev_stan"
+msgid "degtyarev_stan"
+msgstr "7,62-мм пулемёт Дегтярёва обр. 1939 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/degtyarev_stan_fix"
+msgid "degtyarev_stan_fix"
+msgstr "7,62-мм пулемёт Максима обр. 1910/1930 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/dshk_stank"
+msgid "dshk_stank"
+msgstr "12,7-мм пулемёт Дегтярёва/Шпагина обр. 1938 г (-39 г.в.) "
+
+
+msgctxt "desc/entity/dshk_stan"
+msgid "dshk_stan"
+msgstr "12,7-мм пулемёт Дегтярёва/Шпагина обр. 1938 г (41 г.в.)"
+
+
+msgctxt "desc/entity/sg43_goryunov"
+msgid "sg43_goryunov"
+msgstr "7,62-мм пулемёт Горюнова обр. 1943 г (43 г.в.)"
+
+
+msgctxt "desc/entity/goryunov_stan_fix"
+msgid "goryunov_stan_fix"
+msgstr "7,62-мм пулемёт Горюнова обр. 1943 г (43 г.в.)"
+
+
+msgctxt "desc/entity/kpvt"
+msgid "kpvt"
+msgstr "14,5-мм пулемёт Владимирова обр. 1944 г (44 г.в.)"
+
+
+msgctxt "desc/entity/dshk_zenit"
+msgid "dshk_zenit"
+msgstr "12,7-мм ЗУ пулемёт Дегтярёва/Шпагина обр. 1938 г (39 г.в.)"
+
+
+msgctxt "desc/entity/zpu-4"
+msgid "zpu-4"
+msgstr "Cчетверённая 14,5-мм зенитная пулемётная установка ЗПУ-4 (46+ г.в.)"
+
+
+msgctxt "desc/entity/25mm_azp_72k"
+msgid "25mm_azp_72k"
+msgstr "25-мм автоматическая зенитная пушка обр. 1940 г (40 г.в.)"
+
+
+msgctxt "desc/entity/k61"
+msgid "k61"
+msgstr "37-мм автоматическая зенитная пушка обр. 1939 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/k61_fix"
+msgid "k61_fix"
+msgstr "37-мм автоматическая зенитная пушка обр. 1939 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/k61_41"
+msgid "k61_41"
+msgstr "37-мм автоматическая зенитная пушка обр. 1939 г (41 г.в.)"
+
+
+msgctxt "desc/entity/gaz-aaa_4m"
+msgid "gaz-aaa_4m"
+msgstr "Самоходная 7,62-мм зенитная установка М4 обр. 1939 г (-39 г.в.) "
+
+
+msgctxt "desc/entity/gaz_mm_72k"
+msgid "gaz_mm_72k"
+msgstr "Самоходная 25-мм автоматическая зенитная пушка обр. 1940 г (41 г.в.) "
+
+
+msgctxt "desc/entity/np_zis42_61k"
+msgid "np_zis42_61k"
+msgstr "Самоходная 37-мм автоматическая зенитная пушка обр. 1939 г (40 г.в.) "
+
+
+msgctxt "desc/entity/np_zis42_61k_41"
+msgid "np_zis42_61k_41"
+msgstr "Самоходная 37-мм автоматическая зенитная пушка обр. 1939 г (41 г.в.) "
+
+
+msgctxt "desc/entity/np_m17"
+msgid "np_m17"
+msgstr "Самоходная 12,7-мм зенитная установка «М17» Лендлиз (43 г.в.)"
+
+
+msgctxt "desc/entity/zsu37"
+msgid "zsu37"
+msgstr "Самоходная 37-мм автоматическая зенитная пушка обр. 1944 г (44 г.в.)"
+
+
+msgctxt "desc/entity/m37"
+msgid "m37"
+msgstr "45-мм противотанковая пушка обр. 1937 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/m37_41"
+msgid "m37_41"
+msgstr "45-мм противотанковая пушка обр. 1937 г (41 г.в.)"
+
+
+msgctxt "desc/entity/m37_42"
+msgid "m37_42"
+msgstr "45-мм противотанковая пушка обр. 1942 г (42 г.в.)"
+
+
+msgctxt "desc/entity/m37_42_43"
+msgid "m37_42_43"
+msgstr "45-мм противотанковая пушка обр. 1942 г (43 г.в.)"
+
+
+msgctxt "desc/entity/76mm_m1902_30_l30"
+msgid "76mm_m1902_30_l30"
+msgstr "76-мм дивизионная пушка обр. 1902 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/76mm_m1902_30_l30_42"
+msgid "76mm_m1902_30_l30_42"
+msgstr "76-мм дивизионная пушка обр. 1902 г (42 г.в.)"
+
+
+msgctxt "desc/entity/76mm_m1902_30_l30_43"
+msgid "76mm_m1902_30_l30_43"
+msgstr "76-мм дивизионная пушка обр. 1902 г (43 г.в.)"
+
+
+msgctxt "desc/entity/76mm_m1902_30"
+msgid "76mm_m1902_30"
+msgstr "76-мм дивизионная пушка обр. 1902/30 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/76mm_m1902_30_42"
+msgid "76mm_m1902_30_42"
+msgstr "76-мм дивизионная пушка обр. 1902/30 г (42 г.в.)"
+
+
+msgctxt "desc/entity/76mm_m1902_30_43"
+msgid "76mm_m1902_30_43"
+msgstr "76-мм дивизионная пушка обр. 1902/30 г (43 г.в.) "
+
+
+msgctxt "desc/entity/f22"
+msgid "f22"
+msgstr "76-мм дивизионная пушка обр. 1936 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/f22_40"
+msgid "f22_40"
+msgstr "76-мм дивизионная пушка обр. 1936 г (40 г.в.)"
+
+
+msgctxt "desc/entity/f22_41"
+msgid "f22_41"
+msgstr "76-мм дивизионная пушка обр. 1936 г (41 г.в.)"
+
+
+msgctxt "desc/entity/f22_42"
+msgid "f22_42"
+msgstr "76-мм дивизионная пушка обр. 1936 г (42 г.в.)"
+
+
+msgctxt "desc/entity/f22_44"
+msgid "f22_44"
+msgstr "76-мм дивизионная пушка обр. 1936 г (44 г.в.) "
+
+
+msgctxt "desc/entity/zis2"
+msgid "zis2"
+msgstr "57-мм противотанковая пушка обр. 1941 г  (41 г.в.)"
+
+
+msgctxt "desc/entity/zis2_42"
+msgid "zis2_42"
+msgstr "57-мм противотанковая пушка обр. 1941 г  (42 г.в.)"
+
+
+msgctxt "desc/entity/zis2_43"
+msgid "zis2_43"
+msgstr "57-мм противотанковая пушка обр. 1943 г  (43 г.в.)"
+
+
+msgctxt "desc/entity/zis2_44"
+msgid "zis2_44"
+msgstr "57-мм противотанковая пушка обр. 1943 г  (44 г.в.)"
+
+
+msgctxt "desc/entity/zis3"
+msgid "zis3"
+msgstr "76-мм дивизионная пушка обр. 1942 г  (42 г.в.)"
+
+
+msgctxt "desc/entity/zis3_43"
+msgid "zis3_43"
+msgstr "76-мм дивизионная пушка обр. 1942 г  (43 г.в.) "
+
+
+msgctxt "desc/entity/107mm_m1910_30"
+msgid "107mm_m1910_30"
+msgstr "107-мм корпусная пушка обр. 1910/30 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/107mm_m1910_30_44"
+msgid "107mm_m1910_30_44"
+msgstr "107-мм корпусная пушка обр. 1910/30 г (44 г.в.) "
+
+
+msgctxt "desc/entity/bs3"
+msgid "bs3"
+msgstr "100-мм противотанковая пушка обр. 1944 г (44 г.в.)"
+
+
+msgctxt "desc/entity/bs3_45"
+msgid "bs3_45"
+msgstr "100-мм противотанковая пушка обр. 1944 г (45 г.в.)"
+
+
+msgctxt "desc/entity/bs3_46"
+msgid "bs3_46"
+msgstr "100-мм противотанковая пушка обр. 1944 г (46+ г.в.)"
+
+
+msgctxt "desc/entity/3k"
+msgid "3k"
+msgstr "76-мм зенитная пушка обр. 1938 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/3k_40"
+msgid "3k_40"
+msgstr "76-мм зенитная пушка обр. 1938 г (40 г.в.)"
+
+
+msgctxt "desc/entity/3k_41"
+msgid "3k_41"
+msgstr "76-мм зенитная пушка обр. 1938 г (41 г.в.)"
+
+
+msgctxt "desc/entity/3k_42"
+msgid "3k_42"
+msgstr "76-мм зенитная пушка обр. 1938 г (42 г.в.)"
+
+
+msgctxt "desc/entity/3k_44"
+msgid "3k_44"
+msgstr "76-мм зенитная пушка обр. 1938 г (44 г.в.)"
+
+
+msgctxt "desc/entity/52k"
+msgid "52k"
+msgstr "85-мм зенитная пушка обр. 1939 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/52k_41"
+msgid "52k_41"
+msgstr "85-мм зенитная пушка обр. 1939 г (41 г.в.)"
+
+
+msgctxt "desc/entity/52k_43"
+msgid "52k_43"
+msgstr "85-мм зенитная пушка обр. 1943 г (43 г.в.)"
+
+
+msgctxt "desc/entity/52k_44"
+msgid "52k_44"
+msgstr "85-мм зенитная пушка обр. 1943 г (44 г.в.)"
+
+
+msgctxt "desc/entity/rm_38"
+msgid "rm_38"
+msgstr "50-мм ротный миномёт обр. 1938 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/bm_37"
+msgid "bm_37"
+msgstr "82-мм батальонный миномёт обр. 1937 г (-39 г.в.) "
+
+
+msgctxt "desc/entity/pm_38"
+msgid "pm_38"
+msgstr "120-мм полковой миномёт обр. 1938 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/m43_160mm"
+msgid "m43_160mm"
+msgstr "160-мм полковой миномёт обр. 1943 г (43 г.в.)"
+
+
+msgctxt "desc/entity/np_m21"
+msgid "np_m21"
+msgstr "M21 Mortar Motor Carriage Лэндлиз (43 г.в.) "
+
+
+msgctxt "desc/entity/75mm_m1906_09"
+msgid "75mm_m1906_09"
+msgstr "75-мм пушка Шнейдер-Данглиз обр. 1906/09 (-39 г.в.)"
+
+
+msgctxt "desc/entity/76mm_m1909"
+msgid "76mm_m1909"
+msgstr "76-мм полковая пушка обр. 1909 (-39 г.в.)"
+
+
+msgctxt "desc/entity/76mm_m1913"
+msgid "76mm_m1913"
+msgstr "76-мм полковая пушка обр. 1913 (-39 г.в.)"
+
+
+msgctxt "desc/entity/76mm_obr1927"
+msgid "76mm_obr1927"
+msgstr "76-мм полковая пушка обр. 1927 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/m43"
+msgid "m43"
+msgstr "76-мм полковая пушка обр. 1943 г. (44 г.в.)"
+
+
+msgctxt "desc/entity/107mm_m1910"
+msgid "107mm_m1910"
+msgstr "107-мм корпусная пушка обр. 1910 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/122mm_howitzer_m1910_30a"
+msgid "122mm_howitzer_m1910_30a"
+msgstr "122-мм гаубица обр. 1910/30 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/m30_1938"
+msgid "m30_1938"
+msgstr "122-мм дивизионная гаубица обр. 1938 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/152mm_m1909_30"
+msgid "152mm_m1909_30"
+msgstr "152-мм корпусная гаубица обр. 1909/30 г (-39 г.в.) "
+
+
+msgctxt "desc/entity/152mm_m1910_30"
+msgid "152mm_m1910_30"
+msgstr "152-мм пушка образца 1910/30 г (-39 г.в.) "
+
+
+msgctxt "desc/entity/ml20"
+msgid "ml20"
+msgstr "152-мм корпусная гаубица-пушка обр. 1937 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/d1"
+msgid "d1"
+msgstr "152-мм корпусная гаубица обр. 1943 г (43 г.в.) "
+
+
+msgctxt "desc/entity/203b4"
+msgid "203b4"
+msgstr "203-мм гаубица обр. 1931 г. (-39 г.в.)"
+
+
+msgctxt "desc/entity/280br5"
+msgid "280br5"
+msgstr "280-мм мортира обр. 1939 г. (-39 г.в.)"
+
+
+msgctxt "desc/entity/bt7a"
+msgid "bt7a"
+msgstr "БТ-7 Артиллерийский (-39 г.в.)  "
+
+
+msgctxt "desc/entity/su5"
+msgid "su5"
+msgstr "СУ-5-2 (-39 г.в.)"
+
+
+msgctxt "desc/entity/np_su14"
+msgid "np_su14"
+msgstr "СУ-14 (40 г.в.)"
+
+
+msgctxt "desc/entity/bm_8_24"
+msgid "bm_8_24"
+msgstr "БМ-8-24 (41 г.в.)"
+
+
+msgctxt "desc/entity/bm13"
+msgid "bm13"
+msgstr "БМ-13-16 (41 г.в.)"
+
+
+msgctxt "desc/entity/np_bm13n"
+msgid "np_bm13n"
+msgstr "БМ-13-16-Н (42 г.в.)"
+
+
+msgctxt "desc/entity/bm31"
+msgid "bm31"
+msgstr "БМ-31-12 (44 г.в.)"
+
+
+msgctxt "desc/entity/t-38"
+msgid "t-38"
+msgstr "Т-38М обр. 1939 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/t40"
+msgid "t40"
+msgstr "Т-40 (-39 г.в.)"
+
+
+msgctxt "desc/entity/na_ispyg"
+msgid "na_ispyg"
+msgstr "НИ-1 (-39 г.в.)"
+
+
+msgctxt "desc/entity/t18"
+msgid "t18"
+msgstr "Т-18 обр. 1930 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/bt5"
+msgid "bt5"
+msgstr "БТ-5 обр. 1933 г (-39 г.в.)  "
+
+
+msgctxt "desc/entity/t26"
+msgid "t26"
+msgstr "Т-26 обр. 1939 г (-39 г.в.)  "
+
+
+msgctxt "desc/entity/bt7"
+msgid "bt7"
+msgstr "БТ-7 обр. 1935 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/t26e39"
+msgid "t26e39"
+msgstr "Т-26Э обр. 1939 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/np_t50"
+msgid "np_t50"
+msgstr "Т-50 (40 г.в.) "
+
+
+msgctxt "desc/entity/t60"
+msgid "t60"
+msgstr "Т-60 (41 г.в.)"
+
+
+msgctxt "desc/entity/bt7e"
+msgid "bt7e"
+msgstr "БТ-7Э обр. 1939 г (41 г.в.)"
+
+
+msgctxt "desc/entity/t70"
+msgid "t70"
+msgstr "T-70 (42 г.в.)"
+
+
+msgctxt "desc/entity/m3a1"
+msgid "m3a1"
+msgstr "M3A1 «Стюард» Лэндлиз (42 г.в.) "
+
+
+msgctxt "desc/entity/t-28_33"
+msgid "t-28_33"
+msgstr "Т-28 (-39 г.в.)"
+
+
+msgctxt "desc/entity/t-28_l10"
+msgid "t-28_l10"
+msgstr "Т-28-Л10 (-39 г.в.)  "
+
+
+msgctxt "desc/entity/t-28_e_10"
+msgid "t-28_e_10"
+msgstr "Т-28Э-Л10 (-39 г.в.)"
+
+
+msgctxt "desc/entity/t34_0"
+msgid "t34_0"
+msgstr "Т-34-76 обр. 1940 г (40 г.в.)"
+
+
+msgctxt "desc/entity/t34_41"
+msgid "t34_41"
+msgstr "Т-34-76 обр. 1941 г (41 г.в.)"
+
+
+msgctxt "desc/entity/t34_1"
+msgid "t34_1"
+msgstr "Т-34-57 обр. 1941 г (41 г.в.)"
+
+
+msgctxt "desc/entity/mk_9"
+msgid "mk_9"
+msgstr "Mk III «Валентайн» Лэндлиз (42 г.в.)"
+
+
+msgctxt "desc/entity/t34_42"
+msgid "t34_42"
+msgstr "Т-34-76 обр. 1942 г (42 г.в.)"
+
+
+msgctxt "desc/entity/t34_1_42"
+msgid "t34_1_42"
+msgstr "Т-34-57 обр. 1942 г (42 г.в.) "
+
+
+msgctxt "desc/entity/t34_2"
+msgid "t34_2"
+msgstr "Т-34-76 обр. 1942/43 г (42 г.в.) "
+
+
+msgctxt "desc/entity/t34_0_hd"
+msgid "t34_0_hd"
+msgstr "Т-34-76Э обр. 1942 г (42 г.в.)"
+
+
+msgctxt "desc/entity/np_t34_43"
+msgid "np_t34_43"
+msgstr "Т-34-76 обр. 1943 г (43 г.в.)"
+
+
+msgctxt "desc/entity/t34_43"
+msgid "t34_43"
+msgstr "OТ-34-76 обр. 1943 г (43 г.в.)"
+
+
+msgctxt "desc/entity/m4a2"
+msgid "m4a2"
+msgstr "M4A2 «Шерман» Лэндлиз (43 г.в.) "
+
+
+msgctxt "desc/entity/t34_1_hd"
+msgid "t34_1_hd"
+msgstr "Т-34-57Э обр. 1943 г (43 г.в.)"
+
+
+msgctxt "desc/entity/t34_2_hd"
+msgid "t34_2_hd"
+msgstr "Т-34-76Э обр. 1944 г (44 г.в.)"
+
+
+msgctxt "desc/entity/m4a2_76w_rus"
+msgid "m4a2_76w_rus"
+msgstr "M4A2(76)В «Шерман» Лэндлиз (44 г.в.) "
+
+
+msgctxt "desc/entity/t34_3"
+msgid "t34_3"
+msgstr "Т-34-85 (44 г.в.)"
+
+
+msgctxt "desc/entity/t34_3_hd"
+msgid "t34_3_hd"
+msgstr "Т-34-85М (44 г.в.) "
+
+
+msgctxt "desc/entity/t44"
+msgid "t44"
+msgstr "Т-44-85 (44 г.в.)"
+
+
+msgctxt "desc/entity/t44_2"
+msgid "t44_2"
+msgstr "Т-44-100 (45 г.в.) "
+
+
+msgctxt "desc/entity/t-54a"
+msgid "t-54a"
+msgstr "Т-54 обр. 1946 г (46+ г.в.)"
+
+
+msgctxt "desc/entity/t-35"
+msgid "t-35"
+msgstr "Т-35Э-ПС3 (-39 г.в.)"
+
+
+msgctxt "desc/entity/kv1_39"
+msgid "kv1_39"
+msgstr "КВ-1 обр. 1939 г (-39 г.в.)"
+
+
+msgctxt "desc/entity/kv1"
+msgid "kv1"
+msgstr "КВ-1 обр. 1940 г (40 г.в.)"
+
+
+msgctxt "desc/entity/kv2"
+msgid "kv2"
+msgstr "КВ-2 (40 г.в.)"
+
+
+msgctxt "desc/entity/kv1_zis5_41"
+msgid "kv1_zis5_41"
+msgstr "КВ-1-ЗИС-5 обр. 1941 г (41 г.в.)"
+
+
+msgctxt "desc/entity/kv1e"
+msgid "kv1e"
+msgstr "КВ-1Э-ЗИС-5 обр. 1941 г (41 г.в.)"
+
+
+msgctxt "desc/entity/kv-220"
+msgid "kv-220"
+msgstr "КВ-220 (41 г.в.)"
+
+
+msgctxt "desc/entity/kv-3"
+msgid "kv-3"
+msgstr "КВ-3 (42 г.в.)"
+
+
+msgctxt "desc/entity/kv9"
+msgid "kv9"
+msgstr "КВ-9 (42 г.в.)"
+
+
+msgctxt "desc/entity/kv1s"
+msgid "kv1s"
+msgstr "КВ-1С (42 г.в.)"
+
+
+msgctxt "desc/entity/kv85"
+msgid "kv85"
+msgstr "КВ-85 (43 г.в.) "
+
+
+msgctxt "desc/entity/kv-122"
+msgid "kv-122"
+msgstr "КВ-122 (43 г.в.)"
+
+
+msgctxt "desc/entity/is1"
+msgid "is1"
+msgstr "ИС-1 (43 г.в.)"
+
+
+msgctxt "desc/entity/kv-100"
+msgid "kv-100"
+msgstr "КВ-100 (43 г.в.)"
+
+
+msgctxt "desc/entity/is-122"
+msgid "is-122"
+msgstr "ИС-2 обр. 1943 г (43 г.в.) "
+
+
+msgctxt "desc/entity/is2"
+msgid "is2"
+msgstr "ИС-2 обр. 1944/45 г (44 г.в.)"
+
+
+msgctxt "desc/entity/is2120"
+msgid "is2120"
+msgstr "ИС-2 обр. 1944 г (44 г.в.)"
+
+
+msgctxt "desc/entity/is2_100"
+msgid "is2_100"
+msgstr "ИС-100 обр. 1944 г (44 г.в.)"
+
+
+msgctxt "desc/entity/is3"
+msgid "is3"
+msgstr "ИС-3 (45 г.в.)"
+
+
+msgctxt "desc/entity/is4"
+msgid "is4"
+msgstr "ИС-4 (46+ г.в.)"
+
+
+msgctxt "desc/entity/is7"
+msgid "is7"
+msgstr "ИС-7 (46+ г.в.)"
+
+
+msgctxt "desc/entity/t-10m"
+msgid "t-10m"
+msgstr "Т-10М (46+ г.в.)"
+
+
+msgctxt "desc/entity/is705a"
+msgid "is705a"
+msgstr "ОБ-705-А (46+ г.в.)"
+
+
+msgctxt "desc/entity/at-1"
+msgid "at-1"
+msgstr "АТ-1 (-39 г.в.)"
+
+
+msgctxt "desc/entity/np_29k"
+msgid "np_29k"
+msgstr "Самоходная 76-мм зенитная пушка обр. 1934/35 года (-39 г.в.)"
+
+
+msgctxt "desc/entity/zis_30"
+msgid "zis_30"
+msgstr "ЗИС-30 (41 г.в.)"
+
+
+msgctxt "desc/entity/su76"
+msgid "su76"
+msgstr "СУ-76М (42 г.в.)"
+
+
+msgctxt "desc/entity/su122"
+msgid "su122"
+msgstr "СУ-122 (42 г.в.)"
+
+
+msgctxt "desc/entity/np_voroshilovets_52k"
+msgid "np_voroshilovets_52k"
+msgstr "Самоходная 85мм зенитная пушка обр. 1939 года (42 г.в.)"
+
+
+msgctxt "desc/entity/np_su152"
+msgid "np_su152"
+msgstr "СУ-152 (42 г.в.)"
+
+
+msgctxt "desc/entity/isu152"
+msgid "isu152"
+msgstr "ИСУ-152 (43 г.в.)"
+
+
+msgctxt "desc/entity/su85"
+msgid "su85"
+msgstr "СУ-85 (43 г.в.)"
+
+
+msgctxt "desc/entity/su85m"
+msgid "su85m"
+msgstr "СУ-85М (44 г.в.)"
+
+
+msgctxt "desc/entity/isu122"
+msgid "isu122"
+msgstr "ИСУ-122 (44 г.в.)"
+
+
+msgctxt "desc/entity/isu122s"
+msgid "isu122s"
+msgstr "ИСУ-122С (44 г.в.)"
+
+
+msgctxt "desc/entity/su100"
+msgid "su100"
+msgstr "СУ-100 (44 г.в.)"
+
+
+msgctxt "desc/entity/su-122-44"
+msgid "su-122-44"
+msgstr "СУ-122-44 (44 г.в.)"
+
+
+msgctxt "desc/entity/su-122-54"
+msgid "su-122-54"
+msgstr "СУ-122-54 (46+ г.в.) "
+
+
+msgctxt "desc/entity/0bj_268"
+msgid "0bj_268"
+msgstr "Объект 268 (46+ г.в.) "
+
+
+msgctxt "desc/entity/pe2"
+msgid "pe2"
+msgstr "ПЕ-2 1-Серии (Бx6) (40/41 г.в.)"
+
+
+msgctxt "desc/entity/il-2"
+msgid "il-2"
+msgstr "ИЛ-2 (Б/П) (41 г.в.)"
+
+
+msgctxt "desc/entity/il-2_b"
+msgid "il-2_b"
+msgstr "ИЛ-2 (Р/Бx4/П) (41 г.в.)"
+
+
+msgctxt "desc/entity/i-16_ru"
+msgid "i-16_ru"
+msgstr "И-16П Тип-12 (П) (-39 г.в.)"
+
+
+msgctxt "desc/entity/la5fn"
+msgid "la5fn"
+msgstr "ЛА-5 (П) (42 г.в.)"
+
+
+msgctxt "desc/entity/yak3"
+msgid "yak3"
+msgstr "ЯАК-3 (П) (44 г.в.)"
+
+
+msgctxt "desc/entity/76mm_34k"
+msgid "76mm_34k"
+msgstr "76,2-мм корабельная артсистема обр. 1935 г (-39 г.в.) "
+
+
+msgctxt "desc/entity/76mm_34k_l"
+msgid "76mm_34k_l"
+msgstr "76,2-мм корабельная артсистема обр. 1935 г (-39 г.в.) "
+
+
+msgctxt "desc/entity/76mm_34k_r"
+msgid "76mm_34k_r"
+msgstr "76,2-мм корабельная артсистема обр. 1935 г (-39 г.в.) "
+
+
+msgctxt "desc/entity/searchlight"
+msgid "searchlight"
+msgstr "Прожектор"
+
+
+msgctxt "desc/entity/searchlight2"
+msgid "searchlight2"
+msgstr "Прожектор"
+
+
+msgctxt "desc/entity/svarka_move"
+msgid "svarka_move"
+msgstr "Сварочный аппарат"
+
+
+msgctxt "desc/entity/bm37"
+msgid "bm37"
+msgstr "82-мм батальонный миномёт обр. 1937 г (-39 г.в.) "
+
+
+msgctxt "desc/entity/305mm"
+msgid "305mm"
+msgstr "Бронебашенная батарея МБ-3-12-Ф 12/52 (-39 г.в.)"
+
+
+msgctxt "desc/entity/pg1"
+msgid "pg1"
+msgstr "Катер ПГ-117 (42 г.в.)"
+
+
+msgctxt "desc/entity/bk1124_k"
+msgid "bk1124_k"
+msgstr "БК-1124"
+
+
+msgctxt "desc/entity/np_opel_inf"
+msgid "np_opel_inf"
+msgstr "Opel Blitz 3.6 (-39 г.в.)"
+
+
+msgctxt "desc/entity/horch"
+msgid "horch"
+msgstr "Horch 853 A (-39 г.в.)"
+
+
+msgctxt "desc/entity/kubel"
+msgid "kubel"
+msgstr "Volkswagen Typ 82 (-39 г.в.)"
+
+
+msgctxt "desc/entity/horch901_kfz12"
+msgid "horch901_kfz12"
+msgstr "Horch 901 Kfz.12 (-39 г.в.)"
+
+
+msgctxt "desc/entity/horch901_kfz15"
+msgid "horch901_kfz15"
+msgstr "Horch 901 Kfz.15 (-39 г.в.)"
+
+
+msgctxt "desc/entity/kfz15"
+msgid "kfz15"
+msgstr "Horch 901 Kfz.15 (-39 г.в.)"
+
+
+msgctxt "desc/entity/blitz3_6"
+msgid "blitz3_6"
+msgstr "Opel Blitz 3.6 (-39 г.в.)"
+
+
+msgctxt "desc/entity/blitz3_6art"
+msgid "blitz3_6art"
+msgstr "Opel Blitz 3.6 Maschine Munition (-39 г.в.)"
+
+
+msgctxt "desc/entity/np_opel_eng"
+msgid "np_opel_eng"
+msgstr "Opel Blitz 3.6 Technik-Maschine (-39 г.в.)"
+
+
+msgctxt "desc/entity/blitz3_6eng"
+msgid "blitz3_6eng"
+msgstr "Opel Blitz 3.6 Technik-Maschine (-39 г.в.)"
+
+
+msgctxt "desc/entity/blitz3_6eng_ger2"
+msgid "blitz3_6eng_ger2"
+msgstr "Opel Blitz 3.6 Technik-Maschine (-39 г.в.)"
+
+
+msgctxt "desc/entity/np_mercedesl3000_art"
+msgid "np_mercedesl3000_art"
+msgstr "Mercedes-Benz L3000 Maschine Munition (-39 г.в.)"
+
+
+msgctxt "desc/entity/np_mercedesl3000"
+msgid "np_mercedesl3000"
+msgstr "Mercedes-Benz L3000 Maschine Munition (-39 г.в.)"
+
+
+msgctxt "desc/entity/krupp_l2h143_kfz69"
+msgid "krupp_l2h143_kfz69"
+msgstr "L 2 H 143 «Krupp-Protze» (-39 г.в.)"
+
+
+msgctxt "desc/entity/krupp_l2h143_kfz70"
+msgid "krupp_l2h143_kfz70"
+msgstr "L 2 H 143 «Krupp-Protze» (-39 г.в.)"
+
+
+msgctxt "desc/entity/krupp_l2h143_kfz81"
+msgid "krupp_l2h143_kfz81"
+msgstr "L 2 H 143 «Krupp-Protze» (-39 г.в.)"
+
+
+msgctxt "desc/entity/steyr_rso"
+msgid "steyr_rso"
+msgstr "Raupenschlepper Ost (Произведён до 42om году.)"
+
+
+msgctxt "desc/entity/sdkfz7"
+msgid "sdkfz7"
+msgstr "Sonder-Kraftfahrzeug 7/Mittlerer Zugkraftwagen 8t (-39 г.в.)"
+
+
+msgctxt "desc/entity/np_sdkfz8"
+msgid "np_sdkfz8"
+msgstr "Sonder-Kraftfahrzeug 8/Schwerer Zugkraftwagen 12t (-39 г.в.)"
+
+
+msgctxt "desc/entity/np_sdkfz250_7_1"
+msgid "np_sdkfz250_7_1"
+msgstr "Leichter Panzerspähwagen Sd.Kfz.250/7/1 (-39 г.в.)"
+
+
+msgctxt "desc/entity/blitz3_6m"
+msgid "blitz3_6m"
+msgstr "Opel Blitz 3.6 (-39 г.в.)"
+
+
+msgctxt "desc/entity/blitz3_6inf"
+msgid "blitz3_6inf"
+msgstr "Opel Blitz 3.6 (-39 г.в.)"
+
+
+msgctxt "desc/entity/blitz3_6f"
+msgid "blitz3_6f"
+msgstr "Opel Blitz 3.6 (-39 г.в.) "
+
+
+msgctxt "desc/entity/r12"
+msgid "r12"
+msgstr "BMW R.12 MG (-39 г.в.)"
+
+
+msgctxt "desc/entity/r12_ger2"
+msgid "r12_ger2"
+msgstr "BMW R.12 MG (-39 г.в.)"
+
+
+msgctxt "desc/entity/kubel_mgun"
+msgid "kubel_mgun"
+msgstr "Volkswagen Typ 82 MG (-39 г.в.)"
+
+
+msgctxt "desc/entity/blitz3_6_mgun"
+msgid "blitz3_6_mgun"
+msgstr "Opel Blitz 3.6 MG (-39 г.в.)"
+
+
+msgctxt "desc/entity/kfz_1"
+msgid "kfz_1"
+msgstr "Stoewer R200 Kfz.1 (-39 г.в.)"
+
+
+msgctxt "desc/entity/kfz_2"
+msgid "kfz_2"
+msgstr "Stoewer R200 Kfz.2 (-39 г.в.)"
+
+
+msgctxt "desc/entity/kfz_2_40"
+msgid "kfz_2_40"
+msgstr "Stoewer R200 Kfz.2/40 (-39 г.в.)"
+
+
+msgctxt "desc/entity/kfz_3"
+msgid "kfz_3"
+msgstr "Stoewer R200 Kfz.3 (-39 г.в.)"
+
+
+msgctxt "desc/entity/kfz_4"
+msgid "kfz_4"
+msgstr "Stoewer R200 Kfz.4 Zwillingssockel 36 MG (-39 г.в.)"
+
+
+msgctxt "desc/entity/stoewer_t40_kfz1"
+msgid "stoewer_t40_kfz1"
+msgstr "Stoewer R200 Kfz.1 (-39 г.в.)"
+
+
+msgctxt "desc/entity/stoewer_t40_kfz2"
+msgid "stoewer_t40_kfz2"
+msgstr "Stoewer R200 Kfz.2 (-39 г.в.)"
+
+
+msgctxt "desc/entity/stoewer_t40_kfz2_40"
+msgid "stoewer_t40_kfz2_40"
+msgstr "Stoewer R200 Kfz.2/40 (-39 г.в.)"
+
+
+msgctxt "desc/entity/stoewer_t40_kfz3"
+msgid "stoewer_t40_kfz3"
+msgstr "Stoewer R200 Kfz.3 (-39 г.в.)"
+
+
+msgctxt "desc/entity/stoewer_t40_kfz4"
+msgid "stoewer_t40_kfz4"
+msgstr "Stoewer R200 Kfz.4 Zwillingssockel 36 MG (-39 г.в.)"
+
+
+msgctxt "desc/entity/kfz15_gun"
+msgid "kfz15_gun"
+msgstr "Horch 901 Kfz.15 MG (-39 г.в.)"
+
+
+msgctxt "desc/entity/np_lorraine"
+msgid "np_lorraine"
+msgstr "Beobachtungswagen auf Lorraine Schlepper (f)"
+
+
+msgctxt "desc/entity/np_sdkfz251_1"
+msgid "np_sdkfz251_1"
+msgstr "Sonderkraftfahrzeug 251/1 MG (Произведён в 39ом года.)"
+
+
+msgctxt "desc/entity/sdkfz251_6"
+msgid "sdkfz251_6"
+msgstr "Sonderkraftfahrzeug 251/6 Funkpanzerwagen MG (Произведён в 39ом года.)"
+
+
+msgctxt "desc/entity/np_sdkfz251_10"
+msgid "np_sdkfz251_10"
+msgstr "Mittlerer Schutzenpanzerwagen 3,7 cm Sd.Kfz.250/10 (Произведён в 39ом года.)"
+
+
+msgctxt "desc/entity/sdkfz251_10"
+msgid "sdkfz251_10"
+msgstr "Mittlerer Schutzenpanzerwagen 3,7 cm Sd.Kfz.250/10 (Произведён в 39ом года.)"
+
+
+msgctxt "desc/entity/sdkfz251_10c"
+msgid "sdkfz251_10c"
+msgstr "Mittlerer Schutzenpanzerwagen 3,7 cm Sd.Kfz.250/10 Ausf. C (Произведён в 39ом года.)"
+
+
+msgctxt "desc/entity/np_sdkfz251_9"
+msgid "np_sdkfz251_9"
+msgstr "Mittlerer Schutzenpanzerwagen mit 7,5 cm KwK 37 (Произведён в 39ом года.)"
+
+
+msgctxt "desc/entity/sdkfz251_22"
+msgid "sdkfz251_22"
+msgstr "Mittlerer Schutzenpanzerwagen mit 5 cm Pak 38 (40 г.в.)"
+
+
+msgctxt "desc/entity/np_sdkfz250_1"
+msgid "np_sdkfz250_1"
+msgstr "Leichter Panzerspähwagen MG Sd.Kfz.250/1 (40 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz250_1"
+msgid "sdkfz250_1"
+msgstr "Leichter Panzerspähwagen MG Sd.Kfz.250/1 (40 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz251_1"
+msgid "sdkfz251_1"
+msgstr "Sonderkraftfahrzeug 251 MG42 (Произведён в 42ом года.)"
+
+
+msgctxt "desc/entity/np_sdkfz250_3"
+msgid "np_sdkfz250_3"
+msgstr "Leichter Panzerspähwagen MG Sd.Kfz.250/3 (41 г.в.)"
+
+
+msgctxt "desc/entity/np_sdkfz250_10"
+msgid "np_sdkfz250_10"
+msgstr "Leichter Panzerspähwagen 3,7 cm Sd.Kfz.250/10 (41 г.в.)"
+
+
+msgctxt "desc/entity/np_sdkfz250_11"
+msgid "np_sdkfz250_11"
+msgstr "Leichter Panzerspähwagen 2,8 cm Sd.Kfz.250/11 (41 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz301wanze"
+msgid "sdkfz301wanze"
+msgstr "Borgward IV «Wanze» mit Raketenpanzerbüchse (44 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz222"
+msgid "sdkfz222"
+msgstr "Leichter Panzerspähwagen 2 cm Sd.Kfz.222 (-39 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz223"
+msgid "sdkfz223"
+msgstr "Leichter Panzerspähwagen MG Sd.Kfz.223 (-39 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz231"
+msgid "sdkfz231"
+msgstr "Schwere Panzerspähwagen 2 cm Sd.Kfz.231 (-39 г.в.)"
+
+
+msgctxt "desc/entity/panhard"
+msgid "panhard"
+msgstr "Panzerspähwagen P204(f) (-39 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz232"
+msgid "sdkfz232"
+msgstr "Schwere Panzerspähwagen 2 cm Sd.Kfz.232 (Произведён в 39ом года.)"
+
+
+msgctxt "desc/entity/np_sdkfz250_9"
+msgid "np_sdkfz250_9"
+msgstr "Leichter Panzerspähwagen 2 cm Sd.Kfz.250/9 (41 г.в.)"
+
+
+msgctxt "desc/entity/nimrod"
+msgid "nimrod"
+msgstr "40M «Nimrod» (41 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz231_41"
+msgid "sdkfz231_41"
+msgstr "Schwere Panzerspähwagen 2 cm Sd.Kfz.231 (Произведён до 41ом году.)"
+
+
+msgctxt "desc/entity/np_sdkfz221"
+msgid "np_sdkfz221"
+msgstr "Leichter Panzerspähwagen 2,8 cm Sd.Kfz.221 Ausf. A (41 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz222_42"
+msgid "sdkfz222_42"
+msgstr "Leichter Panzerspähwagen 2 cm Sd.Kfz.222 Ausf. B (Произведён до 42ом году.) "
+
+
+msgctxt "desc/entity/sdkfz234"
+msgid "sdkfz234"
+msgstr "Schwerer Panzerspähwagen 5 cm Sd.Kfz.234/2 «Puma» (43 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz234_ger2"
+msgid "sdkfz234_ger2"
+msgstr "Schwerer Panzerspähwagen 5 cm Sd.Kfz.234/2 «Puma» (43 г.в.)"
+
+
+msgctxt "desc/entity/np_sdkfz234_1"
+msgid "np_sdkfz234_1"
+msgstr "Schwerer Panzerspähwagen 2 cm Sd.Kfz.234/1 (44 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz234_1"
+msgid "sdkfz234_1"
+msgstr "Schwerer Panzerspähwagen 2 cm Sd.Kfz.234/1 (44 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz234_3"
+msgid "sdkfz234_3"
+msgstr "Schwerer Panzerspähwagen 7,5 cm Sd.Kfz.234/3 (44 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz234_4"
+msgid "sdkfz234_4"
+msgstr "Schwerer Panzerspähwagen 7,5 cm Sd.Kfz.234/4 «Pakwagen» (44 г.в.)"
+
+
+msgctxt "desc/entity/schwarzlose_m_7_12"
+msgid "schwarzlose_m_7_12"
+msgstr "Maschinengewehr 07/12(О) (-39 г.в.)"
+
+
+msgctxt "desc/entity/mg34_lafette"
+msgid "mg34_lafette"
+msgstr "Maschinengewehr 34 (-39 г.в.)"
+
+
+msgctxt "desc/entity/mg34_dot"
+msgid "mg34_dot"
+msgstr "Maschinengewehr 34 (-39 г.в.)"
+
+
+msgctxt "desc/entity/mg34_dot2"
+msgid "mg34_dot2"
+msgstr "Maschinengewehr 34 (-39 г.в.)"
+
+
+msgctxt "desc/entity/mg34_stan"
+msgid "mg34_stan"
+msgstr "Maschinengewehr 34 (-39 г.в.)"
+
+
+msgctxt "desc/entity/mg34_tower"
+msgid "mg34_tower"
+msgstr "Maschinengewehr 34 (-39 г.в.)"
+
+
+msgctxt "desc/entity/mg42_tower"
+msgid "mg42_tower"
+msgstr "Maschinengewehr 42 (-39 г.в.)"
+
+
+msgctxt "desc/entity/mg34_zenit"
+msgid "mg34_zenit"
+msgstr "Maschinengewehr 34 (-39 г.в.)"
+
+
+msgctxt "desc/entity/mg1_ju52"
+msgid "mg1_ju52"
+msgstr "Maschinengewehr 131 (-39 г.в.)"
+
+
+msgctxt "desc/entity/mg2_ju52"
+msgid "mg2_ju52"
+msgstr "Maschinengewehr 15 (-39 г.в.)"
+
+
+msgctxt "desc/entity/zwillingssockel_36"
+msgid "zwillingssockel_36"
+msgstr "Zwillingssockel 36 (-39 г.в.)"
+
+
+msgctxt "desc/entity/zb_60"
+msgid "zb_60"
+msgstr "Maschinengewehr 39(t) (-39 г.в.)"
+
+
+msgctxt "desc/entity/mg42_lafette"
+msgid "mg42_lafette"
+msgstr "Maschinengewehr 42 (42 г.в.)"
+
+
+msgctxt "desc/entity/mg42_zenit"
+msgid "mg42_zenit"
+msgstr "Maschinengewehr 42 (42 г.в.)"
+
+
+msgctxt "desc/entity/mg42_stan"
+msgid "mg42_stan"
+msgstr "Maschinengewehr 42 (42 г.в.)"
+
+
+msgctxt "desc/entity/mg42_stan_fix"
+msgid "mg42_stan_fix"
+msgstr "Maschinengewehr 42 (42 г.в.)"
+
+
+msgctxt "desc/entity/mg34_stan_fix"
+msgid "mg34_stan_fix"
+msgstr "Maschinengewehr 34 (-39 г.в.)"
+
+
+msgctxt "desc/entity/zb_60_42"
+msgid "zb_60_42"
+msgstr "Maschinengewehr 39(t) (42 г.в.)"
+
+
+msgctxt "desc/entity/dshk_zenit_ger"
+msgid "dshk_zenit_ger"
+msgstr "Flugabwehrmaschinengewehr 39(t) (-39 г.в.)"
+
+
+msgctxt "desc/entity/2cm_flak38"
+msgid "2cm_flak38"
+msgstr "2 cm Flugabwehrkanone 38 (-39 г.в.)"
+
+
+msgctxt "desc/entity/2cm_flak38_fix"
+msgid "2cm_flak38_fix"
+msgstr "2 cm Flugabwehrkanone 38 (-39 г.в.)"
+
+
+msgctxt "desc/entity/flak38_wheeled"
+msgid "flak38_wheeled"
+msgstr "2 cm Flugabwehrkanone 38 (-39 г.в.)"
+
+
+msgctxt "desc/entity/flak-38-1"
+msgid "flak-38-1"
+msgstr "2 cm Flugabwehrkanone 38 (-39 г.в.)"
+
+
+msgctxt "desc/entity/2cm_flakvierling38"
+msgid "2cm_flakvierling38"
+msgstr "2 cm Flakvierling 38 (-39 г.в.)"
+
+
+msgctxt "desc/entity/2cm_flakvierling38_fix"
+msgid "2cm_flakvierling38_fix"
+msgstr "2 cm Flakvierling 38 (-39 г.в.)"
+
+
+msgctxt "desc/entity/flak38"
+msgid "flak38"
+msgstr "2 cm Flakvierling 38 (-39 г.в.)"
+
+
+msgctxt "desc/entity/flak38_platform"
+msgid "flak38_platform"
+msgstr "2 cm Flakvierling 38 (-39 г.в.)"
+
+
+msgctxt "desc/entity/37mm_flak_36"
+msgid "37mm_flak_36"
+msgstr "3,7 cm Flugabwehrkanone 36 (-39 г.в.)"
+
+
+msgctxt "desc/entity/37mm_flak_36_fix"
+msgid "37mm_flak_36_fix"
+msgstr "3,7 cm Flugabwehrkanone 36 (-39 г.в.)"
+
+
+msgctxt "desc/entity/37mm_flak_36_41"
+msgid "37mm_flak_36_41"
+msgstr "3,7 cm Flugabwehrkanone 36 (41 г.в.)"
+
+
+msgctxt "desc/entity/np_sdkfz251_17"
+msgid "np_sdkfz251_17"
+msgstr "2 cm Flak 38 auf Sonderkraftfahrzeug 251/17 (-39 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz251_17"
+msgid "sdkfz251_17"
+msgstr "2 cm Flak 38 auf Sonderkraftfahrzeug 251/17 (-39 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz7_1"
+msgid "sdkfz7_1"
+msgstr "2 cm Flakvierling 38 auf Sonderkraftfahrzeug 7/1 (-39 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz7_2a"
+msgid "sdkfz7_2a"
+msgstr "3,7 cm Flak 36 auf Sonderkraftfahrzeug 7/2A (-39 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz7_2a_41"
+msgid "sdkfz7_2a_41"
+msgstr "3,7 cm Flak 36 auf Sonderkraftfahrzeug 7/2A (41 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz7_2"
+msgid "sdkfz7_2"
+msgstr "3,7 cm Flak 43 auf Sonderkraftfahrzeug 7/2 (44 г.в.)"
+
+
+msgctxt "desc/entity/pz1"
+msgid "pz1"
+msgstr "Flakpanzer I (41 г.в.)"
+
+
+msgctxt "desc/entity/sws_flak"
+msgid "sws_flak"
+msgstr "3,7 cm Flak 43 auf Schwerer Wehrmacht Schlepper (43 г.в.)"
+
+
+msgctxt "desc/entity/welberwind"
+msgid "welberwind"
+msgstr "Flakpanzerkampfwagen IV «Welberwind» (44 г.в.)"
+
+
+msgctxt "desc/entity/ostwind"
+msgid "ostwind"
+msgstr "Flakpanzerkampfwagen IV «Ostwind» (44 г.в.)"
+
+
+msgctxt "desc/entity/kugelblitz"
+msgid "kugelblitz"
+msgstr "Flakpanzerkampfwagen IV «Kugelblitz» (44 г.в.)"
+
+
+msgctxt "desc/entity/coelian_I"
+msgid "coelian_I"
+msgstr "Flakpanzer V «Coelian» (45 г.в.)"
+
+
+msgctxt "desc/entity/20_mm_lahti_l_39"
+msgid "20_mm_lahti_l_39"
+msgstr "L-39 20 mm Lahti (-39 г.в.)"
+
+
+msgctxt "desc/entity/solothurn_s18_100"
+msgid "solothurn_s18_100"
+msgstr "Solothurn S-18/100 (-39 г.в.)"
+
+
+msgctxt "desc/entity/solothurn_s18_1000"
+msgid "solothurn_s18_1000"
+msgstr "Solothurn S-18/1000 (-39 г.в.)"
+
+
+msgctxt "desc/entity/solothurn_s18_1001"
+msgid "solothurn_s18_1001"
+msgstr "Solothurn S-18/1100 (-39 г.в.)"
+
+
+msgctxt "desc/entity/25mm_hotchkiss_mle34_ger"
+msgid "25mm_hotchkiss_mle34_ger"
+msgstr "2,5 cm Panzerabwehrkanone 112(f) (-39 г.в.)"
+
+
+msgctxt "desc/entity/25mm_hotchkiss_mle34_ger_42"
+msgid "25mm_hotchkiss_mle34_ger_42"
+msgstr "2,5 cm Panzerabwehrkanone 112(f) (42 г.в.)"
+
+
+msgctxt "desc/entity/37mm_bofors"
+msgid "37mm_bofors"
+msgstr "3,7 cm PaK 36(p) (-39 г.в.)"
+
+
+msgctxt "desc/entity/pak35"
+msgid "pak35"
+msgstr "3,7 cm Panzerabwehrkanone 36 (-39 г.в.)"
+
+
+msgctxt "desc/entity/pak36"
+msgid "pak36"
+msgstr "3,7 cm Panzerabwehrkanone 36 (-39 г.в.)"
+
+
+msgctxt "desc/entity/lg_40"
+msgid "lg_40"
+msgstr "7,5 cm Leichtgeschütz 40 (41 г.в.)"
+
+
+msgctxt "desc/entity/pak37-t"
+msgid "pak37-t"
+msgstr "4,7 cm Panzerabwehrkanone 37(t) (-39 г.в.)"
+
+
+msgctxt "desc/entity/pak37-t_42"
+msgid "pak37-t_42"
+msgstr "4,7 cm Panzerabwehrkanone 37(t) (42 г.в.)"
+
+
+msgctxt "desc/entity/np_pzb41"
+msgid "np_pzb41"
+msgstr "2,8 cm Schwere Panzerbüchse 41 (40 г.в.)"
+
+
+msgctxt "desc/entity/np_pzb41_44"
+msgid "np_pzb41_44"
+msgstr "2,8 cm Schwere Panzerbüchse 41 (44 г.в.)"
+
+
+msgctxt "desc/entity/pak41-le"
+msgid "pak41-le"
+msgstr "4,2 cm Leichte Panzerabwehrkanone 41 (41 г.в.)"
+
+
+msgctxt "desc/entity/pak41-le_44"
+msgid "pak41-le_44"
+msgstr "4,2 cm Leichte Panzerabwehrkanone 41 (44 г.в.)"
+
+
+msgctxt "desc/entity/75-18_mod35_obice"
+msgid "75-18_mod35_obice"
+msgstr "Obice da 75/18 Mod.35 (-39 г.в.)"
+
+
+msgctxt "desc/entity/75-18_mod35_obice_42"
+msgid "75-18_mod35_obice_42"
+msgstr "Obice da 75/18 Mod.35 (42 г.в.)"
+
+
+msgctxt "desc/entity/75-32_mod37_anticarro"
+msgid "75-32_mod37_anticarro"
+msgstr "Anticarro da 75/32 Mod.37 (40 г.в.)"
+
+
+msgctxt "desc/entity/75-32_mod37_anticarro_41"
+msgid "75-32_mod37_anticarro_41"
+msgstr "Anticarro da 75/32 Mod.37 (41 г.в.)"
+
+
+msgctxt "desc/entity/75-32_mod37_anticarro_44"
+msgid "75-32_mod37_anticarro_44"
+msgstr "Anticarro da 75/32 Mod.37 (44 г.в.)"
+
+
+msgctxt "desc/entity/pak38"
+msgid "pak38"
+msgstr "5 cm Panzerabwehrkanone 38 (40 г.в.)"
+
+
+msgctxt "desc/entity/pak38_41"
+msgid "pak38_41"
+msgstr "5 cm Panzerabwehrkanone 38 (41 г.в.)"
+
+
+msgctxt "desc/entity/pak38_44"
+msgid "pak38_44"
+msgstr "5 cm Panzerabwehrkanone 38 (44 г.в.)"
+
+
+msgctxt "desc/entity/pak97_38"
+msgid "pak97_38"
+msgstr "7,5 cm Panzerabwehrkanone 97/38(f) (41 г.в.)"
+
+
+msgctxt "desc/entity/pak97_38_42"
+msgid "pak97_38_42"
+msgstr "7,5 cm Panzerabwehrkanone 97/38(f) (42 г.в.)"
+
+
+msgctxt "desc/entity/pak97_38_44"
+msgid "pak97_38_44"
+msgstr "7,5 cm Panzerabwehrkanone 97/38(f) (44 г.в.)"
+
+
+msgctxt "desc/entity/pak36r"
+msgid "pak36r"
+msgstr "7,62 cm Panzerabwehrkanone 36(r) (41 г.в.)"
+
+
+msgctxt "desc/entity/pak36r_43"
+msgid "pak36r_43"
+msgstr "7,62 cm Panzerabwehrkanone 36(r) (43 г.в.)"
+
+
+msgctxt "desc/entity/pak36r_44"
+msgid "pak36r_44"
+msgstr "7,62 cm Panzerabwehrkanone 36(r) (44 г.в.)"
+
+
+msgctxt "desc/entity/pak41"
+msgid "pak41"
+msgstr "7,5 cm Panzerabwehrkanone 41 (41 г.в.)"
+
+
+msgctxt "desc/entity/pak41_45"
+msgid "pak41_45"
+msgstr "7,5 cm Panzerabwehrkanone 41 (45 г.в.)"
+
+
+msgctxt "desc/entity/pak40"
+msgid "pak40"
+msgstr "7,5 cm Panzerabwehrkanone 40 (42 г.в.)"
+
+
+msgctxt "desc/entity/pak40_44"
+msgid "pak40_44"
+msgstr "7,5 cm Panzerabwehrkanone 40 (44 г.в.)"
+
+
+msgctxt "desc/entity/pak40_45"
+msgid "pak40_45"
+msgstr "7,5 cm Panzerabwehrkanone 40 (45 г.в.)"
+
+
+msgctxt "desc/entity/pak43"
+msgid "pak43"
+msgstr "8,8 cm Panzerabwehrkanone 43/41(43 г.в.)"
+
+
+msgctxt "desc/entity/pak43_45"
+msgid "pak43_45"
+msgstr "8,8 cm Panzerabwehrkanone 43/41 (45 г.в.)"
+
+
+msgctxt "desc/entity/np_pak44"
+msgid "np_pak44"
+msgstr "12,8 cm Panzerabwehrkanone 44 (44 г.в.)"
+
+
+msgctxt "desc/entity/88mm_flak18"
+msgid "88mm_flak18"
+msgstr "8,8 cm Flugabwehrkanone 18 (-39 г.в.)"
+
+
+msgctxt "desc/entity/flak18"
+msgid "flak18"
+msgstr "8,8 cm Flugabwehrkanone 18 (-39 г.в.)"
+
+
+msgctxt "desc/entity/88mm_flak36"
+msgid "88mm_flak36"
+msgstr "8,8 cm Flugabwehrkanone 36 (Произведён в 39/43eм году.)"
+
+
+msgctxt "desc/entity/88mm_flak36_44"
+msgid "88mm_flak36_44"
+msgstr "8,8 cm Flugabwehrkanone 36 (44 г.в.)"
+
+
+msgctxt "desc/entity/88mm_flak36_46"
+msgid "88mm_flak36_46"
+msgstr "8,8 cm Flugabwehrkanone 36 (46+ г.в.)"
+
+
+msgctxt "desc/entity/flak37"
+msgid "flak37"
+msgstr "8,8 cm Flugabwehrkanone 37 (-39 г.в.)"
+
+
+msgctxt "desc/entity/88mm_flak41"
+msgid "88mm_flak41"
+msgstr "8,8 cm Flugabwehrkanone 41 (42 г.в.)"
+
+
+msgctxt "desc/entity/88mm_flak41_45"
+msgid "88mm_flak41_45"
+msgstr "8,8 cm Flugabwehrkanone 41 (45 г.в.)"
+
+
+msgctxt "desc/entity/flak41"
+msgid "flak41"
+msgstr "8,8 cm Flugabwehrkanone 41 (42 г.в.)"
+
+
+msgctxt "desc/entity/flak40-fixed"
+msgid "flak40-fixed"
+msgstr "12,8 cm Flakzwilling 40/2 (42 г.в.)"
+
+
+msgctxt "desc/entity/flak40-fixed_vlss"
+msgid "flak40-fixed_vlss"
+msgstr "12,8 cm Flakzwilling 40/2 (42 г.в.)"
+
+
+msgctxt "desc/entity/5_cm_granatwerfer_36"
+msgid "5_cm_granatwerfer_36"
+msgstr "5 cm Granatwerfer 36 (-39 г.в.)"
+
+
+msgctxt "desc/entity/sgrw_34"
+msgid "sgrw_34"
+msgstr "8 cm Granatwerfer 34 (-39 г.в.)"
+
+
+msgctxt "desc/entity/sgrw_35"
+msgid "sgrw_35"
+msgstr "10 cm Nebelwerfer 35 (-39 г.в.)"
+
+
+msgctxt "desc/entity/sgrw_42"
+msgid "sgrw_42"
+msgstr "12 cm Granatwerfer 42 (43 г.в.)"
+
+
+msgctxt "desc/entity/np_sdkfz251_2"
+msgid "np_sdkfz251_2"
+msgstr "Sonderkraftfahrzeug 251/2 8 cm Granatwerfer (-39 г.в.)   "
+
+
+msgctxt "desc/entity/sdkfz251_2"
+msgid "sdkfz251_2"
+msgstr "Sonderkraftfahrzeug 251/2 12 cm Granatwerfer (-39 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz251m"
+msgid "sdkfz251m"
+msgstr "Sonderkraftfahrzeug 251/2 12 cm Granatwerfer (-39 г.в.)"
+
+
+msgctxt "desc/entity/75mm_leig18"
+msgid "75mm_leig18"
+msgstr "7,5 cm Leichtes Infanteriegeschütz 18 (-39 г.в.)"
+
+
+msgctxt "desc/entity/122mm_howitzer_m1910_30_ger"
+msgid "122mm_howitzer_m1910_30_ger"
+msgstr "12,2 cm Leichte Feldhaubitze 388(r) (41 г.в.)"
+
+
+msgctxt "desc/entity/np_sig33"
+msgid "np_sig33"
+msgstr "15 cm Schweres Infanterie Geschutz 33 (-39 г.в.)"
+
+
+msgctxt "desc/entity/155mm_mle1917_ger"
+msgid "155mm_mle1917_ger"
+msgstr "15,5 cm Schwere Feldhaubitze 414(f) (-39 г.в.)"
+
+
+msgctxt "desc/entity/105mm_mle13_pol"
+msgid "105mm_mle13_pol"
+msgstr "10,5 cm Kanone 29(p) (-39 г.в.)"
+
+
+msgctxt "desc/entity/lefh18"
+msgid "lefh18"
+msgstr "10,5 cm Leichte Feldhaubitze 18M (-39 г.в.)"
+
+
+msgctxt "desc/entity/10cm_k18"
+msgid "10cm_k18"
+msgstr "10 cm Schwere Feldkanone 18 (-39 г.в.)"
+
+
+msgctxt "desc/entity/155gpf"
+msgid "155gpf"
+msgstr "15,5 cm Kanone 418(f) (-39 г.в.)"
+
+
+msgctxt "desc/entity/sfh18"
+msgid "sfh18"
+msgstr "15 cm Schwere Feldhaubitze 18 (-39 г.в.)"
+
+
+msgctxt "desc/entity/morser18"
+msgid "morser18"
+msgstr "21 cm Morser 18 (-39 г.в.)"
+
+
+msgctxt "desc/entity/nebelwerfer41"
+msgid "nebelwerfer41"
+msgstr "15 cm Nebelwerfer 41 (39 г.в.)"
+
+
+msgctxt "desc/entity/swg41"
+msgid "swg41"
+msgstr "28/32 cm Nebelwerfer 41 (41 г.в.)"
+
+
+msgctxt "desc/entity/nebelwerfer42"
+msgid "nebelwerfer42"
+msgstr "28/32 cm Nebelwerfer 41 (41 г.в.)"
+
+
+msgctxt "desc/entity/sturmpz1"
+msgid "sturmpz1"
+msgstr "15 cm sIG 33 Sfl. auf Pz.KpfW.I Ausf B (-39 г.в.)"
+
+
+msgctxt "desc/entity/np_sdkfz135_1"
+msgid "np_sdkfz135_1"
+msgstr "Geschuetzwagen Lr.S. (f) (Sd.Kfz. 135/1) (42 г.в.)"
+
+
+msgctxt "desc/entity/hummel"
+msgid "hummel"
+msgstr "15 cm Panzerhaubitze auf Geschutzwagen III/IV (42 г.в.)"
+
+
+msgctxt "desc/entity/wespe"
+msgid "wespe"
+msgstr "Feldhaubitze 18/2 auf Panzerkampfwagen II (43 г.в.)"
+
+
+msgctxt "desc/entity/grille"
+msgid "grille"
+msgstr "Sturmpanzer 38(t) Ausf. M (43 г.в.)"
+
+
+msgctxt "desc/entity/karlthor"
+msgid "karlthor"
+msgstr "Gerät 040 (40 г.в.)"
+
+
+msgctxt "desc/entity/np_sdkfz251_1w"
+msgid "np_sdkfz251_1w"
+msgstr "28 cm Sonderkraftfahrzeug 251/1 Wurfrahmen 40 (40 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz251_1_stuka"
+msgid "sdkfz251_1_stuka"
+msgstr "30 cm Sonderkraftfahrzeug 251/1 Wurfrahmen 42 (43 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz4"
+msgid "sdkfz4"
+msgstr "15 cm Panzerwerfer 42 auf Sf (43 г.в.)"
+
+
+msgctxt "desc/entity/ft17"
+msgid "ft17"
+msgstr "Panzerkampfwagen 17R 730m(f) (-39 г.в.)"
+
+
+msgctxt "desc/entity/ft17m31"
+msgid "ft17m31"
+msgstr "Panzerkampfwagen 17R 730c(f) (3.7cm) (-39 г.в.)"
+
+
+msgctxt "desc/entity/pz1b"
+msgid "pz1b"
+msgstr "Panzerkampfwagen I Ausf. A (-39 г.в.)"
+
+
+msgctxt "desc/entity/pz2c"
+msgid "pz2c"
+msgstr "Panzerkampfwagen II Ausf. C (-39 г.в.)"
+
+
+msgctxt "desc/entity/tks-mg"
+msgid "tks-mg"
+msgstr "Panzerkampfwagen TKS(p) (-39 г.в.)"
+
+
+msgctxt "desc/entity/tks-20mm"
+msgid "tks-20mm"
+msgstr "Panzerkampfwagen TKS(p) (2cm) (-39 г.в.)"
+
+
+msgctxt "desc/entity/pz2flamm"
+msgid "pz2flamm"
+msgstr "Panzerkampfwagen II (F) (40 г.в.)"
+
+
+msgctxt "desc/entity/pz2f"
+msgid "pz2f"
+msgstr "Panzerkampfwagen II Ausf. F (40 г.в.)"
+
+
+msgctxt "desc/entity/pz2g1"
+msgid "pz2g1"
+msgstr "Panzerkampfwagen II Ausf. G (41 г.в.)"
+
+
+msgctxt "desc/entity/pz2j"
+msgid "pz2j"
+msgstr "Panzerkampfwagen II Ausf. J (42 г.в.)"
+
+
+msgctxt "desc/entity/pz2l"
+msgid "pz2l"
+msgstr "Panzerspähwagen II (2cm) «Luchs» (43 г.в.)"
+
+
+msgctxt "desc/entity/pz2-50"
+msgid "pz2-50"
+msgstr "Panzerspähwagen II (5cm) «Luchs» (43 г.в.)"
+
+
+msgctxt "desc/entity/7tp"
+msgid "7tp"
+msgstr "Panzerkampfwagen «7TP» 731(p) (-39 г.в.)"
+
+
+msgctxt "desc/entity/pz35t"
+msgid "pz35t"
+msgstr "Panzerkampfwagen 35(t) Ausf. A (-39 г.в.)"
+
+
+msgctxt "desc/entity/pz38t"
+msgid "pz38t"
+msgstr "Panzerkampfwagen 38(t) Ausf. F (-39 г.в.)"
+
+
+msgctxt "desc/entity/vk1602"
+msgid "vk1602"
+msgstr "Gefechts Aufklarer Versuchskraftfahrzeug 1602 (44 г.в.)"
+
+
+msgctxt "desc/entity/r35"
+msgid "r35"
+msgstr "Panzerkampfwagen 35R 731(f) (-39 г.в.)"
+
+
+msgctxt "desc/entity/h39"
+msgid "h39"
+msgstr "Panzerkampfwagen 39H 735(f) (-39 г.в.)"
+
+
+msgctxt "desc/entity/d2"
+msgid "d2"
+msgstr "Panzerkampfwagen D2 733(f) (-39 г.в.)"
+
+
+msgctxt "desc/entity/s35"
+msgid "s35"
+msgstr "Panzerkampfwagen S35 739(f) (-39 г.в.)"
+
+
+msgctxt "desc/entity/pz3e"
+msgid "pz3e"
+msgstr "Panzerkampfwagen III Ausf. D (-39 г.в.)"
+
+
+msgctxt "desc/entity/pz3e_39"
+msgid "pz3e_39"
+msgstr "Panzerkampfwagen III Ausf. E (-39 г.в.)"
+
+
+msgctxt "desc/entity/pz3f"
+msgid "pz3f"
+msgstr "Panzerkampfwagen III Ausf. F (-39 г.в.)"
+
+
+msgctxt "desc/entity/pz3g"
+msgid "pz3g"
+msgstr "Panzerkampfwagen III Ausf. H (40 г.в.)"
+
+
+msgctxt "desc/entity/pz3j"
+msgid "pz3j"
+msgstr "Panzerkampfwagen III Ausf. J (41 г.в.)"
+
+
+msgctxt "desc/entity/pz3"
+msgid "pz3"
+msgstr "Panzerkampfwagen III Ausf. J1 (41 г.в.)"
+
+
+msgctxt "desc/entity/pz3n"
+msgid "pz3n"
+msgstr "Panzerkampfwagen III Ausf. N (42 г.в.)"
+
+
+msgctxt "desc/entity/pz3l"
+msgid "pz3l"
+msgstr "Panzerkampfwagen III Ausf. L (42 г.в.)"
+
+
+msgctxt "desc/entity/pz3_m"
+msgid "pz3_m"
+msgstr "Panzerkampfwagen III Ausf. M (42 г.в.)"
+
+
+msgctxt "desc/entity/pz3_m_flamer"
+msgid "pz3_m_flamer"
+msgstr "Panzerkampfwagen III (F) (43 г.в.)"
+
+
+msgctxt "desc/entity/pz4c"
+msgid "pz4c"
+msgstr "Panzerkampfwagen IV Ausf. С (-39 г.в.)"
+
+
+msgctxt "desc/entity/pz4d"
+msgid "pz4d"
+msgstr "Panzerkampfwagen IV Ausf. D (-39 г.в.)"
+
+
+msgctxt "desc/entity/pz4e"
+msgid "pz4e"
+msgstr "Panzerkampfwagen IV Ausf. E (40 г.в.)"
+
+
+msgctxt "desc/entity/pz4f_1"
+msgid "pz4f_1"
+msgstr "Panzerkampfwagen IV Ausf. F1 (41 г.в.)"
+
+
+msgctxt "desc/entity/pz4f_U"
+msgid "pz4f_U"
+msgstr "Panzerkampfwagen IV Ausf. F1 Umbau (41 г.в.)"
+
+
+msgctxt "desc/entity/pz4f_2"
+msgid "pz4f_2"
+msgstr "Panzerkampfwagen IV Ausf. F2 (42 г.в.)"
+
+
+msgctxt "desc/entity/pz4g"
+msgid "pz4g"
+msgstr "Panzerkampfwagen IV Ausf. G (42 г.в.)"
+
+
+msgctxt "desc/entity/pz4h"
+msgid "pz4h"
+msgstr "Panzerkampfwagen IV Ausf. H (43 г.в.)"
+
+
+msgctxt "desc/entity/pz4j"
+msgid "pz4j"
+msgstr "Panzerkampfwagen IV Ausf. J (44 г.в.)"
+
+
+msgctxt "desc/entity/pz5d"
+msgid "pz5d"
+msgstr "Panzerkampfwagen V Ausf. D «Panther» (43 г.в.)"
+
+
+msgctxt "desc/entity/pz5a"
+msgid "pz5a"
+msgstr "Panzerkampfwagen V  Ausf. A «Panther» (43 г.в.)"
+
+
+msgctxt "desc/entity/pz5g"
+msgid "pz5g"
+msgstr "Panzerkampfwagen V Ausf. G «Panther» (44 г.в.)"
+
+
+msgctxt "desc/entity/panther_ii_88mm"
+msgid "panther_ii_88mm"
+msgstr "Panzerkampfwagen V Ausf. H «Panther» (45 г.в.)"
+
+
+msgctxt "desc/entity/e-50_75l100"
+msgid "e-50_75l100"
+msgstr "Panzerkampfwagen E 50 (46+ г.в.)"
+
+
+msgctxt "desc/entity/b1"
+msgid "b1"
+msgstr "Panzerkampfwagen B2 740(f) (-39 г.в.)"
+
+
+msgctxt "desc/entity/b1bis"
+msgid "b1bis"
+msgstr "Panzerkampfwagen B2 Bis 740(f) (-39 г.в.)"
+
+
+msgctxt "desc/entity/fcm2c"
+msgid "fcm2c"
+msgstr "Panzerkampfwagen FCM 2C(f) (-39 г.в.)"
+
+
+msgctxt "desc/entity/fcm2c_bis"
+msgid "fcm2c_bis"
+msgstr " Panzerkampfwagen FCM 2CB(f) (-39 г.в.)"
+
+
+msgctxt "desc/entity/b1ter"
+msgid "b1ter"
+msgstr "Panzerkampfwagen B2 Ter 740(f) (40 г.в.)"
+
+
+msgctxt "desc/entity/b40"
+msgid "b40"
+msgstr "Panzerkampfwagen B40 740(f) (41 г.в.)"
+
+
+msgctxt "desc/entity/vk3601h1v2"
+msgid "vk3601h1v2"
+msgstr " Panzerkampfwagen VK3601 (H) (41 г.в.)"
+
+
+msgctxt "desc/entity/tiger_i_h1"
+msgid "tiger_i_h1"
+msgstr "Panzerkampfwagen VI H «Tiger» (42 г.в.)"
+
+
+msgctxt "desc/entity/tiger_i"
+msgid "tiger_i"
+msgstr "Panzerkampfwagen VI H Ausf. H1 «Tiger» (43 г.в.)"
+
+
+msgctxt "desc/entity/tiger_p"
+msgid "tiger_p"
+msgstr "Panzerkampfwagen VI P «Tiger» (42 г.в.)"
+
+
+msgctxt "desc/entity/kt"
+msgid "kt"
+msgstr "Panzerkampfwagen VI Ausf. B(P) «Tiger» (43 г.в.)"
+
+
+msgctxt "desc/entity/pz6e"
+msgid "pz6e"
+msgstr "Panzerkampfwagen VI Ausf. E «Tiger» (44 г.в.)"
+
+
+msgctxt "desc/entity/pz6bh"
+msgid "pz6bh"
+msgstr "Panzerkampfwagen VI Ausf. B «Tiger» (44 г.в.)"
+
+
+msgctxt "desc/entity/kt_h_105mm"
+msgid "kt_h_105mm"
+msgstr "Panzerkampfwagen VI Ausf. F «Tiger» (45 г.в.)"
+
+
+msgctxt "desc/entity/maus"
+msgid "maus"
+msgstr "Panzerkampfwagen VIII «Maus» (45 г.в.)"
+
+
+msgctxt "desc/entity/e-75_88l100"
+msgid "e-75_88l100"
+msgstr "Panzerkampfwagen E 75 (46+ г.в.)"
+
+
+msgctxt "desc/entity/e-100b"
+msgid "e-100b"
+msgstr "Panzerkampfwagen E 100 (46+ г.в.)"
+
+
+msgctxt "desc/entity/panzerjager"
+msgid "panzerjager"
+msgstr "Panzerjager I Ausf.B (-39 г.в.)"
+
+
+msgctxt "desc/entity/np_lorrai_37_47"
+msgid "np_lorrai_37_47"
+msgstr "4.7cm Pak181(f) PzJager Lorraine Schlepper(f) (-39 г.в.)"
+
+
+msgctxt "desc/entity/stug3b"
+msgid "stug3b"
+msgstr "Sturmgeschutz III Ausf. B (40 г.в.)"
+
+
+msgctxt "desc/entity/stug3c"
+msgid "stug3c"
+msgstr "Sturmgeschutz III Ausf. C (41 г.в.)"
+
+
+msgctxt "desc/entity/marder139"
+msgid "marder139"
+msgstr "Panzerjäger 38(t) für 7,62 cm PaK 36(r) (41 г.в.)"
+
+
+msgctxt "desc/entity/dickermax"
+msgid "dickermax"
+msgstr "10,5 cm Gepanzerte Selbstfahrlafette (41 г.в.)"
+
+
+msgctxt "desc/entity/marder135"
+msgid "marder135"
+msgstr "Marder I «Marten» (42 г.в.)"
+
+
+msgctxt "desc/entity/marder_3h"
+msgid "marder_3h"
+msgstr "Marder III Ausf. H (42 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz7_flak18"
+msgid "sdkfz7_flak18"
+msgstr "8,8 cm Flak 18 auf Zugkraftwagen 8t (42 г.в.)"
+
+
+msgctxt "desc/entity/stug3f"
+msgid "stug3f"
+msgstr "Sturmgeschutz III Ausf. F (42 г.в.)"
+
+
+msgctxt "desc/entity/stug3f1"
+msgid "stug3f1"
+msgstr "Sturmgeschutz III Ausf. F/1 (42 г.в.)"
+
+
+msgctxt "desc/entity/stug3f_8"
+msgid "stug3f_8"
+msgstr "Sturmgeschutz III Ausf. F/8 (42 г.в.)"
+
+
+msgctxt "desc/entity/stug3g"
+msgid "stug3g"
+msgstr "Sturmgeschutz III Ausf. G (42 г.в.)"
+
+
+msgctxt "desc/entity/stuh42f"
+msgid "stuh42f"
+msgstr "Sturmhaubitze 42 Ausf. F (42 г.в.)"
+
+
+msgctxt "desc/entity/sturer_emil"
+msgid "sturer_emil"
+msgstr "12,8 cm Selbstfahrlafette auf VK30.01(H) (42 г.в.)"
+
+
+msgctxt "desc/entity/sig33b"
+msgid "sig33b"
+msgstr "Sturm-Infanteriegeschütz 33 Ausf.B (42 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz303"
+msgid "sdkfz303"
+msgstr "Sonderkraftfahrzeug 303 B «Goliath» V (43 г.в.)"
+
+
+msgctxt "desc/entity/hetzer"
+msgid "hetzer"
+msgstr "Jagdpanzer 38(t) (43 г.в.)"
+
+
+msgctxt "desc/entity/stug4g"
+msgid "stug4g"
+msgstr "Sturmgeschutz IV (43 г.в.)"
+
+
+msgctxt "desc/entity/stuh42"
+msgid "stuh42"
+msgstr "Sturmhaubitze 42 Ausf. G (43 г.в.)"
+
+
+msgctxt "desc/entity/jpz4l48"
+msgid "jpz4l48"
+msgstr "Jagdpanzer IV/48 (43 г.в.)"
+
+
+msgctxt "desc/entity/nashorn"
+msgid "nashorn"
+msgstr "8,8 cm Geschutzwagen III/IV «Nashorn» (43 г.в.)"
+
+
+msgctxt "desc/entity/brummbar"
+msgid "brummbar"
+msgstr "Sturmpanzer 43 (43 г.в.)"
+
+
+msgctxt "desc/entity/elefant"
+msgid "elefant"
+msgstr "Panzerjager Tiger (P) (43 г.в.)"
+
+
+msgctxt "desc/entity/sdkfz8"
+msgid "sdkfz8"
+msgstr "8,8 cm Flak 18 auf Zugkraftwagen 12t (44 г.в.)"
+
+
+msgctxt "desc/entity/jpz4l70a"
+msgid "jpz4l70a"
+msgstr "Jagdpanzer IV/70(A) (44 г.в.)"
+
+
+msgctxt "desc/entity/jagdpanzer_iv"
+msgid "jagdpanzer_iv"
+msgstr "Jagdpanzer IV/70(V) (44 г.в.)"
+
+
+msgctxt "desc/entity/jagdpanther"
+msgid "jagdpanther"
+msgstr "Panzerjager V «Jagdpanther» (44 г.в.)"
+
+
+msgctxt "desc/entity/jagdtiger"
+msgid "jagdtiger"
+msgstr "Panzerjager VI Ausf. B «Tiger» (44 г.в.)"
+
+
+msgctxt "desc/entity/sturmtiger"
+msgid "sturmtiger"
+msgstr "Sturmmorserwagen VI «Tiger» 606/4 mit 38 cm RW 61 (45 г.в.) "
+
+
+msgctxt "desc/entity/jagdpz_e100a"
+msgid "jagdpz_e100a"
+msgstr "Panzerjager E 100 (46+ г.в.) "
+
+
+msgctxt "desc/entity/fw190f8"
+msgid "fw190f8"
+msgstr "Focke-Wulf FW. 190 F-8/U1 (П) (42 г.в.)"
+
+
+msgctxt "desc/entity/fw190f8_torpedo"
+msgid "fw190f8_torpedo"
+msgstr "Focke-Wulf FW. 190 (Т/П) F-8/U2 (42 г.в.)"
+
+
+msgctxt "desc/entity/bf109g"
+msgid "bf109g"
+msgstr "Messerschmitt Bf. 109 E-3 (П) (-39 г.в.)"
+
+
+msgctxt "desc/entity/bf109g_b"
+msgid "bf109g_b"
+msgstr "Messerschmitt Bf. 109 E-3 (П) (-39 г.в.)"
+
+
+msgctxt "desc/entity/bf110"
+msgid "bf110"
+msgstr "Messerschmitt Bf. 110 С-4/B «Zerstörer Jabo» (Бx12/П) (-39 г.в.)"
+
+
+msgctxt "desc/entity/ju-87_b"
+msgid "ju-87_b"
+msgstr "Junkers Ju. 87 A (Бx4) (-39 г.в.)"
+
+
+msgctxt "desc/entity/ju-87"
+msgid "ju-87"
+msgstr "Junkers Ju. 87 A (Бx4) (-39 г.в.)"
+
+
+msgctxt "desc/entity/ju87g2"
+msgid "ju87g2"
+msgstr "Junkers Ju. 87 G (П) (41 г.в.)"
+
+
+msgctxt "desc/entity/hs129"
+msgid "hs129"
+msgstr "Henschel Hs. 129 B-2/Wa (П) (43 г.в.)"
+
+
+msgctxt "desc/entity/hs129_75"
+msgid "hs129_75"
+msgstr "Henschel Hs. 129 B-3/Wa (П) (44 г.в.)"
+
+
+msgctxt "desc/entity/do-24t"
+msgid "do-24t"
+msgstr "Dornier Do. 24"
+
+
+msgctxt "desc/entity/ju-52"
+msgid "ju-52"
+msgstr "Junkers Ju. 52"
+
+
+msgctxt "desc/entity/ju-52_destroyed"
+msgid "ju-52_destroyed"
+msgstr "Junkers Ju. 52"
+
+
+msgctxt "desc/entity/k18"
+msgid "k18"
+msgstr "17 cm Kanone 18"
+
+
+msgctxt "desc/entity/10_5cm_k331f"
+msgid "10_5cm_k331f"
+msgstr "10,5 cm Leichte Kanone 331(f) (-39 г.в.)"
+
+
+msgctxt "desc/entity/sgrw42"
+msgid "sgrw42"
+msgstr "8 cm Granatwerfer 34 (-39 г.в.)"
+
+
+msgctxt "desc/entity/veteran_tiger"
+msgid "veteran_tiger"
+msgstr "Panzerkampfwagen VI «Tiger»"
+
+
+msgctxt "desc/entity/adn_destroyer"
+msgid "adn_destroyer"
+msgstr "Cacciatorpediniere Classe Navigatori"
+
+
+msgctxt "desc/entity/destroyer_k"
+msgid "destroyer_k"
+msgstr "Cacciatorpediniere"
+
+
+msgctxt "desc/entity/120mm_l50"
+msgid "120mm_l50"
+msgstr "120 mm/50 Ansaldo Mod. 1940 x2"
+
+
+msgctxt "desc/entity/mk10"
+msgid "mk10"
+msgstr "40 mm 40/39 Mod. 1915"
+
+
+msgctxt "desc/entity/armor_barge"
+msgid "armor_barge"
+msgstr "Бронированая Баржа"
+
+
+msgctxt "desc/entity/armor_barge_cs1"
+msgid "armor_barge_cs1"
+msgstr "Бронированая Баржа"
+
+
+msgctxt "desc/entity/armor_barge_cs2"
+msgid "armor_barge_cs2"
+msgstr "Бронированая Баржа"
+
+
+msgctxt "desc/entity/u-boat"
+msgid "u-boat"
+msgstr "U Boot Klasse VII"
+
+
+msgctxt "desc/entity/pz3m"
+msgid "pz3m"
+msgstr "Minenräumpanzer III (42 г.в.)"
+
+
+msgctxt "desc/entity/gmc_inf"
+msgid "gmc_inf"
+msgstr "GMC CCKW Cargo Truck (41 г.в.)"
+
+
+msgctxt "desc/entity/dodge"
+msgid "dodge"
+msgstr "Dodge 4x4 Truck (-39 г.в.)"
+
+
+msgctxt "desc/entity/chevrolet"
+msgid "chevrolet"
+msgstr "Chevrolet G506 Cargo Truck (-39 г.в.)"
+
+
+msgctxt "desc/entity/chevrolet_art"
+msgid "chevrolet_art"
+msgstr "Chevrolet G506 Ammunition (-39 г.в.)"
+
+
+msgctxt "desc/entity/gmc"
+msgid "gmc"
+msgstr "GMC CCKW Cargo Truck (41 г.в.)"
+
+
+msgctxt "desc/entity/gmc_cckw"
+msgid "gmc_cckw"
+msgstr "GMC CCKW Cargo Truck (41 г.в.)"
+
+
+msgctxt "desc/entity/gmc_art"
+msgid "gmc_art"
+msgstr "GMC CCW353 Ammunition (41 г.в.)"
+
+
+msgctxt "desc/entity/np_m3b_us"
+msgid "np_m3b_us"
+msgstr "Half-Track M3B (-39 г.в.)"
+
+
+msgctxt "desc/entity/m4hst"
+msgid "m4hst"
+msgstr "High-Speed Tractor M4 (43 г.в.)"
+
+
+msgctxt "desc/entity/gmc_fuel"
+msgid "gmc_fuel"
+msgstr "GMC CCKW Gasoline Tanker  (-39 г.в.)"
+
+
+msgctxt "desc/entity/gmc_eng"
+msgid "gmc_eng"
+msgstr "GMC CCKW Engineering (-39 г.в.)"
+
+
+msgctxt "desc/entity/hd"
+msgid "hd"
+msgstr "Harley-Davidson UA Motorcycle (-39 г.в.)  "
+
+
+msgctxt "desc/entity/np_willys50"
+msgid "np_willys50"
+msgstr ".50 Willys MB (-39 г.в.)"
+
+
+msgctxt "desc/entity/willysmb"
+msgid "willysmb"
+msgstr ".30 Willys MB (-39 г.в.)"
+
+
+msgctxt "desc/entity/willysat"
+msgid "willysat"
+msgstr "M1 Willys AT (43 г.в.)"
+
+
+msgctxt "desc/entity/np_willysat"
+msgid "np_willysat"
+msgstr "M1 Willys AT (43 г.в.)"
+
+
+msgctxt "desc/entity/m3a1scout_us"
+msgid "m3a1scout_us"
+msgstr "Scout Car M3 (-39 г.в.)"
+
+
+msgctxt "desc/entity/np_t14_us"
+msgid "np_t14_us"
+msgstr "Half-Track T14 (40 г.в.)"
+
+
+msgctxt "desc/entity/np_m2_us"
+msgid "np_m2_us"
+msgstr "Half-Track M2 (41 г.в.)"
+
+
+msgctxt "desc/entity/np_m3_us"
+msgid "np_m3_us"
+msgstr "Half-Track M3 (41 г.в.)"
+
+
+msgctxt "desc/entity/m3_usa"
+msgid "m3_usa"
+msgstr "Half-Track M3 (41 г.в.)"
+
+
+msgctxt "desc/entity/staghound"
+msgid "staghound"
+msgstr "Armored Car M6 (42 г.в.)"
+
+
+msgctxt "desc/entity/m20"
+msgid "m20"
+msgstr "Armored Utility Car M20 (43 г.в.)"
+
+
+msgctxt "desc/entity/m8grayhound"
+msgid "m8grayhound"
+msgstr "Light Armored Car M8 (43 г.в.)"
+
+
+msgctxt "desc/entity/browning_stan"
+msgid "browning_stan"
+msgstr "M1919 Machine Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/browning_stan_fix"
+msgid "browning_stan_fix"
+msgstr "M1919 Machine Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/30_browning_m1917"
+msgid "30_browning_m1917"
+msgstr "M1917 Machine Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/30_browning_m1919a4"
+msgid "30_browning_m1919a4"
+msgstr "M1919A4 Machine Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/50_browning_m2hb"
+msgid "50_browning_m2hb"
+msgstr "M2 Machine Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/50_browning_m2hb_41"
+msgid "50_browning_m2hb_41"
+msgstr "M2 Machine Gun (41 г.в.)"
+
+
+msgctxt "desc/entity/dshk_zenit_usa"
+msgid "dshk_zenit_usa"
+msgstr "M2 Machine Gun AA (-39 г.в.)"
+
+
+msgctxt "desc/entity/maxson"
+msgid "maxson"
+msgstr "Quadmount M45 (43 г.в.)"
+
+
+msgctxt "desc/entity/maxson_fix"
+msgid "maxson_fix"
+msgstr "Quadmount M45 (43 г.в.)"
+
+
+msgctxt "desc/entity/m1_aa"
+msgid "m1_aa"
+msgstr "37 mm Gun M1 ZZ (-39 г.в.)"
+
+
+msgctxt "desc/entity/bofors"
+msgid "bofors"
+msgstr "40 mm Gun M1 (42 г.в.)"
+
+
+msgctxt "desc/entity/np_m15a1"
+msgid "np_m15a1"
+msgstr "Combination Gun Motor Carriage M15 (40 г.в.)"
+
+
+msgctxt "desc/entity/m16"
+msgid "m16"
+msgstr "Multiple Gun Motor Carriage M16 (43 г.в.)"
+
+
+msgctxt "desc/entity/m19"
+msgid "m19"
+msgstr "Multiple Gun Motor Carriage M19 (44 г.в.)"
+
+
+msgctxt "desc/entity/m3cannon"
+msgid "m3cannon"
+msgstr "37 mm Gun M3 (39/40 г.в.)"
+
+
+msgctxt "desc/entity/m3cannon_1940"
+msgid "m3cannon_1940"
+msgstr "37 mm Gun M3 (40 г.в.)"
+
+
+msgctxt "desc/entity/m3cannon_1941"
+msgid "m3cannon_1941"
+msgstr "37 mm Gun M3 (41 г.в.)"
+
+
+msgctxt "desc/entity/T1E1"
+msgid "T1E1"
+msgstr ".60 Anti-Tank Rifle T1 (42 г.в.)"
+
+
+msgctxt "desc/entity/75mm1897a4"
+msgid "75mm1897a4"
+msgstr "75 mm Gun M1917A4 (-39 г.в.)"
+
+
+msgctxt "desc/entity/75mm1897a4_41"
+msgid "75mm1897a4_41"
+msgstr "75 mm Gun M1917A4 (41 г.в.)"
+
+
+msgctxt "desc/entity/75mm1897a4_42"
+msgid "75mm1897a4_42"
+msgstr "75 mm Gun M1917A4 (42 г.в.)"
+
+
+msgctxt "desc/entity/75mm1897a4_44"
+msgid "75mm1897a4_44"
+msgstr "75 mm Gun M1917A4 (44 г.в.)"
+
+
+msgctxt "desc/entity/m1_57mm"
+msgid "m1_57mm"
+msgstr "57 mm Gun M1 (42 г.в.)"
+
+
+msgctxt "desc/entity/m1_57mm_43"
+msgid "m1_57mm_43"
+msgstr "57 mm Gun M1 (43 г.в.)"
+
+
+msgctxt "desc/entity/m5"
+msgid "m5"
+msgstr "76 mm Gun M5 (42 г.в.)"
+
+
+msgctxt "desc/entity/m5_43"
+msgid "m5_43"
+msgstr "76 mm Gun M5 (43 г.в.)"
+
+
+msgctxt "desc/entity/np_m5cannon"
+msgid "np_m5cannon"
+msgstr "76 mm Gun M5/M6 (44 г.в.)"
+
+
+msgctxt "desc/entity/np_m5cannon_hvap"
+msgid "np_m5cannon_hvap"
+msgstr "76 mm Gun M5/M6 HVAP (45 г.в.)"
+
+
+msgctxt "desc/entity/90_T6"
+msgid "90_T6"
+msgstr "90 mm Gun T6 (43 г.в.)"
+
+
+msgctxt "desc/entity/90_T6_45"
+msgid "90_T6_45"
+msgstr "90 mm Gun T6 (45 г.в.)"
+
+
+msgctxt "desc/entity/105_T8"
+msgid "105_T8"
+msgstr "105 mm Gun T8 (44 г.в.)"
+
+
+msgctxt "desc/entity/105_T8_45"
+msgid "105_T8_45"
+msgstr "105 mm Gun T8 (45 г.в.)"
+
+
+msgctxt "desc/entity/m2aa"
+msgid "m2aa"
+msgstr "90 mm Gun M1 (40 г.в.)"
+
+
+msgctxt "desc/entity/m2aa_43"
+msgid "m2aa_43"
+msgstr "90 mm Gun M1A1 (43 г.в.)"
+
+
+msgctxt "desc/entity/m2aa_44"
+msgid "m2aa_44"
+msgstr "90 mm Gun M2 (44 г.в.)"
+
+
+msgctxt "desc/entity/m2aa_46"
+msgid "m2aa_46"
+msgstr "90 mm Gun M2 HVAP (46+ г.в.)"
+
+
+msgctxt "desc/entity/60_mm_mortar_m2"
+msgid "60_mm_mortar_m2"
+msgstr "60 mm Mortar M2 (40 г.в.)"
+
+
+msgctxt "desc/entity/81mm_brandt_usa"
+msgid "81mm_brandt_usa"
+msgstr "81 mm Mortar M1 (41 г.в.)"
+
+
+msgctxt "desc/entity/4_2_inch_m_2"
+msgid "4_2_inch_m_2"
+msgstr "107 mm Mortar M2 (43 г.в.)"
+
+
+msgctxt "desc/entity/np_m4_us"
+msgid "np_m4_us"
+msgstr "Mortar Carrier M4 (41 г.в.)"
+
+
+msgctxt "desc/entity/np_m21_us"
+msgid "np_m21_us"
+msgstr "Mortar Carrier M21 (44 г.в.)"
+
+
+msgctxt "desc/entity/m8"
+msgid "m8"
+msgstr "Howitzer Motor Carriage M8 (42 г.в.)"
+
+
+msgctxt "desc/entity/lvt4"
+msgid "lvt4"
+msgstr "Landing Vehicle LVT(A)4 (43/44 г.в.)"
+
+
+msgctxt "desc/entity/75mm_1897"
+msgid "75mm_1897"
+msgstr "75 mm Gun M1897 (-39 г.в.)"
+
+
+msgctxt "desc/entity/m8_howitzer"
+msgid "m8_howitzer"
+msgstr "75 mm Pack Howitzer M1 (-39 г.в.)"
+
+
+msgctxt "desc/entity/m2a1l"
+msgid "m2a1l"
+msgstr "105 mm Howitzer M2A1 (41 г.в.)"
+
+
+msgctxt "desc/entity/155mm_m1917a4"
+msgid "155mm_m1917a4"
+msgstr "155 mm Howitzer M1917A4 (-39 г.в.)"
+
+
+msgctxt "desc/entity/m114"
+msgid "m114"
+msgstr "155 mm Howitzer M114 (42 г.в.)"
+
+
+msgctxt "desc/entity/155mm_longtom"
+msgid "155mm_longtom"
+msgstr "155 mm Gun M1 (-39 г.в.)"
+
+
+msgctxt "desc/entity/m115"
+msgid "m115"
+msgstr "203 mm Howitzer M115 (42 г.в.)"
+
+
+msgctxt "desc/entity/t30hmc"
+msgid "t30hmc"
+msgstr "Howitzer Motor Carriage T30 (41 г.в.)"
+
+
+msgctxt "desc/entity/np_t19_us"
+msgid "np_t19_us"
+msgstr "Howitze Motor Carriage T19 (42 г.в.)"
+
+
+msgctxt "desc/entity/m7"
+msgid "m7"
+msgstr "Howitzer Motor Carriage M7 (42 г.в.)"
+
+
+msgctxt "desc/entity/m12gmc"
+msgid "m12gmc"
+msgstr "Gun Motor Carriage M12 (42 г.в.)"
+
+
+msgctxt "desc/entity/m4a3c"
+msgid "m4a3c"
+msgstr "Rocket Launcher T34 (44 г.в.)"
+
+
+msgctxt "desc/entity/m4a3c2"
+msgid "m4a3c2"
+msgstr "Rocket Launcher T34E2 (45 г.в.)"
+
+
+msgctxt "desc/entity/m2LT"
+msgid "m2LT"
+msgstr "Light Tank M2 (-39 г.в.)"
+
+
+msgctxt "desc/entity/m2a4LT"
+msgid "m2a4LT"
+msgstr "Light Tank M2A4 (40 г.в.)"
+
+
+msgctxt "desc/entity/m3stuartUS"
+msgid "m3stuartUS"
+msgstr "Light Tank M3 (41 г.в.)"
+
+
+msgctxt "desc/entity/m5a1"
+msgid "m5a1"
+msgstr "Light Tank M5A1 (42 г.в.)"
+
+
+msgctxt "desc/entity/m24"
+msgid "m24"
+msgstr "Light Tank M24 (43 г.в.)"
+
+
+msgctxt "desc/entity/m2T"
+msgid "m2T"
+msgstr "Medium Tank M2 (-39 г.в.)"
+
+
+msgctxt "desc/entity/m2a1T"
+msgid "m2a1T"
+msgstr "Medium Tank M2A1 (40 г.в.)"
+
+
+msgctxt "desc/entity/t5p"
+msgid "t5p"
+msgstr "Medium Tank T5P (40 г.в.)"
+
+
+msgctxt "desc/entity/grant_m3"
+msgid "grant_m3"
+msgstr "Medium Tank M3 (41 г.в.)"
+
+
+msgctxt "desc/entity/m4a1"
+msgid "m4a1"
+msgstr "Medium Tank M4A1 (41 г.в.)"
+
+
+msgctxt "desc/entity/m4a2-hd"
+msgid "m4a2-hd"
+msgstr "Medium Tank M4A2 (42 г.в.)"
+
+
+msgctxt "desc/entity/m4sherman"
+msgid "m4sherman"
+msgstr "Medium Tank M4 (42 г.в.)"
+
+
+msgctxt "desc/entity/m4a3_75"
+msgid "m4a3_75"
+msgstr "Medium Tank M4A3 (42 г.в.)"
+
+
+msgctxt "desc/entity/m4a3_zippo"
+msgid "m4a3_zippo"
+msgstr "Medium Tank M4A3R3 (42 г.в.)"
+
+
+msgctxt "desc/entity/m4a4"
+msgid "m4a4"
+msgstr "Medium Tank M4A4 (42 г.в.)"
+
+
+msgctxt "desc/entity/m4a1_76w"
+msgid "m4a1_76w"
+msgstr "Medium Tank M4A1(76)W (43 г.в.)"
+
+
+msgctxt "desc/entity/m4a2_76w"
+msgid "m4a2_76w"
+msgstr "Medium Tank M4A2(76)W (44 г.в.)"
+
+
+msgctxt "desc/entity/m4a3e8"
+msgid "m4a3e8"
+msgstr "Medium Tank M4A3E8 (44 г.в.)"
+
+
+msgctxt "desc/entity/m4a3_105"
+msgid "m4a3_105"
+msgstr "Medium Tank M4A3(105) (44 г.в.)"
+
+
+msgctxt "desc/entity/m4a3_90"
+msgid "m4a3_90"
+msgstr "Medium Tank M4A3(90)W (44 г.в.)"
+
+
+msgctxt "desc/entity/m26_pershing"
+msgid "m26_pershing"
+msgstr "Medium Tank M26 (44 г.в.)"
+
+
+msgctxt "desc/entity/m26e44"
+msgid "m26e44"
+msgstr "Medium Tank T26E4 (45 г.в.)"
+
+
+msgctxt "desc/entity/m48a1"
+msgid "m48a1"
+msgstr "Medium Tank M48A1 (46+ г.в.)"
+
+
+msgctxt "desc/entity/m4a3m"
+msgid "m4a3m"
+msgstr "Medium Tank M4A3 Crab"
+
+
+msgctxt "desc/entity/t1hvy_early"
+msgid "t1hvy_early"
+msgstr "Heavy Tank T1 (-39 г.в.)"
+
+
+msgctxt "desc/entity/t14"
+msgid "t14"
+msgstr "Heavy Tank T14 (41 г.в.)"
+
+
+msgctxt "desc/entity/m6_m7"
+msgid "m6_m7"
+msgstr "Heavy Tank M6 (42 г.в.)"
+
+
+msgctxt "desc/entity/m4a3e2_jumbo"
+msgid "m4a3e2_jumbo"
+msgstr "Assault Tank M4A3E2 (43 г.в.)"
+
+
+msgctxt "desc/entity/m6_m3"
+msgid "m6_m3"
+msgstr "Heavy Tank M6A2 (43 г.в.)"
+
+
+msgctxt "desc/entity/m4a3e2_jumbo_76"
+msgid "m4a3e2_jumbo_76"
+msgstr "Assault Tank M4A3E2(76) (44 г.в.)"
+
+
+msgctxt "desc/entity/m26e4"
+msgid "m26e4"
+msgstr "Assault Tank M26A1E2 (44 г.в.)"
+
+
+msgctxt "desc/entity/t29"
+msgid "t29"
+msgstr "Heavy Tank T29 (44 г.в.)"
+
+
+msgctxt "desc/entity/m6a2e1"
+msgid "m6a2e1"
+msgstr "Heavy Tank M6A2E1 (44 г.в.)"
+
+
+msgctxt "desc/entity/t-30"
+msgid "t-30"
+msgstr "Heavy Tank T30 (45 г.в.)"
+
+
+msgctxt "desc/entity/t-34"
+msgid "t-34"
+msgstr "Heavy Tank T34 (45 г.в.)"
+
+
+msgctxt "desc/entity/m103"
+msgid "m103"
+msgstr "Heavy Tank T43 (46+ г.в.)"
+
+
+msgctxt "desc/entity/np_t15"
+msgid "np_t15"
+msgstr "Gun Motor Carriage T15 (41 г.в.)"
+
+
+msgctxt "desc/entity/np_t48_us"
+msgid "np_t48_us"
+msgstr "Gun Motor Carriage T48 (42 г.в.)"
+
+
+msgctxt "desc/entity/dodgewc55"
+msgid "dodgewc55"
+msgstr "Gun Motor Carriage M6 (42 г.в.)"
+
+
+msgctxt "desc/entity/m10wolverine"
+msgid "m10wolverine"
+msgstr "Gun Motor Carriage M10 (42 г.в.)"
+
+
+msgctxt "desc/entity/m18"
+msgid "m18"
+msgstr "Gun Motor Carriage M18 (43 г.в.)"
+
+
+msgctxt "desc/entity/m36"
+msgid "m36"
+msgstr "Gun Motor Carriage M36 (44 г.в.)"
+
+
+msgctxt "desc/entity/m36b1"
+msgid "m36b1"
+msgstr "Gun Motor Carriage M36B1 (44 г.в.)"
+
+
+msgctxt "desc/entity/t28prot"
+msgid "t28prot"
+msgstr "Gun Motor Carriage T28 (45 г.в.) "
+
+
+msgctxt "desc/entity/t95"
+msgid "t95"
+msgstr "Gun Motor Carriage T95 (45 г.в.)"
+
+
+msgctxt "desc/entity/p-39"
+msgid "p-39"
+msgstr "YP39 «Airacobra» (П) (-39 г.в.)"
+
+
+msgctxt "desc/entity/f4f"
+msgid "f4f"
+msgstr "F4F3 «Wildcat» (-39 г.в.)"
+
+
+msgctxt "desc/entity/p-40"
+msgid "p-40"
+msgstr "P40E «Kittyhawk» (Бx2) (41 г.в.)"
+
+
+msgctxt "desc/entity/p51mustang"
+msgid "p51mustang"
+msgstr "P51E «Mustang» (41 г.в.)"
+
+
+msgctxt "desc/entity/p-51mustang_b"
+msgid "p-51mustang_b"
+msgstr "P51D «Mustang» (Р/Бx2) (43 г.в.)"
+
+
+msgctxt "desc/entity/p-51mustang"
+msgid "p-51mustang"
+msgstr "P51D «Mustang»/«Mustang» Mk.III (Р/Б) (43 г.в.)"
+
+
+msgctxt "desc/entity/b25"
+msgid "b25"
+msgstr "B25H «Strafer» (Бx8/П) (43 г.в.)"
+
+
+msgctxt "desc/entity/b25_torpedo"
+msgid "b25_torpedo"
+msgstr "B25 «Strafer» (Т) (43 г.в.)"
+
+
+msgctxt "desc/entity/m1mortar"
+msgid "m1mortar"
+msgstr "81 mm Mortar M1 (41 г.в.)"
+
+
+msgctxt "desc/entity/cg-4a"
+msgid "cg-4a"
+msgstr "Waco CG4 Haig"
+
+
+msgctxt "desc/entity/lcvp"
+msgid "lcvp"
+msgstr "LCVP"
+
+
+msgctxt "desc/entity/lci(l)"
+msgid "lci(l)"
+msgstr "LCI(L)"
+
+
+msgctxt "desc/entity/coaster_ship"
+msgid "coaster_ship"
+msgstr "Судно"
+
+
+msgctxt "desc/entity/mk10_true"
+msgid "mk10_true"
+msgstr "20 mm Mk.4"
+
+
+msgctxt "desc/entity/bedford_inf"
+msgid "bedford_inf"
+msgstr "«Bedford» OYD Cargo Truck (-39 г.в.)"
+
+
+msgctxt "desc/entity/bedford"
+msgid "bedford"
+msgstr "«Bedford» OYD Cargo Truck (-39 г.в.)"
+
+
+msgctxt "desc/entity/bedford_art"
+msgid "bedford_art"
+msgstr "«Bedford» OYD Ammunition (-39 г.в.)"
+
+
+msgctxt "desc/entity/universal_carrier"
+msgid "universal_carrier"
+msgstr "«Universal Carrier» Mk.I (-39 г.в.)"
+
+
+msgctxt "desc/entity/bedford_eng"
+msgid "bedford_eng"
+msgstr "«Bedford» OYD Engineering (-39 г.в.)"
+
+
+msgctxt "desc/entity/medium_mg_carrier"
+msgid "medium_mg_carrier"
+msgstr "«Vickers» .303 Carrier Mk.I (-39 г.в.)"
+
+
+msgctxt "desc/entity/boyes_gun_carrier"
+msgid "boyes_gun_carrier"
+msgstr "«Boyes» Carrier Mk.I (-39 г.в.)"
+
+
+msgctxt "desc/entity/medium_hmg_carrier"
+msgid "medium_hmg_carrier"
+msgstr "«Vickers» .50 Carrier Mk.I (-39 г.в.)"
+
+
+msgctxt "desc/entity/m3_eng"
+msgid "m3_eng"
+msgstr "Half-Track M3 USA (41 г.в.)"
+
+
+msgctxt "desc/entity/dingo"
+msgid "dingo"
+msgstr "«Dingo» Mk.I (-39 г.в.)"
+
+
+msgctxt "desc/entity/morriscs9"
+msgid "morriscs9"
+msgstr "«Morris» CS9 (-39 г.в.)"
+
+
+msgctxt "desc/entity/mk2daimler"
+msgid "mk2daimler"
+msgstr "«Daimler» Mk.I (41 г.в.)"
+
+
+msgctxt "desc/entity/Humber"
+msgid "Humber"
+msgstr "«Humber» Mk.II (41 г.в.)"
+
+
+msgctxt "desc/entity/mk2daimler_42"
+msgid "mk2daimler_42"
+msgstr "«Daimler» Mk.I (LJ) (42 г.в.)"
+
+
+msgctxt "desc/entity/willysmb_eng"
+msgid "willysmb_eng"
+msgstr ".30 Willys MB USA (43 г.в.)"
+
+
+msgctxt "desc/entity/stag_hound"
+msgid "stag_hound"
+msgstr "«Staghound» Mk.III (44 г.в.)"
+
+
+msgctxt "desc/entity/mk2daimler_Late"
+msgid "mk2daimler_Late"
+msgstr "«Daimler» Mk.II (LJ) (45 г.в.)"
+
+
+msgctxt "desc/entity/vickers_stan"
+msgid "vickers_stan"
+msgstr "«Vickers» .303 Mk.I  (-39 г.в.)"
+
+
+msgctxt "desc/entity/vickers_stan_fix"
+msgid "vickers_stan_fix"
+msgstr "«Vickers» .303 Mk.I  (-39 г.в.)"
+
+
+msgctxt "desc/entity/vickers_mgun"
+msgid "vickers_mgun"
+msgstr "«Vickers» .303 Mk.I  (-39 г.в.)"
+
+
+msgctxt "desc/entity/303_bren_tripod"
+msgid "303_bren_tripod"
+msgstr "«Bren» Mk.I (-39 г.в.)"
+
+
+msgctxt "desc/entity/303_vickers_mki"
+msgid "303_vickers_mki"
+msgstr "«Vickers» .303 Mk.I (-39 г.в.)"
+
+
+msgctxt "desc/entity/303_vickers_mkiv"
+msgid "303_vickers_mkiv"
+msgstr "«Vickers» .50 Mk.IV (-39 г.в.)"
+
+
+msgctxt "desc/entity/303_vickers_mkiv_41"
+msgid "303_vickers_mkiv_41"
+msgstr "«Vickers» .50 Mk.IV (41 г.в.)"
+
+
+msgctxt "desc/entity/dshk_zenit_eng"
+msgid "dshk_zenit_eng"
+msgstr "«Vickers» .50 Mk.IV AA (-39 г.в.)"
+
+
+msgctxt "desc/entity/bofors_eng_er"
+msgid "bofors_eng_er"
+msgstr "QF 1.57-inch Mk.VI (-39 г.в.)"
+
+
+msgctxt "desc/entity/oerlikon"
+msgid "oerlikon"
+msgstr "«Oerlikon» Mk.I (-39 г.в.)"
+
+
+msgctxt "desc/entity/oerlikon_fix"
+msgid "oerlikon_fix"
+msgstr "«Oerlikon» Mk.I (-39 г.в.)"
+
+
+msgctxt "desc/entity/bofors_eng"
+msgid "bofors_eng"
+msgstr "QF 1.57-inch Mk.VI (42 г.в.)"
+
+
+msgctxt "desc/entity/mkvibaa"
+msgid "mkvibaa"
+msgstr "Light Tank AA Mk.I (40 г.в.)"
+
+
+msgctxt "desc/entity/np_lrdg"
+msgid "np_lrdg"
+msgstr "LRDG 15mm AA Gun Truck (40 г.в.)"
+
+
+msgctxt "desc/entity/np_lrdg_20mm"
+msgid "np_lrdg_20mm"
+msgstr "LRDG 20mm AA Gun Truck (40 г.в.)"
+
+
+msgctxt "desc/entity/bedf_aa"
+msgid "bedf_aa"
+msgstr "«Bedford» OYD AA (42 г.в.)"
+
+
+msgctxt "desc/entity/crusaderaa2"
+msgid "crusaderaa2"
+msgstr "«Crusader» III AA Mk.II (42 г.в.)"
+
+
+msgctxt "desc/entity/crusaderaa1"
+msgid "crusaderaa1"
+msgstr "«Crusader» III AA Mk.I (42 г.в.)"
+
+
+msgctxt "desc/entity/25mm_hotchkiss_mle34_eng"
+msgid "25mm_hotchkiss_mle34_eng"
+msgstr "25-mm «Hotchkiss» Mark I (-39 г.в.)"
+
+
+msgctxt "desc/entity/qf2"
+msgid "qf2"
+msgstr "QF 2-pounder Mk.IXA (-39 г.в.)"
+
+
+msgctxt "desc/entity/qf2_43"
+msgid "qf2_43"
+msgstr "QF 2-pounder Mk.X (43 г.в.)"
+
+
+msgctxt "desc/entity/qf6"
+msgid "qf6"
+msgstr "QF 6-pounder Mk.II (41 г.в.)"
+
+
+msgctxt "desc/entity/qf6_1942"
+msgid "qf6_1942"
+msgstr "QF 6-pounder Mk.II (42 г.в.)"
+
+
+msgctxt "desc/entity/qf6_1943"
+msgid "qf6_1943"
+msgstr "QF 6-pounder Mk.IV (43 г.в.)"
+
+
+msgctxt "desc/entity/qf6_1944"
+msgid "qf6_1944"
+msgstr "QF 6-pounder Mk.IV (44 г.в.)"
+
+
+msgctxt "desc/entity/qf6_1945"
+msgid "qf6_1945"
+msgstr "QF 6-pounder Mk.IV (45 г.в.)"
+
+
+msgctxt "desc/entity/qf17"
+msgid "qf17"
+msgstr "QF 17-pounder Mk.I (43 г.в.)"
+
+
+msgctxt "desc/entity/qf17_45"
+msgid "qf17_45"
+msgstr "QF 17-pounder Mk.I (45 г.в.)"
+
+
+msgctxt "desc/entity/vickers"
+msgid "vickers"
+msgstr "QF 3.7-inch AA Mk.I (-39 г.в.)"
+
+
+msgctxt "desc/entity/vickers_41"
+msgid "vickers_41"
+msgstr "QF 3.7-inch AA Mk.II (41 г.в.)"
+
+
+msgctxt "desc/entity/vickers_43"
+msgid "vickers_43"
+msgstr "QF 3.7-inch AA Mk.III (43 г.в.)"
+
+
+msgctxt "desc/entity/vickers_44"
+msgid "vickers_44"
+msgstr "QF 3.7-inch AA Mk.III (44 г.в.)"
+
+
+msgctxt "desc/entity/vickers_late"
+msgid "vickers_late"
+msgstr "QF 3.7-inch AA Mk.IV (44 г.в.)"
+
+
+msgctxt "desc/entity/vickers_late_45"
+msgid "vickers_late_45"
+msgstr "QF 3.7-inch AA Mk.VI (45 г.в.)"
+
+
+msgctxt "desc/entity/2_inch_mk_vii"
+msgid "2_inch_mk_vii"
+msgstr "2-inch Mortar Mk.VII* (-39 г.в.)"
+
+
+msgctxt "desc/entity/ml_3_inch_mk_ii"
+msgid "ml_3_inch_mk_ii"
+msgstr "3-inch Mortar Mk.II (-39 г.в.)"
+
+
+msgctxt "desc/entity/4_2_inch_mk_ii"
+msgid "4_2_inch_mk_ii"
+msgstr "4.2-inch Mortar Mk.II (42 г.в.)"
+
+
+msgctxt "desc/entity/gun_carrier"
+msgid "gun_carrier"
+msgstr "2-inch Mortar Carrier Mk.I  (-39 г.в.)"
+
+
+msgctxt "desc/entity/gun_carrier_3_inch"
+msgid "gun_carrier_3_inch"
+msgstr "3-inch Mortar Carrier Mk.I (-39 г.в.)"
+
+
+msgctxt "desc/entity/qf13"
+msgid "qf13"
+msgstr "QF 13-pounder Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/qf18"
+msgid "qf18"
+msgstr "QF 18-pounder Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/pdr25"
+msgid "pdr25"
+msgstr "QF 25-pounder Howitzer (-39 г.в.)"
+
+
+msgctxt "desc/entity/qf4,5inch"
+msgid "qf4,5inch"
+msgstr "QF 4.5-inch Howitzer (-39 г.в.)"
+
+
+msgctxt "desc/entity/bl45"
+msgid "bl45"
+msgstr "BL 4.5-inch Medium Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/155mm_mle1917_eng"
+msgid "155mm_mle1917_eng"
+msgstr "6-inch Howitzer M.1917 (-39 г.в.)"
+
+
+msgctxt "desc/entity/bl6"
+msgid "bl6"
+msgstr "BL 6-inch 26-cwt Howitzer (-39 г.в.)"
+
+
+msgctxt "desc/entity/bl55"
+msgid "bl55"
+msgstr "BL 5.5-inch Medium Gun (41 г.в.)"
+
+
+msgctxt "desc/entity/183mm_bl72"
+msgid "183mm_bl72"
+msgstr "BL 7.2-inch Howitzer Mk.VI (44 г.в.)"
+
+
+msgctxt "desc/entity/m115_eng"
+msgid "m115_eng"
+msgstr "8-inch Howitzer M115 (42 г.в.)"
+
+
+msgctxt "desc/entity/bishop"
+msgid "bishop"
+msgstr "Carrier Valentine 25-pdr Mk.I «Bishop» (41/42 г.в.)"
+
+
+msgctxt "desc/entity/m7_eng"
+msgid "m7_eng"
+msgstr "105 mm Self Propelled Gun «Priest» (43 г.в.)"
+
+
+msgctxt "desc/entity/land_mattress"
+msgid "land_mattress"
+msgstr "Rocket «Land Mattress» (44 г.в.)"
+
+
+msgctxt "desc/entity/staghound_e1"
+msgid "staghound_e1"
+msgstr "«Staghound» Mk.I «Tulip» (43 г.в.)"
+
+
+msgctxt "desc/entity/m4a4_tulip"
+msgid "m4a4_tulip"
+msgstr "«Sherman» V «Tulip» (44 г.в.)"
+
+
+msgctxt "desc/entity/mkvib"
+msgid "mkvib"
+msgstr "Light Tank Mk.VIC (-39 г.в.)"
+
+
+msgctxt "desc/entity/vickersedw"
+msgid "vickersedw"
+msgstr "Tank «Vickers» Mk.E Type A (-39 г.в.)"
+
+
+msgctxt "desc/entity/vickersejw"
+msgid "vickersejw"
+msgstr "Tank «Vickers» Mk.E Type B (-39 г.в.)"
+
+
+msgctxt "desc/entity/mk7"
+msgid "mk7"
+msgstr "Light Tank Mk VII «Tetrarch» I (41 г.в.)"
+
+
+msgctxt "desc/entity/m3stuartuk"
+msgid "m3stuartuk"
+msgstr "«Stuart» III (41 г.в.)"
+
+
+msgctxt "desc/entity/mk7_42"
+msgid "mk7_42"
+msgstr "Light Tank Mk VII «Tetrarch» I (42 г.в.)"
+
+
+msgctxt "desc/entity/mk7_Late"
+msgid "mk7_Late"
+msgstr "Light Tank Mk VII «Tetrarch» I (45 г.в.)"
+
+
+msgctxt "desc/entity/cruisermk1"
+msgid "cruisermk1"
+msgstr "Tank Cruiser Mk.I (-39 г.в.)"
+
+
+msgctxt "desc/entity/cruisermk3"
+msgid "cruisermk3"
+msgstr "Tank Cruiser Mk.IV (-39 г.в.)"
+
+
+msgctxt "desc/entity/crusaderics"
+msgid "crusaderics"
+msgstr "Tank Cruiser Mk.VI «Crusader» ICS (40 г.в.)"
+
+
+msgctxt "desc/entity/crusaderi"
+msgid "crusaderi"
+msgstr "Tank Cruiser Mk.VI «Crusader» I (40 г.в.)"
+
+
+msgctxt "desc/entity/mk3"
+msgid "mk3"
+msgstr "Tank Infantry Mk.III «Valentine» III (40 г.в.)"
+
+
+msgctxt "desc/entity/crusaderii"
+msgid "crusaderii"
+msgstr "Tank Cruiser Mk.VI «Crusader» II (41 г.в.)"
+
+
+msgctxt "desc/entity/mk6"
+msgid "mk6"
+msgstr "Tank Cruiser Mk.VI «Crusader» III (41 г.в.)"
+
+
+msgctxt "desc/entity/mk3_57_41"
+msgid "mk3_57_41"
+msgstr "Tank Infantry Mk.III «Valentine» VIII (41 г.в.)"
+
+
+msgctxt "desc/entity/cromwell_mk_vii_k"
+msgid "cromwell_mk_vii_k"
+msgstr "Tank Cruiser Mk.VII «Cavalier» I (41 г.в.)"
+
+
+msgctxt "desc/entity/m3grant"
+msgid "m3grant"
+msgstr "«Grant» I (42 г.в.)"
+
+
+msgctxt "desc/entity/mk3_57"
+msgid "mk3_57"
+msgstr "Tank Infantry Mk.III «Valentine» IX (42 г.в.)"
+
+
+msgctxt "desc/entity/mk6_42"
+msgid "mk6_42"
+msgstr "Tank Cruiser Mk.VI «Crusader» III (42 г.в.)"
+
+
+msgctxt "desc/entity/cromwell_mk_vii_57"
+msgid "cromwell_mk_vii_57"
+msgstr "Tank Cruiser Mk.VIII «Centaur» III (42 г.в.)"
+
+
+msgctxt "desc/entity/mk8"
+msgid "mk8"
+msgstr "Tank Cruiser Mk.VIII «Cromwell» I (42 г.в.)"
+
+
+msgctxt "desc/entity/mk3_75"
+msgid "mk3_75"
+msgstr "Tank Infantry Mk.III «Valentine» XI (43 г.в.)"
+
+
+msgctxt "desc/entity/mk3cs"
+msgid "mk3cs"
+msgstr "Tank Infantry Mk.III «Valentine» IIICS (43 г.в.)"
+
+
+msgctxt "desc/entity/cromwell_mk_vii"
+msgid "cromwell_mk_vii"
+msgstr "Tank Cruiser Mk.VIII «Cromwell» IV (43 г.в.)"
+
+
+msgctxt "desc/entity/m4a1_eng"
+msgid "m4a1_eng"
+msgstr "«Sherman» II (43 г.в.)"
+
+
+msgctxt "desc/entity/m4a41"
+msgid "m4a41"
+msgstr "«Sherman» V (43 г.в.)"
+
+
+msgctxt "desc/entity/mk3_57_43"
+msgid "mk3_57_43"
+msgstr "Tank Infantry Mk.III «Valentine» X (43 г.в.)"
+
+
+msgctxt "desc/entity/cromwell_mk_vi"
+msgid "cromwell_mk_vi"
+msgstr "Tank Cruiser Mk.VIII «Cromwell» VICS (43 г.в.)"
+
+
+msgctxt "desc/entity/challenger_a30"
+msgid "challenger_a30"
+msgstr "Tank Cruiser Mk.VIII «Challenger» I (43 г.в.)"
+
+
+msgctxt "desc/entity/cromwell_mk_vii_e"
+msgid "cromwell_mk_vii_e"
+msgstr "Tank Cruiser Mk.VIII «Cromwell» VII (44 г.в.)"
+
+
+msgctxt "desc/entity/cometa34"
+msgid "cometa34"
+msgstr "Tank Cruiser A34 «Comet» I (44 г.в.)"
+
+
+msgctxt "desc/entity/m4a4_firefly1"
+msgid "m4a4_firefly1"
+msgstr "«Sherman» IIC (44 г.в.)"
+
+
+msgctxt "desc/entity/m4a4_firefly"
+msgid "m4a4_firefly"
+msgstr "«Sherman» VC (44 г.в.)"
+
+
+msgctxt "desc/entity/centurion"
+msgid "centurion"
+msgstr "«Centurion» Mk.II (45 г.в.)"
+
+
+msgctxt "desc/entity/charioteer"
+msgid "charioteer"
+msgstr "«Charioteer» Mk.VII (46+ г.в.)"
+
+
+msgctxt "desc/entity/mkvii"
+msgid "mkvii"
+msgstr "«Centurion» Mk.III (46+ г.в.)"
+
+
+msgctxt "desc/entity/m4a3m_eng"
+msgid "m4a3m_eng"
+msgstr "«Sherman» VI Crab"
+
+
+msgctxt "desc/entity/matildamk1"
+msgid "matildamk1"
+msgstr "Tank Infantry Mk.I «Matilda» I (-39 г.в.)"
+
+
+msgctxt "desc/entity/mk2a"
+msgid "mk2a"
+msgstr "Tank Infantry Mk.II «Matilda» IIA (-39 г.в.)"
+
+
+msgctxt "desc/entity/mk2a_75"
+msgid "mk2a_75"
+msgstr "Tank Infantry Mk.II «Matilda» IIICS (-39 г.в.)"
+
+
+msgctxt "desc/entity/churchill_i"
+msgid "churchill_i"
+msgstr "Tank Infantry Mk.IV «Churchill» IA (40 г.в.)"
+
+
+msgctxt "desc/entity/churchill_iii"
+msgid "churchill_iii"
+msgstr "Tank Infantry Mk.IV «Churchill» IICS (41 г.в.)"
+
+
+msgctxt "desc/entity/mk4"
+msgid "mk4"
+msgstr "Tank Infantry Mk.IV «Churchill» III (41 г.в.)"
+
+
+msgctxt "desc/entity/mk4_75"
+msgid "mk4_75"
+msgstr "Tank Infantry Mk.IV «Churchill» IV(75) (42 г.в.)"
+
+
+msgctxt "desc/entity/churchill_mk_vii_57"
+msgid "churchill_mk_vii_57"
+msgstr "Tank Infantry Mk.IV «Churchill» IV (42 г.в.)"
+
+
+msgctxt "desc/entity/mk2a_43"
+msgid "mk2a_43"
+msgstr "Tank Infantry Mk.II «Matilda» IV (43 г.в.)"
+
+
+msgctxt "desc/entity/mk4_75_M3"
+msgid "mk4_75_M3"
+msgstr "Tank Infantry Mk.IV «Churchill» IV(75M3) (43 г.в.)"
+
+
+msgctxt "desc/entity/churchill_mk_vii"
+msgid "churchill_mk_vii"
+msgstr "Tank Infantry Mk.IV «Churchill» VI (43 г.в.)"
+
+
+msgctxt "desc/entity/churchill_mk_vii_95"
+msgid "churchill_mk_vii_95"
+msgstr "Tank Infantry Mk.IV «Churchill» VCS (43 г.в.)"
+
+
+msgctxt "desc/entity/tog2"
+msgid "tog2"
+msgstr "Tank Heavy «TOG» II (43 г.в.)"
+
+
+msgctxt "desc/entity/churchill_crocodile"
+msgid "churchill_crocodile"
+msgstr "Tank Infantry Mk.IV «Churchill» VIICroc (44 г.в.)"
+
+
+msgctxt "desc/entity/churchill_mk_vii_952"
+msgid "churchill_mk_vii_952"
+msgstr "Tank Infantry Mk.IV «Churchill» VIIICS (44 г.в.)"
+
+
+msgctxt "desc/entity/churchill_avre"
+msgid "churchill_avre"
+msgstr "Tank Infantry Mk.IV «Churchill» IVAVRE (44 г.в.)"
+
+
+msgctxt "desc/entity/black_prince"
+msgid "black_prince"
+msgstr "Tank Infantry A43 «Black Prince» (44 г.в.)"
+
+
+msgctxt "desc/entity/conqueror"
+msgid "conqueror"
+msgstr "Tank Heavy No.1 «Conqueror» Mk.I (46+ г.в.)"
+
+
+msgctxt "desc/entity/fv215b"
+msgid "fv215b"
+msgstr "FV-215b(120) (46+ г.в.)"
+
+
+msgctxt "desc/entity/np_lrdg_37mm"
+msgid "np_lrdg_37mm"
+msgstr "LRDG Chevrolet Gun Truck (40 г.в.)"
+
+
+msgctxt "desc/entity/archer"
+msgid "archer"
+msgstr "«Archer» Mk.I (43 г.в.)"
+
+
+msgctxt "desc/entity/achilles"
+msgid "achilles"
+msgstr "«Achilles» IC (44 г.в.)"
+
+
+msgctxt "desc/entity/tortez"
+msgid "tortez"
+msgstr "«Tortoise» Mk.I (45 г.в.)"
+
+
+msgctxt "desc/entity/fv215b_183"
+msgid "fv215b_183"
+msgstr "FV-215b(183) (46+ г.в.)"
+
+
+msgctxt "desc/entity/beaufighter"
+msgid "beaufighter"
+msgstr "«Beaufighter» Mk.I (Бx4/П) (-39 г.в.)"
+
+
+msgctxt "desc/entity/beaufighter_torpedo"
+msgid "beaufighter_torpedo"
+msgstr "«Beaufighter» Mk.I (Т/П) (-39 г.в.)"
+
+
+msgctxt "desc/entity/spitfiremk1a"
+msgid "spitfiremk1a"
+msgstr "«Spitfire» Mk.IA (-39 г.в.)"
+
+
+msgctxt "desc/entity/hurricane23"
+msgid "hurricane23"
+msgstr "«Hurricane» Mk.IA (П) (40/41 г.в.)"
+
+
+msgctxt "desc/entity/mk3mustang"
+msgid "mk3mustang"
+msgstr "«Mustang» Mk.III (Р/Бx2) (43 г.в.)"
+
+
+msgctxt "desc/entity/ml3"
+msgid "ml3"
+msgstr "3-inch Mortar Mk.II (-39 г.в.)"
+
+
+msgctxt "desc/entity/hamilcar"
+msgid "hamilcar"
+msgstr "GAL.49 «Hamilcar» Mk.I"
+
+
+msgctxt "desc/entity/armor_barge_eng"
+msgid "armor_barge_eng"
+msgstr "Бронированая Баржа"
+
+
+msgctxt "desc/entity/isuzutx40_inf"
+msgid "isuzutx40_inf"
+msgstr "Type 97 Cargo Truck (-39 г.в.) "
+
+
+msgctxt "desc/entity/isuzutx40"
+msgid "isuzutx40"
+msgstr "Type 97 Cargo Truck (-39 г.в.)"
+
+
+msgctxt "desc/entity/fiat35"
+msgid "fiat35"
+msgstr "SPA Dovunque 35 (-39 г.в.)"
+
+
+msgctxt "desc/entity/fiat35_art"
+msgid "fiat35_art"
+msgstr "SPA 35 Portamunizioni (-39 г.в.)"
+
+
+msgctxt "desc/entity/isuzutx40art"
+msgid "isuzutx40art"
+msgstr "Type 97 Ammunition (-39 г.в.)"
+
+
+msgctxt "desc/entity/l6a"
+msgid "l6a"
+msgstr "Carro Portamunizioni L6/40 (41 г.в.)"
+
+
+msgctxt "desc/entity/ho-ha3_nw"
+msgid "ho-ha3_nw"
+msgstr "Type 1 «Ho-Ha» (41 г.в.)"
+
+
+msgctxt "desc/entity/isuzutx40_eng"
+msgid "isuzutx40_eng"
+msgstr "Type 97 Engineering (-39 г.в.)"
+
+
+msgctxt "desc/entity/;БТР/БМП/АВТО"
+msgid ";БТР/БМП/АВТО"
+msgstr "С ВООБРУЖЕНИЕМ  "
+
+
+msgctxt "desc/entity/type97"
+msgid "type97"
+msgstr "Type 97 «Rikuo» (-39 г.в.)"
+
+
+msgctxt "desc/entity/type87"
+msgid "type87"
+msgstr "Type 87 «Dowa» (-39 г.в.)"
+
+
+msgctxt "desc/entity/ab40"
+msgid "ab40"
+msgstr "Autoblinda 39 (-39 г.в.)"
+
+
+msgctxt "desc/entity/Lancia1ZM"
+msgid "Lancia1ZM"
+msgstr "Autoblinda «Lancia» 1ZM (-39 г.в.)"
+
+
+msgctxt "desc/entity/type93scout"
+msgid "type93scout"
+msgstr "Type 93 Armoured Car (-39 г.в.)"
+
+
+msgctxt "desc/entity/fiat611"
+msgid "fiat611"
+msgstr "Autoblinda Fiat 611 B (-39 г.в.) "
+
+
+msgctxt "desc/entity/csaba39m"
+msgid "csaba39m"
+msgstr "39.M «Csabo» (-39 г.в.)"
+
+
+msgctxt "desc/entity/csaba40m"
+msgid "csaba40m"
+msgstr "40.M «Csabo» (40 г.в.)"
+
+
+msgctxt "desc/entity/m41c"
+msgid "m41c"
+msgstr "Carro Comando M13/40 (40 г.в.)."
+
+
+msgctxt "desc/entity/as37"
+msgid "as37"
+msgstr "Autoprotetto S37 (41 г.в.)."
+
+
+msgctxt "desc/entity/ab41"
+msgid "ab41"
+msgstr "Autoblinda 41 (41 г.в.)"
+
+
+msgctxt "desc/entity/ho-ha3mgun"
+msgid "ho-ha3mgun"
+msgstr "Type 1 «Ho-Ha» HMG (41 г.в.)"
+
+
+msgctxt "desc/entity/ab43"
+msgid "ab43"
+msgstr "Autoblinda 43 (43 г.в.)"
+
+
+msgctxt "desc/entity/type92_jap_lewis"
+msgid "type92_jap_lewis"
+msgstr "Type 92 MG (-39 г.в.)"
+
+
+msgctxt "desc/entity/type92_stan"
+msgid "type92_stan"
+msgstr "Type 92 MG (-39 г.в.)"
+
+
+msgctxt "desc/entity/type93_stan"
+msgid "type93_stan"
+msgstr "Type 93 HMG (-39 г.в.)"
+
+
+msgctxt "desc/entity/type92_vehiclehmg"
+msgid "type92_vehiclehmg"
+msgstr "Type 93 HMG (-39 г.в.)"
+
+
+msgctxt "desc/entity/type1_stan"
+msgid "type1_stan"
+msgstr "Type 1 MG (41 г.в.)"
+
+
+msgctxt "desc/entity/type1hmg_stan"
+msgid "type1hmg_stan"
+msgstr "Type 1 MG (41 г.в.)"
+
+
+msgctxt "desc/entity/type1hmg_stan_fix"
+msgid "type1hmg_stan_fix"
+msgstr "Type 92 MG (39 г.в.)"
+
+
+msgctxt "desc/entity/type93_stan_42"
+msgid "type93_stan_42"
+msgstr "Type 93 HMG (42 г.в.)"
+
+
+msgctxt "desc/entity/type92_vehiclehmg_42"
+msgid "type92_vehiclehmg_42"
+msgstr "Type 93 HMG (42 г.в.)"
+
+
+msgctxt "desc/entity/13mm_hotchkiss"
+msgid "13mm_hotchkiss"
+msgstr "Type 93 13 mm AA MG (-39 г.в.)"
+
+
+msgctxt "desc/entity/type96_3"
+msgid "type96_3"
+msgstr "Type 96 25 mm AA Gun x3 (-39 г.в.)"
+
+
+msgctxt "desc/entity/type98_20mm"
+msgid "type98_20mm"
+msgstr "Type 98 20 mm AA Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/type98_20mm_stand"
+msgid "type98_20mm_stand"
+msgstr "Type 98 20 mm AA Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/25mm_aa1_type96"
+msgid "25mm_aa1_type96"
+msgstr "Type 96 25 mm AA Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/20mm_breda_1935"
+msgid "20mm_breda_1935"
+msgstr "2 cm/65 Breda Mod. 35 (-39 г.в.)"
+
+
+msgctxt "desc/entity/20mm_breda_1935_fix"
+msgid "20mm_breda_1935_fix"
+msgstr "2 cm/65 Breda Mod. 35 (-39 г.в.)"
+
+
+msgctxt "desc/entity/S_cotti_20mm"
+msgid "S_cotti_20mm"
+msgstr "2 cm/70 Scotti Mod. 39 (-39 г.в.)"
+
+
+msgctxt "desc/entity/scotti_fixed"
+msgid "scotti_fixed"
+msgstr "2 cm/70 Scotti Mod. 39 (-39 г.в.)"
+
+
+msgctxt "desc/entity/fiataa35"
+msgid "fiataa35"
+msgstr "Autocannoni da 20/70 Contraereo (41 г.в.)"
+
+
+msgctxt "desc/entity/type2_20mm"
+msgid "type2_20mm"
+msgstr "Type 2 20 mm AA Gun (42 г.в.)"
+
+
+msgctxt "desc/entity/type2_20mm_stand"
+msgid "type2_20mm_stand"
+msgstr "Type 2 20 mm AA Gun (42 г.в.)"
+
+
+msgctxt "desc/entity/type5_40mm_aa"
+msgid "type5_40mm_aa"
+msgstr "Type 5 40 mm AA Gun (43 г.в.)"
+
+
+msgctxt "desc/entity/ta-se"
+msgid "ta-se"
+msgstr "Type 98 «Ta-Se» (40 г.в.)"
+
+
+msgctxt "desc/entity/isuzutx40_aa"
+msgid "isuzutx40_aa"
+msgstr "Type 97 20 mm AA Carrier (43 г.в.)"
+
+
+msgctxt "desc/entity/37mm_type11"
+msgid "37mm_type11"
+msgstr "Type 11 37 mm Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/type38_75mm"
+msgid "type38_75mm"
+msgstr "Type 38 75 mm Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/cannone7527"
+msgid "cannone7527"
+msgstr "Cannone da 75/27 (-39 г.в.)"
+
+
+msgctxt "desc/entity/cannone4732"
+msgid "cannone4732"
+msgstr "Cannone da 47/32 (-39 г.в.)"
+
+
+msgctxt "desc/entity/cannone4740"
+msgid "cannone4740"
+msgstr "Cannone da 47/40 (40 г.в.)"
+
+
+msgctxt "desc/entity/cannone4740_41"
+msgid "cannone4740_41"
+msgstr "Cannone da 47/40 (41 г.в.)"
+
+
+msgctxt "desc/entity/cannone4740_44"
+msgid "cannone4740_44"
+msgstr "Cannone da 47/40 (44 г.в.)"
+
+
+msgctxt "desc/entity/t90_75m"
+msgid "t90_75m"
+msgstr "Type 90 75 mm Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/t90_75m_40"
+msgid "t90_75m_40"
+msgstr "Type 90 75 mm Gun (40 г.в.)"
+
+
+msgctxt "desc/entity/t90_75m_41"
+msgid "t90_75m_41"
+msgstr "Type 90 75 mm Gun (44 г.в.)"
+
+
+msgctxt "desc/entity/t90_75mType5"
+msgid "t90_75mType5"
+msgstr "Type 5 75 mm Gun (42 г.в.)"
+
+
+msgctxt "desc/entity/t90_75mType5_44"
+msgid "t90_75mType5_44"
+msgstr "Type 5 75 mm Gun (44 г.в.)"
+
+
+msgctxt "desc/entity/t90_75mType5_45"
+msgid "t90_75mType5_45"
+msgstr "Type 5 75 mm Gun (45 г.в.)"
+
+
+msgctxt "desc/entity/pak47"
+msgid "pak47"
+msgstr "Type 1 47 mm Gun (42 г.в.)"
+
+
+msgctxt "desc/entity/pak57"
+msgid "pak57"
+msgstr "Type 2 57 mm Gun (43 г.в.)"
+
+
+msgctxt "desc/entity/pak57_44"
+msgid "pak57_44"
+msgstr "Type 2 57 mm Gun (44 г.в.)"
+
+
+msgctxt "desc/entity/cannone7527ck"
+msgid "cannone7527ck"
+msgstr "Cannone da 75/27 C.K. (-39 г.в.)"
+
+
+msgctxt "desc/entity/resita"
+msgid "resita"
+msgstr "75 mm Reșița Model 1943 (43 г.в.)"
+
+
+msgctxt "desc/entity/resita_45"
+msgid "resita_45"
+msgstr "75 mm Reșița Model 1943 (45 г.в.)"
+
+
+msgctxt "desc/entity/type4_75mm"
+msgid "type4_75mm"
+msgstr "Type 88 75 mm АА Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/type4_75mm_41"
+msgid "type4_75mm_41"
+msgstr "Type 88 75 mm АА Gun (41 г.в.) "
+
+
+msgctxt "desc/entity/type4_75mm_43"
+msgid "type4_75mm_43"
+msgstr "Type 88 75 mm АА Gun (43 г.в.)"
+
+
+msgctxt "desc/entity/type4_75mm_44"
+msgid "type4_75mm_44"
+msgstr "Type 88 75 mm АА Gun (44 г.в.)"
+
+
+msgctxt "desc/entity/type44_75mm"
+msgid "type44_75mm"
+msgstr "Type 4 75 mm АА Gun (44 г.в.)"
+
+
+msgctxt "desc/entity/type44_75mm_46"
+msgid "type44_75mm_46"
+msgstr "Type 4 75 mm АА Gun (46 г.в.)"
+
+
+msgctxt "desc/entity/cannone7546"
+msgid "cannone7546"
+msgstr "Cannone da 75/46 C.A. (-39 г.в.)"
+
+
+msgctxt "desc/entity/cannone7546_41"
+msgid "cannone7546_41"
+msgstr "Cannone da 75/46 C.A. (41 г.в.)"
+
+
+msgctxt "desc/entity/cannone7546_43"
+msgid "cannone7546_43"
+msgstr "Cannone da 75/46 C.A. (43 г.в.)"
+
+
+msgctxt "desc/entity/cannone7546_44"
+msgid "cannone7546_44"
+msgstr "Cannone da 75/46 C.A. (44 г.в.)"
+
+
+msgctxt "desc/entity/type99_88mm"
+msgid "type99_88mm"
+msgstr "Type 99 88 mm АА Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/type99_88mm_43"
+msgid "type99_88mm_43"
+msgstr "Type 99 88 mm АА Gun (43 г.в.)"
+
+
+msgctxt "desc/entity/type99_88mm_44"
+msgid "type99_88mm_44"
+msgstr "Type 99 88 mm АА Gun (44 г.в.)"
+
+
+msgctxt "desc/entity/type99_88mm_46"
+msgid "type99_88mm_46"
+msgstr "Type 99 88 mm АА Gun (46+ г.в.)"
+
+
+msgctxt "desc/entity/type14aa_105mm"
+msgid "type14aa_105mm"
+msgstr "Type 14 100 mm АА Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/type14aa_105mm_43"
+msgid "type14aa_105mm_43"
+msgstr "Type 14 100 mm АА Gun (43 г.в.)"
+
+
+msgctxt "desc/entity/type14aa_105mm_44"
+msgid "type14aa_105mm_44"
+msgstr "Type 14 100 mm АА Gun (44 г.в.)"
+
+
+msgctxt "desc/entity/type14aa_105mm_46"
+msgid "type14aa_105mm_46"
+msgstr "Type 14 100 mm АА Gun (46+ г.в.)"
+
+
+msgctxt "desc/entity/cannone9053"
+msgid "cannone9053"
+msgstr "Cannone da 90/53 C.A. (-39 г.в.)"
+
+
+msgctxt "desc/entity/cannone9053_42"
+msgid "cannone9053_42"
+msgstr "Cannone da 90/53 C.A. (42 г.в.)"
+
+
+msgctxt "desc/entity/cannone9053_45"
+msgid "cannone9053_45"
+msgstr "Cannone da 90/53 C.A. (45 г.в.)"
+
+
+msgctxt "desc/entity/brixia35"
+msgid "brixia35"
+msgstr "Brixia Mod.35 (-39 г.в.)"
+
+
+msgctxt "desc/entity/5_cm_mortar_type89"
+msgid "5_cm_mortar_type89"
+msgstr "Type 89 50 mm Mortar (-39 г.в.) "
+
+
+msgctxt "desc/entity/81mm_brandt_jap"
+msgid "81mm_brandt_jap"
+msgstr "Type 97 81 Mortar (-39 г.в.)"
+
+
+msgctxt "desc/entity/type_2"
+msgid "type_2"
+msgstr "Type 2 120 mm Mortar (42 г.в.)"
+
+
+msgctxt "desc/entity/type_97_150mm"
+msgid "type_97_150mm"
+msgstr "Type 93 150 mm Mortar (-39 г.в.)"
+
+
+msgctxt "desc/entity/isuzutx40_mort"
+msgid "isuzutx40_mort"
+msgstr "Type 97 Mortar Carrier (-39 г.в.)"
+
+
+msgctxt "desc/entity/type41"
+msgid "type41"
+msgstr "Type 41 75 mm Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/cannone6517"
+msgid "cannone6517"
+msgstr "Cannone da 65/17 (-39 г.в.)"
+
+
+msgctxt "desc/entity/skoda_75mm_ita"
+msgid "skoda_75mm_ita"
+msgstr "Obice da 75/13 (-39 г.в.)"
+
+
+msgctxt "desc/entity/8cm_feldkanone"
+msgid "8cm_feldkanone"
+msgstr "8 cm Feldkanone M.5 (-39 г.в.)"
+
+
+msgctxt "desc/entity/10cmfeldhaubtize_hun"
+msgid "10cmfeldhaubtize_hun"
+msgstr "10 cm Feldhaubitze M.14 (-39 г.в.)"
+
+
+msgctxt "desc/entity/type14_105mm"
+msgid "type14_105mm"
+msgstr "Type 14 105 mm Gun (-39 г.в.)"
+
+
+msgctxt "desc/entity/105mm_da_105_28"
+msgid "105mm_da_105_28"
+msgstr "10,5 cm Kanone 338(i) (-39 г.в.)"
+
+
+msgctxt "desc/entity/t91_105m"
+msgid "t91_105m"
+msgstr "Type 91 105 mm Howitzer (-39 г.в.)"
+
+
+msgctxt "desc/entity/15cmfeldhaubitze_hun"
+msgid "15cmfeldhaubitze_hun"
+msgstr "15 cm Feldhaubitze M.14 (-39 г.в.)"
+
+
+msgctxt "desc/entity/obice149A"
+msgid "obice149A"
+msgstr "Cannone da 149/35 A (-39 г.в.)"
+
+
+msgctxt "desc/entity/type96_150mm"
+msgid "type96_150mm"
+msgstr "Type 96 150 mm Howitzer (-39 г.в.)"
+
+
+msgctxt "desc/entity/obice14940"
+msgid "obice14940"
+msgstr "Cannone da 149/40 (-39 г.в.)"
+
+
+msgctxt "desc/entity/type45_240mm"
+msgid "type45_240mm"
+msgstr "Type 45 240 mm Howitzer (-39 г.в.)"
+
+
+msgctxt "desc/entity/obice210"
+msgid "obice210"
+msgstr "Obice da 210/22 (-39 г.в.)"
+
+
+msgctxt "desc/entity/ho-ni2"
+msgid "ho-ni2"
+msgstr "Type 1 «Ho-Ni» 2 (42 г.в.)"
+
+
+msgctxt "desc/entity/autocannone10017"
+msgid "autocannone10017"
+msgstr "Autocannoni da 100/17 Obice (40 г.в.)"
+
+
+msgctxt "desc/entity/morris_cs8_6517"
+msgid "morris_cs8_6517"
+msgstr "Autocannoni da 65/17 Canone (41 г.в.)"
+
+
+msgctxt "desc/entity/ho-ro"
+msgid "ho-ro"
+msgstr "Type 5 «Ho-Ro» (41 г.в.)"
+
+
+msgctxt "desc/entity/m149"
+msgid "m149"
+msgstr "Semovente da 149/40 M43 Canone (43 г.в.)"
+
+
+msgctxt "desc/entity/ha-to"
+msgid "ha-to"
+msgstr "Type 4 «Ha-To» (44 г.в.)"
+
+
+msgctxt "desc/entity/type4_200mm"
+msgid "type4_200mm"
+msgstr "Type 4 200 mm Reactive Mortar (43 г.в.)"
+
+
+msgctxt "desc/entity/r1_prague"
+msgid "r1_prague"
+msgstr "R-1 Prague (-39 г.в.)"
+
+
+msgctxt "desc/entity/te-ke"
+msgid "te-ke"
+msgstr "Type 94 «T-K» (-39 г.в.)"
+
+
+msgctxt "desc/entity/chi_ni"
+msgid "chi_ni"
+msgstr "Type 97 «Chi-Ni» (-39 г.в.)"
+
+
+msgctxt "desc/entity/l335"
+msgid "l335"
+msgstr "Carro Armato L3/38 (-39 г.в.)"
+
+
+msgctxt "desc/entity/ha-go"
+msgid "ha-go"
+msgstr "Type 95 «Ha-Go» (-39 г.в.)"
+
+
+msgctxt "desc/entity/toldi1"
+msgid "toldi1"
+msgstr "38.M «Toldi» I (-39 г.в.)"
+
+
+msgctxt "desc/entity/l640"
+msgid "l640"
+msgstr "Fiat L6/40 (-39 г.в.)"
+
+
+msgctxt "desc/entity/ha-go_kai"
+msgid "ha-go_kai"
+msgstr "Type 95 «Ha-Go Kai» (41 г.в.)"
+
+
+msgctxt "desc/entity/ke-ni"
+msgid "ke-ni"
+msgstr "Type 98 «Ke-Ni» (41 г.в.)"
+
+
+msgctxt "desc/entity/toldi2"
+msgid "toldi2"
+msgstr "38.M «Toldi» II (41 г.в.)"
+
+
+msgctxt "desc/entity/ke-ri"
+msgid "ke-ri"
+msgstr "Type 3 «Ke-Ri» (43 г.в.)"
+
+
+msgctxt "desc/entity/toldi3"
+msgid "toldi3"
+msgstr "43.M «Toldi» III (43 г.в.)"
+
+
+msgctxt "desc/entity/ke-to"
+msgid "ke-to"
+msgstr "Type 2 «Ke-To» (44 г.в.)"
+
+
+msgctxt "desc/entity/ke-nu"
+msgid "ke-nu"
+msgstr "Type 4 «Ke-Nu» (44 г.в.)"
+
+
+msgctxt "desc/entity/ke_ho"
+msgid "ke_ho"
+msgstr "Type 5 «Ke-Ho» (45 г.в.)"
+
+
+msgctxt "desc/entity/l35lf"
+msgid "l35lf"
+msgstr "Carro Armato L3/38 LF (-39 г.в.)"
+
+
+msgctxt "desc/entity/ss-d"
+msgid "ss-d"
+msgstr "Type 89 «Ss-Ki» (-39 г.в.)"
+
+
+msgctxt "desc/entity/d2_jap"
+msgid "d2_jap"
+msgstr "Type B «Otsu-gata sensha» (-39 г.в.)"
+
+
+msgctxt "desc/entity/type89"
+msgid "type89"
+msgstr "Type 89 B «I-Go Otsu» (-39 г.в.)"
+
+
+msgctxt "desc/entity/chi-ha57"
+msgid "chi-ha57"
+msgstr "Type 97 «Chi-Ha» (-39 г.в.)"
+
+
+msgctxt "desc/entity/ka-ho"
+msgid "ka-ho"
+msgstr "Type 97 «Ka-Ho» (-39 г.в.)"
+
+
+msgctxt "desc/entity/m1139"
+msgid "m1139"
+msgstr "Carro Armato M11/39 (39 г.в.)."
+
+
+msgctxt "desc/entity/carro13_40"
+msgid "carro13_40"
+msgstr "Carro Armato M13/40 (40 г.в.)."
+
+
+msgctxt "desc/entity/turan1"
+msgid "turan1"
+msgstr "40.M «Turan» I (40 г.в.)"
+
+
+msgctxt "desc/entity/carro14_41"
+msgid "carro14_41"
+msgstr "Carro Armato M14/41 (41 г.в.)."
+
+
+msgctxt "desc/entity/P40"
+msgid "P40"
+msgstr "Carro Armato P26/40 (41 г.в.)"
+
+
+msgctxt "desc/entity/turan2"
+msgid "turan2"
+msgstr "41.M «Turan» II (41 г.в.)"
+
+
+msgctxt "desc/entity/chi-ha47"
+msgid "chi-ha47"
+msgstr "Type 97 «Shin-Ho-To Chi-Ha» (42 г.в.)"
+
+
+msgctxt "desc/entity/ho-i"
+msgid "ho-i"
+msgstr "Type 2 «Ho-I» (42 г.в.)"
+
+
+msgctxt "desc/entity/carro15"
+msgid "carro15"
+msgstr "Carro Armato M15/42 (42 г.в.)."
+
+
+msgctxt "desc/entity/P40_2"
+msgid "P40_2"
+msgstr "Carro Armato P30/42 (42 г.в.)"
+
+
+msgctxt "desc/entity/chi-he1"
+msgid "chi-he1"
+msgstr "Type 1 «Chi-He» 47 mm Gun (43 г.в.)"
+
+
+msgctxt "desc/entity/chi-he"
+msgid "chi-he"
+msgstr "Type 1 «Chi-He» (43 г.в.)"
+
+
+msgctxt "desc/entity/chi-nu"
+msgid "chi-nu"
+msgstr "Type 3 «Chi-Nu» (43 г.в.)"
+
+
+msgctxt "desc/entity/ka-chi"
+msgid "ka-chi"
+msgstr "Type 3 «Ka-Chi» (43 г.в.)"
+
+
+msgctxt "desc/entity/ho-i_kou_td"
+msgid "ho-i_kou_td"
+msgstr "Type 2 «Ho-I Kou» (43 г.в.)"
+
+
+msgctxt "desc/entity/chi-to"
+msgid "chi-to"
+msgstr "Type 4 «Chi-To» (43 г.в.)"
+
+
+msgctxt "desc/entity/turan3"
+msgid "turan3"
+msgstr "43.M «Turan» III (43 г.в.)"
+
+
+msgctxt "desc/entity/P40_3"
+msgid "P40_3"
+msgstr "Carro Armato P35/43 (43 г.в.)"
+
+
+msgctxt "desc/entity/chi-nu_2"
+msgid "chi-nu_2"
+msgstr "Type 3 «Chi-Nu Kai» (44 г.в.)"
+
+
+msgctxt "desc/entity/chi-ha120"
+msgid "chi-ha120"
+msgstr "Type 97 «Shin-Ho-To Chi-Ha» 120 mm Gun (44 г.в.)"
+
+
+msgctxt "desc/entity/chi-ri"
+msgid "chi-ri"
+msgstr "Type 5 «Chi-Ri» (44 г.в.)"
+
+
+msgctxt "desc/entity/tas_44m_75"
+msgid "tas_44m_75"
+msgstr "44.M «Tas» I (44 г.в.)"
+
+
+msgctxt "desc/entity/chi-ri_75auto"
+msgid "chi-ri_75auto"
+msgstr "Type 5 «Chi-Ri» 75 mm Gun Auto Loader (45 г.в.)"
+
+
+msgctxt "desc/entity/tas_44m"
+msgid "tas_44m"
+msgstr "44/45.M «Tas» II (45 г.в.)"
+
+
+msgctxt "desc/entity/sta1"
+msgid "sta1"
+msgstr "ST-A1 (46+ г.в.)"
+
+
+msgctxt "desc/entity/ro-go"
+msgid "ro-go"
+msgstr "Type 95 «Ro-Go» (-39 г.в.)"
+
+
+msgctxt "desc/entity/o-i"
+msgid "o-i"
+msgstr "Type 100 «O-I» (40 г.в.)"
+
+
+msgctxt "desc/entity/mi-to"
+msgid "mi-to"
+msgstr "Type 100 «Mi-To» (41 г.в.)"
+
+
+msgctxt "desc/entity/o_ni_2"
+msgid "o_ni_2"
+msgstr "Type 100 «O-Ni» 2 (42 г.в.)"
+
+
+msgctxt "desc/entity/o-ho"
+msgid "o-ho"
+msgstr "Type 100 «O-Ho» (43 г.в.)"
+
+
+msgctxt "desc/entity/type_4"
+msgid "type_4"
+msgstr "Type 4 (44 г.в.)"
+
+
+msgctxt "desc/entity/type5h"
+msgid "type5h"
+msgstr "Type 5 (45 г.в.)"
+
+
+msgctxt "desc/entity/l335c"
+msgid "l335c"
+msgstr "Carro Armato L3/38 CC (-39 г.в.)"
+
+
+msgctxt "desc/entity/c50cma"
+msgid "c50cma"
+msgstr "Autocannoni da 75/27 C.K. (-39 г.в.)"
+
+
+msgctxt "desc/entity/m7518"
+msgid "m7518"
+msgstr "Semovente da 75/18 M40 (40 г.в.)"
+
+
+msgctxt "desc/entity/m4732"
+msgid "m4732"
+msgstr "Semovente da 47/32 L40 (41 г.в.)"
+
+
+msgctxt "desc/entity/m7532"
+msgid "m7532"
+msgstr "Semovente da 75/32 M41 (41 г.в.)"
+
+
+msgctxt "desc/entity/3ro"
+msgid "3ro"
+msgstr "Autocannoni da 90/53 C.A. (41 г.в.)"
+
+
+msgctxt "desc/entity/ho-ni1"
+msgid "ho-ni1"
+msgstr "Type 1 «Ho-Ni» 1 (42 г.в.)"
+
+
+msgctxt "desc/entity/m7534"
+msgid "m7534"
+msgstr "Semovente da 75/34 M42 (42 г.в.)"
+
+
+msgctxt "desc/entity/m9053"
+msgid "m9053"
+msgstr "Semovente da 90/53 M41 (42 г.в.)"
+
+
+msgctxt "desc/entity/tacam_t60"
+msgid "tacam_t60"
+msgstr "TACAM T-60 (43 г.в.)"
+
+
+msgctxt "desc/entity/m7546"
+msgid "m7546"
+msgstr "Semovente da 75/46 M43 (43 г.в.)"
+
+
+msgctxt "desc/entity/ho-ni_3"
+msgid "ho-ni_3"
+msgstr "Type 3 «Ho-Ni» 3 (44 г.в.)"
+
+
+msgctxt "desc/entity/ho-ni_3_105"
+msgid "ho-ni_3_105"
+msgstr "Type 3 «Ho-Ni» 4 (44 г.в.)"
+
+
+msgctxt "desc/entity/na-to"
+msgid "na-to"
+msgstr "Type 5 «Na-To» (44 г.в.)"
+
+
+msgctxt "desc/entity/zrinyi1"
+msgid "zrinyi1"
+msgstr "44.M «Zrinyi» I (44 г.в.) "
+
+
+msgctxt "desc/entity/ho-ri_1"
+msgid "ho-ri_1"
+msgstr "Type 5 «Ho-Ri» (44 г.в.)"
+
+
+msgctxt "desc/entity/ho-ri"
+msgid "ho-ri"
+msgstr "Type 5 «Ho-Ri» 1 (44 г.в.)"
+
+
+msgctxt "desc/entity/tas_44td"
+msgid "tas_44td"
+msgstr "44.M «Tas» Rohamloveg (44 г.в.)"
+
+
+msgctxt "desc/entity/type5_ho-ri_production"
+msgid "type5_ho-ri_production"
+msgstr "Type 5 «Ho-Ri» 2 (44 г.в.)"
+
+
+msgctxt "desc/entity/type5hs"
+msgid "type5hs"
+msgstr "Type 5 155 mm Gun (46+ г.в.)"
+
+
+msgctxt "desc/entity/zrinyi2"
+msgid "zrinyi2"
+msgstr "40/43.M «Zrinyi» II (42 г.в.)"
+
+
+msgctxt "desc/entity/m10525"
+msgid "m10525"
+msgstr "Semovente da 105/25 M43 (43 г.в.)"
+
+
+msgctxt "desc/entity/pzlp23_rom"
+msgid "pzlp23_rom"
+msgstr "PZL.23 «Karaś» (Бx8) (-39 г.в.)"
+
+
+msgctxt "desc/entity/b5n2_torpedo"
+msgid "b5n2_torpedo"
+msgstr "B5N1 «Kate» (Б) (-39 г.в.)"
+
+
+msgctxt "desc/entity/ki45"
+msgid "ki45"
+msgstr "Ki-45 KAIa «Toryu» (Бx2/П) (42 г.в.)"
+
+
+msgctxt "desc/entity/a6m_m21_86"
+msgid "a6m_m21_86"
+msgstr "A6M1 «Zero» (Б/П) (-39 г.в.)"
+
+
+msgctxt "desc/entity/a6m_m21_86_b"
+msgid "a6m_m21_86_b"
+msgstr "A6M1 «Zero» (Бx6/П) (-39 г.в.)"
+
+
+msgctxt "desc/entity/mc_205"
+msgid "mc_205"
+msgstr "MC.205 «Veltro» (П) (42 г.в.)"
+
+
+msgctxt "desc/entity/j2m_rs"
+msgid "j2m_rs"
+msgstr "J2M «Raiden» (Бx8/П) (42 г.в.)"
+
+
+msgctxt "desc/entity/a6m5"
+msgid "a6m5"
+msgstr "A6M5C «Zero» (Бx6/П) (43 г.в.)"
+
+
+msgctxt "desc/entity/a6m5_torpedo"
+msgid "a6m5_torpedo"
+msgstr "A6M5C «Zero» (Т/П) (43 г.в.)"
+
+
+msgctxt "desc/entity/type94"
+msgid "type94"
+msgstr "Type 97 81 Mortar (-39 г.в.)"
+
+
+msgctxt "desc/ammo/air_bomb"
+msgid "air_bomb"
+msgstr "Авибомба"
+
+
+msgctxt "desc/ammo/air_bomb_il2"
+msgid "air_bomb_il2"
+msgstr "Авибомба"
+
+
+msgctxt "desc/ammo/air_bomb"
+msgid "air_bomb"
+msgstr "stuff Авибомба"
+
+
+msgctxt "desc/ammo/searchlight"
+msgid "searchlight"
+msgstr "Прожектор"
+
+
+msgctxt "desc/weapon/type/main_gun"
+msgid "main_gun"
+msgstr "<f(arial_hq)><c(20a601)>Основное Ор.</c>"
+
+
+msgctxt "desc/weapon/type/secondary_flamer"
+msgid "secondary_flamer"
+msgstr "<f(arial_hq)><c(20a601)>Огнемёт</c>"
+
+
+msgctxt "desc/weapon/type/secondary_rockets"
+msgid "secondary_rockets"
+msgstr "<f(arial_hq)><c(20a601)>Реактивная Уст.</c>"
+
+
+msgctxt "desc/weapon/type/secondary_main"
+msgid "secondary_main"
+msgstr "<f(arial_hq)><c(20a601)>Вторичное Ор.</c>"
+
+
+msgctxt "desc/weapon/type/mgun_aa"
+msgid "mgun_aa"
+msgstr "<f(arial_hq)><c(20a601)>Зенитная Уст.</c>"
+
+
+msgctxt "desc/weapon/type/mgun_main"
+msgid "mgun_main"
+msgstr "<f(arial_hq)><c(20a601)>Основной Пул.</c>"
+
+
+msgctxt "desc/weapon/type/mgun_coaxial"
+msgid "mgun_coaxial"
+msgstr "<f(arial_hq)><c(20a601)>Спаренный Пул.</c>"
+
+
+msgctxt "desc/weapon/type/mgun_hull"
+msgid "mgun_hull"
+msgstr "<f(arial_hq)><c(20a601)>Курсовой Пул.</c>"
+
+
+msgctxt "desc/weapon/type/mgun_rear"
+msgid "mgun_rear"
+msgstr "<f(arial_hq)><c(20a601)>Кормовой Пул.</c>"
+
+
+msgctxt "desc/weapon/type/mgun_right"
+msgid "mgun_right"
+msgstr "<f(arial_hq)><c(20a601)>Правый Пул.</c>"
+
+
+msgctxt "desc/weapon/type/mgun_left"
+msgid "mgun_left"
+msgstr "<f(arial_hq)><c(20a601)>Левый Пул.</c>"
+
+
+msgctxt "desc/weapon/type/mgun_right_b"
+msgid "mgun_right_b"
+msgstr "<f(arial_hq)><c(20a601)>Правый Пул.</c>"
+
+
+msgctxt "desc/weapon/type/mgun_left_b"
+msgid "mgun_left_b"
+msgstr "<f(arial_hq)><c(20a601)>Левый Пул.</c>"
+
+
+msgctxt "desc/weapon/type/smoke"
+msgid "smoke"
+msgstr "<f(arial_hq)><c(20a601)>Мортирка</c>"
+
+
+msgctxt "desc/weapon/type/f_main"
+msgid "f_main"
+msgstr "<f(arial_hq)><c(20a601)>Основной Ог.</c>"
+
+
+msgctxt "desc/weapon/type/f_coaxial"
+msgid "f_coaxial"
+msgstr "<f(arial_hq)><c(20a601)>Спаренный Ог.</c>"
+
+
+msgctxt "desc/weapon/type/f_hull"
+msgid "f_hull"
+msgstr "<f(arial_hq)><c(20a601)>Курсовой Ог.</c>"
+
+
+msgctxt "desc/weapon/type/f_rear"
+msgid "f_rear"
+msgstr "<f(arial_hq)><c(20a601)>Кормовой Ог.</c>"
+
+
+msgctxt "desc/weapon/type/f_right"
+msgid "f_right"
+msgstr "<f(arial_hq)><c(20a601)>Правый Ог.</c> "
+
+
+msgctxt "desc/weapon/type/f_left"
+msgid "f_left"
+msgstr "<f(arial_hq)><c(20a601)>Левый Ог.</c>"
+
+
+msgctxt "desc/weapon/type/dropper_av"
+msgid "dropper_av"
+msgstr "<f(arial_hq)><c(20a601)>Подвеска с Бомб.</c>"
+
+
+msgctxt "desc/weapon/type/torpedo_av"
+msgid "torpedo_av"
+msgstr "<f(arial_hq)><c(20a601)>Подвеска с Торп.</c>"
+
+
+msgctxt "desc/weapon/type/gun_av"
+msgid "gun_av"
+msgstr "<f(arial_hq)><c(20a601)>Основное</c>"
+
+
+msgctxt "desc/weapon/type/mgun_av"
+msgid "mgun_av"
+msgstr "<f(arial_hq)><c(20a601)>Вторичное</c>"
+
+
+msgctxt "desc/container/crate6_b"
+msgid "crate6_b"
+msgstr "Контейнер"
+
+
+msgctxt "desc/container/box"
+msgid "box"
+msgstr "Ящик"
+
+
+msgctxt "desc/container/small_box"
+msgid "small_box"
+msgstr "Маленький Ящик"
+
+
+msgctxt "desc/stuff/antitank"
+msgid "antitank"
+msgstr "mine Противотанковая мина"
+
+
+msgctxt "desc/stuff/antitank_training"
+msgid "antitank_training"
+msgstr "mine Тренировочная противотанковая мина"
+
+
+msgctxt "desc/stuff/antipersonnel"
+msgid "antipersonnel"
+msgstr "mine Противопехотная мина"
+
+
+msgctxt "desc/stuff/balloon"
+msgid "balloon"
+msgstr "Баллон с топливом"
+
+
+msgctxt "desc/stuff/balloon_g"
+msgid "balloon_g"
+msgstr "Баллон с топливом"
+
+
+msgctxt "desc/stuff/bandage"
+msgid "bandage"
+msgstr "Бинты"
+
+
+msgctxt "desc/stuff/barbwire_kit"
+msgid "barbwire_kit"
+msgstr "Набор интсрументов"
+
+
+msgctxt "desc/stuff/barrel"
+msgid "barrel"
+msgstr "Бочка"
+
+
+msgctxt "desc/stuff/can"
+msgid "can"
+msgstr "Канистра"
+
+
+msgctxt "desc/stuff/chicken"
+msgid "chicken"
+msgstr "Петушок"
+
+
+msgctxt "desc/stuff/clockwork"
+msgid "clockwork"
+msgstr "mine Мина с часовым механизмом"
+
+
+msgctxt "desc/stuff/cook_cap"
+msgid "cook_cap"
+msgstr "Фуражка"
+
+
+msgctxt "desc/stuff/cord_wood"
+msgid "cord_wood"
+msgstr "Вязанка дров"
+
+
+msgctxt "desc/stuff/drug"
+msgid "drug"
+msgstr "Лекарство"
+
+
+msgctxt "desc/stuff/dynamite"
+msgid "dynamite"
+msgstr "Динамит"
+
+
+msgctxt "desc/stuff/dynamite_ladung"
+msgid "dynamite_ladung"
+msgstr "3-кг заряд"
+
+
+msgctxt "desc/stuff/dynamite_clockwork"
+msgid "dynamite_clockwork"
+msgstr "Бомба с часовым механизмом"
+
+
+msgctxt "desc/stuff/filling_empty"
+msgid "filling_empty"
+msgstr "Пусто"
+
+
+msgctxt "desc/stuff/flag"
+msgid "flag"
+msgstr "Флаг"
+
+
+msgctxt "desc/stuff/flag_handle"
+msgid "flag_handle"
+msgstr "Флаг Победы"
+
+
+msgctxt "desc/stuff/hedgehog_kit"
+msgid "hedgehog_kit"
+msgstr "Набор инструментов"
+
+
+msgctxt "desc/stuff/human"
+msgid "human"
+msgstr "Тело"
+
+
+msgctxt "desc/stuff/kamikaze_bomb"
+msgid "kamikaze_bomb"
+msgstr "Взрывчатка"
+
+
+msgctxt "desc/stuff/matchbox"
+msgid "matchbox"
+msgstr "Спички"
+
+
+msgctxt "desc/stuff/medkit"
+msgid "medkit"
+msgstr "Аптечка"
+
+
+msgctxt "desc/stuff/mine"
+msgid "mine"
+msgstr "antipersonnel Противопехотная мина"
+
+
+msgctxt "desc/stuff/mine"
+msgid "mine"
+msgstr "antitank Противопехотная мина"
+
+
+msgctxt "desc/stuff/mine_antitank_jap"
+msgid "mine_antitank_jap"
+msgstr "Тяжелая фугасная мина"
+
+
+msgctxt "desc/stuff/mine_detector"
+msgid "mine_detector"
+msgstr "Миноискатель"
+
+
+msgctxt "desc/stuff/morphine"
+msgid "morphine"
+msgstr "Морфин"
+
+
+msgctxt "desc/stuff/petrol"
+msgid "petrol"
+msgstr "Топливо"
+
+
+msgctxt "desc/stuff/liquid"
+msgid "liquid"
+msgstr "Огнесмесь"
+
+
+msgctxt "desc/stuff/diesel"
+msgid "diesel"
+msgstr "Дизельне топлево"
+
+
+msgctxt "desc/stuff/plant"
+msgid "plant"
+msgstr "Камуфляжный набор"
+
+
+msgctxt "desc/stuff/rad"
+msgid "rad"
+msgstr "Странный ящик"
+
+
+msgctxt "desc/stuff/radio_station"
+msgid "radio_station"
+msgstr "Радиостанция"
+
+
+msgctxt "desc/stuff/repair_kit"
+msgid "repair_kit"
+msgstr "Ремкомплект"
+
+
+msgctxt "desc/stuff/sandbag_kit"
+msgid "sandbag_kit"
+msgstr "Лопата и мешки"
+
+
+msgctxt "desc/stuff/sandbag_kit2"
+msgid "sandbag_kit2"
+msgstr "Лопата и мешки"
+
+
+msgctxt "desc/stuff/satchel"
+msgid "satchel"
+msgstr "Ранцевый заряд"
+
+
+msgctxt "desc/stuff/spade_inv"
+msgid "spade_inv"
+msgstr "Лопата"
+
+
+msgctxt "desc/stuff/steak"
+msgid "steak"
+msgstr "Бифштекс"
+
+
+msgctxt "desc/stuff/tank_balloon"
+msgid "tank_balloon"
+msgstr "Канистра с топливом"
+
+
+msgctxt "desc/stuff/water"
+msgid "water"
+msgstr "Вода"
+
+
