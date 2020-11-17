@@ -557,13 +557,13 @@
 				;{call "burn_emit"}
 				
 				{delay 4	{if operatable {tags remove "emit_label"}}}
-				{delay 5	{if operatable {tags remove "emit_label"}}}
 				{delay 6	{if operatable {tags remove "emit_label"}}}
-				{delay 7	{if operatable {tags remove "emit_label"}}}
 				{delay 8	{if operatable {tags remove "emit_label"}}}
-				{delay 9	{if operatable {tags remove "emit_label"}}}
+				{delay 10	{if operatable {tags remove "emit_label"}}}
+				{delay 12	{if operatable {tags remove "emit_label"}}}
+				{delay 14	{if operatable {tags remove "emit_label"}}}
 				
-				{delay 10
+				{delay 15
 					{if not operatable
 						{tags add "abandoned"}
 						{set "broken" 1}
@@ -902,60 +902,6 @@
 		{view stop "fire2"}
 		{view stop "flame2"}
 		{fire radius 6 time 0.5 heating 100 effector}
-	}
-}
-{"dymopusk"
-	{on "init_gun"
-		{call	"smoke_link"}
-		{link_sound "smokecaller" "detonation/grenade_smoke"}
-	}
-	{on "smoke_link"
-		{add_view	"smoke_cover-up_small"	"smoke10"	"FXfire5"}
-		{add_view	"smoke_cover-up_small"	"smoke11"	"FXfire6"}
-		{add_view	"smoke_cover-up_norm"	"smoke12"	"FXfire5"}
-		{add_view	"smoke_cover-up_norm"	"smoke13"	"FXfire6"}
-		{add_view	"smoke_cover-up_big"	"smoke14"	"FXfire5"}
-		{add_view	"smoke_cover-up_big"	"smoke15"	"FXfire6"}
-	}
-	{on fire "mgun16"
-		{play_sound "smokecaller" 1}
-		{tags add "smoke"}
-		{view start "smoke10"}
-		{view start "smoke11"}
-		{volumes "smoke10" enable visible}
-		{volumes "smoke11" enable visible}
-		{update_visibility_patch}
-		{delay 1
-			{view stop "smoke10"}
-			{view stop "smoke11"}
-			{view start "smoke12"}
-			{view start "smoke13"}
-			{volumes "smoke10" disable visible}
-			{volumes "smoke11" disable visible}
-			{volumes "smoke12" enable visible}
-			{volumes "smoke13" enable visible}
-			{update_visibility_patch}
-		}
-		{delay 3
-			{view start "smoke14"}
-			{view start "smoke15"}
-			{volumes "smoke12" disable visible}
-			{volumes "smoke13" disable visible}
-			{volumes "smoke14" enable visible}
-			{volumes "smoke15" enable visible}
-			{update_visibility_patch}
-		}
-		{delay 35
-			{volumes "smoke14" disable visible}
-			{volumes "smoke15" disable visible}
-			{view stop "smoke12"}
-			{view stop "smoke13"}
-			{view stop "smoke14"}
-			{view stop "smoke15"}
-			{update_visibility_patch}
-			{stop_sound "smokecaller"}
-			{call "smoke_link"}
-		}
 	}
 }
 ;########################################################

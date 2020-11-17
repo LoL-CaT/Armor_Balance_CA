@@ -7422,23 +7422,23 @@ msgid "High-Explosive"
 msgstr "Ф"
 
 msgctxt "desc/ammo/heat"
-msgid "High-Explosive Anti-Tank"
+msgid "heat"
 msgstr "КС"
 
 msgctxt "desc/ammo/apcr"
-msgid "High-Explosive Anti-Tank"
+msgid "apcr"
 msgstr "БП"
 
 msgctxt "desc/ammo/apds"
-msgid "High-Explosive Anti-Tank"
+msgid "apds"
 msgstr "БПС"
 
 msgctxt "desc/ammo/airplane"
-msgid "High-Explosive Anti-Tank"
+msgid "airplane"
 msgstr "Лента ББ/ОФ"
 
 msgctxt "desc/ammo/zenite"
-msgid "High-Explosive Anti-Tank"
+msgid "zenite"
 msgstr "Лента ББ/ОФ"
 
 msgctxt "desc/ammo/air_bomb"
@@ -7446,14 +7446,14 @@ msgid "air_bomb"
 msgstr "Авибомба"
 
 msgctxt "desc/ammo/panzerfaust"
-msgid "Panzerfaust 3 HEAT"
+msgid "panzerfaust"
 msgstr "Кумулятивный"
 
 msgctxt "desc/ammo/sm"
-msgid "Smoke Shell"
+msgid "sm"
 msgstr "Дымовой"
 
 msgctxt "desc/ammo/atgm"
-msgid "Anti-Tank Guided Missile"
+msgid "atgm"
 msgstr "ПТУР"
 
