@@ -23,5 +23,7 @@
 	("accuracy_minimum")
 	("range_minimum")
 	
+	{preloaded}	
+	
 	{desc "37 mm Type 98 Gun (ЭДС 95)"}		
 }

@@ -31,6 +31,8 @@
 	("accuracy_medium")
 	("range_medium")
 	
+	{preloaded}	
+	
 	{desc "57 mm Type 1 Gun (ЭДС 125)"}	
 }
 
