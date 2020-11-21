@@ -114,7 +114,7 @@
 			}
 		}
 	}
-	{on bullet_hit
+	{on bullet_hit sync
 		{kill_flags reset}
 		{signal hit 5} ; generate hit signal
 		{if stuff "shell fg zenite"
@@ -345,7 +345,7 @@
 			}
 		}
 	}
-	{on "linker_simulation"
+	{on "linker_simulation" sync
 		{if effector "airborne"
 		 else effector "cannon"
 			;{throw_off up 2.25 0.75 forward 2.25 0.75 turn 0 360 force}
@@ -360,7 +360,7 @@
 		}
 	}
 
-	{on "die"
+	{on "die" sync
 		{if not dead
 			{spawn "bloodsparks_small"}
 			{if linked
@@ -509,7 +509,7 @@
 			{call "_burn"}
 		}
 	}
-	{on "_burn"
+	{on "_burn" sync
 		{if not burned
 			{able "burning" 1}
 			{able select 0}
