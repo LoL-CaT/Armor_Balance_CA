@@ -3,7 +3,7 @@
 	{fireSound "gun/howitz/600/"}
 	{spreading 8}
 	
-	("speed" s(220))	
+	("speed" s(490))	
 
 	{projectileDamage 40000}
 	{bullet_view "shell_fg_280"
@@ -13,7 +13,7 @@
 
 	("rechargeTime" r(0.3333))	
 	
-	("range_sheavy_howitzer")
+	("range_sheavy_ls_howitzer")
 	("accuracy_sheavy_howitzer")
 
 	("damage" a(0.1) b(0.1) c(0.1) d(0.1) e(0.1))	

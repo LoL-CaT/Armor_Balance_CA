@@ -218,9 +218,15 @@
 			{Position -14.2458	-24.3973	0.228474}
 			{visibility 0}
 		}
-		{bone "driver"
+		{bone "commander"
 			{Position -23.8179	7.82185	0}
 		}
+		{bone "driver1"
+			{Position -20.8179	7.82185	0}
+		}
+		{bone "driver2"
+			{Position -20.8179	-7.82185	0}
+		}		
 		{bone "seat1"
 			{Matrix34
 				0.994261	0	-0.106981
