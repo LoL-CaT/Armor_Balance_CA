@@ -126,9 +126,15 @@
 				}
 			}
 		}
-		{bone "driver"
+		{bone "commander"
+			{Position -9.56567	-14.10702	0}
+		}
+		{bone "driver1"
 			{Position -9.56567	3.10702	0}
 		}
+		{bone "driver2"
+			{Position 9.56567	3.10702	0}
+		}		
 	}
 }
 {Volume "body"

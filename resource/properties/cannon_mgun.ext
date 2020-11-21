@@ -6,15 +6,16 @@ actor
 (include "cannon_armor.ext")
 ;(include "shadow/tank.inc"  scale(0.7))
 (include "selection/vehicle.inc"  scale(0.7))
-{PatherID "cannon.carried"}
+{PatherID "cannon.small"}
 {simulation {able 1} {disableLinked 1}}
 {obstacleID "tank"}
 {collider "cannon"}
 {constrain ground}
-{props "mg_stan" "vehicle" "steel" "cannon" "emit_on_sink"}
+{props "mg_stan" "cannon" "emit_on_sink"}
 {able "emit_crew_on_injure"}
 {targetClass "cannon" "bullet"}
 {targetSelector "cannon_bullet"}
+{lodclass "cannon_small"}
 
 {brain "vehicle" 
 	{state "vehicle"}
@@ -41,7 +42,7 @@ actor
 	{Box
 		{Size 5 5}
 		{weight 1000}
-                {item "repair_kit" 1}
+;       {item "repair_kit" 1}
 	}
 }
 
@@ -89,7 +90,7 @@ actor
 	("loco_carrier_mgun")
 }
 
-{volume "shield" {thickness 8}}
+{volume "shield" {thickness 4}}
 {component "shield" {RepairTime 20}}
 {extender "shield"
 	{off}
@@ -99,7 +100,7 @@ actor
 {armor
 	{setting "shield"
 		{volumes "*shield*"}
-		{thickness 8}
+		{thickness 5}
 	}
 	{setting "body"
 		{thickness 5}

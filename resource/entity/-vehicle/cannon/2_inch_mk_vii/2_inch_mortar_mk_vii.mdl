@@ -84,9 +84,15 @@
 				}
 			}
 		}
-		{bone "driver"
+		{bone "commander"
 			{Position -0.0018872	6.75972	0}
 		}
+		{bone "driver1"
+			{Position -7.0018872	6.75972	0}
+		}
+		{bone "driver2"
+			{Position 8.0018872	6.75972	0}
+		}		
 		{bone "emit1"
 			{Position -9.92356	15.0071	0}
 		}

@@ -75,7 +75,7 @@
 {"mg42_lafette"     	("vs" cd(2700) ci(60) c(60) t(all) 		s(ger) n(2) g(d4) sc(6.0) b(v8) cw(2) cp(0.3)) {cost 13} {fore -45}} ; ГОД 42
 {"zb_60_42"      	    ("vs" cd(2700) ci(60) c(60) t(all)      s(ger) n(2) g(d5) sc(6.0) b(v8) cw(2) cp(0.3)) {cost 20} {fore -45}} ; ГОД 42
 
-{"dshk_zenit_ger"       ("vs" cd(0) ci(450) c(450) t(all) 		s(ger) n(1) g(d6) sc(6.0) b(v8) cw(2) cp(0.3)) {cost 70} {fore 1}} ; ГОД 39
+{"dshk_zenit_ger"       ("vs" cd(0) ci(450) c(450) t(all) 		s(ger) n(2) g(d6) sc(6.0) b(v8) cw(2) cp(0.3)) {cost 70} {fore 1}} ; ГОД 39
 
 {"2cm_flak38"   	    ("vs" cd(0) ci(900) c(900) t(all) 	s(ger) n(2) g(d7) sc(6.0) b(v8) cw(2) cp(0.3)) {cost 205} {fore 1}} ; ГОД 38
 {"2cm_flakvierling38"   ("vs" cd(0) ci(900) c(900) t(all)     s(ger) n(4) g(d7) sc(6.0) b(v8) cw(2) cp(0.3)) {cost 420} {fore 1}} ; ГОД 38 x4
@@ -162,7 +162,7 @@
 
 ;°°°Artillery°°° 
 
-{"5_cm_granatwerfer_36" ("vs" cd(0) ci(60) c(60) t(all) 		s(ger) n(1) g(g1) sc(6.0) b(v6) cw(2) cp(1)) {cost 20} {fore 1}} ; ГОД 36
+{"5_cm_granatwerfer_36" ("vs" cd(0) ci(60) c(60) t(all) 		s(ger) n(2) g(g1) sc(6.0) b(v6) cw(2) cp(1)) {cost 20} {fore 1}} ; ГОД 36
 {"sgrw_34"              ("vs" cd(0) ci(60) c(60) t(all) 		s(ger) n(2) g(g2) sc(6.0) b(v6) cw(2) cp(2)) {cost 50} {fore 1}} ; ГОД 32
 {"sgrw_35"              ("vs" cd(0) ci(900) c(900) t(all) 		s(ger) n(2) g(g3) sc(6.0) b(v6) cw(2) cp(2)) {cost 250} {fore 1}} ; ГОД 35
 {"sgrw_42"              ("vs" cd(3600) ci(900) c(900) t(all) 		s(ger) n(2) g(g4) sc(6.0) b(v6) cw(2) cp(5)) {cost 300} {fore -3.01}} ; ГОД 43  
