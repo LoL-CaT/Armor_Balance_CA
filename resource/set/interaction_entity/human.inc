@@ -178,13 +178,13 @@
 			{explosive_treshold 70}
 			{table {30 1} {200 2.5} {500 3} {5000 5}}
 		}
-		{if volume "head"
+		{if volume "head" sync
 			{if not volume_armored
 				{if	stuff "sniper" {die}}
-				{if	stuff "pistol"	{if rand 0.85 {call "die"} ("health_damage" c(500))}}
-				{if	stuff "smg"	{if rand 0.85 {call "die"} ("health_damage" c(500))}}
-				{if	stuff "mgun" {if rand 0.95 {call "die"} ("health_damage" c(500))}}
-				{if	stuff "rifle" {if rand 0.9 {call "die"} ("health_damage" c(500))}}
+				{if	stuff "pistol"	{if rand 0.85 ("health_damage" c(500))}}
+				{if	stuff "smg"	{if rand 0.85 ("health_damage" c(500))}}
+				{if	stuff "mgun" {if rand 0.95 ("health_damage" c(500))}}
+				{if	stuff "rifle" {if rand 0.9 ("health_damage" c(500))}}
 			}
 			{if rand 0.3
 				{take_off "head"
@@ -192,13 +192,13 @@
 				}
 			}
 		}
-		{if volume "body"
+		{if volume "body" sync
 			{if not volume_armored
 				{if	stuff "sniper" {die}}
-				{if	stuff "pistol"	{if rand 0.5 {call "die"} ("health_damage" c(500))}}
-				{if	stuff "smg"	{if rand 0.5 {call "die"} ("health_damage" c(500))}}
-				{if	stuff "mgun" {if rand 0.75 {call "die"} ("health_damage" c(500))}}
-				{if	stuff "rifle" {if rand 0.55 {call "die"} ("health_damage" c(500))}}			
+				{if	stuff "pistol"	{if rand 0.5 ("health_damage" c(500))}}
+				{if	stuff "smg"	{if rand 0.5 ("health_damage" c(500))}}
+				{if	stuff "mgun" {if rand 0.75 ("health_damage" c(500))}}
+				{if	stuff "rifle" {if rand 0.55 ("health_damage" c(500))}}			
 			}
 		}
 	}
