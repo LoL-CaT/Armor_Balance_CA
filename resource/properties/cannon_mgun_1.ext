@@ -11,11 +11,10 @@ actor
 {obstacleID "tank"}
 {collider "cannon"}
 {constrain ground}
-{props "mg_stan" "cannon" "emit_on_sink"}
+{props "mg_stan" "vehicle" "steel" "cannon" "emit_on_sink"}
 {able "emit_crew_on_injure"}
 {targetClass "cannon" "bullet"}
 {targetSelector "cannon_bullet"}
-{lodclass "cannon_small"}
 
 {brain "vehicle" 
 	{state "vehicle"}
@@ -42,7 +41,7 @@ actor
 	{Box
 		{Size 6 6}
 		{weight 1000}
-;       {item "repair_kit" 2}
+                {item "repair_kit" 2}
 	}
 }
 
@@ -79,7 +78,7 @@ actor
 {armor
 	{setting "shield"
 		{volumes "*shield*"}
-		{thickness 5}
+		{thickness 8}
 	}
 	{setting "body"
 		{thickness 5}

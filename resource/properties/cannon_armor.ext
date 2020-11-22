@@ -1,5 +1,4 @@
 ;SDL
-
 {sensor
 	{visor "main"
 		{vision "cannon_main"}
@@ -79,12 +78,7 @@
 (define "loco_carrier"
 	{locomotion
 		("loco_params")
-		{MaxSlope   30}
-		{FallSlope  60}
-		{Slow 		6}
-		{Normal 	7}
-		{Fast 		8}		
-		{MaxSpeed	9.5} 
+		{MaxSpeed	12.5} 
 		{StartTime	1}
 		{TurnTime	2}
 		{TurnRadius	2}
@@ -94,7 +88,7 @@
 (define "loco_carrier_mgun"
 	{locomotion
 		("loco_params")
-		{MaxSpeed	9.5} 
+		{MaxSpeed	12.5} 
 		{StartTime	0.8}
 		{TurnTime	1.5}
 		{TurnRadius	1}
@@ -104,10 +98,7 @@
 (define "loco_carrier_big"
 	{locomotion
 		("loco_params")
-		{Slow 		6}
-		{Normal 	7}
-		{Fast 		8}		
-		{MaxSpeed	9.5} 
+		{MaxSpeed	12.5} 
 		{StartTime	2}
 		{TurnTime	6}
 		{TurnRadius	2}
@@ -119,10 +110,7 @@
 		("loco_params")
 		{MaxSlope   50}
 		{FallSlope  60}
-		{Slow 		6}
-		{Normal 	7}
-		{Fast 		8}		
-		{MaxSpeed	9.5} 
+		{MaxSpeed	12.5} 
 		{StartTime	2}
 		{TurnTime	4}
 		{TurnRadius	2}
@@ -133,10 +121,7 @@
 	{locomotion
 		("loco_params")
 		{FallSlope  60}
-		{Slow 		6}
-		{Normal 	7}
-		{Fast 		8}		
-		{MaxSpeed	9.5} 
+		{MaxSpeed	12.5} 
 		{StartTime	3}
 		{TurnTime	10}
 		{TurnRadius	3}
@@ -147,10 +132,7 @@
 	{locomotion
 		("loco_params")
 		{FallSlope  60}
-		{Slow 		6}
-		{Normal 	7}
-		{Fast 		8}		
-		{MaxSpeed	9.5} 
+		{MaxSpeed	12.5} 
 		{StartTime	4}
 		{TurnTime	10}
 		{TurnRadius	3}
@@ -161,10 +143,7 @@
 	{locomotion
 		("loco_params")
 		{FallSlope  60}
-		{Slow 		6}
-		{Normal 	7}
-		{Fast 		8}		
-		{MaxSpeed	9.5} 
+		{MaxSpeed	12.5} 
 		{StartTime	5}
 		{TurnTime	20}
 		{TurnRadius	3}
@@ -175,10 +154,7 @@
 	{locomotion
 		("loco_params")
 		{FallSlope  60}
-		{Slow 		6}
-		{Normal 	7}
-		{Fast 		8}		
-		{MaxSpeed	9.5} 
+		{MaxSpeed	12.5} 
 		{StartTime	5}
 		{TurnTime	25}
 		{TurnRadius	3}
@@ -201,12 +177,7 @@
 (define "loco_carrier" ; миномёт -115
 	{locomotion
 		("loco_params")
-		{MaxSlope   30}
-		{FallSlope  60}
-		{Slow 		6}
-		{Normal 	7}
-		{Fast 		8}		
-		{MaxSpeed	9} 
+		{MaxSpeed	12} 
 		{StartTime	1}
 		{TurnTime	20}
 		{TurnRadius	2}
@@ -216,10 +187,7 @@
 (define "loco_carrier_mgun"
 	{locomotion
 		("loco_params")
-		{Slow 		6}
-		{Normal 	7}
-		{Fast 		8}		
-		{MaxSpeed	9.5} 
+		{MaxSpeed	12.5} 
 		{StartTime	0.8}
 		{TurnTime	2}
 		{TurnRadius	1}
@@ -229,10 +197,7 @@
 (define "loco_carrier_big" ; миномёт 120+
 	{locomotion
 		("loco_params")
-		{Slow 		4}
-		{Normal 	5}
-		{Fast 		6}		
-		{MaxSpeed	7}
+		{MaxSpeed	10}
 		{StartTime	2}
 		{TurnTime	20}
 		{TurnRadius	2}
@@ -244,10 +209,7 @@
 		("loco_params")
 		{MaxSlope   30}
 		{FallSlope  60}
-		{Slow 		6}
-		{Normal 	7}
-		{Fast 		8}		
-		{MaxSpeed	9}
+		{MaxSpeed	12}
 		{StartTime	2}
 		{TurnTime	25}
 		{TurnRadius	2}
@@ -258,10 +220,7 @@
 	{locomotion
 		("loco_params")
 		{FallSlope  80}
-		{Slow 		6}
-		{Normal 	7}
-		{Fast 		8}		
-		{MaxSpeed	9}
+		{MaxSpeed	12}
 		{StartTime	2}
 		{TurnTime	35}
 		{TurnRadius	2}
@@ -272,9 +231,6 @@
 	{locomotion
 		("loco_params")
 		{FallSlope  90}
-		{Slow 		1}
-		{Normal 	2}
-		{Fast 		3}		
 		{MaxSpeed	4}
 		{StartTime	10}
 		{TurnTime	60}
@@ -286,9 +242,6 @@
 	{locomotion
 		("loco_params")
 		{FallSlope  140}
-		{Slow 		1}
-		{Normal 	1}
-		{Fast 		1}		
 		{MaxSpeed	1}
 		{StartTime	150}
 		{TurnTime	120}
@@ -300,9 +253,6 @@
 	{locomotion
 		("loco_params")
 		{FallSlope  160}
-		{Slow 		0}
-		{Normal 	0}
-		{Fast 		0}		
 		{MaxSpeed	0}
 		{StartTime	200}
 		{TurnTime	200}

@@ -8,7 +8,6 @@
 	("wheel" args "wheelleft")
 
 	("crew_wheeled_gun")
-	
 	{boarder
 		{anm "gunner"
 			{forward	{end "pose_m5_gunlayer" 10}}

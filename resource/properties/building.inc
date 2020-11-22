@@ -10,8 +10,8 @@ game_entity
 		{tags "body"}
 	}
 	{mass 3000}
-	{props "slow_on_crush" "construction"}
+	{props "slow_on_crush"}
 ;	(include "/properties/shadow/construction.inc" sx(1) sy(0.18))
 	(include "construction_generic.inc")
 
-	{lodclass "decor_landmark"}
+	{lodclass "decor_big"}

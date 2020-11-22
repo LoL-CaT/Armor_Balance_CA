@@ -4,9 +4,6 @@
 
 {constrain zero}
 
-{mass 50000}
+{mass 500}
 
-{props "bridge"}
-
-{obstacleID "unbreakable"}
-{lodclass "decor_landmark"}
+{props "concrete" "bridge"}

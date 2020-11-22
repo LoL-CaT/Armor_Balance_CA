@@ -53,11 +53,11 @@
 
 {"13mm_hotchkiss"   ("vs" cd(0) ci(450) c(450) t(all)   	s(jap) n(2) g(d6) sc(6.0)  b(v8) cw(2) cp(0.3)) {cost 80} {fore 1}} ; ÃÎÄ 30
 
-{"type98_20mm"      ("vs" cd(0) ci(900) c(900) t(all) 		s(jap) n(2) g(d7) sc(6.0)  b(v8) cw(2) cp(0.3)) {cost 205} {fore 1}} ; ÃÎÄ 38
+{"type98_20mm"      ("vs" cd(0) ci(900) c(900) t(all) 		s(jap) n(1) g(d7) sc(6.0)  b(v8) cw(2) cp(0.3)) {cost 205} {fore 1}} ; ÃÎÄ 38
 {"25mm_aa1_type96"  ("vs" cd(0) ci(900) c(900) t(all) 	    s(jap) n(2) g(d7) sc(6.0)  b(v8) cw(2) cp(0.3)) {cost 205} {fore 1}} ; ÃÎÄ 36
-{"20mm_breda_1935"  ("vs" cd(0) ci(900) c(900) t(all) 		s(jap) n(2) g(d7) sc(6.0)  b(v8) cw(2) cp(0.3)) {cost 205} {fore 1}} ; ÃÎÄ 35 
+{"20mm_breda_1935"  ("vs" cd(0) ci(900) c(900) t(all) 		s(jap) n(1) g(d7) sc(6.0)  b(v8) cw(2) cp(0.3)) {cost 205} {fore 1}} ; ÃÎÄ 35 
 {"S_cotti_20mm"     ("vs" cd(0) ci(900) c(900) t(all) 		s(jap) n(2) g(d7) sc(6.0)  b(v8) cw(2) cp(0.3)) {cost 210} {fore 1}} ; ÃÎÄ 35 
-{"type2_20mm"       ("vs" cd(2700) ci(900) c(900) t(all) 		s(jap) n(2) g(d8) sc(6.0)  b(v8) cw(2) cp(0.3)) {cost 205} {fore -2.01}} ; ÃÎÄ 42
+{"type2_20mm"       ("vs" cd(2700) ci(900) c(900) t(all) 		s(jap) n(1) g(d8) sc(6.0)  b(v8) cw(2) cp(0.3)) {cost 205} {fore -2.01}} ; ÃÎÄ 42
 {"type5_40mm_aa"    ("vs" cd(3600) ci(900) c(900) t(all) 		s(jap) n(2) g(d9) sc(6.0)  b(v8) cw(2) cp(0.3)) {cost 230} {fore -3.01}} ; ÃÎÄ 43
 
 {"fiataa35"         ("v" cd(1800) ci(900) c(900) t(all) 		s(jap) n1(3) n2(1)  g(d10) sc(6.0) b(v8) cw(0) cp(0.3)) {cost 340} {fore -1.01}} ; ÃÎÄ 41 
@@ -153,7 +153,7 @@
 ;°°°Artillery°°°
 
 {"brixia35"             ("vs" cd(0) ci(60) c(60) t(all) 		                s(jap) n(2) g(g1) sc(6.0) b(v6) cw(2) cp(1)) {cost 15} {fore 1}} ; ÃÎÄ 35 
-{"5_cm_mortar_type89"	("vs" cd(0) ci(60) c(60) t(all) 		                s(jap) n(2) g(g2) sc(6.0) b(v6) cw(2) cp(1)) {cost 20} {fore 1}} ; ÃÎÄ 29
+{"5_cm_mortar_type89"	("vs" cd(0) ci(60) c(60) t(all) 		                s(jap) n(1) g(g2) sc(6.0) b(v6) cw(2) cp(1)) {cost 20} {fore 1}} ; ÃÎÄ 29
 {"81mm_brandt_jap"	    ("vs" cd(0) ci(60) c(60) t(all) 		                s(jap) n(2) g(g3) sc(6.0) b(v6) cw(2) cp(2)) {cost 60} {fore 1}} ; ÃÎÄ 35
 {"type_2"	            ("vs" cd(2700) ci(900) c(900) t(all) 		            s(jap) n(2) g(g4) sc(6.0) b(v6) cw(2) cp(5)) {cost 300} {fore -2.01}} ; ÃÎÄ 42
 {"type_97_150mm"	    ("vs" cd(0) ci(900) c(900) t(all) 		                s(jap) n(2) g(g5) sc(6.0) b(v6) cw(2) cp(5)) {cost 600} {fore 1}} ; ÃÎÄ 39

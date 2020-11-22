@@ -2,7 +2,6 @@
 actor
 
 (include "vehicle.ext")
-(include "selection/vehicle.inc"  scale(0.7))
 (include "cannon_armor.ext")
 
 (define "accuracy_by_motion" ;  spreading depending on the speed of "body", "gun" volumes
@@ -83,18 +82,17 @@ actor
 {collider "cannon"}
 {props "with_gun" "trailer" "emit_on_sink"}
 {able "emit_crew_on_injure"}
-{lodclass "cannon_small"}
 
 {extender "inventory"
     {box
         {Size 6 10}
         {weight 10000}
-;       {item "repair_kit" {cell 4 0}}
+        {item "repair_kit" {cell 4 0}}
     }
 }
 
 {Weaponry
-;    {ManualAccuracy 1}
+    {ManualAccuracy 1}
     {place "gun"
         {charger "gunner"}
     }
