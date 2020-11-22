@@ -69,11 +69,11 @@ actor
 
 {hearingBias 4.5} ; in meters
 {collider "car"}
-{props "car_ddd" "car" "wheeled" "emit_on_sink" "tractor"}
+{props "car_ddd" "car" "wheeled" "tractor"}
 {targetClass "car"}
 {targetSelector "tank_bullet"}
 
-{able "ally_crew"}
+;{able "ally_crew"}
 
 {placer
 	{place "driver"
@@ -86,7 +86,7 @@ actor
 	{box
 		{Size 6 10}
 		{weight 10000}
-        {item "repair_kit"}
+;       {item "repair_kit"}
 		{item "can" 2 filling "fuel" 60}
 	    {item "barrel" 2 filling "fuel" 500}		
 	}
@@ -107,6 +107,9 @@ actor
 }
 {volume "engine"
 	{thickness 10}
+}
+{volume "crew"
+	{able {contact_ground 0}}
 }
 {volume "inventory"
 	{tags "explosive"}

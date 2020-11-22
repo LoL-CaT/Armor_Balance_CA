@@ -17,7 +17,7 @@
 (define "crew_human"
 	{placer
 		{place "%place"
-			{group "%place"} {linkbone "%bone"} {turnoff {sensor} {shadow}} {openForCrush}
+			{group "%place"} {linkbone "%bone"} {openForCrush}
 		}
 	}
 	{boarder
@@ -50,7 +50,7 @@
 
 (define "stand_human"
 	{placer
-		{place "%place" {group "%place"} {linkbone "%bone"} {turnoff {sensor}} {openForCrush}} 
+		{place "%place" {group "%place"} {linkbone "%bone"} {openForCrush}} 
 	}
 	{boarder
 		{door "emit"}

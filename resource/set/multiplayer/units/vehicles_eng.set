@@ -49,10 +49,10 @@
 {"303_vickers_mkiv"    ("vs" cd(0) ci(450) c(450) t(all) 		s(eng) n(2) g(d3) sc(6.0)  b(v8) cw(2) cp(0.3)) {cost 20} {fore 1}} ; ÃÎÄ 33
 {"303_vickers_mkiv_41" ("vs" cd(900) ci(60) c(60) t(all) 		s(eng) n(2) g(d4) sc(6.0)  b(v8) cw(2) cp(0.3)) {cost 15} {fore -60}} ; ÃÎÄ 41
 
-{"dshk_zenit_eng"      ("vs" cd(0) ci(450) c(450) t(all) 		s(eng) n(1) g(d5) sc(6.0) b(v8) cw(2) cp(0.3)) {cost 70} {fore 1}} ; ÃÎÄ 39
+{"dshk_zenit_eng"      ("vs" cd(0) ci(450) c(450) t(all) 		s(eng) n(2) g(d5) sc(6.0) b(v8) cw(2) cp(0.3)) {cost 70} {fore 1}} ; ÃÎÄ 39
 
 {"bofors_eng_er"       ("vs" cd(0) ci(900) c(900) t(all) 		s(eng) n(2) g(d6) sc(6.0)  b(v8) cw(2) cp(0.3)) {cost 205} {fore 1}} ; ÃÎÄ 39
-{"oerlikon"            ("vs" cd(0) ci(900) c(900) t(all) 		s(eng) n(1) g(d6) sc(6.0)  b(v8) cw(2) cp(0.3)) {cost 205} {fore 1}} ; ÃÎÄ 34
+{"oerlikon"            ("vs" cd(0) ci(900) c(900) t(all) 		s(eng) n(2) g(d6) sc(6.0)  b(v8) cw(2) cp(0.3)) {cost 205} {fore 1}} ; ÃÎÄ 34
 {"bofors_eng"          ("vs" cd(2700) ci(900) c(900) t(all) 		s(eng) n(2) g(d7) sc(6.0)  b(v8) cw(2) cp(0.3)) {cost 230} {fore -2.01}} ; ÃÎÄ 42
 
 {"mkvibaa"    	       ("v" cd(900) ci(450) c(450) t(all) 		s(eng) n1(2) n2(1) g(d8) sc(6.0) b(v8) cw(0) cp(0.3)) {cost 140} {fore -1.01}} ; ÃÎÄ 40
@@ -101,7 +101,7 @@
 
 ;°°°Artillery°°°
 
-{"2_inch_mk_vii"		    	("vs" cd(0) ci(60) c(60) t(all) 		s(eng) n(1) g(g1) sc(6.0) b(v6) cw(1) cp(1)) {cost 25} {fore 1}} ; ÃÎÄ 37
+{"2_inch_mk_vii"		    	("vs" cd(0) ci(60) c(60) t(all) 		s(eng) n(2) g(g1) sc(6.0) b(v6) cw(1) cp(1)) {cost 25} {fore 1}} ; ÃÎÄ 37
 {"ml_3_inch_mk_ii"		    	("vs" cd(0) ci(60) c(60) t(all) 		s(eng) n(2) g(g2) sc(6.0) b(v6) cw(2) cp(2)) {cost 60} {fore 1}} ; ÃÎÄ 30
 {"4_2_inch_mk_ii"		    	("vs" cd(2700) ci(900) c(900) t(all) 		s(eng) n(2) g(g3) sc(6.0) b(v6) cw(2) cp(5)) {cost 250} {fore -2.01}} ; ÃÎÄ 42
 

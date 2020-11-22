@@ -4,10 +4,6 @@
 	{collider "cannon_small"}
         {targetSelector "cannon_bullet_h_flak"}	
 
-	{props "wheeled"}
-	("wheel" args "wheelright")
-	("wheel" args "wheelleft")
-
 		{extender "inventory"
 		{weapon "mgun"
 			{mask "weapon mgun"}
@@ -31,34 +27,37 @@
 	{Extension "mg34_zenit.mdl"}
 		{extender "cannon"
 		{animation
-			{move "mgun_browning_driver_r" ""}
+;			{move "mgun_browning_driver_r" ""}
                         {reload "" "cannon_kpvt_charger"}
 		}
-		{move {workers "driver"} {obstacle "close"}}
-		{attack {workers "gunner"} {obstacle "open"}}
+		{attack {workers "gunner" "commander"}}
 		(mod "mp" {rotate_ik_Limit 0})
 
 	}
 
 
-	("crew_inside")
-	("crew_human" place(driver) bone(driver)	door(emit1) animation(driver))
-	("crew_human" place(gunner)	bone(gunner)	door(emit1) animation(gunner))
-	{placer
-		{place "gunner" {UseVision 0}}
-		{place "commander" remove}
-		{place "driver1" remove}
-		{place "driver2" remove}
-	}
+	("crew_2_human")
+	("crew_human" place(driver1) bone(driver1)	door(emit1) animation(driver1))
+	("crew_human" place(driver2) bone(driver2)	door(emit2) animation(driver2))
+  
+
 	{boarder
 		{anm "gunner"
 			{forward	{end "pose_mgun_stan" 10}}
 		}
-		{anm "driver"
+		{anm "commander"
+			{forward	{end "pose_vicers_commander" 10}}
+		}
+		{anm "driver1"
 			{forward {end "mgun_browning_driver_r"}}
 		}
-		{link "driver" "gunner"}
+		{anm "driver2"
+			{forward {end "mgun_browning_driver_l"}}
+		}
+		{link "driver1" "gunner"}
+		{link "driver2" "commander"}
 	}
+	
 	{extender "cannon"
 	{animation
 		{aim ""}
