@@ -83,7 +83,7 @@ human
 	{AttackZone 2.5}
 	{MinRecognizeTime 0.20}	
 	{RecognizeTime 0.25}
-	{InformRange 240 240}		;first - AI ;second - USER
+	{InformRange 10 12}		;first - AI ;second - USER
 }
 
 (mod "mp"
@@ -99,9 +99,9 @@ human
 	}	
 	{Visor "telescope"}
 	{AttackZone 2.5}
-	{MinRecognizeTime 0}	
-	{RecognizeTime 0}
-	{InformRange 0 0}		;first - AI ;second - USER
+	{MinRecognizeTime 0.20}	
+	{RecognizeTime 0.25}
+	{InformRange 10 12}		;first - AI ;second - USER
 }
 
 )
