@@ -147,9 +147,15 @@
 				4.91783	0	9.54688
 			}
 		}
-		{bone "driver"
-			{Position 2.6576	6.70889	0}
+		{bone "commander"
+			{Position 12.6576	6.70889	0}
 		}
+		{bone "driver1"
+			{Position -3.6576	6.70889	0}
+		}
+		{bone "driver2"
+			{Position 17.6576	6.70889	0}
+		}		
 		{bone "visor"
 			{Matrix34
 				1	0	0
