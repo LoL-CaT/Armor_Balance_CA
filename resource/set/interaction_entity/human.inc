@@ -178,7 +178,7 @@
 			{explosive_treshold 70}
 			{table {30 1} {200 2.5} {500 3} {5000 5}}
 		}
-		{if volume "head" sync
+		{if volume "head" 
 			{if not volume_armored
 				{if	stuff "sniper" {die}}
 				{if	stuff "pistol"	{if rand 0.85 ("health_damage" c(500))}}
@@ -192,7 +192,7 @@
 				}
 			}
 		}
-		{if volume "body" sync
+		{if volume "body" 
 			{if not volume_armored
 				{if	stuff "sniper" {die}}
 				{if	stuff "pistol"	{if rand 0.5 ("health_damage" c(500))}}
