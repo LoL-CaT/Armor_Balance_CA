@@ -27,8 +27,6 @@
 	
 	("accuracy_short")
 	("range_ls_short")
-	
-	{preloaded}	
 
 	{desc "7,5 cm KwK 251(f) L/17 (ЭДС 105)"}	
 }

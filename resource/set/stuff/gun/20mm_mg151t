@@ -30,8 +30,6 @@
 		{cursor "cannon_on_fg"}
 		{cursorReloading "cannon_reload_fg"}
 	}
-
-	{preloaded}
 	
 	{desc "2 cm MG 151/20 (ЭДС 105/БР 48-10)"}		
 }

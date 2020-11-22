@@ -189,11 +189,11 @@
 
 ;°°°Heavy tanks°°° 
 
-{"t1hvy_early"      ("v" cd(0) ci(900) c(900) t(all heavy) 	s(usa) n1(5) n2(1) g(j1) sc(6.0) b(v4) cw(0) cp(17)) {cost 1400} {fore 1}} ; ÃÎÄ 39
+{"t1hvy_early"      ("v" cd(0) ci(900) c(900) t(all heavy) 	s(usa) n1(6) n2(1) g(j1) sc(6.0) b(v4) cw(0) cp(17)) {cost 1400} {fore 1}} ; ÃÎÄ 39
 {"t14"              ("v" cd(1800) ci(900) c(900) t(all heavy) 	s(usa) n1(4) n2(1) g(j2) sc(6.0) b(v4) cw(0) cp(17)) {cost 650} {fore -1.01}} ; ÃÎÄ 41
-{"m6_m7"            ("v" cd(2700) ci(900) c(900) t(all heavy) 	s(usa) n1(5) n2(1) g(j3) sc(6.0) b(v4) cw(0) cp(17)) {cost 1250} {fore -2.01}} ; ÃÎÄ 42
+{"m6_m7"            ("v" cd(2700) ci(900) c(900) t(all heavy) 	s(usa) n1(6) n2(1) g(j3) sc(6.0) b(v4) cw(0) cp(17)) {cost 1050} {fore -2.01}} ; ÃÎÄ 42
 {"m4a3e2_jumbo"     ("v" cd(3600) ci(900) c(900) t(all heavy) 	s(usa) n1(4) n2(1) g(j4) sc(6.0) b(v4) cw(0) cp(17)) {cost 750} {fore -3.01}} ; ÃÎÄ 43
-{"m6_m3"            ("v" cd(3600) ci(900) c(900) t(all heavy) 	s(usa) n1(5) n2(1) g(j5) sc(6.0) b(v4) cw(0) cp(17)) {cost 1500} {fore -3.01}} ; ÃÎÄ 43	
+{"m6_m3"            ("v" cd(3600) ci(900) c(900) t(all heavy) 	s(usa) n1(6) n2(1) g(j5) sc(6.0) b(v4) cw(0) cp(17)) {cost 1500} {fore -3.01}} ; ÃÎÄ 43	
 {"m4a3e2_jumbo_76"  ("v" cd(4500) ci(900) c(900) t(all heavy) 	s(usa) n1(4) n2(1) g(j6) sc(6.0) b(v4) cw(0) cp(17)) {cost 750} {fore -4.01}} ;ÃÎÄ 44
 {"m26e4"            ("v" cd(4500) ci(900) c(900) t(all heavy)    s(usa) n1(4) n2(1) g(j7) sc(6.0) b(v4) cw(0) cp(17)) {cost 1500} {fore -4.01}} ; ÃÎÄ 44
 {"t29"              ("v" cd(4500) ci(900) c(900) t(all heavy) 	s(usa) n1(5) n2(1) g(j8) sc(6.0) b(v4) cw(0) cp(17)) {cost 1850} {fore -4.01}} ; ÃÎÄ 44
