@@ -6,8 +6,6 @@ actor
 {collider "animal"}
 {able "-select"}
 
-{lodclass "human"}
-
 {props "flesh" "animal" "nocover" "obstacle_ignore_height"}
 
 {brain "actor"

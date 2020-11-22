@@ -30,10 +30,7 @@
 	
 	("accuracy_minimum")
 	("range_minimum")
-; БП не существовало
-
-	{preloaded}
-	
+; БП не существовало	
 	{desc "57 mm Type 97 Gun (ЭДС 95)"}		
 }
 
