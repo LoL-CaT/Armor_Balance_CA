@@ -122,7 +122,7 @@
 	;///////////////////////////// vehicles
 	{"vehicle"
 		{ColliderId		"nothing"}
-		{CollideWith	"construction" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tank.sheavy" "tree" "bush" "human" "particle" "particle.big"}
+		{CollideWith	"construction" "sandbag" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tank.sheavy" "tree" "bush" "human" "particle" "particle.big"}
 		{UseRamVolume	"cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tank.sheavy"}
 		{NoContactWith	"particle" "particle.big" "human" "bush" "stuff" "mine.at" "mine.ap" "flame"}
 		{Blocking
@@ -137,7 +137,7 @@
 	}
 	{"cannon" from "vehicle"
 		{ColliderId		"cannon"}
-		{CollideWith	"construction" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tank.sheavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
+		{CollideWith	"construction" "sandbag" "armored" "tank.light" "tank.medium" "tank.heavy" "tank.sheavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
 		{NoContactWith	"tree"}
 		{Blocking
 			{Speed			20 } ; kmph
@@ -146,7 +146,7 @@
 	}
 	{"cannon_small" from "vehicle"
 		{ColliderId		"cannon_small"}
-		{CollideWith	"construction" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tank.sheavy" "tree" "bush" "particle" "particle.big" "mine.at" "mine.ap"}
+		{CollideWith	"construction" "sandbag" "armored" "tank.light" "tank.medium" "tank.heavy" "tank.sheavy" "tree" "bush" "particle" "particle.big" "mine.at" "mine.ap"}
 		{Blocking
 			{Speed			20 } ; kmph
 			{Penetration	0.3} ; m
@@ -154,11 +154,11 @@
 	}
 	{"car" from "vehicle"
 		{ColliderId		"car"}
-		{CollideWith	"construction" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tank.sheavy" "tree" "bush" "human" "particle" "particle.big" "mine.ap"}
+		{CollideWith	"construction" "sandbag" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tank.sheavy" "tree" "bush" "human" "particle" "particle.big" "mine.ap"}
 	}
 	{"truck" from "vehicle"
 		{ColliderId		"truck"}
-		{CollideWith	"construction" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tank.sheavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
+		{CollideWith	"construction" "sandbag" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tank.sheavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
 		{CanPush		"moto"}
 		{CanPushBroken	"car" "cannon" "cannon_small"}
 	}

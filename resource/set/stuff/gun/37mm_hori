@@ -28,6 +28,8 @@
 	("accuracy_short")
 	("range_short")
 	
+	{preloaded}	
+	
 	{desc "37 mm Type 1 anti-tank gun (ЭДС 105)"}	
 }
 

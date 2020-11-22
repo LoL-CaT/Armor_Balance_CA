@@ -28,6 +28,8 @@
 	("accuracy_low")
 	("range_low")
 	
+	{preloaded}	
+	
 	{desc "47 mm Type 1 Gun (ЭДС 115)"}		
 }
 

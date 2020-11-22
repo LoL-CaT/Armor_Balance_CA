@@ -281,7 +281,7 @@
 		}		
 		{"vision" "mp_soldier"
 		}
-		{"speed" 0.9
+		{"speed" 1.0
 		}
 		{"tank"	0.3
 		}
@@ -361,7 +361,7 @@
 		}		
 		{"vision" "mp_soldier"
 		}
-		{"speed" 1.2
+		{"speed" 1.0
 		}
 		{"tank"	0.3
 		}

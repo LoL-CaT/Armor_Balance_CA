@@ -1,107 +1,107 @@
 {components
     {category "car_light"
-        {hp 30}
+        {hp 399}
         {hp_broken 30}
     }
     {category "car_medium"
-        {hp 4}
+        {hp 499}
         {hp_broken 4}
     }
     {category "car_heavy"
-        {hp 5}
+        {hp 599}
         {hp_broken 5}
     }
 	
     {category "tank_light"
-        {hp 10}
+        {hp 1099}
         {hp_broken 10}
     }
     {category "tank_medium"
-        {hp 12}
+        {hp 1299}
         {hp_broken 12}
     }
     {category "tank_heavy"
-        {hp 15}
+        {hp 1599}
         {hp_broken 15}
     }
 	
     {category "airborne_light"
-        {hp 12}
+        {hp 1299}
         {hp_broken 6}
     }
     {category "airborne_medium"
-        {hp 15}
+        {hp 1599}
         {hp_broken 7}
     }
     {category "airborne_heavy"
-        {hp 20}
+        {hp 2099}
         {hp_broken 10}
     }
 
 
 	{category "turret_light"
-        {hp 2}
+        {hp 2999}
     }
 	{category "turret_medium"
-        {hp 5}
+        {hp 5999}
     }
 	{category "turret_heavy"
-        {hp 10}
+        {hp 6999}
     }
 
 	{category "engine_light"
-        {hp 2}
+        {hp 2999}
         {hp_broken 2}
     }
 	{category "engine_medium"
-        {hp 5}
+        {hp 5999}
         {hp_broken 5}
     }
 	{category "engine_heavy"
-        {hp 10}
+        {hp 6999}
         {hp_broken 10}
     }
 	
 	{category "gun_light"
-        {hp 2}
+        {hp 2999}
     }
 	{category "gun_medium"
-        {hp 5}
+        {hp 5999}
     }
 	{category "gun_heavy"
-        {hp 7}
+        {hp 7999}
     }
 	
 	{category "track_light"
-        {hp 1}
+        {hp 1999}
     }
 	{category "track_medium"
-        {hp 3}
+        {hp 3999}
     }
 	{category "track_heavy"
-        {hp 5}
+        {hp 5999}
     }
 	
 	{category "wheel_light"
-        {hp 1}
+        {hp 1999}
     }
 	{category "wheel_medium"
-        {hp 2}
+        {hp 2999}
     }
 	{category "wheel_heavy"
-        {hp 3}
+        {hp 3999}
     }	
 	
 	{category "glass_light"
-        {hp 5}
+        {hp 5999}
 		{hp_broken 0}
     }
 	{category "glass_medium"
-        {hp 1}
+        {hp 1999}
 		{hp_broken 0}
     }
 	{category "glass_heavy"
-        {hp 2}
+        {hp 2999}
 		{hp_broken 0}
     }
 }

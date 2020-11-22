@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/m6/m6_inside"}
+	{blend none}
+}

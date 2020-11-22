@@ -1,6 +1,6 @@
 {collider "construction"}
 {obstacleID "unbreakable"}
-{props "concrete" "stone"}
+{props "concrete" "cornered" "parts" "construction" "no_destroyed_stamp"}
 {mass 1000}
 
 {Volume "rock"
@@ -13,6 +13,16 @@
 {Volume "body"
 	{tags "body"}
 	{thickness 1000}
+}
+{armor
+	{setting "body"
+		{threshold {pierce {calibre 12}}}
+		{ray_cast_thickness}
+		{volumes "body*"}
+		{threshold  
+			{blast {value 10}}
+		}
+	}
 }
 
 {lodclass "decor_medium"}
