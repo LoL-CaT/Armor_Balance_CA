@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "m3_grant"}
-        {specular "m3_grant_SM"}
-	{blend test}
-}

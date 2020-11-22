@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/m6/m6_m6_crash"}
+	{bump "$/model/m6/m6_body_nm"}
+	{specular "$/model/m6/m6_body_gmm"}
+	{color "229 229 229 25"}
+	{blend test}
+}

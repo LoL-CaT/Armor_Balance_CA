@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "t14_track"}
-        {specular "t14_track_SM"}
-	{blend test}
-}
