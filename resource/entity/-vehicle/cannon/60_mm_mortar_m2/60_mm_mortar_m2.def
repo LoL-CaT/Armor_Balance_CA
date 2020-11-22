@@ -7,25 +7,19 @@
 
 ("armor_mortar")
 
-    ("wheel" args "wheelright")
-    ("wheel" args "wheelleft")
+("wheel" args "wheelright")
+("wheel" args "wheelleft")
 
-    ("crew_gun")
+	("crew_inside")
+	("crew_human" place(driver) bone(driver)	door(emit1) animation(driver))
+	("crew_human" place(gunner)	bone(gunner)	door(emit1) animation(gunner))
 
-    {boarder
-	    {anm "gunner"
-		    {forward	{end "pose_pak40_gunlayer" 10}}
-	    }
-	    {anm "commander"
-		    {forward	{end "pose_pak40_charger" 10}}
-    	}
-    	{anm "driver1"
-		    {forward {end "mortar_driver_r" 10}}
-    	}
-    	{anm "driver2"
-		    {forward {end "mortar_driver_l" 10}}
-    	}
-    }
+	{placer
+		{place "gunner" {UseVision 0}}
+		{place "commander" remove}
+		{place "driver1" remove}
+		{place "driver2" remove}
+	}
 
 	{boarder
 		{anm "gunner"
@@ -51,13 +45,13 @@
 	{extender "cannon"
 		{animation
 			{switch "close"}
-		    {move "mortar_driver_r" "mortar_driver_l"}
+			{move "walk_1hand" ""}
 			{aim "" ""}
 			{fire  "" ""}
             {reload "lie_take_small end lie_take_item_end end lie_fire_pistol" ""}
 		}
-	    {move {obstacle "close"}}
-	    {attack {obstacle "open"}}
+		{move {workers "driver"} {obstacle "close"}}
+		{attack {workers "gunner"} {obstacle "open"}}
 		{rotate_ik_Limit 0}
 	}
 

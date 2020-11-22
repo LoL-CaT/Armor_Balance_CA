@@ -2391,7 +2391,7 @@
 	{RelaxationTime 7}
 	
 ;	{speed 450}
-	{gravity 1.50}
+	{gravity 1.75}
 )
 
 (define "range_sheavy_gun_howitzer"

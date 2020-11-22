@@ -130,15 +130,9 @@
 				}
 			}
 		}
-		{bone "commander"
+		{bone "driver"
 			{Position 2.15326	0.980492	0}
 		}
-		{bone "driver1"
-			{Position 2.15326	0.980492	0}
-		}
-		{bone "driver2"
-			{Position -12.15326	0.980492	0}
-		}		
 		{bone "gunner"
 			{Position -6.34343	3.74077	0}
 		}
