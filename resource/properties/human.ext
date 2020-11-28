@@ -56,9 +56,9 @@ human
 	}
 	{armor "body"
 		{mask "body"}
-;		{volumes "body"}
+		{volumes "body"}
 ;-------------------------CA-------------------------------------		
-		{volumes "body" "foot1l" "foot1r" "foot2l" "foot2r"}
+;		{volumes "body" "foot1l" "foot1r" "foot2l" "foot2r"}
 ;-------------------------CA-------------------------------------		
 		{bone "IK_UpDown"}
 		{pierceAbsorb 8}
