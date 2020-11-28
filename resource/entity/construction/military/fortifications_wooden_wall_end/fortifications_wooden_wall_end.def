@@ -1,0 +1,15 @@
+{game_entity
+	(include "/properties/construction_medium.ext")
+	{props "construction" "wood" "parts" "cornered" "wall" "no_destroyed_stamp"}
+	{Extension "fortifications_wooden_wall_end.mdl"}
+	("armor_use_volume_thickness")
+	
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 10}
+	}
+	
+	{Extender "land_patch"
+		{TerrainType "ground" "bridge_wood"}
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction3/fortification_wall_big"}
+	{bump "$/construction3/fortification_wall_big_bp"}
+	{specular "$/construction3/fortification_wall_big_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction3/barbwire_barricade"}
+	{bump "$/construction3/barbwire_barricade_bp"}
+	{specular "$/construction3/barbwire_barricade_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

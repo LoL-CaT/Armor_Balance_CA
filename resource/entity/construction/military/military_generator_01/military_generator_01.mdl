@@ -1,0 +1,47 @@
+;Exported by: Martin
+;Date:        Tue Jan  9 11:02:03 2018
+;File:        F:\Work\Digitalmindsoft\Work\Modeling\Military Generator\military_generator_04.max
+{Skeleton
+	{bone "military_generator"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "military_generator.ply"}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 0 0}
+		{Extent 34.5367 14.846}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 69.0734 29.692 48.4358}
+	{Bone "military_generator"}
+	{Position 0	0	24.2179}
+}
+{Volume "body2"
+	{Box 2.0722 17.2214 23.4986}
+	{Bone "military_generator"}
+	{Position -35.3488	0	30.8919}
+}
+{Volume "body3"
+	{Box 2.0722 15.7305 14.2402}
+	{Bone "military_generator"}
+	{Position -34.9594	-1.76677	10.6931}
+}
+{Volume "body4"
+	{Box 2.0722 17.2214 23.4986}
+	{Bone "military_generator"}
+	{Position 35.3654	0	30.8919}
+}
+{Volume "body5"
+	{Box 2.0722 15.7305 14.2402}
+	{Bone "military_generator"}
+	{Position 34.995	-1.76677	10.6931}
+}

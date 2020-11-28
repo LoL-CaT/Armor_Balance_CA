@@ -1,0 +1,94 @@
+;Exported by: rowen
+;Date:        Wed Nov  6 13:31:04 2019
+;File:        \\wdmycloudmirror\project_2\v.gruse\Modeling\camo_net\3D_camo_net\camo_net_large_06.max
+{Skeleton
+	{bone "camo_net_end_small"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "camo_net_end_small.ply"}
+			{VolumeView "camo_net_end_small_lod1.ply"}
+		}
+		{bone "exterior"
+			{Position 0	0	1.52588e-05}
+			{VolumeView "exterior.ply"}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -46.6267 29.6922}
+		{Extent 0.691898 5.54824}
+		{Axis 0.530354 0.847776}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -49.1869 -32.1137}
+		{Extent 6.93258 0.628355}
+		{Axis 0.961301 0.275501}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Area "interior"
+	{Obb2
+		{Center -28.5012 -2.55159}
+		{Extent 26.1022 76.8979}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "main"
+	{Obb2
+		{Center 8.46564 -0.984375}
+		{Extent 29.5276 83.6614}
+		{Axis -0.99852 -0.0543793}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 0.984252 0.984252 85.7648}
+	{Bone "camo_net_end_small"}
+	{Matrix34
+		0.995339	-0.0128452	-0.0955796
+		0.00697878	0.998085	-0.0614604
+		0.096186	0.0605069	0.993523
+		-46.6266	-29.6922	39.3875
+	}
+}
+{Volume "body2"
+	{Box 0.984252 0.984252 85.7648}
+	{Bone "camo_net_end_small"}
+	{Matrix34
+		0.989853	0.00209521	-0.142079
+		0.00364291	0.999188	0.0401148
+		0.142047	-0.0402253	0.989042
+		-49.1869	32.1137	39.1954
+	}
+}
+{Volume "roof1"
+	{Box 73.6067 155.59 7.39506}
+	{Bone "exterior"}
+	{Matrix34
+		-0.641427	0.0246449	0.766788
+		0.0560698	0.998317	0.0148167
+		-0.765132	0.0524975	-0.64173
+		8.5209	1.31702	15.1091
+	}
+}
+{Volume "roof2"
+	{Box 51.7718 97.1794 5.62024}
+	{Bone "exterior"}
+	{Matrix34
+		-0.630449	0.00856494	0.776183
+		0.0527205	0.998103	0.0318081
+		-0.774438	0.0609742	-0.629705
+		-29.4296	2.90102	64.1036
+	}
+}

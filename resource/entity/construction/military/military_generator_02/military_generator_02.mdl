@@ -1,0 +1,82 @@
+;Exported by: Martin
+;Date:        Fri Jan 12 11:12:40 2018
+;File:        F:\Work\Digitalmindsoft\Work\Modeling\Military Generator\military_generator02_03.max
+{Skeleton
+	{bone "military_generator_02"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "military_generator_02.ply"}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 0 1.90735e-06}
+		{Extent 14.4083 10.3912}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 28.8165 20.7824 12.3402}
+	{Bone "military_generator_02"}
+	{Position 0	0	8.57499}
+}
+{Volume "body2"
+	{Box 0.731672 18.2874 0.578886}
+	{Bone "military_generator_02"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-15.0008	0.049816	18.1436
+	}
+}
+{Volume "body3"
+	{Box 0.731672 18.2874 0.578886}
+	{Bone "military_generator_02"}
+	{Position 15.0734	0	18.1436}
+}
+{Volume "body4"
+	{Box 0.731672 3.94865 0.578886}
+	{Bone "military_generator_02"}
+	{Matrix34
+		0.984808	0	-0.173648
+		0.163176	0.34202	0.925417
+		0.0593912	-0.939693	0.336824
+		14.2722	-9.71999	16.5962
+	}
+}
+{Volume "body5"
+	{Box 0.731672 3.94865 0.578886}
+	{Bone "military_generator_02"}
+	{Matrix34
+		0.984808	0.0996005	-0.142244
+		0.163176	-0.250631	0.954232
+		0.0593912	-0.962946	-0.263076
+		14.2722	9.79471	16.4226
+	}
+}
+{Volume "body6"
+	{Box 0.731672 3.94865 0.578886}
+	{Bone "military_generator_02"}
+	{Matrix34
+		-0.984808	0	-0.173648
+		-0.163176	-0.34202	0.925417
+		-0.0593913	0.939693	0.336824
+		-14.1997	9.7698	16.5962
+	}
+}
+{Volume "body7"
+	{Box 0.731672 3.94865 0.578886}
+	{Bone "military_generator_02"}
+	{Matrix34
+		-0.984808	-0.0996007	-0.142244
+		-0.163176	0.250631	0.954232
+		-0.0593913	0.962945	-0.263076
+		-14.1996	-9.7449	16.4226
+	}
+}

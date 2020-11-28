@@ -1,0 +1,104 @@
+;Exported by: caps
+;Date:        Mon Dec 11 12:09:56 2017
+;File:        G:\!_Work_Ulm\Sandbagwall\3D\sandbags_small_curve.max
+{Skeleton
+	{bone "sandbags_small_curve"
+		{parameters "Align;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "sandbags_small_curve.ply"}
+			{VolumeView "sandbags_small_curve_lod1.ply"}
+		}
+		{bone "climb01"
+			{Matrix34
+				-0.957682	0.28783	0
+				-0.28783	-0.957682	0
+				0	0	1
+				15.8033	12.784	0
+			}
+		}
+		{bone "climb02"
+			{Matrix34
+				0.922347	-0.386364	0
+				0.386364	0.922347	0
+				0	0	1
+				-10.004	22.0653	0
+			}
+		}
+		{bone "climb04"
+			{Matrix34
+				0.925337	0.379145	0
+				-0.379145	0.925337	0
+				0	0	1
+				-9.76828	-20.4457	0
+			}
+		}
+		{bone "climb03"
+			{Matrix34
+				-0.931687	-0.363263	0
+				0.363263	-0.931687	0
+				0	0	1
+				15.3621	-10.1441	0
+			}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 0.410561 -0.270328}
+		{Extent 4.24557 10.7554}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 4.71161 -17.6512}
+		{Extent 4.00876 10.2408}
+		{Axis 0.857309 0.514803}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 4.76828 17.655}
+		{Extent 10.2372 3.99941}
+		{Axis 0.469956 0.88269}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 8.49114 21.5107 17.1046}
+	{Bone "sandbags_small_curve"}
+	{Position 0.410561	0.270328	8.12896}
+}
+{Volume "body2"
+	{Box 7.89676 20.4352 17.1046}
+	{Bone "sandbags_small_curve"}
+	{Matrix34
+		0.854248	-0.519866	0
+		0.519866	0.854248	0
+		0	0	1
+		4.71161	17.6512	8.12896
+	}
+}
+{Volume "body3"
+	{Box 7.89676 20.4352 17.1046}
+	{Bone "sandbags_small_curve"}
+	{Matrix34
+		0.880329	0.474363	0
+		-0.474363	0.880329	0
+		0	0	1
+		4.76828	-17.655	8.12896
+	}
+}

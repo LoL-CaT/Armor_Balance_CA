@@ -1,0 +1,16 @@
+;Exported by: Verena
+;Date:        Tue Mar 20 14:20:19 2018
+;File:        D:\Digitalmindsoft\Modeling\camo_net\camo_net_small_x.max
+{Skeleton
+	{bone "camo_net_small_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "camo_net_small_x.ply"}
+			{VolumeView "camo_net_small_x_lod1.ply"}
+		}
+	}
+}

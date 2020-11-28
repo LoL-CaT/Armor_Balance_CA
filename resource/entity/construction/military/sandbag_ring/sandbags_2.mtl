@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction/sandbags_small"}
+	{bump "$/construction/sandbags_small_bp"}
+	{specular "$/construction/sandbags_small_sp"}
+	{color "50 50 50 10"}
+	{blend none}
+}

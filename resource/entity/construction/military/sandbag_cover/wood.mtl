@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction3/fence_field"}
+	{bump "$/construction3/fence_field_bp"}
+	{specular "$/construction3/fence_field_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

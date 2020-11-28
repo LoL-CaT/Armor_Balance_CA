@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/building3/hangar_cut"}
+	{bump "$/building3/hangar_cut_bp"}
+	{specular "$/building3/hangar_cut_sp"}
+	{color "90 90 90 10"}
+	{blend none}
+}

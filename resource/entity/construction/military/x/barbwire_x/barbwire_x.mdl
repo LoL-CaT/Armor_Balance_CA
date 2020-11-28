@@ -1,0 +1,51 @@
+;Exported by: Martin
+;Date:        Tue Jul 07 11:13:26 2015
+;File:        D:\work in progress\Call to Arms\Modeling\Fence\barbwire\barb_wire_x_Export.max
+{Skeleton
+	{animation
+		{sequence "crush1" {speed 0.6}}
+	}
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "barbwire_x"
+			{Position 0.00225067	0	-1.43048}
+			{VolumeView "barbwire_x.ply"}
+		}
+		{bone "bone002"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				0	0	0
+			}
+			{bone "bone007"
+				{Matrix34
+					0	-0.934316	0.356445
+					0	-0.356445	-0.934316
+					1	0	0
+					0	2.95391	-0.800114
+				}
+			}
+			{bone "bone005"
+				{Matrix34
+					0	0.980391	0.197063
+					0	-0.197063	0.980391
+					1	0	0
+					0	-17.5006	-1.79443
+				}
+			}
+			{bone "bone003"
+				{Matrix34
+					0	-0.977176	0.21243
+					0	-0.21243	-0.977176
+					1	0	0
+					0	14.8384	0.052151
+				}
+			}
+		}
+	}
+}

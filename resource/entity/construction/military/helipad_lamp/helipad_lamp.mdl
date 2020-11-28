@@ -1,0 +1,43 @@
+;Exported by: Martin
+;Date:        Thu Mar 15 09:52:51 2018
+;File:        G:\svn\project_2\Work\_3D\m.milz\Modeling\Helipad_lamp\helipad_lamp.max
+{Skeleton
+	{bone "helipad_lamp"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "helipad_lamp.ply"}
+		{bone "lamp_light_point1"
+			{Position 0	0	6.1777}
+			{VolumeView "lamp_light_point1.ply"}
+		}
+		{bone "light_spot"
+			{Matrix34
+				0	0	-1
+				0	1	0
+				1	0	0
+				0	0	7.40224
+			}
+		}
+		{bone "lamp_glass1"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				0	0	6.05685
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 2.95276 2.95276 7.80907}
+	{Bone "helipad_lamp"}
+	{Position 0	0	3.90453}
+}
+{Volume "lamp1"
+	{Box 3.34646 3.34646 3.54331}
+	{Bone "helipad_lamp"}
+	{Position 0	0	6.13384}
+}

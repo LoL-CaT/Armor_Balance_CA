@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction/landing_stage"}
+	{bump "$/construction/landing_stage_bp"}
+	{specular "$/construction/landing_stage_sp"}
+	{color "120 120 120 10"}
+	{blend none}
+}

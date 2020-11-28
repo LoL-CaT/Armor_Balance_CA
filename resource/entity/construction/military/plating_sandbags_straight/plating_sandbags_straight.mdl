@@ -1,0 +1,46 @@
+;Exported by: caps
+;Date:        Fri Oct  5 10:36:47 2018
+;File:        G:\!_Work\Sandbagwall\3D\sandbag_blech.max
+{Skeleton
+	{bone "plating_sandbags_straight"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "plating_sandbags_straight.ply"}
+			{VolumeView "plating_sandbags_straight_lod1.ply"}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -0.0953259 -0.136415}
+		{Extent 0.238587 27.4322}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 0.477175 54.8645 22.1173}
+	{Bone "plating_sandbags_straight"}
+	{Position -0.0953259	0.136416	10.648}
+}
+{Volume "body2"
+	{Box 1.07346 3.09984 22.7808}
+	{Bone "plating_sandbags_straight"}
+	{Position -0.268523	-25.7778	10.9798}
+}
+{Volume "body3"
+	{Box 1.07346 3.09984 22.7808}
+	{Bone "plating_sandbags_straight"}
+	{Position -0.268523	-7.61665	10.9798}
+}
+{Volume "body4"
+	{Box 1.07346 3.09984 22.7808}
+	{Bone "plating_sandbags_straight"}
+	{Position -0.268523	10.4507	10.9798}
+}

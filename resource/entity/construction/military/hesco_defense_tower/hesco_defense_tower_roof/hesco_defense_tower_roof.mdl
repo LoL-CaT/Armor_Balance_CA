@@ -1,0 +1,49 @@
+;Exported by: caps
+;Date:        Fri Dec 04 08:30:50 2015
+;File:        D:\!_DMS_CalltoArms\Assets\hesco_defense\hesco_defense_tower\3D\hesco_defense_tower.max
+{Skeleton
+	{bone "hesco_defense_tower_roof"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "hesco_defense_tower_roof.ply"}
+		{bone "exterior"
+			{LODView
+				{VolumeView "exterior.ply"}
+				{VolumeView "exterior_lod1.ply"}
+			}
+		}
+	}
+}
+{Volume "body6"
+	{Box 4.09186 4.1 52.1182}
+	{Bone "hesco_defense_tower_roof"}
+	{Position 41.5856	41.5575	111.281}
+}
+{Volume "body7"
+	{Box 4.09186 4.1 52.1182}
+	{Bone "hesco_defense_tower_roof"}
+	{Position -38.9395	41.5575	111.281}
+}
+{Volume "body8"
+	{Box 4.09186 4.1 52.1182}
+	{Bone "hesco_defense_tower_roof"}
+	{Position -38.9395	-40.113	111.281}
+}
+{Volume "body9"
+	{Box 4.09186 4.1 52.1182}
+	{Bone "hesco_defense_tower_roof"}
+	{Position 41.6641	-40.3454	111.281}
+}
+{Volume "roof1"
+	{Box 89.2603 93.4082 21.6158}
+	{Bone "exterior"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		1.36481	0.946962	141.65
+	}
+}

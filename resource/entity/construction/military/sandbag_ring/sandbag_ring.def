@@ -1,0 +1,90 @@
+{game_entity
+	(include "/properties/construction_medium.ext")
+	{props "sand_bag_big"}
+	{volume defaultmaterial "sand"}
+	
+	{Extension "sandbag_ring.mdl"}
+	
+	{Volume "body10"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body11"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body12"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body13"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body14"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body15"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body16"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body17"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body18"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body19"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body4"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body5"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body6"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body7"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body8"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body9"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+
+	{Extender "land_patch"
+		{AlignEnabled 0}
+		{AlignStacked 0}
+		{AlignVolumes 1}
+	}
+}

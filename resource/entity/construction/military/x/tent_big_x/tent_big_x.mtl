@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction/tent_big_x"}
+	{bump "$/construction/tent_big_x_bp"}
+	{specular "$/construction/tent_big_x_sp"}
+	{color "255 255 255 25"}
+	{blend test}
+}

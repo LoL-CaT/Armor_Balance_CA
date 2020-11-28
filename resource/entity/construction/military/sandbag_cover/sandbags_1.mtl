@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/landscape/cut_entity/trench_cover"}
+	{bump "$/landscape/cut_entity/trench_cover_bp"}
+	{specular "$/landscape/cut_entity/trench_cover_sp"}
+	{color "50 50 50 10"}
+	{blend none}
+}

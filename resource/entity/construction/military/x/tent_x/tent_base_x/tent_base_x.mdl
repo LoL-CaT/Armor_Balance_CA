@@ -1,0 +1,234 @@
+;Exported by: Anna
+;Date:        Thu Jul 11 17:23:26 2019
+;File:        G:\svn\project_2\Work\_3D\a.rotenberg\tents\tent_x_one_piece.max
+{Skeleton
+	{bone "tent_base_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "tent_base_x.ply"}
+		{bone "tent_rods_x"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				0	0	0
+			}
+			{VolumeView "tent_rods_x.ply"}
+		}
+		{bone "curtains_x"
+			{Position 0	0	0}
+			{VolumeView "curtains_x.ply"}
+		}
+		{bone "exterior"
+			{Position 0	0	0}
+			{VolumeView "exterior.ply"}
+		}
+		{bone "windows"
+			{Position 0	0	0}
+			{VolumeView "windows.ply"}
+		}
+	}
+}
+{Obstacle "body10"
+	{Obb2
+		{Center -96.4671 -45.4945}
+		{Extent 13.0025 2.1}
+		{Axis 0.0182398 0.999834}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 0.460688 -51.0569}
+		{Extent 8.7614 13.0012}
+		{Axis 0.0182398 0.999834}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -0.232885 50.699}
+		{Extent 8.7614 13.0012}
+		{Axis 0.0182398 0.999834}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -73.4953 55.1286}
+		{Extent 24.6063 4.44886}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center 73.4732 -54.2649}
+		{Extent 24.6063 4.44886}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center 97.5769 -43.9997}
+		{Extent 13.0025 2.69091}
+		{Axis 0.0182398 0.999834}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body6"
+	{Obb2
+		{Center -97.1359 43.8609}
+		{Extent 13.0025 2.15769}
+		{Axis 0.0182398 0.999834}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body7"
+	{Obb2
+		{Center 37.1515 -52.5339}
+		{Extent 8.15305 26.0534}
+		{Axis 0.0356776 0.999363}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body8"
+	{Obb2
+		{Center -36.91 52.3362}
+		{Extent 8.12803 25.9496}
+		{Axis 0.0356776 0.999363}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body9"
+	{Obb2
+		{Center 96.6066 45.2409}
+		{Extent 13.0025 2.05664}
+		{Axis 0.0182398 0.999834}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Volume "body10"
+	{Polyhedron "body10.vol"}
+	{Bone "tent_base_x"}
+	{Matrix34
+		-0.00185777	-0.367119	-0.930172
+		-0.0152792	0.930076	-0.36705
+		0.999882	0.0135304	-0.00733714
+		-106.478	45.2979	19.6948
+	}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "tent_base_x"}
+	{Matrix34
+		0.367119	0.268708	-0.890517
+		-0.930076	0.0921159	-0.355632
+		-0.0135304	0.958807	0.283736
+		0.531716	42.2954	16.1847
+	}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "tent_base_x"}
+	{Matrix34
+		-0.367119	-0.268708	-0.890517
+		0.930076	-0.0921165	-0.355632
+		0.0135298	-0.958807	0.283736
+		-0.303903	-41.9375	16.1847
+	}
+}
+{Volume "body3"
+	{Box 49.2126 3.93701 19.685}
+	{Bone "tent_base_x"}
+	{Matrix34
+		1	0	0
+		0	0.965926	-0.258819
+		0	0.258819	0.965926
+		-73.4953	-55.1286	9.50714
+	}
+}
+{Volume "body4"
+	{Box 49.2126 3.93701 19.685}
+	{Bone "tent_base_x"}
+	{Matrix34
+		-1	0	0
+		0	-0.965926	-0.258819
+		0	-0.258819	0.965926
+		73.4732	54.2649	9.50714
+	}
+}
+{Volume "body5"
+	{Polyhedron "body5.vol"}
+	{Bone "tent_base_x"}
+	{Matrix34
+		0.0290693	-0.367119	-0.92972
+		-0.00306628	0.930076	-0.367355
+		0.999573	0.0135296	0.025911
+		87.6107	43.8164	19.6948
+	}
+}
+{Volume "body6"
+	{Polyhedron "body6.vol"}
+	{Bone "tent_base_x"}
+	{Matrix34
+		-0.00410512	-0.367119	-0.930165
+		-0.0161651	0.930076	-0.367012
+		0.999861	0.0135296	-0.00975259
+		-107.154	-44.0586	19.6948
+	}
+}
+{Volume "body7"
+	{Polyhedron "body7.vol"}
+	{Bone "tent_base_x"}
+	{Matrix34
+		0.711657	0.164434	-0.683013
+		-0.702072	0.201466	-0.683013
+		0.0252937	0.965595	0.258819
+		40.7856	52.7236	12.5736
+	}
+}
+{Volume "body8"
+	{Polyhedron "body8.vol"}
+	{Bone "tent_base_x"}
+	{Matrix34
+		-0.711657	-0.164434	-0.683013
+		0.702072	-0.201466	-0.683013
+		-0.0252937	-0.965595	0.258819
+		-40.5293	-52.5175	12.5736
+	}
+}
+{Volume "body9"
+	{Polyhedron "body9.vol"}
+	{Bone "tent_base_x"}
+	{Matrix34
+		-0.000169688	-0.367119	-0.930174
+		-0.014612	0.930076	-0.367077
+		0.999893	0.0135294	-0.00552217
+		86.6013	-45.4368	19.6948
+	}
+}

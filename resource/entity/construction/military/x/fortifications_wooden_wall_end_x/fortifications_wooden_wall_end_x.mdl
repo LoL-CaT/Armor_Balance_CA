@@ -1,0 +1,43 @@
+;Exported by: Anna
+;Date:        Tue Dec 10 00:36:45 2019
+;File:        D:\Anna\DMS\work in progress\Models\foritfications\fortifications_wooden_wall_end_x.max
+{Skeleton
+	{bone "wall_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "wall_x.ply"}
+		{bone "land1"
+			{parameters "Land;Ground;"}
+			{Position -0.189944	-0.314899	3.96417}
+			{visibility 0}
+			{VolumeView "land1.ply" {Ground}}
+		}
+		{bone "piece03"
+			{Position 1.93652	-1.234	39.4603}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece02"
+			{Position 1.93652	-11.8652	26.3532}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece01"
+			{Position 1.93652	8.75447	18.872}
+			{VolumeView "piece01.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Polyhedron "piece01.vol"}
+	{Bone "piece01"}
+}
+{Volume "piece02"
+	{Polyhedron "piece02.vol"}
+	{Bone "piece02"}
+}
+{Volume "piece03"
+	{Polyhedron "piece03.vol"}
+	{Bone "piece03"}
+}

@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/construction_small.ext")
+	{Extension "sandbag.mdl"}
+	{props "sand_bag_big"}
+	
+	{volume defaultmaterial "sand"}
+	
+	{Volume "body"
+		{Thickness 50}
+	}
+}

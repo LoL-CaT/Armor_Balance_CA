@@ -1,0 +1,22 @@
+;Exported by: caps
+;Date:        Thu Nov 17 10:55:00 2016
+;File:        D:\!_DMS_CalltoArms\Assets\Sandbagwall\3D\sandbags_big.max
+{Skeleton
+	{bone "sandbags_big"
+		{parameters "Align;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "sandbags_big.ply"}
+			{VolumeView "sandbags_big_lod1.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 13.5527 57.8753 24.6063}
+	{Bone "sandbags_big"}
+	{Position 0	0	11.3683}
+}

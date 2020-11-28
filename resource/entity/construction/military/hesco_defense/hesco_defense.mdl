@@ -1,0 +1,17 @@
+;Exported by: Martin
+;Date:        Wed Jun 24 10:44:28 2015
+;File:        D:\work in progress\Call to Arms\Animation\hesco_flag\hesco_defense_06.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "hesco_defense_base"
+		}
+		{bone "hesco_defense_roof"
+			}
+		}
+	}
+

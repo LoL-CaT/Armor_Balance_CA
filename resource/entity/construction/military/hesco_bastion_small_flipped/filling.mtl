@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/construction/hesco_bastion_small_flipped_filling"}
+	{bump "$/construction/hesco_bastion_small_flipped_filling_bp"}
+	{blend none}
+}

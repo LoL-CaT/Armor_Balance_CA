@@ -1,0 +1,102 @@
+{game_entity
+	(include "/properties/trench.inc")	
+	{props "sand"}
+	{constrain surface}
+	
+	{Extension "../../../landscape/cut_entity/foxholes/foxhole_mixed/foxhole_mixed.mdl"}
+
+	{extender "land_patch"
+		{TerrainType "ground" "ground"}
+		{RemoveEntities 1}
+	}
+	
+	("volume" args "body1")
+	("volume" args "body2")
+	("volume" args "body3")
+	("volume" args "body4")
+	("volume" args "body5")
+	("volume" args "body6")
+
+	{Volume "detail1"
+		{able clear {visible 1}}
+	}
+	{Volume "detail2a"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2b"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2c"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2d"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2e"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2f"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2g"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2h"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2i"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2j"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2k"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2l"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2m"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2n"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2o"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+
+	{extender "detail"
+		{random 0}
+	}
+}

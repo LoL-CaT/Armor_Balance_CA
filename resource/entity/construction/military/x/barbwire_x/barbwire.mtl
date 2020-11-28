@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction/barbwire"}
+	{bump "$/construction/barbwire_bp"}
+	{specular "$/construction/barbwire_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

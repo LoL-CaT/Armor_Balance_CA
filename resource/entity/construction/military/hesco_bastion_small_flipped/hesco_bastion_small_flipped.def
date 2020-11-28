@@ -1,0 +1,15 @@
+{game_entity
+	(include "/properties/construction_medium.ext")
+	{props "sand_bag_big" "sand"}
+	
+	{Extension "hesco_bastion_small_flipped.mdl"}
+	
+	{Volume "body1"
+		{thickness 60}
+		{Tags  "body"}
+	}
+	{Volume "body2"
+		{thickness 60}
+		{Tags  "body"}
+	}
+}

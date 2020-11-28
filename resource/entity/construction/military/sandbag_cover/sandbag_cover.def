@@ -1,0 +1,42 @@
+{game_entity
+	(include "/properties/construction_medium.ext")
+	{props "sand_bag_big"}
+	{volume defaultmaterial "sand"}
+	
+	{Extension "sandbag_cover.mdl"}
+	
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body4"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body5"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body6"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+	{Volume "body7"
+		{Tags  "body"}
+		{Thickness 25}
+	}
+
+	{Extender "land_patch"
+		{AlignEnabled 0}
+		{AlignStacked 0}
+		{AlignVolumes 1}
+	}
+}

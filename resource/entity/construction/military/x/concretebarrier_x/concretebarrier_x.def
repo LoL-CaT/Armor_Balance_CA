@@ -1,0 +1,17 @@
+{game_entity
+	{Extension "concretebarrier_x.mdl"}
+	{Volume "piece01"
+	}
+	{Volume "piece02"
+	}
+	{Volume "piece03"
+	}
+	{Volume "piece04a"
+		{Tags  "piece04"}
+	}
+	{Volume "piece04b"
+		{Tags  "piece04"}
+	}
+	{Volume "sub_piece04"
+	}
+}

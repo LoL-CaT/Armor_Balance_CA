@@ -1,0 +1,44 @@
+;Exported by: caps
+;Date:        Mon Dec 11 12:10:17 2017
+;File:        G:\!_Work_Ulm\Sandbagwall\3D\sandbags_small.max
+{Skeleton
+	{bone "sandbags_small"
+		{parameters "Align;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "sandbags_small.ply"}
+			{VolumeView "sandbags_small_lod1.ply"}
+		}
+		{bone "climb01"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				15.0437	18.9439	0
+			}
+		}
+		{bone "climb02"
+			{Position -13.1196	18.9439	0}
+		}
+		{bone "climb04"
+			{Position -13.1196	-12.3798	0}
+		}
+		{bone "climb03"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				15.0437	-12.3798	0
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 7.19588 56.6072 17.1046}
+	{Bone "sandbags_small"}
+	{Position 0	0.270328	8.12896}
+}

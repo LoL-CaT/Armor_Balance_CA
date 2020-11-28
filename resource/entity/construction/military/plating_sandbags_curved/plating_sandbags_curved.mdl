@@ -1,0 +1,101 @@
+;Exported by: caps
+;Date:        Fri Oct  5 10:36:54 2018
+;File:        G:\!_Work\Sandbagwall\3D\sandbag_blech.max
+{Skeleton
+	{bone "plating_sandbags_curved"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "plating_sandbags_curved.ply"}
+			{VolumeView "plating_sandbags_curved_lod1.ply"}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 0.172909 -0.405433}
+		{Extent 0.314961 7.39413}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 4.24133 -14.344}
+		{Extent 0.36523 7.39611}
+		{Axis 0.857309 0.514803}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 3.86773 13.6582}
+		{Extent 7.3943 0.318885}
+		{Axis 0.50046 0.86576}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 0.629921 14.7883 22.1173}
+	{Bone "plating_sandbags_curved"}
+	{Position 0.172909	0.405433	10.648}
+}
+{Volume "body2"
+	{Box 0.629921 14.7883 22.1173}
+	{Bone "plating_sandbags_curved"}
+	{Matrix34
+		0.853788	-0.52062	0
+		0.52062	0.853788	0
+		0	0	1
+		4.24133	14.344	10.648
+	}
+}
+{Volume "body3"
+	{Box 0.629921 14.7883 22.1173}
+	{Bone "plating_sandbags_curved"}
+	{Matrix34
+		0.866025	0.5	0
+		-0.5	0.866025	0
+		0	0	1
+		3.86773	-13.6582	10.648
+	}
+}
+{Volume "body4"
+	{Box 1.07346 2.54187 22.7808}
+	{Bone "plating_sandbags_curved"}
+	{Matrix34
+		0.956319	-0.292325	0
+		0.292325	0.956319	0
+		0	0	1
+		1.03489	8.48968	10.9798
+	}
+}
+{Volume "body5"
+	{Box 1.07346 2.54187 22.7808}
+	{Bone "plating_sandbags_curved"}
+	{Matrix34
+		0.980479	0.196623	0
+		-0.196623	0.980479	0
+		0	0	1
+		0.44034	-6.14817	10.9798
+	}
+}
+{Volume "body6"
+	{Box 1.07346 2.54187 22.7808}
+	{Bone "plating_sandbags_curved"}
+	{Matrix34
+		0.737483	0.675366	0
+		-0.675366	0.737483	0
+		0	0	1
+		7.3919	-19.3651	10.9798
+	}
+}

@@ -1,0 +1,11 @@
+{game_entity
+	{Extension "fortifications_wooden_wall_end_x.mdl"}
+	{Volume "piece01"
+	}
+	{Volume "piece02"
+	}
+	{Volume "piece03"
+	}
+	{Extender "land_patch"
+	}
+}

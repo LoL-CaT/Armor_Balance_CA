@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction3/hedgehog"}
+	{bump "$/construction3/hedgehog_bp"}
+	{specular "$/construction3/hedgehog_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

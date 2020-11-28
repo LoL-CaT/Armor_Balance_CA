@@ -1,0 +1,110 @@
+;Exported by: caps
+;Date:        Thu Aug  9 14:20:20 2018
+;File:        G:\!_Work\barbed_wire_trap\3D\barbed_wire_trap_x.max
+{Skeleton
+	{bone "barbwire_barricade_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece01"
+			{Position -22.4113	0.420943	11.2228}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece02"
+			{Position -23.4082	-0.475849	11.2224}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece03"
+			{Position 0.566819	0.420943	11.2228}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece04"
+			{Position 22.6884	-0.475849	11.2224}
+			{VolumeView "piece04.ply"}
+		}
+		{bone "piece05"
+			{Position 0	-0.0257502	11.0417}
+			{VolumeView "piece05.ply"}
+		}
+		{bone "piece06"
+			{Position -0.428935	-0.475849	11.2224}
+			{VolumeView "piece06.ply"}
+		}
+		{bone "piece07"
+			{Position 23.6842	0.420943	11.2228}
+			{VolumeView "piece07.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 1.05691 1.18592 30.8795}
+	{Bone "piece01"}
+	{Matrix34
+		-1	0	0
+		0	-0.707107	-0.707107
+		0	-0.707107	0.707107
+		-0.102598	0.112447	0.35085
+	}
+}
+{Volume "piece02"
+	{Box 1.05691 1.18592 30.8795}
+	{Bone "piece02"}
+	{Matrix34
+		1	0	0
+		0	0.707107	-0.707107
+		0	0.707107	0.707107
+		-0.00234604	-0.0956974	0.351289
+	}
+}
+{Volume "piece03"
+	{Box 1.05691 1.18592 30.8795}
+	{Bone "piece03"}
+	{Matrix34
+		-1	0	0
+		0	-0.707107	-0.707107
+		0	-0.707107	0.707107
+		-0.0139488	0.112447	0.35085
+	}
+}
+{Volume "piece04"
+	{Box 1.05691 1.18592 30.8795}
+	{Bone "piece04"}
+	{Matrix34
+		1	0	0
+		0	0.707107	-0.707107
+		0	0.707107	0.707107
+		0.0158272	-0.0956974	0.351289
+	}
+}
+{Volume "piece05"
+	{Box 1.0252 0.996172 51.1811}
+	{Bone "piece05"}
+	{Matrix34
+		0	-0.707107	0.707107
+		0	-0.707107	-0.707107
+		1	0	0
+		-0.00826454	-0.00996637	-0.267597
+	}
+}
+{Volume "piece06"
+	{Box 1.05691 1.18592 30.8795}
+	{Bone "piece06"}
+	{Matrix34
+		1	0	0
+		0	0.707107	-0.707107
+		0	0.707107	0.707107
+		0.0167603	-0.0956974	0.351289
+	}
+}
+{Volume "piece07"
+	{Box 1.05691 1.18592 30.8795}
+	{Bone "piece07"}
+	{Matrix34
+		-1	0	0
+		0	-0.707107	-0.707107
+		0	-0.707107	0.707107
+		0.000955841	0.112447	0.35085
+	}
+}

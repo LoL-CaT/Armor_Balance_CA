@@ -1,0 +1,28 @@
+;Exported by: Caps
+;Date:        Fri Aug 09 16:43:46 2013
+;File:        F:\!_DMS_CalltoArms\Assets\concretebarrier\3D\concretebarrier_dmg.max
+{Skeleton
+	{bone "concretebarrier_dmg"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "concretebarrier_dmg.ply"}
+	}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "concretebarrier_dmg"}
+	{Position 0	0.204314	4.85922}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "concretebarrier_dmg"}
+	{Position 0	0.204314	15.6528}
+}
+{Volume "body3"
+	{Polyhedron "body3.vol"}
+	{Bone "concretebarrier_dmg"}
+	{Position 14.0859	0.204314	15.6528}
+}

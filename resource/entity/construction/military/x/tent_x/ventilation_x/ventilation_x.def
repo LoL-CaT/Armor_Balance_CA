@@ -1,0 +1,29 @@
+{game_entity
+	(include "/properties/building.inc")
+	{Extension "ventilation_x.mdl"}
+	{props "wall" "cornered" "misc" "parts" "construction" "no_destroyed_stamp" "no_xx"}
+	("armor_medium" args 0.7)
+	("armor_use_volume_thickness")
+	{obstacleID "unbreakable"}
+	
+	{Volume "body15"
+		{Tags  "body"}
+		{Thickness 1}
+		{able {bullet 0}}
+	}
+	{Volume "body16"
+		{Tags  "body"}
+		{Thickness 1}
+		{able {bullet 0}}
+	}
+	{Volume "body17"
+		{Tags  "body"}
+		{Thickness 1}
+		{able {bullet 0}}
+	}
+	{Volume "body18"
+		{Tags  "body"}
+		{Thickness 50}
+		{material "steel"}
+	}
+}

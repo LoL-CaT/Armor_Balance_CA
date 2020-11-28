@@ -1,0 +1,66 @@
+;Exported by: caps
+;Date:        Mon Sep 14 12:59:20 2015
+;File:        D:\svn\project_2\Work\_3D\c.helling\concretebarrier\concretebarrier_x.max
+{Skeleton
+	{bone "concretebarrier_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece02"
+			{Position 10.1878	0	35.3971}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece04"
+			{Position -5.18042	0	33.8309}
+			{VolumeView "piece04.ply"}
+			{bone "sub_piece04"
+				{VolumeView "sub_piece04.ply"}
+			}
+		}
+		{bone "piece01"
+			{Position 10.1007	-0.000231504	13.9314}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece03"
+			{Position -8.04339	-0.0355422	13.3916}
+			{VolumeView "piece03.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 11.2931 7.488 22.3316}
+	{Bone "piece01"}
+	{Position 0.193644	-0.0660062	0.707982}
+}
+{Volume "piece02"
+	{Box 11.2931 6.06528 17.642}
+	{Bone "piece02"}
+	{Position 1.05767	0	0.30389}
+}
+{Volume "piece03"
+	{Box 18.1819 6.06528 17.642}
+	{Bone "piece03"}
+	{Position -0.754278	0.0355419	-0.0512047}
+}
+{Volume "piece04a"
+	{Box 6.84717 6.06528 20.922}
+	{Bone "piece04"}
+	{Position -8.7264	0	0.249147}
+}
+{Volume "piece04b"
+	{Polyhedron "piece04b.vol"}
+	{Bone "piece04"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		0.393673	0	10.7271
+	}
+}
+{Volume "sub_piece04"
+	{Box 18.0765 6.06528 12.5532}
+	{Bone "sub_piece04"}
+	{Position 3.34802	0	-3.62554}
+}

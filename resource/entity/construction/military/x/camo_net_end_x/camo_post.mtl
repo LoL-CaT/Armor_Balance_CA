@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction3/camo_post"}
+	{bump "$/construction3/camo_post_bp"}
+	{specular "$/construction3/camo_post_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

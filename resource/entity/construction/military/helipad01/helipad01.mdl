@@ -1,0 +1,621 @@
+;Exported by: Caspar
+;Date:        Tue Aug 14 07:55:06 2018
+;File:        \\WDMyCloudMirror\project_2\m.milz\Modeling\Helipad\Helipad_02.max
+{Skeleton
+	{bone "helipad01"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "helipad01.ply"}
+		{bone "land2"
+			{parameters "Land;Ground;"}
+			{Position 0	0	53.6073}
+			{visibility 0}
+			{VolumeView "land2.ply" {Ground}}
+		}
+		{bone "land1"
+			{parameters "Land;Ground;"}
+			{Matrix34
+				1	0	0
+				0	0.900068	-0.43575
+				0	0.43575	0.900068
+				172.652	121.195	29.277
+			}
+			{visibility 0}
+			{VolumeView "land1.ply" {Ground}}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 187.996 -2.66133}
+		{Extent 0.9785 67.7149}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 167.871 64.1636}
+		{Extent 20.3145 0.97851}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 187.996 -123.179}
+		{Extent 0.9785 53.7844}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center 157.063 -123.179}
+		{Extent 0.9785 53.7844}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_1"
+	{Obb2
+		{Center 146.557 -64.445}
+		{Extent 8.85827 1.47638}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_10"
+	{Obb2
+		{Center -64.0463 133.566}
+		{Extent 35.4099 1.47638}
+		{Axis 0.906502 0.422202}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_11"
+	{Obb2
+		{Center 0.265499 148.727}
+		{Extent 35.4099 1.47638}
+		{Axis 0.999951 0.00992706}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_12"
+	{Obb2
+		{Center 65.5138 134.105}
+		{Extent 35.4099 1.47638}
+		{Axis 0.905763 -0.423784}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_13"
+	{Obb2
+		{Center 117.23 93.1335}
+		{Extent 35.4099 1.47638}
+		{Axis 0.62244 -0.782668}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_2"
+	{Obb2
+		{Center 116.895 -91.8923}
+		{Extent 34.4488 1.47638}
+		{Axis -0.642788 -0.766044}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_3"
+	{Obb2
+		{Center 65.7506 -132.944}
+		{Extent 36.147 1.47638}
+		{Axis -0.897915 -0.44017}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_4"
+	{Obb2
+		{Center 0.604916 -149.367}
+		{Extent 33.6913 1.47638}
+		{Axis -0.999967 -0.00815853}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_5"
+	{Obb2
+		{Center -64.4279 -133.932}
+		{Extent 35.4099 1.47638}
+		{Axis -0.898836 0.438286}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_6"
+	{Obb2
+		{Center -116.166 -91.991}
+		{Extent 35.4099 1.47638}
+		{Axis -0.617348 0.78669}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_7"
+	{Obb2
+		{Center -144.662 -32.7103}
+		{Extent 35.4099 1.47638}
+		{Axis -0.204266 0.978916}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_8"
+	{Obb2
+		{Center -145.572 33.5075}
+		{Extent 35.4099 1.47638}
+		{Axis 0.217615 0.976035}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle_9"
+	{Obb2
+		{Center -116.309 92.6147}
+		{Extent 35.4099 1.47638}
+		{Axis 0.625975 0.779843}
+	}
+	{Rotate}
+}
+{Volume "body10"
+	{Box 2.73982 79.1904 3.90745}
+	{Bone "helipad01"}
+	{Matrix34
+		0.973865	-0.22713	0
+		0.22713	0.973865	0
+		0	0	1
+		-162.119	36.6984	50.0993
+	}
+}
+{Volume "body11"
+	{Box 2.73982 79.1904 3.90745}
+	{Bone "helipad01"}
+	{Matrix34
+		0.976039	0.217595	0
+		-0.217595	0.976039	0
+		0	0	1
+		-162.712	-37.2513	50.0993
+	}
+}
+{Volume "body12"
+	{Box 2.73982 79.1904 3.90745}
+	{Bone "helipad01"}
+	{Matrix34
+		0.782436	0.622731	0
+		-0.622731	0.782436	0
+		0	0	1
+		-130.246	-104.617	50.0993
+	}
+}
+{Volume "body13"
+	{Box 2.73982 79.1904 3.90745}
+	{Bone "helipad01"}
+	{Matrix34
+		0.435613	0.900134	0
+		-0.900134	0.435613	0
+		0	0	1
+		-71.6281	-150.796	50.0993
+	}
+}
+{Volume "body14"
+	{Box 2.73982 79.1904 3.90745}
+	{Bone "helipad01"}
+	{Matrix34
+		0.00240715	0.999997	0
+		-0.999997	0.00240715	0
+		0	0	1
+		-0.317713	-166.827	50.0993
+	}
+}
+{Volume "body15"
+	{Box 2.73982 79.1904 3.90745}
+	{Bone "helipad01"}
+	{Matrix34
+		-0.442653	0.896693	0
+		-0.896693	-0.442653	0
+		0	0	1
+		72.5634	-149.893	50.0993
+	}
+}
+{Volume "body16"
+	{Box 2.73982 79.1904 3.90745}
+	{Bone "helipad01"}
+	{Matrix34
+		-0.800573	0.599236	0
+		-0.599236	-0.800573	0
+		0	0	1
+		131.274	-100.739	50.0993
+	}
+}
+{Volume "body17"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		149.816	-64.168	62.762
+	}
+}
+{Volume "body18"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		157.294	-64.168	62.762
+	}
+}
+{Volume "body19"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		172.496	-64.168	62.762
+	}
+}
+{Volume "body1"
+	{Box 1.95702 135.43 0.897842}
+	{Bone "helipad01"}
+	{Position 187.996	2.66133	72.4632}
+}
+{Volume "body20"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	-63.7174	62.762
+	}
+}
+{Volume "body21"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	-52.6015	62.762
+	}
+}
+{Volume "body22"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	-37.449	62.762
+	}
+}
+{Volume "body23"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	-22.5393	62.762
+	}
+}
+{Volume "body24"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	-7.6546	62.762
+	}
+}
+{Volume "body25"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	7.44879	62.762
+	}
+}
+{Volume "body26"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	22.6474	62.762
+	}
+}
+{Volume "body27"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	37.6054	62.762
+	}
+}
+{Volume "body28"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	52.6107	62.762
+	}
+}
+{Volume "body29"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	67.5882	62.762
+	}
+}
+{Volume "body2"
+	{Box 1.95702 40.6289 0.897842}
+	{Bone "helipad01"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		167.871	-64.1636	72.4632
+	}
+}
+{Volume "body30"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	77.8591	59.4445
+	}
+}
+{Volume "body31"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	91.5161	52.7602
+	}
+}
+{Volume "body32"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	104.964	46.1155
+	}
+}
+{Volume "body33"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	118.654	39.492
+	}
+}
+{Volume "body34"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	132.456	32.8101
+	}
+}
+{Volume "body35"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	146.033	26.2271
+	}
+}
+{Volume "body36"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	159.551	19.5361
+	}
+}
+{Volume "body37"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		187.797	173.522	12.5424
+	}
+}
+{Volume "body38"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		156.966	67.5882	62.762
+	}
+}
+{Volume "body39"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		156.966	77.8591	59.4445
+	}
+}
+{Volume "body3"
+	{Box 1.95702 119.178 0.897842}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0.899293	-0.437348
+		0	0.437348	0.899293
+		187.996	123.179	46.9652
+	}
+}
+{Volume "body40"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		156.966	91.5161	52.7602
+	}
+}
+{Volume "body41"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		156.966	104.964	46.1155
+	}
+}
+{Volume "body42"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		156.966	118.654	39.492
+	}
+}
+{Volume "body43"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		156.966	132.456	32.8101
+	}
+}
+{Volume "body44"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		156.966	146.033	26.2271
+	}
+}
+{Volume "body45"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		156.966	159.551	19.5361
+	}
+}
+{Volume "body46"
+	{Box 1.9685 18.9423 1.9685}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		156.966	173.522	12.5424
+	}
+}
+{Volume "body4"
+	{Box 1.95702 119.178 0.897842}
+	{Bone "helipad01"}
+	{Matrix34
+		1	0	0
+		0	0.899293	-0.437348
+		0	0.437348	0.899293
+		157.063	123.179	46.9652
+	}
+}
+{Volume "body5"
+	{Box 2.73982 79.9903 3.90745}
+	{Bone "helipad01"}
+	{Matrix34
+		-0.785551	-0.618796	0
+		0.618796	-0.785551	0
+		0	0	1
+		130.321	99.8531	50.0993
+	}
+}
+{Volume "body6"
+	{Box 2.73982 79.1904 3.90745}
+	{Bone "helipad01"}
+	{Matrix34
+		-0.433268	-0.901265	0
+		0.901265	-0.433268	0
+		0	0	1
+		71.9721	149.499	50.0993
+	}
+}
+{Volume "body7"
+	{Box 2.73982 79.1904 3.90745}
+	{Bone "helipad01"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-0.137169	166.808	50.0993
+	}
+}
+{Volume "body8"
+	{Box 2.73982 79.1904 3.90745}
+	{Bone "helipad01"}
+	{Matrix34
+		0.439778	-0.898106	0
+		0.898106	0.439778	0
+		0	0	1
+		-71.7453	150.292	50.0993
+	}
+}
+{Volume "body9"
+	{Box 2.73982 79.1904 3.90745}
+	{Bone "helipad01"}
+	{Matrix34
+		0.786266	-0.617888	0
+		0.617888	0.786266	0
+		0	0	1
+		-129.851	103.438	50.0993
+	}
+}

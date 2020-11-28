@@ -1,0 +1,24 @@
+;Exported by: Anna
+;Date:        Thu Jun 13 09:53:27 2019
+;File:        G:\svn\project_2\Work\_3D\a.rotenberg\tents\tent_x_one_piece.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "tent_basis_x"
+		}
+		{bone "ventilation_x"
+		}
+	}
+}
+{Area "interior"
+	{Obb2
+		{Center 0 0}
+		{Extent 98.4252 57.0866}
+		{Axis -1 0}
+	}
+	{Rotate}
+}

@@ -1,0 +1,32 @@
+;Exported by: Anna
+;Date:        Mon Nov 11 17:54:33 2019
+;File:        D:\Anna\DMS\work in progress\Models\foritfications\sandbags.max
+{Skeleton
+	{bone "sandbag_3"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "sandbag_3.ply"}
+			{VolumeView "sandbag_3_lod1.ply"}
+			{VolumeView "sandbag_3_lod2.ply"}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 0.00271654 0.248897}
+		{Extent 3.51321 5.33932}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 7.02643 10.6786 3.76485}
+	{Bone "sandbag_3"}
+	{Position 0.00271654	-0.248896	1.45543}
+}

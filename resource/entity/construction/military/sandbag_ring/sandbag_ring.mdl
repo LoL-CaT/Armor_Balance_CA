@@ -1,0 +1,323 @@
+;Exported by: caps
+;Date:        Fri Oct  5 10:03:56 2018
+;File:        G:\!_Work\!_Mortars\M120_Mortar\3D\sandbags.max
+{Skeleton
+	{bone "sandbag_ring"
+		{parameters "Align;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "sandbag_ring.ply"}
+			{VolumeView "sandbag_ring_lod1.ply"}
+		}
+	}
+}
+{Obstacle "body16"
+	{Obb2
+		{Center -15.535 -54.7118}
+		{Extent 3.63409 6.12498}
+		{Axis 0.999391 0.0348818}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body17"
+	{Obb2
+		{Center 31.2024 -49.3833}
+		{Extent 6.14113 3.66141}
+		{Axis 0.83883 0.544394}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body18"
+	{Obb2
+		{Center 51.0069 -23.5132}
+		{Extent 14.2702 3.64698}
+		{Axis 0.423139 0.906065}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body19"
+	{Obb2
+		{Center 42.1174 36.797}
+		{Extent 3.63667 14.2676}
+		{Axis 0.788218 0.615397}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -27.1724 35.4467}
+		{Extent 12.5271 4.20332}
+		{Axis 0.766272 0.642516}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -25.4465 -35.4221}
+		{Extent 4.26229 14.7921}
+		{Axis 0.588172 0.808736}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "obstacle10"
+	{Obb2
+		{Center 32.5014 34.0453}
+		{Extent 16.1887 7.01197}
+		{Axis 0.708335 -0.705876}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle11"
+	{Obb2
+		{Center 10.2541 46.2308}
+		{Extent 16.1887 7.01198}
+		{Axis 0.985381 -0.170367}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle12"
+	{Obb2
+		{Center -12.3135 46.4213}
+		{Extent 7.93245 7.01197}
+		{Axis 0.97332 0.229452}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle6"
+	{Obb2
+		{Center 2.07617 -46.6211}
+		{Extent 16.1887 7.01197}
+		{Axis -1 2.3564e-07}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle7"
+	{Obb2
+		{Center 26.4082 -38.4206}
+		{Extent 16.1887 7.01197}
+		{Axis -0.787808 -0.615921}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle8"
+	{Obb2
+		{Center 43.1817 -16.8563}
+		{Extent 16.1887 7.01197}
+		{Axis -0.383691 -0.923461}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle9"
+	{Obb2
+		{Center 45.8082 10.3973}
+		{Extent 16.1887 7.01197}
+		{Axis 0.179066 -0.983837}
+	}
+	{Rotate}
+}
+{Volume "body10"
+	{Box 28.2185 7.84967 9.61267}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		-0.871514	-0.490371	0
+		0.490371	-0.871514	0
+		0	0	1
+		26.4355	-43.7824	5.05559
+	}
+}
+{Volume "body11"
+	{Box 28.2185 7.84967 9.61267}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		-0.507257	-0.861795	0
+		0.861795	-0.507257	0
+		0	0	1
+		43.6532	-24.3379	5.05559
+	}
+}
+{Volume "body12"
+	{Box 28.2185 7.84967 9.61267}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		-0.00215642	-0.999998	0
+		0.999998	-0.00215642	0
+		0	0	1
+		50.371	0.156276	5.05559
+	}
+}
+{Volume "body13"
+	{Box 28.2185 7.84967 9.61267}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		0.411183	-0.911553	0
+		0.911553	0.411183	0
+		0	0	1
+		43.6851	23.4198	5.05559
+	}
+}
+{Volume "body14"
+	{Box 28.2185 7.84967 9.61267}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		0.803529	-0.595265	0
+		0.595265	0.803529	0
+		0	0	1
+		26.8444	42.4452	5.05559
+	}
+}
+{Volume "body15"
+	{Box 28.2185 7.84967 9.61267}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		0.999413	-0.034265	0
+		0.034265	0.999413	0
+		0	0	1
+		2.31227	50.3615	5.05559
+	}
+}
+{Volume "body16"
+	{Box 7.26063 12.2455 5.32927}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		0.999413	-0.034265	0
+		0.034265	0.999413	0
+		0	0	1
+		-15.535	54.7118	2.91389
+	}
+}
+{Volume "body17"
+	{Box 7.26063 12.2455 5.32927}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		0.548654	0.83605	0
+		-0.83605	0.548654	0
+		0	0	1
+		31.2024	49.3833	2.91389
+	}
+}
+{Volume "body18"
+	{Box 7.26063 28.532 5.32927}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		0.906558	0.42208	0
+		-0.42208	0.906558	0
+		0	0	1
+		51.0069	23.5132	2.91389
+	}
+}
+{Volume "body19"
+	{Box 7.26063 28.532 5.32927}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		0.788491	-0.615046	0
+		0.615046	0.788491	0
+		0	0	1
+		42.1173	-36.797	2.91389
+	}
+}
+{Volume "body1"
+	{Box 25.0173 8.29452 16.2927}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		0.769146	-0.639073	0
+		0.639073	0.769146	0
+		0	0	1
+		-27.1724	-35.4467	8.39559
+	}
+}
+{Volume "body2"
+	{Box 29.5204 8.29452 16.2927}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		0.804123	0.594463	0
+		-0.594463	0.804123	0
+		0	0	1
+		-25.4465	35.4221	8.39559
+	}
+}
+{Volume "body3"
+	{Box 29.5204 7.84967 16.2927}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		0.999168	-0.0407802	0
+		0.0407802	0.999168	0
+		0	0	1
+		-0.889405	43.7267	8.39559
+	}
+}
+{Volume "body4"
+	{Box 29.5204 7.84967 16.2927}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		0.835705	-0.549179	0
+		0.549179	0.835705	0
+		0	0	1
+		24.1919	35.8201	8.39559
+	}
+}
+{Volume "body5"
+	{Box 29.5204 7.84967 16.2927}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		0.270399	-0.962749	0
+		0.962749	0.270399	0
+		0	0	1
+		39.8684	15.0636	8.39559
+	}
+}
+{Volume "body6"
+	{Box 29.5204 7.84967 16.2927}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		-0.201466	-0.979496	0
+		0.979496	-0.201466	0
+		0	0	1
+		40.5598	-12.1085	8.39559
+	}
+}
+{Volume "body7"
+	{Box 29.5204 7.84967 16.2927}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		-0.786384	-0.617738	0
+		0.617738	-0.786384	0
+		0	0	1
+		26.7858	-34.5898	8.39559
+	}
+}
+{Volume "body8"
+	{Box 35.7197 7.84967 16.2927}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		-0.999997	0.00224647	0
+		-0.00224647	-0.999997	0
+		0	0	1
+		-2.13896	-43.2003	8.39559
+	}
+}
+{Volume "body9"
+	{Box 28.2185 7.84967 9.61267}
+	{Bone "sandbag_ring"}
+	{Matrix34
+		-0.996043	-0.0888772	0
+		0.0888772	-0.996043	0
+		0	0	1
+		1.62366	-51.8651	5.05559
+	}
+}

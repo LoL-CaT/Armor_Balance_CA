@@ -1,0 +1,79 @@
+{game_entity
+	(include "/properties/building.inc")
+	{Extension "tent_base_x.mdl"}
+	{props "wall" "cornered" "misc" "parts" "construction"}
+	("armor_medium" args 0.7)
+	("armor_use_volume_thickness")
+	{obstacleID "unbreakable"}
+	
+	{Volume "body10"
+		{Tags  "body"}
+		{Thickness 1}
+		{able {bullet 0}}
+	}
+	{Volume "body15"
+		{Tags  "body"}
+		{Thickness 1}
+		{able {bullet 0}}
+	}
+	{Volume "body16"
+		{Tags  "body"}
+		{Thickness 1}
+		{able {bullet 0}}
+	}
+	{Volume "body17"
+		{Tags  "body"}
+		{Thickness 1}
+		{able {bullet 0}}
+	}
+	{Volume "body18"
+		{Tags  "body"}
+		{Thickness 50}
+		{material "steel"}
+	}
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 1}
+		{able {bullet 0}}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 1}
+		{able {bullet 0}}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 1}
+		{able {bullet 0}}
+	}
+	{Volume "body4"
+		{Tags  "body"}
+		{Thickness 1}
+		{able {bullet 0}}
+	}
+	{Volume "body5"
+		{Tags  "body"}
+		{Thickness 1}
+		{able {bullet 0}}
+	}
+	{Volume "body6"
+		{Tags  "body"}
+		{Thickness 1}
+		{able {bullet 0}}
+	}
+	{Volume "body7"
+		{Tags  "body"}
+		{Thickness 1}
+		{able {bullet 0}}
+	}
+	{Volume "body8"
+		{Tags  "body"}
+		{Thickness 1}
+		{able {bullet 0}}
+	}
+	{Volume "body9"
+		{Tags  "body"}
+		{Thickness 1}
+		{able {bullet 0}}
+	}
+}

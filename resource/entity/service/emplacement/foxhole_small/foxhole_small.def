@@ -1,0 +1,50 @@
+{game_entity
+	(include "/properties/trench.inc")	
+	{props "sand"}
+	{constrain surface}
+
+	{Extension "../../../landscape/cut_entity/foxholes/foxhole_crouch/foxhole_crouch.mdl"}
+	
+	{extender "land_patch"
+		{TerrainType "ground" "ground"}
+		{RemoveEntities 1}
+	}
+	
+	("volume" args "body1")
+	("volume" args "body2")
+	("volume" args "body3")
+
+	{Volume "detail1"
+		{Tags  "detail1"}
+		{able clear {visible 1}}
+	}
+	{Volume "detail2a"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2b"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2c"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2d"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+	{Volume "detail2e"
+		{Tags  "detail2"}
+		{Thickness 30}
+		{able {contact 0}}
+	}
+
+	{extender "detail"
+		{random 0}
+	}
+}

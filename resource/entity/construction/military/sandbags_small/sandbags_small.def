@@ -1,0 +1,19 @@
+{game_entity
+	(include "/properties/construction_medium.ext")
+	{props "sand_bag_big"}
+	{volume defaultmaterial "sand"}
+	
+	{Extension "sandbags_small.mdl"}
+	
+	{Volume "body"
+		{thickness 25}
+		{Tags  "body" "climb"}
+		{able {touch 1}}
+	}
+
+	{Extender "land_patch"
+		{AlignEnabled 0}
+		{AlignStacked 0}
+		{AlignVolumes 1}
+	}
+}

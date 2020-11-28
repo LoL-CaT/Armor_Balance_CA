@@ -1,0 +1,22 @@
+;Exported by: Anna
+;Date:        Tue Dec 10 00:08:22 2019
+;File:        D:\Anna\DMS\work in progress\Models\foritfications\fortifications_wooden_wall_end.max
+{Skeleton
+	{bone "wall"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "wall.ply"}
+			{VolumeView "wall_lod1.ply"}
+			{VolumeView "wall_lod2.ply"}
+		}
+	}
+}
+{Volume "body1"
+	{Box 5.41339 25.1043 47.9262}
+	{Bone "wall"}
+	{Position 0.0542746	0.049139	23.9631}
+}

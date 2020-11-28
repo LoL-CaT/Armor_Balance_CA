@@ -1,0 +1,52 @@
+{game_entity
+	(include "/properties/construction_medium.ext")
+	{props "construction" "wood" "shed" "burning"}
+	{constrain none}
+	{Extension "camo_net_trench_short.mdl"}
+	{Volume "body1"
+		{tags "body"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+	{Volume "body2"
+		{tags "body"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+	{Volume "body3"
+		{tags "body"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+	{Volume "body4"
+		{tags "body"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+	{Volume "body5"
+		{tags "body"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+	{Volume "body6"
+		{tags "body"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+	{Volume "body7"
+		{tags "body"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+	{Volume "body8"
+		{tags "body"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+	{Volume "roof1"
+		{tags "body"}
+		{Thickness 10}
+		{able {visible 0}{bullet 0}{obstacle 0}}
+	}
+	{extender "edifice"}
+}

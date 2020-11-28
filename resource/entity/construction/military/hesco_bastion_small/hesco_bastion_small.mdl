@@ -1,0 +1,21 @@
+;Exported by: Caspar
+;Date:        Tue Jun 09 14:30:26 2015
+;File:        D:\work in progress\Call_to_Arms\Assets\Hesco_bastions_new\Hesco_bastion_small\3D\hesco_bastion_small_new.max
+{Skeleton
+	{bone "hesco_bastion_small"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "hesco_bastion_small.ply"}
+		{bone "hesco_bastion_small_filling"
+			{VolumeView "hesco_bastion_small_filling.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 21.8634 21.9523 26.0161}
+	{Bone "hesco_bastion_small"}
+	{Position 0	0	13.0081}
+}

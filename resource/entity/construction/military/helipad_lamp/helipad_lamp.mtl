@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction/helipad_lamp"}
+	{bump "$/construction/helipad_lamp_bp"}
+	{specular "$/construction/helipad_lamp_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

@@ -1,0 +1,124 @@
+;Exported by: Anna
+;Date:        Thu Aug 29 11:20:21 2019
+;File:        D:\work in progress\Anna\Models\foritfications\fortifications_sandbag_bigwall_x.max
+{Skeleton
+	{bone "wall_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "wall_x.ply"}
+		{bone "sandbags_x"
+			{LODView
+				{VolumeView "sandbags_x.ply"}
+				{VolumeView "sandbags_x_lod1.ply"}
+				{VolumeView "sandbags_x_lod2.ply"}
+			}
+		}
+		{bone "piece01"
+			{Position 3.62094	24.3561	10.9414}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece02"
+			{Position 1.82566	3.74716	14.7731}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece03"
+			{Position -2.58146	25.8462	26.2299}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece04"
+			{Position -3.73602	-26.9131	20.8282}
+			{VolumeView "piece04.ply"}
+		}
+		{bone "piece05"
+			{Position 3.93289	8.18834	42.3877}
+			{VolumeView "piece05.ply"}
+		}
+		{bone "piece06"
+			{Position 0.734893	-13.5765	40.9395}
+			{VolumeView "piece06.ply"}
+		}
+		{bone "piece07"
+			{Position -10.0979	8.75447	18.872}
+			{VolumeView "piece07.ply"}
+		}
+		{bone "piece08"
+			{Position -10.0979	-11.8652	26.3532}
+			{VolumeView "piece08.ply"}
+		}
+		{bone "piece09"
+			{Position -10.0979	-1.234	39.4603}
+			{VolumeView "piece09.ply"}
+		}
+		{bone "land1"
+			{parameters "Land;Ground;"}
+			{Position -1.23617	-1.15944	5.35403}
+			{visibility 0}
+			{VolumeView "land1.ply" {Ground}}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 9.04827 15.206 5.04487}
+	{Bone "piece01"}
+	{Position -0.0110292	-1.02007	-0.0582256}
+}
+{Volume "piece02"
+	{Box 9.04827 15.206 5.04487}
+	{Bone "piece02"}
+	{Matrix34
+		0.0368971	0.999319	0
+		-0.999319	0.0368971	0
+		0	0	1
+		-0.798741	-0.743547	1.98095
+	}
+}
+{Volume "piece03"
+	{Box 9.04827 15.9664 5.04487}
+	{Bone "piece03"}
+	{Matrix34
+		0.996195	-0.0871557	0
+		0.0871557	0.996195	0
+		0	0	1
+		-0.694912	0.812988	1.82489
+	}
+}
+{Volume "piece04"
+	{Box 9.86261 15.9664 5.04487}
+	{Bone "piece04"}
+	{Position 0.254158	0.5732	0.540792}
+}
+{Volume "piece05"
+	{Box 9.68165 15.8143 5.04487}
+	{Bone "piece05"}
+	{Matrix34
+		0.996185	-0.0871558	-0.00449036
+		0.0871549	0.996195	-0.00039291
+		0.00450752	0	0.99999
+		-0.0909317	-0.930301	2.37523
+	}
+}
+{Volume "piece06"
+	{Box 9.04827 15.206 5.04487}
+	{Bone "piece06"}
+	{Matrix34
+		-0.163773	0.986498	0
+		-0.986498	-0.163773	0
+		0	0	1
+		-0.71897	0.116495	-2.8731
+	}
+}
+{Volume "piece07"
+	{Polyhedron "piece07.vol"}
+	{Bone "piece07"}
+}
+{Volume "piece08"
+	{Polyhedron "piece08.vol"}
+	{Bone "piece08"}
+}
+{Volume "piece09"
+	{Polyhedron "piece09.vol"}
+	{Bone "piece09"}
+}

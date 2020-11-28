@@ -1,0 +1,16 @@
+;Exported by: rowen
+;Date:        Tue Jul  9 11:04:44 2019
+;File:        C:\Users\rowen\Downloads\sandbags_export.max
+{Skeleton
+	{bone "sandbag_pile1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "sandbag_pile1.ply"}
+			{VolumeView "sandbag_pile1_lod1.ply"}
+		}
+	}
+}

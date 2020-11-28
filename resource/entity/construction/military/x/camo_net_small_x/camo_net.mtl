@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/construction3/camo_net_x"}
+	{bump "$/construction3/camo_net_x_bp"}
+	{blend test}
+}

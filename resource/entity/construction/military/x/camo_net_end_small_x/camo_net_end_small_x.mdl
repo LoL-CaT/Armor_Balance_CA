@@ -1,0 +1,16 @@
+;Exported by: Verena
+;Date:        Tue May  8 12:47:26 2018
+;File:        D:\work in progress\Modeling\camo_net\3D_camo_net\camo_net_end_small_x.max
+{Skeleton
+	{bone "camo_net_end_small_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "camo_net_end_small_x.ply"}
+			{VolumeView "camo_net_end_small_x_lod1.ply"}
+		}
+	}
+}

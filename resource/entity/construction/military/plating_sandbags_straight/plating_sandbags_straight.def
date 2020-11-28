@@ -1,0 +1,26 @@
+{game_entity
+	(include "/properties/construction_medium.ext")
+	{props "construction" "steel" "shed"}
+	
+	{Extension "plating_sandbags_straight.mdl"}
+	
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 30}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 30}
+		{material "wood"}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 30}
+		{material "wood"}
+	}
+	{Volume "body4"
+		{Tags  "body"}
+		{Thickness 30}
+		{material "wood"}
+	}
+}

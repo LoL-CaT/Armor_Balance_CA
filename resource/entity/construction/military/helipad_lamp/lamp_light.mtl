@@ -1,0 +1,6 @@
+{material simple
+	{diffuse "$/construction/powerpole_lightsource"}
+	{glow}
+	{blend add}
+	{glow}
+}

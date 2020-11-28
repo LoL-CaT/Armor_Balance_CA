@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction/hesco_bastion_small_bottom"}
+	{bump "$/construction/hesco_bastion_small_bottom_bp"}
+	{specular "$/construction/hesco_bastion_small_bottom_sp"}
+	{color "120 120 120 10"}
+	{blend none}
+}

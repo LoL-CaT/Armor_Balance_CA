@@ -1,0 +1,300 @@
+;Exported by: rowen
+;Date:        Wed Nov  6 14:50:16 2019
+;File:        D:\3D_camo_net_trench\3D_camo_net_trench\camo_net_trench_03.max
+{Skeleton
+	{bone "camo_net_trench_curve"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "camo_net_trench_curve.ply"}
+			{VolumeView "camo_net_trench_curve_lod1.ply"}
+		}
+		{bone "exterior"
+			{VolumeView "exterior.ply"}
+		}
+	}
+}
+{Obstacle "body15"
+	{Obb2
+		{Center 17.3603 -45.6745}
+		{Extent 16.9982 10.6648}
+		{Axis 0.174345 0.984685}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body16"
+	{Obb2
+		{Center 38.7807 -3.73644}
+		{Extent 32.6551 10.6673}
+		{Axis 0.643126 0.76576}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body17"
+	{Obb2
+		{Center 7.17388 58.915}
+		{Extent 29.0622 10.6618}
+		{Axis 0.81933 0.573323}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body18"
+	{Obb2
+		{Center -30.3186 14.8826}
+		{Extent 36.3297 10.6737}
+		{Axis 0.423139 0.906065}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body19"
+	{Obb2
+		{Center -46.5878 -38.9269}
+		{Extent 26.1787 10.6713}
+		{Axis 0.174345 0.984685}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Area "interior1"
+	{Obb2
+		{Center -12.0876 -24.3093}
+		{Extent 33.817 40.2285}
+		{Axis -0.965926 0.258819}
+	}
+	{Rotate}
+}
+{Area "interior2"
+	{Obb2
+		{Center 21.059 26.7671}
+		{Extent 33.8171 40.2285}
+		{Axis -0.642787 0.766045}
+	}
+	{Rotate}
+}
+{Volume "body10"
+	{Box 2.3622 2.3622 32.6751}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0.785923	0.618324	0
+		-0.618324	0.785923	0
+		0	0	1
+		29.3022	12.5771	15.151
+	}
+}
+{Volume "body11"
+	{Box 2.3622 2.3622 32.2423}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0.559429	0.828878	0
+		-0.828878	0.559429	0
+		0	0	1
+		55.8041	-15.166	15.0452
+	}
+}
+{Volume "body12"
+	{Box 2.3622 2.3622 26.6014}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0	0	-1
+		-0.569298	-0.822131	0
+		-0.822131	0.569298	0
+		53.539	-11.637	14.4627
+	}
+}
+{Volume "body13"
+	{Box 2.3622 2.3622 46.0204}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0	0	-1
+		-0.830067	-0.557663	0
+		-0.557663	0.830067	0
+		30.0668	14.831	14.4627
+	}
+}
+{Volume "body14"
+	{Box 2.3622 2.3622 31.7541}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0	0	-1
+		-0.999943	-0.0107283	0
+		-0.0107283	0.999943	0
+		17.5099	48.7812	14.4627
+	}
+}
+{Volume "body15"
+	{Box 21.3056 33.9813 31.2014}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0.984808	0.173648	0
+		-0.173648	0.984808	0
+		0	0	1
+		17.3603	45.6745	15.6007
+	}
+}
+{Volume "body16"
+	{Box 21.3056 65.3008 31.2014}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0.766045	0.642788	0
+		-0.642788	0.766045	0
+		0	0	1
+		38.7807	3.73644	15.6007
+	}
+}
+{Volume "body17"
+	{Box 21.3056 58.1177 31.2014}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0.573576	0.819152	0
+		-0.819152	0.573576	0
+		0	0	1
+		7.17388	-58.915	15.6007
+	}
+}
+{Volume "body18"
+	{Box 21.3056 72.6472 31.2014}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0.906308	0.422618	0
+		-0.422618	0.906308	0
+		0	0	1
+		-30.3186	-14.8826	15.6007
+	}
+}
+{Volume "body19"
+	{Box 21.3056 52.3423 31.2014}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0.984808	0.173648	0
+		-0.173648	0.984808	0
+		0	0	1
+		-46.5878	38.9269	15.6007
+	}
+}
+{Volume "body1"
+	{Box 2.3622 2.3622 53.2028}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0	0	-1
+		-0.587217	-0.809429	0
+		-0.809429	0.587217	0
+		8.99371	-64.279	14.4627
+	}
+}
+{Volume "body2"
+	{Box 2.3622 2.3622 15.4288}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0	0	-1
+		-0.760335	-0.649531	0
+		-0.649531	0.760335	0
+		-16.1655	-43.7964	14.4627
+	}
+}
+{Volume "body3"
+	{Box 2.3622 2.3622 54.0008}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0	0	-1
+		-0.883011	-0.469352	0
+		-0.469352	0.883011	0
+		-33.3713	-14.6483	14.4627
+	}
+}
+{Volume "body4"
+	{Box 2.3622 2.3622 14.0402}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0	0	-1
+		-0.954295	-0.298868	0
+		-0.298868	0.954295	0
+		-47.6994	15.0598	14.4627
+	}
+}
+{Volume "body5"
+	{Box 2.3622 2.3622 43.665}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0	0	-1
+		-0.995968	-0.0897117	0
+		-0.0897117	0.995968	0
+		-51.2159	42.675	14.4627
+	}
+}
+{Volume "body6"
+	{Box 2.3622 2.3622 32.8914}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0.642787	0.766045	0
+		-0.766045	0.642787	0
+		0	0	1
+		10.848	-63.4638	15.1644
+	}
+}
+{Volume "body7"
+	{Box 2.3622 2.3622 32.4587}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0.881376	0.472415	0
+		-0.472415	0.881376	0
+		0	0	1
+		-32.8265	-12.6801	15.0352
+	}
+}
+{Volume "body8"
+	{Box 2.3622 2.3622 32.6751}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0.997703	0.0677353	0
+		-0.0677353	0.997703	0
+		0	0	1
+		-49.6178	49.2175	15.1305
+	}
+}
+{Volume "body9"
+	{Box 2.3622 2.3622 32.5975}
+	{Bone "camo_net_trench_curve"}
+	{Matrix34
+		0.997703	0.0677353	0
+		-0.0677353	0.997703	0
+		0	0	1
+		15.7906	51.1565	14.9893
+	}
+}
+{Volume "roof1"
+	{Box 47.0967 69.8749 3.54775}
+	{Bone "exterior"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-16.065	39.4416	29.2359
+	}
+}
+{Volume "roof2"
+	{Box 51.6756 70.5807 3.54775}
+	{Bone "exterior"}
+	{Matrix34
+		-0.866026	0.5	0
+		-0.5	-0.866026	0
+		0	0	1
+		26.3869	-32.6834	29.2359
+	}
+}
+{Volume "roof3"
+	{Box 76.7677 69.8749 3.54775}
+	{Bone "exterior"}
+	{Matrix34
+		-0.422618	0.906308	0
+		-0.906308	-0.422618	0
+		0	0	1
+		-0.0904026	-2.23497	29.2359
+	}
+}

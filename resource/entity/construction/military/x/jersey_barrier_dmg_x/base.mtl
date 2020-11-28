@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction/jersey_barrier_dmg"}
+	{bump "$/construction/jersey_barrier_dmg_bp"}
+	{specular "$/construction/jersey_barrier_dmg_sp"}
+	{color "90 90 90 10"}
+	{blend none}
+}

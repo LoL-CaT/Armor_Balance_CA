@@ -1,0 +1,9 @@
+{game_entity
+	{Extension "hesco_defense.mdl"}
+	{placer}
+	{extender "structure"
+		{place "hesco_defense_base" "hesco_defense_base"}
+		{place "hesco_defense_roof" "hesco_defense_roof"}
+	}
+	{extender "edifice"}
+}

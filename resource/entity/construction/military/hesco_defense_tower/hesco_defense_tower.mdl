@@ -1,0 +1,16 @@
+;Exported by: caps
+;Date:        Fri Dec 04 08:30:50 2015
+;File:        D:\!_DMS_CalltoArms\Assets\hesco_defense\hesco_defense_tower\3D\hesco_defense_tower.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "hesco_defense_tower_base"
+		}
+		{bone "hesco_defense_tower_roof"
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction/cb_dmg"}
+	{bump "$/construction/cb_dmg_bp"}
+	{specular "$/construction/cb_dmg_sp"}
+	{color "150 150 150 10"}
+	{blend none}
+}

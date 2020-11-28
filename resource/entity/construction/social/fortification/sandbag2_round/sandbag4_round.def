@@ -1,7 +1,7 @@
 {game_entity
-	(include "/properties/construction.inc")
+	(include "/properties/construction_medium.ext")
 
-	{props "sand" "sandbag" "sandbag_round" "heap" "construction" "burning" "no_destroyed_stamp"}
+	{props "sand_bag_big"}
 
 	{Extension "sandbag4_round.mdl"}
 	{Extender "land_patch"

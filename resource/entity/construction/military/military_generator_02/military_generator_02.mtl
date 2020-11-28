@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction3/military_generator_02"}
+	{bump "$/construction3/military_generator_02_bp"}
+	{specular "$/construction3/military_generator_02_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

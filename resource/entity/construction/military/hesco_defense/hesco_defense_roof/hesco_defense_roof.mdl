@@ -1,0 +1,231 @@
+;Exported by: Martin
+;Date:        Wed Jun 24 10:44:28 2015
+;File:        D:\work in progress\Call to Arms\Animation\hesco_flag\hesco_defense_06.max
+{Skeleton
+	{animation
+		{sequence "animation" {speed 0.6}}
+	}
+	{bone "hesco_defense_roof"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "hesco_defense_roof.ply"}
+		{bone "exterior"
+			{LODView
+				{VolumeView "exterior.ply"}
+				{VolumeView "exterior_lod1.ply"}
+			}
+		}
+		{bone "root_bone"
+			{Orientation
+				0	0	1
+				-1	0	0
+				0	-1	0
+			}
+			{bone "bone001"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					48.6091	42.9773	40.5135
+				}
+			}
+			{bone "bone002"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					48.6091	42.9773	17.4392
+				}
+			}
+			{bone "bone003"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					48.6091	42.9773	-14.7656
+				}
+			}
+			{bone "bone004"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					48.6091	42.9773	-43.8046
+				}
+			}
+			{bone "bone005"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					48.6091	23.2492	41.4988
+				}
+			}
+			{bone "bone006"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					48.6091	-0.600834	41.4988
+				}
+			}
+			{bone "bone007"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					48.6091	-31.5514	41.4988
+				}
+			}
+			{bone "bone008"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					48.6091	-41.672	40.2355
+				}
+			}
+			{bone "bone009"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					48.6091	-38.9821	24.8418
+				}
+			}
+			{bone "bone010"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					48.6091	-40.6894	-20.2646
+				}
+			}
+			{bone "bone011"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					48.6091	-39.4613	-45.5329
+				}
+			}
+			{bone "bone012"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					48.6091	-23.9596	-46.4257
+				}
+			}
+			{bone "bone013"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					48.6091	-1.39657	-46.4257
+				}
+			}
+			{bone "bone014"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					48.6091	23.2492	-46.4257
+				}
+			}
+		}
+	}
+}
+{Volume "body11"
+	{Box 3.09263 3.05046 26.5508}
+	{Bone "hesco_defense_roof"}
+	{Position -33.1002	-32.5079	35.4869}
+}
+{Volume "body12"
+	{Box 3.09263 3.05046 26.3738}
+	{Bone "hesco_defense_roof"}
+	{Position 32.7508	-32.5079	35.3984}
+}
+{Volume "body13"
+	{Box 3.09263 3.05046 26.5508}
+	{Bone "hesco_defense_roof"}
+	{Position 32.726	32.5807	35.4869}
+}
+{Volume "body14"
+	{Box 3.09263 3.05046 26.5508}
+	{Bone "hesco_defense_roof"}
+	{Position -33.1002	32.5807	35.4869}
+}
+{Volume "roof1"
+	{Box 70.1932 1.08956 10.0773}
+	{Bone "exterior"}
+	{Position -0.0306664	34.5187	44.3299}
+}
+{Volume "roof2"
+	{Box 70.1932 1.08956 10.0773}
+	{Bone "exterior"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		34.4729	-0.0995026	44.3299
+	}
+}
+{Volume "roof3"
+	{Box 70.1932 1.08956 10.0773}
+	{Bone "exterior"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.250034	-34.2544	44.3299
+	}
+}
+{Volume "roof4"
+	{Box 70.1932 1.08956 10.0773}
+	{Bone "exterior"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-35.0465	-0.141647	44.3299
+	}
+}
+{Volume "roof5"
+	{Box 81.2852 83.5311 1.10851}
+	{Bone "exterior"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-1.25065	0	48.6344
+	}
+}
+{Volume "roof6"
+	{Box 14.6313 78.5192 7.77063}
+	{Bone "exterior"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-4.06496	-33.4012	52.9722
+	}
+}
+{Volume "roof7"
+	{Box 14.6313 78.5192 7.77063}
+	{Bone "exterior"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-2.86582	38.26	52.9722
+	}
+}
+{Volume "roof8"
+	{Box 14.6313 57.319 7.30439}
+	{Bone "exterior"}
+	{Position -36.5067	2.16834	52.7391}
+}

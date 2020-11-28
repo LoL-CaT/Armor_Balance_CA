@@ -1,0 +1,57 @@
+{game_entity
+	(include "/properties/building.inc")
+	{Extension "hesco_defense_roof.mdl"}
+	{props "wood" "construction"}
+	
+	{Volume "body11"
+		{Thickness 10}
+		{able {obstacle 0}{blockcamera 0}}
+	}
+	{Volume "body12"
+		{Thickness 10}
+		{able {obstacle 0}{blockcamera 0}}
+	}
+	{Volume "body13"
+		{Thickness 10}
+		{able {obstacle 0}{blockcamera 0}}
+	}
+	{Volume "body14"
+		{Thickness 10}
+		{able {obstacle 0}{blockcamera 0}}
+	}
+	{Volume "roof1"
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "roof2"
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "roof3"
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "roof4"
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "roof5"
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "roof6"
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{Material "sand"}
+	}
+	{Volume "roof7"
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{Material "sand"}
+	}
+	{Volume "roof8"
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{Material "sand"}
+	}
+}

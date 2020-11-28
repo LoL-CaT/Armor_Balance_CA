@@ -1,0 +1,35 @@
+;Exported by: Caspar
+;Date:        Wed Jun 29 08:40:07 2016
+;File:        G:\svn\project_2\Work\_3D\v.galynskiy\export\jersey_barrier\jersey_barrier.max
+{Skeleton
+	{bone "jersey_barrier"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "jersey_barrier.ply"}
+			{VolumeView "jersey_barrier_lod1.ply"}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -0.0803449 -0.128534}
+		{Extent 5.92966 30.1617}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "jersey_barrier"}
+	{Position 0.0817261	-0.0595818	0}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "jersey_barrier"}
+	{Position 0.0817261	-0.0595818	0}
+}

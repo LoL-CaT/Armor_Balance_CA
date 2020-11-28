@@ -1,0 +1,71 @@
+;Exported by: Caspar
+;Date:        Wed Jul 19 13:12:49 2017
+;File:        H:\!_Work\Sandbagwall\3D\sandbags_big_curve.max
+{Skeleton
+	{bone "sandbags_big_curve"
+		{parameters "Align;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "sandbags_big_curve.ply"}
+			{VolumeView "sandbags_big_curve_lod1.ply"}
+		}
+	}
+}
+{Obstacle "obstacle1"
+	{Obb2
+		{Center 5.05008 17.3568}
+		{Extent 11.6614 7.28138}
+		{Axis -0.50347 -0.864013}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle2"
+	{Obb2
+		{Center 0.656567 -0.106076}
+		{Extent 11.6614 7.28138}
+		{Axis -0.00548916 -0.999985}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle3"
+	{Obb2
+		{Center 4.52013 -17.1952}
+		{Extent 11.6614 7.28138}
+		{Axis 0.52962 -0.848235}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 14.5691 21.3567 24.6063}
+	{Bone "sandbags_big_curve"}
+	{Matrix34
+		0.858358	-0.51305	0
+		0.51305	0.858358	0
+		0	0	1
+		4.66282	17.2651	11.5371
+	}
+}
+{Volume "body2"
+	{Box 14.5691 23.706 24.6063}
+	{Bone "sandbags_big_curve"}
+	{Matrix34
+		1	0.00062716	0
+		-0.00062716	1	0
+		0	0	1
+		0.309716	0.0047636	11.5371
+	}
+}
+{Volume "body3"
+	{Box 14.5691 21.3567 24.6063}
+	{Bone "sandbags_big_curve"}
+	{Matrix34
+		0.858252	0.513229	0
+		-0.513229	0.858252	0
+		0	0	1
+		4.4799	-16.8678	11.5371
+	}
+}

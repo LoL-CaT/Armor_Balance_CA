@@ -1,0 +1,47 @@
+{game_entity
+	(include "/properties/building.inc")
+	{Extension "hesco_defense_base.mdl"}
+	{props "sand" "construction"}
+	{obstacleID "unbreakable"}
+
+	{Volume "body10"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body4"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body5"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body6"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body7"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body8"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body9"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+}

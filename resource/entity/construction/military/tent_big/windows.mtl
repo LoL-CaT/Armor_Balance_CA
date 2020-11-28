@@ -1,0 +1,5 @@
+{material envmap
+	{diffuse "$/construction/tent_big_windows"}
+	{mask "$/construction/tent_big_windows_mask"}
+	{blend blend}
+}

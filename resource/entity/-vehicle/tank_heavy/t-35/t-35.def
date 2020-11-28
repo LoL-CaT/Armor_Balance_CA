@@ -211,7 +211,7 @@
 			{gunner "gunner5"}
 			{charger "charger5"}
 			("abm_mgun")	
-;			{basic}			
+			{basic}			
 		}
 		{place "mgun6"
 			{LinkBone "ms6"}
@@ -222,7 +222,7 @@
 			{gunner "gunner2"}
 			{charger "charger6"}
 			("abm_mgun")	
-;			{basic}	
+			{basic}	
 		}
 		{place "mgun4" ;правый
 			{LinkBone "ms4"}
@@ -233,7 +233,7 @@
 			{gunner "gunner4"}
 			{charger "gunner4"}
 			("abm_mgun")	
-;			{basic}		
+			{basic}		
 		}
 		{place "mgun3" ;левый
 			{LinkBone "ms3"}
@@ -244,7 +244,7 @@
 			{gunner "gunner3"}
 			{charger "gunner3"}
 			("abm_mgun")
-;			{basic}
+			{basic}
 		}
 		{place "mgun2" ;спаренный
 			{LinkBone "ms2"}

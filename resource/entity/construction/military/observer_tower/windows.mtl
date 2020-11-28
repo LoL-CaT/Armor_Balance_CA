@@ -1,0 +1,5 @@
+{material envmap
+	{diffuse "$/building4/observer_tower_windows"}
+	{mask "$/building4/observer_tower_windows_mask"}
+	{blend blend}
+}

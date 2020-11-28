@@ -1,0 +1,53 @@
+{game_entity
+	(include "/properties/construction_medium.ext")
+	{props "construction" "steel" "small" "parts" "burning" "no_destroyed_stamp"}
+	{Extension "camo_net.mdl"}
+	{Volume "body1"
+		{tags "body"}
+		{Thickness 10}
+		{able {visible 0}{blockcamera 0}}
+	}
+	{Volume "body2"
+		{tags "body"}
+		{Thickness 10}
+		{able {visible 0}{blockcamera 0}}
+	}
+	{Volume "body3"
+		{tags "body"}
+		{Thickness 10}
+		{able {visible 0}{blockcamera 0}}
+	}
+	{Volume "body4"
+		{tags "body"}
+		{Thickness 10}
+		{able {visible 0}{blockcamera 0}}
+	}
+	{Volume "detail1a"
+		{tags "body"}
+		{Thickness 10}
+		{able {visible 0}{blockcamera 0}}
+	}
+	{Volume "detail1b"
+		{tags "body"}
+		{Thickness 10}
+		{able {visible 0}{blockcamera 0}}
+	}
+	{Volume "detail1c"
+		{tags "body"}
+		{Thickness 10}
+		{able {visible 0}{blockcamera 0}}
+	}
+	{Volume "detail1d"
+		{tags "body"}
+		{Thickness 10}
+		{able {visible 0}{blockcamera 0}}
+	}
+	{Volume "roof1"
+		{tags "body"}
+		{able {visible 0}{bullet 0}{obstacle 0}}
+	}
+	{extender "detail"
+		{random 0}
+	}
+	{extender "edifice"}
+}

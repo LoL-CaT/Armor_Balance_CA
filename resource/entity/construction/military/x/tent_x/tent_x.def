@@ -1,0 +1,9 @@
+{game_entity
+	{Extension "tent_x.mdl"}
+	{placer}
+	{extender "structure"
+		{place "basis" "tent_base_x"}
+		{place "ventilation_x" "ventilation_x"}
+	}
+	{extender "edifice"}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction3/flagtower_sandbags"}
+	{bump "$/construction3/flagtower_sandbags_bp"}
+	{specular "$/construction3/flagtower_sandbags_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

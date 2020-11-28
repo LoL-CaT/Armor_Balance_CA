@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction/hesco_defense"}
+	{bump "$/construction/hesco_defense_bp"}
+	{specular "$/construction/hesco_defense_sp"}
+	{color "100 100 100 10"}
+	{blend none}
+}

@@ -1,0 +1,30 @@
+;Exported by: Caspar
+;Date:        Wed Jul  6 10:00:43 2016
+;File:        H:\Work\Foxholes\3D\sandbag_only.max
+{Skeleton
+	{bone "sandbag"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "sandbag.ply"}
+			{VolumeView "sandbag_lod1.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0 0}
+		{Extent 3.57962 5.54727}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Volume "body"
+	{Box 7.15925 11.0945 4.05442}
+	{Bone "sandbag"}
+	{Position 0	0	2.02721}
+}

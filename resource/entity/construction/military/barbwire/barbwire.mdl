@@ -1,0 +1,23 @@
+;Exported by: caps
+;Date:        Tue Jan 28 13:14:58 2014
+;File:        D:\!_DMS_CalltoArms\Assets\barb_wire\3D\barb_wire_Export.max
+{Skeleton
+	{bone "barbwire"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "barbwire.ply"}
+	}
+}
+{Volume "body"
+	{Cylinder 4.7152 40.1575}
+	{Bone "barbwire"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0	-0.0275478	-0.00969229
+	}
+}

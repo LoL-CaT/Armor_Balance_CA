@@ -1,0 +1,33 @@
+{game_entity
+	(include "/properties/building_medium.ext")
+	{props "construction" "steel" "tag_crushed"}
+	{obstacleID "unbreakable"}
+	
+	{Extension "military_generator_01.mdl"}
+	
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 20}
+		{able {visible 1}}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 20}
+		{able {visible 1}{obstacle 0}}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 20}
+		{able {visible 1}{obstacle 0}}
+	}
+	{Volume "body4"
+		{Tags  "body"}
+		{Thickness 20}
+		{able {visible 1}{obstacle 0}}
+	}
+	{Volume "body5"
+		{Tags  "body"}
+		{Thickness 20}
+		{able {visible 1}{obstacle 0}}
+	}
+}

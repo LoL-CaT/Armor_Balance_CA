@@ -1,0 +1,26 @@
+;Exported by: Anna
+;Date:        Wed Apr  1 12:39:41 2020
+;File:        D:\Anna\DMS\work in progress\Models\foritfications\fortifications_sandbag_bigwall_resized.max
+{Skeleton
+	{bone "wooden_wall"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "wooden_wall.ply"}
+		{bone "fortifications_wall_big"
+			{VolumeView "fortifications_wall_big.ply"}
+		}
+	}
+}
+{Volume "body1"
+	{Box 12.9343 59.0606 46.9211}
+	{Bone "fortifications_wall_big"}
+	{Position -1.28031	0.0558393	23.4605}
+}
+{Volume "body2"
+	{Box 3.33186 61.423 45.9826}
+	{Bone "wooden_wall"}
+	{Position -9.0427	-0.429197	22.9913}
+}

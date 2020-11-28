@@ -1,0 +1,445 @@
+{game_entity
+	{Extension "tent_big_x.mdl"}	
+	
+	{Volume "body10"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {bullet 0}}
+	}
+	{Volume "body11"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body12"
+		{Tags  "body"}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body13"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body14"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body15"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body16"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body17"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body18"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body19"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body20"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body21"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body22"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body23"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body24"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body25"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body26"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body27"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body28"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body29"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {bullet 0}}
+	}
+	{Volume "body30"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body31"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body32"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body33"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body34"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body35"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body36"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body37"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body38"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body39"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {bullet 0}}
+	}
+	{Volume "body40"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body41"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body42"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body43"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body44"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body45"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body46"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body47"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body48"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body4"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {bullet 0}}
+	}
+	{Volume "body53"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body54"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body55"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {bullet 0}}
+	}
+	{Volume "body56"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {contact 0}{touch 0}{obstacle 0}}
+	}
+	{Volume "body57"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body58"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body59"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body5"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body60"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body61"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body62"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body63"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body64"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body65"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body66"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body67"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body68"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body69"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body6"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {bullet 0}}
+	}
+	{Volume "body70"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body71"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body72"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body73"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body74"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body75"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body76"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+		{material "steel"}
+	}
+	{Volume "body7"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {bullet 0}}
+	}
+	{Volume "body8"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {bullet 0}}
+	}
+	{Volume "body9"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {bullet 0}}
+	}
+	{Volume "roof1"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 0}{bullet 0}{obstacle 0}}
+	}
+	{Volume "roof2"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 0}{bullet 0}{obstacle 0}}
+	}
+	{Volume "window1"
+		{Thickness 0.2}
+		{able {visible 0}{contact}{window}}
+	}
+	{Volume "window2"
+		{Thickness 0.2}
+		{able {visible 0}{contact}{window}}
+	}
+	{Volume "window3"
+		{Thickness 0.2}
+		{able {visible 0}{contact}{window}}
+	}
+	{Volume "window4"
+		{Thickness 0.2}
+		{able {visible 0}{contact}{window}}
+	}
+}

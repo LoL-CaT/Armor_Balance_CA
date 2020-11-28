@@ -1,0 +1,23 @@
+;Exported by: Caps
+;Date:        Fri Aug 09 16:36:23 2013
+;File:        F:\!_DMS_CalltoArms\Assets\concretebarrier\3D\concretebarrier.max
+{Skeleton
+	{bone "conretebarrier"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "conretebarrier.ply"}
+	}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "conretebarrier"}
+	{Position 0	-0.0367393	5.295}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "conretebarrier"}
+	{Position 0	-0.0367399	17.0575}
+}

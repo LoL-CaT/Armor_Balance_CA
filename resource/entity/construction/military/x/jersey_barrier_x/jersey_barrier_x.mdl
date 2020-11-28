@@ -1,0 +1,48 @@
+;Exported by: caps
+;Date:        Mon Sep 14 14:03:13 2015
+;File:        D:\svn\project_2\Work\_3D\c.helling\jersey_barrier\3D_File\jersey_barrier_x.max
+{Skeleton
+	{bone "jersey_barrier_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece04"
+			{Position 0	-22.8849	10.4751}
+			{VolumeView "piece04.ply"}
+		}
+		{bone "piece01"
+			{Position 0.0412275	24.6016	11.6414}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece02"
+			{Position 0	2.21664	12.9113}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece03"
+			{Position 0	-8.88196	4.44775}
+			{VolumeView "piece03.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 5.29158 10.7546 11.1839}
+	{Bone "piece01"}
+	{Position -0.0412275	0.428802	0.132102}
+}
+{Volume "piece02"
+	{Box 5.29158 20.5413 9.05589}
+	{Bone "piece02"}
+	{Position 0	0.102584	-0.0260525}
+}
+{Volume "piece03"
+	{Polyhedron "piece03.vol"}
+	{Bone "piece03"}
+	{Position 0	0.312441	-4.4742}
+}
+{Volume "piece04"
+	{Box 6.82614 16.0222 13.6744}
+	{Bone "piece04"}
+	{Position 0	-0.992401	0.0740285}
+}

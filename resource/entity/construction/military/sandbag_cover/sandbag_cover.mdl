@@ -1,0 +1,106 @@
+;Exported by: Caspar
+;Date:        Tue Aug 14 15:56:46 2018
+;File:        H:\!_Work\9M133_Kornet\3D\Kornet_sandbags.max
+{Skeleton
+	{bone "sandbag_cover"
+		{parameters "Align;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "sandbag_cover.ply"}
+			{VolumeView "sandbag_cover_lod1.ply"}
+		}
+	}
+}
+{Obstacle "obstacle1"
+	{Obb2
+		{Center 35.1175 -6.14014e-06}
+		{Extent 10.4232 16.8646}
+		{Axis -1 1.74846e-07}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle2"
+	{Obb2
+		{Center 25.3274 -20.7246}
+		{Extent 5.837 8.09499}
+		{Axis -0.906308 0.422618}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle3"
+	{Obb2
+		{Center 26.593 19.7143}
+		{Extent 6.47907 9.06639}
+		{Axis 0.819152 0.573576}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 8.2945 21.2612 17.2422}
+	{Bone "sandbag_cover"}
+	{Matrix34
+		0.906308	0.422618	0
+		-0.422618	0.906308	0
+		0	0	1
+		24.3618	17.6947	8.62109
+	}
+}
+{Volume "body2"
+	{Box 8.2945 21.2612 17.2422}
+	{Bone "sandbag_cover"}
+	{Position 28.5493	-0.336778	8.62109}
+}
+{Volume "body3"
+	{Box 8.2945 21.2612 17.2422}
+	{Bone "sandbag_cover"}
+	{Matrix34
+		0.906308	-0.422618	0
+		0.422618	0.906308	0
+		0	0	1
+		24.8837	-17.5046	8.62109
+	}
+}
+{Volume "body4"
+	{Box 8.2945 21.2612 10.0005}
+	{Bone "sandbag_cover"}
+	{Matrix34
+		0.906308	-0.422618	0
+		0.422618	0.906308	0
+		0	0	1
+		32.8786	-13.6635	5.00024
+	}
+}
+{Volume "body5"
+	{Box 8.2945 21.2612 10.0005}
+	{Bone "sandbag_cover"}
+	{Matrix34
+		0.996195	0.087156	0
+		-0.087156	0.996195	0
+		0	0	1
+		35.163	3.88343	5.00024
+	}
+}
+{Volume "body6"
+	{Box 8.2945 11.6937 10.0005}
+	{Bone "sandbag_cover"}
+	{Matrix34
+		0.766044	0.642788	0
+		-0.642788	0.766044	0
+		0	0	1
+		29.9024	16.708	5.00024
+	}
+}
+{Volume "body7"
+	{Box 8.2945 26.4055 5.60026}
+	{Bone "sandbag_cover"}
+	{Matrix34
+		0.984808	0.173648	0
+		-0.173648	0.984808	0
+		0	0	1
+		40.7252	4.32962	2.80013
+	}
+}

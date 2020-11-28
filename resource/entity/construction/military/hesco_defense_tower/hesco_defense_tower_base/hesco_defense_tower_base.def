@@ -1,0 +1,30 @@
+{game_entity
+	(include "/properties/building.inc")
+	{Extension "hesco_defense_tower_base.mdl"}
+	{props "sand" "construction"}
+	{obstacleID "unbreakable"}
+
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body4"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body5"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Extender "land_patch"
+		{TerrainType "road" "bridge"}
+	}
+}

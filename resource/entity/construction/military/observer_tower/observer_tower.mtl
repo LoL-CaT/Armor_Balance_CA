@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/building4/observer_tower"}
+	{bump "$/building4/observer_tower_bp"}
+	{specular "$/building4/observer_tower_sp"}
+	{color "255 255 255 25"}
+	{blend test}
+}

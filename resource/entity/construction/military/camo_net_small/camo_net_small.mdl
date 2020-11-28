@@ -1,0 +1,152 @@
+;Exported by: rowen
+;Date:        Wed Nov  6 11:28:13 2019
+;File:        \\wdmycloudmirror\project_2\v.gruse\Modeling\camo_net\3D_camo_net\camo_net_large_06.max
+{Skeleton
+	{bone "camo_net_small"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "camo_net_small.ply"}
+			{VolumeView "camo_net_small_lod1.ply"}
+		}
+		{bone "detail1"
+			{LODView
+				{VolumeView "detail1.ply"}
+				{VolumeView "detail1_lod1.ply"}
+			}
+		}
+		{bone "exterior"
+			{VolumeView "exterior.ply"}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -79.6274 32.6366}
+		{Extent 0.647323 5.13081}
+		{Axis 0.309623 0.950859}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -79.1752 -28.249}
+		{Extent 3.60703 0.639736}
+		{Axis 0.358938 0.933361}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center 75.5875 -34.7496}
+		{Extent 0.676374 2.65871}
+		{Axis 0.454487 0.890753}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center 73.8548 32.0751}
+		{Extent 0.513403 5.53943}
+		{Axis 0.0182398 0.999834}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "detail1a"
+	{Obb2
+		{Center -0.497653 -34.9934}
+		{Extent 1.55178 0.681876}
+		{Axis 0.83883 0.544394}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "detail1b"
+	{Obb2
+		{Center 0.440336 42.2032}
+		{Extent 0.691737 4.66757}
+		{Axis 0.798832 0.601554}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Area "interior"
+	{Obb2
+		{Center -0.379303 0.459705}
+		{Extent 86.7551 41.2159}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 0.984252 0.984252 90.2788}
+	{Bone "camo_net_small"}
+	{Matrix34
+		0.995431	0.00301949	0.0954384
+		-0.00590288	0.999534	0.0299442
+		-0.0953035	-0.0303707	0.994985
+		-79.6274	-32.6366	40.944
+	}
+}
+{Volume "body2"
+	{Box 0.984252 0.984252 90.2788}
+	{Bone "camo_net_small"}
+	{Matrix34
+		0.999717	0.00482972	0.0232902
+		-0.00338629	0.998094	-0.0616217
+		-0.0235435	0.0615253	0.997828
+		-79.1752	28.249	40.2807
+	}
+}
+{Volume "body4"
+	{Box 0.984252 0.984252 90.2788}
+	{Bone "camo_net_small"}
+	{Matrix34
+		0.999225	0.00178494	-0.0393189
+		-0.00258558	0.99979	-0.0203214
+		0.0392743	0.0204073	0.99902
+		75.5875	34.7496	40.3345
+	}
+}
+{Volume "body5"
+	{Box 0.984252 0.984252 90.2788}
+	{Bone "camo_net_small"}
+	{Matrix34
+		0.993733	0.00389035	-0.111716
+		-0.00412909	0.99999	-0.00190583
+		0.111707	0.00235517	0.993738
+		73.8548	-32.0751	40.0961
+	}
+}
+{Volume "detail1a"
+	{Box 0.984252 0.984252 90.2788}
+	{Bone "detail1"}
+	{Matrix34
+		0.999865	0.00313757	-0.0161577
+		-0.00296752	0.99994	0.0105375
+		0.0161897	-0.0104881	0.999814
+		-0.497652	34.9934	40.3703
+	}
+}
+{Volume "detail1b"
+	{Box 0.984252 0.984252 90.2788}
+	{Bone "detail1"}
+	{Matrix34
+		0.998585	0.000595083	-0.053184
+		-0.00434118	0.997513	-0.0703489
+		0.0530098	0.0704802	0.996104
+		0.440336	-42.2032	40.791
+	}
+}
+{Volume "roof1"
+	{Box 173.993 82.6003 5.03666}
+	{Bone "exterior"}
+	{Position -0.763587	-0.514862	81.6121}
+}

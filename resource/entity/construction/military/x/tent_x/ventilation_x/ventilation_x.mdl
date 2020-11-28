@@ -1,0 +1,88 @@
+;Exported by: Anna
+;Date:        Thu Jun 13 09:53:27 2019
+;File:        G:\svn\project_2\Work\_3D\a.rotenberg\tents\tent_x_one_piece.max
+{Skeleton
+	{bone "ventilation_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ventilation_x.ply"}
+	}
+}
+{Obstacle "body15"
+	{Obb2
+		{Center 113.14 30.9824}
+		{Extent 18.1021 4.40504}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body16"
+	{Obb2
+		{Center 112.024 49.7923}
+		{Extent 15.9399 4.76639}
+		{Axis 0.951106 0.308866}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body17"
+	{Obb2
+		{Center 132.81 53.584}
+		{Extent 4.32526 10.4515}
+		{Axis 0.40727 0.913308}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Obstacle "body18"
+	{Obb2
+		{Center 146.153 36.7014}
+		{Extent 17.7165 12.4016}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+	{Rotate}
+}
+{Volume "body15"
+	{Box 35.5909 8.81008 7.12389}
+	{Bone "ventilation_x"}
+	{Matrix34
+		0.964042	0	0.265752
+		0	1	0
+		-0.265752	0	0.964042
+		113.14	-30.9824	4.93692
+	}
+}
+{Volume "body16"
+	{Box 31.2201 8.81008 7.86478}
+	{Bone "ventilation_x"}
+	{Matrix34
+		0.943627	-0.313679	-0.1057
+		0.307915	0.949021	-0.0674533
+		0.12147	0.0311042	0.992108
+		112.024	-49.7923	4.83463
+	}
+}
+{Volume "body17"
+	{Box 19.2191 7.84097 7.86478}
+	{Bone "ventilation_x"}
+	{Matrix34
+		0.862092	0.374403	0.341501
+		-0.424217	0.901823	0.0821894
+		-0.277202	-0.215725	0.936281
+		132.81	-53.584	7.30078
+	}
+}
+{Volume "body18"
+	{Box 35.4331 24.8032 17.5372}
+	{Bone "ventilation_x"}
+	{Position 146.153	-36.7014	8.76862}
+}
