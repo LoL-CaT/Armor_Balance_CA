@@ -1,0 +1,50 @@
+{textures
+	{"_Kustrin/122*;_Kustrin/34*"
+		"ground" "road"
+	}
+;	{"sand/*;*/sand*" 
+;		"ground" "sand"
+;	}
+	{"sand/*" 
+		"ground" "sand"
+	}	
+	{"town/*"
+		"ground" "road"
+	}
+	{"*/.winter/*"
+		"undef" "snow"
+	}
+	{"*/ice*"
+		"ground" "ice"
+	}	
+;	{"winter/*"
+;		"undef" "snow"
+;	}
+	{"winter/*"
+		"snow" "snow"
+	}	
+	{"*/snow*"
+		"undef" "snow"
+	}
+	{"rock/*"
+		"ground" "rock"
+	}
+;	{"grass/*;*/grass*;leaves/*"
+;		"undef" "grass"
+;	}
+	{"grass/*"
+		"ground" "grass"
+	}	
+	{"dirt/*"
+		"ground" "ground"
+	}
+	{"floor/*" 
+		"ground" "road"
+	}	
+	{"*/soil*;*/clay*;*/ground*"
+		"ground" "ground"
+	}
+	{"*/brick*;*/asfalt*"
+		"ground" "road"
+	}
+}
