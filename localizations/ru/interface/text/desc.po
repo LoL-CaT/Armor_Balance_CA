@@ -5067,6 +5067,10 @@ msgctxt "desc/entity/m24"
 msgid "m24"
 msgstr "Light Tank M24 (43 г.в.)"
 
+msgctxt "desc/entity/m41"
+msgid "m41"
+msgstr "Light Tank M41 (46+ г.в.)"
+
 
 msgctxt "desc/entity/m2T"
 msgid "m2T"
