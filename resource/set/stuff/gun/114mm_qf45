@@ -4,7 +4,7 @@
 	{reloadSound "tankgun_r04"}
 	("rechargeTime" r(5))
 
-        ("speed" s(350))
+        ("speed" s(575))
 	
 	{projectileDamage 1000}
 	("damage" a(0.1) b(0.1) c(0.1) d(0.1) e(0.1))
