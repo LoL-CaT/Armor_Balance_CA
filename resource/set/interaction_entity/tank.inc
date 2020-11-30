@@ -953,6 +953,35 @@
 (include "tank/tank_l_light.inc")
 }
 
+{"l_light_M2 tank"
+	{on blast_hit
+		{if min_energy 36
+			{impulse up 0.3 0.2 dir 1 0.2}
+			{if volume "turret"
+				{call "tear_turret"}
+			}
+		else min_energy 6
+			{impulse up 0.15 0.05 dir 0.35 0.1}
+			{if volume "turret"
+				{call "tear_turret"}
+			}
+		else min_energy  5.5
+			{impulse up 0.15 0.05 dir 0.35 0.1}
+			{call "tear_turret"}
+		 else min_energy 4.5
+			{impulse up 0.1 0.05 dir 0.3 0.1}
+			{if rand 0.99 {call "tear_turret"}}
+		 else min_energy 1.9
+		 	{ani_play "hit"}
+		}
+	}
+	{on "_explosion"
+		{blastwave c4 5 r0 2.5 r1 10}
+		{impulse up 0.5}
+	}
+(include "tank/tank_l_light_M2.inc")
+}
+
 {"light tank"
 	{on blast_hit
 		{if min_energy 36
