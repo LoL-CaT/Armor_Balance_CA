@@ -1,4 +1,4 @@
-{entity
+{game_entity ;socket
 	;© 2008 Zeke Wolff & Ngvede.
 	(include "/properties/tank.ext")
 	(include "/properties/m_tank_mobility.ext")
@@ -121,6 +121,7 @@
 			{gunner "commander"}
 			{charger "commander"}
             ("abm_mgun")
+			{basic}			
 		}
 	}
 

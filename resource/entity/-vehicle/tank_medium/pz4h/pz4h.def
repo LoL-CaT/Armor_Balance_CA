@@ -31,7 +31,7 @@
 	("armor_engine"  t(16 16 16 16))
 	("wheels_armor" args 5)	
 	("armor_mantlet" t(50))
-	("shield" args 10)
+	("shield" args 1)
 	
 	{extender "shield"
 			{on}
@@ -158,6 +158,7 @@
 			{gunner "driver"}
 			{charger "driver"}
 			("abm_mgun")
+            {basic}			
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}

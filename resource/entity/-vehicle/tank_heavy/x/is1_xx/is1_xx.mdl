@@ -295,10 +295,10 @@
 					}
 					{VolumeView "enumerator.ply"}
 				}
-				{bone socket "mgun"
+				{bone "mgun"
 					{parameters "ID=turret;"}
-					{limits 40}
-					{speed2 80}
+;					{limits 40}
+;					{speed2 80}
 					{Matrix34
 						0	-1	0
 						0	0	-1

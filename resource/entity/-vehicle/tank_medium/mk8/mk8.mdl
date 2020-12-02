@@ -361,10 +361,10 @@
 				{Position -35.4379	0.499926	18.0246}
 				{VolumeView "engine.ply"}
 			}
-			{bone socket "mgun"
-				{limits 30}
-				{speed2 80}
-				{terminator}
+			{bone "mgun"
+;				{limits 30}
+;				{speed2 80}
+;				{terminator}
 				{Matrix34
 					0	0	-1
 					0	1	0

@@ -112,8 +112,8 @@
 				{Position -13.2885	0.508844	43.307}
 				{VolumeView "cower.ply"}
 			}
-			{bone socket "mgun"
-				{limits 20}
+			{bone "mgun"
+;				{limits 20}
 				{Matrix34
 					0	0	-1
 					0	1	0

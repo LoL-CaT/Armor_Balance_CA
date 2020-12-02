@@ -297,7 +297,7 @@
 				{Position 11.5264	-25.4164	16.791}
 				{VolumeView "anten.ply"}
 			}
-;			{bone socket "mgun"
+;			{bone "mgun"
 ;				{parameters "ID=body;"}
 ;				{limits 30}
 ;				{terminator}

@@ -257,10 +257,10 @@
 					}
 				}
 			}
-			{bone socket "mgun"
-				{limits 15}
-				{speed2 80}
-				{terminator}
+			{bone "mgun"
+;				{limits 15}
+;				{speed2 80}
+;				{terminator}
 				{Matrix34
 					0	-1	0
 					0.0234249	0	-0.999726

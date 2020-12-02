@@ -333,10 +333,10 @@
 					}
 					{VolumeView "cover1.ply"}
 				}
-				{bone socket "mgun"
-					{limits 50}
-					{speed 80}
-					{terminator}
+				{bone "mgun"
+;	                {limits -15 15}
+;					{speed 80}
+;					{terminator}
 					{Matrix34
 						0.965926	0.258819	0
 						0	0	-1
@@ -445,9 +445,9 @@
 						1.76607	-0.365246	2.18071
 					}
 					{VolumeView "gun2_rot.ply"}
-					{bone socket "hull_mgun"
-						{limits 20}
-						{speed 80}
+					{bone "hull_mgun"
+;						{limits 20}
+;						{speed 80}
 						{terminator}
 						{Matrix34
 							0	0	-1

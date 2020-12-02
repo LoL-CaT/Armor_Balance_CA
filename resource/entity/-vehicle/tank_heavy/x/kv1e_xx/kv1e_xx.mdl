@@ -96,10 +96,10 @@
 					}
 					{VolumeView "cover.ply"}
 				}
-				{bone socket "mgun"
+				{bone "mgun"
 					{parameters "ID=turret;"}
-					{limits 30}
-					{speed2 80}
+;					{limits 30}
+;					{speed2 80}
 					{Matrix34
 						0	1	0
 						0	0	-1
@@ -123,10 +123,10 @@
 					{VolumeView "part1.ply"}
 				}
 			}
-			{bone socket "mgun3"
+			{bone "mgun3"
 				{parameters "ID=turret;"}
-				{limits 40}
-				{speed2 80}
+;				{limits 40}
+;				{speed2 80}
 				{Matrix34
 					0	1	0
 					0	0	-1

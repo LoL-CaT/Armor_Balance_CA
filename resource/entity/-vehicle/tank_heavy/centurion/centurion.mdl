@@ -201,9 +201,9 @@
 						26.0247	-0.0251293	8.67682
 					}
 					{VolumeView "gun_rot.ply"}
-					{bone socket "mgun1"
-						{limits 1}
-						{speed2 80}
+					{bone "mgun1"
+;						{limits 1}
+;						{speed2 80}
 						{Matrix34
 							0	0	1
 							0	-1	0

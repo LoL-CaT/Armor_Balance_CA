@@ -636,10 +636,10 @@
 						{VolumeView "engine3_35.ply"}
 					}
 				}
-				{bone socket "gun_rot16"
+				{bone "gun_rot16"
 					{parameters "ID=mgun16;"}
-					{limits 120}
-					{speed2 100}
+;					{limits 120}
+;					{speed2 100}
 					{Matrix34
 						0	1	0
 						-1	0	0
@@ -768,10 +768,10 @@
 						24.2949	-29.4234	-0.00959015
 					}
 					{VolumeView "turret.ply"}
-					{bone socket "gun_rot4"
+					{bone "gun_rot4"
 						{parameters "ID=turret;"}
-						{limits 30}
-						{speed2 80}
+;						{limits 30}
+;						{speed2 80}
 						{Position 10.7566	-11.9265	5.13124}
 						{VolumeView "gun_rot6.ply"}
 						{bone "ms2"
@@ -988,10 +988,10 @@
 						}
 						{VolumeView "turret3_in.ply"}
 					}
-					{bone socket "gun_rot5"
+					{bone "gun_rot5"
 						{parameters "ID=turret2;"}
-						{limits 30}
-						{speed2 80}
+;						{limits 30}
+;						{speed2 80}
 						{Matrix34
 							0.999977	0	-0.00675034
 							0	1	0
@@ -1061,10 +1061,10 @@
 						-2.66668	-17.0396	-12.8191
 					}
 					{VolumeView "turret3.ply"}
-					{bone socket "gun_rot6"
+					{bone "gun_rot6"
 						{parameters "ID=turret3;"}
-						{limits 30}
-						{speed2 80}
+;						{limits 30}
+;						{speed2 80}
 						{Matrix34
 							0.999977	0	-0.00675043
 							0	1	0

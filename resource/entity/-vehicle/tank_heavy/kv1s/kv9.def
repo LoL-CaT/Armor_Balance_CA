@@ -1,5 +1,5 @@
 ﻿ ;Model created by: Djakon
-{Entity
+{game_entity ;socket
 	(include "/properties/tank.ext")
 	(include "/properties/h_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))

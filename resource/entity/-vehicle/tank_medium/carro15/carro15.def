@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/tank.ext")
 	(include "/properties/m_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -66,6 +66,7 @@
 			{Barrels 2}
 			{gunner "driver"}
 			{charger "driver"}
+			{basic}			
 		}
 	}	
 	{mass 15500}
@@ -88,7 +89,7 @@
 		{limits -10 20}
 		{speed2 5}
 	}
-	{bone "foresight3"
-		{speed 0.02}
-	}
+;	{bone "foresight3"
+;		{speed 0.02}
+;	}
 }

@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/tank.ext")
 	(include "/properties/h_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
@@ -137,6 +137,7 @@
 			{gunner "driver"}
 			{charger "driver"}
 			("abm_mgun")
+			{basic}			
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}
@@ -153,6 +154,7 @@
 			{gunner "commander"}
 			{charger "commander"}
 			("abm_mgun")
+			{basic}			
 		}
 	}
 
@@ -176,11 +178,11 @@
 	{bone "turret"
 		{speed2 13} 
 	}
-	{bone "coaxial_mgun"
-		{limits 0}
-	}
-	{bone "mgun3"
-		{limits 10}
-		{speed2 80}
-	}
+;	{bone "coaxial_mgun"
+;		{limits 0}
+;	}
+;	{bone "mgun3"
+;		{limits 10}
+;		{speed2 80}
+;	}
 }

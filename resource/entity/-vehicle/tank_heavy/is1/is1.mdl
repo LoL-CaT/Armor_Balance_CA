@@ -418,8 +418,7 @@
 							}
 						}
 					}
-					{bone socket "coaxial_mgun"
-						{limits 1}
+					{bone "coaxial_mgun"
 						{Matrix34
 							0	1	0
 							0	0	-1
@@ -461,11 +460,11 @@
 						-11.9206	-7.28085	15.2624
 					}
 				}
-				{bone socket "mgun"
+				{bone "mgun"
 					{parameters "ID=turret;"}
-					{limits 15}
-					{speed2 80}
-					{terminator}
+;					{limits 15}
+;					{speed2 80}
+;					{terminator}
 					{Matrix34
 						0	-1	0
 						0	0	-1
@@ -554,9 +553,9 @@
 					3.33504	0.0818745	1.10979
 				}
 			}
-			{bone socket "mgun3"
-				{limits 25}
-				{speed2 80}
+			{bone "mgun3"
+;				{limits 25}
+;				{speed2 80}
 				{Matrix34
 					0	0	-1
 					0	-1	0

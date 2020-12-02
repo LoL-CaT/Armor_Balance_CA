@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/tank.ext")
 	(include "/properties/m_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
@@ -158,6 +158,7 @@
 			{gunner "driver"}
 			{charger "driver"}
 			("abm_mgun_heavy")
+			{basic}			
 		}
 		{place "mgun3"
 			{type "mgun_left"}
@@ -166,6 +167,7 @@
 			{gunner "commander"}
 			{charger "commander"}
 			("abm_mgun_heavy")
+			{basic}			
 		}
 	}
 
@@ -190,14 +192,14 @@
 	{bone "hull_gun_rot"
 		{limits 10 -10}
 	}
-	{bone "hull_mgun"
-		{limits 10}
-		{speed 0.06}
-	}
-	{bone "mgun"
-		{limits 22}
-		{speed 0.06}
-	}
+;	{bone "hull_mgun"
+;		{limits 10}
+;		{speed 0.06}
+;	}
+;	{bone "mgun"
+;		{limits 22}
+;		{speed 0.06}
+;	}
 	{bone "aa_rot"
 		{limits -30 30}
 		{speed 0.03}

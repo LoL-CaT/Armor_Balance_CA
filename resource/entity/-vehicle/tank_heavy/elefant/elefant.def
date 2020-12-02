@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/tank.ext")
 	(include "/properties/tank_mobilityP.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
@@ -150,8 +150,8 @@
 		{speed2 5}
 		{limits -17 17}
 	}
-	{bone "mgun"
-		{limits 10}
-		{speed2 80}
-	}
+;	{bone "mgun"
+;		{limits -17 17}
+;		{speed2 80}
+;	}
 }

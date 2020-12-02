@@ -1,4 +1,4 @@
-{Entity
+{game_entity ;socket
 	(include "/properties/tank.ext")
 	(include "/properties/h_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
@@ -132,6 +132,7 @@
 			{gunner "driver"}
 			{charger "driver"}
 			("abm_mgun")
+			{basic}			
 		}
 		{place "mgun1"
 			{type "mgun_rear"}
@@ -140,6 +141,7 @@
 			{gunner "commander"}
 			{charger "commander"}
 			("abm_mgun")
+			{basic}			
 		}
 	}
 

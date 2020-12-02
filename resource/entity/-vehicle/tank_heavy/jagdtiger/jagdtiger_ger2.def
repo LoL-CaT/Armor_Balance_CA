@@ -1,8 +1,9 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/tank.ext")
+	(include "/properties/h_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
 	{collider "tank.heavy"}
-	{props "heavy" "-turret" "vision_vehicle_maximum" "muzzle_maximum" "jagdtiger"}
+	{props "r_heavy" "-turret" "vision_vehicle_maximum" "muzzle_large"}
 	
 	{extender "enumerator"
 		{digit_folder "ger"}
@@ -11,32 +12,30 @@
 	{volume "body1"
 		{tags "body"}
 		{component "body"}
-		{thickness 80}
 	}
 	{volume "body2"
 		{tags "body"}
 		{component "body"}
-		{thickness 80}
 	}
 	{volume "body3"
 		{tags "body"}
 		{component "body"}
-		{thickness 80}
 	}
 	{volume "mantlet"
 		{tags "gun"}
 		{component "gun"}
-		{thickness 80}
+		{thickness 250}
 	}
 
-	("armor_spa_heavy" armor(250 80 80 40))
-	("armor_engine"  t(40 80 80 40))
-	("armor_mantlet" t(100))
+	("armor_elefant" body(150 80 80 40) body2(120 80 80 40) body3(250 80 80 40))
+	("armor_engine"  t(40 40 40 40))
+	("wheels_armor" args 5)	
+	("armor_mantlet" t(250))
 	
 	{Volume "mantlet"
 		{tags "gun"}
 		{component "gun"}
-		{thickness 120}
+		{thickness 250}
 	}
 	
 	{volume "mantlet"
@@ -44,13 +43,47 @@
 		{component "gun"}
 	}
 
-	("crew_4_human_extended")
+	("crew_6_human_extended")
 ;	("gunner_visible")
+
 	{sensor
 		{visor "back"
 			{bone "mgun3"}
 		}
+	        {visor "tur2_1"
+			{vision "tank_pr"}
+			{bone "visor11"}
+		}
+;	        {visor "tur2_2"
+;			{vision "tank_pr"}
+;			{bone "visor12"}
+;		}
+	        {visor "tur2_3"
+			{vision "tank_pr"}
+			{bone "visor13"}
+		}
+	        {visor "tur2_4"
+			{vision "tank_pr"}
+			{bone "visor14"}
+		}
+;	        {visor "tur2_5"
+;			{vision "tank_pr"}
+;			{bone "visor15"}
+;		}
+;	        {visor "tur2_6"
+;			{vision "tank_pr"}
+;			{bone "visor16"}
+;		}
+;	        {visor "tur2_7"
+;			{vision "tank_pr"}
+;			{bone "visor17"}
+;		}
+;	        {visor "tur2_8"
+;			{vision "tank_pr"}
+;			{bone "visor18"}
+;		}		
 	}
+	
 	;("crew_human_visible" 	place(gunner3)	door1(emit1) door2(emit2) visor(back))
 	;{placer 
 	;	{place "gunner3" {group "back"} {useVision} {visor "back"}}
@@ -86,22 +119,22 @@
 	
 	{extender "inventory"
 		{box			
-           	{item "ammo bullet128 ap" 25}
-           	{item "ammo bullet128 fg" 14}
-           	{item "ammo bullet128 apcr" 5}
-			{item "ammo mgun" 3300}
+           	{item "ammo bullet128ger ap" 28}
+           	{item "ammo bullet128ger fg" 10}
+;           {item "ammo bullet128ger apcr" 2}
+			{item "ammo mgun" 2925}
 		}
 	}
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "128mm_pak44" filled}	
-			("abm_medium")
+			{weapon "128mm_pak80" filling "ammo bullet128ger ap" 1}	
+			("abm_high")
 		}
 		{place "mgun"
 			{type "mgun_hull"}
-			{weapon "mg34" filled}
+			{weapon "mg34tank" filled}
 			{foresight "foresight3"}
 			{gunner "driver"}
 			{charger "driver"}
@@ -110,47 +143,31 @@
 		}
 	}
 
-	{mass 71700}
+	{mass 75200}
 	{Chassis
 		("tank_trace" fx("tracks_big") step(0.47) len(2.1))
-		{Locomotion ("locomotion")
-			{Maxspeed   16}
-			{maxSpeedAtMaxTurn 8}
-			{StartTime  18}
-			{BrakeTime  1.5}		
-			{StopTime   2.5}			
-			{TurnStart  2}
-			{TurnTime   17}		
-			{TurnStop   1.1}
-			{TurnRadius  14}
-			{Gears      0.1 0.5 1.0}
-			{RearGears  0.1 0.64}
-		}
-		{FuelBag
-			{volume 865 }
-			{rate	240 }
-			{remain 865 }
-			{fuel "fuel"}
-		}
-		{speed
-        	{Normal  10}
-        	{Slow  12}
-    	}
+		("mobility"
+			speed(41)
+			weight(75.2)
+			power(700)
+			fuel(860)		
+		)
 	}
+
 	{Extension "jagdtiger.mdl"}
 	
 	{bone "gun_rot"
 		{limits -7 15}
-		{speed 0.002}
+		{speed2 5}
 	}
 	{bone "gun_rot1"
-		{limits -10 10}
-		{speed 0.002}
+		{limits -11 11}
+		{speed2 5}
 	}
-	{bone "mgun"
-		{limits 10}
-		{speed2 80}
-	}
+;	{bone "mgun"
+;		{limits 10}
+;		{speed2 80}
+;	}
 }
   
 

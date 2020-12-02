@@ -82,7 +82,7 @@ actor
 	{maxElevationSpeed 10}		;m/s
 	{elevationAcceleration 4}	;m/s^2
 	(mod "mp"
-		{Altitude 34}
+		{Altitude 27.001}
 	)
 	{FuelBag
         		{volume 8000 }   ; liters

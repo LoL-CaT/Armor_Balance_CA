@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/tank.ext")
 	(include "/properties/m_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
@@ -136,6 +136,7 @@
 			{gunner "driver"}
 			{charger "driver"}
 			("abm_mgun")
+			{basic}			
 		}
 	}
 
@@ -152,16 +153,16 @@
 	
 	{Extension "m4a2_76w.mdl"}
 
-        {bone "mgun"
-            {limits 15}
-		{speed2 80}
-        }
-        {bone "foresight5"
-	    {limits 1}
-        }
-        {bone "foresight4"
-	    {limits 0}
-        }
+;        {bone "mgun"
+;            {limits 15}
+;		{speed2 80}
+;        }
+;        {bone "foresight5"
+;	    {limits 1}
+;        }
+;        {bone "foresight4"
+;	    {limits 0}
+;        }
 ;	{bone "turret_mgun"
 ;		{limits -15 15}
 ;		{speed 0.03}

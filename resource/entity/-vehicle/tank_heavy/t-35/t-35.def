@@ -1,4 +1,4 @@
-{entity		
+{game_entity ;socket	
 	(include "/properties/tank_multyturret5.ext")
 	(include "/properties/h_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))			

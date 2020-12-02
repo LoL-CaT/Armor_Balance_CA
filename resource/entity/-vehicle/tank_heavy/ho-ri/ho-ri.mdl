@@ -266,10 +266,10 @@
 						1.76607	-0.365246	2.18071
 					}
 					{VolumeView "gun2_rot.ply"}
-					{bone socket "hull_mgun"
-						{limits 10}
-						{speed 80}
-						{terminator}
+					{bone "hull_mgun"
+;						{limits 10}
+;						{speed 80}
+;						{terminator}
 						{Matrix34
 							0	0	-1
 							0	1	0

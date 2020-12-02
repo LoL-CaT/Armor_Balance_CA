@@ -1533,6 +1533,132 @@ actor
 	}
 )
 
+(define "armor_heavy_2"
+    {armor
+        {setting "track"
+            {thickness 23}
+            {durability
+                {blast
+                    {koef 9}
+                }
+                {pierce
+                    {value 2000}
+                }
+            }
+            {threshold
+                {blast
+                    {value 9}
+                }
+                {pierce
+                    {value 3000}
+                }
+            }
+            {volumes "track*"}
+            {whole_wound}
+        }
+        {setting "turret"
+            {thickness %turret}
+         
+            {durability
+                {blast
+                    {koef 2000}
+                }			
+                {pierce
+                    {koef 2000}
+                }
+            }
+        
+            {threshold
+                {blast
+                    {koef  3}
+                }
+            }
+            {volumes "turret*"}
+        }
+        {setting "gun"
+            {thickness 25}
+            {durability
+                {blast  {koef 2000}}
+                {pierce {koef 2000}}
+            }
+            {threshold
+                {blast
+                    {value 3}
+                }
+                {pierce
+                    {value 3000}
+                }
+            }
+            {volumes "gun*"}
+        }
+        {setting "body"
+            {thickness %body}
+            {durability
+                {blast
+                    {koef 4000}
+                }
+        		{pierce
+                    {koef 4000}
+                }
+            }
+            {threshold
+                {blast
+                    {koef 3}
+                }
+            }
+            {volumes "body"}
+        }
+	{setting "body1"
+            {thickness %body1}
+            {durability
+                {blast
+                    {koef 4000}
+                }
+        		{pierce
+                    {koef 4000}
+                }
+            }
+            {threshold
+                {blast
+                    {koef 3}
+                }
+            }
+            {volumes "body1"}
+        }		
+        {setting "engine"
+            {thickness 40}
+            {durability
+                {blast
+                    {koef 3000}
+                }
+        		{pierce
+                    {koef 4000}
+                }				
+            }
+            {threshold
+                {blast
+                    {koef 3000}
+                }
+        		{pierce
+                    {koef 4000}
+                }				
+            }
+            {volumes "engine*"}
+        }
+	}
+	("components_tank" repair(3))
+
+	{sensor
+		{visor "view-around"
+			{vision "none"}
+			{bone "basis"}
+		}
+		{visor "main"
+			{vision "tank_main-l"}
+		}
+	}
+)
+
 (define "armor_heavy_1"
     {armor
         {setting "track"
