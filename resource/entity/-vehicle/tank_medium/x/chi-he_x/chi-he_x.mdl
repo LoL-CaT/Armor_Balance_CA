@@ -128,10 +128,10 @@
 				}
 				{VolumeView "wheelr11.ply"}
 			}
-			{bone socket "mgun1"
+			{bone "mgun1"
 				{parameters "ID=body;"}
-				{limits 20}
-				{terminator}
+;				{limits 20}
+;				{terminator}
 				{Matrix34
 					0	0	-1
 					0	1	0

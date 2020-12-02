@@ -197,10 +197,10 @@
                 {parameters "ID=engine;"}
                 {VolumeView "engine.ply"}
             }
-            {bone socket "mg"
+            {bone "mg"
                 {parameters "ID=body;"}
-		{terminator}
-                {limits 20}
+;		        {terminator}
+;               {limits 20}
                 {Matrix34
                     0.0000 0.0000 1.0000
                     0.0000 -1.0000 0.0000

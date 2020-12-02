@@ -53,9 +53,9 @@
 				}
 				{VolumeView "engine.ply"}
 			}
-			{bone socket "mgun"
-				{limits 15}
-				{terminator}
+			{bone "mgun"
+;				{limits 15}
+;				{terminator}
 				{Matrix34
 					0	-1	0
 					0	0	-1

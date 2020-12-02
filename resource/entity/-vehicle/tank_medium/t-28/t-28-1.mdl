@@ -13,10 +13,10 @@
 				{Position 0	0	0}
 				{VolumeView "glushak.ply"}
 			}
-			{bone socket "gun_rot16"
+			{bone "gun_rot16"
 				{parameters "ID=mgun16;"}
-				{limits 120}
-				{speed2 100}
+;				{limits 120}
+;				{speed2 100}
 				{Matrix34
 					0	0	-1
 					-1	0	0

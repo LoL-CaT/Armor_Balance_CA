@@ -125,11 +125,11 @@
 				}
 				{VolumeView "driver_door.ply"}
 			}
-			{bone socket "hull_mgun"
+			{bone "hull_mgun"
 				{parameters "ID=body;"}
-				{limits 20}
-				{speed2 80}
-				{terminator}
+;				{limits 20}
+;				{speed2 80}
+;				{terminator}
 				{Matrix34
 					0	0	-1
 					0	1	0

@@ -1,5 +1,5 @@
 ;для корректной работы необходимы  props "turret2" "turret3" и tank_multyturret.ext от инженера Дена
-{entity		
+{game_entity ;socket		
 	(include "/properties/tank_multyturret3.ext")
 	(include "/properties/m_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
@@ -205,7 +205,7 @@
 			{gunner "gunner2"}
 			{charger "gunner2"}
 			("abm_mgun")	
-;			{basic}		
+			{basic}		
 		}
 		{place "mgun3" ;левый
 			{LinkBone "ms3"}
@@ -216,7 +216,7 @@
 			{gunner "gunner3"}
 			{charger "gunner3"}
 			("abm_mgun")
-;			{basic}
+			{basic}
 		}
 		{place "mgun2" ;спаренный
 			{LinkBone "ms2"}

@@ -100,10 +100,10 @@
 					}
 					{VolumeView "enumerator.ply"}
 				}
-				{bone socket "gun_rot3"
+				{bone "gun_rot3"
 					{parameters "ID=turret;"}
-					{limits 30}
-					{speed2 80}
+;					{limits 30}
+;					{speed2 80}
 					{Position 9.9778	-11.9265	5.12597}
 					{VolumeView "gun_rot6.ply"}
 					{bone "mgun2"
@@ -195,10 +195,10 @@
 						}
 					}
 				}
-				{bone socket "gun_rot4"
+				{bone "gun_rot4"
 					{parameters "ID=turret3;"}
-					{limits 30}
-					{speed2 80}
+;					{limits 30}
+;					{speed2 80}
 					{Matrix34
 						-0.999909	0	-0.0135012
 						0	-1	0
