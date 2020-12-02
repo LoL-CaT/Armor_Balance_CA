@@ -285,10 +285,10 @@
 					}
 					{VolumeView "door_front.ply"}
 				}
-				{bone socket "mgun_rot"
+				{bone "mgun_rot"
 					{parameters "id=turret;"}
-					{limits 18}
-					{speed2 80}
+;					{limits 18}
+;					{speed2 80}
 					{Matrix34
 						-0.00904961	0	-0.999959
 						0	-1	0

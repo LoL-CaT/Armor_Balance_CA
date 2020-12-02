@@ -74,6 +74,7 @@
             {gunner "commander"}
             {charger "commander"}
 			("abm_mgun")
+            {basic}			
         }
     }
 	("crew_3_human_extended")

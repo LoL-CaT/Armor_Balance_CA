@@ -74,9 +74,9 @@
 						{bone "foresight1"
 							{Position 0.449944	-0.0247691	0.66922}
 						}
-						{bone socket "foresight5"
-							{limits 30}
-							{speed2 45}
+						{bone "foresight5"
+;							{limits 30}
+;							{speed2 45}
 							{Position -7.29059	4.44974	2.54684}
 						}
 					}
@@ -303,11 +303,11 @@
 				}
 				{VolumeView "enumerator.ply"}
 			}
-			{bone socket "mgun"
+			{bone "mgun"
 				{parameters "ID=body;"}
-				{limits 30}
-				{speed2 45}
-				{terminator}
+;				{limits 30}
+;				{speed2 45}
+;				{terminator}
 				{Matrix34
 					0	0	-1
 					0	1	0

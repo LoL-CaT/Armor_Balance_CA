@@ -95,8 +95,8 @@
 					{VolumeView "part1.ply"}
 				}
 			}
-			{bone socket "mgun"
-				{limits 20}
+			{bone "mgun"
+;				{limits 20}
 				{Matrix34
 					0.965012	0	-0.262207
 					0	1	0

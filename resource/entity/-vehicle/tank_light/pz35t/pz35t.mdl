@@ -147,10 +147,10 @@
 						8.90265	4.18337	5.95343
 					}
 				}
-				{bone socket "mgun1"
+				{bone "mgun1"
 					{parameters "ID=turret;"}
-					{limits 18}
-					{speed2 80}
+;					{limits 18}
+;					{speed2 80}
 					{Matrix34
 						0.012215	0	-0.999925
 						0	1	0
@@ -377,10 +377,10 @@
 					-17.4759	42.5899	22.6193
 				}
 			}
-			{bone socket "mgun2"
+			{bone "mgun2"
 				{parameters "ID=body;"}
-				{limits 18}
-				{speed2 80}
+;				{limits 18}
+;				{speed2 80}
 				{Matrix34
 					0	-0.0122149	-0.999925
 					1	0	0

@@ -135,9 +135,9 @@
 						-0.682715	-10.52132	22.799
 					}
 				}					
-				{bone socket "mgun_rot"
+				{bone "mgun_rot"
 					{parameters "ID=turret;"}
-					{limits 15}
+;					{limits 15}
 					{Matrix34
 						0	1	0
 						0	0	1

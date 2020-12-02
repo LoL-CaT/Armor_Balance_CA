@@ -150,10 +150,10 @@
 				}
 				{VolumeView "wheell6.ply"}
 			}
-			{bone socket "mgun"
+			{bone "mgun"
 				{parameters "ID=body;"}
-				{limits 30}
-				{speed2 80}
+;				{limits 30}
+;				{speed2 80}
 				{Matrix34
 					0	1	0
 					0	0	1

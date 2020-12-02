@@ -85,8 +85,8 @@
 					{VolumeView "cover2.ply"}
 				}
 			}
-			{bone socket "mgun"
-				{limits 20}
+			{bone "mgun"
+;				{limits 20}
 				{Position 31.2879	-8.47608	2.27531}
 				{VolumeView "mgun.ply"}
 			}

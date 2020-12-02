@@ -55,8 +55,8 @@
 						}
 						{VolumeView "gun.ply"}
 					}
-					{bone socket "mgun_coaxial"
-						{limits 30}
+					{bone "mgun_coaxial"
+;						{limits 30}
 						{Matrix34
 							0	0	-1
 							0	1	0

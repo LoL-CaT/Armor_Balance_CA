@@ -1,6 +1,6 @@
 ;Exported by: Kislov_A
 ;Date:        Tue May 26 10:59:55 2009
-;File:        E:\Black\Design doc\Art\Models\Technics\Tanks\M3A1\󉩛.max
+;File:        E:\Black\Design doc\Art\Models\Technics\Tanks\M3A1\??.max
 {Skeleton
 	{animation
 		{sequence "start"}
@@ -127,10 +127,10 @@
 					}
 				}
 			}
-			{bone socket "mgun1"
+			{bone "mgun1"
 				{parameters "Id=Body;"}
-				{limits 20}
-				{speed2 80}
+;				{limits 20}
+;				{speed2 80}
 				{Matrix34
 					-0.00638592	0	-0.99998
 					0	1	0

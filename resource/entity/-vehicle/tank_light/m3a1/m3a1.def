@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -75,8 +75,8 @@
 			{weapon "browning_m19" filled}
 			{foresight "foresight3"}
 			{charger "gunner"}
-			{basic}
 			("abm_mgun")
+			{basic}			
 		}
 		{place "mgun1"
 			{type "mgun_hull"}
@@ -85,6 +85,7 @@
 			{gunner "driver"}
 			{charger "driver"}
 			("abm_mgun")
+			{basic}			
 		}
 	}
 	{mass 12900}

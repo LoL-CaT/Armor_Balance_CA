@@ -283,10 +283,10 @@
 					-55.7746	0.049894	-2.00841
 				}
 			}
-			{bone socket "mgun"
+			{bone "mgun"
 				{parameters "ID=body;"}
-				{limits 17}
-				{terminator}
+;				{limits 17}
+;				{terminator}
 				{Matrix34
 					0	0	-1
 					0	1	0

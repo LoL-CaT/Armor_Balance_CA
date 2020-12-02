@@ -194,10 +194,10 @@
 					{Position 3.54297	-8.4026	5.74152}
 					{VolumeView "cover.ply"}
 				}
-				{bone socket "mgun"
+				{bone "mgun"
 					{parameters "ID=turret;"}
-					{limits 30}
-					{terminator}
+;					{limits 30}
+;					{terminator}
 					{Matrix34
 						0	0	1
 						0	1	0
@@ -214,9 +214,9 @@
 						}
 					}
 				}
-				{bone socket "coaxial_mgun"
+				{bone "coaxial_mgun"
 					{parameters "ID=turret;"}
-					{limits 25}
+;					{limits 25}
 					{Matrix34
 						0	0	-1
 						0	1	0

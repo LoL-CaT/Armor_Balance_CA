@@ -49,8 +49,8 @@
 							{Position 27.3375	0.223113	0.449295}
 						}
 					}
-					{bone socket "mgun_coaxial"
-						{limits 20}
+					{bone "mgun_coaxial"
+;						{limits 20}
 						{Matrix34
 							1	0	0
 							0	0	-1
@@ -113,10 +113,10 @@
 					-33.0585	9.27574	14.0208
 				}
 			}
-			{bone socket "mgun"
+			{bone "mgun"
 				{parameters "ID=body;"}
-				{limits 20}
-				{terminator}
+;				{limits 20}
+;				{terminator}
 				{Matrix34
 					0	0	1
 					0	-1	0
@@ -124,7 +124,7 @@
 					31.2879	-8.47607	2.27531
 				}
 				{VolumeView "mgun.ply"}
-				{bone "foresight3"
+				{bone "foresight4"
 					{Matrix34
 						0	0	1
 						0.319845	0.94747	0

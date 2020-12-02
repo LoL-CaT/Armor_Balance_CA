@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -81,6 +81,7 @@
 			{gunner "commander"}
 			{charger "commander"}
 			("abm_mgun")
+            {basic}			
 		}
 		{place "mgun1"
 			{type "mgun_hull"}
@@ -154,8 +155,8 @@
 		{limits -30 20}
 		{speed 0.008}
 	}
-	{bone "mgun1"
-		{speed 0.03}
-	}
+;	{bone "mgun1"
+;		{speed 0.03}
+;	}
 	{texmod "2"}
 }

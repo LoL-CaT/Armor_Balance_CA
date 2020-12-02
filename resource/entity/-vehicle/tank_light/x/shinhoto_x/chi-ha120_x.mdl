@@ -143,10 +143,10 @@
 					{VolumeView "detail3.ply"}
 				}
 			}
-			{bone socket "mgun"
+			{bone "mgun"
 				{parameters "ID=body;"}
-				{limits 17}
-				{terminator}
+;				{limits 17}
+;				{terminator}
 				{Matrix34
 					0	0	-1
 					0	1	0

@@ -155,10 +155,10 @@
 				{bone "visor1"
 					{Position 9.32356	2.61054	14.4482}
 				}
-				{bone socket "mgun_rot"
+				{bone "mgun_rot"
 					{parameters "Id=turret;"}
-					{limits 20}
-					{speed2 80}
+;					{limits 20}
+;					{speed2 80}
 					{Matrix34
 						0	0	-1
 						0	1	0
@@ -332,10 +332,10 @@
 				}
 				{VolumeView "wheell6.ply"}
 			}
-			{bone socket "mgun1_rot"
+			{bone "mgun1_rot"
 				{parameters "Id=Body;"}
-				{limits 20}
-				{speed2 80}
+;				{limits 20}
+;				{speed2 80}
 				{Matrix34
 					0	0	-1
 					0	1	0

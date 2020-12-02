@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -64,14 +64,15 @@
 			{charger "gunner"}
 			("abm_low")
 		}
-		{place "mgun"
+		{place "mgun1"
 			{type "mgun_hull"}
 			{weapon "browning_m19" filled}
-			{foresight "foresight3"}
+			{foresight "foresight4"}
 			{gunner "driver"}
 			{charger "driver"}
 			("abm_mgun")
-		}
+			{basic}			
+		}		
 		{place "mgun2"
 			{type "mgun_coaxial"}
 			{weapon "browning_m19" filled}
@@ -80,7 +81,7 @@
 			{charger "commander"}
 			("abm_mgun")
 			{basic}
-		}
+		}		
 	}
 	{mass 15700}
 	{Chassis
@@ -98,17 +99,17 @@
 	{bone "turret"
 		{speed2 24}
 	}
-        {bone "mgun_coaxial"
-		{limits 1}
-        }
+;        {bone "mgun_coaxial"
+;		{limits 1}
+;        }
         {bone "gun_rot"
 		{limits -10 20}
 		{speed2 24}
         }
-        {bone "mgun"
-		{limits 15}
-                {speed2 80}
-        }
+;       {bone "mgun"
+;		{limits 15}
+;                {speed2 80}
+;        }
         
 }
 

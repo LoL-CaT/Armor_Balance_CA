@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
@@ -100,6 +100,7 @@
 			{charger "commander"}
 			{foresight "foresight5"}
 			("abm_mgun")
+            {basic}			
 		}			
 	}
 	{sensor

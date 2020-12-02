@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -63,8 +63,8 @@
 			{foresight "foresight3"}
 			{gunner "gunner"}
 			{charger "gunner"}
-			{basic}
 			("abm_mgun")
+			{basic}			
 		}
 		{place "mgun1"
             {type "mgun_hull"}
@@ -73,6 +73,7 @@
 			{gunner "driver"}
 			{charger "driver"}
 			("abm_mgun")
+			{basic}				
 		}
 	}
 
@@ -88,6 +89,7 @@
 	}
 
 	{Extension "r1_prague.mdl"}
+	
 	{bone "turret"
 		{speed2 35}
 	}

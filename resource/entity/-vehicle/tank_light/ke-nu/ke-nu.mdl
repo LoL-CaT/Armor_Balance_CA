@@ -19,10 +19,10 @@
 			{parameters "ID=body;"}
 			{Position 0.999122	-0.0870838	18.638}
 			{VolumeView "body.ply"}
-			{bone socket "mgun1"
+			{bone "mgun1"
 				{parameters "ID=body;"}
-				{limits 20}
-				{terminator}
+;				{limits 20}
+;				{terminator}
 				{Matrix34
 					0	-1	0
 					0	0	-1
@@ -270,10 +270,10 @@
 						10.682715	-20.52132	22.799	
 					}
 				}				
-				{bone socket "mgun2"
+				{bone "mgun2"
 					{parameters "ID=turret;"}
-					{limits 40}
-					{speed2 80}
+;					{limits 40}
+;					{speed2 80}
 					{terminator}
 					{Matrix34
 						-1	0	0

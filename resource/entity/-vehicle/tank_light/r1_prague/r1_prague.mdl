@@ -107,10 +107,9 @@
 				{Position 11.1639	2.23804	6.73605}
 				{VolumeView "lighter_001.ply"}
 			}
-			{bone socket "mgun_rot"
+			{bone "mgun_rot"
 				{parameters "ID=body;"}
-				{limits 18}
-				{speed2 80}
+;				{limits -10 10}
 				{Matrix34
 					0	0	-1
 					0	1	0
@@ -126,8 +125,8 @@
 						0.0852868	-0.0157011	6.95929
 					}
 					{VolumeView "mgun1.ply"}
-					{bone revolute "foresight4"
-						{limits -5 5}
+					{bone "foresight4"
+;						{limits -10 10}
 						{Matrix34
 							0.902859	-0.421011	0.0871562
 							0.422619	0.906307	0

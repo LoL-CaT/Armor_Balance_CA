@@ -126,7 +126,8 @@
 			{weapon "mg34tank" filled}
 			{gunner "commander"}
 			{charger "commander"}	
-			("abm_mgun")		
+			("abm_mgun")
+			{basic}			
 		}
 		{place "mgun1"
 			{type "f_right"}

@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -113,8 +113,8 @@
 			{foresight "Foresight3"}
 			{gunner "commander"}
 			{charger "commander"}
-			{basic}
 			("abm_mgun")
+			{basic}			
 		}
 		{ place "mgun1"
 			{type "mgun_hull"}
@@ -122,6 +122,7 @@
 			{foresight "Foresight4"}
 			{charger "driver"}
 			("abm_mgun")
+			{basic}			
 		}
 		
 	}

@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
@@ -184,9 +184,9 @@
 		{component "turret"}
 		{tags "turret"}
 	}
-	{bone "turret_mgun"
-		{limits -30 30}
-		{speed 0.03}
-		{terminator}
-	}
+;	{bone "turret_mgun"
+;		{limits -30 30}
+;		{speed 0.03}
+;		{terminator}
+;	}
 }

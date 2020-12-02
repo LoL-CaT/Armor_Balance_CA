@@ -36,7 +36,8 @@
 			{weapon "type92hmg_tank" filled}			
 			{charger "gunner"}
 			{foresight "foresight3"}
-			("abm_mgun")			
+			("abm_mgun")	
+			{basic}			
 		}
 	}
 
