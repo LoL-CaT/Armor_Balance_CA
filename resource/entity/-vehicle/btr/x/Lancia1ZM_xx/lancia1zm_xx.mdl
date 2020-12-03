@@ -120,8 +120,8 @@
             }
             {bone "mgun3"
                 {parameters "ID=body;"}
-                {limits 20}
-	{terminator}
+;                {limits 20}
+;	{terminator}
                 {Matrix34
                     0 	-1 	0
                     0 	0 	1

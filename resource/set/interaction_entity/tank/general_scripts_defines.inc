@@ -464,9 +464,13 @@
 	}
 	{on "burn_crew_mp"
 		{if rand 0.6 {kill_crew "gunner"}}
+		{if rand 0.5 {kill_crew "gunner1"}}
+		{if rand 0.5 {kill_crew "gunner2"}}		
 		{if rand 0.6 {kill_crew "charger"}}
 		{if rand 0.6 {kill_crew "commander"}}
 		{if rand 0.6 {kill_crew "driver"}}
+		{if rand 0.5 {kill_crew "driver1"}}
+		{if rand 0.5 {kill_crew "driver2"}}		
 ;///////Engineer_Den + ////////////////	
 		{if rand 0.6 {kill_crew "radist"}}
 		{if rand 0.4 {kill_crew "gunner3"}}
@@ -492,10 +496,13 @@
         {if name "blast"
             {if volume "body"
                 {if rand 0.5 {kill_crew "gunner"}}
+                {if rand 0.5 {kill_crew "gunner1"}}
+                {if rand 0.5 {kill_crew "gunner2"}}				
                 {if rand 0.5 {kill_crew "charger"}}
                 {if rand 0.5 {kill_crew "commander"}}
                 {if rand 0.5 {kill_crew "driver"}}
-                {if rand 0.5 {kill_crew "gunner2"}}
+                {if rand 0.5 {kill_crew "driver1"}}
+                {if rand 0.5 {kill_crew "driver2"}}				
 ;///////Engineer_Den + ////////////////	
 		{if rand 0.5 {kill_crew "radist"}}
 		{if rand 0.4 {kill_crew "gunner3"}}
@@ -516,9 +523,13 @@
         {if not user_control
             {if volume "body"
                 {if rand 0.1 {kill_crew "gunner"}}
+                {if rand 0.1 {kill_crew "gunner1"}}
+                {if rand 0.1 {kill_crew "gunner2"}}				
                 {if rand 0.1 {kill_crew "charger"}}
                 {if rand 0.1 {kill_crew "commander"}}
                 {if rand 0.1 {kill_crew "driver"}}
+                {if rand 0.1 {kill_crew "driver1"}}
+                {if rand 0.1 {kill_crew "driver2"}}				
 ;///////Engineer_Den + ////////////////	
 {if rand 0.1 {kill_crew "radist"}}
 {if rand 0.1 {kill_crew "gunner3"}}

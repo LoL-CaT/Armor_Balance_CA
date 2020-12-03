@@ -159,9 +159,9 @@
 
     ("crew_human_visible" place(driver) door(emit0) visor(driver))
     ("crew_human_visible" place(charger)    door(emit2) visor(main))
-    ("crew_human_visible" place(charger2)   door(emit1) visor(main))
+    ("crew_human_visible" place(driver1)   door(emit1) visor(main))
     ("crew_human_visible" place(gunner) door(emit2) visor(main))
-    ("crew_human_visible" place(gunner2) door(emit2) visor(main))	
+    ("crew_human_visible" place(gunner1) door(emit2) visor(main))	
     ("crew_human_visible" place(commander) door(emit2) visor(main))
 ;==============================================
 

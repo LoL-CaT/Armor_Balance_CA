@@ -24,7 +24,7 @@
 	("armor_engine"  t(30 30 30 30))
 	("wheels_armor" args 5)	
 
-	("crew_3_human_extended")
+	("crew_5_human_extended")
 	("crew_human" 	place(charger3)	door1(emit1) door2(emit2) visor(main))
 	("crew_human" 	place(charger4)	door1(emit1) door2(emit2) visor(main))
 	{boarder

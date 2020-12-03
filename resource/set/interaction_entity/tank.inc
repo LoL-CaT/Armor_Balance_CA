@@ -15,9 +15,12 @@
 
                         {if rand %pierce_body__kill_charger {kill_crew "charger"}}
                         {if rand %pierce_body__kill_driver {kill_crew "driver"}}
+                        {if rand %pierce_body__kill_driver1 {kill_crew "driver1"}}
+                        {if rand %pierce_body__kill_driver2 {kill_crew "driver2"}}						
                         {if rand %pierce_body__kill_gunner {kill_crew "gunner"}}
+                        {if rand %pierce_body__kill_gunner1 {kill_crew "gunner1"}}
+                        {if rand %pierce_body__kill_gunner2 {kill_crew "gunner2"}}						
                         {if rand %pierce_body__kill_commander {kill_crew "commander"}}
-                        {if rand %pierce_body__kill_gunner2 {kill_crew "gunner2"}}
 
                         {if rand %pierce_body__body_brake
                             {if work "body"
@@ -148,7 +151,11 @@
                         }
                         {if rand %pierce_turret__kill_charger {kill_crew "charger"}}
                         {if rand %pierce_turret__kill_driver {kill_crew "driver"}}
+                        {if rand %pierce_turret__kill_driver1 {kill_crew "driver1"}}	
+                        {if rand %pierce_turret__kill_driver2 {kill_crew "driver2"}}									
                         {if rand %pierce_turret__kill_gunner {kill_crew "gunner"}}
+                        {if rand %pierce_turret__kill_gunner1 {kill_crew "gunner1"}}		
+                        {if rand %pierce_turret__kill_gunner2 {kill_crew "gunner2"}}	
                         {if rand %pierce_turret__kill_commander {kill_crew "commander"}}
                         {if rand %pierce_turret__kill_gunner2 {kill_crew "gunner2"}}
 
@@ -490,6 +497,8 @@
 		{if component "turret"
 			{if not user_control
 				{if rand 0.5 {kill_crew "gunner"}}
+				{if rand 0.5 {kill_crew "gunner1"}}
+				{if rand 0.5 {kill_crew "gunner2"}}				
 				{if rand 0.5 {kill_crew "charger"}}
 				{if rand 0.5 {kill_crew "commander"}}
 ;///////Engineer_Den + ////////////////	
@@ -564,7 +573,7 @@
 	{on break
 		{if component "turret2"
 			{if not user_control
-				{if rand 0.5 {kill_crew "gunner3"}}				
+				{if rand 0.5 {kill_crew "gunner2"}}				
 			}
 			{call "update_turret2"}
 			{spawn "tank_die_particle" "Turret2"}
@@ -641,7 +650,7 @@
 	{on break
 		{if component "turret3"
 			{if not user_control
-				{if rand 0.5 {kill_crew "gunner4"}}				
+				{if rand 0.5 {kill_crew "driver1"}}				
 			}
 			{call "update_turret3"}
 			{spawn "tank_die_particle" "Turret3"}
@@ -718,8 +727,8 @@
 	{on break
 		{if component "turret4"
 			{if not user_control
-				{if rand 0.5 {kill_crew "gunner5"}}
-				{if rand 0.5 {kill_crew "charger5"}}				
+				{if rand 0.5 {kill_crew "driver2"}}
+				{if rand 0.5 {kill_crew "driver2"}}				
 			}
 			{call "update_turret4"}
 			{spawn "tank_die_particle" "Turret4"}
@@ -796,8 +805,8 @@
 	{on break
 		{if component "turret5"
 			{if not user_control
-				{if rand 0.5 {kill_crew "gunner6"}}
-				{if rand 0.5 {kill_crew "charger6"}}				
+				{if rand 0.5 {kill_crew "driver2"}}
+				{if rand 0.5 {kill_crew "driver2"}}				
 			}
 			{call "update_turret5"}
 			{spawn "tank_die_particle" "Turret5"}
@@ -1746,15 +1755,18 @@
 
                                     {if rand %pierce_body__kill_charger {kill_crew "charger"}}
                                     {if rand %pierce_body__kill_driver {kill_crew "driver"}}
+                                    {if rand %pierce_body__kill_driver1 {kill_crew "driver1"}}
+                                    {if rand %pierce_body__kill_driver2 {kill_crew "driver2"}}						
                                     {if rand %pierce_body__kill_gunner {kill_crew "gunner"}}
+                                    {if rand %pierce_body__kill_gunner1 {kill_crew "gunner1"}}
+                                    {if rand %pierce_body__kill_gunner2 {kill_crew "gunner2"}}	
                                     {if rand %pierce_body__kill_commander {kill_crew "commander"}}
-                                    {if rand %pierce_body__kill_gunner2 {kill_crew "gunner2"}}
 ;///////Engineer_Den + ////////////////	
 {if rand %pierce_body__kill_radist {kill_crew "radist"}}
 
-{if rand %pierce_body__kill_gunner3 {kill_crew "gunner3"}}
-{if rand %pierce_body__kill_gunner4 {kill_crew "gunner4"}}
-{if rand %pierce_body__kill_gunner5 {kill_crew "gunner5"}}
+{if rand %pierce_body__kill_gunner3 {kill_crew "gunner2"}}
+{if rand %pierce_body__kill_gunner4 {kill_crew "driver1"}}
+{if rand %pierce_body__kill_gunner5 {kill_crew "driver2"}}
 {if rand %pierce_body__kill_gunner6 {kill_crew "gunner6"}}
 {if rand %pierce_body__kill_charger5 {kill_crew "charger5"}}
 {if rand %pierce_body__kill_charger6 {kill_crew "charger6"}}        
@@ -1941,9 +1953,12 @@
                                     }
                                     {if rand %pierce_turret__kill_charger {kill_crew "charger"}}
                                     {if rand %pierce_turret__kill_driver {kill_crew "driver"}}
+                                    {if rand %pierce_turret__kill_driver1 {kill_crew "driver1"}}	
+                                    {if rand %pierce_turret__kill_driver2 {kill_crew "driver2"}}									
                                     {if rand %pierce_turret__kill_gunner {kill_crew "gunner"}}
+                                    {if rand %pierce_turret__kill_gunner1 {kill_crew "gunner1"}}		
+                                    {if rand %pierce_turret__kill_gunner2 {kill_crew "gunner2"}}										
                                     {if rand %pierce_turret__kill_commander {kill_crew "commander"}}
-                                    {if rand %pierce_turret__kill_gunner2 {kill_crew "gunner2"}}
 
                                     ;==============симул€ци€ контузии
                                     {if operatable
@@ -1999,7 +2014,7 @@
                                         }
                                     }
                                     
-                                    {if rand %pierce_turret2__kill_gunner3 {kill_crew "gunner3"}}
+                                    {if rand %pierce_turret2__kill_gunner3 {kill_crew "gunner2"}}
                                     
 
                                     ;==============симул€ци€ контузии
@@ -2053,7 +2068,7 @@
                                         }
                                     }
                                     
-                                    {if rand %pierce_turret3__kill_gunner4 {kill_crew "gunner4"}}
+                                    {if rand %pierce_turret3__kill_gunner4 {kill_crew "driver1"}}
                                     
 
                                     ;==============симул€ци€ контузии
@@ -2123,8 +2138,8 @@
                                             {ik_enable "turret4" 0}
                                         }
                                     }
-                                    {if rand %pierce_turret4__kill_charger5 {kill_crew "charger5"}}                                    
-                                    {if rand %pierce_turret4__kill_gunner5 {kill_crew "gunner5"}}                                    
+                                    {if rand %pierce_turret4__kill_charger5 {kill_crew "driver2"}}                                    
+                                    {if rand %pierce_turret4__kill_gunner5 {kill_crew "driver2"}}                                    
 
                                     ;==============симул€ци€ контузии
                                     {if operatable
@@ -2195,8 +2210,8 @@
                                             {ik_enable "turret5" 0}
                                         }
                                     }
-                                    {if rand %pierce_turret5__kill_charger6 {kill_crew "charger6"}}                                    
-                                    {if rand %pierce_turret5__kill_gunner6 {kill_crew "gunner6"}}                                    
+                                    {if rand %pierce_turret5__kill_charger6 {kill_crew "driver1"}}                                    
+                                    {if rand %pierce_turret5__kill_gunner6 {kill_crew "driver1"}}                                    
 
                                     ;==============симул€ци€ контузии
                                     {if operatable
@@ -2711,14 +2726,17 @@
 
                                     {if rand %pierce_body__kill_charger {kill_crew "charger"}}
                                     {if rand %pierce_body__kill_driver {kill_crew "driver"}}
+                                    {if rand %pierce_body__kill_driver1 {kill_crew "driver1"}}
+                                    {if rand %pierce_body__kill_driver2 {kill_crew "driver2"}}									
                                     {if rand %pierce_body__kill_gunner {kill_crew "gunner"}}
+                                    {if rand %pierce_body__kill_gunner1 {kill_crew "gunner1"}}
+                                    {if rand %pierce_body__kill_gunner2 {kill_crew "gunner2"}}									
                                     {if rand %pierce_body__kill_commander {kill_crew "commander"}}
-                                    {if rand %pierce_body__kill_gunner2 {kill_crew "gunner2"}}
 ;///////Engineer_Den + ////////////////	
 {if rand %pierce_body__kill_radist {kill_crew "radist"}}
 
-{if rand %pierce_body__kill_gunner3 {kill_crew "gunner3"}}
-{if rand %pierce_body__kill_gunner4 {kill_crew "gunner4"}}      
+{if rand %pierce_body__kill_gunner3 {kill_crew "gunner2"}}
+{if rand %pierce_body__kill_gunner4 {kill_crew "driver1"}}      
 
 ;///////Engineer_Den - ////////////////	
                                     {if not tagged "destroyed"
@@ -2876,9 +2894,12 @@
                                     }
                                     {if rand %pierce_turret__kill_charger {kill_crew "charger"}}
                                     {if rand %pierce_turret__kill_driver {kill_crew "driver"}}
+                                    {if rand %pierce_turret__kill_driver1 {kill_crew "driver1"}}	
+                                    {if rand %pierce_turret__kill_driver2 {kill_crew "driver2"}}									
                                     {if rand %pierce_turret__kill_gunner {kill_crew "gunner"}}
-                                    {if rand %pierce_turret__kill_commander {kill_crew "commander"}}
+                                    {if rand %pierce_turret__kill_gunner1 {kill_crew "gunner1"}}		
                                     {if rand %pierce_turret__kill_gunner2 {kill_crew "gunner2"}}
+                                    {if rand %pierce_turret__kill_commander {kill_crew "commander"}}
 
                                     ;==============симул€ци€ контузии
                                     {if operatable
@@ -2934,7 +2955,7 @@
                                         }
                                     }
                                     
-                                    {if rand %pierce_turret2__kill_gunner3 {kill_crew "gunner3"}}
+                                    {if rand %pierce_turret2__kill_gunner3 {kill_crew "gunner2"}}
                                     
 
                                     ;==============симул€ци€ контузии
@@ -2988,7 +3009,7 @@
                                         }
                                     }
                                     
-                                    {if rand %pierce_turret3__kill_gunner4 {kill_crew "gunner4"}}
+                                    {if rand %pierce_turret3__kill_gunner4 {kill_crew "driver1"}}
                                     
 
                                     ;==============симул€ци€ контузии

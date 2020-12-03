@@ -1,4 +1,4 @@
-{entity
+{game_entity 
 	(include "/properties/armoredcar.ext")
 	(include "/properties/l_car_mobility.ext")	
 	(include "/properties/selection/vehicle.inc"  scale(1.1))

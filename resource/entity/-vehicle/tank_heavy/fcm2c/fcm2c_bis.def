@@ -5,7 +5,7 @@
 	{collider "tank.heavy"}
 	{props "tank" "heavy" "turret_rotator" "vision_vehicle_maximum" "muzzle_medium"}
 	
-	{extension "crew.ext"}	
+	{extension "crew1.ext"}	
 	
 	{Volume "Gun"
 		{thickness 25}
@@ -132,14 +132,19 @@
 				{type "mgun_hull"}
 				{weapon "hotchkiss1914" filled}
 				{foresight "foresight3"}
-				{basic}
-				("abm_mgun")
+			    {gunner "gunner1"}
+			    {charger "gunner1"}	
+				("abm_mgun")	
+				{basic}				
 		}
 	  {place "mgun1"
 	    		{foresight "foresight4"}
 				{type "mgun_rear"}
 				{weapon "hotchkiss1914" filled}
+			    {gunner "gunner2"}
+			    {charger "gunner2"}	
 				("abm_mgun")
+				{basic}				
 		}
 ;	  {place "mgun2"
 ;	    		{foresight "foresight5"}

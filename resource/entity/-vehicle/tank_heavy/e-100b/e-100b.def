@@ -241,7 +241,7 @@
 
 }
 
-    ("crew_5_human")
+    ("crew_6_human")
 	
 ;	("gunner_visible")
 	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))	

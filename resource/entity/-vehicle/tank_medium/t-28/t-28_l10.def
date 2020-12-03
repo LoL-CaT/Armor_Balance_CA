@@ -50,7 +50,7 @@
 		{on}
 	}
 	{extender "enumerator"}
-	("crew_6_human")
+	("crew_7_human")
 	
 ;	("gunner_visible")
 	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))
@@ -182,8 +182,8 @@
 			{foresight "foresight4"}
 			{type "mgun_rear"}
 			{weapon "dt" filled}			
-			{gunner "charger"}
-			{charger "charger"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
 			("abm_mgun")	
 			{basic}		
 		}
@@ -202,8 +202,8 @@
 			{type "mgun_right"}
 			{weapon "dt" filled}			
 			{foresight "foresight8"}
-			{gunner "gunner2"}
-			{charger "gunner2"}
+			{gunner "driver1"}
+			{charger "driver1"}
 			("abm_mgun")	
 			{basic}		
 		}
@@ -213,8 +213,8 @@
 			{type "mgun_left"}
 			{weapon "dt" filled}			
 			{foresight "foresight6"}
-			{gunner "gunner3"}
-			{charger "gunner3"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun")
 			{basic}
 		}

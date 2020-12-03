@@ -167,8 +167,8 @@
 			{type "mgun_right"}		
 			{weapon "dt" filled}			
 			{foresight "foresight8"}
-			{gunner "gunner"}
-			{charger "gunner"}
+			{gunner "driver1"}
+			{charger "driver1"}
 			("abm_mgun")	
 			{basic}		
 		}
@@ -178,8 +178,8 @@
 			{type "mgun_left"}
 			{weapon "dt" filled}			
 			{foresight "foresight6"}
-			{gunner "gunner3"}
-			{charger "gunner3"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun")
 			{basic}
 		}

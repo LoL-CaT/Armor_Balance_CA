@@ -90,13 +90,13 @@
 			{gunner "gunner"}
 		    {charger "gunner"}
 			("abm_high")
-                }
+        }
 		{place "gun2"
 			{type "secondary_main"}
 			{weapon "75mm_kwk40_3" filling "ammo bullet75ger fg" 1}
 			{foresight "foresight2"}
-			{gunner "gunner"}
-	        {charger "gunner"}
+			{gunner "gunner1"}
+	        {charger "driver1"}
 			("abm_high")
 			{basic}
 		}

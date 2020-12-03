@@ -40,24 +40,30 @@
     ;--------------------------
         pierce_body__kill_charger(0.20)
         pierce_body__kill_gunner(0.20)
+        pierce_body__kill_gunner1(0.20)
+        pierce_body__kill_gunner2(0.20)		
+        pierce_body__kill_gunner1(0.20)
+        pierce_body__kill_gunner2(0.20)		
         pierce_body__kill_driver(0.20)
         pierce_body__kill_commander(0.20)
-        pierce_body__kill_gunner2(0.20)
 ;///////Engineer_Den+ ////////////////
-        pierce_body__kill_radist(0.15)
-        pierce_turret__kill_radist(0.15)
+        pierce_body__kill_radist(0.20)
+        pierce_turret__kill_radist(0.20)
 
-        pierce_body__kill_gunner3(0.15)
-        pierce_turret2__kill_gunner3(0.15)
-        pierce_body__kill_gunner4(0.15)		
+        pierce_body__kill_gunner3(0.20)
+        pierce_turret2__kill_gunner3(0.20)
+        pierce_body__kill_gunner4(0.20)		
         
 ;///////Engineer_Den - ////////////////			
     ;--------------------------
         pierce_turret__kill_charger(0.20)
         pierce_turret__kill_gunner(0.20)
+        pierce_turret__kill_gunner1(0.20)
+        pierce_turret__kill_gunner2(0.20)		
         pierce_turret__kill_driver(0.20)
+        pierce_turret__kill_driver1(0.20)
+        pierce_turret__kill_driver2(0.20)		
         pierce_turret__kill_commander(0.20)
-        pierce_turret__kill_gunner2(0.20)
     )
 	;///////////////////////////////////////////////////////// Heavy bullet
     ("damage_process_pierce"
@@ -99,9 +105,12 @@
     ;--------------------------
         pierce_body__kill_charger(0.20)
         pierce_body__kill_gunner(0.20)
+        pierce_body__kill_gunner1(0.20)
+        pierce_body__kill_gunner2(0.20)		
+        pierce_body__kill_gunner1(0.20)
+        pierce_body__kill_gunner2(0.20)		
         pierce_body__kill_driver(0.20)
         pierce_body__kill_commander(0.20)
-        pierce_body__kill_gunner2(0.20)
 ;///////Engineer_Den+ ////////////////
         pierce_body__kill_radist(0.20)
         pierce_turret__kill_radist(0.20)
@@ -114,9 +123,12 @@
     ;--------------------------
         pierce_turret__kill_charger(0.20)
         pierce_turret__kill_gunner(0.20)
+        pierce_turret__kill_gunner1(0.20)
+        pierce_turret__kill_gunner2(0.20)		
         pierce_turret__kill_driver(0.20)
+        pierce_turret__kill_driver1(0.20)
+        pierce_turret__kill_driver2(0.20)		
         pierce_turret__kill_commander(0.20)
-        pierce_turret__kill_gunner2(0.20)
     )	
     ;///////////////////////////////////////////////////////// Ptr bullet
    ("damage_process_pierce"
@@ -158,9 +170,12 @@
     ;--------------------------
         pierce_body__kill_charger(0.20)
         pierce_body__kill_gunner(0.20)
+        pierce_body__kill_gunner1(0.20)
+        pierce_body__kill_gunner2(0.20)		
+        pierce_body__kill_gunner1(0.20)
+        pierce_body__kill_gunner2(0.20)		
         pierce_body__kill_driver(0.20)
         pierce_body__kill_commander(0.20)
-        pierce_body__kill_gunner2(0.20)
 ;///////Engineer_Den+ ////////////////
         pierce_body__kill_radist(0.20)
         pierce_turret__kill_radist(0.20)
@@ -173,9 +188,12 @@
     ;--------------------------
         pierce_turret__kill_charger(0.20)
         pierce_turret__kill_gunner(0.20)
+        pierce_turret__kill_gunner1(0.20)
+        pierce_turret__kill_gunner2(0.20)		
         pierce_turret__kill_driver(0.20)
+        pierce_turret__kill_driver1(0.20)
+        pierce_turret__kill_driver2(0.20)		
         pierce_turret__kill_commander(0.20)
-        pierce_turret__kill_gunner2(0.20)
     )
     ;///////////////////////////////////////////////////////// Gun shells AP 14 - 19
    ("damage_process_pierce"
@@ -217,9 +235,12 @@
     ;--------------------------
         pierce_body__kill_charger(0.20)
         pierce_body__kill_gunner(0.20)
+        pierce_body__kill_gunner1(0.20)
+        pierce_body__kill_gunner2(0.20)		
+        pierce_body__kill_gunner1(0.20)
+        pierce_body__kill_gunner2(0.20)		
         pierce_body__kill_driver(0.20)
         pierce_body__kill_commander(0.20)
-        pierce_body__kill_gunner2(0.20)
 ;///////Engineer_Den+ ////////////////
         pierce_body__kill_radist(0.20)
         pierce_turret__kill_radist(0.20)
@@ -232,9 +253,12 @@
     ;--------------------------
         pierce_turret__kill_charger(0.20)
         pierce_turret__kill_gunner(0.20)
+        pierce_turret__kill_gunner1(0.20)
+        pierce_turret__kill_gunner2(0.20)		
         pierce_turret__kill_driver(0.20)
+        pierce_turret__kill_driver1(0.20)
+        pierce_turret__kill_driver2(0.20)		
         pierce_turret__kill_commander(0.20)
-        pierce_turret__kill_gunner2(0.20)
     )
     ;///////////////////////////////////////////////////////// Gun shells AP 20 - 28	
    ("damage_process_pierce"
@@ -276,9 +300,12 @@
     ;--------------------------
         pierce_body__kill_charger(0.20)
         pierce_body__kill_gunner(0.20)
+        pierce_body__kill_gunner1(0.20)
+        pierce_body__kill_gunner2(0.20)		
+        pierce_body__kill_gunner1(0.20)
+        pierce_body__kill_gunner2(0.20)		
         pierce_body__kill_driver(0.20)
         pierce_body__kill_commander(0.20)
-        pierce_body__kill_gunner2(0.20)
 ;///////Engineer_Den+ ////////////////
         pierce_body__kill_radist(0.20)
         pierce_turret__kill_radist(0.20)
@@ -291,9 +318,12 @@
     ;--------------------------
         pierce_turret__kill_charger(0.20)
         pierce_turret__kill_gunner(0.20)
+        pierce_turret__kill_gunner1(0.20)
+        pierce_turret__kill_gunner2(0.20)		
         pierce_turret__kill_driver(0.20)
+        pierce_turret__kill_driver1(0.20)
+        pierce_turret__kill_driver2(0.20)		
         pierce_turret__kill_commander(0.20)
-        pierce_turret__kill_gunner2(0.20)
     )
     ;///////////////////////////////////////////////////////// Gun shells AP 30 - 37	
    ("damage_process_pierce"
@@ -335,9 +365,12 @@
     ;--------------------------
         pierce_body__kill_charger(0.20)
         pierce_body__kill_gunner(0.20)
+        pierce_body__kill_gunner1(0.20)
+        pierce_body__kill_gunner2(0.20)		
+        pierce_body__kill_gunner1(0.20)
+        pierce_body__kill_gunner2(0.20)		
         pierce_body__kill_driver(0.20)
         pierce_body__kill_commander(0.20)
-        pierce_body__kill_gunner2(0.20)
 ;///////Engineer_Den+ ////////////////
         pierce_body__kill_radist(0.20)
         pierce_turret__kill_radist(0.20)
@@ -350,9 +383,12 @@
     ;--------------------------
         pierce_turret__kill_charger(0.20)
         pierce_turret__kill_gunner(0.20)
+        pierce_turret__kill_gunner1(0.20)
+        pierce_turret__kill_gunner2(0.20)		
         pierce_turret__kill_driver(0.20)
+        pierce_turret__kill_driver1(0.20)
+        pierce_turret__kill_driver2(0.20)		
         pierce_turret__kill_commander(0.20)
-        pierce_turret__kill_gunner2(0.20)
     )	
     ;///////////////////////////////////////////////////////// Gun shells AP 40 - 57
    ("damage_process_pierce"	
@@ -394,9 +430,12 @@
     ;--------------------------
         pierce_body__kill_charger(0.20)
         pierce_body__kill_gunner(0.20)
+        pierce_body__kill_gunner1(0.20)
+        pierce_body__kill_gunner2(0.20)		
+        pierce_body__kill_gunner1(0.20)
+        pierce_body__kill_gunner2(0.20)		
         pierce_body__kill_driver(0.20)
         pierce_body__kill_commander(0.20)
-        pierce_body__kill_gunner2(0.20)
 ;///////Engineer_Den+ ////////////////
         pierce_body__kill_radist(0.20)
         pierce_turret__kill_radist(0.20)
@@ -409,9 +448,12 @@
     ;--------------------------
         pierce_turret__kill_charger(0.20)
         pierce_turret__kill_gunner(0.20)
+        pierce_turret__kill_gunner1(0.20)
+        pierce_turret__kill_gunner2(0.20)		
         pierce_turret__kill_driver(0.20)
+        pierce_turret__kill_driver1(0.20)
+        pierce_turret__kill_driver2(0.20)		
         pierce_turret__kill_commander(0.20)
-        pierce_turret__kill_gunner2(0.20)
     )
     ;///////////////////////////////////////////////////////// Gun shells AP 70 - 77
    ("damage_process_pierce"		
@@ -453,24 +495,30 @@
     ;--------------------------
         pierce_body__kill_charger(0.95)
         pierce_body__kill_gunner(0.95)
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
         pierce_body__kill_driver(0.95)
         pierce_body__kill_commander(0.95)
-        pierce_body__kill_gunner2(0.95)
 ;///////Engineer_Den+ ////////////////
-        pierce_body__kill_radist(0.20)
-        pierce_turret__kill_radist(0.20)
+        pierce_body__kill_radist(0.95)
+        pierce_turret__kill_radist(0.95)
 
-        pierce_body__kill_gunner3(0.20)
-        pierce_turret2__kill_gunner3(0.20)
-        pierce_body__kill_gunner4(0.20)		
+        pierce_body__kill_gunner3(0.95)
+        pierce_turret2__kill_gunner3(0.95)
+        pierce_body__kill_gunner4(0.95)		
         
 ;///////Engineer_Den - ////////////////			
     ;--------------------------
         pierce_turret__kill_charger(0.95)
         pierce_turret__kill_gunner(0.95)
+        pierce_turret__kill_gunner1(0.95)
+        pierce_turret__kill_gunner2(0.95)		
         pierce_turret__kill_driver(0.95)
+        pierce_turret__kill_driver1(0.95)
+        pierce_turret__kill_driver2(0.95)		
         pierce_turret__kill_commander(0.95)
-        pierce_turret__kill_gunner2(0.95)
     )
     ;///////////////////////////////////////////////////////// Gun shells AP 80 - 95
    ("damage_process_pierce" 
@@ -512,9 +560,12 @@
     ;--------------------------
         pierce_body__kill_charger(0.95)
         pierce_body__kill_gunner(0.95)
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
         pierce_body__kill_driver(0.95)
         pierce_body__kill_commander(0.95)
-        pierce_body__kill_gunner2(0.95)
 ;///////Engineer_Den+ ////////////////
         pierce_body__kill_radist(0.95)
         pierce_turret__kill_radist(0.95)
@@ -527,9 +578,12 @@
     ;--------------------------
         pierce_turret__kill_charger(0.95)
         pierce_turret__kill_gunner(0.95)
+        pierce_turret__kill_gunner1(0.95)
+        pierce_turret__kill_gunner2(0.95)		
         pierce_turret__kill_driver(0.95)
+        pierce_turret__kill_driver1(0.95)
+        pierce_turret__kill_driver2(0.95)		
         pierce_turret__kill_commander(0.95)
-        pierce_turret__kill_gunner2(0.95)
     )	
     ;///////////////////////////////////////////////////////// Gun shells AP 100 - 107
    ("damage_process_pierce"	  
@@ -571,9 +625,12 @@
     ;--------------------------
         pierce_body__kill_charger(0.95)
         pierce_body__kill_gunner(0.95)
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
         pierce_body__kill_driver(0.95)
         pierce_body__kill_commander(0.95)
-        pierce_body__kill_gunner2(0.95)
 ;///////Engineer_Den+ ////////////////
         pierce_body__kill_radist(0.95)
         pierce_turret__kill_radist(0.95)
@@ -586,9 +643,12 @@
     ;--------------------------
         pierce_turret__kill_charger(0.95)
         pierce_turret__kill_gunner(0.95)
+        pierce_turret__kill_gunner1(0.95)
+        pierce_turret__kill_gunner2(0.95)		
         pierce_turret__kill_driver(0.95)
+        pierce_turret__kill_driver1(0.95)
+        pierce_turret__kill_driver2(0.95)		
         pierce_turret__kill_commander(0.95)
-        pierce_turret__kill_gunner2(0.95)
     )
     ;///////////////////////////////////////////////////////// Gun shells AP 120 - 130
    ("damage_process_pierce"	  
@@ -630,9 +690,12 @@
     ;--------------------------
         pierce_body__kill_charger(0.95)
         pierce_body__kill_gunner(0.95)
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
         pierce_body__kill_driver(0.95)
         pierce_body__kill_commander(0.95)
-        pierce_body__kill_gunner2(0.95)
 ;///////Engineer_Den+ ////////////////
         pierce_body__kill_radist(0.95)
         pierce_turret__kill_radist(0.95)
@@ -645,9 +708,12 @@
     ;--------------------------
         pierce_turret__kill_charger(0.95)
         pierce_turret__kill_gunner(0.95)
+        pierce_turret__kill_gunner1(0.95)
+        pierce_turret__kill_gunner2(0.95)		
         pierce_turret__kill_driver(0.95)
+        pierce_turret__kill_driver1(0.95)
+        pierce_turret__kill_driver2(0.95)		
         pierce_turret__kill_commander(0.95)
-        pierce_turret__kill_gunner2(0.95)
     )
     ;///////////////////////////////////////////////////////// Gun shells AP 149 - 155
    ("damage_process_pierce"	
@@ -689,9 +755,12 @@
     ;--------------------------
         pierce_body__kill_charger(0.95)
         pierce_body__kill_gunner(0.95)
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
         pierce_body__kill_driver(0.95)
         pierce_body__kill_commander(0.95)
-        pierce_body__kill_gunner2(0.95)
 ;///////Engineer_Den+ ////////////////
         pierce_body__kill_radist(0.95)
         pierce_turret__kill_radist(0.95)
@@ -704,9 +773,12 @@
     ;--------------------------
         pierce_turret__kill_charger(0.95)
         pierce_turret__kill_gunner(0.95)
+        pierce_turret__kill_gunner1(0.95)
+        pierce_turret__kill_gunner2(0.95)		
         pierce_turret__kill_driver(0.95)
+        pierce_turret__kill_driver1(0.95)
+        pierce_turret__kill_driver2(0.95)		
         pierce_turret__kill_commander(0.95)
-        pierce_turret__kill_gunner2(0.95)
     )
     ;///////////////////////////////////////////////////////// Gun shells AP 170 - 240
    ("damage_process_pierce"	
@@ -748,9 +820,12 @@
     ;--------------------------
         pierce_body__kill_charger(0.95)
         pierce_body__kill_gunner(0.95)
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
         pierce_body__kill_driver(0.95)
         pierce_body__kill_commander(0.95)
-        pierce_body__kill_gunner2(0.95)
 ;///////Engineer_Den+ ////////////////
         pierce_body__kill_radist(0.95)
         pierce_turret__kill_radist(0.95)
@@ -763,9 +838,12 @@
     ;--------------------------
         pierce_turret__kill_charger(0.95)
         pierce_turret__kill_gunner(0.95)
+        pierce_turret__kill_gunner1(0.95)
+        pierce_turret__kill_gunner2(0.95)		
         pierce_turret__kill_driver(0.95)
+        pierce_turret__kill_driver1(0.95)
+        pierce_turret__kill_driver2(0.95)		
         pierce_turret__kill_commander(0.95)
-        pierce_turret__kill_gunner2(0.95)
     )
     ;///////////////////////////////////////////////////////// Gun shells AP 290 - 380
    ("damage_process_pierce"	
@@ -807,9 +885,12 @@
     ;--------------------------
         pierce_body__kill_charger(0.95)
         pierce_body__kill_gunner(0.95)
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
         pierce_body__kill_driver(0.95)
         pierce_body__kill_commander(0.95)
-        pierce_body__kill_gunner2(0.95)
 ;///////Engineer_Den+ ////////////////
         pierce_body__kill_radist(0.95)
         pierce_turret__kill_radist(0.95)
@@ -822,9 +903,12 @@
     ;--------------------------
         pierce_turret__kill_charger(0.95)
         pierce_turret__kill_gunner(0.95)
+        pierce_turret__kill_gunner1(0.95)
+        pierce_turret__kill_gunner2(0.95)		
         pierce_turret__kill_driver(0.95)
+        pierce_turret__kill_driver1(0.95)
+        pierce_turret__kill_driver2(0.95)		
         pierce_turret__kill_commander(0.95)
-        pierce_turret__kill_gunner2(0.95)
     )
     ;///////////////////////////////////////////////////////// Gun shells AP 600
    ("damage_process_pierce"	
@@ -866,9 +950,12 @@
     ;--------------------------
         pierce_body__kill_charger(0.95)
         pierce_body__kill_gunner(0.95)
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
         pierce_body__kill_driver(0.95)
         pierce_body__kill_commander(0.95)
-        pierce_body__kill_gunner2(0.95)
 ;///////Engineer_Den+ ////////////////
         pierce_body__kill_radist(0.95)
         pierce_turret__kill_radist(0.95)
@@ -881,9 +968,12 @@
     ;--------------------------
         pierce_turret__kill_charger(0.95)
         pierce_turret__kill_gunner(0.95)
+        pierce_turret__kill_gunner1(0.95)
+        pierce_turret__kill_gunner2(0.95)		
         pierce_turret__kill_driver(0.95)
+        pierce_turret__kill_driver1(0.95)
+        pierce_turret__kill_driver2(0.95)		
         pierce_turret__kill_commander(0.95)
-        pierce_turret__kill_gunner2(0.95)
     )		
 	
 	
@@ -927,9 +1017,12 @@
     ;--------------------------
         pierce_body__kill_charger(0.95)
         pierce_body__kill_gunner(0.95)
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
         pierce_body__kill_driver(0.95)
         pierce_body__kill_commander(0.95)
-        pierce_body__kill_gunner2(0.95)
 ;///////Engineer_Den+ ////////////////
         pierce_body__kill_radist(0.95)
         pierce_turret__kill_radist(0.95)
@@ -942,9 +1035,12 @@
     ;--------------------------
         pierce_turret__kill_charger(0.95)
         pierce_turret__kill_gunner(0.95)
+        pierce_turret__kill_gunner1(0.95)
+        pierce_turret__kill_gunner2(0.95)		
         pierce_turret__kill_driver(0.95)
+        pierce_turret__kill_driver1(0.95)
+        pierce_turret__kill_driver2(0.95)		
         pierce_turret__kill_commander(0.95)
-        pierce_turret__kill_gunner2(0.95)
     )
     ;///////////////////////////////////////////////////////// Cumulative
    ("damage_process_pierce"
@@ -984,26 +1080,32 @@
 
     ;Probability crew die
     ;--------------------------
-        pierce_body__kill_charger(0.99)
-        pierce_body__kill_gunner(0.99)
-        pierce_body__kill_driver(0.99)
-        pierce_body__kill_commander(0.99)
-        pierce_body__kill_gunner2(0.99)
+        pierce_body__kill_charger(0.95)
+        pierce_body__kill_gunner(0.95)
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
+        pierce_body__kill_driver(0.95)
+        pierce_body__kill_commander(0.95)
 ;///////Engineer_Den+ ////////////////
-        pierce_body__kill_radist(0.99)
-        pierce_turret__kill_radist(0.99)
+        pierce_body__kill_radist(0.95)
+        pierce_turret__kill_radist(0.95)
 
-        pierce_body__kill_gunner3(0.99)
-        pierce_turret2__kill_gunner3(0.99)
-        pierce_body__kill_gunner4(0.99)		
+        pierce_body__kill_gunner3(0.95)
+        pierce_turret2__kill_gunner3(0.95)
+        pierce_body__kill_gunner4(0.95)		
         
 ;///////Engineer_Den - ////////////////			
     ;--------------------------
-        pierce_turret__kill_charger(0.99)
-        pierce_turret__kill_gunner(0.99)
-        pierce_turret__kill_driver(0.99)
-        pierce_turret__kill_commander(0.99)
-        pierce_turret__kill_gunner2(0.99)
+        pierce_turret__kill_charger(0.95)
+        pierce_turret__kill_gunner(0.95)
+        pierce_turret__kill_gunner1(0.95)
+        pierce_turret__kill_gunner2(0.95)		
+        pierce_turret__kill_driver(0.95)
+        pierce_turret__kill_driver1(0.95)
+        pierce_turret__kill_driver2(0.95)		
+        pierce_turret__kill_commander(0.95)
     )
     ;///////////////////////////////////////////////////////// Cumulative heavy 89mm+
    ("damage_process_pierce"
@@ -1043,26 +1145,32 @@
 
     ;Probability crew die
     ;--------------------------
-        pierce_body__kill_charger(0.99)
-        pierce_body__kill_gunner(0.99)
-        pierce_body__kill_driver(0.99)
-        pierce_body__kill_commander(0.99)
-        pierce_body__kill_gunner2(0.99)
+        pierce_body__kill_charger(0.95)
+        pierce_body__kill_gunner(0.95)
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
+        pierce_body__kill_driver(0.95)
+        pierce_body__kill_commander(0.95)
 ;///////Engineer_Den+ ////////////////
-        pierce_body__kill_radist(0.99)
-        pierce_turret__kill_radist(0.99)
+        pierce_body__kill_radist(0.95)
+        pierce_turret__kill_radist(0.95)
 
-        pierce_body__kill_gunner3(0.99)
-        pierce_turret2__kill_gunner3(0.99)
-        pierce_body__kill_gunner4(0.99)		
+        pierce_body__kill_gunner3(0.95)
+        pierce_turret2__kill_gunner3(0.95)
+        pierce_body__kill_gunner4(0.95)		
         
 ;///////Engineer_Den - ////////////////			
     ;--------------------------
-        pierce_turret__kill_charger(0.99)
-        pierce_turret__kill_gunner(0.99)
-        pierce_turret__kill_driver(0.99)
-        pierce_turret__kill_commander(0.99)
-        pierce_turret__kill_gunner2(0.99)
+        pierce_turret__kill_charger(0.95)
+        pierce_turret__kill_gunner(0.95)
+        pierce_turret__kill_gunner1(0.95)
+        pierce_turret__kill_gunner2(0.95)		
+        pierce_turret__kill_driver(0.95)
+        pierce_turret__kill_driver1(0.95)
+        pierce_turret__kill_driver2(0.95)		
+        pierce_turret__kill_commander(0.95)
     )	
     ;///////////////////////////////////////////////////////// Cumulative rifle granade
    ("damage_process_pierce"
@@ -1104,24 +1212,30 @@
     ;--------------------------
         pierce_body__kill_charger(0.95)
         pierce_body__kill_gunner(0.95)
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
+        pierce_body__kill_gunner1(0.95)
+        pierce_body__kill_gunner2(0.95)		
         pierce_body__kill_driver(0.95)
         pierce_body__kill_commander(0.95)
-        pierce_body__kill_gunner2(0.95)
 ;///////Engineer_Den+ ////////////////
-        pierce_body__kill_radist(0.99)
-        pierce_turret__kill_radist(0.99)
+        pierce_body__kill_radist(0.95)
+        pierce_turret__kill_radist(0.95)
 
-        pierce_body__kill_gunner3(0.99)
-        pierce_turret2__kill_gunner3(0.99)
-        pierce_body__kill_gunner4(0.99)		
+        pierce_body__kill_gunner3(0.95)
+        pierce_turret2__kill_gunner3(0.95)
+        pierce_body__kill_gunner4(0.95)		
         
 ;///////Engineer_Den - ////////////////			
     ;--------------------------
         pierce_turret__kill_charger(0.95)
         pierce_turret__kill_gunner(0.95)
+        pierce_turret__kill_gunner1(0.95)
+        pierce_turret__kill_gunner2(0.95)		
         pierce_turret__kill_driver(0.95)
+        pierce_turret__kill_driver1(0.95)
+        pierce_turret__kill_driver2(0.95)		
         pierce_turret__kill_commander(0.95)
-        pierce_turret__kill_gunner2(0.95)
     )	
 
 }; end of pierce

@@ -189,8 +189,8 @@
 		{place "gun2"
 			{weapon "45mm_20k" filling "bullet45rus ap" 1}
 			{foresight "foresight11"}	
-			{gunner "gunner5"}
-			{charger "charger5"}
+			{gunner "gunner1"}
+			{charger "driver2"}
 			("abm_low")	
 			{basic}		
 		}
@@ -198,7 +198,7 @@
 			{weapon "45mm_20k" filling "bullet45rus ap" 1}
 			{foresight "foresight12"}
 			{gunner "gunner2"}
-			{charger "charger6"}
+			{charger "driver2"}
 			("abm_low")
 			{basic}			
 		}
@@ -208,8 +208,8 @@
 			{type "mgun_right_b"}
 			{weapon "dt" filled}			
 			{foresight "foresight9"}
-			{gunner "gunner5"}
-			{charger "charger5"}
+			{gunner "driver2"}
+			{charger "driver2"}
 			("abm_mgun")	
 			{basic}			
 		}
@@ -219,8 +219,8 @@
 			{type "mgun_left_b"}
 			{weapon "dt" filled}			
 			{foresight "foresight10"}
-			{gunner "gunner2"}
-			{charger "charger6"}
+			{gunner "driver2"}
+			{charger "driver2"}
 			("abm_mgun")	
 			{basic}	
 		}
@@ -230,8 +230,8 @@
 			{type "mgun_right"}			
 			{weapon "dt" filled}
 			{foresight "foresight8"}
-			{gunner "gunner4"}
-			{charger "gunner4"}
+			{gunner "driver1"}
+			{charger "driver1"}
 			("abm_mgun")	
 			{basic}		
 		}
@@ -241,8 +241,8 @@
 			{type "mgun_left"}
 			{weapon "dt" filled}			
 			{foresight "foresight6"}
-			{gunner "gunner3"}
-			{charger "gunner3"}
+			{gunner "driver2"}
+			{charger "driver2"}
 			("abm_mgun")
 			{basic}
 		}

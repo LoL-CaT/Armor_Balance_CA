@@ -132,26 +132,37 @@
 				{type "mgun_hull"}
 				{weapon "hotchkiss1914" filled}
 				{foresight "foresight3"}
-				{basic}
+			    {gunner "driver1"}
+		   	    {charger "driver1"}		
 				("abm_mgun")
+				{basic}				
 		}
 	  {place "mgun1"
 	    		{foresight "foresight4"}
 				{type "mgun_rear"}
 				{weapon "hotchkiss1914" filled}
+			    {gunner "driver2"}
+		    	{charger "driver2"}		
 				("abm_mgun")
+				{basic}				
 		}
 	  {place "mgun2"
 	    		{foresight "foresight5"}
 				{type "mgun_left"}
 				{weapon "hotchkiss1914" filled}
-				("abm_mgun")
+			    {gunner "gunner1"}
+		    	{charger "gunner1"}
+				("abm_mgun")	
+				{basic}				
 		}				  
 	  {place "mgun3"
 	    		{foresight "foresight6"}
 				{type "mgun_right"}
 				{weapon "hotchkiss1914" filled}
-				("abm_mgun")
+		    	{gunner "gunner2"}
+			    {charger "gunner2"}	
+				("abm_mgun")	
+				{basic}				
 		}			  
 	}		
 	

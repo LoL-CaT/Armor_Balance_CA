@@ -644,7 +644,7 @@
 		}		
 		{"vision" "mp_soldier"
 		}
-		{"speed" 1.0
+		{"speed" 0.9
 		}
 		{"tank"	0.9
 		}

@@ -63,21 +63,21 @@
 )
 (define "crew_5_human"
 	("crew_4_human")
-	("crew_human" place(gunner3)	door1(emit1) door2(emit2) visor(mgsoc))
+	("crew_human" place(gunner1)	door1(emit1) door2(emit2) visor(mgsoc))
 )
 
 (define "crew_6_human"
 	("crew_4_human")
-	("crew_human" place(gunner3)	door1(emit1) door2(emit2) visor(mgsoc))
-	("crew_human" place(charger2)	door1(emit1) door2(emit2) visor(back))
+	("crew_human" place(gunner1)	door1(emit1) door2(emit2) visor(mgsoc))
+	("crew_human" place(driver1)	door1(emit1) door2(emit2) visor(back))
 )
 (define "crew_7_human"
 	("crew_6_human")
-	("crew_human" place(gunner4)	door1(emit1) door2(emit2) visor(mgsoc))
+	("crew_human" place(gunner2)	door1(emit1) door2(emit2) visor(mgsoc))
 )
 (define "crew_8_human"
 	("crew_7_human")
-	("crew_human" place(gunner5)	door1(emit1) door2(emit2) visor(mgsoc))
+	("crew_human" place(driver2)	door1(emit1) door2(emit2) visor(mgsoc))
 )
 (define "crew_2_human"
 	("crew_inside")
@@ -147,7 +147,7 @@
 	("crew_human" place(gunner)	door1(emit1) door2(emit2) visor(main))
 	("crew_human" place(charger)	door1(emit1) door2(emit2) visor(main1))
 	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(view-around))
-	("crew_human" place(gunner3)	door1(emit1) door2(emit2) visor(mgsoc))
+	("crew_human" place(gunner2)	door1(emit1) door2(emit2) visor(mgsoc))
 )
 (define "crew_6_human_extended"
 	("crew_inside")
@@ -160,61 +160,64 @@
 	}
 	("crew_human" place(gunner)	door1(emit1) door2(emit2) visor(main))
 	("crew_human" place(charger)	door1(emit1) door2(emit2) visor(back))
-	("crew_human" place(charger2)	door1(emit1) door2(emit2) visor(main1))
+	("crew_human" place(driver1)	door1(emit1) door2(emit2) visor(main1))
 	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(view-around))
-	("crew_human" place(gunner3)	door1(emit1) door2(emit2) visor(mgsoc))
+	("crew_human" place(gunner2)	door1(emit1) door2(emit2) visor(mgsoc))
 )
 ;----------------NP
 (define "crew_51_human"
 	("crew_4_human_extended")
 	{placer
-		{place "gunner2" {group "crew"} {visor "tur3"}}
+		{place "gunner1" {group "crew"} {visor "tur3"}}
 	}
 	{boarder
 		{door "emit7"}
-		{link "emit7" "gunner2" {anm "gunner3"} {forward putoff} {reverse puton}}
+		{link "emit7" "gunner1" {anm "gunner3"} {forward putoff} {reverse puton}}
 	}	
 )
 (define "crew_61_human"
 	("crew_51_human")
 	{placer
-		{place "gunner3" {group "crew"} {visor "tur2"}}
+		{place "gunner2" {group "crew"} {visor "tur2"}}
 	}
 	{boarder
 		{door "emit8"}
-		{link "emit8" "gunner3" {anm "gunner4"} {forward putoff} {reverse puton}}
+		{link "emit8" "gunner2" {anm "gunner4"} {forward putoff} {reverse puton}}
 	}	
 )
 (define "crew_10_human"
 	("crew_61_human")
 	{placer
-		{place "gunner4" {group "crew"} {visor "tur4"}};â turret4
+		{place "driver1" {group "crew"} {visor "tur4"}};â turret4
 	}
 	{boarder
 		{door "emit9"}
-		{link "emit9" "gunner4" {anm "gunner5"} {forward putoff} {reverse puton}}
+		{link "emit9" "driver1" {anm "gunner5"} {forward putoff} {reverse puton}}
 	}
 	{placer
-		{place "gunner5" {group "crew"} {visor "tur5"}};â turret5
-	}
+		{place "driver2" {group "crew"} {visor "tur5"}};â turret5
+	}	
 	{boarder
 		{door "emit10"}
-		{link "emit10" "gunner5" {anm "gunner6"} {forward putoff} {reverse puton}}
-	}
-	{placer
-		{place "charger5" {group "crew"} {visor "tur4"}};â turret4
-	}
-	{boarder
-		{door "emit9"}
-		{link "emit9" "charger5" {anm "charger5"} {forward putoff} {reverse puton}}
-	}
-	{placer
-		{place "charger6" {group "crew"} {visor "tur5"}};â turret5
-	}
-	{boarder
-		{door "emit10"}
-		{link "emit10" "charger6" {anm "charger6"} {forward putoff} {reverse puton}}
-	}
+		{link "emit10" "driver2" {anm "gunner6"} {forward putoff} {reverse puton}}
+	}	
+	
+	
+	
+;	{placer
+;		{place "charger5" {group "crew"} {visor "tur4"}};â turret4
+;	}
+;	{boarder
+;		{door "emit9"}
+;		{link "emit9" "charger5" {anm "charger5"} {forward putoff} {reverse puton}}
+;	}
+;	{placer
+;		{place "charger6" {group "crew"} {visor "tur5"}};â turret5
+;	}
+;	{boarder
+;		{door "emit10"}
+;		{link "emit10" "charger6" {anm "charger6"} {forward putoff} {reverse puton}}
+;	}
 )
 ;----------------NP
 ;----------------DCG
@@ -234,7 +237,7 @@
 	("crew_inside")
 	("crew_human" place(gunner)		door1(emit1) door2(emit2) visor(main))
 	("crew_human" place(driver)		door1(emit1) door2(emit2) visor(driver))
-	("crew_human" place(gunner3)	door1(emit1) door2(emit2) visor(driver))
+	("crew_human" place(gunner2)	door1(emit1) door2(emit2) visor(driver))
 	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(around))
 )
 (define "crew_2_human2"
@@ -246,7 +249,7 @@
 	("crew_inside")
 	("crew_human" place(gunner)		door1(emit1) door2(emit2) visor(main))
 	("crew_human" place(driver)		door1(emit1) door2(emit2) visor(driver))
-	("crew_human" place(gunner3)	door1(emit1) door2(emit2) visor(driver))
+	("crew_human" place(gunner2)	door1(emit1) door2(emit2) visor(driver))
 	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(around))
 )
 ;----------------DCG

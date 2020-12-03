@@ -127,7 +127,7 @@
 	("crew_human" place(gunner)	door1(emit1) door2(emit2) visor(main))
 	("crew_human" place(charger)	door1(emit1) door2(emit2) visor(main1))
 	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(view-around))
-	("crew_human" place(gunner3)	door1(emit1) door2(emit2) visor(mgsoc))
+	("crew_human" place(gunner2)	door1(emit1) door2(emit2) visor(mgsoc))
 )
 (define "crew_6_human_extended"
 	("crew_inside")
@@ -140,15 +140,15 @@
 	}
 	("crew_human" place(gunner)	door1(emit1) door2(emit2) visor(main))
 	("crew_human" place(charger)	door1(emit1) door2(emit2) visor(back))
-	("crew_human" place(charger2)	door1(emit1) door2(emit2) visor(main1))
+	("crew_human" place(driver1)	door1(emit1) door2(emit2) visor(main1))
 	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(view-around))
-	("crew_human" place(gunner3)	door1(emit1) door2(emit2) visor(mgsoc))
+	("crew_human" place(gunner2)	door1(emit1) door2(emit2) visor(mgsoc))
 )
 ;----------------NP
 (define "crew_51_human"
 	("crew_4_human_extended")
 	{placer
-		{place "gunner3" {group "crew"} {visor "tur3"}}
+		{place "gunner2" {group "crew"} {visor "tur3"}}
 	}
 	{boarder
 		{door "emit7"}
@@ -210,7 +210,7 @@
 	("crew_inside")
 	("crew_human" place(gunner)		door1(emit1) door2(emit2) visor(main))
 	("crew_human" place(driver)		door1(emit1) door2(emit2) visor(driver))
-	("crew_human" place(gunner3)	door1(emit1) door2(emit2) visor(main))
+	("crew_human" place(gunner2)	door1(emit1) door2(emit2) visor(main))
 	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(main))
 )
 ;--------------------------
@@ -220,7 +220,7 @@
 	("crew_human" place(gunner)		door1(emit1) door2(emit2) visor(main))
 	("crew_human" place(driver)		door1(emit1) door2(emit2) visor(driver))
 	("crew_human" place(charger)	door1(emit1) door2(emit2) visor(main))
-	("crew_human" place(gunner3)	door1(emit1) door2(emit2) visor(driver))
+	("crew_human" place(gunner2)	door1(emit1) door2(emit2) visor(driver))
 	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(main))
 )
 (define "crew_6_human_wrm"
@@ -228,7 +228,7 @@
 	("crew_human" place(gunner)		door1(emit1) door2(emit2) visor(main))
 	("crew_human" place(driver)		door1(emit1) door2(emit2) visor(driver))
 	("crew_human" place(charger)	door1(emit1) door2(emit2) visor(main))
-	("crew_human" place(gunner3)	door1(emit1) door2(emit2) visor(driver))
+	("crew_human" place(gunner2)	door1(emit1) door2(emit2) visor(driver))
 	("crew_human" place(gunner4)	door1(emit1) door2(emit2) visor(driver))
 	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(main))
 )
@@ -265,13 +265,13 @@
 )
 (define "crew_5_human_btrh2ww"
 	("crew_4_human_btrh2ww")
-	("crew_human" place(gunner3)	door1(emit1) door2(emit2) visor(mgsoc))
+	("crew_human" place(gunner1)	door1(emit1) door2(emit2) visor(mgsoc))
 )
 
 (define "crew_6_human_btrh2ww"
 	("crew_4_human_btrh2ww")
-	("crew_human" place(gunner3)	door1(emit1) door2(emit2) visor(mgsoc))
-	("crew_human" place(charger2)	door1(emit1) door2(emit2) visor(back))
+	("crew_human" place(gunner1)	door1(emit1) door2(emit2) visor(mgsoc))
+	("crew_human" place(driver1)	door1(emit1) door2(emit2) visor(back))
 )
 (define "crew_2_human_btrh2ww"
 	("crew_inside")
@@ -330,7 +330,7 @@
 	("crew_human" place(gunner)	door1(emit1) door2(emit2) visor(main))
 	("crew_human" place(charger)	door1(emit1) door2(emit2) visor(main1))
 	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(view-around))
-	("crew_human" place(gunner3)	door1(emit1) door2(emit2) visor(mgsoc))
+	("crew_human" place(gunner1)	door1(emit1) door2(emit2) visor(mgsoc))
 )
 (define "crew_6_human_extended_btrh2ww"
 	("crew_inside")
@@ -343,9 +343,9 @@
 	}
 	("crew_human" place(gunner)	door1(emit1) door2(emit2) visor(main))
 	("crew_human" place(charger)	door1(emit1) door2(emit2) visor(back))
-	("crew_human" place(charger2)	door1(emit1) door2(emit2) visor(main1))
+	("crew_human" place(driver1)	door1(emit1) door2(emit2) visor(main1))
 	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(view-around))
-	("crew_human" place(gunner3)	door1(emit1) door2(emit2) visor(mgsoc))
+	("crew_human" place(gunner1)	door1(emit1) door2(emit2) visor(mgsoc))
 )
 ;------------------------------------------------------------
 ;========= mnogobashenny zvizdec (Engineer Den) ======================
@@ -431,7 +431,7 @@
 (define "crew_5_human_pz3"
 	("crew_3_human")
 	("crew_human" place(commander) door1(emit1) door2(emit2) visor(main))
-	("crew_human" place(gunner3)	 door1(emit1) door2(emit2) visor(main))
+	("crew_human" place(gunner2)	 door1(emit1) door2(emit2) visor(main))
 )
 
 ;//////////////////////////////////////////////////////////////////////////////

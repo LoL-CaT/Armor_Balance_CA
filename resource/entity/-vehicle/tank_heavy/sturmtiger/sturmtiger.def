@@ -127,7 +127,7 @@
 			{forward	{begin	"board_sturmtiger_back"} {end "seat_driver_car"} {base "open_crew"}}
 			{reverse 	{end	"emit_sturmtiger_back"} {base "open_crew" -1}}
 		}
-		{anm "charger2"
+		{anm "driver1"
 			{forward	{begin	"board_sturmtiger_back"} {end "seat_driver_car"} {base "open_crew"}}
 			{reverse 	{end	"emit_sturmtiger_back"} {base "open_crew" -1}}
 		}
@@ -143,7 +143,7 @@
 
 	("crew_human_visible" place(driver)	door(emit1) visor(driver))
 	("crew_human_visible" place(charger)	door(emit1) visor(main))
-	("crew_human_visible" place(charger2)	door(emit1) visor(main))
+	("crew_human_visible" place(driver1)	door(emit1) visor(main))
 	("crew_human_visible" place(gunner)	door(emit1) visor(main))
 	("crew_human_visible" place(commander)	door(emit1) visor(main))
 ;==============================================
@@ -187,8 +187,8 @@
 			{type "mgun_hull"}
 			{weapon "mg34tank" filled}
 			{foresight "foresight3"} 
-			{gunner "charger2"}
-			{charger "charger2"}
+			{gunner "driver1"}
+			{charger "driver1"}
 			("abm_mgun")
 			{basic}
 		}

@@ -90,7 +90,7 @@
             }
             {bone "mg"
                 {parameters "ID=body;"}
-	{limits 20}
+;	{limits 20}
 	{terminator}
                 {Matrix34
                     0.0000 0.0000 1.0000

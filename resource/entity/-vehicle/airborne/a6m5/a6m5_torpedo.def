@@ -1,4 +1,4 @@
-{actor
+{actor ;socket
 	(include "/properties/airborne_mp.ext")
 	{PatherID  "airborne"}
 	(include "/properties/selection/airborne.inc" scale(2.0))
