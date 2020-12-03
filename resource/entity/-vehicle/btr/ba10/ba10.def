@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/armoredcar.ext")
 	(include "/properties/car_mobility.ext")	
 	(include "/properties/selection/vehicle.inc"  scale(1.0))
@@ -141,8 +141,8 @@
 			{foresight "foresight3"}
 			{gunner "commander"}
 			{charger "commander"}
-			{basic}
 			("abm_mgun")
+			{basic}			
 		}
 	{place "mgun1"
 			{type "mgun_hull"}
@@ -150,6 +150,7 @@
 			{foresight "foresight4"}
 			{charger "gunner"}
 			("abm_mgun")
+			{basic}			
 		}
 }  	
 

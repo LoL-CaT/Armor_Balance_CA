@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/armoredcar.ext")
 	(include "/properties/l_car_mobility.ext")	
 	(include "/properties/selection/vehicle.inc"  scale(1.0))
@@ -125,7 +125,7 @@
 	{bone "turret"
 		{speed2 8}
 	}
-	{bone "coaxial_mgun"
-		{limits 6}
-	}
+;	{bone "coaxial_mgun"
+;		{limits 6}
+;	}
 }

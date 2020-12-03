@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/armoredcar.ext")
 	(include "/properties/car_mobility.ext")	
 	(include "/properties/selection/vehicle.inc"  scale(1.0))
@@ -109,6 +109,7 @@
 			{gunner "commander"}
 			{charger "commander"}
 			("abm_mgun")
+			{basic}			
 		}
 	}
 	("wheel" args "wheelright1")

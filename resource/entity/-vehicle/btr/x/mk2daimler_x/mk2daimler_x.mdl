@@ -69,7 +69,7 @@
 						10.9142	-0.37165	5.51375
 					}
 					{VolumeView "gun_rot.ply"}
-					{bone socket "coaxial_mgun"
+					{bone "coaxial_mgun"
 						{parameters "ID=gun;"}
 						{limits 25}
 						{Matrix34

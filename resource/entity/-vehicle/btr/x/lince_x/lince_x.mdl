@@ -125,7 +125,7 @@
                     37.4587 -0.1544 -3.7754
                 }
             }
-            {bone socket "mg"
+            {bone "mg"
                 {parameters "ID=body;"}
 	{limits 20}
 	{terminator}

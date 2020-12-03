@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/armoredcar.ext")
 	(include "/properties/l_car_mobility.ext")	
 	(include "/properties/selection/vehicle.inc"  scale(1.0))
@@ -99,6 +99,7 @@
 			{foresight "foresight4"}
 			{charger "gunner"}
 			("abm_mgun")
+			{basic}			
 		}		
 		{place "mgun2"
 			{type "mgun_coaxial"}
@@ -106,8 +107,8 @@
 			{foresight "foresight5"}
 			{gunner "commander"}
 			{charger "commander"}
-			{basic}
 			("abm_mgun")
+			{basic}			
 		}
 	
 	}
@@ -135,13 +136,13 @@
 	{bone "turret"
 		{speed2 8}
 	}
-	{bone "coaxial_mgun"
-		{speed 0.025}
-	}
-	{bone "mgun_rear"
-		{speed 0.025}
-	}
-	{bone "mgun_rear"
-		{limits 10}
-	}
+;	{bone "coaxial_mgun"
+;		{speed 0.025}
+;	}
+;	{bone "mgun_rear"
+;		{speed 0.025}
+;	}
+;	{bone "mgun_rear"
+;		{limits 10}
+;	}
 }

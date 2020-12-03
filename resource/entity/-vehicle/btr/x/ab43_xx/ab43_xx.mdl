@@ -80,7 +80,7 @@
                 {parameters "ID=engine;"}
                 {VolumeView "engine.ply"}
             }
-            {bone socket "mgun_rear"
+            {bone "mgun_rear"
             	{parameters "ID=body;"}
                     {limits 15}
                          {Matrix34

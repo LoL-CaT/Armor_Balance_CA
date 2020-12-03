@@ -1,6 +1,6 @@
 ;http://wwiivehicles.com/italy/armored-cars/autoblindo-mitragliatrice-lancia-ansaldo-iz.asp
 
-{game_entity
+{game_entity ;socket
 	;© 2009 Zeke Wolff & Ngvede.
 	(include "/properties/armoredcar.ext")
 	(include "/properties/car_mobility.ext")	
@@ -121,6 +121,7 @@
 			{gunner "gunner3"}
 			{charger "gunner3"}
 			("abm_mgun")
+			{basic}			
 		}
 	}
 	

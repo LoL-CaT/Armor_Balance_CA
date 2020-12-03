@@ -153,7 +153,7 @@
                     {VolumeView "fiat_mg.ply"}
                 }
             }
-            {bone socket "mgun3"
+            {bone "mgun3"
                 {parameters "ID=body;"}
                 {limits 20}
 	{terminator}

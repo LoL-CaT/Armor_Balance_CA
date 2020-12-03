@@ -1,6 +1,6 @@
 {entity
 	(include "/properties/armoredcar.ext")
-	(include "/properties/car_mobility.ext")	
+	(include "/properties/l_car_mobility.ext")	
 	(include "/properties/selection/vehicle.inc"  scale(1.1))
 	{props "vehicle" "armored_car" "wheeled" "tank" "-turret" "explosion_throw_crew" "vision_vehicle_minimum"}
 	{targetClass "armoredcar" "ap fg bullet"}
@@ -122,6 +122,7 @@
 			{LinkBone "mgun"}
 			{LinkAnimation "off"}
             ("abm_mgun")
+			{basic}			
 		}
 	}
 	

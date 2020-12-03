@@ -41,7 +41,7 @@
 						{Position 10.8391	0.00174332	0.0694734}
 						{VolumeView "gun.ply"}
 					}
-					{bone socket "coaxial_mgun"
+					{bone "coaxial_mgun"
 						{parameters "ID=body;"}
 						{limits 25}
 						{Matrix34
@@ -79,7 +79,7 @@
 				}
 				{VolumeView "engine.ply"}
 			}
-			{bone socket "mgun_rear"
+			{bone "mgun_rear"
 				{parameters "ID=body;"}
 				{limits 25}
 				{Matrix34

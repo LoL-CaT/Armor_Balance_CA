@@ -138,7 +138,7 @@
 			{bone "engine"
 				{Position -19.5161	0.084829	12.399}
 			}
-			{bone socket "mgun"
+			{bone "mgun"
 				{parameters "ID=body;"}
 				{limits 30}
 				{speed2 80}

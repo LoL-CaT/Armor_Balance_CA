@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/tank_unarmed.ext")
 	(include "/properties/l_tank_mobility.ext")	
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -83,6 +83,7 @@
 			{gunner "gunner"}
 			{charger "gunner"}
 			("abm_mgun")
+			{basic}			
 		}
 	}  	
 

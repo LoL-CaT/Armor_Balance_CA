@@ -137,9 +137,9 @@
 							4.32525	0.276211	-3.92642
 						}
 						{VolumeView "mgun.ply"}
-						{bone revolute "foresight3"
-							{limits -10 10}
-							{speed 0.01}
+						{bone "foresight3"
+;							{limits -10 10}
+;							{speed 0.01}
 							{Matrix34
 								-1	0	0
 								0	0	1
@@ -207,10 +207,10 @@
 					-11.2633	19.7888	9.99474
 				}
 			}
-			{bone socket "mgun_rot"
+			{bone "mgun_rot"
 				{parameters "Id=Body;"}
-				{limits 18}
-				{speed2 80}
+;				{limits 18}
+;				{speed2 80}
 				{Matrix34
 					-0.0188055	0	-0.999823
 					0	1	0
@@ -226,8 +226,8 @@
 						0.65744	0	2.81368
 					}
 					{VolumeView "mgun1.ply"}
-					{bone revolute "foresight4"
-						{limits -15 15}
+					{bone "foresight4"
+;						{limits -15 15}
 						{Matrix34
 							1	0	0
 							0	-1	0
