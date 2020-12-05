@@ -147,7 +147,7 @@
 	("crew_human" place(gunner)	door1(emit1) door2(emit2) visor(main))
 	("crew_human" place(charger)	door1(emit1) door2(emit2) visor(main1))
 	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(view-around))
-	("crew_human" place(gunner2)	door1(emit1) door2(emit2) visor(mgsoc))
+	("crew_human" place(gunner1)	door1(emit1) door2(emit2) visor(mgsoc))
 )
 (define "crew_6_human_extended"
 	("crew_inside")
@@ -162,7 +162,7 @@
 	("crew_human" place(charger)	door1(emit1) door2(emit2) visor(back))
 	("crew_human" place(driver1)	door1(emit1) door2(emit2) visor(main1))
 	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(view-around))
-	("crew_human" place(gunner2)	door1(emit1) door2(emit2) visor(mgsoc))
+	("crew_human" place(gunner1)	door1(emit1) door2(emit2) visor(mgsoc))
 )
 ;----------------NP
 (define "crew_51_human"

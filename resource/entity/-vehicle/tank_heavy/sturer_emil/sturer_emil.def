@@ -65,7 +65,7 @@
 		{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
 	}
 	("crew_human_visible" place(commander)	door1(emit1) visor(main))
-	("crew_human" 	      place(commander2)	door1(emit1) visor(driver))
+	("crew_human" 	      place(gunner1)	door1(emit1) visor(driver))
 	("crew_human_visible" place(gunner)	door1(emit2) visor(main))
 	("crew_human_visible" place(charger) 	door1(emit0) visor(main))
 
@@ -80,6 +80,8 @@
 		{place "gun"
 			{RestoreIKAfterAim}
 			{weapon "128mm_L61" filling "bullet128ger ap"}
+		    {gunner "gunner1"}
+	        {charger "gunner1" "charger"}				
             ("abm_high")
 		}
 	}

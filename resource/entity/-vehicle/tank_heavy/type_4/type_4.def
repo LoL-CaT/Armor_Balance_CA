@@ -22,6 +22,11 @@
 	
 	("armor_engine"  t(100 100 100 100))
 	("wheels_armor" args 5)	
+	
+	("shield" args 1)
+	{extender "shield"
+		{on}
+	}	
 
 	("crew_8_human")
 	{component "shieldL1" {tags "shield"}}
@@ -136,6 +141,8 @@
 			{type "secondary_main"}			
 			{weapon "57mm_typeB_43" filled}
  			{foresight "foresight2"} 
+			{gunner "gunner1"}
+			{charger "driver1"}			
 			{basic}
         }
 
@@ -151,7 +158,10 @@
 			{type "mgun_hull"}
 			{weapon "type93hmg" filled}
 			{foresight "foresight5"}
-			("abm_mgun")		
+			{gunner "gunner2"}
+			{charger "driver2"}			
+			("abm_mgun")
+			{basic}				
 		}
 
 

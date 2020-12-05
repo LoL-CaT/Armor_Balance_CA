@@ -41,10 +41,10 @@
 	{component "shieldr2" {tags "shield"}}
 
 	
-	("crew_4_human")
+	("crew_5_human")
 	
 ;	("gunner_visible")
-	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))	
+;	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))	
 
 		{boarder
 		{anm "left"
@@ -128,9 +128,10 @@
 			{type "mgun_hull"}
 			{weapon "besa" filled}
 			{foresight "foresight4"}
-			{gunner "driver"}
-			{charger "driver"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun")
+			{basic}			
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}

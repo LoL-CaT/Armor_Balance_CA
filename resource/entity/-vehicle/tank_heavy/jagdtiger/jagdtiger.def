@@ -136,8 +136,8 @@
 			{type "mgun_hull"}
 			{weapon "mg34tank" filled}
 			{foresight "foresight3"}
-			{gunner "driver"}
-			{charger "driver"}
+			{gunner "gunner1"}
+		    {charger "driver1"}	
 			("abm_mgun")
 			{basic}
 		}

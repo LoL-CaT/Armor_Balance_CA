@@ -241,7 +241,8 @@
 	("armor_engine"  t(50 50 50 50))
 	("armor_mantlet" t(150))
 	("wheels_armor" args 5)
-	("shield" args 5)
+	
+	("shield" args 1)
 	
 	{extender "shield"
 			{on}
@@ -315,7 +316,7 @@
     ("crew_5_human")
 	
 ;	("gunner_visible")
-	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))			
+;	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))			
 
 	{extender "inventory"
 		{box
@@ -331,7 +332,7 @@
 				{RestoreIKAfterAim}
 			    {weapon "105mm_kwk46_1"  filling "ammo bullet105ger ap" 1}
 				{gunner "gunner"}
-				{charger "charger" "gunner2"}
+				{charger "charger"}
                 {foresight "foresight1"}
 				("abm_high")
 				{basic}
@@ -340,8 +341,8 @@
 			    {weapon "mg42_t" filled}	
 			    ("abm_mgun_heavy")
 			    {foresight "foresight2"}
-				{gunner "gunner"}
-				{charger "charger"}
+			    {gunner "gunner1"}
+			    {charger "gunner1"}	
 		        ("abm_mgun")
 			    {basic}
 		    }

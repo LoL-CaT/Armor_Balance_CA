@@ -52,20 +52,20 @@
 }
 
 {placer
-	{place "gunner3" {group "crew"} {visor "body1"} {visor "body1_2"}}
+	{place "gunner1" {group "crew"} {visor "body1"} {visor "body1_2"}}
 }
 {boarder
 	{door "emit1"}
-	{link "emit1" "gunner3" {anm "left"} {forward putoff} {reverse puton}}
+	{link "emit1" "gunner1" {anm "left"} {forward putoff} {reverse puton}}
 }
 
 {placer
-	{place "gunner2" {group "crew"} {linkbone "gunner2"} {turnoff {sensor} {shadow}} {openForCrush} {visor "mgun_aa"}}
+	{place "driver1" {group "crew"} {linkbone "gunner2"} {turnoff {sensor} {shadow}} {openForCrush} {visor "mgun_aa"}}
 }
 {boarder
 
 	{door "emit8"}
-	{link "emit8" "gunner2" {anm "right"} {forward putoff} {reverse puton}}
+	{link "emit8" "driver1" {anm "right"} {forward putoff} {reverse puton}}
 }
 (define "seat_human"
 	{placer

@@ -39,6 +39,7 @@
 	("armor_engine"  t(40 40 40 40))
 	("wheels_armor" args 5)	
 	("armor_mantlet" t(90))
+	
 	("shield" args 1)	
 	
 	{sensor

@@ -335,6 +335,9 @@
 	}
 	{on "fall"
 		{if not "fall"
+			{bone hide "engine_work"}
+			{stop_sound "engine_work"}
+			{stop_sound "fly"}		
 			{set "fall" 1}
 			{impulse up 0.1 com}
 			{explosive 1}
@@ -439,6 +442,7 @@
 		{able select 0}
 		{clear_inventory}
 		{call "die"}
+		{spawn "tank_die" "basis"}		
 		{add_view "aero_die" "fire" "body"}
 		{add_view "aero_die_fire" "fire" "body"}
 		{view start "fire"}

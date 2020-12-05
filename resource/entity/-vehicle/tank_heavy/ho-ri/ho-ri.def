@@ -54,7 +54,7 @@
 
 ;	("gunner_visible")
 
-	("crew_human" place(driver)	door1(emit1) door2(emit2) door3(emit3) door4(emit6) visor(driver))
+;	("crew_human" place(driver)	door1(emit1) door2(emit2) door3(emit3) door4(emit6) visor(driver))
 
 	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
 	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
@@ -83,8 +83,8 @@
 			{type "secondary_main"}
 			{weapon "37mm_type100" filled}
 			{foresight "foresight2"}
-			{gunner "driver"}
-			{charger "driver"}
+			{gunner "gunner1"}
+			{charger "driver1"}
 			{LinkBone "hull_gun"}
 			("abm_medium")
 			{basic}

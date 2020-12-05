@@ -156,6 +156,7 @@
 			{gunner "driver"}
 			{charger "driver"}
 			("abm_mgun")
+			{basic}			
 		}	
 		{place "mgun1"
 			{type "mgun_rear"}
@@ -164,6 +165,7 @@
 			{gunner "commander"}
 			{charger "commander"}
 			("abm_mgun")
+			{basic}			
 		}
 	}
 

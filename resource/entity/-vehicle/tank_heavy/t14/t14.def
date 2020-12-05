@@ -280,10 +280,10 @@
 	{component "shieldr2" {tags "shield"}}
 	{component "shieldr1" {tags "shield"}}
 
-	("crew_4_human")	
+	("crew_5_human")	
 	
 ;	("gunner_visible")
-	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))
+;	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))
 
 	;{placer 
 	;	{place "gunner2" {group "crew"} {visor "aa"}}
@@ -321,8 +321,8 @@
 			{type "mgun_hull"}
 			{weapon "browning" filled}
 			{foresight "foresight3"}
-			{gunner "driver"}
-			{charger "driver"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun_heavy")
 			{basic}
 		}

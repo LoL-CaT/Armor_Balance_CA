@@ -44,7 +44,7 @@
 	("wheels_armor" args 5)	
 	("armor_engine"  t(20 20 20 20))
 
-	("shield" args 10)
+	("shield" args 1)
 	
 	{extender "shield"
 		{on}
@@ -54,10 +54,10 @@
 	{component "shieldr1" {tags "shield"}}
 	{component "shieldr2" {tags "shield"}}
 
-	("crew_3_human")
+	("crew_4_human")
 	
 ;	("gunner_visible")
-	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))	
+;	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))	
 
 
 	{boarder

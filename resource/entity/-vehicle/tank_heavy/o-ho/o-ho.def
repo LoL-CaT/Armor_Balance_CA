@@ -134,23 +134,23 @@
 			{RestoreIKAfterAim}
 			{weapon "150mm_type96_t" filling "bullet150 fg" 1}
 			{gunner "gunner"}
-			{charger "charger" "charger2"}
+			{charger "charger"}
 			("abm_high")			
         }
 		{place "gun2"
 			{type "secondary_main"}
 			{weapon "57mm_typeB_43" filling "bullet57j ap" 1}
 			{foresight "foresight11"}
-			{gunner "gunner3"}
-			{charger "gunner3"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_medium")			
 			{basic}
 		}
 		{place "mgun"
 			{type "mgun_hull"}
 			{weapon "type93hmg" filled}
-			{gunner "gunner4"}
-			{charger "gunner4"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
 			("abm_mgun_heavy")		
 			{basic}
 		}
@@ -158,26 +158,29 @@
 			{type "mgun_rear"}
 			{weapon "type93hmg_x2" filled}
 			{foresight "foresight4"}
-			{gunner "gunner5"}
-			{charger "gunner5"}
+			{gunner "driver1"}
+			{charger "driver1"}
 			{Barrels 2}			
 			("abm_mgun_heavy")
+			{basic}			
 		}
 		{place "mgun4"
 			{type "mgun_rear"}
 			{weapon "type93hmg" filled}
 			{foresight "foresight8"}
-			{gunner "commander"}
-			{charger "commander"}
+			{gunner "driver2"}
+			{charger "driver2"}
 			("abm_mgun_heavy")
+			{basic}			
 		}
 		{place "mgun5"
 			{type "mgun_rear"}
 			{weapon "type93hmg" filled}
 			{foresight "foresight9"}
-			{gunner "commander"}
-			{charger "commander"}
+			{gunner "driver2"}
+			{charger "driver2"}
 			("abm_mgun_heavy")
+			{basic}			
 		}
 	}
 

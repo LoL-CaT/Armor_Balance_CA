@@ -23,8 +23,8 @@
 	{extender "enumerator"}
 
 	("crew_8_human")
-	("crew_human" place(gunner3) door1(emit1) door2(emit2) visor(top))
-	("crew_human" place(gunner4) door1(emit1) door2(emit2) visor(top))
+;	("crew_human" place(gunner3) door1(emit1) door2(emit2) visor(top))
+;	("crew_human" place(gunner4) door1(emit1) door2(emit2) visor(top))
 	{placer 
 		{place "commander" {visor "back"}}
 	}
@@ -240,14 +240,16 @@
 		{place "gun"
 			{RestoreIKAfterAim}
 			{weapon "150mm_type4_t" filling "ammo bullet150 fg" 1}		
+			{gunner "gunner"}
+			{charger "charger"}				
             ("abm_high")
 		}
 		{place "gun2"
 			{type "secondary_main"}
 			{Weapon "47mm_type1" filling "ammo bullet47 ap" 1}
 			{foresight "foresight11"}
-			{gunner "driver"}
-			{charger "driver"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 ;			{LinkBone "hull_gun"}
 			("abm_medium")
 			{basic}
@@ -256,8 +258,8 @@
 			{type "secondary_main"}
 			{Weapon "47mm_type1" filling "ammo bullet47 ap" 1}
 			{foresight "foresight12"}
-			{gunner "gunner3"}
-			{charger "gunner3"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
 ;			{LinkBone "hull_gun"}
 			("abm_medium")
 			{basic}			
@@ -266,17 +268,19 @@
 			{type "mgun_hull"}
 			{weapon "type93hmg" filled}
 			{foresight "foresight5"}
-			{gunner "gunner4"}
-			{charger "gunner4"}
+			{gunner "driver1"}
+			{charger "driver1"}
 			("abm_mgun_heavy")
+			{basic}				
 		}
 		{place "mgun1"
 			{type "mgun_rear"}
 			{weapon "type93hmg" filled}
 			{foresight "foresight4"}
-			{gunner "gunner4"}
-			{charger "gunner4"}
+			{gunner "driver2"}
+			{charger "driver2"}
 			("abm_mgun_heavy")
+			{basic}				
 		}
 
 	}

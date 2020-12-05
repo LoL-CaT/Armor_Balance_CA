@@ -7413,6 +7413,14 @@ msgctxt "desc/ammo/bulletdummy ap"
 msgid " "
 msgstr " "
 
+msgctxt "desc/ammo/ptr"
+msgid "AT Rtfle Ammo"
+msgstr "Патроны для ПТ ружья"
+
+msgctxt "desc/ammo/pistol"
+msgid "Pistol Ammo"
+msgstr "Пистолетные/Автоматные"
+
 msgctxt "desc/ammo/ap"
 msgid "Armor Piercing"
 msgstr "ББ"

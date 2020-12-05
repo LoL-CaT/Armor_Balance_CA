@@ -68,7 +68,7 @@
 
 
 	
-	("crew_3_human")
+	("crew_4_human")
 
 	{sensor
 		{visor "back"
@@ -134,7 +134,7 @@
 
 
 ;	("gunner_visible")
-	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))
+;	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))
 	
 	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
 	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
@@ -175,8 +175,8 @@
 			{type "mgun_coaxial"}
 			{weapon "besa" filled}
 			{foresight "foresight5"}
-			{gunner "gunner2"}
-			{charger "gunner2"}
+			{gunner "gunner"}
+			{charger "gunner"}
 			("abm_mgun")
 			{basic}
 		}
@@ -185,11 +185,13 @@
 			{type "smoke"}		
 			{weapon "6xsmokegun" filled}
 			{foresight "foresight6"}
+			{basic}			
 		}
 		{place "mgun4"
 			{type "smoke"}		
 			{weapon "6xsmokegun" filled}
 			{foresight "foresight7"}
+			{basic}			
 		}
 
 	}

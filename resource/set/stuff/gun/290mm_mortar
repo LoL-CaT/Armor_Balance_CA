@@ -4,7 +4,7 @@
 	{spreading 3}
 	("rechargeTime" r(1))
 	
-	("speed" s(175))
+	("speed" s(275))
 	
 	("caliber_howitzer")
 	{projectileDamage 40000}
@@ -16,7 +16,7 @@
 	("accuracy_medium")
 	("range_medium_avre")
 
-	{desc "290 mm «Petard» (МДС 85)"}		
+	{desc "290 mm «Petard» (МДС 130)"}		
 }
 
 

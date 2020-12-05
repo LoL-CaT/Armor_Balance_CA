@@ -316,7 +316,7 @@
 						0	0	0
 					}
 					{VolumeView "gun2.ply"}
-					{bone "foresight4"
+					{bone "foresight2"
 						{Matrix34
 							1	0	0
 							0	-1	0

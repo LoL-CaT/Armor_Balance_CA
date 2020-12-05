@@ -6,3 +6,4 @@
         {rechargeTime (/ 60 %r)}
 )
 
+	{preloaded}

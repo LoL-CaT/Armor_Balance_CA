@@ -54,12 +54,12 @@
 }
 
 {placer
-	{place "gunner2" {group "crew"} {visor "body1"} {visor "body1_2"}}
+	{place "gunner1" {group "crew"} {visor "body1"} {visor "body1_2"}}
 }
 {boarder
 
 	{door "emit6"}
-	{link "emit6" "gunner2" {anm "left"} {forward putoff} {reverse puton}}
+	{link "emit6" "gunner1" {anm "left"} {forward putoff} {reverse puton}}
 }
 (define "seat_human"
 	{placer

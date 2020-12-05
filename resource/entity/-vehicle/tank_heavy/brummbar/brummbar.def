@@ -34,7 +34,8 @@
 	("armor_mantlet" t(250))
 	("armor_engine"  t(18 18 18 18))
 	("wheels_armor" args 5)	
-	("shield" args 10)
+	
+	("shield" args 1)
 
 	{extender "shield"
 		{on}
@@ -135,8 +136,8 @@
 			{type "mgun_hull"}
 			{weapon "mg34tank" filled}
 			{foresight "foresight3"}
-			{gunner "gunner3"}
-			{charger "gunner3"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun")
 			{basic}
 		}

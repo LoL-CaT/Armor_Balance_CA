@@ -133,8 +133,8 @@
 			{type "mgun_hull"}
 			{weapon "dt" filled}
 			{foresight "foresight6"}
-			{gunner "driver"}
-			{charger "driver"}
+			{gunner "gunner1"}
+			{charger "gunner1"}	
 			("abm_mgun")
 			{basic}
 		}

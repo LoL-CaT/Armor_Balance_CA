@@ -55,10 +55,10 @@
 	}
 
 ;	("gunner_visible")
-	("crew_human" place(charger) door1(emit1) door2(emit2))
-	{placer 
-		{place "commander" {visor "back"}}
-	}
+;	("crew_human" place(charger) door1(emit1) door2(emit2))
+;	{placer 
+;		{place "commander" {visor "back"}}
+;	}
 
 	("seat_human" place(seat1) bone(seat01) door(emit5)  animation(armor))
 	("seat_human" place(seat2) bone(seat02) door(emit3)  animation(armor1))
@@ -122,8 +122,8 @@
 			{type "mgun_hull"} 
 			{weapon "mg34tank" filled}    
 			{foresight "foresight3"} 
-			{gunner "driver"}
-			{charger "driver"}
+		    {gunner "gunner1"}
+		    {charger "driver1"}
 			("abm_mgun")
 			{basic}
 		}

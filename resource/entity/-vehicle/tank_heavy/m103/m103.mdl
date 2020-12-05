@@ -166,9 +166,9 @@
 							}
 						}
 					}
-				{bone revolute "foresight5"
-					{limits -0 0}
-					{speed 0.1}
+				{bone "foresight5"
+;					{limits -0 0}
+;					{speed 0.1}
 					{Matrix34
 						1	0	0
 						0	0	1
@@ -176,9 +176,9 @@
 						12.9345	4.76531	7.4056
 					}
 				}
-				{bone revolute "foresight4"
-					{limits -0 0}
-					{speed 0.1}
+				{bone "foresight4"
+;					{limits -0 0}
+;					{speed 0.1}
 					{Matrix34
 						1	0	0
 						0	0	1

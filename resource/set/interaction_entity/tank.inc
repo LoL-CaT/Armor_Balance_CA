@@ -13883,25 +13883,25 @@
 		{link_sound "rotate_turret" 	"vehicle/turret/churchill_turret"	}
 		{link_sound "exhaust"			"vehicle/engine/churchill_up" 	}
 	}
-{on fire "gun2"
-	{spawn "proj_probe" "Foresight2" x}{spawn "dust_shot_big_3" "basis"}{spawn "tank_canon_fire_3" "Foresight2" x}{view start "flashbarrel_gun"}
-	{blastwave c4 2.5 r0 1.7 r1 5 bone "Foresight2"}{view start "smoke_add"}
-	{delay 0.16 "shell_off"	{view start "zenite_smoke"}{view pause "smoke_add"}{view pause "flashbarrel_gun"}
-	{delay 0.5 {start_sound "weapon/shot/shell"}
-{delay 0.8 {start_sound "detonation/cannons"}}{delay 1.5 {start_sound "detonation/cannons"}}{delay 2 {start_sound "detonation/cannons"}}{delay 3 {start_sound "detonation/cannons"}}{delay 3.5 {start_sound "detonation/cannons"}}
-	{spawn "shell_cannon" "box00" x scale 1.2 {impulse up 1.6 0.7 dir 1.2 0.7 cz 0.2 0.1 forward 3 0.5 com}{delay 180 0.5{hide 3}}
-	{add_view "smoke_zenit" "smoke_shell" "fx_shellsmoke"}{view start "smoke_shell"}{delay_effect 5 1 "stop"}}}
-	{delay 5 {view pause "zenite_smoke"}}}
-	{delay 0.12 {view start "smoke00"}{delay 2 1 {view pause "smoke00"}}}
-	{delay 0.12 {view start "smoke000"}{delay 6 1 {view pause "smoke000"}}}
-}
-	{on fire "gun"  overload {ani_play "fire1"}
-		{view start "smoke01"}
-		{delay 3 "smoke01"
-			{view pause "smoke01"}
-		}{spawn "tank_canon_fire_small" "Foresight1" x}{spawn "dust_shot_big_3" "basis"}
-		{delay 0.12 {view start "smoke01"}{delay 5 1 {view pause "smoke01"}}}
-	}
+;{on fire "gun2"
+;	{spawn "proj_probe" "Foresight2" x}{spawn "dust_shot_big_3" "basis"}{spawn "tank_canon_fire_3" "Foresight2" x}{view start "flashbarrel_gun"}
+;	{blastwave c4 2.5 r0 1.7 r1 5 bone "Foresight2"}{view start "smoke_add"}
+;	{delay 0.16 "shell_off"	{view start "zenite_smoke"}{view pause "smoke_add"}{view pause "flashbarrel_gun"}
+;	{delay 0.5 {start_sound "weapon/shot/shell"}
+;{delay 0.8 {start_sound "detonation/cannons"}}{delay 1.5 {start_sound "detonation/cannons"}}{delay 2 {start_sound "detonation/cannons"}}{delay 3 {start_sound "detonation/cannons"}}{delay 3.5 {start_sound "detonation/cannons"}}
+;	{spawn "shell_cannon" "box00" x scale 1.2 {impulse up 1.6 0.7 dir 1.2 0.7 cz 0.2 0.1 forward 3 0.5 com}{delay 180 0.5{hide 3}}
+;	{add_view "smoke_zenit" "smoke_shell" "fx_shellsmoke"}{view start "smoke_shell"}{delay_effect 5 1 "stop"}}}
+;	{delay 5 {view pause "zenite_smoke"}}}
+;	{delay 0.12 {view start "smoke00"}{delay 2 1 {view pause "smoke00"}}}
+;	{delay 0.12 {view start "smoke000"}{delay 6 1 {view pause "smoke000"}}}
+;}
+;	{on fire "gun"  overload {ani_play "fire1"}
+;		{view start "smoke01"}
+;		{delay 3 "smoke01"
+;			{view pause "smoke01"}
+;		}{spawn "tank_canon_fire_small" "Foresight1" x}{spawn "dust_shot_big_3" "basis"}
+;		{delay 0.12 {view start "smoke01"}{delay 5 1 {view pause "smoke01"}}}
+;	}
 
 {on "init_gun" overload
 	{add_view "we_smoke"		"smoke00"		"Foresight2"}
@@ -13935,25 +13935,25 @@
 		{link_sound "rotate_turret" 	"vehicle/turret/churchill_turret"	}
 		{link_sound "exhaust"			"vehicle/engine/churchill_up" 	}
 	}
-{on fire "gun2"
-	{spawn "proj_probe" "Foresight2" x}{spawn "dust_shot_big_3" "basis"}{spawn "tank_canon_fire_3" "Foresight2" x}{view start "flashbarrel_gun"}
-	{blastwave c4 2.5 r0 1.7 r1 5 bone "Foresight2"}{view start "smoke_add"}
-	{delay 0.16 "shell_off"	{view start "zenite_smoke"}{view pause "smoke_add"}{view pause "flashbarrel_gun"}
-	{delay 0.5 {start_sound "weapon/shot/shell"}
-{delay 0.8 {start_sound "detonation/cannons"}}{delay 1.5 {start_sound "detonation/cannons"}}{delay 2 {start_sound "detonation/cannons"}}{delay 3 {start_sound "detonation/cannons"}}{delay 3.5 {start_sound "detonation/cannons"}}
-	{spawn "shell_cannon" "box00" x scale 1.2 {impulse up 1.6 0.7 dir 1.2 0.7 cz 0.2 0.1 forward 3 0.5 com}{delay 180 0.5{hide 3}}
-	{add_view "smoke_zenit" "smoke_shell" "fx_shellsmoke"}{view start "smoke_shell"}{delay_effect 5 1 "stop"}}}
-	{delay 5 {view pause "zenite_smoke"}}}
-	{delay 0.12 {view start "smoke00"}{delay 2 1 {view pause "smoke00"}}}
-	{delay 0.12 {view start "smoke000"}{delay 6 1 {view pause "smoke000"}}}
-}
-	{on fire "gun"  overload {ani_play "fire1"}
-		{view start "smoke01"}
-		{delay 3 "smoke01"
-			{view pause "smoke01"}
-		}{spawn "tank_canon_fire_small" "Foresight1" x}{spawn "dust_shot_big_3" "basis"}
-		{delay 0.12 {view start "smoke01"}{delay 5 1 {view pause "smoke01"}}}
-	}
+;{on fire "gun2"
+;	{spawn "proj_probe" "Foresight2" x}{spawn "dust_shot_big_3" "basis"}{spawn "tank_canon_fire_3" "Foresight2" x}{view start "flashbarrel_gun"}
+;	{blastwave c4 2.5 r0 1.7 r1 5 bone "Foresight2"}{view start "smoke_add"}
+;	{delay 0.16 "shell_off"	{view start "zenite_smoke"}{view pause "smoke_add"}{view pause "flashbarrel_gun"}
+;	{delay 0.5 {start_sound "weapon/shot/shell"}
+;{delay 0.8 {start_sound "detonation/cannons"}}{delay 1.5 {start_sound "detonation/cannons"}}{delay 2 {start_sound "detonation/cannons"}}{delay 3 {start_sound "detonation/cannons"}}{delay 3.5 {start_sound "detonation/cannons"}}
+;	{spawn "shell_cannon" "box00" x scale 1.2 {impulse up 1.6 0.7 dir 1.2 0.7 cz 0.2 0.1 forward 3 0.5 com}{delay 180 0.5{hide 3}}
+;	{add_view "smoke_zenit" "smoke_shell" "fx_shellsmoke"}{view start "smoke_shell"}{delay_effect 5 1 "stop"}}}
+;	{delay 5 {view pause "zenite_smoke"}}}
+;	{delay 0.12 {view start "smoke00"}{delay 2 1 {view pause "smoke00"}}}
+;	{delay 0.12 {view start "smoke000"}{delay 6 1 {view pause "smoke000"}}}
+;}
+;	{on fire "gun"  overload {ani_play "fire1"}
+;		{view start "smoke01"}
+;		{delay 3 "smoke01"
+;			{view pause "smoke01"}
+;		}{spawn "tank_canon_fire_small" "Foresight1" x}{spawn "dust_shot_big_3" "basis"}
+;		{delay 0.12 {view start "smoke01"}{delay 5 1 {view pause "smoke01"}}}
+;	}
 
 {on "init_gun" overload
 	{add_view "we_smoke"		"smoke00"		"Foresight2"}

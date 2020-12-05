@@ -85,10 +85,10 @@
         }
     }
 
-	("crew_5_human")
+	("crew_6_human")
 	
 ;	("gunner_visible")
-	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))
+;	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))
 	
 	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
 	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor1))
@@ -186,9 +186,10 @@
 			{type "mgun_hull"}
 			{weapon "browning_m19" filled}			
 			{foresight "foresight4"}
-			{gunner "driver"}
-			{charger "driver"}
+			{gunner "gunner1"}
+			{charger "driver1"}
 			("abm_mgun")
+			{basic}			
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}

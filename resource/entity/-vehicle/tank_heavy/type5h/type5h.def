@@ -102,8 +102,8 @@
 
 	("crew_8_human")
 	
-	("crew_human" place(gunner3) door1(emit1) door2(emit2) visor(top))
-	("crew_human" place(charger3) door1(emit1) door2(emit2) visor(top))
+;	("crew_human" place(gunner3) door1(emit1) door2(emit2) visor(top))
+;	("crew_human" place(charger3) door1(emit1) door2(emit2) visor(top))
 
 	{boarder
 		{anm "left"
@@ -187,7 +187,7 @@
 			{RestoreIKAfterAim}
 			{weapon "140mm_type3" filling "bullet140 ap" 1}
 			{gunner "gunner"}
-			{charger "charger" "charger2"}			
+			{charger "charger"}			
 			("abm_high")
 			{basic}				
 		}
@@ -195,8 +195,8 @@
 			{RestoreIKAfterAim}		
 			{type "secondary_main"}
 			{weapon "57mm_typeB_43" filled}
-			{gunner "gunner5"}
-			{charger "gunner5"}
+			{gunner "gunner1"}
+			{charger "driver1"}	
 			{foresight "foresight2"}
 			("abm_mgun_heavy")			
 			{basic}
@@ -205,8 +205,8 @@
 			{type "mgun_coaxial"}
 			{weapon "type93hmg" filled}
 			{foresight "foresight3"}
-			{gunner "gunner3"}
-			{charger "gunner3"}
+			{gunner "gunner"}
+			{charger "gunner"}
 			("abm_mgun_heavy")
 			{basic}
 		}
@@ -214,9 +214,10 @@
 			{type "mgun_hull"}
 			{weapon "type93hmg" filled}
 			{foresight "foresight5"}
-			{gunner "gunner4"}
-			{charger "gunner4"}
+			{gunner "gunner2"}
+			{charger "driver2"}	
 			("abm_mgun_heavy")
+			{basic}			
 		}
 	}
 	

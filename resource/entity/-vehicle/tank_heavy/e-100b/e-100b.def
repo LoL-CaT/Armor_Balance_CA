@@ -210,13 +210,13 @@
 
 
 
-	("armor_heavy1_shit" turret(280 185 150 80) body(200 305 150 80))
+	("armor_heavy1_shit" turret(280 185 150 80) body(200 185 150 80))
 	("armor_mantlet" t(300))
 	("armor_engine"  t(80 80 80 80))
 	("wheels_armor" args 5)	
 
 
-	("shield" args 1)
+	("shield" args 100)
 	{extender "shield"
 		{on}
 	}
@@ -244,7 +244,7 @@
     ("crew_6_human")
 	
 ;	("gunner_visible")
-	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))	
+;	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))	
 
 	{boarder
 		{anm "driver"
@@ -329,7 +329,7 @@
 			{weapon "150mm_kwk44" filling "bullet150gerLate ap" 1}
 			{foresight "foresight1"}			
 			{gunner "gunner"}
-			{charger "charger" "gunner2"}
+			{charger "charger"}
             ("abm_high")
 			{basic}
 	}
@@ -337,8 +337,8 @@
 			{type "mgun_coaxial"}
 			{weapon "20mm_mg151t" filling "ammo bullet20x138b zenite" 100}
 			{foresight "foresight3"}
-			{gunner "gunner"}
-			{charger "charger"}			
+			{gunner "gunner1"}
+		    {charger "driver1"}			
             ("abm_high")
 			{basic}
         }

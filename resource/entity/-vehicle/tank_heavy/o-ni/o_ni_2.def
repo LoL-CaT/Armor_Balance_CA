@@ -1,4 +1,4 @@
-{Entity
+{game_entity
 	(include "/properties/h_tank_mobility.ext")
 	(include "/properties/tank_multyturret3.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
@@ -125,7 +125,6 @@
 	}
 	{extender "inventory"
 		{box
-			{size 6 10}
 			{item "bullet105j ap" 30}
 			{item "bullet105j fg" 25}
 ;			{item "bullet105j apcr" 5}
@@ -143,15 +142,15 @@
 			{RestoreIKAfterAim}
 			{weapon "100mm_type92" filling "ammo bullet105j ap" 1}	
 			{gunner "gunner"}
-			{charger "charger" "charger2"}			
+			{charger "charger"}			
 			("abm_high")
         }
 		{place "gun2"
 			{type "secondary_main"}
 			{Weapon "47mm_type1" filling "ammo bullet47 ap" 1}
 			{foresight "foresight11"}
-			{gunner "gunner3"}
-			{charger "gunner3"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_medium")		
 			{basic}
 		}
@@ -159,8 +158,8 @@
 			{type "secondary_main"}
 			{Weapon "47mm_type1" filling "ammo bullet47 ap" 1}
 			{foresight "foresight12"}
-			{gunner "gunner4"}
-			{charger "gunner4"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
 			("abm_medium")		
 			{basic}
 		}
@@ -168,25 +167,28 @@
 			{type "mgun_hull"}
 			{weapon "type93hmg" filled}
 			{foresight "foresight3"}
-			{gunner "gunner5"}
-			{charger "gunner5"}
-			("abm_mgun_heavy")		
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_mgun_heavy")	
+			{basic}			
 		}
 		{place "mgun2"
 			{type "mgun_left_b"}
 			{weapon "type93hmg" filled}
 			{foresight "foresight5"}
-			{gunner "gunner3"}
-			{charger "gunner3"}
+			{gunner "driver2"}
+			{charger "driver2"}
 			("abm_mgun")
+			{basic}			
 		}
 		{place "mgun3"
 			{type "mgun_right_b"}
 			{weapon "type93hmg" filled}
 			{foresight "foresight6"}
-			{gunner "gunner4"}
-			{charger "gunner4"}
+			{gunner "driver1"}
+			{charger "driver1"}
 			("abm_mgun")
+			{basic}			
 		}
 		{place "mgun4"
 			{type "mgun_coaxial"}

@@ -621,8 +621,8 @@
 							}
 						}
 					}
-					{bone revolute "foresight5"
-						{limits -15 15}
+					{bone "foresight5"
+;						{limits -15 15}
 						{Matrix34
 							1	0	0
 							0	1	0

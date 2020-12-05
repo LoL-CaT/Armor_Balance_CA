@@ -23,7 +23,6 @@
 	("wheels_armor" args 5)	
 	("armor_engine"  t(40 40 40 40))
 
-
 	{extender "enumerator"}
 
 	("crew_5_human_extended")
@@ -122,9 +121,10 @@
 			{type "mgun_hull"}
 			{weapon "dt" filled}
 			{foresight "foresight6"}
-			{gunner "driver"}
-			{charger "driver"}
+			{gunner "gunner1"}
+			{charger "gunner1"}	
             ("abm_mgun")
+			{basic}			
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}
@@ -142,6 +142,7 @@
 			{gunner "charger"}
 			{charger "charger"}
             ("abm_mgun")
+			{basic}			
 		}
 
 	}

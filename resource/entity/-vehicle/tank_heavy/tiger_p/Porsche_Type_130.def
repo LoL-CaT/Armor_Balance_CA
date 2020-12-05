@@ -135,7 +135,8 @@
 	("armor_engine"  t(25 25 25 25))
 	("armor_mantlet" t(110))
 	("wheels_armor" args 5)
-	("shield" args 5)
+	
+	("shield" args 1)
 	
 	{extender "shield"
 			{on}
@@ -166,7 +167,7 @@
 	("crew_5_human")
 	
 ;	("gunner_visible")
-	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))		
+;	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))		
 
 	{sensor
 		{visor "tur1"
@@ -256,11 +257,11 @@
 		        {place "mgun2"
 				{type "mgun_coaxial"}
 				{weapon "mg34" filled}	
-			        ("abm_mgun")
-			        {foresight "foresight2"}
-			        {charger "gunner"}
-			        {gunner "gunner"}
-			        {basic}
+			    ("abm_mgun")
+			    {foresight "foresight2"}
+                {gunner "gunner1"}
+                {charger "gunner1"}
+			    {basic}
 		    }
 			{place "mgun1"
 				{type "mgun_hull"}
@@ -269,7 +270,7 @@
                 {charger "gunner3"}
 				{foresight "foresight4"}
                 ("abm_mgun")
-				;{basic}
+				{basic}
 			}
 ;			{place "mgun3"
 ;				{type "mgun_aa"}

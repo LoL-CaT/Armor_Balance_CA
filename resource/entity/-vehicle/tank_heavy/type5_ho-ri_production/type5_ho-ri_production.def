@@ -86,6 +86,8 @@
 		{place "gun"
 			{RestoreIKAfterAim}
 			{weapon "105mm_type6" filled}
+			{gunner "gunner1"}
+			{charger "driver1"}				
 			("abm_high")
 		}
 

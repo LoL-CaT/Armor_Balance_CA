@@ -34,7 +34,7 @@
 
 	{extender "enumerator"}
 
-	("crew_4_human_extended")
+	("crew_5_human_extended")
 	{boarder
 		{anm "driver"
 			{forward	{begin	"board_Kv-85"}}
@@ -63,7 +63,7 @@
 	}
 
 ;	("gunner_visible")
-	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))
+;	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))
 
 	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
 	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
@@ -158,8 +158,8 @@
 			{type "mgun_hull"}
 			{weapon "dt" filled}
 			{foresight "foresight6"}
-			{gunner "driver"}
-			{charger "driver"}
+			{gunner "gunner1"}
+			{charger "gunner1"}	
 			("abm_mgun")
 			{basic}			
 		}

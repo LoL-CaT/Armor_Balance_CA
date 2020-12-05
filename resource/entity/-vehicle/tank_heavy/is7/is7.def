@@ -25,8 +25,8 @@
 	("wheels_armor" args 5)	
 
 	("crew_5_human_extended")
-	("crew_human" 	place(charger3)	door1(emit1) door2(emit2) visor(main))
-	("crew_human" 	place(charger4)	door1(emit1) door2(emit2) visor(main))
+;	("crew_human" 	place(charger3)	door1(emit1) door2(emit2) visor(main))
+;	("crew_human" 	place(charger4)	door1(emit1) door2(emit2) visor(main))
 	{boarder
 
 		{anm "driver"
@@ -79,7 +79,7 @@
 			{RestoreIKAfterAim}
 			{weapon "130mm_s70" filling "ammo bullet130rus ap" 1}
 			{gunner "gunner"}
-			{charger "charger3" "charger4"}			
+			{charger "gunner1"}			
 			("abm_high")
 		}
 		{place "mgun"
@@ -95,19 +95,20 @@
 			{type "mgun_coaxial"}
 			{weapon "kpv" filled}
 			{foresight "foresight4"}
-			{gunner "charger4"}
-			{charger "charger4"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun")
             {basic}
 			("abm_mgun_heavy")
+            {basic}			
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}
 			{weapon "sgmtx2" filled}
 			{foresight "foresight5"}
             {Barrels 2}
-			{gunner "charger4"}
-			{charger "charger4"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun_heavy")
            	{basic}
 		}
@@ -118,6 +119,7 @@
 			{gunner "driver"}
 			{charger "driver"}
 			("abm_mgun")
+            {basic}			
 		}
 		{place "mgun4"
 			{type "mgun_hull"}
@@ -126,22 +128,25 @@
 			{gunner "driver"}
 			{charger "driver"}
 			("abm_mgun")
+            {basic}			
 		}
 		{place "mgun5"
 			{type "mgun_rear"}
 			{weapon "sgmt" filled}
 			{foresight "foresight9"}
-			{gunner "charger3"}
-			{charger "charger3"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun")
+            {basic}			
 		}
 		{place "mgun6"
 			{type "mgun_rear"}
 			{weapon "sgmt" filled}
 			{foresight "foresight10"} 
-			{gunner "charger3"}
-			{charger "charger3"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun")
+            {basic}			
 		}
 	}
 

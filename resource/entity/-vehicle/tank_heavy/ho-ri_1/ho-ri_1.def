@@ -87,16 +87,18 @@
 		{place "gun2"
 			{type "secondary_main"}
 			{weapon "37mm_type100" filled}
-			{foresight "foresight4"}
-			{gunner "driver"}
-			{charger "driver"}
+			{foresight "foresight2"}
+			{gunner "gunner1"}
+			{charger "driver1"}
 			("abm_medium")
 			{basic}
 		}
-		{place "mgun"
+		{place "mgun2"
 			{type "mgun_hull"}
 			{weapon "nambu_type97" filled}
 			{foresight "foresight5"}
+			{gunner "driver"}
+			{charger "driver"}			
 			("abm_mgun_heavy")
 			{basic}
 		}

@@ -248,17 +248,17 @@
             {foresight "foresight4"}
             {gunner "commander"}
             {charger "commander"}
-;           {basic}
             ("abm_mgun")
+            {basic}			
         }
         {place "mgun2"
             {type "mgun_coaxial"}
 			{weapon "mg34tank" filled}
             {foresight "foresight5"}
-            {gunner "gunner"}
-            {charger "gunner"}
-            {basic}
+            {gunner "gunner1"}
+            {charger "driver1"}
             ("abm_mgun")
+            {basic}			
         }
 ;        {place "mgun3"
 ;            {type "mgun_aa"}

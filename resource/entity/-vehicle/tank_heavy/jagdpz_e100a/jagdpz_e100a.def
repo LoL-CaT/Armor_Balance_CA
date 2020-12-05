@@ -91,6 +91,8 @@
 		{place "mgun2"
 			{type "mgun_coaxial"}
 			{weapon "20mm_mg151t" filling "ammo bullet20x138b zenite" 200}
+			{gunner "gunner1"}
+		    {charger "driver1"}				
 			{foresight "foresight5"}
 			{basic}
 		}

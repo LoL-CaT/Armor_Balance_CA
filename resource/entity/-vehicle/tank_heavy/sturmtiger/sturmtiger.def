@@ -93,7 +93,7 @@
 	("armor_mantlet" t(150))
 	("armor_engine"  t(30 30 30 30))
 	("wheels_armor" args 5)	
-	("shield" args 8)
+	("shield" args 1)
 
 	{extender "shield"
 		{on}
@@ -143,7 +143,7 @@
 
 	("crew_human_visible" place(driver)	door(emit1) visor(driver))
 	("crew_human_visible" place(charger)	door(emit1) visor(main))
-	("crew_human_visible" place(driver1)	door(emit1) visor(main))
+	("crew_human_visible" place(gunner1)	door(emit1) visor(main))
 	("crew_human_visible" place(gunner)	door(emit1) visor(main))
 	("crew_human_visible" place(commander)	door(emit1) visor(main))
 ;==============================================
@@ -187,8 +187,8 @@
 			{type "mgun_hull"}
 			{weapon "mg34tank" filled}
 			{foresight "foresight3"} 
-			{gunner "driver1"}
-			{charger "driver1"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun")
 			{basic}
 		}

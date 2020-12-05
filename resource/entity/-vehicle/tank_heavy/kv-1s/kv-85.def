@@ -197,7 +197,7 @@
 	("armor_engine"  t(20 20 20 20))
 	("armor_mantlet" t(100))
 	("wheels_armor" args 5)
-	("shield" args 10)
+	("shield" args 1)
 	
 	{extender "shield"
 			{on}
@@ -407,6 +407,7 @@
                 {charger "commander"}
 				{foresight "foresight4"}
                 ("abm_mgun")
+				{basic}				
 			}
 			{place "mgun3"
 				{type "mgun_hull"}
@@ -415,6 +416,7 @@
                 {charger "driver"}
 				{foresight "foresight3"}
                 ("abm_mgun")
+				{basic}				
 			}
 	    }
 

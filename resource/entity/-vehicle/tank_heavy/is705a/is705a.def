@@ -110,9 +110,8 @@
             {Barrels 2}				
 			{gunner "commander"}
 			{charger "commander"}
-			("abm_mgun")
-            {basic}
 			("abm_mgun_heavy")
+            {basic}			
 		}
 	}
 

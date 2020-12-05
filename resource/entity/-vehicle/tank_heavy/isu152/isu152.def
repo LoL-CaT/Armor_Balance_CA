@@ -1,4 +1,4 @@
-{Entity
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/h_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
@@ -45,7 +45,7 @@
 	("wheels_armor" args 5)	
 	("shield" args 10)
 			
-	("crew_4_human")
+	("crew_5_human")
 	
 	{boarder
 		{anm "left"
@@ -75,7 +75,7 @@
 	}
 	
 ;	("gunner_visible")
-	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))	
+;	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))	
 	
 	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))	
 	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor1))
@@ -94,6 +94,7 @@
 		{place "gun"
 			{RestoreIKAfterAim}
 			{weapon "152mm_ML20a" filling "ammo bullet152_ml20 fg" 1}	
+			{gunner "gunner" "gunner1"}				
 			("abm_high")
 		}
 ;		{place "mgun"

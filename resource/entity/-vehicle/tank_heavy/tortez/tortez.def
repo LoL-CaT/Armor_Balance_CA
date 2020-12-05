@@ -120,9 +120,9 @@
 	}	
 
 	{extender "inventory"
-		{weapon "mgun"
-			{mask "weapon mgun"}
-		}
+;		{weapon "mgun"
+;			{mask "weapon mgun"}
+;		}
 		{box
 			{item "ammo mgun" 6750}
 ;			{item "ammo smoke" 400}
@@ -171,23 +171,26 @@
 		{place "mgun3"			
 			{type "smoke"}
 			{weapon "6xsmokegun" filled}
-			{gunner "gunner"}
-			{charger "charger"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
 			{foresight "foresight20"}
+			{basic}			
 		}
 		{place "mgun4"
 			{type "smoke"}
 			{weapon "6xsmokegun" filled}
-			{gunner "gunner"}
-			{charger "charger"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
 			{foresight "foresight21"}
+			{basic}			
 		}
 		{place "mgun5"
 			{type "smoke"}
 			{weapon "6xsmokegun" filled}
-			{gunner "gunner"}
-			{charger "charger"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
 			{foresight "foresight23"}
+			{basic}			
 		}
 	}
 

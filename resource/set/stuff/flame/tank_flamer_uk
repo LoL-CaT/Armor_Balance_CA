@@ -19,5 +19,7 @@
     	{AimingTolerance 3}
 	{cursor "cannon_on"}
 	
+	{preloaded}	
+	
 	{desc "Танковый Огнемёт Брит. (ЭДС 14)"}	
 }

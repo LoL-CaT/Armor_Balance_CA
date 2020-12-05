@@ -2,7 +2,7 @@
 
 ;==================================================================================================
 	
-{Entity
+{game_entity
 	
 	(include "/properties/tank.ext")
 	(include "/properties/tank1.ext")
@@ -177,6 +177,7 @@
 			{gunner "charger"}
 			{charger "charger"}
 			("abm_mgun")
+			{basic}			
 		}
 	}
 

@@ -2,7 +2,7 @@
 
 ;==================================================================================================
 	
-{Entity
+{game_entity
 
 	(include "/properties/tank.ext")
 	(include "/properties/tank1.ext")

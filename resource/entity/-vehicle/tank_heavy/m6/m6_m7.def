@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/tank.ext")
 	(include "/properties/h_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
@@ -101,8 +101,8 @@
 			{type "secondary_main"}
 			{weapon "37mm_m6" filling "bullet37_m3l ap" 1}
 			{foresight "foresight2"}
-;			{gunner "gunner2"}
-;			{charger "charger2"}
+            {gunner "gunner1"}
+            {charger "driver1"}
 			("abm_medium")
 			{basic}
 		}

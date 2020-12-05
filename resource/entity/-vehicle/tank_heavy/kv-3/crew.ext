@@ -52,20 +52,20 @@
 }
 
 {placer
-	{place "charger2" {group "crew"} {visor "tur2_1"}}
+	{place "driver1" {group "crew"} {visor "tur2_1"}}
 }
 {boarder
 	{door "emit4"}
-	{link "emit4" "charger2" {anm "left"} {forward putoff} {reverse puton}}
+	{link "emit4" "driver1" {anm "left"} {forward putoff} {reverse puton}}
 }
 
 {placer
-	{place "gunner2" {group "crew"} {visor "mgun_hull"}}
+	{place "gunner1" {group "crew"} {visor "mgun_hull"}}
 }
 {boarder
 
 	{door "emit1"}
-	{link "emit1" "gunner2" {anm "right"} {forward putoff} {reverse puton}}
+	{link "emit1" "gunner1" {anm "right"} {forward putoff} {reverse puton}}
 }
 (define "seat_human"
 	{placer

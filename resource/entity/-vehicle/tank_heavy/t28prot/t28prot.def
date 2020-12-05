@@ -13,9 +13,8 @@
 	("armor_engine"  t(30 30 30 30))	
 	("wheels_armor" args 5)	
 	("armor_mantlet" t(279))
-	("shield" args 10)
 
-	("shield" args 6)
+	("shield" args 1)
 	{extender "shield"
 		{on}
 	}
@@ -39,7 +38,7 @@
 		}
 	}
 	("crew_human"		        place(driver) door1(emit1) door2(emit2) visor(driver))
-	("crew_human_visible_anm"       place(commander) door1(emit1) door2(emit2) visor(driver) anm_left(left) anm_right(left)))
+	("crew_human_visible_anm"   place(commander) door1(emit1) door2(emit2) visor(driver) anm_left(left) anm_right(left)))
 	("crew_human_visible_anm"	place(charger) door1(emit1) door2(emit2) visor(main) anm_left(left) anm_right(left))
 	("crew_human_visible_anm" 	place(gunner2)  door1(emit1) door2(emit2)  visorbone(mgun2) anm_left(left) anm_right(left)))
 	("crew_human_visible_anm"	place(gunner) door1(emit1) door2(emit2) visor(main) anm_left(left) anm_right(left))
@@ -71,6 +70,8 @@
 		{place "mgun1"
 			{type "mgun_hull"}
 			{weapon "browning_m19" filled}
+			{gunner "gunner2"}
+			{charger "gunner2"}			
 			{foresight "foresight4"}
 			("abm_mgun")
 		}

@@ -22,5 +22,7 @@
     {AimingTolerance 3}
 	{cursor "cannon_on"}
 	
+	{preloaded}	
+	
 	{desc "КС-24 (ЭДС 14)"}	
 }

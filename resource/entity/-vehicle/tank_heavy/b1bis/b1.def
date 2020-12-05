@@ -29,12 +29,12 @@
 		{thickness 10}
 	}
 
-	("armor_heavy_shit" turret(45 45 45 27) body(40 10 40 27))
+	("armor_heavy_shit" turret(45 45 45 27) body(40 30 40 27))
 	("armor_mantlet" t(45))
 	("armor_engine"  t(27 27 27 27))
 	("wheels_armor" args 5)	
 
-	("shield" args 20)
+	("shield" args 1)
 	{extender "shield"
 		{on}
 	}

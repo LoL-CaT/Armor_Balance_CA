@@ -39,6 +39,7 @@
 	("armor_engine"  t(40 40 40 40))
 	("wheels_armor" args 5)	
 	("armor_mantlet" t(90))
+	
 	("shield" args 1)	
 	
 	{sensor
@@ -126,7 +127,7 @@
 		{weapon "155mm_schneider_t" filling "ammo bullet155ger fg" 1}
 		{foresight "foresight1"}
 		("abm_medium")
-			{basic}
+		{basic}
 		}
 	  {place "mgun"
 				{type "mgun_hull"}

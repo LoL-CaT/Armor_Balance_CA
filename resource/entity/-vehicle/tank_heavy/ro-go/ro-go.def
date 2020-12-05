@@ -50,7 +50,6 @@
 	}
 	{extender "inventory"
 		{box
-		{Size 6 12} 
 			{item "ammo bullet70jap heat" 60}		
 ;			{item "ammo bullet70jap ap" 20}
 			{item "ammo bullet70jap fg" 20}
@@ -69,7 +68,7 @@
  			{foresight "foresight1"} 
 			("abm_low")			
 			{basic}
-                }
+        }
 
 		{place "gun2"
 			{RestoreIKAfterAim}		
@@ -78,22 +77,24 @@
  			{foresight "foresight11"} 
 			("abm_low")
 			{basic}
-                }
+        }
 
 
 		{place "mgun1"
 			{type "mgun_rear"}
 			{weapon "type91hmg" filled}
 			{foresight "foresight4"}
-			{gunner "gunner3"}
+			{gunner "gunner1"}
 			("abm_mgun")
+			{basic}			
 		}
 		{place "mgun2"
 			{type "mgun_rear"}
 			{weapon "type91hmg" filled}
 			{foresight "foresight5"}
-			{gunner "gunner"}
+			{gunner "driver1"}
 			("abm_mgun")
+			{basic}			
 		}
 
 
@@ -114,13 +115,13 @@
 		}		
 	}	
 	
-	{mass 26000}
+	{mass 25000}
 	
 	{Chassis
 		("tank_trace" fx("tracks_big") step(0.47) len(-0.5))	
 		("mobility"
 			speed(25)
-			weight(26)
+			weight(25)
 			power(290)  
 			fuel(330)		
 		)

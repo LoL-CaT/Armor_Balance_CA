@@ -20,7 +20,7 @@
 	("armor_heavy_shit" turret(229 89 208 28) body(191 66 51 28))
 	("armor_engine"  t(28 28 28 28))		
 	("armor_mantlet" t(229))
-	("wheels_armor" args 5)
+	("wheels_armor" args 1)
 	
 	("crew_5_human")
 
@@ -108,6 +108,8 @@
 			{type "mgun_coaxial"}
 			{weapon "browning" filled}
 			{foresight "foresight5"}
+            {gunner "gunner1"}
+            {charger "gunner1"}			
 			("abm_mgun_heavy")
 			{basic}
 		}

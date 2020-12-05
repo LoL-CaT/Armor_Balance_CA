@@ -1,4 +1,4 @@
-{Entity
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/h_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.8))
@@ -48,7 +48,7 @@
 
 	("armor_spa_light" turret(0) armor(20 20 20 10))
 	
-	("shield" args 10)
+	("shield" args 1)
 	("wheels_armor" args 5)	
 	{extender "shield"
 		{on}
@@ -77,7 +77,8 @@
 	{Weaponry
 		{place "gun"
 			{weapon "203mm_gun" filling "bullet203" 1}
-			{charger "gunner"}
+			{gunner "gunner"}			
+			{charger "gunner1" "gunner2"}
 			{StationaryFiring}  
 			("abm_howitzer")
 			{basic}
@@ -111,9 +112,13 @@
 			{reverse 	{end	"emit_body" 1} {base "close_driver" -1}}
 		}
 		{anm "gunner1"
-			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"}}
+			{forward	{begin	"board_tank_right"} {end "pose_pak40_charger"}}
 			{reverse 	{end	"emit_body" 1} }
 		}
+		{anm "gunner2"
+			{forward	{begin	"board_tank_right"} {end "pose_pak40_charger"}}
+			{reverse 	{end	"emit_body" 1} }
+		}		
 	}
     	
 	{sensor
