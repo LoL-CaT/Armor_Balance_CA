@@ -270,7 +270,7 @@
 {"su85m"                 ("v" cd(3600) ci(60) c(60) t(all medium)                   s(rus) n1(3) n2(1) g(l7) sc(6.0) b(v5) cw(0) cp(17)) {cost 700} {fore -75}} ; ГОД 44 	
 
 {"isu122"                ("v" cd(4500) ci(900) c(900) t(all heavy)                   s(rus) n1(4) n2(1) g(l8) sc(6.0) b(v5) cw(0) cp(17)) {cost 750} {fore -4.01}} ; ГОД 44
-{"isu122s"               ("v" ccd(4500) ci(900) c(900) t(all heavy)                   s(rus) n1(4) n2(1) g(l9) sc(6.0) b(v5) cw(0) cp(17)) {cost 1000} {fore -4.01}} ; ГОД 44
+{"isu122s"               ("v" cd(4500) ci(900) c(900) t(all heavy)                   s(rus) n1(4) n2(1) g(l9) sc(6.0) b(v5) cw(0) cp(17)) {cost 1000} {fore -4.01}} ; ГОД 44
 
 {"su100"                 ("v" cd(4500) ci(900) c(900) t(all heavy)                   s(rus) n1(3) n2(1) g(l10) sc(6.0) b(v5) cw(0) cp(17)) {cost 1850} {fore -4.01}} ; ГОД 44
 
