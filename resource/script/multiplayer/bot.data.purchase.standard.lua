@@ -1,6 +1,6 @@
 Purchases["standard"] = {
 	{--purchase 1
-		Repeat = 30, --39
+		Repeat = 20, --39
 		Units = {
 			["rus"] = {--rus
 				{priority = 10.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
@@ -236,7 +236,7 @@ Purchases["standard"] = {
 		}
 	}
 	{--purchase 2
-		Repeat = 30, --;40
+		Repeat = 20, --;40
 		Units = {
 			["rus"] = {--rus
 				{priority = 20.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
@@ -472,7 +472,7 @@ Purchases["standard"] = {
 		}
 	}
 	{--purchase 3
-		Repeat = 30, --;41
+		Repeat = 20, --;41
 		Units = {
 			["rus"] = {--rus
 				{priority = 30.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
@@ -708,7 +708,7 @@ Purchases["standard"] = {
 		}
 	}
 	{--purchase 4
-		Repeat = 30, --;42
+		Repeat = 20, --;42
 		Units = {
 			["rus"] = {--rus
 				{priority = 40.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
@@ -944,7 +944,7 @@ Purchases["standard"] = {
 		}
 	}	
 	{--purchase 5
-		Repeat = 30, --;43
+		Repeat = 20, --;43
 		Units = {
 			["rus"] = {--rus
 				{priority = 50.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
@@ -1180,7 +1180,7 @@ Purchases["standard"] = {
 		}
 	}
 	{--purchase 6
-		Repeat = 30, --;44
+		Repeat = 20, --;44
 		Units = {
 			["rus"] = {--rus
 				{priority = 60.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
@@ -1416,7 +1416,7 @@ Purchases["standard"] = {
 		}
 	}
 	{--purchase 7
-		Repeat = 30, --;45
+		Repeat = 20, --;45
 		Units = {
 			["rus"] = {--rus
 				{priority = 70.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
