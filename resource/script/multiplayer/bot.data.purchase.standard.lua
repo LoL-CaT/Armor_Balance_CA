@@ -1,13 +1,13 @@
 Purchases["standard"] = {
-	{--purchase 1
-		Repeat = 20, --39
+	{--purchase 1 39
+		Repeat = 7500, 
 		Units = {
 			["rus"] = {--rus
-				{priority = 10.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
-				{priority = 20.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
-				{priority = 30.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
-				{priority = 40.7, class = UnitClass.Infantry, unit = "elites(rus)"},
-				{priority = 50.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
+				{priority = 20.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
+				{priority = 30.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
+				{priority = 40.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
+				{priority = 50.7, class = UnitClass.Infantry, unit = "elites(rus)"},
+				{priority = 60.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
 --;°°°Medium tanks°°°				
 				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_33"},--36
 				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_l10"},--36
@@ -234,9 +234,9 @@ Purchases["standard"] = {
 				{priority = 70.0, class = UnitClass.Tank, unit = "isuzutx40_aa"},--43					
 			}
 		}
-	}
-	{--purchase 2
-		Repeat = 20, --;40
+	},
+	{--purchase 2 40
+		Repeat = 7500,  
 		Units = {
 			["rus"] = {--rus
 				{priority = 20.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
@@ -470,9 +470,9 @@ Purchases["standard"] = {
 				{priority = 70.0, class = UnitClass.Tank, unit = "isuzutx40_aa"},--43					
 			}
 		}
-	}
-	{--purchase 3
-		Repeat = 20, --;41
+	},
+	{--purchase 3 41
+		Repeat = 7500,  
 		Units = {
 			["rus"] = {--rus
 				{priority = 30.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
@@ -706,9 +706,9 @@ Purchases["standard"] = {
 				{priority = 70.0, class = UnitClass.Tank, unit = "isuzutx40_aa"},--43					
 			}
 		}
-	}
-	{--purchase 4
-		Repeat = 20, --;42
+	},
+	{--purchase 4 42
+		Repeat = 7500,  
 		Units = {
 			["rus"] = {--rus
 				{priority = 40.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
@@ -942,9 +942,9 @@ Purchases["standard"] = {
 				{priority = 70.0, class = UnitClass.Tank, unit = "isuzutx40_aa"},--43					
 			}
 		}
-	}	
-	{--purchase 5
-		Repeat = 20, --;43
+	},	
+	{--purchase 5 43
+		Repeat = 7500,  
 		Units = {
 			["rus"] = {--rus
 				{priority = 50.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
@@ -1178,9 +1178,9 @@ Purchases["standard"] = {
 				{priority = 70.0, class = UnitClass.Tank, unit = "isuzutx40_aa"},--43					
 			}
 		}
-	}
-	{--purchase 6
-		Repeat = 20, --;44
+	},
+	{--purchase 6 44
+		Repeat = 7500,  
 		Units = {
 			["rus"] = {--rus
 				{priority = 60.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
@@ -1414,9 +1414,9 @@ Purchases["standard"] = {
 				{priority = 70.0, class = UnitClass.Tank, unit = "isuzutx40_aa"},--43					
 			}
 		}
-	}
-	{--purchase 7
-		Repeat = 20, --;45
+	},
+	{--purchase 7 45
+		Repeat = 7500,  
 		Units = {
 			["rus"] = {--rus
 				{priority = 70.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
@@ -1650,9 +1650,9 @@ Purchases["standard"] = {
 				{priority = 70.0, class = UnitClass.Tank, unit = "isuzutx40_aa"},--43					
 			}
 		}
-	}	
-	{--purchase 8
-		Repeat = 0, --;46
+	},	
+	{--purchase 8 46
+		Repeat = 9999, 
 		Units = {
 			["rus"] = {--rus
 				{priority = 80.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
