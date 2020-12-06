@@ -3,11 +3,11 @@ Purchases["standard"] = {
 		Repeat = 7500, 
 		Units = {
 			["rus"] = {--rus
-				{priority = 20.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
-				{priority = 30.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
-				{priority = 40.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
-				{priority = 50.7, class = UnitClass.Infantry, unit = "elites(rus)"},
-				{priority = 60.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
+				{priority = 50.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
+				{priority = 60.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
+				{priority = 70.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
+				{priority = 80.7, class = UnitClass.Infantry, unit = "elites(rus)"},
+				{priority = 90.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
 --;°°°Medium tanks°°°				
 				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_33"},--36
 				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_l10"},--36
@@ -239,11 +239,11 @@ Purchases["standard"] = {
 		Repeat = 7500,  
 		Units = {
 			["rus"] = {--rus
-				{priority = 20.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
-				{priority = 30.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
-				{priority = 40.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
-				{priority = 50.7, class = UnitClass.Infantry, unit = "elites(rus)"},
-				{priority = 60.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
+				{priority = 60.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
+				{priority = 70.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
+				{priority = 80.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
+				{priority = 90.7, class = UnitClass.Infantry, unit = "elites(rus)"},
+				{priority = 100.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
 --;°°°Medium tanks°°°				
 --;				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_33"},--36
 --;				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_l10"},--36
@@ -475,11 +475,11 @@ Purchases["standard"] = {
 		Repeat = 7500,  
 		Units = {
 			["rus"] = {--rus
-				{priority = 30.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
-				{priority = 40.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
-				{priority = 50.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
-				{priority = 60.7, class = UnitClass.Infantry, unit = "elites(rus)"},
-				{priority = 70.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
+				{priority = 60.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
+				{priority = 70.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
+				{priority = 80.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
+				{priority = 90.7, class = UnitClass.Infantry, unit = "elites(rus)"},
+				{priority = 100.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
 --;°°°Medium tanks°°°				
 --;				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_33"},--36
 --;				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_l10"},--36
@@ -711,11 +711,11 @@ Purchases["standard"] = {
 		Repeat = 7500,  
 		Units = {
 			["rus"] = {--rus
-				{priority = 40.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
-				{priority = 50.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
-				{priority = 60.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
-				{priority = 70.7, class = UnitClass.Infantry, unit = "elites(rus)"},
-				{priority = 80.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
+				{priority = 80.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
+				{priority = 90.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
+				{priority = 100.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
+				{priority = 110.7, class = UnitClass.Infantry, unit = "elites(rus)"},
+				{priority = 120.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
 --;°°°Medium tanks°°°				
 --;				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_33"},--36
 --;				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_l10"},--36
@@ -947,11 +947,11 @@ Purchases["standard"] = {
 		Repeat = 7500,  
 		Units = {
 			["rus"] = {--rus
-				{priority = 50.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
-				{priority = 60.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
-				{priority = 70.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
-				{priority = 80.7, class = UnitClass.Infantry, unit = "elites(rus)"},
-				{priority = 90.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
+				{priority = 90.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
+				{priority = 100.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
+				{priority = 110.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
+				{priority = 120.7, class = UnitClass.Infantry, unit = "elites(rus)"},
+				{priority = 130.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
 --;°°°Medium tanks°°°				
 --;				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_33"},--36
 --;				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_l10"},--36
@@ -1183,11 +1183,11 @@ Purchases["standard"] = {
 		Repeat = 7500,  
 		Units = {
 			["rus"] = {--rus
-				{priority = 60.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
-				{priority = 70.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
-				{priority = 80.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
-				{priority = 90.7, class = UnitClass.Infantry, unit = "elites(rus)"},
-				{priority = 100.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
+				{priority = 90.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
+				{priority = 100.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
+				{priority = 110.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
+				{priority = 120.7, class = UnitClass.Infantry, unit = "elites(rus)"},
+				{priority = 130.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
 --;°°°Medium tanks°°°				
 --;				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_33"},--36
 --;				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_l10"},--36
@@ -1419,11 +1419,11 @@ Purchases["standard"] = {
 		Repeat = 7500,  
 		Units = {
 			["rus"] = {--rus
-				{priority = 70.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
-				{priority = 80.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
-				{priority = 90.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
-				{priority = 100.7, class = UnitClass.Infantry, unit = "elites(rus)"},
-				{priority = 110.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
+				{priority = 90.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
+				{priority = 100.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
+				{priority = 110.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
+				{priority = 120.7, class = UnitClass.Infantry, unit = "elites(rus)"},
+				{priority = 130.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
 --;°°°Medium tanks°°°				
 --;				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_33"},--36
 --;				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_l10"},--36
@@ -1655,11 +1655,11 @@ Purchases["standard"] = {
 		Repeat = 9999, 
 		Units = {
 			["rus"] = {--rus
-				{priority = 80.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
-				{priority = 90.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
-				{priority = 100.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
-				{priority = 110.7, class = UnitClass.Infantry, unit = "elites(rus)"},
-				{priority = 120.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
+				{priority = 110.4, class = UnitClass.Infantry, unit = "home_guards(rus)"},
+				{priority = 120.5, class = UnitClass.Infantry, unit = "smgs(rus)"},
+				{priority = 130.6, class = UnitClass.Infantry, unit = "riflemans(rus)"},
+				{priority = 140.7, class = UnitClass.Infantry, unit = "elites(rus)"},
+				{priority = 150.8, class = UnitClass.Infantry, unit = "stormtroopers(rus)"},
 --;°°°Medium tanks°°°				
 --;				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_33"},--36
 --;				{priority = 10.4, class = UnitClass.Tank, unit = "t-28_l10"},--36
