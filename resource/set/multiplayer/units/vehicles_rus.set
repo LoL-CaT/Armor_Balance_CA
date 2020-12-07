@@ -156,7 +156,7 @@
 {"d1"                ("vs" cd(3600) ci(900) c(900) t(all artillery heavy)    s(rus) n(2) g(g17) sc(6.0) b(v6) cw(2) cp(10)) {cost 1300} {fore -3.01}} ; ГОД 43
 
 {"203b4"             ("vs" cd(0) ci(900) c(900) t(all artillery heavy) 	s(rus) n(2) g(g18) sc(6.0) b(v6) cw(0) cp(10)) {cost 1650} {fore 1}} ; ГОД 39
-{"280br5"            ("vs" cd(0) ci(900) c(900) t(all artillery heavy) 	s(rus) n(2) g(g19) sc(6.0) b(v6) cw(0) cp(10)) {cost 1650} {fore 1}} ; ГОД 39
+{"280br5"            ("vs" cd(0) ci(900) c(900) t(all artillery heavy) 	s(rus) n(2) g(g19) sc(6.0) b(v6) cw(0) cp(10)) {cost 1700} {fore 1}} ; ГОД 39
 
 {"su5"              ("v" cd(0) ci(900) c(900) t(all artillery) 		s(rus) n1(4) n2(1) g(g20) sc(6.0) b(v6) cw(0) cp(10)) {cost 1100} {fore 1}} ; ГОД 39
 {"np_su14"          ("v" cd(900) ci(900) c(900) t(all artillery heavy) 	s(rus) n1(5) n2(1) g(g21) sc(6.0) b(v6) cw(0) cp(15)) {cost 2100} {fore -0.01}} ; ГОД 40

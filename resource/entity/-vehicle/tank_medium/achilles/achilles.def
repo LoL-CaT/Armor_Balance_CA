@@ -65,11 +65,11 @@
 
 	("armor_medium" turret(57 25 25 19) body(38 19 19 19) body2(51 25 25 19))
 	("armor_engine"  t(19 19 19 19))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(57))
 
 
-	("crew_4_human")
+	("crew_5_human")
 
 	{boarder
 
@@ -106,7 +106,7 @@
 	
 	
 ;	("gunner_visible")
-	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))
+;	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))
 	
 	("crew_human" place(driver)	door1(emit1) door2(emit2) visor(driver))
 	("crew_human_visible" place(commander) door1(emit1) door2(emit2) visor(main))
@@ -137,6 +137,8 @@
 		{place "gun"
 			{RestoreIKAfterAim}
 			{weapon "76mm_mk4" filling "ammo bullet76eng ap" 1}	
+            {gunner "gunner1"}
+            {charger "gunner1"}		
 			("abm_high")
 		}
 ;		{place "mgun"

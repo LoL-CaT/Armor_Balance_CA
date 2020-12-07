@@ -33,7 +33,7 @@
 	}
 
 	("armor_medium" turret(51 25 25 8) body(60 50 60 8))
-	("wheels_armor" args 5)		
+;	("wheels_armor" args 5)		
 
 	("crew_4_human")
 

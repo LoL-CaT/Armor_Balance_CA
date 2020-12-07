@@ -286,7 +286,7 @@
             {thickness 10}
             {durability
                 {blast
-                    {koef 5}
+                    {koef 9}
                 }
                 {pierce
                     {value 500}
@@ -294,7 +294,7 @@
             }
             {threshold
                 {blast
-                    {value 9}
+                    {value 30}
                 }
                 {pierce
                     {value 3000}

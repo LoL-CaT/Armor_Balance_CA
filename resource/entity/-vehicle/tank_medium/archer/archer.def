@@ -48,7 +48,7 @@
 	}
 
 	("armor_spa_light" armor(15 15 60 8))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(30))
 
 	{boarder

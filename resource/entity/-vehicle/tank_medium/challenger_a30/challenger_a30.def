@@ -1,4 +1,4 @@
-{Entity
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/m_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
@@ -15,7 +15,7 @@
 	;}
 	
 	("armor_medium_shit" turret(102 20 20 20) body(64 32 32 20))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(20 20 20 20))
 
 	("crew_5_human")
@@ -74,6 +74,8 @@
 			{type "mgun_coaxial"}
 			{weapon "browning_m19" filled}			
 			{foresight "foresight3"}
+            {gunner "gunner1"}
+            {charger "gunner1"}			
             ("abm_mgun")
 			{basic}
 		}

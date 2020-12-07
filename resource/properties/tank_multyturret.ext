@@ -371,7 +371,7 @@
             }
             {threshold
                 {blast
-                    {value 9}
+                    {value 35}
                 }
                 {pierce
                     {value 3000}
@@ -573,7 +573,7 @@
             }
             {threshold
                 {blast
-                    {value 9}
+                    {value 35}
                 }
                 {pierce
                     {value 3000}
@@ -839,7 +839,7 @@
             }
             {threshold
                 {blast
-                    {value 9}
+                    {value 35}
                 }
                 {pierce
                     {value 3000}
@@ -955,7 +955,7 @@
             }
             {threshold
                 {blast
-                    {value 9}
+                    {value 35}
                 }
                 {pierce
                     {value 3000}
