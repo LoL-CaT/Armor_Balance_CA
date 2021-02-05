@@ -2,6 +2,6 @@
 	{name "Armor_Balance"}
 	{tags "Armor_Balance"}
 	{desc "Armor Balance v1.0.0 Alfa"}
-	{MinGameVersion "1.200.0"}
+	{MinGameVersion "1.227.0"}
 	{MaxGameVersion "1.250.0"}
 }
