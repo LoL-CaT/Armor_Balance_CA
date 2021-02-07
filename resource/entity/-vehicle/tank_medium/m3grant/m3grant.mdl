@@ -324,7 +324,7 @@
 							14.1041	1.45956	-0.846797
 						}
 					}
-					{bone revolute "mgun2"
+					{bone "mgun2"
 						{parameters "ID=mgun2;"}
 						{Matrix34
 							1	0	0

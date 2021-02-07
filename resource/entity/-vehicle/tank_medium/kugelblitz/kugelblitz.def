@@ -25,8 +25,8 @@
 	}
 	
 	("armor_medium_shit" turret(22) turret1(22) body(80 30 30 22))
-	("wheels_armor" args 5)	
-	("shield" args 10)
+;	("wheels_armor" args 5)	
+	("shield" args 1)
 	
 		{extender "shield"
 			(mod "mp"
@@ -77,19 +77,21 @@
 		}
 	}	
 	{Weaponry
+		("restore_ik_time")	
 		{place "gun"
+			{RestoreIKAfterAim}		
 			{weapon "30mm_mk103_38" filling "bullet30mk zenite" 1200}
 			{charger "gunner"}
 			{Barrels 2}
             ("abm_zenite")
 			{basic}
 		}
-		{place "mgun1"
+		{place "mgun2"
 			{type "mgun_hull"}
 			{weapon "mg34tank" filled}
-			{foresight "foresight3"}
-			{gunner "driver"}
-			{charger "driver"}
+			{foresight "foresight5"}
+            {gunner "gunner1"}
+            {charger "gunner1"}
 			("abm_mgun")
 			{basic}
 		}

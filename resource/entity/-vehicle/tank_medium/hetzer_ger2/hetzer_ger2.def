@@ -1,7 +1,9 @@
 {game_entity
 	(include "/properties/tank.ext")
+	(include "/properties/m_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
-	{props "medium" "-turret" "vision_vehicle_medium" "muzzle_medium" "hetzer"}
+	{collider "tank.medium"}
+	{props "l_medium" "-turret" "vision_vehicle_low" "muzzle_medium"}
 	
 	{extender "enumerator"
 		{digit_folder "ger"}
@@ -15,7 +17,7 @@
 		{thickness 60}
 	}
 	
-	("crew_3_human")
+	("crew_4_human")
 
 	{boarder
 		{anm "left"
@@ -28,23 +30,19 @@
 		}
 	}
      
-	("crew_human" place(gunner3) door1(emit1) door2(emit2) visor(top))
+;	("crew_human" place(gunner3) door1(emit1) door2(emit2) visor(top))
 	{sensor
 		{visor "top"
-			{vision "vehicle_top_mgun"}
+			{vision "vehicle_top_turret"}
 			{bone "foresight3"}
 		}
 	}
 
-	{extender "inventory"	
-		{weapon "mgun"
-			{mask "weapon mgun"}
-		}
+	{extender "inventory"
 		{box
-            {item "ammo bullet75 ap" 29}
-            {item "ammo bullet75 fg" 25}
-            {item "ammo bullet75 apcr" 5}
-			{item "mg42" filled {user "mgun"}}
+            {item "ammo bullet75ger ap" 32}
+            {item "ammo bullet75ger fg" 9}
+            {item "ammo bullet75ger apcr" 2}
 			{item "ammo mgun" 1200}
 		}
 	}
@@ -53,15 +51,14 @@
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "75mm_pak39" filling "ammo bullet75 ap" 1}
-			("abm_medium")
+			{weapon "75mm_pak39" filling "ammo bullet75ger ap" 1}
+			("abm_high")
 		}
 		{place "mgun"
 			{type "mgun_aa"}
-			{gunner "gunner3"}
-			{charger "gunner3"}
-			{LinkBone "mgun2"}
-			{LinkAnimation "off"}
+			{weapon "mg34tank" filled}	
+			{gunner "commander"}
+			{charger "commander"}
 			("abm_mgun")
 			{basic}
 		}
@@ -70,37 +67,26 @@
 	{mass 15750}
 	{Chassis
 		("tank_trace" fx("tracks_mid") step(0.52) len(0.7))
-		{Locomotion ("locomotion")
-			{MaxSpeed   31}
-			{maxSpeedAtMaxTurn 14}
-			{StartTime  11}
-			{TurnStart  1.1}			
-			{TurnTime   6}
-			{TurnRadius 8} 
-    		{TurnStop   0.6}
-			{BrakeTime  1}
-			{StopTime   2}
-			{Gears 0.2 0.4 1}
-			{RearGears  0.37}		
-    	}
-		{FuelBag
-			{volume 385}	
-			{rate	115}   
-			{remain 385}
-			{fuel "fuel"}
-		}
-		{speed
-        	{Normal  10}
-        	{Slow  16}
-    	}
+		("mobility"
+			speed(42)
+			weight(15.7)
+			power(160)
+			fuel(320)		
+		)
 	}
 
 	{Extension "Hetzer.mdl"}
 
-	{bone "gun_rot2"
-		{limits -11 5}		;gun min right to max left
+	{bone "gun_rot"
+		{limits -10 6.5}
+		{speed2 5}
 	}
-	{bone "gun_rot1"
-		{limits -12 6}		;gun min up to max down
+	{bone "gun_rot2"
+		{speed2 5}
+                {limits -10 6}
+	}
+	{bone "mg_rot"
+		{speed 0.002}
+                {limits -10 8.5}
 	}
 }

@@ -29,7 +29,7 @@
 
 	("armor_medium_shit" turret(51 32 32 13) body(51 32 32 13))
 	("armor_engine"  t(13 13 13 13))	
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(51))
 
 ;	{extender "shield"
@@ -156,14 +156,16 @@
 			{gunner "gunner"}
 			{charger "commander"}
 			("abm_mgun")
+			{basic}			
 		}		
 		{place "mgun3"
 			{type "mgun_hull"} ; Левый курсовой	
 			{weapon "browning_m19" filled}
 			{foresight "foresight6"}
-			{gunner "gunner"}
-			{charger "gunner"}	
-			("abm_mgun")				
+            {gunner "gunner1"}
+            {charger "driver1"}
+			("abm_mgun")
+			{basic}			
 		}
 		{place "mgun7"
 			{type "mgun_left"}	; Левый передний	
@@ -172,6 +174,7 @@
 			{gunner "charger"}
 			{charger "charger"}	
 			("abm_mgun")
+			{basic}			
 		}	
 		{place "mgun4"
 			{type "mgun_right"}	; Правый передний	
@@ -179,7 +182,8 @@
 			{foresight "foresight8"}
 			{gunner "charger"}
 			{charger "charger"}	
-			("abm_mgun")				
+			("abm_mgun")
+			{basic}			
 		}	
 		{place "mgun5"
 			{type "mgun_rear"} ; Правый кормовой		
@@ -187,7 +191,8 @@
 			{foresight "foresight9"}
 			{gunner "charger"}
 			{charger "charger"}	
-			("abm_mgun")				
+			("abm_mgun")
+			{basic}			
 		}			
 		{place "mgun6"
 			{type "mgun_rear"} ; Левый кормовой		
@@ -195,7 +200,8 @@
 			{foresight "foresight10"}
 			{gunner "charger"}
 			{charger "charger"}	
-			("abm_mgun")				
+			("abm_mgun")
+			{basic}			
 		}					
 	}
 

@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ;socket
 	(include "/properties/tank.ext")
 	(include "/properties/m_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
@@ -20,8 +20,8 @@
 
 
 	("armor_medium" turret(75 25 20 12) body(75 20 20 12))
-	("wheels_armor" args 5)	
-	("shield" args 5)
+;	("wheels_armor" args 5)	
+	("shield" args 1)
 	{extender "shield"
 			{off}
 	}
@@ -89,8 +89,8 @@
 			{type "mgun_hull"}
 			{weapon "nambu_type97" filled}
 			{foresight "foresight3"}
-			{gunner "driver"}
-			{charger "driver"}
+            {gunner "gunner1"}
+            {charger "gunner1"}
 			("abm_mgun")
 			{basic}
 		}			

@@ -33,8 +33,8 @@
 	}
 
 	("armor_spa_medium" armor(30 20 20 1))
-	("wheels_armor" args 5)	
-	("shield" args 15)
+;	("wheels_armor" args 5)	
+	("shield" args 1)
 
 	{boarder
 		{anm "driver"
@@ -45,11 +45,11 @@
 			{forward	{begin	"board_hummel"} {end "pose_pak40_gunlayer"} {base "open_back_door"}}
 			{reverse 	{end	"emit_body" 1} {base "open_back_door" -1}}
 		}
-		{anm "charger2"
+		{anm "driver1"
 			{forward	{begin	"board_hummel_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
 			{reverse 	{end	"board_hummel_driver" -1} {base "open_driver" }}
 		}
-		{anm "charger3"
+		{anm "gunner1"
 			{forward	{begin	"board_hummel_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
 			{reverse 	{end	"board_hummel_driver" -1} {base "open_driver" }}
 		}		
@@ -80,16 +80,16 @@
 	}
 	{placer
 		{place "gunner" {visor "main"}}
-		{place "charger2" {visor "main"}}
-		{place "charger3" {visor "main"}}		
+		{place "driver1" {visor "main"}}
+		{place "gunner1" {visor "main"}}		
 	}
 	{boarder
 		{door "emit0"}
 		{door "emit1"}
 		{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
 		{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
-		{link "emit0" "charger2" {anm "driver"} {forward putoff} {reverse puton}}
-		{link "emit0" "charger3" {anm "driver"} {forward putoff} {reverse puton}}		
+		{link "emit0" "driver1" {anm "driver"} {forward putoff} {reverse puton}}
+		{link "emit0" "gunner1" {anm "driver"} {forward putoff} {reverse puton}}		
 	}
 
 	("crew_human" place(commander)	door1(emit1))
@@ -116,6 +116,8 @@
 	{Weaponry
 		{place "gun"
 			{weapon "150mm_sfh18" filling "ammo bullet150ger fg" 1}
+            {gunner "gunner" "gunner1"}
+            {charger "charger" "driver1"}			
 			{StationaryFiring}
 			("abm_howitzer")
 		}

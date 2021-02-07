@@ -28,7 +28,7 @@
 	}	
 	
 	("armor_medium" turret(64 64 64 25) turret1(64 64 64 25) turret2(64 64 64 25) body(64 38 38 25) body1(108 38 38 25) body2(108 38 38 25) body3(108 38 38 25))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(89))
 	
 	{extender "enumerator"}
@@ -118,10 +118,10 @@
 	}	
 	
 	{extender "inventory"
-		{weapon "mgun" {mask clear}}
-		{weapon "mgun1"
-			{mask "weapon mgun"}
-		}
+;		{weapon "mgun" {mask clear}}
+;		{weapon "mgun1"
+;			{mask "weapon mgun"}
+;		}
 		{box
 			{item "ammo bullet76usa ap" 50}
 			{item "ammo bullet76usa fg" 21}
@@ -143,11 +143,14 @@
 			{gunner "driver"}
 			{charger "driver"}
             ("abm_mgun")
+			{basic}			
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}
 			{weapon "browning_m19" filled}
 			{foresight "foresight5"}
+            {gunner "gunner1"}
+            {charger "gunner1"}			
             ("abm_mgun")
 			{basic}
 		}

@@ -33,7 +33,7 @@
 	{Volume "mantlet"
 		{thickness 40}
 	}
-	("shield" args 2)
+	("shield" args 1)
 	
 	{extender "shield"
 		{on}
@@ -50,7 +50,7 @@
 	{component "shieldr5" {tags "shield"}}
 
 	("armor_medium" turret(47 25 30 9) body(35 35 35 9))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(9 9 9 9))
 
 	("crew_inside")
@@ -61,7 +61,7 @@
 
 	("crew_human" place(charger)		door1(emit1) door2(emit2) visor(none))
 	
-	("crew_human" place(gunner3)	door1(emit1) door2(emit2) visor(mg_turret1))
+	("crew_human" place(gunner1)	door1(emit1) door2(emit2) visor(mg_turret1))
 	
 	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(around))
 
@@ -128,10 +128,10 @@
 		{place "mgun"
 			{type "mgun_hull"}
 			{weapon "besa" filled}
-			{gunner "gunner3"}
-			{charger "gunner3"}
+            {gunner "gunner1"}
+            {charger "gunner1"}	
 			("abm_mgun")
-;			{basic}
+			{basic}
 		}
 		{place "mgun1"
 			{type "mgun_coaxial"}

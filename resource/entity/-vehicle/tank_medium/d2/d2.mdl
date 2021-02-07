@@ -333,8 +333,8 @@
 				}
 				{VolumeView "wheelr10.ply"}
 			}
-			{bone revolute "mgun"
-				{limits -10 10}
+			{bone "mgun"
+;				{limits -10 10}
 				{Matrix34
 					-0.999962	-0.00872681	0
 					0.00872681	-0.999962	0
@@ -342,7 +342,7 @@
 					41.3425	-9.77789	0.937283
 				}
 				{VolumeView "mgun.ply"}
-				{bone revolute "foresight4"
+				{bone "foresight4"
 					{Matrix34
 						-0.999962	0.00872664	0
 						0.000152301	0.0174518	0.999848

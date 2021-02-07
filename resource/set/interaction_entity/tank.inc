@@ -5620,6 +5620,16 @@
 	}
 	("burn_by_engine" args 0.3)
 }
+{"d2_jap tank"
+	{on "add_movement_sound" overload
+		{link_sound "move"				"vehicle/tracks/churchill"		}
+		{link_sound "engine"			"vehicle/engine/churchill"		}
+		{link_sound "engine_end"		"vehicle/engine/churchill_end"	}
+		{link_sound "rotate_turret" 	"vehicle/turret/churchill_turret"	}
+		{link_sound "exhaust"			"vehicle/engine/churchill_up" 	}
+	}
+	("burn_by_engine" args 0.3)
+}
 {"b1 tank"
 	{on "add_movement_sound" overload
 		{link_sound "move"				"vehicle/tracks/churchill"		}

@@ -24,7 +24,7 @@
 	}	
 	
 	("armor_medium" turret(76 51 51 25) turret1(76 51 51 25) body(51 38 38 25) body1(51 38 38 25) body2(51 38 38 25) body3(51 38 38 25))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(76))
 	
 	{extender "enumerator"}
@@ -96,8 +96,8 @@
 			{type "mgun_hull"}
 			{weapon "browning_m19" filled}			
 			{foresight "foresight4"}
-			{gunner "driver"}
-			{charger "driver"}
+            {gunner "gunner1"}
+            {charger "gunner1"}
             ("abm_mgun")
 			{basic}
 		}
@@ -106,6 +106,7 @@
 			{weapon "browning_m19" filled}
 			{foresight "foresight5"}
             ("abm_mgun")
+			{basic}			
 		}
 	}
 

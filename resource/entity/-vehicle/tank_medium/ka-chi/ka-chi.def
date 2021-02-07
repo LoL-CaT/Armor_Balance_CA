@@ -36,8 +36,8 @@
 	("armor_medium_shit" turret(50 25 20 12) body(50 20 20 12))
 	("armor_mantlet" t(50))
 	("armor_engine"  t(12 12 12 12))
-	("wheels_armor" args 5)	
-	("shield" args 5)
+;	("wheels_armor" args 5)	
+	("shield" args 1)
 
 
 	("crew_4_human")
@@ -87,7 +87,6 @@
 	("seat_human" place(seat8) bone(seat08) door(emit10)  animation(armor1))
 
 
-	("shield" args 8)
 	{extender "shield"
 		{on}
 	}
@@ -119,6 +118,7 @@
 			{weapon "nambu_type97" filled} 
 			{foresight "foresight4"}
 			("abm_mgun")
+			{basic}			
 		}
 
 	}

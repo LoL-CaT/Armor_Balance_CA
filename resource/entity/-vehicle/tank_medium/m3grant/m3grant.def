@@ -1,4 +1,4 @@
-{Entity
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/m_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
@@ -7,7 +7,7 @@
  	
 	("armor_medium" turret(58 51 51 13) body(51 38 38 13))
 	("armor_engine"  t(13 13 13 13))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(76))
 	
 	{volume "body"
@@ -126,8 +126,8 @@
 		    {RestoreIKAfterAim} 
 			{weapon "75mm_m2tank" filling "ammo bullet75usa ap" 1}
 			{foresight "foresight2"}
-			{gunner "commander"}
-			{charger "commander"}
+            {gunner "gunner1"}
+            {charger "driver1"}
 			("abm_medium")
 			{rotate}
 			{basic}
@@ -139,6 +139,7 @@
 			{foresight "foresight3"}
 			{gunner "commander"}
             ("abm_mgun")
+			{basic}			
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}
@@ -148,7 +149,7 @@
             ("abm_mgun")
 			{basic}
 		}
-        	}
+    }
 
 	{mass 28600}
 	{Chassis
@@ -176,7 +177,7 @@
 	}				
 	{bone "gun_rot"
 		{speed2 5}
-		{limits -20 9}
+		{limits -9 20}
 	}
 	{bone "mgun"
 		{limits -10 10}
@@ -184,8 +185,8 @@
 	{bone "mgun_turret"
 		{limits 1 1}
 	}
-	{bone "mgun2"
-		{limits 1 1}
-	}	
+;	{bone "mgun2"
+;		{limits 1 1}
+;	}	
 	
 }

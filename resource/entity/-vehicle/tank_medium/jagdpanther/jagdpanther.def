@@ -27,8 +27,8 @@
 
 	("armor_spa_heavy" armor(85 50 40 25))
 	("armor_mantlet" t(100))
-	("wheels_armor" args 5)	
-	("shield" args 10)
+;	("wheels_armor" args 5)	
+	("shield" args 1)
 	
 	{Volume "mantlet"
 		{tags "gun"}
@@ -113,8 +113,8 @@
 			{type "mgun_hull"}
 			{weapon "mg34tank" filled}
 			{foresight "foresight3"}
-			{gunner "driver"}
-			{charger "driver"}
+            {gunner "gunner1"}
+            {charger "gunner1"}
 			("abm_mgun")
 			{basic}
 		}

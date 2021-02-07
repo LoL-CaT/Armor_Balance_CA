@@ -33,7 +33,7 @@
 	{Volume "mantlet"
 		{thickness 49}
 	}
-	("shield" args 2)
+	("shield" args 1)
 	
 	{extender "shield"
 		{on}
@@ -46,7 +46,7 @@
 	{component "shieldr3" {tags "shield"}}
 	
 	("armor_medium" turret(57 30 37 12) body(45 35 35 9))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(12 12 12 12))
 	
 	("crew_inside")

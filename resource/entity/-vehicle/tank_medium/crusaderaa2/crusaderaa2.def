@@ -39,7 +39,7 @@
 		{thickness 15}
 	}
 
-	("shield" args 10)
+	("shield" args 1)
 	
 	{extender "shield"
 		{on}
@@ -52,7 +52,7 @@
 	{component "shieldr3" {tags "shield"}}
 	
 	("armor_medium" turret(26 26 26	12) body(51 20 20 12))
-	("wheels_armor" args 5)
+;	("wheels_armor" args 5)
 	("armor_mantlet" t(49))
 
 	("crew_4_human")	
@@ -96,7 +96,6 @@
 		{place "gun"
 			{RestoreIKAfterAim}
 			{weapon "20mm_oerlikon_x2" filling "ammo bullet20_oerlikon zenite" 120}
-			{RestoreIKAfterAim}
 			{Barrels 2}
 			{gunner "gunner"}
 			{charger "gunner"}

@@ -330,8 +330,8 @@
 						14.9912	-0.767628	-1.15607
 					}
 					{VolumeView "gun_rot.ply"}
-					{bone revolute "mgun1"
-						{limits -15 15}
+					{bone "mgun1"
+;						{limits -15 15}
 						{Matrix34
 							1	0	0
 							0	0	-1

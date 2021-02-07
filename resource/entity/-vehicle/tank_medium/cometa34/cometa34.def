@@ -41,7 +41,7 @@
 
 	("armor_medium" turret(111 63 57 25) body(76 43 25 25) body2(32 43 25 32) body3(75 43 25 25))
 	("armor_engine"  t(25 25 25 25))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(110))
 
 
@@ -135,9 +135,10 @@
 			{type "mgun_hull"}
 			{weapon "besa" filled}
 			{foresight "foresight4"}
-			{gunner "driver"}
-			{charger "driver"}
+            {gunner "gunner1"}
+            {charger "gunner1"}	
 			("abm_mgun")
+			{basic}			
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}

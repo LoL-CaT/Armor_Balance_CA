@@ -51,16 +51,16 @@
 
 	("armor_medium" turret(58 51 51 13) body(51 38 38 13) body2(51 38 38 13) body3(89 38 38 13) body4(51 38 38 13))
 	("armor_engine"  t(13 13 13 13))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 
 
 	("crew_inside")
 	("crew_human" place(gunner)		door1(emit1) door2(emit2) visor(main))
-	("crew_human" place(gunner1)		door1(emit2) door2(emit1) visor(left))
+	("crew_human" place(gunner1)	door1(emit2) door2(emit1) visor(left))
 	("crew_human" place(gunner2)	door1(emit2) door2(emit1) visor(left))		
 	("crew_human" place(driver)		door1(emit1) door2(emit2) visor(driver))
 	("crew_human" place(charger)	door1(emit1) door2(emit2) visor(right))
-	("crew_human" place(charger1)	door1(emit2) door2(emit1) visor(back))
+	("crew_human" place(driver1)	door1(emit2) door2(emit1) visor(back))
 	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(top))
 	{sensor
 		{visor "driver"
@@ -156,7 +156,7 @@
 			{weapon "37mm_m5" filling "bullet37_m3 ap" 1}
 			{foresight "foresight2"}
 			{gunner "gunner1"}
-			{charger "charger1"}
+			{charger "driver1"}
 			("abm_medium")
 			{basic}
 		}
@@ -172,8 +172,9 @@
 			{type "mgun_coaxial"}
 			{weapon "browning_m19" filled}
 			{foresight "foresight5"}
-			{gunner "charger1"}
+			{gunner "gunner2"}
 			("abm_mgun")
+			{basic}			
 		}
         	{place "mgun1"
 			{type "mgun_hull"}
@@ -182,7 +183,8 @@
 			{gunner "driver"}
 			{Barrels 2}			
 			("abm_mgun")
-        	}
+			{basic}			
+        }
 	}
 
 	{mass 27900}
