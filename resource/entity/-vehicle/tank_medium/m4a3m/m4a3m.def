@@ -11,7 +11,7 @@
 
 	("armor_medium"  turret(0) body(51 38 38 25) body2(51 38 38 25))
 	("armor_engine"  t(25 25 25 25))		
-	("shield" args 10)
+	("shield" args 1)
 	
 	{volume "body1"
 		{component "body"}

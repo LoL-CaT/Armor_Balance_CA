@@ -6,8 +6,6 @@
 	{props "medium" "turret_rotator" "vision_vehicle_low" "muzzle_medium"}
 
 	{extender "enumerator"}
-	
-	("crew_4_human")
 
 	{volume "body1"
 		{component "body"}
@@ -59,9 +57,9 @@
 
 	("armor_medium"  turret(75 32 127 25) body(64 38 38 25) body2(108 38 38 25))
 	("armor_engine"  t(25 25 25 25))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(89))
-	("shield" args 10)
+	("shield" args 1)
 
 	{boarder
 		{anm "left"
@@ -130,8 +128,8 @@
 			{type "mgun_hull"}
 			{weapon "browning_m19" filled}			
 			{foresight "foresight4"}
-			{gunner "driver"}
-			{charger "driver"}
+            {gunner "gunner1"}
+            {charger "gunner1"}
 			("abm_mgun")
 			{basic}
 		}

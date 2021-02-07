@@ -9,7 +9,7 @@
 	
 	{projectileDamage 200}
     ("damage" a(0.1) b(0.1) c(0.1) d(0.1) e(0.1))	
-    ("speed" s(472))	
+    ("speed" s(550))	
 	
 	{desc "105 mm Howitzer M2A1 (MДС 210)"}		
 }

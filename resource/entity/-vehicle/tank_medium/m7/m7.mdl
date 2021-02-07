@@ -111,7 +111,7 @@
 						{parameters "ID=gun;"}
 						{Position -0.311102	-1.74705	6.54045}
 						{VolumeView "gun.ply"}
-						{bone revolute "foresight1"
+						{bone "foresight1"
 							;{Matrix34
 							;	;0.999991	0.00417437	0
 							;	;0	0	-1

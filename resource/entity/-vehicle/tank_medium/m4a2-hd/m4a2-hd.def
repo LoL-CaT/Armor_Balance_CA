@@ -26,12 +26,11 @@
 	("armor_medium" turret(76 51 51 25) body(64 38 38 51) body1(52 38 38 25) body2(52 38 38 51) body3(52 38 38 25))
 	("armor_engine"  t(25 25 25 25))	
 	("armor_mantlet" t(89))	
-	("wheels_armor" args 5)	
-	("shield" args 10)
+;	("wheels_armor" args 5)	
+	("shield" args 1)
 	
 	{extender "enumerator"}
 
-	("shield" args 5)
 	{extender "shield"
 		{on}
 	}
@@ -44,7 +43,7 @@
 
 
 
-	("crew_4_human_extended")
+	("crew_5_human_extended")
 	{boarder
 		{anm "driver"
 			{forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"} {base "open_driver1" }}
@@ -77,7 +76,7 @@
 	}
 
 ;	("gunner_visible")
-	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))
+;	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))
 	
 	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
 	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
@@ -139,9 +138,10 @@
 			{type "mgun_hull"}
 			{weapon "browning_m19" filled}
 			{foresight "foresight4"}
-			{gunner "driver"}
-			{charger "driver"}
+            {gunner "gunner1"}
+            {charger "gunner1"}
             ("abm_mgun")
+			{basic}			
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}

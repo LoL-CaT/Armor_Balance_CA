@@ -514,16 +514,16 @@
 				}
 				{VolumeView "detail1.ply"}
 			}
-			{bone revolute "mgun2_turret"
-				{limits -30 30}
+			{bone "mgun2_turret"
+;				{limits -30 30}
 				{Matrix34
 					1	0	0
 					0	1	-0.000680566
 					0	0.000683308	1
 					43.7951	-9.7142	4.35486
 				}
-				{bone revolute "mgun2"
-					{limits -30 30}
+				{bone "mgun2"
+;					{limits -30 30}
 					{parameters "ID=body;"}
 					{Matrix34
 						1	0	0

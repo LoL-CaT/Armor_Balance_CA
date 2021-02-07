@@ -53,7 +53,7 @@
 	}
 
 	("armor_light_shit" turret(13) body(13 13 13 13))	
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	
 	{extender "enumerator"}
 	
@@ -67,7 +67,8 @@
     {Weaponry
         {place "gun"
             {weapon "40mm_m19" filling "ammo bullet40_bofors zenite" 8}
-            {charger "gunner"}
+			{gunner "gunner" "gunner1"}
+			{charger "charger" "driver1"}
             {Barrels 2}
 			("abm_zenite")
         }
@@ -111,7 +112,7 @@
 	("crew_human" place(commander) door1(emit4) visor(main))
 	
 	("crew_human" place(charger) door1(emit4) visor(main))
-	("crew_human" place(charger2) door1(emit4) visor(main))	
+	("crew_human" place(driver1) door1(emit4) visor(main))	
 
 	("seat_human" place(seat1) bone(seat01) door(emit1)  animation(armor1))
 	("seat_human" place(seat2) bone(seat02) door(emit3)  animation(armor))
