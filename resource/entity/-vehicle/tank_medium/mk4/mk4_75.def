@@ -18,7 +18,7 @@
 	}
 	
 	("armor_heavy" turret(89 76 76 20) body(102 76 64 20))
-	("wheels_armor" args 5)
+;	("wheels_armor" args 5)
 	
 	("crew_5_human")
 
@@ -100,8 +100,8 @@
 			{type "mgun_hull"}
 			{weapon "besa" filled}
 			{foresight "foresight4"}
-			{gunner "driver"}
-			{charger "driver"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun")
 			{basic}			
 		}

@@ -11,7 +11,7 @@
 	}
 	
 	("armor_medium_shit" turret(65 65 65 20) body(60 43 60 20))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 
 	{extender "enumerator"}
 	

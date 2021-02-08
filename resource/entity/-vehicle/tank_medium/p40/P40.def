@@ -19,7 +19,7 @@
 		{component "turret"}
 	}
 	("armor_medium" turret(50 45 40 20) body(50 45 40 20))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(50))
 	("armor_engine"  t(20 20 20 20))
 	

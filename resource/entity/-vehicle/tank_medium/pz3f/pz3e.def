@@ -18,7 +18,7 @@
 	}
 	
 	("armor_light" turret(15 15 15 10) body(15 15 15 10))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(10 10 10 10))
 	("armor_mantlet" t(37))
 	
@@ -113,13 +113,14 @@
 			{type "mgun_hull"}
 			{weapon "mg34tank" filled}
 			{foresight "foresight4"}
-			{gunner "driver"}
-			{charger "driver"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun")
+			{basic}			
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}
-			{weapon "mg34_x2" filled}
+			{weapon "mg_34_x2_tank" filled}
 			{foresight "foresight3"}
 			{Barrels 2}
 			{gunner "commander"}

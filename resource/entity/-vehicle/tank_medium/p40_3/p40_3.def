@@ -15,11 +15,11 @@
 		{component "turret"}
 	}
 	("armor_medium_shit" turret(100 50 50 30) body(100 50 50 30))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(50))
 	("armor_engine"  t(30 30 30 30))
 
-	("shield" args 5)
+;	("shield" args 5)
 	{extender "shield"
 		{on}
 	}
@@ -92,8 +92,8 @@
 			{type "mgun_coaxial"}
 			{foresight "foresight5"}
 			{weapon "breda_m1938" filled}
-			{gunner "gunner"}
-			{charger "charger"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun")
 			{basic}
 		}

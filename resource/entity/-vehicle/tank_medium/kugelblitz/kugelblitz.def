@@ -24,7 +24,7 @@
 			{component "turret"}
 	}
 	
-	("armor_medium_shit" turret(22) turret1(22) body(80 30 30 22))
+	("armor_medium_shit" turret(30) turret1(30) body(80 30 30 15))
 ;	("wheels_armor" args 5)	
 	("shield" args 1)
 	

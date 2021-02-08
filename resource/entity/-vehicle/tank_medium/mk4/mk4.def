@@ -4,7 +4,7 @@
 	(include "/properties/h_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
 	{collider "tank.heavy"}
-	{props "heavy" "turret_rotator" "vision_vehicle_mahimum" "muzzle_small" "tank"}
+	{props "heavy" "turret_rotator" "vision_vehicle_maximum" "muzzle_small" "tank"}
 
 	{extender "enumerator"}
 	
@@ -18,7 +18,7 @@
 	}
 	
 	("armor_heavy" turret(89 76 76 20) body(102 76 64 20))
-	("wheels_armor" args 5)
+;	("wheels_armor" args 5)
 	
 	("crew_5_human")
 
@@ -100,8 +100,8 @@
 			{type "mgun_hull"}
 			{weapon "besa" filled}
 			{foresight "foresight4"}
-			{gunner "driver"}
-			{charger "driver"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun")
 			{basic}			
 		}

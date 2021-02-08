@@ -1,5 +1,5 @@
 ;mk x 43
-{entity
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/m_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
@@ -19,8 +19,9 @@
 	
 	("armor_medium_shit" turret(65 60 65 20) body(60 43 60 17))
 	("armor_mantlet" t(65))		
-	("wheels_armor" args 5)	
-	("shield" args 50)
+;	("wheels_armor" args 5)	
+	("shield" args 1)
+	
 	{extender "shield"
 		{on}
 	}	

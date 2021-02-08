@@ -23,8 +23,8 @@
 		{thickness 30}
 	}
 
-	("armor_medium" turret(20 20 20 15) body(80 30 30 15))
-	("wheels_armor" args 5)	
+	("armor_medium" turret(25 25 25 15) body(80 30 30 15))
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(15 15 15 15))
 	
 	(define "crew_human"
@@ -45,14 +45,14 @@
 		{place "commander" {visor "main"}}
 		{place "gunner" {visor "main"}}
 		{place "charger" {visor "main"}}
-		{place "charger2" {visor "main"}}		
+		{place "gunner1" {visor "main"}}		
 	}	
 	
 	{boarder
 		{door "emit0"}
 ;		{door "emit1"}
 		{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
-		{link "emit0" "charger2" {anm "driver"} {forward putoff} {reverse puton}}		
+		{link "emit0" "gunner1" {anm "driver"} {forward putoff} {reverse puton}}		
 ;		{link "emit1" "commander" {anm "driver"} {forward putoff} {reverse puton}}
 	}
 
@@ -69,7 +69,7 @@
 			{forward	{begin	"board_tank_left"} {end "pose_seat_armor_2"}}
 			{reverse 	{end	"emit_tank_2_hold"}}
 		}
-		{anm "charger2"
+		{anm "gunner1"
 			{forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
 			{reverse 	{end	"board_pz4_driver" -1} {base "open_driver" -1}}
 		}		
@@ -129,8 +129,8 @@
 			{type "mgun_hull"}
 			{weapon "mg34tank" filled}
 			{foresight "foresight4"}
-			{gunner "commander"}
-			{charger "commander"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun")
 			{basic}
 		}

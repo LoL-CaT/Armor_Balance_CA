@@ -46,7 +46,7 @@
 	{component "shieldr3" {tags "shield"}}
 
 	("armor_medium" turret(59 30 35 12) body(45 35 35 9))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(12 12 12 12))
 
 	("crew_3_human")

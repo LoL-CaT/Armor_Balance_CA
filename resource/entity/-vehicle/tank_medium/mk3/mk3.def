@@ -1,5 +1,5 @@
 ;mk iii 40
-{entity
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/m_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))

@@ -181,8 +181,8 @@
 							0	1	0
 							-3.19376	-1.0848	7.46736
 						}
-						{bone revolute "mgun2_rot"
-							{limits -15 15}
+						{bone "mgun2_rot"
+;							{limits -15 15}
 							{Matrix34
 								1	0	0
 								0	0	1
