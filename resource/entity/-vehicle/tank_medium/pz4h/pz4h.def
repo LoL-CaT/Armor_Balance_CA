@@ -29,7 +29,7 @@
 	}
 	("armor_medium" turret(50 35 35 16) body(80 35 25 16))
 	("armor_engine"  t(16 16 16 16))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(50))
 	("shield" args 1)
 	
@@ -155,10 +155,10 @@
 			{type "mgun_hull"}
 			{weapon "mg34tank" filled}
 			{foresight "foresight4"}
-			{gunner "driver"}
-			{charger "driver"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun")
-            {basic}			
+			{basic}			
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}
