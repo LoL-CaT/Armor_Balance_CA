@@ -4027,10 +4027,13 @@ msgctxt "desc/entity/wespe"
 msgid "wespe"
 msgstr "Feldhaubitze 18/2 auf Panzerkampfwagen II (43 г.в.)"
 
+msgctxt "desc/entity/sdkfz138_1"
+msgid "sdkfz138_1"
+msgstr "Geschützwagen 38 für sIG 33 (Sf.) (43 г.в.)"
 
 msgctxt "desc/entity/grille"
 msgid "grille"
-msgstr "Sturmpanzer 38(t) Ausf. M (43 г.в.)"
+msgstr "Geschützwagen 38 für sIG 33 (Sf.) (43 г.в.)"
 
 
 msgctxt "desc/entity/karlthor"

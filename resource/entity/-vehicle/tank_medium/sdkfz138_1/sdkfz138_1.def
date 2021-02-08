@@ -1,7 +1,12 @@
 {game_entity
 	(include "/properties/tank.ext")
+	(include "/properties/l_tank_mobility.ext")	
 	(include "/properties/selection/vehicle.inc" scale(1.2))
-	{props "medium" "-turret" "opened" "vision_vehicle_high" "muzzle_maximum"}
+	{collider "tank.light"}	
+	{props "light" "-turret" "opened" "vision_vehicle_low" "muzzle_maximum"}
+	{targetClass "light_tank" "bullet"}
+	{targetSelector "tank_bullet"}	
+	{patherId "tank.light"}	
 	
 	{extender "enumerator"
 		{digit_folder "ger"}
@@ -35,52 +40,45 @@
         {thickness 2}
 	}
 
-	("armor_medium" body(50 15 15 15) turret(15 15 15 15))
-	("armor_engine"  t(15 15 15 15))
+	("armor_light_shit" turret(10 10 10 8) body(15 10 10 8))
+;	("wheels_armor" args 5)	
+	("armor_engine"  t(8))
 
 	{extender "inventory"
 		{box
-            {item "ammo bullet150 fg" 30}
-			{item "ammo bullet150 sm" 12}
+			{item "ammo bullet150_sig33 fg" 12}
+;			{item "ammo bullet150_sig33 heat" 1}
 		}
 	}
 	{Weaponry
+		("restore_ik_time")
 		{place "gun"
-			{weapon "150mm_sig33_how" filling "ammo bullet150 fg" 6}
+			{RestoreIKAfterAim}
+			{weapon "150mm_sig33" filling "bullet150_sig33 fg"}   
 			{StationaryFiring}
 			("abm_howitzer")
 		}
 	}
 
 	{mass 11500}
-	{Chassis
+		{Chassis
 		("tank_trace" fx("tracks_mid") step(0.56) len(0.167))
-		{Locomotion ("locomotion")
-			{MaxSpeed			24}
-			{maxSpeedAtMaxTurn	11}
-			{StartTime			14}
-			{TurnStart			1.7}			
-			{TurnTime			9}
-			{TurnRadius			10} 
-    		{TurnStop			0.9}
-			{BrakeTime			1}
-			{StopTime			2}
-			{Gears				0.2 0.4 1}
-			{RearGears			0.35}		
-		}
-		{FuelBag
-			{volume	470 }	
-			{rate	135 }   
-			{remain	470 }
-			{fuel	"fuel"}
-		}
-		{speed
-        	{Normal	12}
-        	{Slow	18}
-    	}
-		{DisableMoveWhileFiring}
+		("mobility"
+			speed(42)
+			weight(11.5)
+			power(100)
+			fuel(320)	
+		)
 	}
+	
 	{Extension "sdkfz138_1.mdl"}
+
+	{bone "gun_rot1"
+		{speed2 5}
+	}
+	{bone "gun_rot"
+		{speed2 5}
+	}
 	
 	(mod "mp"
 		{brain

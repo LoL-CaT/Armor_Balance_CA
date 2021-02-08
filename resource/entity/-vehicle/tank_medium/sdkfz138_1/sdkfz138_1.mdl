@@ -186,7 +186,7 @@
 				{VolumeView "gun_rot1.ply"}
 				{bone revolute "gun_rot"
 					{parameters "ID=gun_rot;"}
-					{limits -3 42}
+					{limits -3 72}
 					{speed 0.003}
 					{Matrix34
 						1	0	0

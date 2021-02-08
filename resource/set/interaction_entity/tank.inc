@@ -14591,6 +14591,10 @@
 	("pz38_sound")
 	("burn_by_engine" args 0.3)
 }
+{"sdkfz138_1 tank"
+	("pz38_sound")
+	("burn_by_engine" args 0.3)
+}
 {"ft17m31 tank"
 	("pz38_sound")
 	("burn_by_engine" args 0.3)

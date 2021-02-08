@@ -189,7 +189,7 @@
 {"np_sdkfz135_1"    ("v" cd(2700) ci(900) c(900) t(all artillery) 			s(ger) n1(3) n2(1) g(g19) sc(6.0) b(v6) cw(0) cp(10)) {cost 1450} {fore -2.01}} ; ГОД 42
 {"hummel"           ("v" cd(2700) ci(900) c(900) t(all artillery heavy) 	    s(ger) n1(5) n2(1) g(g20) sc(6.0) b(v6) cw(0) cp(10)) {cost 1500} {fore -2.01}} ; ГОД 42
 {"wespe"            ("v" cd(3600) ci(900) c(900) t(all artillery) 			s(ger) n1(3) n2(1) g(g21) sc(6.0) b(v6) cw(0) cp(5))  {cost 900} {fore -3.01}} ; ГОД 43
-{"grille"           ("v" cd(3600) ci(900) c(900) t(all artillery heavy) 	    s(ger) n1(3) n2(1) g(g22) sc(6.0) b(v6) cw(0) cp(10)) {cost 1500} {fore -3.01}} ; ГОД 43
+{"sdkfz138_1"       ("v" cd(3600) ci(900) c(900) t(all artillery heavy) 	    s(ger) n1(3) n2(1) g(g22) sc(6.0) b(v6) cw(0) cp(10)) {cost 1500} {fore -3.01}} ; ГОД 43 ; grille old
 
 {"karlthor"         ("v" cd(900) ci(900) c(900) t(all artillery heavy) 	            s(ger) n1(4) n2(1) g(g23) sc(6.0) b(v6) cw(0) cp(25)) {cost 1850} {fore -0.01}} ; ГОД 40
 
