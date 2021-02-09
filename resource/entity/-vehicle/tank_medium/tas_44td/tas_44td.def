@@ -37,7 +37,7 @@
 	
 
 	("armor_spa_heavy" armor(100 30 30 20))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(20 20 20 20))		
 
 	("crew_5_human")
@@ -90,8 +90,8 @@
 			{type "mgun_hull"}
 			{weapon "gebauer" filled}
 			{foresight "foresight4"}
-			{gunner "driver"}
-			{charger "driver"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun")
 			{basic}
 		}

@@ -46,9 +46,9 @@
 	
 	("armor_medium_shit" turret(95 35 25 25) body(95 35 25 25))	
 	("armor_engine"  t(25 25 25 25))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(95))
-	("shield" args 25)
+	("shield" args 1) ; 25
 	
 	{extender "shield"
 		{on}
@@ -121,9 +121,10 @@
 			{type "mgun_hull"}
 			{weapon "gebauer" filled}
 			{foresight "foresight4"}
-			{gunner "driver"}
-			{charger "driver"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun")
+			{basic}
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}

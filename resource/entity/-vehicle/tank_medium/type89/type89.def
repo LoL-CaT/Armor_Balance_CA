@@ -60,7 +60,7 @@
 	}
 	("armor_light_shit" turret(17 15 15 8) body(17 17 17 8))
 	("armor_mantlet" t(17))
-	("wheels_armor" args 5)		
+;	("wheels_armor" args 5)		
 	 
 	{extender "inventory"
 		{box
@@ -95,6 +95,7 @@
 			{charger "commander"}
 			{foresight "foresight4"}
 			("abm_mgun")
+         	{basic}			
 		}			
 	}
 	{sensor
@@ -135,7 +136,9 @@
 			{bone "visor18"}
 		}		
 	}
+	
 	("crew_4_human_extended")
+	
 	{placer 
 		{place "commander" {visor "back"}}
 	}
@@ -165,6 +168,7 @@
 	("seat_human" place(seat2) bone(seat02) door(emit3)  animation(armor))
 	("seat_human" place(seat3) bone(seat03) door(emit4)  animation(armor1))
 	("seat_human" place(seat4) bone(seat04) door(emit4)  animation(armor))
+	
 	{mass 14800}
 	{Chassis
 		("tank_trace" fx("tracks_mid") step(0.56) len(0.3))

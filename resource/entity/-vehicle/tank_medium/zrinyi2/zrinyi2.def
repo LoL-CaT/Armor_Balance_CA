@@ -23,9 +23,9 @@
     }
 
     ("armor_spa_medium" armor(75 25 25 15))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
     ("armor_engine"  t(15))
-	("shield" args 10)
+	("shield" args 1)
 
 
     ("crew_4_human")
