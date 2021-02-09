@@ -211,13 +211,14 @@
 {"t34_43"           ("v" cd(3600) ci(60) c(60) t(all medium) s(rus) n1(3) n2(1) g(i13) sc(6.0) b(v7) cw(0) cp(7)) {cost 185} {fore -60}} ; ГОД 43 
 {"m4a2"             ("v" cd(3600) ci(60) c(60) t(all medium) s(rus) n1(4) n2(1) g(i14) sc(6.0) b(v7) cw(0) cp(7)) {cost 190} {fore -60}} ; ГОД 43
 {"t34_1_hd"         ("v" cd(3600) ci(60) c(60) t(all medium) s(rus) n1(3) n2(1) g(i15) sc(6.0) b(v7) cw(0) cp(7)) {cost 285} {fore -60}} ; ГОД 43
-{"t34_2_hd"         ("v" cd(4500) ci(60) c(60) t(all medium) s(rus) n1(3) n2(1) g(i16) sc(6.0) b(v7) cw(0) cp(7)) {cost 160} {fore -75}} ; ГОД 44
-{"m4a2_76w_rus"     ("v" cd(4500) ci(60) c(60) t(all medium) s(rus) n1(4) n2(1) g(i17) sc(6.0) b(v7) cw(0) cp(7)) {cost 485} {fore -75}} ; ГОД 44	
-{"t34_3"            ("v" cd(4500) ci(60) c(60) t(all medium) s(rus) n1(4) n2(1) g(i18) sc(6.0) b(v7) cw(0) cp(7)) {cost 500} {fore -75}} ; ГОД 44 
-{"t34_3_hd"         ("v" cd(4500) ci(60) c(60) t(all medium) s(rus) n1(4) n2(1) g(i19) sc(6.0) b(v7) cw(0) cp(7)) {cost 545} {fore -75}} ; ГОД 44 
-{"t44"              ("v" cd(4500) ci(60) c(60) t(all medium) s(rus) n1(3) n2(1) g(i20) sc(6.0) b(v7) cw(0) cp(7)) {cost 900} {fore -75}} ; ГОД 44
-{"t44_2"            ("v" cd(5400) ci(60) c(60) t(all medium) s(rus) n1(4) n2(1) g(i21) sc(6.0) b(v7) cw(0) cp(7)) {cost 650} {fore -90}} ; ГОД 45
-{"t-54a"            ("v" cd(6300) ci(60) c(60) t(all medium) s(rus) n1(3) n2(1) g(i22) sc(6.0) b(v7) cw(0) cp(7)) {cost 1200} {fore -105}} ; ГОД 46
+{"t34_d5t_hd"       ("v" cd(3600) ci(900) c(900) t(all medium) s(rus) n1(4) n2(1) g(i16) sc(6.0) b(v7) cw(0) cp(7)) {cost 850} {fore -3.01}} ; ГОД 43
+{"t34_2_hd"         ("v" cd(4500) ci(60) c(60) t(all medium) s(rus) n1(3) n2(1) g(i17) sc(6.0) b(v7) cw(0) cp(7)) {cost 160} {fore -75}} ; ГОД 44
+{"m4a2_76w_rus"     ("v" cd(4500) ci(60) c(60) t(all medium) s(rus) n1(4) n2(1) g(i18) sc(6.0) b(v7) cw(0) cp(7)) {cost 485} {fore -75}} ; ГОД 44	
+{"t34_3"            ("v" cd(4500) ci(60) c(60) t(all medium) s(rus) n1(4) n2(1) g(i19) sc(6.0) b(v7) cw(0) cp(7)) {cost 500} {fore -75}} ; ГОД 44 
+{"t34_3_hd"         ("v" cd(4500) ci(60) c(60) t(all medium) s(rus) n1(4) n2(1) g(i20) sc(6.0) b(v7) cw(0) cp(7)) {cost 545} {fore -75}} ; ГОД 44 
+{"t44"              ("v" cd(4500) ci(60) c(60) t(all medium) s(rus) n1(3) n2(1) g(i21) sc(6.0) b(v7) cw(0) cp(7)) {cost 900} {fore -75}} ; ГОД 44
+{"t44_2"            ("v" cd(5400) ci(60) c(60) t(all medium) s(rus) n1(4) n2(1) g(i22) sc(6.0) b(v7) cw(0) cp(7)) {cost 650} {fore -90}} ; ГОД 45
+{"t-54a"            ("v" cd(6300) ci(60) c(60) t(all medium) s(rus) n1(3) n2(1) g(i23) sc(6.0) b(v7) cw(0) cp(7)) {cost 1200} {fore -105}} ; ГОД 46
 
 ;{"t34m"            ("v" cd(2700) ci(60) c(60) t(deminer) 	s(rus) n1(1) n2(1) g(d8) sc(6.0) b(v3) cw(0) cp(1)) {cost 350} {fore 1}} ; ГОД 42
 

@@ -119,12 +119,12 @@
 		{tags "detail20"}
 	}	
 
-	("armor_medium_shit" turret(52 52 52 20) body(45 40 45 20))
-	("wheels_armor" args 5)	
+	("armor_medium_shit" turret(67 67 67 20) body(60 55 60 20))
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(52))
 	("armor_engine"  t(20 20 20 20))
 	
-	("shield" args 15)
+	("shield" args 1)
 	{extender "shield"
 		{on}
 	}
@@ -255,7 +255,7 @@
 			{gunner "driver"}
 			{charger "driver"}
 			("abm_mgun")
-;			{basic}
+			{basic}
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}

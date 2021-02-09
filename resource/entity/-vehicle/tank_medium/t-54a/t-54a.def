@@ -2,8 +2,7 @@
 
 ;==================================================================================================
 
-{Entity
-	
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/tank1.ext")
 	(include "/properties/m_tank_mobility.ext")
@@ -59,7 +58,7 @@
 ;==================================================================================================	
 	
 	("armor_heavy_shit" turret(200 90 65 200) turre2(200 90 65 200) turret3(200 90 65 200) body(120 80 45 120) body2(120 80 45 120) body3(120 80 45 120) body4(120 80 45 120) body5(100 80 45 30) spa(120 80 45 120) spa2(120 80 45 120))
-	("wheels_armor" args 5)
+;	("wheels_armor" args 5)
 	("armor_engine"  t(30 30 30 30))		
 	("armor_mantlet" t(200))	
 
@@ -124,8 +123,8 @@
 			{foresight "foresight5"}
 			{gunner "gunner"}
 			{charger "gunner"}
-			{basic}	
-			("abm_mgun")	
+			("abm_mgun")			
+			{basic}		
 		}
 	}
 

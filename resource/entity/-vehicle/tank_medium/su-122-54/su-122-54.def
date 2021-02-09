@@ -59,14 +59,14 @@
 	}	
 
 	("armor_spa_medium" armor(100 80 45 100) armor2(100 80 45 100) armor3(100 80 45 100))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(20 20 20 20))
 	("armor_mantlet" t(120))
 	
 	("crew_human" place(gunner)		door1(emit1) door2(emit2) visor(main))
 	("crew_human" place(driver)			door1(emit1) door2(emit2) visor(driver))
 	("crew_human" place(charger)		door1(emit1) door2(emit2) visor(commander))
-	("crew_human" place(charger2)		door1(emit1) door2(emit2) visor(commander))
+	("crew_human" place(gunner1)		door1(emit1) door2(emit2) visor(commander))
 	("crew_human" place(commander) 		door1(emit1) door2(emit2) visor(commander))
 
 
@@ -136,7 +136,7 @@
 
 	{extender "inventory"
 		{box
-			{size 9 12}			
+;			{size 9 12}			
 ;			{item "ammo bullet122rus_late ap" 14}
 			{item "ammo bullet122rus_late apcr" 14}
 			{item "ammo bullet122rus_late fg" 21}
@@ -157,8 +157,8 @@
 			{type "mgun_coaxial"}
 			{weapon "kpvt" filled}
 			{foresight "foresight5"}
-			{gunner "gunner"}
-			{charger "gunner"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
 			("abm_mgun_heavy")
 			{foresight "foresight5"}			
 			{basic}		

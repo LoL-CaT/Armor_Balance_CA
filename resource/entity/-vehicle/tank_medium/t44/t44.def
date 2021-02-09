@@ -78,9 +78,9 @@
 	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
 
 	("armor_medium"  turret(120 90 75 120) body(90 75 45 90) body2(90 75 45 90))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(120))
-	("armor_engine"  t(10))
+	("armor_engine"  t(1))
 
     {sensor
 	        {visor "tur2_1"
@@ -147,7 +147,7 @@
 			{weapon "dt" filled}
 			{foresight "foresight5"}
 			("abm_mgun")
-            		{basic}
+            {basic}
 		}
 	}
 	

@@ -16,9 +16,9 @@
 	
 	("armor_spa_medium" armor(80 30 21 10))
 	("armor_mantlet" t(30))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(10 10 10 10))
-	("shield" args 10)
+	("shield" args 1)
 	
 	("crew_5_human")
 
@@ -43,8 +43,8 @@
 			{type "mgun_hull"}
 			{weapon "mg34tank" filled}
 			{foresight "foresight4"}
-			{gunner "gunner3"}
-			{charger "gunner3"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
             ("abm_mgun")
 			{basic}
 		}

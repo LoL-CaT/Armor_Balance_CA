@@ -40,7 +40,7 @@
 
 	("armor_spa_medium" armor(50 27 27 11))
 	("armor_mantlet" t(50))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(11 11 11 11))
 
     {sensor

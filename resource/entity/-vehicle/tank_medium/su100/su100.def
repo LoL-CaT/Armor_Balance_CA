@@ -39,7 +39,7 @@
     }
 
 	("armor_spa_medium" armor(75 45 45 20))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(20 20 20 20))
 	("armor_mantlet" t(110))
     

@@ -28,7 +28,7 @@
 	}
 	
 	("armor_medium_shit" turret(52 52 52 20) body(45 40 45 20))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(52))
 	("armor_engine"  t(20 20 20 20))
 	
@@ -128,6 +128,7 @@
 			{gunner "driver"}
 			{charger "driver"}
 			("abm_mgun")
+            {basic}			
 		}
 		{place "mgun2"
 			{type "mgun_coaxial"}

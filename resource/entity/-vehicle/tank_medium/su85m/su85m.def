@@ -28,7 +28,7 @@
 	}
 
 	("armor_spa_medium" armor(75 45 45 20))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(20 20 20 20))
 	("armor_mantlet" t(110))
 	
@@ -102,16 +102,18 @@
 	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))		
 	
 	{extender "inventory"
-		{box
-	
+		{box	
 			{item "ammo bullet85rus ap" 22}
 			{item "ammo bullet85rus apcr" 2}
 			{item "ammo bullet85rus fg" 28}
 		}
 	}
 	{Weaponry
+        ("restore_ik_time")	
 		{place "gun"
+            {RestoreIKAfterAim}		
 			{weapon "85mm_d5s" filling "ammo bullet85rus ap" 1}
+            ("abm_high")			
 		}
 	}
 

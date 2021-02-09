@@ -10,7 +10,7 @@
 	{extender "enumerator"}
 	
 	("armor_medium" turret(0) body(45 40 45 20))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(20 20 20 20))
 
 	{volume "body1"

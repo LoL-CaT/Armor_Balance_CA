@@ -20,9 +20,9 @@
 		{thickness 30}
 	}
 	("armor_spa_medium" armor(80 30 30 10))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(10 10 10 10))
-	("shield" args 10)
+	("shield" args 1)
 	
 	{extender "shield"
 			{on}
@@ -66,9 +66,10 @@
 		}
 	}
 
-	("crew_3_human")
+	("crew_4_human")
 
-	("crew_human" place(gunner3) door1(emit1) door2(emit2) visor(top))
+;	("crew_human" place(gunner3) door1(emit1) door2(emit2) visor(top))
+	
 	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
 	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor1))
 	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor2))
@@ -121,7 +122,7 @@
 			{mask "weapon mgun"}
 		}
 		{box
-;			{item "ammo mgun" 1200}
+			{item "ammo mgun" 1200}
 			{item "ammo bullet75ger ap" 40}
             {item "ammo bullet75ger apcr" 2}
 			{item "ammo bullet75ger fg" 23}
@@ -139,8 +140,8 @@
 		{place "mgun"
 			{type "mgun_aa"}
             {weapon "mg34tank" filled}			
-			{gunner "gunner3"}
-			{charger "gunner3"}
+			{gunner "gunner"}
+			{charger "gunner"}
 			{LinkBone "mgun_rot"}
 			{LinkAnimation "off"}
 			{basic}
@@ -149,6 +150,7 @@
 			{type "mgun_coaxial"}
 			{weapon "mg34tank" filled}	
 			{foresight "foresight4"}
+			{basic}			
 		}
 	}
 

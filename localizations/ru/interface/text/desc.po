@@ -2795,8 +2795,11 @@ msgstr "M4A2 «Шерман» Лэндлиз (43 г.в.) "
 
 msgctxt "desc/entity/t34_1_hd"
 msgid "t34_1_hd"
-msgstr "Т-34-57Э обр. 1943 г (43 г.в.)"
+msgstr "Т-34-57Э обр. 1943 г (43 г.в.)" t34_d5t_hd
 
+msgctxt "desc/entity/t34_d5t_hd"
+msgid "t34_d5t_hd"
+msgstr "Т-34-85 обр. 1943 г (43 г.в.)"
 
 msgctxt "desc/entity/t34_2_hd"
 msgid "t34_2_hd"

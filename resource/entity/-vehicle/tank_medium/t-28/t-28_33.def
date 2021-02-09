@@ -31,7 +31,7 @@
 	}	
 	
 	("armor_medium_M3" body(30 20 18 20) body1(30 20 18 20) body2(30 20 18 20) body3(30 20 18 20) turret(20 20 20 20) turret2(20 20 20 20) turret3(20 20 20 20) SHL1(5) SHR1(5) SHL2(5) SHR2(5) SHR3(5))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(20))
 	{Volume "cover"
 		{tags "turret"}

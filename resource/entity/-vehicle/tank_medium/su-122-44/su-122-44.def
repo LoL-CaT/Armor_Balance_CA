@@ -14,7 +14,7 @@
 	}	
 	
 	("armor_spa_medium" armor(90 75 45 20))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(20 20 20 20))
 	("armor_mantlet" t(110))
 	
@@ -70,7 +70,7 @@
 	
 	{extender "inventory"
 		{box
-			{size 9 12}
+;			{size 9 12}
 			{item "ammo bullet122rus ap" 21}
 			{item "ammo bullet122rus heat" 5}
 			{item "ammo bullet122rus apcr" 2}

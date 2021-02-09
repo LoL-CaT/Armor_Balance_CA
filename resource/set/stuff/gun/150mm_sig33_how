@@ -1,4 +1,4 @@
-{from "pattern gun"    ; "sdkfz138_1"
+{from "pattern gun"    ;
 	{filling "bullet150" 6}
 	{fireSound "gun/howitzer/152mm_ml20"}
 	{reloadSound "tankgun_r04"}

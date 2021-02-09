@@ -44,7 +44,7 @@
 ;	("gunner_visible")
 	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))
 
-	("shield" args 6)
+	("shield" args 1)
 	{extender "shield"
 		{on}
 	}
@@ -95,7 +95,7 @@
 	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
 
 	("armor_medium"  turret(120 90 75 15) body(90 75 45 15) body2(90 75 45 15))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(120))
 	("armor_engine"  t(15))
 
@@ -173,7 +173,7 @@
 			{weapon "dt" filled}
 			{foresight "foresight5"}
 			("abm_mgun")
-            		{basic}
+            {basic}
 		}
 	}
 	
