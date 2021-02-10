@@ -8,8 +8,8 @@
 	
 	("armor_spa_light" armor(25 25 7 8))
 	("armor_engine"  t(8 8 8 8))
-	("wheels_armor" args 5)	
-	("shield" args 10)
+;	("wheels_armor" args 5)	
+	("shield" args 1)
 
 	{extender "shield"
 			{on}
@@ -57,10 +57,11 @@
 
 	{extender "inventory"
 			{box
-				{item "ammo bullet105j fg" 30}
+				{item "ammo bullet105j fg" 300}
 			}
-		}
-		{Weaponry
+	}
+		
+	{Weaponry
 		("restore_ik_time")
 			{place "gun"
 			{RestoreIKAfterAim}
@@ -68,7 +69,7 @@
 			{charger "commander"}
 			("abm_howitzer")
 			}
-		}
+	}
 	
 
 	{mass 16300}
@@ -156,7 +157,7 @@
 	}
 
 	{bone "turret"
-	    {limits -5 45}
+	    {limits -5 50}
 	    {speed2 5}
 	}
 	{bone "gun_rot"

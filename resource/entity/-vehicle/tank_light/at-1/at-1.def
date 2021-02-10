@@ -200,8 +200,8 @@
 
 	("armor_engine"  t(10 10 10 10))
 	("armor_mantlet" t(25))
-	("wheels_armor" args 5)
-	("shield" args 10)
+;	("wheels_armor" args 5)
+	("shield" args 1)
 	
 	{extender "shield"
 			{on}

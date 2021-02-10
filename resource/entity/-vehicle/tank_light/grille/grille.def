@@ -43,7 +43,7 @@
 	}
 	
 	("armor_light" turret(10 10 10 8) body(15 10 10 8))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(8))
 	
 	{component "engine"	

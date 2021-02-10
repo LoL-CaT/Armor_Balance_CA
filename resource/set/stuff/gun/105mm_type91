@@ -6,7 +6,7 @@
 	("caliber_large")
 		    {calibre 105}	
 	{projectileDamage 200}
-	("speed" s(546))
+	("speed" s(596))
 	("damage" a(0.1) b(0.1) c(0.1) d(0.1) e(0.1))
 
     ("accuracy_medium_howitzer")

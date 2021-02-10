@@ -1,4 +1,4 @@
-{entity
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -20,7 +20,7 @@
 	
 	("armor_light" turret(16 16 16 8) body(16 16 16 8))
 	("armor_mantlet" t(16))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(8))
 	
 	("crew_inside")
@@ -90,7 +90,7 @@
 	}
 	{Weaponry
 		{place "mgun"
-                        {type "mgun_main"}
+            {type "mgun_main"}
 			{weapon "7,5mm_shatelro" filled}
 			{charger "gunner"}
 			("abm_mgun")

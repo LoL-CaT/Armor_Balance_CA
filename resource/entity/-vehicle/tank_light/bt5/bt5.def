@@ -1,6 +1,6 @@
 ;Created by Dmirog
 ;Date:        Mon 9 09 2013
-{Entity
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -37,11 +37,11 @@
 		{able {contact_ground 0}}
 	}
 
-	("shield" args 10)
+	("shield" args 1)
 
 	("armor_light" turret(13 13 13 10) body(13 13 13 10))		
 	("armor_mantlet" t(13))
-	("wheels_armor" args 5)		
+;	("wheels_armor" args 5)		
 	("armor_engine"  t(10))
 
 	("crew_3_human_extended")
@@ -115,8 +115,8 @@
 			{weapon "dt" filled}			
 			{LinkAnimation "off"}
 			{charger "commander"}
-			{basic}
             ("abm_mgun")
+			{basic}			
 		}
 	}
 	

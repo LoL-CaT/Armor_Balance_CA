@@ -708,48 +708,48 @@
 
 ;------------------------------------------------------------ART-----------------------------------------------------------------;
 (define "accuracy_light_howitzer_s" ; 110
-	("accuracy_curve_h1" r1(1.20) r2(1.20) r3(7.20) r4(11.20) r5(12.20)) 
+	("accuracy_curve_h1" r1(1.20) r2(1.20) r3(4.20) r4(6.20) r5(7.20)) 
 )
 (define "accuracy_light_howitzer" ; 120
-	("accuracy_curve_h2" r1(1.40) r2(5.40) r3(7.40) r4(11.40) r5(12.40)) 
+	("accuracy_curve_h2" r1(1.40) r2(3.40) r3(4.40) r4(6.40) r5(7.40)) 
 )
 (define "accuracy_grazing_howitzer" ; 130
-	("accuracy_curve_h3" r1(1.60) r2(5.60) r3(7.60) r4(11.60) r5(12.60))
+	("accuracy_curve_h3" r1(1.60) r2(3.60) r3(4.60) r4(6.60) r5(7.60))
 )
 (define "accuracy_medium_howitzer" ; 175
-	("accuracy_curve_h4" r11(1.80) r1(4.90) r2(7.80) r3(8.80) r4(16.80) r5(17.80))
+	("accuracy_curve_h4" r11(1.80) r1(4.90) r2(5.80) r3(6.80) r4(7.20) r5(17.80))
 )
 (define "accuracy_heavy_howitzer" ; 195
-	("accuracy_curve_h5" r11(1.80) r1(5.00) r2(8.00) r3(12.00) r4(21.00) r5(22.00)) ; эталонная
+	("accuracy_curve_h5" r11(1.80) r1(5.00) r2(6.00) r3(7.00) r4(7.80) r5(22.00)) ; эталонная
 )
 (define "accuracy_sheavy_howitzer" ; 219
-	("accuracy_curve_h6" r11(1.80) r1(5.20) r2(9.20) r3(13.20) r4(22.20) r5(23.20))
+	("accuracy_curve_h6" r11(1.80) r1(5.20) r2(7.20) r3(8.20) r4(8.30) r5(23.20))
 )
 (define "accuracy_fleet" ; 400
-	("accuracy_curve_h7" r11(1.80) r1(4.20) r2(7.20) r3(11.20) r4(14.20) r5(15.20))
+	("accuracy_curve_h7" r11(1.80) r1(3.20) r2(4.20) r3(5.20) r4(6.20) r5(15.20))
 )
 
 
 (define "accuracy_light_gun_howitzer_s" ; 110
-	("accuracy_curve_h1" r1(1.20) r2(1.20) r3(3.20) r4(8.20) r5(9.20)) 
+	("accuracy_curve_h1" r1(1.20) r2(1.20) r3(4.20) r4(5.40) r5(6.60)) 
 )
 (define "accuracy_light_gun_howitzer" ; 120
-	("accuracy_curve_h2" r1(1.40) r2(4.10) r3(3.40) r4(9.20) r5(10.20))  
+	("accuracy_curve_h2" r1(1.40) r2(3.10) r3(3.40) r4(5.40) r5(6.60))  
 )
 (define "accuracy_grazing_gun_howitzer" ; 130
-	("accuracy_curve_h3" r1(1.60) r2(4.10) r3(3.60) r4(9.20) r5(10.20)) 
+	("accuracy_curve_h3" r1(1.60) r2(3.10) r3(3.60) r4(5.40) r5(6.60)) 
 )
 (define "accuracy_medium_gun_howitzer" ; 175
-	("accuracy_curve_h4" r11(1.80) r1(3.90) r2(4.10) r3(5.10) r4(10.50) r5(11.50))
+	("accuracy_curve_h4" r11(1.80) r1(3.90) r2(4.10) r3(4.50) r4(5.50) r5(6.70))
 )
 (define "accuracy_heavy_gun_howitzer" ; 195
-	("accuracy_curve_h5" r11(1.80) r1(3.00) r2(5.20) r3(8.20) r4(12.60) r5(13.60)) ; эталонная
+	("accuracy_curve_h5" r11(1.80) r1(3.00) r2(4.20) r3(5.20) r4(5.80) r5(6.80)) ; эталонная
 )
 (define "accuracy_sheavy_gun_howitzer" ; 219
-	("accuracy_curve_h6" r11(1.80) r1(3.10) r2(6.30) r3(9.30) r4(13.70) r5(14.70))
+	("accuracy_curve_h6" r11(1.80) r1(3.10) r2(5.30) r3(6.30) r4(5.90) r5(6.90))
 )
 (define "accuracy_gun_fleet" ; 400
-	("accuracy_curve_h7" r11(1.80) r1(2.80) r2(4.90) r3(5.20) r4(7.20) r5(9.70))
+	("accuracy_curve_h7" r11(1.80) r1(2.20) r2(2.90) r3(5.20) r4(5.40) r5(6.20)) 
 )
 ;------------------------------------------------------------CALIBERS-----------------------------------------------------------------;
 (define "caliber_zenite" ; 36- --
@@ -1713,8 +1713,8 @@
 
 (define "range_light_howitzer_s"
 	{spreading 
-	    {SpreadXYRatio	0.70}
-	    {SpreadPower	1}
+	    {SpreadXYRatio	1.35}
+	    {SpreadPower	0.80}
 		{SpreadYadjust	0.01}
 	}
 	("accuracy_light_howitzer_s")
@@ -1737,8 +1737,8 @@
 
 (define "range_light_ls_howitzer_s"
 	{spreading 
-	    {SpreadXYRatio	0.70}
-	    {SpreadPower	1}
+	    {SpreadXYRatio	1.35}
+	    {SpreadPower	0.80}
 		{SpreadYadjust	0.01}
 	}
 	("accuracy_light_howitzer_s")
@@ -1765,8 +1765,8 @@
 	}
 	{SpreadTolerance 0.4}
 		{spreading
-			{SpreadXYRatio	0.35}
-			{SpreadPower	1}
+			{SpreadXYRatio	0.90}
+		    {SpreadPower	0.90}
 			{SpreadYadjust	0.1}
 		}
 	("accuracy_light_gun_howitzer_s")
@@ -1789,11 +1789,15 @@
 )
 
 (define "range_light_gun_howitzer_s_hv"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.90}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_light_gun_howitzer_s")
 	("caliber_howitzer")
 	
@@ -1813,11 +1817,15 @@
 )
 
 (define "range_light_ls_gun_howitzer_s"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.90}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_light_gun_howitzer_s")
 	("caliber_howitzer")
 	
@@ -1841,8 +1849,8 @@
 
 (define "range_light_howitzer"
 	{spreading 
-	    {SpreadXYRatio	0.70}
-	    {SpreadPower	1}
+	    {SpreadXYRatio	1.35}
+	    {SpreadPower	0.80}
 		{SpreadYadjust	0.01}
 	}
 	("accuracy_light_howitzer")
@@ -1865,8 +1873,8 @@
 
 (define "range_light_ls_howitzer"
 	{spreading 
-	    {SpreadXYRatio	0.70}
-	    {SpreadPower	1}
+	    {SpreadXYRatio	1.35}
+	    {SpreadPower	0.80}
 		{SpreadYadjust	0.01}
 	}
 	("accuracy_light_howitzer")
@@ -1888,11 +1896,15 @@
 )
 
 (define "range_light_gun_howitzer"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.90}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_light_gun_howitzer")
 	("caliber_howitzer")
 	
@@ -1912,11 +1924,15 @@
 )
 
 (define "range_light_gun_howitzer_hv"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.90}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_light_gun_howitzer")
 	("caliber_howitzer")
 	
@@ -1936,11 +1952,15 @@
 )
 
 (define "range_light_ls_gun_howitzer"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.90}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_light_gun_howitzer")
 	("caliber_howitzer")
 	
@@ -1963,8 +1983,8 @@
 
 (define "range_grazing_howitzer"
 	{spreading 
-	    {SpreadXYRatio	0.70}
-	    {SpreadPower	1}
+	    {SpreadXYRatio	1.35}
+	    {SpreadPower	0.80}
 		{SpreadYadjust	0.01}
 	}
 	("accuracy_grazing_howitzer")
@@ -1987,8 +2007,8 @@
 
 (define "range_grazing_ls_howitzer"
 	{spreading 
-	    {SpreadXYRatio	0.70}
-	    {SpreadPower	1}
+	    {SpreadXYRatio	1.35}
+	    {SpreadPower	0.80}
 		{SpreadYadjust	0.01}
 	}
 	("accuracy_grazing_howitzer")
@@ -2010,11 +2030,15 @@
 )
 
 (define "range_grazing_gun_howitzer"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.90}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_grazing_gun_howitzer")
 	("caliber_howitzer")
 	
@@ -2034,11 +2058,15 @@
 )
 
 (define "range_grazing_gun_howitzer_hv"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.90}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_grazing_gun_howitzer")
 	("caliber_howitzer")
 	
@@ -2059,11 +2087,15 @@
 )
 
 (define "range_grazing_ls_gun_howitzer"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.90}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_grazing_gun_howitzer")
 	("caliber_howitzer")
 	
@@ -2087,8 +2119,8 @@
 
 (define "range_medium_howitzer"
 	{spreading 
-	    {SpreadXYRatio	0.70}
-	    {SpreadPower	1}
+	    {SpreadXYRatio	1.35}
+	    {SpreadPower	0.80}
 		{SpreadYadjust	0.01}
 	}
 	("accuracy_medium_howitzer")
@@ -2113,8 +2145,8 @@
 
 (define "range_medium_ls_howitzer"
 	{spreading 
-	    {SpreadXYRatio	0.70}
-	    {SpreadPower	1}
+	    {SpreadXYRatio	1.35}
+	    {SpreadPower	0.80}
 		{SpreadYadjust	0.01}
 	}
 	("accuracy_medium_howitzer")
@@ -2137,11 +2169,15 @@
 )
 
 (define "range_medium_gun_howitzer"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.90}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_medium_gun_howitzer")
 	("caliber_howitzer")
 
@@ -2162,11 +2198,15 @@
 )
 
 (define "range_medium_gun_howitzer_hv"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.90}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_medium_gun_howitzer")
 	("caliber_howitzer")
 
@@ -2187,11 +2227,15 @@
 )
 
 (define "range_medium_ls_gun_howitzer"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.90}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_medium_gun_howitzer")
 	("caliber_howitzer")
 
@@ -2215,8 +2259,8 @@
 
 (define "range_heavy_howitzer"
 	{spreading 
-		{SpreadXYRatio	0.70}
-	    {SpreadPower	1}
+	    {SpreadXYRatio	1.35}
+	    {SpreadPower	0.80}
 		{SpreadYadjust	0.01}
 	}
 	("accuracy_heavy_howitzer")
@@ -2240,8 +2284,8 @@
 
 (define "range_heavy_ls_howitzer"
 	{spreading 
-		{SpreadXYRatio	0.70}
-	    {SpreadPower	1}
+	    {SpreadXYRatio	1.35}
+	    {SpreadPower	0.80}
 		{SpreadYadjust	0.01}
 	}
 	("accuracy_heavy_howitzer")
@@ -2264,11 +2308,15 @@
 )
 
 (define "range_heavy_gun_howitzer"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.90}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_heavy_gun_howitzer")
 	("caliber_howitzer")
 
@@ -2289,11 +2337,15 @@
 )
 
 (define "range_heavy_gun_howitzer_hv"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.90}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_heavy_gun_howitzer")
 	("caliber_howitzer")
 
@@ -2314,11 +2366,15 @@
 )
 
 (define "range_heavy_ls_gun_howitzer"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.90}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_heavy_gun_howitzer")
 	("caliber_howitzer")
 
@@ -2342,8 +2398,8 @@
 
 (define "range_sheavy_howitzer"
 	{spreading 
-	    {SpreadXYRatio	0.70}
-		{SpreadPower	1}
+	    {SpreadXYRatio	1.35}
+		{SpreadPower	0.80}
 		{SpreadYadjust	0.01}
 	}
 	("accuracy_sheavy_howitzer")
@@ -2369,8 +2425,8 @@
 
 (define "range_sheavy_ls_howitzer"
 	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
+		{SpreadXYRatio	1.35}
+	    {SpreadPower	0.80}
 		{SpreadYadjust	0.01}
 	}
 	("accuracy_sheavy_howitzer")
@@ -2395,11 +2451,15 @@
 )
 
 (define "range_sheavy_gun_howitzer"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.90}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_sheavy_gun_howitzer")
 	("caliber_howitzer")
 
@@ -2422,11 +2482,15 @@
 )
 
 (define "range_sheavy_gun_howitzer_hv"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.90}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_sheavy_gun_howitzer")
 	("caliber_howitzer")
 
@@ -2449,11 +2513,15 @@
 )
 
 (define "range_sheavy_ls_gun_howitzer"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.90}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_sheavy_gun_howitzer")
 	("caliber_howitzer")
 
@@ -2479,8 +2547,8 @@
 
 (define "range_fleet"
 	{spreading 
-	    {SpreadXYRatio	0.70}
-	    {SpreadPower	1}
+	    {SpreadXYRatio	1.35}
+	    {SpreadPower	0.80}
 		{SpreadYadjust	0.01}
 	}
 	("accuracy_sheavy_howitzer")
@@ -2506,8 +2574,8 @@
 
 (define "range_ls_fleet"
 	{spreading 
-	    {SpreadXYRatio	0.70}
-	    {SpreadPower	1}
+	    {SpreadXYRatio	1.35}
+	    {SpreadPower	0.80}
 		{SpreadYadjust	0.01}
 	}
 	("accuracy_sheavy_howitzer")
@@ -2532,11 +2600,15 @@
 )
 
 (define "range_gun_fleet"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.80}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_sheavy_gun_howitzer")
 	("caliber_howitzer")
 
@@ -2559,11 +2631,15 @@
 )
 
 (define "range_gun_ls_fleet"
-	{spreading 
-		{SpreadXYRatio	1.70}
-	    {SpreadPower	1}
-		{SpreadYadjust	0.01}
+	{spreading 2
+                {SpreadPower	0.5}
 	}
+	{SpreadTolerance 0.4}
+		{spreading
+			{SpreadXYRatio	0.90}
+			{SpreadPower	0.80}
+			{SpreadYadjust	0.1}
+		}
 	("accuracy_sheavy_gun_howitzer")
 	("caliber_howitzer")
 
@@ -2589,8 +2665,8 @@
 
 (define "range_mortar"
 	{spreading 
-	    {SpreadXYRatio	0.70}
-	    {SpreadPower	1}
+	    {SpreadXYRatio	1.95}
+	    {SpreadPower	0.75}
 		{SpreadYadjust	0.01}
 	}
 	("accuracy_light_howitzer")

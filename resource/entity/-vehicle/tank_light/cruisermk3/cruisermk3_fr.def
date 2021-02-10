@@ -1,5 +1,5 @@
 ; IV
-{entity
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -26,7 +26,7 @@
 	}
 
 	("armor_medium" turret(30 30 14 14) body(30 30 14 14))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 
 	("crew_4_human")
 
@@ -98,7 +98,7 @@
 	{extender "inventory"
 		{box
 			{item  "ammo mgun" 3750}
-			{item "ammo bullet40 ap" 87}
+			{item "ammo bullet40eng ap" 87}
 		}
 	}
 	
@@ -112,6 +112,7 @@
 		{place "mgun"
 			{type "mgun_coaxial"}
 			{weapon "vickers_mgun" filled}
+            ("abm_mgun")
 			{basic}
 		}
 		{place "mgun17"			
@@ -119,7 +120,8 @@
 			{weapon "2xsmokegun" filled}
 			{gunner "gunner"}
 			{foresight "foresight20"}
-			{basic}
+            ("abm_mgun")
+			{basic}			
 		}
 	}
 	
@@ -133,14 +135,14 @@
 			fuel(500)	
 		)
 	}
-	
+
 	{Extension "cruisermk3.mdl"}
 	{texmod "1"}
 
 	{bone "gun_rot"
-		{speed 0.0035}
+		{speed2 5}
 	}
 	{bone "turret"
-		{speed 0.0055}
+		{speed2 7}
 	}
 }

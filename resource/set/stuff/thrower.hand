@@ -12,4 +12,34 @@
 	{aimRange 30}					; m
 	{gravity  1}
 	{filling "throwable"}
+	{thirdpersonparams inherit "human default"
+		{clip
+			{distanceMin	1		}
+			{distanceMax	250		}
+		}
+		{level 0
+			{faroffset	0 30 65	}
+			{nearoffset	0 30 10	}
+			{delta		25		}
+		}
+		{level 1
+			{distance	115			}	; activation distance
+			{distanceset 1			}
+			{delta 0}
+			{offset		0 0 1.25	}
+			{linkBone	"head"		}
+			{nearspace_views "fps_arms"	}
+			{nearspace_weapon	1	}
+			{camera		"human_zoom1"}		; fov 60, z_near 2.5
+			{aimer_type	"weapon_launcher"}
+			{with_owner
+				{viewoff 	"skin head"	}
+				{boneon 	"fps_arms"	}
+			}
+		}
+		{maxlevel 1}
+	}
+	
+	{crosshair "crosshair6"}
+	{crosshairReloading "crosshair6_reload"}
 }

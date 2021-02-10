@@ -1,5 +1,5 @@
 ; IV
-{entity
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -26,7 +26,7 @@
 	}
 
 	("armor_medium" turret(30 30 14 14) body(30 30 14 14))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 
 	("crew_4_human")
 
@@ -121,6 +121,7 @@
 			{gunner "gunner"}
 			{foresight "foresight20"}
             ("abm_mgun")
+			{basic}			
 		}
 	}
 	

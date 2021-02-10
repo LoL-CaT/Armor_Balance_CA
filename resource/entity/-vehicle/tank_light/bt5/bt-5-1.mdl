@@ -194,8 +194,8 @@
 							{Position 12.0834	-0.0131397	0.000610352}
 						}
 					}
-					{bone revolute "mgun_rot"
-						{limits -2 2}
+					{bone "mgun_rot"
+;						{limits -2 2}
 						{Matrix34
 							1	0	0
 							0	1	0

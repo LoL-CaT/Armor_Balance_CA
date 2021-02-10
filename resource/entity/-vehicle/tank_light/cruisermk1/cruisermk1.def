@@ -1,4 +1,4 @@
-{entity
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -50,7 +50,7 @@
 	
 
 	("armor_medium" turret(14 12 14 10) body(14 10 10 7))
-	("wheels_armor" args 5)		
+;	("wheels_armor" args 5)		
 
 	("crew_6_human")
 
@@ -104,8 +104,8 @@
 			{type "mgun_hull"}
 			{weapon "vickers_mgun" filled}
 			{foresight "foresight4"}
-			{gunner "gunner3"}
-			{charger "gunner3"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
             ("abm_mgun")
 			{basic}
 		}
@@ -113,8 +113,8 @@
 			{type "mgun_hull"}
 			{weapon "vickers_mgun" filled}
 			{foresight "foresight5"}
-			{gunner "gunner4"}
-			{charger "gunner4"}
+			{gunner "driver1"}
+			{charger "driver1"}
             ("abm_mgun")
 			{basic}
 		}

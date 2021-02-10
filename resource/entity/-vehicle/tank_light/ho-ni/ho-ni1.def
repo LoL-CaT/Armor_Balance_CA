@@ -8,8 +8,8 @@
 	
 	("armor_spa_light" armor(25 25 7 8))
 	("armor_engine"  t(8 8 8 8))
-	("wheels_armor" args 5)	
-	("shield" args 8)
+;	("wheels_armor" args 5)	
+	("shield" args 1)
 
 	{extender "shield"
 			{on}
