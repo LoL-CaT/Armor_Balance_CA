@@ -10,8 +10,7 @@
 	}
 	{bone revolute "basis"
 		{parameters "WheelRadius=0.6;"}
-		{limits 0 0}
-		{speed 0.03}
+		{limits -0 0}
 		{Orientation
 			1	0	0
 			0	-1	0

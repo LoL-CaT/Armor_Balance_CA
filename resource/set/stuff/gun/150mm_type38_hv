@@ -1,16 +1,16 @@
-﻿{from "pattern gun"    ; o-i mi-to 
+﻿{from "pattern gun"    ; ho-ro
 	{filling "bullet150"}
 	{fireSound "gun/howitz/"}
 	{reloadSound "gun_r04"}
 
-        ("speed" s(540))	
+       ("speed" s(540))	
 	
 	{projectileDamage 4000}
-	("rechargeTime" r(3))
+	("rechargeTime" r(4))
 	("damage" a(0.1) b(0.1) c(0.1) d(0.1) e(0.1))	
 	
 	("accuracy_maximum")
 	("range_ls_maximum")	
 	
-	{desc "150 mm Type 4 Howitzer (ЭДС 170)"}	
+	{desc "150 mm Type 38 (ЭДС 170)"}	
 }

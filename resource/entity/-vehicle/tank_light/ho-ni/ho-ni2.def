@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ; Bad
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -65,7 +65,7 @@
 		("restore_ik_time")
 			{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "105mm_type91" filling "ammo bullet105j fg" 1}
+			{weapon "105mm_type91_hv" filling "ammo bullet105j fg" 1}
 			{charger "commander"}
 			("abm_howitzer")
 			}
@@ -157,7 +157,7 @@
 	}
 
 	{bone "turret"
-	    {limits -5 50}
+	    {limits -5 30}
 	    {speed2 5}
 	}
 	{bone "gun_rot"

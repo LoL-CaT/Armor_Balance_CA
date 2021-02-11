@@ -7,9 +7,9 @@
 	{extender "enumerator"}	
 
 	("armor_spa_medium" armor(102 25 12 8))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(8 8 8 8))
-	("shield" args 10)
+	("shield" args 1)
 
 	{Volume "body1"
 		{tags "body"}
@@ -131,6 +131,8 @@
 		{place "gun"
 			{RestoreIKAfterAim}
 			{weapon "75mm_type3" filling "ammo bullet75 ap" 1}
+			{gunner "gunner"}
+			{charger "charger" "gunner1"}			
 			("abm_high")
 		}
 	}

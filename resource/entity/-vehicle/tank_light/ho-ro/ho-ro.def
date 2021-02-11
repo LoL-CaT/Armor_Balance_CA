@@ -1,4 +1,4 @@
-{game_entity
+{game_entity ; Bad
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -7,9 +7,9 @@
 	{extender "enumerator"}	
 
 	("armor_spa_light" armor(25 25 7 8))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(8 8 8 8))
-	("shield" args 10)
+	("shield" args 1)
 
 	{extender "shield"
 			{on}
@@ -75,8 +75,9 @@
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "150mm_type38" filling "ammo bullet150 fg" 1}
-			{charger "commander"}
+			{weapon "150mm_type38_hv" filling "ammo bullet150 fg" 1}
+			{gunner "gunner" "gunner1"}
+			{charger "charger" "driver1"}
 			{StationaryFiring}
 			("abm_howitzer")
 		}
@@ -142,7 +143,7 @@
 	}
 
 	{bone "turret"
-	    {limits -5 50}
+	    {limits -5 30}
 	    {speed2 5}
 	}
 	{bone "gun_rot"

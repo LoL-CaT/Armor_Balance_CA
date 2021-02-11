@@ -1013,7 +1013,7 @@
 (define "range_zenite_long_50"
 	{Automatic}
 	{spreading 1
-		{SpreadPower	0.5}
+		{SpreadPower	0.6}
 		{BurstAccuracy 90.0 43.0 37.0 32.0 22.0}
 	}
 	{SpreadTolerance 0.6}

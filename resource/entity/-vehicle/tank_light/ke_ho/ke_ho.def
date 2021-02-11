@@ -17,7 +17,7 @@
 	
 	("armor_light_shit" turret(30 20 20 16) body(25 16 16 12) body2(25 16 16 12))
 	("armor_engine"  t(12 12 12 12))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(30))
 	
 	("crew_4_human")
@@ -75,6 +75,7 @@
 			{gunner "driver"}
 			{charger "driver"}
 			("abm_mgun")
+			{basic}			
 		}
 
 	}
