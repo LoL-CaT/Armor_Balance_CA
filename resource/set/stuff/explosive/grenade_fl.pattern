@@ -1,5 +1,5 @@
 {from "pattern throwable"
-	{tag "ic fl"}
+	{tag "flashbang ic fl"}
 	{damage blastwave
 		{energy 1.7}
 		{area 1.5 2}

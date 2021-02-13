@@ -1,5 +1,5 @@
 {from "pattern throwable"
-	{tag "ap big cumulative pierce"}
+	{tag "flashbang ap big cumulative pierce"}
 	
 	{throw
 		{range 9}
