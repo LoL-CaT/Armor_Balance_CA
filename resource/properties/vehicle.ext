@@ -15,7 +15,7 @@
 		{vision "vehicle_main"}
 		{bone "visor"}
 	}
-	{RecognizeTime 0.20}
+	{RecognizeTime 0.80}
 	{InformRange 50 240}		;first - AI ;second - USER
 
 }
@@ -35,17 +35,51 @@
 	{random}
 }
 
+{extender "vehicle_vitality"}
+
 (define "chassis_defaults"
-	{FuelBag
-		{volume 200 }	; liters
-		{rate	20 }   	; liters per kilometer
-		{remain 200 }
-		{fuel "fuel"}
-	}
-	{speed
+	{Locomotion
 		{Slow	10	}	; km/h
 		{Normal	17	}
 		{Fast	30	}
+	}
+	{FuelBag
+		{volume 200}	; liters
+		{rate	20}		; liters per kilometer
+		{remain 200}
+		{fuel "fuel"}
+	}
+)
+
+(define "Speed"
+	{Fast (* 0.8 %s)}
+	{MaxSpeed %s}
+	;{maxSpeedAtMaxTurn (* 0.3 %s)}
+)
+
+(define "volume_simple"
+	{volume %0
+		{tags %1}
+		{component %1}
+		{thickness %2}
+	}
+)
+
+(define "volume_visibility"
+	{volume %0
+		{able {visible %1}}
+	}
+)
+
+(define "glass"
+	{volume %0						;adress volume named %0
+		{thickness %1}
+		{tags "glass"}
+		{component %0}				;assign a component of the same name as volume (if it exists)
+		{able {NoWoundDecal}}
+	}
+	{component %0					;create a component with name %0
+		{tags "glass"}				;assign tag "glass" to this component to be adressed like: {perks {component tag "glass"	{category "glass_heavy"}}}
 	}
 )
 
@@ -135,6 +169,87 @@
 
 {able "ally_crew"}
 
+(define "suspension_8x8_defaults"
+	{bone "suspension_l1"
+		{limits -0.3 0.1}	; down/up move limit, meters
+		{speed2 0.5}		; suspension move speed, m/s
+	}
+	{bone "suspension_l2"
+		{limits -0.3 0.1}
+		{speed2 0.5}
+	}
+	{bone "suspension_l3"
+		{limits -0.3 0.1}
+		{speed2 0.5}
+	}
+	{bone "suspension_l4"
+		{limits -0.3 0.1}
+		{speed2 0.5}
+	}
+	{bone "suspension_r1"
+		{limits -0.3 0.1}
+		{speed2 0.5}
+	}
+	{bone "suspension_r2"
+		{limits -0.3 0.1}
+		{speed2 0.5}
+	}
+	{bone "suspension_r3"
+		{limits -0.3 0.1}
+		{speed2 0.5}
+	}
+	{bone "suspension_r4"
+		{limits -0.3 0.1}
+		{speed2 0.5}
+	}
+)
+
+(define "suspension_6x6_defaults"
+	{bone "suspension_l1"
+		{limits -0.05 0.1}	; down/up move limit, meters
+		{speed2 0.5}		; suspension move speed, m/s
+	}
+	{bone "suspension_r1"
+		{limits -0.05 0.1}
+		{speed2 0.5}
+	}
+	{bone "suspension_l3"
+		{limits -0.05 0.1}
+		{speed2 0.5}
+	}
+	{bone "suspension_r3"
+		{limits -0.05 0.1}
+		{speed2 0.5}
+	}
+	{bone "suspension_l4"
+		{limits -0.05 0.1}
+		{speed2 0.5}
+	}
+	{bone "suspension_r4"
+		{limits -0.05 0.1}
+		{speed2 0.5}
+	}
+)
+
+(define "suspension_4x4_defaults"
+	{bone "suspension_l1"
+		{limits -0.05 0.1}	; down/up move limit, meters
+		{speed2 0.5}		; suspension move speed, m/s
+	}
+	{bone "suspension_r1"
+		{limits -0.05 0.1}
+		{speed2 0.5}
+	}
+	{bone "suspension_l2"
+		{limits -0.05 0.1}
+		{speed2 0.5}
+	}
+	{bone "suspension_r2"
+		{limits -0.05 0.1}
+		{speed2 0.5}
+	}
+)
+
 (define "shield"
 	{armor
 		{setting "shield"
@@ -143,5 +258,10 @@
 		}
 	}
 )
+
+{Weaponry
+	{ManualAccuracy 1}
+	{ManualAccuracyZoom 5.0}
+}
 
 {RimLight}

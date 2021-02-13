@@ -1,8 +1,8 @@
 (define "mobility"
 	{Locomotion	
-		{MaxSpeed       	(/ %speed 1.8) } 
+		{MaxSpeed       	(/ %speed 2.1) }
     		{maxSpeedAtMaxTurn 	(/ %speed 5)}			
-    		{StartTime      	(* (/ %speed (/ %power %weight)) 10) } 
+    		{StartTime      	(* (/ %speed (/ %power %weight)) 5) } 
     		{BrakeTime      	(* (/ %speed (/ %power %weight)) 0.5) } 
 			{StopTime      	        (* (/ %speed (/ %power %weight)) 0.75) } 
 		    {TurnRadius     	5}			
@@ -11,13 +11,17 @@
             {SteerOn    90}         			
             {SteerOff   100}          			
 		    {GearSwitchDelay 	1.0 }
-	        {SplineRadius 3}        
+	        {SplineRadius 3} 
+
+        		{Slow  (/ %speed 2.5) }   ; km/h
+        		{Normal  (/ %speed 2.3)   }
+        		{Fast   (/ %speed 2.1) }			
 	
     	}
 
 	{speed
-        		{Slow  (/ %speed 15) }   ; km/h
-        		{Normal  (/ %speed 10)   }
+        		{Slow  (/ %speed 1) }   ; km/h
+        		{Normal  (/ %speed 1)   }
         		{Fast   (/ %speed 1) }
 		
     	}

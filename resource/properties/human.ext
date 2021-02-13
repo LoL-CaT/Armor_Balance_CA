@@ -110,23 +110,23 @@ human
 	;  speed S (km/h) animation A (km/h) rotation (degree/s)
 	;  animation speed = movement speed / A * animation scale 
 	{Crawl
-		{Slow		2   5  100 }
-		{Normal		2.5   5  200 }
-		{Fast		3.5   5  200 }
+		{Slow		3   6  100 }
+		{Normal		3.5   6  200 }
+		{Fast		4.5   6  200 }
 	}
 	{Swim
-		{Slow		1   5  200 }
-		{Normal		1.5   5  200 }
-		{Fast		2.5   5  200 }
+		{Slow		2   6  200 }
+		{Normal		2.5   6  200 }
+		{Fast		3.5   6  200 }
 	}
 	{Run
-		{Sneak		2.5	2  	200 }   ; x 0.85
-		{Spot 		3  	2  	200 }   ; x 0.5
-		{Walk 		4   2 	200 }   ; x 0.5
-		{Slow		4  	7	400 }   ; x 1
-		{Normal	        9.5      7  	400 }   ; x 0.55
-		{Fast	        12.5      7  	400 }   ; x 0.33
-		{Bow   	        9.25      7  	400 }   ; x 0.55
+		{Sneak		3.5	3  	200 }   ; x 0.85
+		{Spot 		4  	3  	200 }   ; x 0.5
+		{Walk 		5   3 	200 }   ; x 0.5
+		{Slow		5  	8	400 }   ; x 1
+		{Normal	        10.5      7  	400 }   ; x 0.55
+		{Fast	        13.5      7  	400 }   ; x 0.33
+		{Bow   	        10.25      7  	400 }   ; x 0.55
 	}
 
 	{Strafe

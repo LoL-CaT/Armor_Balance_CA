@@ -2,7 +2,7 @@
 	{Locomotion	
 		{MaxSpeed       	%speed} 
     		{maxSpeedAtMaxTurn 	(/ 0.1 %speed)}
-    		{StartTime      	(* (/ %speed (/ %power %weight)) 10) } 
+    		{StartTime      	(* (/ %speed (/ %power %weight)) 8) } 
     		{TurnTime       	(/ 360 (+ (* 0.0022058823529411764 %power)  (* 0.8397058823529412 %speed) (*  -0.060294117647058824 %weight)))} 
     		{BrakeTime      	(* (/ %speed (/ %power %weight)) 0.5) } 
     		{StopTime       	(* (/ %speed (/ %power %weight)) 4) } 
@@ -14,6 +14,10 @@
 		{GearSwitchDelay 	2.5 }
 	
     	}
+		
+        		{Slow  (* 10 %speed) }   ; km/h
+        		{Normal  (* 10 %speed)   }
+        		{Fast   (* 10 %speed) }		
 
 	{speed
         		{Slow  (* 10 %speed) }   ; km/h

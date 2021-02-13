@@ -14,6 +14,10 @@
                 {SplineRadius 13}
 	
     	}
+		
+        		{Slow  (* 10 %speed) }   ; km/h
+        		{Normal  (* 10 %speed)   }
+        		{Fast   (* 10 %speed) }		
 
 	{speed
         		{Slow  (* 10 %speed) }   ; km/h

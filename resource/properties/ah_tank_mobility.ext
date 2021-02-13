@@ -1,8 +1,8 @@
 (define "mobility"
 	{Locomotion	
-		{MaxSpeed       	(/ %speed 1.8) }
+		{MaxSpeed       	(/ %speed 1.5) }
     		{maxSpeedAtMaxTurn 	(/ 0.1 %speed)}
-    		{StartTime      	(* (/ %speed (/ %power %weight)) 10) } 
+    		{StartTime      	(* (/ %speed (/ %power %weight)) 14) } 
     		{TurnTime       	(/ 360 (+ (* 0.0022058823529411764 %power)  (* 0.8397058823529412 %speed) (*  -0.060294117647058824 %weight)))} 
     		{BrakeTime      	(* (/ %speed (/ %power %weight)) 0.5) } 
 	;		{StopTime      	        (* (/ %speed (/ %power %weight)) 0.75) } 
@@ -13,6 +13,10 @@
     		{Gears          0.1 0.2 0.4 0.5 1.0}
     		{RearGears 		0.09 0.13}
 		{GearSwitchDelay 	2.5 }
+		
+        		{Slow  (/ %speed 1.9) }   ; km/h
+        		{Normal  (/ %speed 1.7)   }
+        		{Fast   (/ %speed 1.5) }				
 	
     	}
 	;{DisabledObstacles}		;	AS incompatible 
