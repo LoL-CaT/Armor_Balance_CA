@@ -23,9 +23,9 @@
 		{component "body3"}
 	}	
 	
-	("armor_medium" turret(44 32 25 13) body(29 25 25 13) body2(29 25 25 13) body3(64 25 25 13))	
+	("armor_medium" turret(45 32 32 13) body(29 29 26 13) body2(29 29 26 13) body3(64 29 26 13))	
 	("armor_engine"  t(13))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(51))
 	
 	("crew_4_human")

@@ -23,7 +23,7 @@
 
 	("armor_medium" turret(50 15 15 8) body(50 15 15 8))
 	("armor_mantlet" t(25))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(8 8 8 8))
 
 	("crew_4_human")

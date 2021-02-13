@@ -19,7 +19,7 @@
     }
 	
     ("armor_light_shit" turret(38 25 25 13) body(25 25 19 13))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
     ("armor_engine"  t(13))
     ("armor_mantlet" t(38))
 

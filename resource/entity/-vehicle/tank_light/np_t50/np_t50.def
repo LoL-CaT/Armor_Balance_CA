@@ -1,4 +1,4 @@
-{Entity
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -18,7 +18,7 @@
 	{extender "enumerator"}
 
 	("armor_light_shit" turret(37 37 37 15) body(37 37 25 15))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
     ("armor_mantlet" t(37))
 
 	("crew_4_human_extended")

@@ -3,7 +3,7 @@
 	{fireSound "gun/howitzer/152mm_ml20"}
 	{reloadSound "gun_r04"}
 	
-	("speed" s(391))	
+	("speed" s(550))	
 
 	{projectileDamage 4000}
 	("rechargeTime" r(4))

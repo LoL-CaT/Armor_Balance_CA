@@ -6,7 +6,7 @@
 	("damage" a(0.1) b(0.1) c(0.1) d(0.1) e(0.1))
 	("rechargeTime" r(4.5))
 	
-	("speed" s(350))
+	("speed" s(550))
 	
 	("range_mortar")
     ("accuracy_heavy_howitzer")	

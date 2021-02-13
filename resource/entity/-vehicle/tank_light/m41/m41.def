@@ -33,8 +33,8 @@
 	("armor_light" turret(25 25 25 13) body(25 25 21 19) body2(32 25 21 19))
 	("armor_engine"  t(13 13 13 13))		
 	("armor_mantlet" t(38))
-	("shield" args 5)
-	("wheels_armor" args 5)	
+	("shield" args 1)
+;	("wheels_armor" args 5)	
 
 	{extender "shield"
 		{on}

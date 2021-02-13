@@ -6,7 +6,7 @@
 	{cursor "cannon_on"}
 	("rechargeTime" r(23))
 	
-	("speed" s(355))
+	("speed" s(550))
 	("caliber_minimum")
 		    {calibre 57}
 	{projectileDamage 9}	

@@ -11,11 +11,11 @@
 	("damage" a(65) b(55) c(50) d(44) e(40))
 	{parameters "apcr"
         ("damage" a(87) b(74) c(65) d(59) e(55))
-;	("speed" s(450))
+;	("speed" s(550))
 	}
 	{parameters "Aheat"
         ("damage_heat" a(81) b(81) c(81) d(81) e(81))
-;	("speed" s(450))
+;	("speed" s(550))
 	}
 
 	("accuracy_short")

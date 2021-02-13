@@ -46,6 +46,7 @@
 	}
 	
 	("armor_spa_light" armor(30 15 15 5))
+;	("wheels_armor" args 5)	
 
 	{boarder
 		{anm "driver"

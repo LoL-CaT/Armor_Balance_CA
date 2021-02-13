@@ -10,7 +10,7 @@
 	{patherId "tank.light"}
 
 	("armor_light_shit" turret(15 13 13 8) body(13 13 13 8))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(8 8 8 8))
 	
 	("crew_2_human")

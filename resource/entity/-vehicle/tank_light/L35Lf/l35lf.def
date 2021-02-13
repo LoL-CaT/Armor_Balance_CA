@@ -31,6 +31,7 @@
 	
 	("armor_light_shit" turret(14) body(14 10 10 6))
 	("armor_engine"  t(6 6 6 6))
+;	("wheels_armor" args 5)	
 	
     {sensor	
 	        {visor "tur2_4"

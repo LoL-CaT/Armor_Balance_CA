@@ -83,8 +83,8 @@
 	}	
 	
 	("armor_spa_light" armor(17 15 15 8))
-	("wheels_armor" args 5)	
-	("shield" args 5)
+;	("wheels_armor" args 5)	
+	("shield" args 1)
 
 	{extender "inventory"
 		{box
@@ -175,6 +175,7 @@
 			{gunner "gunner"}
 			{charger "gunner"}
 			("abm_mgun")
+			{basic}			
 		}
 	}
 

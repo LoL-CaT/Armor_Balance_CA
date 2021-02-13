@@ -10,7 +10,7 @@
 	("damage" a(115) b(115) c(115) d(115) e(115))
 	{parameters "heat"
         ("damage_heat" a(115) b(115) c(115) d(115) e(115))
-;	    ("speed" s(500))
+;	    ("speed" s(550))
 	}
 	
 	("accuracy_medium")

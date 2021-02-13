@@ -8,7 +8,7 @@
 	
 	{parameters "heat"
         ("damage_heat" a(140) b(140) c(140) d(140) e(140))
-;	    ("speed" s(505))
+;	    ("speed" s(535))
 	}
 	
 	("caliber_maximum")	

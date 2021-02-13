@@ -15,7 +15,7 @@
 	}
 	{parameters "heat"
         ("damage_heat" a(73) b(73) c(73) d(73) e(73))
-;	    ("speed" s(450))
+;	    ("speed" s(550))
 	}
 	
 	("accuracy_medium")

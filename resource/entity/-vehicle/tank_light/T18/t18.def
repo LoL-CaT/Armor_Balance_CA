@@ -1,4 +1,4 @@
-{entity
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -10,8 +10,8 @@
 	
 	("armor_light_shit" turret(16 16 16 8) body(16 16 16 8))
 	("armor_engine"  t(8))
-	("wheels_armor" args 5)	
-	("shield" args 10)
+;	("wheels_armor" args 5)	
+	("shield" args 1)
 	
 	("crew_2_human")
 

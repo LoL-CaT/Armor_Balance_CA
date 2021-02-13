@@ -124,7 +124,7 @@
 						0.39348	0.0114326	-0.0257912
 					}
 					{VolumeView "mgun2.ply"}
-					{bone "foresight7"
+					{bone "foresight8"
 						{Matrix34
 							1	0	0
 							0	0	-1

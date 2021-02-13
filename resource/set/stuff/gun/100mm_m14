@@ -3,7 +3,7 @@
 	{fireSound "gun/105-128mm/"}
 	("rechargeTime" r(8))
 	("caliber_large")
-	("speed" s(490))
+	("speed" s(550))
 	{projectileDamage 200}
 	("damage" a(0.1) b(0.1) c(0.1) d(0.1) e(0.1))	
 	

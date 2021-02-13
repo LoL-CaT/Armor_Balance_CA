@@ -1,4 +1,4 @@
-{Entity
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
@@ -12,9 +12,9 @@
 ; шасси - лоб\борта\крыша и дно, нутряк, башня - лоб, борт, уорма, крыша и дно
 	("armor_engine"  t(16 16 16 16))
 ; корма, борта, крыша и дно, нутряк
-	("wheels_armor" args 5)
+;	("wheels_armor" args 5)
 	("armor_mantlet" t(50))	
-	("shield" args 20)
+	("shield" args 1) ; 20
 
 	{extender "enumerator"
 		{digit_folder "ger"}
@@ -102,12 +102,14 @@
 			{weapon "smokegun_x3" filled}
 			{gunner "gunner"}
 			{foresight "foresight8"}
+			{basic}			
 		}
 		{place "mgun9"			
 			{type "mgun_right"}
 			{weapon "smokegun_x3" filled}
 			{gunner "gunner"}
 			{foresight "foresight9"}
+			{basic}			
 		}
 	}
 	

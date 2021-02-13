@@ -8,7 +8,7 @@
 
 	("caliber_medium")              
 		    {calibre 76}
-	("speed" s(410))			
+	("speed" s(550))			
 	{projectileDamage 25}
 	("damage" a(0.1) b(0.1) c(0.1) d(0.1) e(0.1))
 	

@@ -1,4 +1,4 @@
-{entity
+{game_entity
 	(include "/properties/tank_unarmed.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(0.9))
@@ -19,7 +19,7 @@
 	}
 	
     ("armor_spa_light" armor(10 10 10 4))
-	("wheels_armor" args 5)		
+;	("wheels_armor" args 5)		
 	("armor_engine"  t(4))
 	
 	("crew_2_human"	door1(emit1) door2(emit2))

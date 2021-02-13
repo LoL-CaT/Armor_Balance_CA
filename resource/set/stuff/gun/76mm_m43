@@ -4,7 +4,7 @@
 	{reloadSound "gun_r03"}
 	("rechargeTime" r(12))
 
-	("speed" s(260))
+	("speed" s(550))
 	("caliber_medium")              
 		    {calibre 76}	
 	{projectileDamage 25}

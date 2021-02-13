@@ -1,4 +1,4 @@
-{entity
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -34,7 +34,7 @@
 	}
 		
 	("armor_light_shit" turret(16 16 16 13) body(16 13 6 13))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_mantlet" t(16))
 
 	("crew_4_human")
@@ -117,7 +117,8 @@
 			{foresight "foresight5"}
 			{gunner "driver"}
 			{charger "driver"}	
-			("abm_mgun")				
+			("abm_mgun")	
+			{basic}			
 		}
 		{place "mgun3"
 			{type "mgun_left"}		
@@ -125,15 +126,17 @@
 			{foresight "foresight6"}
 			{gunner "gunner"}
 			{charger "gunner"}	
-			("abm_mgun")				
+			("abm_mgun")
+			{basic}			
 		}
 		{place "mgun4"
 			{type "mgun_right"}		
 			{weapon "browning_m19" filled}
-			{foresight "foresight7"}
+			{foresight "foresight8"}
 			{gunner "charger"}
 			{charger "charger"}	
-			("abm_mgun")				
+			("abm_mgun")	
+			{basic}			
 		}
 	}
 

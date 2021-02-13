@@ -72,7 +72,7 @@
 	}
 	
 	("armor_medium_shit" turret(36 11 10 10) body(50 16 10 10))
-	("wheels_armor" args 5)		
+;	("wheels_armor" args 5)		
     ("armor_engine"  t(10 10 10 10))
 
 	

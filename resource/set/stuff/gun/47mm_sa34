@@ -3,7 +3,7 @@
 	{fireSound "gun/37mm-47mm/FR47mm/"}
 	{reloadSound "pak35"}
 	("rechargeTime" r(16))
-	("speed" s(450))
+	("speed" s(550))
 	("caliber_minimum")
 		    {calibre 47}
 	{projectileDamage 9}

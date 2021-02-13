@@ -16,7 +16,7 @@
 	}
 
 	("armor_medium" turret(40 40 40 25) body(40 40 40 25))
-	("wheels_armor" args 5)		
+;	("wheels_armor" args 5)		
 	("armor_engine"  t(25 25 25 25))
 
 	("crew_2_human")
@@ -64,9 +64,9 @@
 			{type "mgun_coaxial"}
 			{weapon "ZB30" filled}
 			{foresight "Foresight3"}
-			{charger "gunner"}
-			{basic}			
+			{charger "gunner"}		
 			("abm_mgun")
+			{basic}			
 		}
 	}
 

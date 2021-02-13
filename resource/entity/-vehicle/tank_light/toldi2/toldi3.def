@@ -34,7 +34,7 @@
 
 	("armor_light_shit" turret(35 16 14 10) body(35 16 14 10))
 	("armor_mantlet" t(35))
-	("wheels_armor" args 5)		
+;	("wheels_armor" args 5)		
 	("armor_engine"  t(10 10 10 10))
 
 	("crew_3_human_extended")

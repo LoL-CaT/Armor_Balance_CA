@@ -4,14 +4,14 @@
 	{reloadSound "gun_r03"}
 	("rechargeTime" r(17))
 
-	("speed" s(400))
+	("speed" s(550))
 	("caliber_medium")              
 		    {calibre 70}	
 	{projectileDamage 25}
 	("damage" a(23) b(17) c(15) d(13) e(11))
 	{parameters "heat"
         ("damage_heat" a(90) b(90) c(90) d(90) e(90))
-;	    ("speed" s(350))
+;	    ("speed" s(550))
 	}	
 	
 	("accuracy_short")

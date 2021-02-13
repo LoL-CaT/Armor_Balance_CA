@@ -52,7 +52,7 @@
 		{tags "turret"}
 	}
 	
-	("armor_medium_shit" turret(38 32 32 13) body(29 25 25 13))
+	("armor_medium_shit" turret(38 32 32 13) body(29 26 26 13))
 	("wheels_armor" args 5)	
 	("armor_engine"  t(13))
 

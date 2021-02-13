@@ -19,7 +19,7 @@
 	}
 	
 	("armor_light" turret(12 8 8 4) body(12 8 8 4))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(4))
 
 	("crew_2_human")

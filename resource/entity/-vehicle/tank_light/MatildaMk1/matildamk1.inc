@@ -10,7 +10,7 @@
 		
 ("armor_heavy_shit" turret(60 60 60 12) body(60 60 60 12))	
 ("armor_engine"  t(12 12 12 12))
-("wheels_armor" args 5)
+;("wheels_armor" args 5)
 ("armor_mantlet" t(60))	
 
 	{volume "body"

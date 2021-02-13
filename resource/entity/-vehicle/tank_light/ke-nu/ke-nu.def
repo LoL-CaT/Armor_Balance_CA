@@ -19,7 +19,7 @@
 	}
 
 	("armor_light" turret(25 25 25 9) body(25 12 8 6))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(6))
 
     {sensor

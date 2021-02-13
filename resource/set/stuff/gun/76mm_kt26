@@ -7,7 +7,7 @@
 	("range_light_ls_gun_howitzer")
 	("accuracy_light_gun_howitzer")
 	
-	("speed" s(440))
+	("speed" s(550))
 
 	("caliber_medium")              
 		    {calibre 76}	

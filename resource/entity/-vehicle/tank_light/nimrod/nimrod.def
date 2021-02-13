@@ -69,7 +69,7 @@
 		{component "turret"}
 	}
 	("armor_light" turret(28 16 14 7) body(20 16 14 7))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(7))
 	
     {sensor	
@@ -146,6 +146,8 @@
 		{place "gun"
 			{RestoreIKAfterAim}
 			{weapon "40mm_bofors_36m" filling "bullet40_bofors_hun zenite" 4}
+			{gunner "gunner"}
+			{charger "charger" "gunner1"}			
 			("abm_zenite")
 		}
 	}

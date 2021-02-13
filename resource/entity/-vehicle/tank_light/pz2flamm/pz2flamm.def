@@ -1,5 +1,5 @@
 ;created by: EngineerDen
-{Entity	
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")		
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
@@ -27,7 +27,7 @@
 	}
 
 	("armor_light_shit" turret(30 15 15 10) body(35 15 15 10))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(10 10 10 10))
         
        	{extender "enumerator"}

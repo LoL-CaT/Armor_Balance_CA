@@ -15,7 +15,7 @@
 	}
 	{parameters "heat"
         ("damage_heat" a(400) b(400) c(400) d(400) e(400))
-;	    ("speed" s(335))
+;	    ("speed" s(550))
 	}
 	
 	("accuracy_maximum")

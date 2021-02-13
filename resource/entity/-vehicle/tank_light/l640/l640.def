@@ -22,7 +22,7 @@
 	}
 
 	("armor_medium" turret(40 40 40 10) body(30 15 15 10))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(10))
 
 	("crew_2_human")
@@ -87,8 +87,8 @@
 			{weapon "breda" filled}
 			{foresight "Foresight3"}
 			{charger "gunner"}
-			{basic}
 			("abm_mgun")
+			{basic}			
 		}		
 	}
 

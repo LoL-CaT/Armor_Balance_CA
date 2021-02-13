@@ -1,7 +1,8 @@
 {game_entity
 	(include "/properties/tank.ext")
+	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
-	{props "medium" "-turret" "opened" "vision_vehicle_medium" "muzzle_large" "wespe"}
+	{props "light" "-turret" "opened" "vision_vehicle_low" "muzzle_large"}
 	
 	{extender "enumerator"
 		{digit_folder "ger"}
@@ -47,8 +48,10 @@
 
 
 		
-	("armor_spa_light" armor(30 20 20 15))
-	("shield" args 15)
+	("armor_spa_light" armor(30 15 15 5))
+	("shield" args 1)
+;	("wheels_armor" args 5)	
+	
 	("crew_4_human")
 	
 	{boarder
@@ -97,59 +100,54 @@
 	("crew_human" place(gunner)	    door1(emit1))
 	("crew_human" place(charger)	door1(emit1))
 
+    {sensor
+	        {visor "tur2_4"
+			{vision "tank_pr"}
+			{bone "visor14"}
+		}
+	        {visor "tur2_8"
+			{vision "tank_pr"}
+			{bone "visor18"}
+		}	
+	}	
+	
 	{extender "inventory"
 		{box
-            {item "ammo bullet105 fg" 60}
+            {item "ammo bullet105_lefn18 fg" 14}
+;			{item "ammo bullet105_lefn18 heat" 2}
+;			{item "ammo bullet105_lefn18 ap" 2}
 		}
 	}
 	{Weaponry
 		{place "gun"
-			{weapon "105mm_l31" filling "ammo bullet105 fg" 6}
+			{weapon "105mm_l31" filling "ammo bullet105_lefn18 fg" 1}
 			{StationaryFiring}
 			("abm_howitzer")
 		}
 	}
 
-	{mass 24000}
+	{mass 11000}
 	{Chassis
 		("tank_trace" fx("tracks_mid") step(0.56) len(0.167))
-		{Locomotion ("locomotion")
-			{maxspeed   24}
-			{maxSpeedAtMaxTurn 11}
-			{StartTime  14}
-			{TurnStart  1.7}			
-			{TurnTime   9}
-			{TurnRadius 10} 
-    			{TurnStop   0.9}
-			{BrakeTime  1}
-			{StopTime   2}
-			{Gears      0.2 0.4 1}
-			{RearGears  0.35}		
-		}
-		{FuelBag
-			{volume 470 }	
-			{rate	135 }   
-			{remain 470 }
-			{fuel "fuel"}
-		}
-		{speed
-        	{Normal  12}
-        	{Slow  18}
-    	}
-		{DisableMoveWhileFiring}
+		("mobility"
+			speed(40)
+			weight(11.0)
+			power(140)
+			fuel(170)	
+		)
 	}
 
 	{Extension "wespe.mdl"}
 	
 	{bone "mantlet"
 	    {limits -15 15}
-		{speed 0.004}
+		{speed2 5}
 	}
 	{bone "gun_rot"
 	    {limits -5 50}
-		{speed 0.004}
+		{speed2 5}
 	}
-
+	
 	(mod "mp"
 		{brain
 			{properties
@@ -157,4 +155,5 @@
 			}
 		}
 	)	
+	
 }

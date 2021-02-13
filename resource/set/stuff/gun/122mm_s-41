@@ -3,7 +3,7 @@
 	{fireSound "gun/howitz/"}
 	{reloadSound "tankgun_r04"}
 	("rechargeTime" r(2))
-	("speed" s(470))
+	("speed" s(550))
 	("caliber_large")
 		    {calibre 122}	
 	{projectileDamage 1000}

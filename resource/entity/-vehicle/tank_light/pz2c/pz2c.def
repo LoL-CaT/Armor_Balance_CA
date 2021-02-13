@@ -79,8 +79,8 @@
             {weapon "mg34tank" filled}			
 			{gunner "commander"}
 			{charger "commander"}
-			{basic}
 			("abm_mgun")
+			{basic}			
 		}
 	}
 
@@ -122,7 +122,7 @@
 	("crew_human_929" place(commander)	door1(emit2) visor(main))
 
 	("armor_light" turret(35 15 15 10) body(20 15 15 10))
-	("wheels_armor" args 5)		
+;	("wheels_armor" args 5)		
 	("armor_mantlet" t(40))
 	("armor_engine"  t(10 10 10 10))
 	

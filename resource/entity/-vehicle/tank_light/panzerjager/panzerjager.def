@@ -1,4 +1,4 @@
-{entity
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -47,6 +47,7 @@
 	}
 	("armor_light_shit" turret(14 6 6 6) body(13 10 10 6))
 	("armor_engine"  t(6 6 6 6))
+;	("wheels_armor" args 5)	
 
 	{extender "inventory"
 		{box

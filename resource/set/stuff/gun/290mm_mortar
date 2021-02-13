@@ -4,7 +4,7 @@
 	{spreading 3}
 	("rechargeTime" r(1))
 	
-	("speed" s(275))
+	("speed" s(550))
 	
 	("caliber_howitzer")
 	{projectileDamage 40000}

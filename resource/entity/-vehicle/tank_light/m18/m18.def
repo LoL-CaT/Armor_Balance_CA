@@ -29,7 +29,7 @@
 	}
 
 	("armor_light_shit" turret(25 13 13 8) body(38 13 13 8))
-	("wheels_armor" args 5)
+;	("wheels_armor" args 5)
 	("shield" args 10)
 
 	{extender "shield"
@@ -68,7 +68,7 @@
 	("crew_human_visible_anm"	place(charger) door1(emit1) door2(emit2) visor(main) anm_left(left) anm_right(left))
 	
 ;	("gunner_visible")
-	("crew_human" place(gunner2) door1(emit1) door2(emit2) visor(main))
+	("crew_human" place(gunner1) door1(emit1) door2(emit2) visor(main))
 	
 	("crew_human_visible_anm"	place(gunner) door1(emit1) door2(emit2) visor(main) anm_left(left) anm_right(left))
 	{placer 
@@ -95,6 +95,8 @@
 		{place "gun"
 			{RestoreIKAfterAim}
 			{weapon "76mm_m1a2_AT" filling "ammo bullet76usa ap" 1}
+			{gunner "gunner"}
+			{charger "charger" "gunner1"}			
 			("abm_high")
 		}
 ;		{place "mgun"

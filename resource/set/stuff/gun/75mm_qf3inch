@@ -4,7 +4,7 @@
 	{reloadSound "tankgun_r01"}
 	("rechargeTime" r(18))
 	
-	("speed" s(399))
+	("speed" s(550))
 	("caliber_medium")              
 		    {calibre 75}	
 	{projectileDamage 25}

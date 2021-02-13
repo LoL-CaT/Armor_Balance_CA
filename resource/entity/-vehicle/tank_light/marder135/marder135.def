@@ -10,7 +10,7 @@
 	}
 	
 	("armor_light_shit" turret(18 18 18 5) body(18 10 10 5))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(5 5 5 5))
 
 	{volume "shield"

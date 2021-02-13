@@ -3,7 +3,7 @@
 	{fireSound "gun/howitz/600/"}
 	{spreading 8}
 	
-	("speed" s(490))	
+	("speed" s(550))	
 
 	{projectileDamage 40000}
 	{bullet_view "shell_fg_280"

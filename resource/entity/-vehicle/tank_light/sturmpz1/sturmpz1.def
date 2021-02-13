@@ -39,8 +39,8 @@
 	
 	("armor_light_shit" turret(13 13 13 8) body(13 13 13 8))
 	("armor_engine"  t(8))
-	("wheels_armor" args 5)	
-	("shield" args 6)
+;	("wheels_armor" args 5)	
+	("shield" args 1)
 	
 	{extender "shield"
 		{on}

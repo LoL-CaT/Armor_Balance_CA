@@ -101,7 +101,7 @@
 	("crew_human_929" place(commander)	door1(emit2) visor(main))
 
 	("armor_light_shit" turret(30 15 15 10) body(35 15 15 10))
-	("wheels_armor" args 5)		
+;	("wheels_armor" args 5)		
 	("armor_engine"  t(10 10 10 10))
 	("armor_mantlet" t(40))
 	
@@ -152,7 +152,7 @@
 		}	
 	}	
 	
-	("shield" args 5)
+	("shield" args 1)
 	{extender "shield"
 		{on}
 	}

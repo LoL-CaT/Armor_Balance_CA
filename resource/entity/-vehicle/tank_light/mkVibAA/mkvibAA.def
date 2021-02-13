@@ -1,4 +1,4 @@
-{entity
+{game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/l_tank_mobility.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
@@ -16,7 +16,7 @@
 	}
 	
 	("armor_light_shit" turret(12 10 10 6) body(12 10 6 6))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 
 	{boarder
 		{anm "left"

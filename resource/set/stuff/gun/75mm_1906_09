@@ -3,7 +3,7 @@
 	{fireSound "gun/50to76_cal/76mm_kt26"}
 	{reloadSound "gun_r03"}
 	("rechargeTime" r(9))
-	("speed" s(440))
+	("speed" s(550))
 	("range_light_ls_gun_howitzer")
 	("accuracy_light_gun_howitzer")
 	

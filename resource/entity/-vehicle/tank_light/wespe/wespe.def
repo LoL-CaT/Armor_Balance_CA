@@ -49,8 +49,8 @@
 
 		
 	("armor_spa_light" armor(30 15 15 5))
-	("shield" args 10)
-	("wheels_armor" args 5)	
+	("shield" args 1)
+;	("wheels_armor" args 5)	
 	
 	("crew_4_human")
 	

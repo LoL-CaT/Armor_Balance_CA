@@ -4,6 +4,8 @@
 	{reloadSound "gun_r00"}
 	("rechargeTime" r(28))
 	
+	("speed" s(550))	
+	
 	("range_mortar")
 	("accuracy_light_howitzer")
 	
@@ -14,7 +16,7 @@
 	("damage" a(0.1) b(0.1) c(0.1) d(0.1) e(0.1))
 	{parameters "heat"
         ("damage_heat" a(67) b(67) c(67) d(67) e(67))
-;	("speed" s(260))
+;	("speed" s(550))
 	}
 
 	{desc "7,5 cm IG L/13  (МДС 190)"}	
