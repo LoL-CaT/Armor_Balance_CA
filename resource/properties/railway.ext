@@ -3,33 +3,55 @@ actor
 
 (include "vehicle.ext")
 
+{collider "train"}
+{PatherID "railway"}
+{props "railway" "train_part"}
+
 ("brain_vehicle")
 
-{collider "train"}
-{PatherID  "railway"}
 {Chassis "railway"
-	{ignorePatherBounds}
-	{speed
-		{Slow	10	}	; km/h
-		{Normal	17	}
-		{Fast	30	}
-	}
+	{IgnorePatherBounds}
 }
-
-{props "railway"}
 
 {volume "body"
 	{thickness 10}
 }
-	
 {component "body"
 	{RepairTime 25}
 }
+
+{perks
+	{component "body"
+		{category "car_light"}
+	}
+	{component "engine"
+		{category "engine_light"}
+	}
+	{blastwave_modifier 30.0}
+}
+
 (define "locomotion"
-	{MaxSpeed	25	}		; максимальная скорость, kmph
-	{StartTime	10	}		; время разгона до макс. скорости с 0, seconds
-	{BrakeTime	5	}		; время торможения с макс. скорости до 0, seconds
-	{StopTime	10	}		; время остановки после отключения двигателя с макс. скорости до 0, seconds
+	{Slow		10	}	; km/h
+	{Normal		17	}
+	{Fast		30	}
+	{MaxSpeed	30	} ; max speed, km/h
+	{StartTime	10	} ; acceleration time from 0 to max. speed, seconds
+	{BrakeTime	5	} ; deceleration time from max. speed to 0, seconds
+	{StopTime	10	} ; stop time after turning off the engine, seconds
+)
+
+(define "window_volume"
+	{volume %0
+		{thickness 1}
+		{able {visible 0} {window}}
+	}
+)
+
+(define "glass_volume"
+	{volume %0
+		{thickness 0.1}
+		{tags "glass"}
+	}
 )
 
 {autooperatable 0}
