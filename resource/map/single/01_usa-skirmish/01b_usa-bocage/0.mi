@@ -2,16 +2,24 @@
 	{Human "special/hint" 0x829e
 		{Position 3686.89 6808.78}
 		{xform zl -91.67}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Impregnability full}
 		{Player 3}
 		{MID 379}
-		{Able "personage"}
 		{NameId 33 94}
 		{FsmState "stand"}
 	}
 	{Human "mp/ger/tankman" 0xd017
 		{Position -1133.13 -6370.14}
 		{xform zl -91.26}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 26}
 		{NameId 110 126}
@@ -19,6 +27,10 @@
 	{Human "mp/ger/tankman" 0xd018
 		{Position -1100.63 -6371.55}
 		{xform zl -91.26}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 27}
 		{NameId 90 131}
@@ -26,6 +38,10 @@
 	{Human "mp/ger/tankman2" 0xd01c
 		{Position -420.9 -5540.49}
 		{xform zl 178.75}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 29}
 		{NameId 137 61}
@@ -33,6 +49,10 @@
 	{Human "mp/ger/tankman" 0x818e
 		{Position -664.4 -5493.71}
 		{xform zl 178.58}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 36}
 		{NameId 110 53}
@@ -40,6 +60,10 @@
 	{Human "mp/ger/bazooker" 0xe810
 		{Position -904.55 -5932.08}
 		{xform zl 88.78}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 164}
 		{NameId 75 19}
@@ -49,6 +73,10 @@
 	{Human "mp/ger/tankman" 0x81e3
 		{Position -903.05 -6372.67}
 		{xform zl -118.59 y 0.46 zw 28.63}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 255}
 		{NameId 113 5}
@@ -56,20 +84,27 @@
 	{Human "mp/ger/tankman" 0x81e5
 		{Position -903.05 -6372.67}
 		{xform zl -118.59 y 0.46 zw 28.63}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 256}
 		{NameId 13 120}
 	}
 	{Entity "pz4h" 0xd00f
-		{Position -433.02 -5895.13}
+		{Position -434.41 -5885.83}
 		{xform zl 88.75}
 		{TexMod "2"}
 		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 		}
 		{Extender "enumerator"
 			{number 986}
 			{digit_folder "ger"}
+		}
+		{Extender "detail"
+			{random}
 		}
 		{Player 1}
 		{MID 167}
@@ -77,20 +112,27 @@
 	{Human "mp/ger/tankman" 0xd014
 		{Position -755.74 -5491.14}
 		{xform zl -1.42}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 172}
 		{NameId 143 23}
 	}
 	{Entity "pz4g" 0x9804
-		{Position -539.22 -5890.42}
+		{Position -546.45 -5891.99}
 		{xform zl 88.58}
 		{TexMod "2"}
 		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 		}
 		{Extender "enumerator"
 			{number 174}
 			{digit_folder "ger"}
+		}
+		{Extender "detail"
+			{random}
 		}
 		{Player 1}
 		{MID 153}
@@ -98,6 +140,11 @@
 	{Human "special/narrator_usa" 0xb80a
 		{Position 3658.35 6806.94}
 		{xform zl -92.34}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 3}
 		{MID 51}
 		{NameId 64 22}
@@ -107,12 +154,17 @@
 	{Entity "skirmish_target" 0x80fe
 		{Position 3755.48 6807.87}
 		{xform zl -1.79}
+		{SpawnedInFog}
 		{Player 3}
 		{MID 54}
 	}
 	{Human "mp/ger/tankman2" 0x8277
 		{Position -954.86 -6373.37}
 		{xform zl -118.59 y 0.46 zw 28.63}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 550}
 		{NameId 102 38}
@@ -120,6 +172,10 @@
 	{Human "mp/ger/mgun2" 0xa017
 		{Position -841.96 -5896.32}
 		{xform zl 93.5}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 122}
 		{NameId 5 115}
@@ -128,6 +184,10 @@
 	{Human "mp/ger/rifle3" 0xa021
 		{Position -937.14 -5900.85}
 		{xform zl 75.49}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 123}
 		{NameId 125 56}
@@ -136,6 +196,10 @@
 	{Human "mp/ger/smg2" 0xa02c
 		{Position -965.31 -5903.55}
 		{xform zl 62.32}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 124}
 		{NameId 13 65}
@@ -145,14 +209,31 @@
 	{Human "mp/ger/rifle" 0xa030
 		{Position -937.63 -5931.76}
 		{xform zl 63.75}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 125}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.950054}
+					{prevposition -920.247 -5928.33 21.5706}
+					{prevdirection 0.982801 -0.129324 -0.131826}
+				}
+			}
+		}
 		{NameId 132 39}
 		{FsmState "stand"}
 	}
 	{Human "mp/ger/squadleader2" 0xa034
 		{Position -967.8 -5933.25}
 		{xform zl 51.79}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 130}
 		{NameId 90 52}
@@ -161,13 +242,21 @@
 	{Human "mp/ger/tankman" 0xf00a
 		{Position -664.4 -5493.71}
 		{xform zl 178.58}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 145}
 		{NameId 19 112}
 	}
 	{Human "mp/ger/tankman" 0xf00d
-		{Position -1081.32 -6370.62}
+		{Position -1081.31 -6370.62}
 		{xform zl -91.26}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 149}
 		{NameId 88 96}
@@ -181,9 +270,21 @@
 	{Human "mp/usa/elite" 0xc004
 		{Position 163.16 3891.2}
 		{xform zl -92.5}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 15}
-		{Able "personage"}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.83025}
+					{prevposition 154.481 3879.9 26.128}
+					{prevdirection -0.793883 -0.600196 -0.0975382}
+				}
+			}
+		}
 		{NameId 139 19}
 		{LastItem "m1_carbine"}
 		{FsmState "stand"}
@@ -191,9 +292,12 @@
 	{Human "mp/usa/elite" 0xc006
 		{Position 163.46 3862.45}
 		{xform zl -89.13}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 16}
-		{Able "personage"}
 		{NameId 57 8}
 		{LastItem "m1_carbine"}
 		{FsmState "stand"}
@@ -201,9 +305,12 @@
 	{Human "mp/usa/elite" 0xc00b
 		{Position 188.88 3862.57}
 		{xform zl -103.81}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 21}
-		{Able "personage"}
 		{NameId 126 100}
 		{LastItem "m1_carbine"}
 		{FsmState "stand"}
@@ -211,9 +318,12 @@
 	{Human "mp/usa/elite2" 0xc01c
 		{Position 188.39 3889.5}
 		{xform zl -103.49}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 48}
-		{Able "personage"}
 		{NameId 76 64}
 		{LastItem "thompson"}
 		{FsmState "stand"}
@@ -221,18 +331,24 @@
 	{Human "mp/usa/elite3" 0xc020
 		{Position 139.64 3893.26}
 		{xform zl -109.07}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 55}
-		{Able "personage"}
 		{NameId 144 82}
 		{FsmState "stand"}
 	}
 	{Human "mp/usa/elite" 0xa003
 		{Position 139.88 3864.28}
 		{xform zl -98.01}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 56}
-		{Able "personage"}
 		{NameId 65 4}
 		{LastItem "m1_carbine"}
 		{FsmState "stand"}
@@ -259,7 +375,7 @@
 		{Position 51.78 6728.78}
 		{xform zl -94.67}
 		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 		}
 		{Extender "enumerator"
 			{number 915}
@@ -268,26 +384,36 @@
 		{MID 67}
 	}
 	{Human "mp/usa/elite" 0xa025
-		{Position 365.6 6692.36}
-		{xform zl 98.99 y 5.06 zw 170.09}
+		{Position 365.59 6692.35}
+		{xform zl 98.98 y 5.06 zw 170.09}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 77}
-		{Able "personage"}
 		{NameId 54 94}
 		{LastItem "m1_carbine"}
 	}
 	{Human "mp/usa/elite" 0xa027
 		{Position 388.29 6697.39}
 		{xform zl 90 y 0.79 zw 89.05}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 78}
-		{Able "personage"}
 		{NameId 117 1}
 		{LastItem "m1_carbine"}
 	}
 	{Human "mp/ger/smg2" 0x80b9
-		{Position 2931.71 -4514.76}
+		{Position 2931.7 -4514.75}
 		{xform zl 150.36 y 2.58 zw -149.34}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 106}
 		{NameId 106 23}
@@ -296,13 +422,21 @@
 	{Human "mp/ger/tankman2" 0xc00a
 		{Position -664.4 -5493.71}
 		{xform zl 178.58}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 204}
 		{NameId 115 79}
 	}
 	{Human "mp/ger/tankman" 0xc00e
-		{Position -213.66 -5577.1}
+		{Position -220.5 -5574.18}
 		{xform zl 178.5}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 207}
 		{NameId 21 81}
@@ -310,6 +444,10 @@
 	{Human "mp/ger/tankman" 0xc014
 		{Position -922.33 -6374.03}
 		{xform zl -118.59 y 0.46 zw 28.63}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 208}
 		{NameId 101 103}
@@ -319,6 +457,7 @@
 		{TexMod "ger"}
 		{Skeleton
 			{MtlParams
+				{"parallax scale" "4.0000"}
 				{"specular color" "e6e6e6ff"}
 			}
 		}
@@ -326,10 +465,11 @@
 		{MID 1}
 	}
 	{Entity "skirmish_flag" 0x80a5
-		{Position -29.16 4259.51}
+		{Position -29.16 4259.5}
 		{TexMod "usa"}
 		{Skeleton
 			{MtlParams
+				{"parallax scale" "4.0000"}
 				{"specular color" "e6e6e6ff"}
 			}
 		}
@@ -342,6 +482,10 @@
 	{Human "mp/ger/mgun" 0xa00e
 		{Position -842.53 -5930.2}
 		{xform zl 100.4}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 5}
 		{NameId 116 4}
@@ -350,6 +494,10 @@
 	{Human "mp/ger/rifle" 0xb806
 		{Position -868.77 -5897.18}
 		{xform zl 80}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 8}
 		{NameId 78 109}
@@ -358,6 +506,10 @@
 	{Human "mp/ger/bazooker2" 0xb808
 		{Position -903.05 -5898.76}
 		{xform zl 80}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 9}
 		{NameId 3 131}
@@ -367,6 +519,10 @@
 	{Human "mp/ger/tankman" 0xf001
 		{Position -1069.51 -6606.67}
 		{xform y 0.48 zw 180}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 3}
 		{NameId 90 56}
@@ -374,20 +530,32 @@
 	{Human "mp/ger/tankman" 0xf002
 		{Position -1069.51 -6606.67}
 		{xform y 0.48 zw 180}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 4}
 		{NameId 125 57}
 	}
 	{Human "mp/ger/tankman2" 0xf003
-		{Position 157.42 -5597.86}
+		{Position 150.15 -5581.79}
 		{xform zl -179.07}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 6}
 		{NameId 132 44}
 	}
 	{Human "mp/ger/tankman" 0xf004
-		{Position -1170.7 -6606.67}
+		{Position -1170.69 -6606.67}
 		{xform zl 180 y 0.48 zw 180}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 7}
 		{NameId 5 120}
@@ -395,64 +563,84 @@
 	{Human "mp/ger/tankman" 0xf005
 		{Position -1069.51 -6606.67}
 		{xform y 0.48 zw 180}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 10}
 		{NameId 116 7}
 	}
 	{Entity "pz4j" 0xf008
-		{Position -211.44 -5888.91}
+		{Position -215.02 -5883.52}
 		{xform zl 88.5}
 		{TexMod "2"}
 		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 		}
 		{Extender "enumerator"
 			{number 466}
 			{digit_folder "ger"}
+		}
+		{Extender "detail"
+			{random}
 		}
 		{Player 1}
 		{MID 12}
 		{Able "-repaired"}
 	}
 	{Entity "stug3g" 0xa000
-		{Position -324.71 -5883.89}
+		{Position -322.98 -5883.2}
 		{xform zl 90}
 		{TexMod "2"}
-		{Placer
-			{State "seat1" {Broken}}
-			{State "seat2" {Broken}}
-			{State "seat3" {Broken}}
-			{State "seat4" {Broken}}
-		}
 		{Extender "enumerator"
 			{number 904}
 			{digit_folder "ger2"}
+		}
+		{Extender "detail"
+			{random}
 		}
 		{Player 1}
 		{MID 11}
 	}
 	{Human "mp/ger/tankman2" 0xa004
 		{Position -1057.79 -6457.32}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 13}
 		{NameId 126 136}
 	}
 	{Human "mp/ger/tankman" 0xa008
 		{Position -1331.53 -6403.83}
-		{xform zl -4.24 y 2.92 zw 4.24}
+		{xform zl -4.23 y 2.92 zw 4.23}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 14}
 		{NameId 134 143}
 	}
 	{Human "mp/ger/tankman" 0xa00c
-		{Position -247.11 -5462.24}
-		{xform zl -83.45 y 2.05 zw -96.55}
+		{Position -301.79 -5533.1}
+		{xform zl 180}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 17}
 		{NameId 125 10}
 	}
 	{Human "mp/ger/tankman" 0xa018
 		{Position -1057.79 -6457.32}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 18}
 		{NameId 64 30}
@@ -460,6 +648,10 @@
 	{Human "mp/ger/tankman" 0xa01a
 		{Position -302.85 -5885.54}
 		{xform zl 90}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 19}
 		{NameId 30 50}
@@ -471,96 +663,104 @@
 			{"/entity/-vehicle/tank_light/pz2l/pz2" "2"}
 		}
 		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 		}
 		{Extender "enumerator"
 			{number 119}
 			{digit_folder "ger"}
+		}
+		{Extender "detail"
+			{random}
 		}
 		{Player 1}
 		{MID 20}
 	}
 	{Human "mp/ger/tankman2" 0x9002
 		{Position -1261.56 -6406.38}
-		{xform zl 175.76 y 2.92 zw 4.24}
+		{xform zl 175.76 y 2.92 zw 4.23}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 23}
 		{NameId 131 144}
 	}
 	{Human "mp/ger/tankman" 0x9003
 		{Position -1331.53 -6403.83}
-		{xform zl -4.24 y 2.92 zw 4.24}
+		{xform zl -4.23 y 2.92 zw 4.23}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 24}
 		{NameId 57 63}
 	}
 	{Entity "pz5g" 0x9004
-		{Position 141.51 -5880.64}
+		{Position 136.41 -5872.4}
 		{xform zl 90.93}
 		{TexMod "2"}
+		{Extender "detail"
+			{random}
+		}
 		{Player 1}
 		{MID 25}
 		{Able "-repaired"}
 	}
 	{Entity "hetzer" 0x9006
-		{Position -102.86 -5873.42}
+		{Position -99.26 -5875.55}
 		{xform zl 90.11}
-		{TexMod
-			{"/entity/-vehicle/tank_medium/hetzer/hetzer" "2"}
-		}
-		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
+		{Volume "detail32"
+			{disabled}
 		}
 		{Extender "enumerator"
 			{number 258}
 			{digit_folder "ger"}
+		}
+		{Extender "detail"
+			{random}
 		}
 		{Player 1}
 		{MID 30}
 		{Able "-repaired"}
 	}
 	{Entity "stuh42" 0x9008
-		{Position 652.22 -5877.33}
+		{Position 645.44 -5887.01}
 		{xform zl 89.76}
 		{TexMod
 			{"/entity/-vehicle/tank_medium/stuh42/stuh 42" "2"}
-		}
-		{Placer
-			{State "seat1" {Broken}}
-			{State "seat2" {Broken}}
-			{State "seat3" {Broken}}
-			{State "seat4" {Broken}}
 		}
 		{Extender "enumerator"
 			{number 351}
 			{digit_folder "ger2"}
 		}
+		{Extender "detail"
+			{random}
+		}
 		{Player 1}
 		{MID 31}
 	}
 	{Entity "stug4g" 0x900b
-		{Position 19.32 -5868.84}
+		{Position 13.5 -5875.98}
 		{xform zl 88.48}
 		{TexMod "2"}
 		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
-		}
-		{Placer
-			{State "seat1" {Broken}}
-			{State "seat2" {Broken}}
-			{State "seat3" {Broken}}
-			{State "seat4" {Broken}}
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 		}
 		{Extender "enumerator"
 			{number 649}
 			{digit_folder "ger"}
+		}
+		{Extender "detail"
+			{random}
 		}
 		{Player 1}
 		{MID 33}
 		{Able "-repaired"}
 	}
 	{Entity "pz6e" 0xc002
-		{Position 272.61 -5882.7}
+		{Position 272.55 -5872.17}
 		{xform zl 90.72}
 		{TexMod
 			{"/entity/-vehicle/tank_heavy/pz6e/pz6auste" "2"}
@@ -574,40 +774,46 @@
 		{Able "-repaired"}
 	}
 	{Entity "pz6bh" 0xc005
-		{Position 414.96 -5878.39}
+		{Position 406.13 -5863.55}
 		{xform zl 89.92}
 		{TexMod "2"}
 		{Extender "enumerator"
 			{number 194}
 			{digit_folder "ger"}
 		}
+		{Extender "detail"
+			{random}
+		}
 		{Player 1}
 		{MID 38}
 		{Able "-repaired"}
 	}
 	{Entity "brummbar" 0xc009
-		{Position 913.28 -5889.47}
+		{Position 904.33 -5878.9}
 		{xform zl 89.96}
 		{TexMod "2"}
 		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 		}
 		{Extender "enumerator"
 			{number 514}
 			{digit_folder "ger2"}
+		}
+		{Extender "detail"
+			{random}
 		}
 		{Player 1}
 		{MID 39}
 		{Able "-repaired"}
 	}
 	{Entity "jagdtiger" 0xc00c
-		{Position 1068.3 -5914.19}
+		{Position 1039.97 -5875.51}
 		{xform zl 90}
 		{TexMod
 			{"/entity/-vehicle/tank_heavy/jagdtiger/jgdtiger" "2"}
 		}
 		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 		}
 		{Extender "enumerator"
 			{number 526}
@@ -618,23 +824,30 @@
 		{Able "-repaired"}
 	}
 	{Entity "hummel" 0xa01b
-		{Position 777.86 -5907.16}
+		{Position 775.46 -5884.58}
 		{xform zl 89.46}
 		{TexMod "2"}
 		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 		}
 		{Extender "enumerator"
 			{number 862}
 			{digit_folder "ger"}
+		}
+		{Extender "detail"
+			{random}
 		}
 		{Player 1}
 		{MID 35}
 		{Able "-repaired" "-emit_passangers_on_enemy"}
 	}
 	{Human "mp/ger/tankman2" 0xe001
-		{Position -66.38 -5520.62}
-		{xform zl -94.72 y 0.7 zw -85.17}
+		{Position -74.69 -5520.21}
+		{xform zl -90 y 0.64 zw -89.89}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 32}
 		{NameId 12 113}
@@ -642,13 +855,21 @@
 	{Human "mp/ger/tankman" 0xe002
 		{Position -154.86 -5522.74}
 		{xform zl 85.28 y 0.7 zw -85.17}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 47}
 		{NameId 134 125}
 	}
 	{Human "mp/ger/tankman" 0xe003
-		{Position -66.38 -5520.62}
+		{Position -66.37 -5520.62}
 		{xform zl -94.72 y 0.7 zw -85.17}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 53}
 		{NameId 70 112}
@@ -656,20 +877,32 @@
 	{Human "mp/ger/tankman" 0xe005
 		{Position -154.86 -5522.74}
 		{xform zl 85.28 y 0.7 zw -85.17}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 60}
 		{NameId 17 43}
 	}
 	{Human "mp/ger/tankman2" 0xe007
-		{Position 24.31 -5516.63}
-		{xform zl -1.52}
+		{Position 10.46 -5500.35}
+		{xform zl -113.53 y 0.64 zw -67.98}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 61}
 		{NameId 100 8}
 	}
 	{Human "mp/ger/tankman" 0xe008
 		{Position 24.31 -5516.63}
-		{xform zl -1.52}
+		{xform zl -1.51}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 66}
 		{NameId 16 96}
@@ -677,6 +910,10 @@
 	{Human "mp/ger/tankman" 0xe009
 		{Position 125.46 -5519.31}
 		{xform zl 178.48}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 73}
 		{NameId 116 63}
@@ -684,83 +921,131 @@
 	{Human "mp/ger/tankman" 0xe00b
 		{Position 125.46 -5519.31}
 		{xform zl 178.48}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 80}
 		{NameId 8 117}
 	}
 	{Human "mp/ger/tankman2" 0xe00d
-		{Position 283.24 -5891.21}
-		{xform zl 180 y 8.5 zw -89.78}
+		{Position 297.61 -5671.24}
+		{xform zl -179.28}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 81}
 		{NameId 102 47}
 	}
 	{Human "mp/ger/tankman" 0xe00e
 		{Position -974.29 -6624.16}
-		{xform zl 29.68 y 0.38 zw 150.77}
+		{xform zl 29.68 y 0.37 zw 150.77}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 82}
 		{NameId 120 101}
 	}
 	{Human "mp/ger/tankman" 0xe00f
 		{Position -1069.84 -6618.21}
-		{xform zl -150.32 y 0.38 zw 150.77}
+		{xform zl -150.32 y 0.37 zw 150.77}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 83}
 		{NameId 46 32}
 	}
 	{Human "mp/ger/tankman" 0xe010
 		{Position -974.29 -6624.16}
-		{xform zl 29.68 y 0.38 zw 150.77}
+		{xform zl 29.68 y 0.37 zw 150.77}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 84}
 		{NameId 131 61}
 	}
 	{Human "mp/ger/tankman" 0xe011
 		{Position -974.29 -6624.16}
-		{xform zl 29.68 y 0.38 zw 150.77}
+		{xform zl 29.68 y 0.37 zw 150.77}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 85}
 		{NameId 75 81}
 	}
 	{Human "mp/ger/tankman2" 0xe013
-		{Position 423.84 -5882.01}
-		{xform zl 180 y 8.5 zw -90.58}
+		{Position 442.12 -5648.27}
+		{xform zl 179.92}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 86}
 		{NameId 54 30}
 	}
 	{Human "mp/ger/tankman" 0xe014
 		{Position -869.81 -6581.08}
-		{xform zl 108.83 y 0.19 zw 71.09}
+		{xform zl 108.83 y 0.18 zw 71.08}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 87}
 		{NameId 107 123}
 	}
 	{Human "mp/ger/tankman" 0xe015
 		{Position -970.38 -6580.94}
-		{xform zl -71.17 y 0.19 zw 71.09}
+		{xform zl -71.17 y 0.18 zw 71.08}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 88}
 		{NameId 137 133}
 	}
 	{Human "mp/ger/tankman" 0xe016
 		{Position -869.81 -6581.08}
-		{xform zl 108.83 y 0.19 zw 71.09}
+		{xform zl 108.83 y 0.18 zw 71.08}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 89}
 		{NameId 98 143}
 	}
 	{Human "mp/ger/tankman" 0xe017
 		{Position -970.38 -6580.94}
-		{xform zl -71.17 y 0.19 zw 71.09}
+		{xform zl -71.17 y 0.18 zw 71.08}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 90}
 		{NameId 81 149}
 	}
 	{Human "mp/ger/tankman2" 0xe019
-		{Position 635.62 -5884.95}
-		{xform zl 180 y 8.5 zw -90.74}
+		{Position 608.02 -5639.26}
+		{xform zl 179.76}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 91}
 		{NameId 107 71}
@@ -768,6 +1053,10 @@
 	{Human "mp/ger/tankman" 0xe01a
 		{Position -732.34 -6618.72}
 		{xform zl 2.39 y 2.31 zw 177.24}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 92}
 		{NameId 60 96}
@@ -775,6 +1064,10 @@
 	{Human "mp/ger/tankman" 0xe01b
 		{Position -833.45 -6618.07}
 		{xform zl -177.61 y 2.31 zw 177.24}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 93}
 		{NameId 141 30}
@@ -782,6 +1075,10 @@
 	{Human "mp/ger/tankman" 0xe01c
 		{Position -833.45 -6618.07}
 		{xform zl -177.61 y 2.31 zw 177.24}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 94}
 		{NameId 94 12}
@@ -789,29 +1086,45 @@
 	{Human "mp/ger/tankman" 0xe01d
 		{Position -833.45 -6618.07}
 		{xform zl -177.61 y 2.31 zw 177.24}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 95}
 		{NameId 74 32}
 	}
 	{Human "mp/ger/tankman2" 0xe01f
-		{Position 782.31 -5949.23}
+		{Position 779.9 -5926.65}
 		{xform zl 89.46}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 96}
 		{NameId 55 8}
 		{LastItem "mp40"}
 	}
 	{Human "mp/ger/tankman" 0xe020
-		{Position 764.9 -5933.53}
+		{Position 762.5 -5910.95}
 		{xform zl 89.46}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 97}
 		{NameId 24 31}
 		{LastItem "valter"}
 	}
 	{Human "mp/ger/tankman" 0xe021
-		{Position 787.63 -5932.94}
+		{Position 785.23 -5910.36}
 		{xform zl 89.46}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 98}
 		{NameId 45 14}
@@ -819,63 +1132,99 @@
 	}
 	{Human "mp/ger/tankman" 0xe023
 		{Position -680.19 -6544.53}
-		{xform zl 88.84 y 8.48 zw -178.72}
+		{xform zl 88.84 y 8.47 zw -178.72}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 100}
 		{NameId 28 106}
 	}
 	{Human "mp/ger/tankman2" 0xe025
 		{Position -628.55 -6625.61}
-		{xform zl 164.56 y 8.1 zw -164.42}
+		{xform zl 164.56 y 8.09 zw -164.42}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 101}
 		{NameId 111 118}
 	}
 	{Human "mp/ger/tankman" 0xe026
-		{Position -539.85 -6625.63}
-		{xform zl -15.44 y 8.1 zw -164.42}
+		{Position -539.84 -6625.63}
+		{xform zl -15.43 y 8.09 zw -164.42}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 102}
 		{NameId 85 120}
 	}
 	{Human "mp/ger/tankman" 0xe027
 		{Position -628.55 -6625.61}
-		{xform zl 164.56 y 8.1 zw -164.42}
+		{xform zl 164.56 y 8.09 zw -164.42}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 103}
 		{NameId 109 50}
 	}
 	{Human "mp/ger/tankman" 0xe029
 		{Position -628.55 -6625.61}
-		{xform zl 164.56 y 8.1 zw -164.42}
+		{xform zl 164.56 y 8.09 zw -164.42}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 105}
 		{NameId 20 20}
 	}
 	{Human "mp/ger/tankman2" 0xe02b
 		{Position -431.9 -6570.52}
-		{xform zl -42.01 y 7.34 zw -136.15}
+		{xform zl -42 y 7.34 zw -136.14}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 107}
 		{NameId 137 131}
 	}
 	{Human "mp/ger/tankman" 0xe02c
-		{Position -531.97 -6573.32}
-		{xform zl 137.99 y 7.34 zw -136.15}
+		{Position -531.96 -6573.32}
+		{xform zl 137.99 y 7.34 zw -136.14}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 108}
 		{NameId 115 116}
 	}
 	{Human "mp/ger/tankman" 0xe02d
-		{Position -531.97 -6573.32}
-		{xform zl 137.99 y 7.34 zw -136.15}
+		{Position -531.96 -6573.32}
+		{xform zl 137.99 y 7.34 zw -136.14}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 109}
 		{NameId 21 45}
 	}
 	{Human "mp/ger/tankman" 0xe02f
 		{Position -475.97 -6524.74}
-		{xform zl 47.99 y 7.34 zw -136.15}
+		{xform zl 47.99 y 7.34 zw -136.14}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 111}
 		{NameId 74 148}
@@ -884,78 +1233,108 @@
 		{Position -287.68 6731.76 0.57}
 		{xform zl -177.64 y 1.24 zw 89.16}
 		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 		}
 		{Extender "enumerator"
 			{number 802}
+		}
+		{Extender "detail"
+			{random}
 		}
 		{Player 2}
 		{MID 59}
 	}
 	{Human "mp/usa/tankman2" 0x8054
-		{Position -296.34 6728.16}
+		{Position -296.33 6728.16}
 		{xform zl -177.64 y 1.24 zw 89.16}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 79}
-		{Able "personage"}
 		{NameId 56 2}
 		{LastItem "thompson"}
 	}
 	{Human "mp/usa/tankman" 0x8056
 		{Position 546.99 4366.35}
-		{xform zl 151.37 y 0.45 zw 77.16}
+		{xform zl 151.37 y 0.44 zw 77.16}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 99}
-		{Able "personage"}
 		{NameId 0 54}
 	}
 	{Human "mp/usa/tankman" 0x8058
-		{Position -299.4 6741.05}
-		{xform zl -177.64 y 1.24 zw 89.16}
+		{Position -332.08 6729.37}
+		{xform zl -87.64 y 1.24 zw 89.16}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 104}
-		{Able "personage"}
 		{NameId 94 99}
 	}
 	{Human "mp/usa/tankman" 0x805a
 		{Position 546.99 4366.35}
-		{xform zl 151.37 y 0.45 zw 77.16}
+		{xform zl 151.37 y 0.44 zw 77.16}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 110}
-		{Able "personage"}
 		{NameId 98 56}
 	}
 	{Human "mp/usa/tankman" 0x805c
 		{Position -281.15 6741.54}
 		{xform zl -177.64 y 1.24 zw 89.16}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 112}
-		{Able "personage"}
 		{NameId 2 23}
 		{LastItem "colt"}
 	}
 	{Human "mp/usa/tankman2" 0xc003
-		{Position 225.7 4169.07}
+		{Position 225.7 4169.06}
 		{xform zl -179.89 y 8.14 zw -93.48}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 113}
-		{Able "personage"}
 		{NameId 108 3}
 	}
 	{Human "mp/usa/tankman" 0xc00d
 		{Position 217.32 4166.24}
 		{xform zl 177.97 y 0.36 zw 89.16}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 114}
-		{Able "personage"}
 		{NameId 58 48}
 		{LastItem "colt"}
 	}
 	{Entity "willysat" 0xc010
 		{Position -240.36 4340.7 0.03}
 		{xform zl 87.03 y 0.94 zw 122.96}
+		{Volume "detail1"
+			{disabled}
+		}
 		{Extender "enumerator"
 			{number 878}
+		}
+		{Extender "detail"
+			{random}
 		}
 		{Player 2}
 		{MID 116}
@@ -965,6 +1344,9 @@
 		{xform zl 177.97 y 0.36 zw 89.16}
 		{Extender "enumerator"
 			{number 348}
+		}
+		{Extender "detail"
+			{random}
 		}
 		{Player 2}
 		{MID 118}
@@ -990,54 +1372,80 @@
 		{MID 119}
 	}
 	{Human "mp/usa/tankman" 0xc015
-		{Position 235.83 4163.85}
+		{Position 235.82 4163.84}
 		{xform zl 177.97 y 0.36 zw 89.16}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 120}
-		{Able "personage"}
 		{NameId 41 51}
 		{LastItem "colt"}
 	}
 	{Human "mp/usa/tankman" 0xc018
 		{Position 180.11 4145.14}
 		{xform zl -92.03 y 0.36 zw 89.16}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 126}
-		{Able "personage"}
 		{NameId 120 10}
 	}
 	{Human "mp/usa/tankman" 0xc01a
 		{Position 270.97 4140.59}
 		{xform zl 87.97 y 0.36 zw 89.16}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 127}
-		{Able "personage"}
 		{NameId 43 32}
 	}
 	{Human "mp/usa/tankman2" 0xc01d
-		{Position -596.82 3581.22}
-		{xform zl -177.93 y 4.45 zw 90.02}
+		{Position -837.26 3509.47}
+		{xform zl 97.19}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 128}
-		{Able "personage"}
 		{NameId 127 28}
+		{Cover
+			{sector -837.265 3509.47 {type "hide_stand"}
+				{wall -749.084 3513.55 -842.588 3501.74}
+				{row 0}
+				{link 0x5027}
+			}
+		}
+		{FsmState "stand"}
 	}
 	{Human "mp/usa/tankman" 0xc021
 		{Position -649.82 3572.5}
 		{xform zl 80.9 y 3.05 zw -78.32}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 129}
-		{Able "personage"}
 		{NameId 22 64}
 	}
 	{Entity "m5a1" 0x805f
 		{Position -411.17 4455.75}
 		{xform zl -150}
 		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 		}
 		{Extender "enumerator"
 			{number 275}
+		}
+		{Extender "detail"
+			{random}
 		}
 		{Player 2}
 		{MID 131}
@@ -1045,33 +1453,45 @@
 	{Human "mp/usa/tankman2" 0xc019
 		{Position 227.52 4450.23}
 		{xform zl -140}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 132}
-		{Able "personage"}
 		{NameId 53 70}
 	}
 	{Human "mp/usa/tankman" 0xc022
 		{Position 227.52 4450.23}
 		{xform zl -140}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 133}
-		{Able "personage"}
 		{NameId 155 72}
 	}
 	{Human "mp/usa/tankman" 0xc024
 		{Position 227.52 4450.23}
 		{xform zl -140}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 134}
-		{Able "personage"}
 		{NameId 35 94}
 	}
 	{Human "mp/usa/tankman" 0xc026
 		{Position 178.41 4409.02}
-		{xform zl 40}
+		{xform zl 39.99}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 135}
-		{Able "personage"}
 		{NameId 109 6}
 	}
 	{Entity "m6_m3" 0x9001
@@ -1082,61 +1502,92 @@
 		}
 		{Player 2}
 		{MID 136}
+		{Weaponry
+			{State "mgun2"
+				{AccuracyByMotion
+					{value 0.994821}
+					{prevposition -593.467 3516.22 23.2855}
+					{prevdirection 0.045016 -0.998985 0.00011861}
+				}
+			}
+		}
 	}
 	{Human "mp/usa/tankman" 0x9009
 		{Position -557.96 3576.66}
 		{xform zl -99.1 y 3.05 zw -78.32}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 137}
-		{Able "personage"}
 		{NameId 37 4}
 	}
 	{Human "mp/usa/tankman" 0x900c
 		{Position -649.82 3572.5}
 		{xform zl 80.9 y 3.05 zw -78.32}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 138}
-		{Able "personage"}
 		{NameId 70 14}
 	}
 	{Human "mp/usa/tankman" 0x900e
 		{Position -649.82 3572.5}
 		{xform zl 80.9 y 3.05 zw -78.32}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 139}
-		{Able "personage"}
 		{NameId 131 67}
 	}
 	{Human "mp/usa/smg2" 0x8065
-		{Position -168.18 4189.49}
+		{Position -168.18 4189.48}
 		{xform zl 62.96 y 1.27 zw -153.45}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 141}
-		{Able "personage"}
 		{NameId 37 73}
 		{LastItem "thompson_40"}
 	}
 	{Human "mp/usa/smg2" 0x8067
-		{Position -192.28 4189.7}
+		{Position -192.27 4189.69}
 		{xform zl 62.96 y 1.27 zw -153.45}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 142}
-		{Able "personage"}
 		{NameId 75 24}
 		{LastItem "thompson_40"}
 	}
 	{Human "mp/usa/bazooker" 0x8069
 		{Position 214.56 3887.62}
 		{xform zl -90}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 143}
-		{Able "personage"}
 		{NameId 73 46}
 		{FsmState "stand"}
 	}
 	{Human "mp/usa/oficer" 0xa01d
 		{Position -29.48 4241.15}
 		{xform zl -91.33}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 146}
 		{NameId 19 16}
@@ -1146,9 +1597,12 @@
 	{Human "mp/usa/squadleader" 0xe022
 		{Position 174.41 3811.59}
 		{xform zl 80}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 152}
-		{Able "personage"}
 		{NameId 130 98}
 		{LastItem "thompson"}
 		{FsmState "stand"}
@@ -1172,50 +1626,72 @@
 		{MID 22}
 	}
 	{Human "mp/usa/smg" 0xb000
-		{Position 101.05 4142.49}
+		{Position 101.05 4142.48}
 		{xform zl 180 y 0.79 zw 90.03}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 45}
-		{Able "personage"}
 		{NameId 2 22}
 		{LastItem "thompson"}
 	}
 	{Human "mp/usa/smg" 0xb003
 		{Position 76.93 4131.04}
 		{xform zl 180 y 0.79 zw 90.03}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 140}
-		{Able "personage"}
 		{NameId 20 98}
 		{LastItem "thompson"}
 	}
 	{Human "mp/ger/smg2" 0x806f
-		{Position 2958.63 -4512.91}
+		{Position 2958.62 -4512.9}
 		{xform zl -29.64 y 2.58 zw -149.34}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 148}
 		{NameId 70 57}
 		{LastItem "mp40"}
 	}
 	{Human "mp/ger/smg2" 0x8073
-		{Position -3044.74 -4467.82}
-		{xform zl 87.84 zw 91.72}
+		{Position -3044.73 -4467.81}
+		{xform zl 87.84 zw 91.71}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 151}
 		{NameId 62 142}
 		{LastItem "mp40"}
 	}
 	{Human "mp/ger/smg2" 0x8075
-		{Position -350.32 -4389.5}
-		{xform zl -43.62 y 2.86 zw 40.96}
+		{Position -350.31 -4389.5}
+		{xform zl -43.61 y 2.86 zw 40.96}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 154}
 		{NameId 14 109}
 		{LastItem "mp40"}
 	}
 	{Human "mp/ger/smg2" 0x8077
-		{Position -3071.71 -4468.99}
-		{xform zl -92.16 zw 91.72}
+		{Position -3071.71 -4468.98}
+		{xform zl -92.15 zw 91.71}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 155}
 		{NameId 100 24}
@@ -1224,16 +1700,19 @@
 	{Human "mp/ger/smg2" 0x8079
 		{Position -323.33 -4389.39}
 		{xform zl 136.38 y 2.86 zw 40.96}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 156}
 		{NameId 104 119}
 		{LastItem "mp40"}
 	}
 	{Entity "88mm_flak41" 0xc00f
-		{Position 2946.24 -4519.15 2.11}
+		{Position 2946.24 -4519.15 2.1}
 		{xform zl 60.36 y 2.58 zw -149.34}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -1251,7 +1730,7 @@
 	}
 	{Entity "88mm_flak41" 0xc016
 		{Position -3057.22 -4473.71}
-		{xform zl 177.84 zw 91.72}
+		{xform zl 177.84 zw 91.71}
 		{TexMod "2"}
 		{Placer
 			{State "driver1" {Disable}}
@@ -1288,7 +1767,7 @@
 		{MID 158}
 	}
 	{Entity "netting" 0x807c
-		{Position -3050.18 -4455.57}
+		{Position -3050.18 -4455.56}
 	}
 	{Entity "netting" 0x807e
 		{Position -334.03 -4383.02}
@@ -1306,11 +1785,15 @@
 		{xform zl -0.23}
 	}
 	{Entity "sandbag2" 0xc01b
-		{Position -3056.32 -4398.55 -0.05}
+		{Position -3056.32 -4398.54 -0.05}
 	}
 	{Human "mp/ger/rifle2" 0x8076
 		{Position -872.49 -5931.02}
 		{xform zl 80}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 150}
 		{NameId 118 92}
@@ -1319,36 +1802,48 @@
 	{Human "mp/usa/bazooker" 0x8083
 		{Position 168.8 6674.09}
 		{xform zl -90}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 160}
-		{Able "personage"}
 		{NameId 97 87}
 		{FsmState "stand"}
 	}
 	{Human "mp/usa/bazooker2" 0x8086
-		{Position 143.26 6675.18}
+		{Position 143.25 6675.18}
 		{xform zl -90}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 161}
-		{Able "personage"}
 		{NameId 148 79}
 		{FsmState "stand"}
 	}
 	{Human "mp/usa/tankman2" 0xa020
-		{Position 142.9 6720.43}
+		{Position 142.89 6720.43}
 		{xform zl -90}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 43}
-		{Able "personage"}
 		{NameId 153 14}
 		{FsmState "stand"}
 	}
 	{Human "mp/usa/tankman" 0xa024
 		{Position 144.24 6747.39}
 		{xform zl -100}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 44}
-		{Able "personage"}
 		{NameId 69 84}
 		{LastItem "colt"}
 		{FsmState "stand"}
@@ -1356,9 +1851,12 @@
 	{Human "mp/usa/tankman" 0xa028
 		{Position 168.68 6719.58}
 		{xform zl -110}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 46}
-		{Able "personage"}
 		{NameId 8 4}
 		{LastItem "colt"}
 		{FsmState "stand"}
@@ -1366,64 +1864,84 @@
 	{Human "mp/usa/tankman" 0xa02a
 		{Position 169.58 6746.66}
 		{xform zl -100}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 49}
-		{Able "personage"}
 		{NameId 112 61}
 		{LastItem "colt"}
 		{FsmState "stand"}
 	}
 	{Human "mp/usa/elite" 0xc027
 		{Position 448.48 6826.43}
-		{xform zl -14.12 y 0.15 zw -75.88}
+		{xform zl -14.11 y 0.14 zw -75.87}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 58}
-		{Able "personage"}
 		{NameId 144 80}
 		{LastItem "m1_carbine"}
 	}
 	{Human "mp/usa/elite" 0xc02b
 		{Position 575.48 6689.81}
-		{xform zl 1.8 y 0.96 zw -91.8}
+		{xform zl 1.8 y 0.95 zw -91.8}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 65}
-		{Able "personage"}
 		{NameId 30 31}
 		{LastItem "m1_carbine"}
 	}
 	{Human "mp/usa/elite" 0xc02d
-		{Position 551.36 6678.38}
-		{xform zl 1.8 y 0.96 zw -91.8}
+		{Position 551.35 6678.38}
+		{xform zl 1.8 y 0.95 zw -91.8}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 74}
-		{Able "personage"}
 		{NameId 13 86}
 		{LastItem "m1_carbine"}
 	}
 	{Human "mp/usa/elite" 0xc02f
-		{Position 472.58 6826.43}
-		{xform zl -14.12 y 0.15 zw -75.88}
+		{Position 472.57 6826.42}
+		{xform zl -14.11 y 0.14 zw -75.87}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 75}
-		{Able "personage"}
 		{NameId 9 20}
 		{LastItem "m1_carbine"}
 	}
 	{Human "mp/usa/elite" 0xc031
 		{Position 313.6 6679.05}
 		{xform zl -89.33}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 76}
-		{Able "personage"}
 		{NameId 1 30}
 		{LastItem "m1_carbine"}
 	}
 	{Entity "maxson" 0x8800
 		{Position 313.6 6679.05}
-		{xform zl -89.33}
+		{xform zl -89.32}
 		{Placer
-			{State "driver" {Disable}}
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
 			{State "seat1" {Disable}}
+			{State "seat2" {Disable}}
 		}
 		{Extender "cannon"
 			{animation
@@ -1436,7 +1954,7 @@
 	}
 	{Entity "gmc_cckw" 0x8081
 		{Position 460.43 6706.01 0}
-		{xform zl -90}
+		{xform zl 179.89 y 0.1 zw 90.1}
 		{Extender "enumerator"
 			{number 177}
 		}
@@ -1444,6 +1962,7 @@
 			{off}
 		}
 		{Extender "supply_zone"
+			{enabled}
 			{current 0}
 		}
 		{Player 2}
@@ -1451,17 +1970,20 @@
 		{Able "-emit_on_attack" "-emit_passangers_on_enemy"}
 	}
 	{Human "mp/usa/rifle" 0x8082
-		{Position 453.15 6689.41}
-		{xform zl -90}
+		{Position 453.14 6689.44}
+		{xform zl 179.89 y 0.1 zw 90.1}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 165}
-		{Able "personage"}
 		{NameId 72 3}
 		{LastItem "garand"}
 	}
 	{Entity "np_m5cannon" 0x8088
 		{Position 565.27 6664.16}
-		{xform zl 1.8 y 0.96 zw -91.8}
+		{xform zl 1.8 y 0.95 zw -91.8}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -1479,11 +2001,12 @@
 	}
 	{Entity "gmc_art" 0x8089
 		{Position 240.19 6723.64 0}
-		{xform zl -90}
+		{xform zl 179.89 y 0.1 zw 90.1}
 		{Extender "enumerator"
 			{number 161}
 		}
 		{Extender "supply_zone"
+			{enabled}
 			{current 0}
 		}
 		{Player 2}
@@ -1491,11 +2014,14 @@
 		{Able "-emit_on_attack" "-emit_passangers_on_enemy"}
 	}
 	{Human "mp/usa/rifle" 0x808a
-		{Position 233.57 6703.91}
-		{xform zl 180 y 6.55 zw 90}
+		{Position 233.57 6703.94}
+		{xform zl 179.99 y 6.65 zw 90}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 170}
-		{Able "personage"}
 		{NameId 40 28}
 		{LastItem "garand"}
 	}
@@ -1505,17 +2031,25 @@
 		{Extender "enumerator"
 			{number 533}
 		}
+		{Extender "detail"
+			{random}
+		}
 		{Player 2}
 		{MID 57}
 	}
 	{Entity "m4a3e2_jumbo_76" 0xe00c
-		{Position -523.91 6727.32 0.34}
+		{Position -523.9 6727.32 0.34}
 		{xform zl -100.06 y 1.16 zw 10.07}
 		{Extender "enumerator"
 			{number 655}
 		}
 		{Extender "detail"
 			{random 0}
+			{detail5}
+			{detail1}
+			{detail2}
+			{detail4}
+			{detail3}
 		}
 		{Player 2}
 		{MID 62}
@@ -1525,6 +2059,9 @@
 		{xform zl 123.23 y 0.36 zw 146.19}
 		{Extender "enumerator"
 			{number 799}
+		}
+		{Extender "detail"
+			{random}
 		}
 		{Player 2}
 		{MID 64}
@@ -1539,272 +2076,372 @@
 		{MID 71}
 	}
 	{Entity "m10wolverine" 0xc007
-		{Position -163.65 6731.98}
+		{Position -163.64 6731.98}
 		{xform zl -90}
 		{Extender "enumerator"
 			{number 901}
+		}
+		{Extender "detail"
+			{random}
 		}
 		{Player 2}
 		{MID 50}
 	}
 	{Human "mp/usa/tankman2" 0x8017
 		{Position 1172.68 5074.33}
-		{xform zl -88.32 y 2.02 zw 38.79}
+		{xform zl -88.32 y 2.02 zw 38.78}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 173}
-		{Able "personage"}
 		{NameId 61 14}
 	}
 	{Human "mp/usa/tankman" 0x8071
-		{Position 1224.61 5011.8}
-		{xform zl 91.68 y 2.02 zw 38.79}
+		{Position 1224.61 5011.79}
+		{xform zl 91.68 y 2.02 zw 38.78}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 174}
-		{Able "personage"}
 		{NameId 47 26}
 	}
 	{Human "mp/usa/tankman" 0x808e
-		{Position 1224.61 5011.8}
-		{xform zl 91.68 y 2.02 zw 38.79}
+		{Position 1224.61 5011.79}
+		{xform zl 91.68 y 2.02 zw 38.78}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 175}
-		{Able "personage"}
 		{NameId 49 53}
 	}
 	{Human "mp/usa/tankman2" 0xe00a
 		{Position 21.66 6773.05}
 		{xform zl 175.33}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 68}
-		{Able "personage"}
 		{NameId 11 47}
 	}
 	{Human "mp/usa/tankman" 0xe01e
 		{Position 21.66 6773.05}
 		{xform zl 175.33}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 69}
-		{Able "personage"}
 		{NameId 129 52}
 	}
 	{Human "mp/usa/tankman" 0xe02a
 		{Position -42.24 6778.27}
 		{xform zl -4.67}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 70}
-		{Able "personage"}
 		{NameId 20 20}
 	}
 	{Human "mp/usa/tankman" 0xe030
 		{Position 21.66 6773.05}
 		{xform zl 175.33}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 176}
-		{Able "personage"}
 		{NameId 70 29}
 	}
 	{Human "mp/usa/tankman" 0xe032
 		{Position -159.62 6768.39}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 178}
-		{Able "personage"}
 		{NameId 8 72}
 	}
 	{Human "mp/usa/tankman" 0xe034
 		{Position -159.62 6768.39}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 179}
-		{Able "personage"}
 		{NameId 141 96}
 	}
 	{Human "mp/usa/tankman" 0xe036
 		{Position -67.66 6768.39}
 		{xform zl 180}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 181}
-		{Able "personage"}
 		{NameId 35 91}
 	}
 	{Human "mp/usa/tankman" 0xe038
 		{Position -159.62 6768.39}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 182}
-		{Able "personage"}
 		{NameId 146 6}
 	}
 	{Human "mp/usa/tankman2" 0xe03a
-		{Position -38.54 6735.59}
-		{xform zl 180 y 4.5 zw 89.5}
+		{Position -0.16 6727.02}
+		{xform zl 180}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 183}
-		{Able "personage"}
 		{NameId 105 64}
 	}
 	{Human "mp/usa/tankman2" 0xe03c
-		{Position -163.76 6743.92}
-		{xform zl 180 y 8.5 zw -90.5}
+		{Position -163.75 6743.92}
+		{xform zl 180 y 8.49 zw -90.5}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 184}
-		{Able "personage"}
 		{NameId 145 76}
 	}
 	{Human "mp/usa/tankman" 0xe03e
 		{Position -179.71 6758.44}
 		{xform zl 180}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 185}
-		{Able "personage"}
 		{NameId 147 4}
 	}
 	{Human "mp/usa/tankman" 0xe040
 		{Position -270.68 6758.44}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 186}
-		{Able "personage"}
 		{NameId 9 16}
 	}
 	{Human "mp/usa/tankman" 0xe042
-		{Position -171.99 6740.73}
+		{Position -171.98 6740.73}
 		{xform zl -90}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 187}
-		{Able "personage"}
 		{NameId 101 80}
 		{LastItem "colt"}
 	}
 	{Human "mp/usa/tankman" 0xe044
-		{Position -153.39 6739.27}
+		{Position -153.38 6739.26}
 		{xform zl -90}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 188}
-		{Able "personage"}
 		{NameId 63 21}
 		{LastItem "colt"}
 	}
 	{Human "mp/usa/tankman2" 0xe046
-		{Position -402.44 6732.54}
-		{xform zl 176.3 y 4.7 zw 92.6}
+		{Position -363.98 6721.7}
+		{xform zl 33.23 y 0.36 zw 146.19}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 189}
-		{Able "personage"}
 		{NameId 30 60}
 	}
 	{Human "mp/usa/tankman" 0xe048
 		{Position -284.92 6763.21}
 		{xform zl 33.23 y 0.36 zw 146.19}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 190}
-		{Able "personage"}
 		{NameId 131 31}
 	}
 	{Human "mp/usa/tankman" 0xe04a
 		{Position -376.88 6764.13}
 		{xform zl -146.77 y 0.36 zw 146.19}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 191}
-		{Able "personage"}
 		{NameId 120 2}
 	}
 	{Human "mp/usa/tankman" 0xe04c
 		{Position -284.92 6763.21}
 		{xform zl 33.23 y 0.36 zw 146.19}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 192}
-		{Able "personage"}
 		{NameId 33 96}
 	}
 	{Human "mp/usa/tankman" 0xe04e
 		{Position -376.88 6764.13}
 		{xform zl -146.77 y 0.36 zw 146.19}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 193}
-		{Able "personage"}
 		{NameId 149 65}
 	}
 	{Human "mp/usa/tankman" 0xe050
 		{Position -492.02 6760.77}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 194}
-		{Able "personage"}
 		{NameId 92 77}
 	}
 	{Human "mp/usa/tankman" 0xe052
 		{Position -492.02 6760.77}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 195}
-		{Able "personage"}
 		{NameId 37 93}
 	}
 	{Human "mp/usa/tankman" 0xe054
 		{Position -492.02 6760.77}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 196}
-		{Able "personage"}
 		{NameId 101 46}
 	}
 	{Human "mp/usa/tankman" 0xe056
 		{Position -400.05 6760.78}
 		{xform zl 180}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 197}
-		{Able "personage"}
 		{NameId 70 15}
 	}
 	{Human "mp/usa/tankman2" 0xe058
-		{Position -515.02 6733.68}
-		{xform zl -166.38 y 4.85 zw 75.94}
+		{Position -477.49 6723.9}
+		{xform zl 169.94 y 1.16 zw 10.07}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 198}
-		{Able "personage"}
 		{NameId 4 98}
 	}
 	{Human "mp/usa/tankman2" 0xe05a
-		{Position -657.59 6722.68}
-		{xform zl -128.91 y 4.95 zw 40.29}
+		{Position -693.41 6720.86}
+		{xform zl 20.32 y 4.09 zw -18.59}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 199}
-		{Able "personage"}
 		{NameId 94 46}
 	}
 	{Human "mp/usa/tankman" 0xe05c
 		{Position -528.81 6761.29}
 		{xform zl -152.38 y 3.13 zw -25.9}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 200}
-		{Able "personage"}
 		{NameId 89 69}
 	}
 	{Human "mp/usa/tankman" 0xe05e
 		{Position -620.62 6758.47}
 		{xform zl 27.62 y 3.13 zw -25.9}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 201}
-		{Able "personage"}
 		{NameId 86 69}
 	}
 	{Human "mp/usa/tankman" 0xe060
 		{Position -620.62 6758.47}
 		{xform zl 27.62 y 3.13 zw -25.9}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 202}
-		{Able "personage"}
 		{NameId 47 92}
 	}
 	{Human "mp/usa/tankman" 0xe062
 		{Position -528.81 6761.29}
 		{xform zl -152.38 y 3.13 zw -25.9}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 203}
-		{Able "personage"}
 		{NameId 86 19}
 	}
 	{Entity "gmc_art" 0x9005
-		{Position 861.29 4305.01 25.38}
+		{Position 861.29 4305 25.38}
 		{xform zl -67.94 y 3.04 zw 17.91}
 		{Extender "enumerator"
 			{number 857}
 		}
 		{Extender "supply_zone"
+			{enabled}
 			{current 0}
 		}
 		{Player 2}
@@ -1813,16 +2450,19 @@
 	{Human "mp/usa/bazooker2" 0x808f
 		{Position 212.3 3860.09}
 		{xform zl -110}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 52}
-		{Able "personage"}
 		{NameId 100 33}
 		{LastItem "thompson"}
 		{FsmState "stand"}
 	}
 	{Entity "bofors" 0x8087
 		{Position 458.19 6828.29}
-		{xform zl -14.12 y 0.15 zw -75.88}
+		{xform zl -14.11 y 0.14 zw -75.87}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -1841,9 +2481,9 @@
 	}
 	{Entity "m24" 0x808b
 		{Position 1184.48 5032.33 -9.53}
-		{xform zl -178.32 y 2.02 zw 38.79}
+		{xform zl -178.32 y 2.02 zw 38.78}
 		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 		}
 		{Extender "enumerator"
 			{number 840}
@@ -1853,10 +2493,13 @@
 	}
 	{Human "mp/usa/tankman" 0x8092
 		{Position 1172.68 5074.33}
-		{xform zl -88.32 y 2.02 zw 38.79}
+		{xform zl -88.32 y 2.02 zw 38.78}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 115}
-		{Able "personage"}
 		{NameId 98 70}
 	}
 	{Entity "t1hvy_early" 0xe000
@@ -1867,45 +2510,77 @@
 		}
 		{Player 2}
 		{MID 72}
+		{Weaponry
+			{State "mgun2"
+				{AccuracyByMotion
+					{value 0.994675}
+					{prevposition 461.791 4435.69 38.1628}
+					{prevdirection -0.940868 0.338484 0.0138921}
+				}
+			}
+		}
 	}
 	{Human "mp/usa/tankman2" 0xe012
-		{Position 521.51 4414.64}
-		{xform zl 170.42 y 5.3 zw -10.73}
+		{Position 596.58 4050.22}
+		{xform zl 44.38}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 117}
-		{Able "personage"}
 		{NameId 141 61}
+		{Cover
+			{sector 596.585 4050.23 {type "hide_stand"}
+				{wall 648.465 3987.21 565.857 4071.62}
+				{row 0}
+				{link 0x84}
+			}
+		}
+		{FsmState "stand"}
 	}
 	{Human "mp/usa/tankman" 0xe02e
-		{Position 499.85 4381.07}
-		{xform zl 39.92 y 1.14 zw 30.3}
+		{Position 499.85 4381.06}
+		{xform zl 39.91 y 1.14 zw 30.3}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 144}
-		{Able "personage"}
 		{NameId 66 91}
 	}
 	{Human "mp/usa/tankman" 0xe033
 		{Position 468.08 4390.36}
-		{xform zl 39.92 y 1.14 zw 30.3}
+		{xform zl 39.91 y 1.14 zw 30.3}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 147}
-		{Able "personage"}
 		{NameId 51 75}
 	}
 	{Human "mp/usa/tankman" 0xe037
 		{Position 530.96 4467.6}
 		{xform zl -140.08 y 1.14 zw 30.3}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 162}
-		{Able "personage"}
 		{NameId 125 94}
 	}
 	{Human "mp/usa/tankman" 0xe03b
-		{Position 499.85 4381.07}
-		{xform zl 39.92 y 1.14 zw 30.3}
+		{Position 499.85 4381.06}
+		{xform zl 39.91 y 1.14 zw 30.3}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 177}
-		{Able "personage"}
 		{NameId 10 21}
 	}
 	{Entity "gmc_art" 0x806b
@@ -1915,6 +2590,7 @@
 			{number 328}
 		}
 		{Extender "supply_zone"
+			{enabled}
 			{current 0}
 		}
 		{Player 2}
@@ -1922,7 +2598,7 @@
 	}
 	{Entity "t29" 0x8068
 		{Position 2475.49 6830.39 25.95}
-		{xform zl -174.25 y 1.72 zw 84.34}
+		{xform zl -174.25 y 1.71 zw 84.34}
 		{Impregnability full}
 		{Extender "enumerator"
 			{number 329}
@@ -1940,6 +2616,11 @@
 	{Human "mp/usa/tankman2" 0x806c
 		{Position 2265.33 6815.58}
 		{xform zl -122.34}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 205}
 		{NameId 71 88}
@@ -1948,30 +2629,46 @@
 	{Human "mp/usa/smg" 0xc000
 		{Position 2599.76 6863.07}
 		{xform zl -164.76 y 9.01 zw 170.23}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 212}
 		{NameId 88 56}
 		{LastItem "thompson"}
 	}
 	{Human "mp/usa/rifle" 0xc012
-		{Position 2603.49 6834.03}
-		{xform zl -169.55 y 8.19 zw 79.61}
+		{Position 2603.48 6834.02}
+		{xform zl -169.54 y 8.18 zw 79.61}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 214}
 		{NameId 19 72}
 		{LastItem "garand"}
 	}
 	{Human "mp/usa/smg" 0xc01f
-		{Position 2599.31 6882.93}
-		{xform zl -126.95 y 3.85 zw 123.1}
+		{Position 2599.3 6882.92}
+		{xform zl -126.95 y 3.84 zw 123.09}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 215}
 		{NameId 18 14}
 		{LastItem "thompson"}
 	}
 	{Human "mp/usa/rifle" 0xc029
-		{Position 2599.79 6873.05}
-		{xform zl -164.34 y 9.21 zw 165.69}
+		{Position 2599.78 6873.05}
+		{xform zl -164.33 y 9.21 zw 165.68}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 217}
 		{NameId 85 74}
@@ -1980,6 +2677,11 @@
 	{Human "mp/usa/smg" 0xc02c
 		{Position 2222.97 6845.64}
 		{xform zl -110}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 218}
 		{NameId 89 24}
@@ -1989,21 +2691,26 @@
 	{Human "mp/usa/medic" 0xc030
 		{Position 2220.56 6883.5 23.03}
 		{xform zl -110}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 219}
 		{NameId 90 0}
-		{LastItem "thompson"}
 		{FsmState "stand"}
 	}
 	{Entity "gmc_inf" 0xd000
 		{Position 2609.71 6853.34 23.54}
-		{xform zl -135.41 y 2.11 zw 45.39}
+		{xform zl -135.41 y 2.1 zw 45.39}
+		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 583}
 		}
 		{Extender "supply_zone"
+			{enabled}
 			{current 0}
-			{disabled}
 		}
 		{Player 2}
 		{MID 221}
@@ -2016,6 +2723,11 @@
 	{Human "mp/usa/smg" 0xb004
 		{Position 2263.47 6846.58}
 		{xform zl -110}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 223}
 		{NameId 67 88}
@@ -2025,15 +2737,24 @@
 	{Human "mp/usa/mgun" 0xb005
 		{Position 2261.06 6884.44 24.03}
 		{xform zl -110}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 224}
 		{NameId 31 57}
-		{LastItem "thompson"}
 		{FsmState "stand"}
 	}
 	{Human "mp/usa/smg" 0xb008
-		{Position 2306.9 6846.89}
+		{Position 2306.89 6846.89}
 		{xform zl -110}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 225}
 		{NameId 51 63}
@@ -2043,17 +2764,13 @@
 	{Human "mp/usa/smg" 0xb009
 		{Position 2304.49 6884.75 24.26}
 		{xform zl -110}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 226}
-		{Weaponry
-			{State
-				{AccuracyByMotion
-					{value 0.893305}
-					{prevposition 2300.12 6873.95 47.7359}
-					{prevdirection -0.643293 -0.762729 -0.0664635}
-				}
-			}
-		}
 		{NameId 139 74}
 		{LastItem "thompson"}
 		{FsmState "stand"}
@@ -2067,17 +2784,13 @@
 	{Human "mp/usa/rifle" 0x8c00
 		{Position 2244.12 6858.64 23.99}
 		{xform zl -120}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 206}
-		{Weaponry
-			{State
-				{AccuracyByMotion
-					{value 0.8}
-					{prevposition 2228.89 6842.23 47.5944}
-					{prevdirection -0.784091 -0.619347 -0.0401593}
-				}
-			}
-		}
 		{NameId 80 47}
 		{LastItem "garand"}
 		{FsmState "stand"}
@@ -2085,6 +2798,11 @@
 	{Human "mp/usa/rifle" 0x8c02
 		{Position 2281.26 6861.92}
 		{xform zl -120}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 209}
 		{NameId 144 90}
@@ -2095,7 +2813,7 @@
 		{Position 2371.3 6842.22 26.02}
 		{xform zl 176.45 y 1.34 zw 93.48}
 		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 		}
 		{Extender "enumerator"
 			{number 460}
@@ -2122,68 +2840,99 @@
 	{Human "mp/usa/tankman" 0x8094
 		{Position 158.63 6766.24}
 		{xform zl -100}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 211}
-		{Able "personage"}
 		{NameId 120 85}
 		{LastItem "colt"}
 		{FsmState "stand"}
 	}
 	{Human "mp/ger/tankman" 0x806a
-		{Position 996.95 -5466.43}
-		{xform zl -2.56}
+		{Position 1117.48 -5458.46}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 213}
 		{NameId 77 78}
 	}
 	{Human "mp/ger/tankman" 0x806d
-		{Position 1097.41 -5470.92}
-		{xform zl 177.44}
+		{Position 1117.48 -5458.46}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 216}
 		{NameId 100 142}
 	}
 	{Human "mp/ger/tankman" 0x806e
-		{Position 919.41 -5680.08}
+		{Position 898.27 -5623.66}
 		{xform zl 179.96}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 220}
 		{NameId 105 107}
 	}
 	{Human "mp/ger/tankman" 0x8070
-		{Position 720.02 -5607.72}
+		{Position 789.56 -5526.76}
 		{xform zl -90.54}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 222}
 		{NameId 110 17}
 	}
 	{Human "mp/ger/tankman" 0x8072
-		{Position 720.02 -5607.72}
+		{Position 783.46 -5807.85}
 		{xform zl -90.54}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 227}
 		{NameId 141 82}
 	}
 	{Human "mp/ger/tankman" 0x8074
-		{Position -387.09 -5625.09}
+		{Position -419.8 -5591.55}
 		{xform zl 178.75}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 228}
 		{NameId 43 37}
 	}
 	{Human "mp/ger/tankman" 0x8078
-		{Position -532.52 -5549.83}
+		{Position -497.16 -5685.04}
 		{xform zl 178.58}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 1}
 		{MID 229}
 		{NameId 37 141}
 	}
 	{Entity "gmc_art" 0x807b
 		{Position -631.71 4270.58 -0.01}
+		{xform zl 179.89 y 0.1 zw -179.89}
 		{Extender "enumerator"
 			{number 399}
 		}
 		{Extender "supply_zone"
+			{enabled}
 			{current 0}
 		}
 		{Player 2}
@@ -2191,538 +2940,551 @@
 	}
 	{Entity "gmc_art" 0x807d
 		{Position 2235.18 4260.09 4}
-		{xform zl 146.59}
+		{xform zl 179.89 y 0.1 zw -33.3}
 		{Extender "enumerator"
 			{number 468}
 		}
 		{Extender "supply_zone"
+			{enabled}
 			{current 0}
 		}
 		{Player 2}
 		{MID 231}
 	}
 	{Human "mp/usa/tankman" 0x807f
-		{Position 500.86 4481.53}
-		{xform zl -139.94 y 1.14 zw 30.3}
+		{Position 534.36 4468.51}
+		{xform zl -140.08 y 1.14 zw 30.3}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 232}
-		{Able "personage"}
 		{NameId 9 68}
 	}
 	{Human "mp/usa/tankman" 0x8084
-		{Position 468.08 4390.36}
-		{xform zl 39.92 y 1.14 zw 30.3}
+		{Position 503.81 4383.52}
+		{xform zl 39.91 y 1.14 zw 30.3}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 233}
-		{Able "personage"}
 		{NameId 143 97}
 	}
 	{Human "mp/usa/tankman" 0x808d
-		{Position -554.61 3539.75}
+		{Position -561.88 3575.39}
 		{xform zl -160.17 y 0.17 zw -17.25}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 234}
-		{Able "personage"}
 		{NameId 123 50}
 	}
 	{Human "mp/usa/tankman" 0x8090
-		{Position -554.61 3539.75}
+		{Position -561.88 3575.39}
 		{xform zl -160.17 y 0.17 zw -17.25}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
 		{Player 2}
 		{MID 235}
-		{Able "personage"}
 		{NameId 48 24}
 	}
 	{Entity "mp40" 0x8091
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "mp40" 0x8095
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "mp40" 0x8096
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "mp40" 0x8097
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "mp40" 0x8098
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "thompson" 0x8099
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "m1_carbine" 0x809a
 		{Extender "stuff"
-			{Item "m1_carbine" filled}
+			{Item "m1_carbine" filled 15}
 		}
 	}
 	{Entity "mp40" 0x809b
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "m1_carbine" 0x809c
 		{Extender "stuff"
-			{Item "m1_carbine" filled}
+			{Item "m1_carbine" filled 15}
 		}
 	}
 	{Entity "thompson" 0x809d
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "m1_carbine" 0x809e
 		{Extender "stuff"
-			{Item "m1_carbine" filled}
+			{Item "m1_carbine" filled 15}
 		}
 	}
 	{Entity "m1_carbine" 0x809f
 		{Extender "stuff"
-			{Item "m1_carbine" filled}
+			{Item "m1_carbine" filled 15}
 		}
 	}
 	{Entity "m1_carbine" 0x80a2
 		{Extender "stuff"
-			{Item "m1_carbine" filled}
+			{Item "m1_carbine" filled 15}
 		}
 	}
 	{Entity "m1_carbine" 0x80a3
 		{Extender "stuff"
-			{Item "m1_carbine" filled}
+			{Item "m1_carbine" filled 15}
 		}
 	}
 	{Entity "m1_carbine" 0x80a7
 		{Extender "stuff"
-			{Item "m1_carbine" filled}
+			{Item "m1_carbine" filled 15}
 		}
 	}
 	{Entity "thompson" 0x80a8
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "mp40" 0x80a9
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "mp40" 0x80aa
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "mp40" 0x80ab
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "mp40" 0x80ac
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "mp40" 0x80ad
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "mp40" 0x80ae
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "mp40" 0x80af
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "thompson" 0x80b0
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson" 0x80b1
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson" 0x80b2
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson" 0x80b3
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson" 0x80b4
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson_m1928a1" 0x80b5
 		{Extender "stuff"
-			{Item "thompson_40" filled}
+			{Item "thompson_40" filled 50}
 		}
 	}
 	{Entity "thompson_m1928a1" 0x80b6
 		{Extender "stuff"
-			{Item "thompson_40" filled}
+			{Item "thompson_40" filled 50}
 		}
 	}
 	{Entity "mp40" 0x80b7
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "mp40" 0x80b8
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "mp40" 0x80ba
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "mp40" 0x80bb
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "mp40" 0x80bc
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "garand" 0x80bd
 		{Extender "stuff"
-			{Item "garand" filled}
+			{Item "garand" filled 8}
 		}
 	}
 	{Entity "garand" 0x80bf
 		{Extender "stuff"
-			{Item "garand" filled}
+			{Item "garand" filled 8}
 		}
 	}
 	{Entity "thompson" 0x80c1
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson" 0x80c2
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson" 0x80c3
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson" 0x80c4
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson" 0x80c5
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson" 0x80c6
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "mp40" 0x80c7
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "thompson" 0x80c8
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "garand" 0x80c9
 		{Extender "stuff"
-			{Item "garand" filled}
+			{Item "garand" filled 8}
 		}
 	}
 	{Entity "thompson" 0x80ca
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "garand" 0x80cb
 		{Extender "stuff"
-			{Item "garand" filled}
+			{Item "garand" filled 8}
 		}
 	}
 	{Entity "mp40" 0x80cc
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "mp40" 0xc023
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "m1_carbine" 0xc02a
 		{Extender "stuff"
-			{Item "m1_carbine" filled}
+			{Item "m1_carbine" filled 15}
 		}
 	}
 	{Entity "m1_carbine" 0xc02e
 		{Extender "stuff"
-			{Item "m1_carbine" filled}
+			{Item "m1_carbine" filled 15}
 		}
 	}
 	{Entity "m1_carbine" 0xc032
 		{Extender "stuff"
-			{Item "m1_carbine" filled}
+			{Item "m1_carbine" filled 15}
 		}
 	}
 	{Entity "thompson" 0xc033
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "m18rr" 0xc034
 		{Extender "stuff"
-			{Item "m18recoilless" "weapon" filled}
+			{Item "m18recoilless" "weapon" filled 1}
 		}
 	}
 	{Entity "m1_carbine" 0xc035
 		{Extender "stuff"
-			{Item "m1_carbine" filled}
+			{Item "m1_carbine" filled 15}
 		}
 	}
 	{Entity "mauzer_kar98k" 0xc037
 		{Extender "stuff"
-			{Item "mauzer_kar_98k" filled}
+			{Item "mauzer_kar_98k" filled 5}
 		}
 	}
 	{Entity "panzershreck" 0xc038
 		{Extender "stuff"
-			{Item "panzershreck100" "weapon" filled}
+			{Item "panzershreck100" "weapon" filled 1}
 		}
 	}
 	{Entity "mp40" 0xc039
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "thompson" 0xc03a
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "mauzer_kar98k_bayonet" 0xc03b
 		{Extender "stuff"
-			{Item "mauzer_kar_98k_bayonet" filled}
+			{Item "mauzer_kar_98k_bayonet" filled 5}
 		}
 	}
 	{Entity "thompson" 0xc03c
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson" 0xc03e
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson" 0xc03f
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson" 0xc040
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson" 0xc042
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson" 0xc044
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson" 0xc045
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "garand" 0xc046
 		{Extender "stuff"
-			{Item "garand" filled}
+			{Item "garand" filled 8}
 		}
 	}
 	{Entity "garand" 0xc047
 		{Extender "stuff"
-			{Item "garand" filled}
+			{Item "garand" filled 8}
 		}
 	}
 	{Entity "colt" 0xc048
 		{Extender "stuff"
-			{Item "colt" filled}
+			{Item "colt" filled 7}
 		}
 	}
 	{Entity "m1941lmg" 0xc049
 		{Extender "stuff"
-			{Item "johnson_m1941" filled}
+			{Item "johnson_m1941" filled 20}
 		}
 	}
 	{Entity "colt" 0xc04a
 		{Extender "stuff"
-			{Item "colt" filled}
+			{Item "colt" filled 7}
 		}
 	}
 	{Entity "colt" 0xc04b
 		{Extender "stuff"
-			{Item "colt" filled}
+			{Item "colt" filled 7}
 		}
 	}
 	{Entity "colt" 0xc04c
 		{Extender "stuff"
-			{Item "colt" filled}
+			{Item "colt" filled 7}
 		}
 	}
 	{Entity "colt" 0xc04d
 		{Extender "stuff"
-			{Item "colt" filled}
+			{Item "colt" filled 7}
 		}
 	}
 	{Entity "colt" 0xc04e
 		{Extender "stuff"
-			{Item "colt" filled}
+			{Item "colt" filled 7}
 		}
 	}
 	{Entity "panzershreck" 0xc04f
 		{Extender "stuff"
-			{Item "panzershreck" "weapon" filled}
+			{Item "panzershreck" "weapon" filled 1}
 		}
 	}
 	{Entity "mp40" 0xc050
 		{Extender "stuff"
-			{Item "mp40" filled}
+			{Item "mp40" filled 32}
 		}
 	}
 	{Entity "thompson" 0xc052
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson" 0xc054
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "thompson" 0xc056
 		{Extender "stuff"
-			{Item "thompson" filled}
+			{Item "thompson" filled 30}
 		}
 	}
 	{Entity "bazooka" 0x8003
 		{Extender "stuff"
-			{Item "bazookam20" "weapon" filled}
+			{Item "bazookam20" "weapon" filled 1}
 		}
 	}
 	{Entity "bazooka" 0x8004
 		{Extender "stuff"
-			{Item "bazookam20" "weapon" filled}
+			{Item "bazookam20" "weapon" filled 1}
 		}
 	}
 	{Entity "bazooka" 0x8005
 		{Extender "stuff"
-			{Item "bazookam20" "weapon" filled}
+			{Item "bazookam20" "weapon" filled 1}
 		}
 	}
 	{Entity "bazooka" 0x8006
 		{Extender "stuff"
-			{Item "bazookam20" "weapon" filled}
+			{Item "bazookam20" "weapon" filled 1}
 		}
 	}
 	{Entity "sg44" 0xe006
 		{Extender "stuff"
-			{Item "sg44" filled}
+			{Item "sg44" filled 30}
 		}
 	}
 	{Entity "panzerfaust100" 0xe028
 		{Extender "stuff"
-			{Item "panzerfaust100" "weapon" filled}
+			{Item "panzerfaust100" "weapon" filled 1}
 		}
 	}
 	{Entity "panzerfaust100" 0xe031
 		{Extender "stuff"
-			{Item "panzerfaust100" "weapon" filled}
+			{Item "panzerfaust100" "weapon" filled 1}
 		}
 	}
 	{Entity "panzerfaust100" 0xe035
 		{Extender "stuff"
-			{Item "panzerfaust100" "weapon" filled}
+			{Item "panzerfaust100" "weapon" filled 1}
 		}
 	}
 	{Entity "g43" 0xa002
 		{Extender "stuff"
-			{Item "g43" filled}
+			{Item "g43" filled 10}
 		}
 	}
 	{Entity "mauzer_kar98k" 0xa005
 		{Extender "stuff"
-			{Item "mauzer_kar_98k" filled}
+			{Item "mauzer_kar_98k" filled 5}
 		}
 	}
 	{Entity "mg34_st" 0xa007
 		{Extender "stuff"
-			{Item "mg34inf" filled}
+			{Item "mg34inf" filled 50}
 		}
 	}
 	{Entity "mg42" 0xa009
 		{Extender "stuff"
-			{Item "mg42" filled}
+			{Item "mg42" filled 50}
 		}
 	}
 	{Entity "garand" 0xa00a
 		{Extender "stuff"
-			{Item "garand" filled}
+			{Item "garand" filled 8}
 		}
 	}
 	{Entity "bar" 0xa00b
 		{Extender "stuff"
-			{Item "bar" filled}
+			{Item "bar" filled 20}
 		}
 	}
 	{Link 0xd018 {0xd00f "driver"}}
 	{Link 0xd017 {0xd00f "gunner"}}
 	{Link 0xf00d {0xd00f "charger"}}
 	{Link 0xd01c {0xd00f "commander"}}
-	{Link 0x8074 {0xd00f "gunner3"}}
+	{Link 0x8074 {0xd00f "gunner1"}}
 	{Link 0x818e {0x9804 "driver"}}
 	{Link 0xf00a {0x9804 "gunner"}}
 	{Link 0xd014 {0x9804 "charger"}}
 	{Link 0xc00a {0x9804 "commander"}}
-	{Link 0x8078 {0x9804 "gunner2"}}
+	{Link 0x8078 {0x9804 "gunner1"}}
 	{Link 0xa025 {0xa006 "gunner"}}
 	{Link 0xa027 {0xa006 "commander"}}
 	{Link 0xe02a {0xa00d "gunner"}}
@@ -2733,11 +3495,11 @@
 	{Link 0x81e5 {0xf008 "gunner"}}
 	{Link 0x81e3 {0xf008 "charger"}}
 	{Link 0x8277 {0xf008 "commander"}}
-	{Link 0xc00e {0xf008 "gunner3"}}
+	{Link 0xc00e {0xf008 "gunner1"}}
 	{Link 0xa01a {0xa000 "gunner"}}
 	{Link 0xa004 {0xa000 "driver"}}
 	{Link 0xa018 {0xa000 "charger"}}
-	{Link 0xa00c {0xa000 "gunner3"}}
+	{Link 0xa00c {0xa000 "commander"}}
 	{Link 0xa008 {0x9000 "gunner"}}
 	{Link 0x9003 {0x9000 "driver"}}
 	{Link 0x9002 {0x9000 "commander"}}
@@ -2745,52 +3507,52 @@
 	{Link 0xf004 {0x9004 "driver"}}
 	{Link 0xf002 {0x9004 "charger"}}
 	{Link 0xf001 {0x9004 "commander"}}
-	{Link 0xf003 {0x9004 "gunner3"}}
+	{Link 0xf003 {0x9004 "gunner1"}}
 	{Link 0xe003 {0x9006 "gunner"}}
 	{Link 0xe005 {0x9006 "driver"}}
 	{Link 0xe002 {0x9006 "charger"}}
-	{Link 0xe001 {0x9006 "gunner3"}}
+	{Link 0xe001 {0x9006 "commander"}}
 	{Link 0xe01d {0x9008 "gunner"}}
 	{Link 0xe01a {0x9008 "driver"}}
 	{Link 0xe01c {0x9008 "charger"}}
 	{Link 0xe01b {0x9008 "commander"}}
-	{Link 0xe019 {0x9008 "gunner2"}}
+	{Link 0xe019 {0x9008 "gunner1"}}
 	{Link 0xe009 {0x900b "gunner"}}
 	{Link 0xe008 {0x900b "driver"}}
 	{Link 0xe00b {0x900b "charger"}}
-	{Link 0xe007 {0x900b "gunner3"}}
+	{Link 0xe007 {0x900b "commander"}}
 	{Link 0xe011 {0xc002 "gunner"}}
 	{Link 0xe00e {0xc002 "driver"}}
 	{Link 0xe00f {0xc002 "charger"}}
 	{Link 0xe010 {0xc002 "commander"}}
-	{Link 0xe00d {0xc002 "gunner2"}}
+	{Link 0xe00d {0xc002 "gunner1"}}
 	{Link 0xe017 {0xc005 "gunner"}}
 	{Link 0xe015 {0xc005 "driver"}}
 	{Link 0xe016 {0xc005 "charger"}}
 	{Link 0xe014 {0xc005 "commander"}}
-	{Link 0xe013 {0xc005 "gunner2"}}
+	{Link 0xe013 {0xc005 "gunner1"}}
 	{Link 0xe029 {0xc009 "gunner"}}
 	{Link 0xe027 {0xc009 "driver"}}
 	{Link 0xe026 {0xc009 "charger"}}
 	{Link 0xe025 {0xc009 "commander"}}
-	{Link 0x806e {0xc009 "gunner3"}}
+	{Link 0x806e {0xc009 "gunner1"}}
 	{Link 0xe02f {0xc00c "driver"}}
 	{Link 0xe02d {0xc00c "gunner"}}
 	{Link 0xe02c {0xc00c "charger"}}
-	{Link 0x806a {0xc00c "charger2"}}
 	{Link 0xe02b {0xc00c "commander"}}
-	{Link 0x806d {0xc00c "gunner3"}}
+	{Link 0x806d {0xc00c "driver1"}}
+	{Link 0x806a {0xc00c "gunner1"}}
 	{Link 0xe023 {0xa01b "driver"}}
 	{Link 0xe020 {0xa01b "gunner"}}
-	{Link 0x8072 {0xa01b "charger2"}}
-	{Link 0x8070 {0xa01b "charger3"}}
 	{Link 0xe021 {0xa01b "commander"}}
 	{Link 0xe01f {0xa01b "charger"}}
+	{Link 0x8070 {0xa01b "gunner1"}}
+	{Link 0x8072 {0xa01b "driver1"}}
 	{Link 0x805a {0x8052 "driver"}}
 	{Link 0x8056 {0x8052 "commander"}}
 	{Link 0x805c {0x8052 "charger"}}
-	{Link 0x8058 {0x8052 "gunner2"}}
 	{Link 0x8054 {0x8052 "gunner"}}
+	{Link 0x8058 {0x8052 "gunner1"}}
 	{Link 0xc00d {0xa001 "gunner"}}
 	{Link 0xc018 {0xa001 "driver"}}
 	{Link 0xc01a {0xa001 "charger"}}
@@ -2806,9 +3568,8 @@
 	{Link 0x900c {0x9001 "driver"}}
 	{Link 0xc021 {0x9001 "charger"}}
 	{Link 0x900e {0x9001 "commander"}}
-	{Link 0x808d {0x9001 "gunner3"}}
-	{Link 0x8090 {0x9001 "charger2"}}
-	{Link 0xc01d {0x9001 "gunner2"}}
+	{Link 0x8090 {0x9001 "gunner1"}}
+	{Link 0x808d {0x9001 "driver1"}}
 	{Link 0xb003 {0xa01e "gunner"}}
 	{Link 0xb000 {0xa01e "commander"}}
 	{Link 0x80b9 {0xc00f "gunner"}}
@@ -2826,22 +3587,22 @@
 	{Link 0xe032 {0xe004 "driver"}}
 	{Link 0xe036 {0xe004 "charger"}}
 	{Link 0xe034 {0xe004 "commander"}}
-	{Link 0xe03a {0xe004 "gunner2"}}
+	{Link 0xe03a {0xe004 "gunner1"}}
 	{Link 0xe050 {0xe00c "gunner"}}
 	{Link 0xe052 {0xe00c "driver"}}
 	{Link 0xe056 {0xe00c "charger"}}
 	{Link 0xe054 {0xe00c "commander"}}
-	{Link 0xe058 {0xe00c "gunner2"}}
+	{Link 0xe058 {0xe00c "gunner1"}}
 	{Link 0xe04e {0xe018 "gunner"}}
 	{Link 0xe048 {0xe018 "driver"}}
 	{Link 0xe04c {0xe018 "charger"}}
 	{Link 0xe04a {0xe018 "commander"}}
-	{Link 0xe046 {0xe018 "gunner2"}}
+	{Link 0xe046 {0xe018 "gunner1"}}
 	{Link 0xe060 {0xe024 "gunner"}}
 	{Link 0xe05e {0xe024 "driver"}}
 	{Link 0xe062 {0xe024 "charger"}}
 	{Link 0xe05c {0xe024 "commander"}}
-	{Link 0xe05a {0xe024 "gunner2"}}
+	{Link 0xe05a {0xe024 "gunner1"}}
 	{Link 0xe042 {0xc007 "gunner"}}
 	{Link 0xe03e {0xc007 "driver"}}
 	{Link 0xe040 {0xc007 "charger"}}
@@ -2857,9 +3618,8 @@
 	{Link 0xe03b {0xe000 "driver"}}
 	{Link 0xe037 {0xe000 "charger"}}
 	{Link 0xe02e {0xe000 "commander"}}
-	{Link 0x8084 {0xe000 "gunner3"}}
-	{Link 0x807f {0xe000 "charger2"}}
-	{Link 0xe012 {0xe000 "gunner2"}}
+	{Link 0x807f {0xe000 "gunner1"}}
+	{Link 0x8084 {0xe000 "driver1"}}
 	{Link 0xc012 {0xd000 "driver"}}
 	{Link 0xc000 {0xd000 "seat1"}}
 	{Link 0xc029 {0xd000 "seat2"}}
@@ -3496,7 +4256,6 @@
 			{item "sandbag_kit" {cell 4 6}}
 			{item "hedgehog_kit" {cell 5 6}}
 			{item "helmet_airborne_usa" {cell 0 7}{user "head"}}
-;			{item "morphine" {cell 2 7}}
 		}
 	}
 	{Inventory 0xc006
@@ -5988,8 +6747,6 @@
 			{item "bandage" 5 {cell 4 2}}
 			{item "bandage" 5 {cell 0 3}}
 			{item "bandage" 5 {cell 2 3}}
-;			{item "morphine" {cell 4 3}}
-;			{item "morphine" {cell 0 4}}
 			{item "barbwire_kit" {cell 6 1}}
 			{item "barbwire_kit" {cell 6 2}}
 			{item "sandbag_kit" {cell 3 4}}
@@ -7226,7 +7983,7 @@
 		{event "wave_10"}
 		{event "wave_10: comp"}
 		{zone "poly"
-			{position 80.6234 3437.12 -8.98996}
+			{position 80.6234 3437.12 -8.96985}
 			{Name "aggressive_zone"}
 			{Point -4015.13 -3124.02}
 			{Point -4017.76 3195.68}
@@ -7252,7 +8009,7 @@
 			{Point 4045.85 -5970.97}
 		}
 		{zone "poly"
-			{position 82.6987 -2696.68 19.3671}
+			{position 82.6987 -2696.68 19.1769}
 			{Name "stalled_ai_check"}
 			{Point -4030.14 -2922.55}
 			{Point -4016.68 2998.84}
@@ -8992,7 +9749,6 @@
 								}
 							}
 						}
-						{nearest}
 					}
 					{"delay"
 						{time 1}
@@ -11616,7 +12372,6 @@
 							{level easy}
 						}
 						{"achievement"
-							{name skirmish_01b_usa_easy}
 							{nation usa}
 						}
 					}
@@ -11626,11 +12381,9 @@
 							{level normal}
 						}
 						{"achievement"
-							{name skirmish_01b_usa_easy}
 							{nation usa}
 						}
 						{"achievement"
-							{name skirmish_01b_usa_normal}
 							{nation usa}
 						}
 					}
@@ -11640,15 +12393,12 @@
 							{level hard}
 						}
 						{"achievement"
-							{name skirmish_01b_usa_easy}
 							{nation usa}
 						}
 						{"achievement"
-							{name skirmish_01b_usa_normal}
 							{nation usa}
 						}
 						{"achievement"
-							{name skirmish_01b_usa_hard}
 							{nation usa}
 						}
 					}
@@ -11658,19 +12408,15 @@
 							{level heroic}
 						}
 						{"achievement"
-							{name skirmish_01b_usa_easy}
 							{nation usa}
 						}
 						{"achievement"
-							{name skirmish_01b_usa_normal}
 							{nation usa}
 						}
 						{"achievement"
-							{name skirmish_01b_usa_hard}
 							{nation usa}
 						}
 						{"achievement"
-							{name skirmish_01b_usa_heroic}
 							{nation usa}
 						}
 					}
@@ -24737,7 +25483,6 @@
 								{type human}
 								{state "not dead"}
 							}
-							{nearest}
 						}
 						{"delay"
 							{time 0.25}
@@ -25334,7 +26079,6 @@
 				}
 				{actions
 					{"achievement"
-						{name skirmish_usa_bonus5}
 						{nation usa}
 					}
 				}
@@ -25349,7 +26093,6 @@
 				}
 				{actions
 					{"achievement"
-						{name skirmish_usa_hero5}
 						{nation usa}
 					}
 				}
@@ -25826,43 +26569,43 @@
 		}
 		{waypoints "player"
 			{"0"
-				{position -78.4095 4985.74 21.0589}
+				{position -78.4095 4985.74 21}
 			}
 			{"1"
-				{position -80.6394 4934.81 19.8888}
+				{position -80.6394 4934.81 19.7776}
 			}
 			{"10"
-				{position 105.35 4934.61 30.6997}
+				{position 105.35 4934.61 30}
 			}
 			{"11"
-				{position 110.571 4976.81 32.6374}
+				{position 110.571 4976.81 32.2676}
 			}
 			{"12"
-				{position 141.69 4924.46 33.0485}
+				{position 141.69 4924.46 33}
 			}
 			{"13"
-				{position 140.39 4976.88 34.6355}
+				{position 140.39 4976.88 34.2769}
 			}
 			{"14"
-				{position 176.949 4927.28 35.6477}
+				{position 176.949 4927.28 35.2953}
 			}
 			{"15"
-				{position 176.762 4971.78 37.629}
+				{position 176.762 4971.78 37.2579}
 			}
 			{"16"
-				{position 212.458 4922.93 38.4443}
+				{position 212.458 4922.93 38.1952}
 			}
 			{"17"
-				{position 221.461 4975.9 42.0988}
+				{position 221.461 4975.9 42}
 			}
 			{"18"
-				{position 281.443 4925 43.0439}
+				{position 281.443 4925 43}
 			}
 			{"19"
 				{position 278.525 4964.43 45}
 			}
 			{"2"
-				{position -45.3594 4935.59 21.7152}
+				{position -45.3594 4935.59 21.0234}
 			}
 			{"20"
 				{position 461.015 6720.45 0}
@@ -25883,60 +26626,60 @@
 				}
 			}
 			{"22"
-				{position 4.0787 5034.05 26.3606}
+				{position 4.0787 5034.05 26}
 			}
 			{"23"
-				{position 45.1405 5030.68 29.4668}
+				{position 45.1405 5030.68 29}
 			}
 			{"24"
-				{position 85.3504 5031.01 32.0262}
+				{position 85.3504 5031.01 32}
 			}
 			{"25"
-				{position 119 5027.29 34.8528}
+				{position 119 5027.29 34.7054}
 			}
 			{"26"
-				{position 145.58 5022.6 37.5107}
+				{position 145.58 5022.6 37.0215}
 			}
 			{"27"
-				{position 181.789 5018.54 40.1317}
+				{position 181.789 5018.54 40}
 			}
 			{"28"
-				{position 220.5 5014.84 43.0027}
+				{position 220.5 5014.84 43}
 			}
 			{"29"
 				{position 280.498 5008.13 46}
 			}
 			{"3"
-				{position -32.7596 4981.75 23.6768}
+				{position -32.7596 4981.75 23.3535}
 			}
 			{"30"
 				{position -26.8397 5041.54 25}
 				{radius 100}
 			}
 			{"31"
-				{position -25.0594 5077.18 25.2997}
+				{position -25.0594 5077.18 25}
 			}
 			{"32"
-				{position 17.2904 5074.14 27.6818}
+				{position 17.2904 5074.14 27.3636}
 			}
 			{"33"
-				{position 51.0104 5071.64 30.0538}
+				{position 51.0104 5071.64 30}
 			}
 			{"34"
-				{position 87.5205 5067.69 32.7048}
+				{position 87.5205 5067.69 32.4095}
 			}
 			{"35"
-				{position 121.28 5063.95 36.0807}
+				{position 121.28 5063.95 36}
 			}
 			{"36"
-				{position 152.06 5056.84 39.1588}
+				{position 152.06 5056.84 39}
 			}
 			{"37"
 				{position -161.022 4569.81 0}
 				{radius 100}
 			}
 			{"38"
-				{position 1015.58 4890.52 -16.4894}
+				{position 1015.58 4890.52 -16}
 				{radius 100}
 				{transition "39"}
 				{commands
@@ -25954,22 +26697,22 @@
 				{position 543.345 4407.21 0}
 			}
 			{"4"
-				{position -4.94953 4928.89 23.4578}
+				{position -4.94953 4928.89 23}
 			}
 			{"5"
-				{position 7.80045 4983.77 25.7328}
+				{position 7.80045 4983.77 25.4655}
 			}
 			{"6"
-				{position 34.8505 4929.33 25.9358}
+				{position 34.8505 4929.33 25.7715}
 			}
 			{"7"
-				{position 43.1405 4984.24 28.1005}
+				{position 43.1405 4984.24 28}
 			}
 			{"8"
-				{position 70.8005 4929.97 28.0328}
+				{position 70.8005 4929.97 28}
 			}
 			{"9"
-				{position 80.0505 4981.24 30.9578}
+				{position 80.0505 4981.24 30.9155}
 			}
 		}
 		{waypoints "capture"
@@ -25997,7 +26740,7 @@
 		}
 		{waypoints "enemy_waves"
 			{"40"
-				{position 152.656 -5338.69 5.08374}
+				{position 152.656 -5338.69 5}
 				{radius 350}
 				{transition "43"}
 				{commands
@@ -26143,7 +26886,7 @@
 				{transition "82"}
 			}
 			{"59"
-				{position 214.497 3883.25 1.43161}
+				{position 214.497 3883.25 1.08675}
 				{radius 250}
 				{commands
 					{"actor_state"
@@ -26166,7 +26909,7 @@
 				{transition "64"}
 			}
 			{"62"
-				{position -2659.21 137.935 -19.2537}
+				{position -2659.21 137.935 -19}
 				{radius 250}
 				{transition "76"}
 			}
@@ -26176,12 +26919,12 @@
 				{transition "44"}
 			}
 			{"64"
-				{position -1133.59 1921.6 0.473185}
+				{position -1133.59 1921.6 0}
 				{radius 250}
 				{transition "65"}
 			}
 			{"65"
-				{position -305.939 3903.26 0.358856}
+				{position -305.939 3903.26 0}
 				{radius 250}
 				{commands
 					{"actor_state"
@@ -26222,7 +26965,7 @@
 				{transition "73"}
 			}
 			{"71"
-				{position 2256.36 1194.7 8.77425}
+				{position 2256.36 1194.7 8.17749}
 				{radius 250}
 				{transition "73"}
 				{transition "75"}
@@ -26238,7 +26981,7 @@
 				{transition "56"}
 			}
 			{"74"
-				{position 1437.14 1988.79 5.66675}
+				{position 1437.14 1988.79 5.3335}
 				{radius 250}
 				{transition "59"}
 			}
@@ -26248,13 +26991,13 @@
 				{transition "56"}
 			}
 			{"76"
-				{position -2283.99 1257.35 -22.1339}
+				{position -2283.99 1257.35 -21.9329}
 				{radius 250}
 				{transition "77"}
 				{transition "64"}
 			}
 			{"77"
-				{position -2901.59 2540.48 -18.2039}
+				{position -2901.59 2540.48 -17.9975}
 				{radius 250}
 				{transition "78"}
 			}
@@ -26299,28 +27042,28 @@
 				{transition "85"}
 			}
 			{"84"
-				{position -320.267 655.045 -0.497367}
+				{position -320.267 655.045 0}
 				{radius 250}
 				{transition "47"}
 			}
 			{"85"
-				{position 580.877 1540.11 -2.03473}
+				{position 580.877 1540.11 -2}
 				{radius 250}
 				{transition "48"}
 			}
 			{"86"
-				{position -2063.32 -4836.64 17.2887}
+				{position -2063.32 -4836.64 17}
 				{radius 250}
 				{transition "60"}
 				{transition "45"}
 			}
 			{"87"
-				{position -194.525 -3561.59 1.10318}
+				{position -194.525 -3561.59 1}
 				{radius 250}
 				{transition "51"}
 			}
 			{"90"
-				{position 9.65628 3679.98 11.1268}
+				{position 9.65628 3679.98 11}
 				{radius 400}
 				{commands
 					{"actor_state"
@@ -26357,7 +27100,7 @@
 				{position -468.683 1018.12 -15}
 			}
 			{"91"
-				{position 875.221 -5349.56 0.523432}
+				{position 875.221 -5349.56 0.0499645}
 				{radius 350}
 				{transition "92"}
 				{commands
@@ -26378,16 +27121,16 @@
 				{transition "93"}
 			}
 			{"93"
-				{position 1316.82 -906.171 2.6347}
+				{position 1316.82 -906.171 2.26941}
 				{radius 250}
 				{transition "95"}
 				{transition "94"}
 			}
 			{"94"
-				{position 2168.95 1334.62 0.847778}
+				{position 2168.95 1334.62 0.695557}
 			}
 			{"95"
-				{position 464.639 1130.43 -5.41666}
+				{position 464.639 1130.43 -5}
 				{radius 250}
 			}
 			{"96"
@@ -26410,7 +27153,7 @@
 				}
 			}
 			{"98"
-				{position -1191.81 -2793.63 2.41025}
+				{position -1191.81 -2793.63 2}
 				{radius 250}
 				{transition "99"}
 			}
@@ -26786,7 +27529,7 @@
 				{position 2531.77 92.9953 0}
 			}
 			{"119"
-				{position -2082.53 1207.66 -3.21581}
+				{position -2082.53 1207.66 -3}
 				{transition "120"}
 				{transition "121"}
 				{commands
@@ -26833,7 +27576,7 @@
 				{position -1602.78 598.143 0}
 			}
 			{"124"
-				{position -2582.34 262.629 -8.34811}
+				{position -2582.34 262.629 -8.00616}
 				{transition "128"}
 				{transition "131"}
 				{transition "125"}
@@ -26964,7 +27707,7 @@
 				}
 			}
 			{"126"
-				{position -1743.94 449.528 -1.55875}
+				{position -1743.94 449.528 -1.11749}
 				{transition "135"}
 				{transition "137"}
 				{transition "134"}
@@ -28058,7 +28801,7 @@
 			1 1 1 1 1 1 1 1
 		}
 	}
-	{Fog 1}
+	{Fog 0}
 	{EntityManager {Enabled}
 	}
 }
