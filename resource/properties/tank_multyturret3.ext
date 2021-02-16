@@ -283,7 +283,7 @@
 (define "armor_tank_MT3" ; armor system details for t-28
     {armor
         {setting "track"
-            {thickness 10}
+            {thickness 15}
             {durability
                 {blast
                     {koef 9}
@@ -297,7 +297,7 @@
                     {value 30}
                 }
                 {pierce
-                    {value 3000}
+                    {value 15}
                 }
             }
             {volumes "track*"}

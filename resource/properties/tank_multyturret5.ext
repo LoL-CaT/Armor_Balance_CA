@@ -380,7 +380,7 @@
 (define "armor_tank_MT5" ; armor system details for t-35
     {armor
         {setting "track"
-            {thickness 23}
+            {thickness 20}
             {durability
                 {blast
                     {koef 9}
@@ -394,7 +394,7 @@
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 20}
                 }
             }
             {volumes "track*"}
@@ -582,7 +582,7 @@
 (define "armor_tank_MT2" 
     {armor
         {setting "track"
-            {thickness 23}
+            {thickness 10}
             {durability
                 {blast
                     {koef 9}
@@ -596,7 +596,7 @@
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 10}
                 }
             }
             {volumes "track*"}

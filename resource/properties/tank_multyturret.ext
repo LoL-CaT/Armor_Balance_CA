@@ -360,7 +360,7 @@
 (define "armor_tank_MT3" ; armor system details for t-28
     {armor
         {setting "track"
-            {thickness 23}
+            {thickness 15}
             {durability
                 {blast
                     {koef 9}
@@ -374,7 +374,7 @@
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 15}
                 }
             }
             {volumes "track*"}
@@ -562,7 +562,7 @@
 (define "armor_tank_MT5" ; armor system details for t-35
     {armor
         {setting "track"
-            {thickness 23}
+            {thickness 20}
             {durability
                 {blast
                     {koef 9}
@@ -576,7 +576,7 @@
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 20}
                 }
             }
             {volumes "track*"}
@@ -828,7 +828,7 @@
 (define "armor_tank_MT2" ; armor system details for t-26
     {armor
         {setting "track"
-            {thickness 5}
+            {thickness 10}
             {durability
                 {blast
                     {koef 3}
@@ -842,7 +842,7 @@
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 10}
                 }
             }
             {volumes "track*"}
@@ -944,7 +944,7 @@
 (define "armor_tank_M2"
 	{armor
         {setting "track"
-            {thickness 5}
+            {thickness 10}
             {durability
                 {blast
                     {koef 3}
@@ -958,7 +958,7 @@
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 10}
                 }
             }
             {volumes "track*"}

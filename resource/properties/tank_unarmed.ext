@@ -408,6 +408,15 @@ actor
     }
 )
 
+(define "wheels_armor"
+	{armor
+		{setting "wheel"
+			{thickness %0}
+			{volumes "wheel*"}
+		}
+	}
+)
+
 (define "armor_tank" ; armor system details you will find at "set/interaction_entity/tank.inc"
     {armor
         {setting "track"
@@ -545,20 +554,10 @@ actor
 	}
 )
 
-
-(define "wheels_armor"
-	{armor
-		{setting "wheel"
-			{thickness %0}
-			{volumes "wheel*"}
-		}
-	}
-)
-
 (define "armor_ktiger" ; armor system details you will find at "set/interaction_entity/tank.inc"
     {armor
         {setting "track"
-            {thickness 23}
+            {thickness 25}
             {durability
                 {blast
                     {koef 9}
@@ -572,7 +571,7 @@ actor
                     {value 9}
                 }
                 {pierce
-                    {value 3000}
+                    {value 25}
                 }
             }
             {volumes "track*"}
@@ -776,7 +775,7 @@ actor
                     {value 9}
                 }
                 {pierce
-                    {value 3000}
+                    {value 5}
                 }
             }
             {volumes "track*"}
@@ -919,7 +918,7 @@ actor
                     {value 9}
                 }
                 {pierce
-                    {value 3000}
+                    {value 5}
                 }
             }
             {volumes "track*"}
@@ -1028,7 +1027,7 @@ actor
                     {value 30}
                 }
                 {pierce
-                    {value 3000}
+                    {value 10}
                 }
             }
             {volumes "track*"}
@@ -1204,7 +1203,7 @@ actor
                     {value 30}
                 }
                 {pierce
-                    {value 3000}
+                    {value 10}
                 }
             }
             {volumes "track*"}
@@ -1305,7 +1304,7 @@ actor
     ("components_tank" repair(3))
     {armor
         {setting "track"
-            {thickness 23}
+            {thickness 25}
             {durability
                 {blast
                     {koef 9}
@@ -1319,7 +1318,7 @@ actor
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 25}
                 }
             }
             {volumes "track*"}
@@ -1393,7 +1392,7 @@ actor
 (define "armor_heavy"
     {armor
         {setting "track"
-            {thickness 23}
+            {thickness 25}
             {durability
                 {blast
                     {koef 9}
@@ -1407,7 +1406,7 @@ actor
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 25}
                 }
             }
             {volumes "track*"}
@@ -1536,7 +1535,7 @@ actor
 (define "armor_heavy_2"
     {armor
         {setting "track"
-            {thickness 23}
+            {thickness 25}
             {durability
                 {blast
                     {koef 9}
@@ -1550,7 +1549,7 @@ actor
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 25}
                 }
             }
             {volumes "track*"}
@@ -1662,7 +1661,7 @@ actor
 (define "armor_heavy_1"
     {armor
         {setting "track"
-            {thickness 23}
+            {thickness 25}
             {durability
                 {blast
                     {koef 9}
@@ -1676,7 +1675,7 @@ actor
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 25}
                 }
             }
             {volumes "track*"}
@@ -1788,7 +1787,7 @@ actor
 (define "armor_heavy_wt_ht"
     {armor
         {setting "track"
-            {thickness 23}
+            {thickness 25}
             {durability
                 {blast
                     {koef 9}
@@ -1802,7 +1801,7 @@ actor
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 25}
                 }
             }
             {volumes "track*"}
@@ -1971,7 +1970,7 @@ actor
 (define "armor_heavy_wt_ht2"
     {armor
         {setting "track"
-            {thickness 23}
+            {thickness 25}
             {durability
                 {blast
                     {koef 9}
@@ -1985,7 +1984,7 @@ actor
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 25}
                 }
             }
             {volumes "track*"}
@@ -2135,7 +2134,7 @@ actor
 (define "armor_sturmtiger"
        {armor
         {setting "track"
-            {thickness 23}
+            {thickness 25}
             {durability
                 {blast
                     {koef 9}
@@ -2149,7 +2148,7 @@ actor
                     {value 9}
                 }
                 {pierce
-                    {value 3000}
+                    {value 25}
                 }
             }
             {volumes "track*"}
@@ -2283,7 +2282,7 @@ actor
     ("components_tank" repair(0.5))
     {armor
         {setting "track"
-            {thickness 5}
+            {thickness 25}
             {durability
                 {blast
                     {koef 3}
@@ -2297,7 +2296,7 @@ actor
                     {value 9}
                 }
                 {pierce
-                    {value 3000}
+                    {value 25}
                 }
             }
             {volumes "track*"}
@@ -2377,7 +2376,7 @@ actor
     ("components_tank" repair(2))
     {armor
         {setting "track"
-            {thickness 60}
+            {thickness 15}
             {durability
                 {blast
                     {koef 5}
@@ -2391,7 +2390,7 @@ actor
                     {value 30}
                 }
                 {pierce
-                    {value 3000}
+                    {value 15}
                 }
             }
             {volumes "track*"}
@@ -2471,7 +2470,7 @@ actor
     ("components_tank" repair(2))
     {armor
         {setting "track"
-            {thickness 10}
+            {thickness 15}
             {durability
                 {blast
                     {koef 5}
@@ -2485,7 +2484,7 @@ actor
                     {value 30}
                 }
                 {pierce
-                    {value 3000}
+                    {value 15}
                 }
             }
             {volumes "track*"}
@@ -2599,7 +2598,7 @@ actor
     ("components_tank" repair(2))
     {armor
         {setting "track"
-            {thickness 10}
+            {thickness 15}
             {durability
                 {blast
                     {koef 5}
@@ -2613,7 +2612,7 @@ actor
                     {value 30}
                 }
                 {pierce
-                    {value 3000}
+                    {value 15}
                 }
             }
             {volumes "track*"}
@@ -2711,7 +2710,7 @@ actor
     ("components_tank" repair(3))
     {armor
         {setting "track"
-            {thickness 23}
+            {thickness 20}
             {durability
                 {blast
                     {koef 9}
@@ -2725,7 +2724,7 @@ actor
                     {value 9}
                 }
                 {pierce
-                    {value 3000}
+                    {value 20}
                 }
             }
             {volumes "track*"}
@@ -2840,7 +2839,7 @@ actor
     ("components_tank" repair(4))
     {armor
         {setting "track"
-            {thickness 60}
+            {thickness 50}
             {durability
                 {blast
                     {koef 25}
@@ -2854,7 +2853,7 @@ actor
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 50}
                 }
             }
             {volumes "track*"}
@@ -2930,7 +2929,7 @@ actor
 (define "armor_ssheavy"
     {armor
         {setting "track"
-            {thickness 60}
+            {thickness 50}
             {durability
                 {blast
                     {koef 25}
@@ -2944,7 +2943,7 @@ actor
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 50}
                 }
             }
             {volumes "track*"}
@@ -3056,7 +3055,7 @@ actor
 (define "armor_sssheavy"
     {armor
         {setting "track"
-            {thickness 60}
+            {thickness 50}
             {durability
                 {blast
                     {koef 25}
@@ -3070,7 +3069,7 @@ actor
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 50}
                 }
             }
             {volumes "track*"}
@@ -3188,7 +3187,7 @@ actor
     ("components_tank" repair(3))
     {armor
         {setting "track"
-            {thickness 23}
+            {thickness 25}
             {durability
                 {blast
                     {koef 9}
@@ -3202,7 +3201,7 @@ actor
                     {value 9}
                 }
                 {pierce
-                    {value 3000}
+                    {value 25}
                 }
             }
             {volumes "track*"}
@@ -3311,7 +3310,7 @@ actor
 (define "armor_heavy_shit"
     {armor
         {setting "track"
-            {thickness 23}
+            {thickness 25}
             {durability
                 {blast
                     {koef 9}
@@ -3325,7 +3324,7 @@ actor
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 25}
                 }
             }
             {volumes "track*"}
@@ -3434,7 +3433,7 @@ actor
                     {value 9}
                 }
                 {pierce
-                    {value 3000}
+                    {value 5}
                 }
             }
             {volumes "track*"}
@@ -3535,7 +3534,7 @@ actor
     ("components_tank" repair(4))
     {armor
         {setting "track"
-            {thickness 60}
+            {thickness 50}
             {durability
                 {blast
                     {koef 25}
@@ -3549,7 +3548,7 @@ actor
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 50}
                 }
             }
             {volumes "track*"}
@@ -3624,7 +3623,7 @@ actor
 (define "armor_heavy1_shit"
     {armor
         {setting "track"
-            {thickness 23}
+            {thickness 25}
             {durability
                 {blast
                     {koef 9}
@@ -3638,7 +3637,7 @@ actor
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 25}
                 }
             }
             {volumes "track*"}
@@ -3754,7 +3753,7 @@ actor
 (define "armor_sheavy_shit_true"
     {armor
         {setting "track"
-            {thickness 60}
+            {thickness 50}
             {durability
                 {blast
                     {koef 25}
@@ -3768,7 +3767,7 @@ actor
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 50}
                 }
             }
             {volumes "track*"}
@@ -3863,7 +3862,7 @@ actor
 (define "armor_sheavy_mega_shit_t5h"
     {armor
         {setting "track"
-            {thickness 60}
+            {thickness 50}
             {durability
                 {blast
                     {koef 25}
@@ -3877,7 +3876,7 @@ actor
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 50}
                 }
             }
             {volumes "track*"}
@@ -3972,7 +3971,7 @@ actor
 (define "fuck_armor_sheavy_bug_shit_o_ni"
     {armor
         {setting "track"
-            {thickness 60}
+            {thickness 50}
             {durability
                 {blast
                     {koef 25}
@@ -3986,7 +3985,7 @@ actor
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 50}
                 }
             }
             {volumes "track*"}
@@ -4133,7 +4132,7 @@ actor
                     {value 9}
                 }
                 {pierce
-                    {value 3000}
+                    {value 5}
                 }
             }
             {volumes "track*"}
@@ -4468,7 +4467,7 @@ actor
 (define "armor_m279" ; armor system details you will find at "set/interaction_entity/tank.inc"
     {armor
         {setting "track"
-            {thickness 10}
+            {thickness 15}
             {durability
                 {blast
                     {koef 5}
@@ -4482,7 +4481,7 @@ actor
                     {value 30}
                 }
                 {pierce
-                    {value 3000}
+                    {value 15}
                 }
             }
             {volumes "track*"}
@@ -4811,7 +4810,7 @@ actor
 (define "armor_279" ; armor system details you will find at "set/interaction_entity/tank.inc"
     {armor
         {setting "track"
-            {thickness 23}
+            {thickness 25}
             {durability
                 {blast
                     {koef 9}
@@ -4825,7 +4824,7 @@ actor
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 25}
                 }
             }
             {volumes "track*"}
@@ -5160,7 +5159,7 @@ actor
 (define "armor_s279" ; armor system details you will find at "set/interaction_entity/tank.inc"
     {armor
         {setting "track"
-            {thickness 60}
+            {thickness 50}
             {durability
                 {blast
                     {koef 25}
@@ -5174,7 +5173,7 @@ actor
                     {value 35}
                 }
                 {pierce
-                    {value 3000}
+                    {value 50}
                 }
             }
             {volumes "track*"}

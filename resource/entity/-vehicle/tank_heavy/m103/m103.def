@@ -22,7 +22,7 @@
 
 	("armor_heavy_shit" turret(127 70 51 38) body(127 51 38 114))
 	("armor_mantlet" t(350))
-	("wheels_armor" args 5)	
+;	("wheels_armor" args 5)	
 	("armor_engine"  t(38 38 38 38))
 
 	{boarder
