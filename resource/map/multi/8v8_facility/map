@@ -35145,9 +35145,9 @@
 	{Entity "post_light14" 0x30bd
 		{Position 2938.52 340.87}
 		{xform zl -8.51}
-		{Extender "light"
-			{lamp "1" off}
-		}
+		;{Extender "light"
+		;	{lamp "1" off}
+		;}
 	}
 	{Entity "post_light14" 0x30ef
 		{Position 2556.09 359.92}
@@ -35220,9 +35220,9 @@
 	{Entity "post_light14" 0x4874
 		{Position 4245.36 2147.41}
 		{xform zl -149.58}
-		{Extender "light"
-			{lamp "1" off}
-		}
+		;{Extender "light"
+		;	{lamp "1" off}
+		;}
 	}
 	{Entity "post_light14" 0x281c
 		{Position 3397.62 2280.34}
@@ -35247,9 +35247,9 @@
 	{Entity "post_light14" 0x2848
 		{Position 2536.43 1461.89}
 		{xform zl -60.63}
-		{Extender "light"
-			{lamp "1" off}
-		}
+		;{Extender "light"
+		;	{lamp "1" off}
+		;}
 	}
 	{Entity "post_light14" 0x284f
 		{Position 998.13 1417.95}
@@ -35258,9 +35258,9 @@
 	{Entity "post_light14" 0x2888
 		{Position 889.49 1806.42}
 		{xform zl -177.28}
-		{Extender "light"
-			{lamp "1" off}
-		}
+		;{Extender "light"
+		;	{lamp "1" off}
+		;}
 	}
 	{Entity "post_light14" 0x2889
 		{Position 612.21 1031.37}
@@ -35289,9 +35289,9 @@
 	{Entity "post_light14" 0x18a9
 		{Position -3385 -760.69}
 		{xform zl -92.46}
-		{Extender "light"
-			{lamp "1" off}
-		}
+		;{Extender "light"
+		;	{lamp "1" off}
+		;}
 	}
 	{Entity "post_light14" 0x18ad
 		{Position -3391.03 -1718.92}
@@ -35348,9 +35348,9 @@
 	{Entity "post_light14" 0x5874
 		{Position -1441.04 1414.35}
 		{xform zl -94.79}
-		{Extender "light"
-			{lamp "1" off}
-		}
+		;{Extender "light"
+		;	{lamp "1" off}
+		;}
 	}
 	{Entity "post_light14" 0x5875
 		{Position -1380.68 430.36}
@@ -35375,9 +35375,9 @@
 	{Entity "post_light14" 0x587a
 		{Position -1361.96 -426.87}
 		{xform zl -1.98}
-		{Extender "light"
-			{lamp "1" off}
-		}
+		;{Extender "light"
+		;	{lamp "1" off}
+		;}
 	}
 	{Entity "post_light14" 0x587b
 		{Position -2651.72 -1619.02}
@@ -35403,9 +35403,9 @@
 		{Position -2657.05 788.97}
 		{xform zl -91.75}
 		{Constrain none}
-		{Extender "light"
-			{lamp "1" off}
-		}
+		;{Extender "light"
+		;	{lamp "1" off}
+		;}
 	}
 	{Entity "post_light14" 0x5880
 		{Position -2654.06 1838.11}
@@ -35431,9 +35431,9 @@
 		{Position 4055.88 -1495.37}
 		{xform zl 147.13}
 		{Constrain none}
-		{Extender "light"
-			{lamp "1" off}
-		}
+		;{Extender "light"
+		;	{lamp "1" off}
+		;}
 	}
 	{Entity "post_light14" 0x5885
 		{Position 4473.02 -1747.67}
